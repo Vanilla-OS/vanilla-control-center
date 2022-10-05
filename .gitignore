@@ -1,0 +1,7 @@
+.vscode/
+mesonbuild/
+build/
+debian/files
+debian/vanilla-control-center.debhelper.log
+debian/vanilla-control-center
+debian/.debhelper
