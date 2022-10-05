@@ -2,7 +2,7 @@
     <h1>Vanilla OS Control Center</h1>
     <p>This utility is meant to be used in <a href="https://github.com/vanilla-os">Vanilla OS</a> 
     to manage its components (almost, apx) and drivers via ubuntu-drivers-common.</p>
-    <img src="data/screenshot-1.png">
+    <img src="data/screenshot.png">
 </div>
 
 
