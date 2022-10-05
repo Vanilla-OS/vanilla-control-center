@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <template class="VanillaWindow" parent="AdwApplicationWindow">
+    <property name="default-width">990</property>
+    <property name="default-height">700</property>
+    <property name="title" translatable="yes">Vanilla OS Control Center</property>
+    <child>
+      <object class="GtkBox">
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkHeaderBar" id="header_bar">
+            <property name="title-widget">
+              <object class="AdwViewSwitcherTitle">
+                <property name="stack">stack_main</property>
+              </object>
+            </property>
+            <child type="end">
+              <object class="GtkMenuButton">
+                <property name="icon-name">open-menu-symbolic</property>
+                <property name="menu-model">primary_menu</property>
+              </object>
+            </child>
+            <child type="end">
+              <object class="GtkButton" id="btn_apply">
+                <property name="label">Apply Changes</property>
+                <property name="visible">False</property>
+                <style>
+                  <class name="suggested-action" />
+                </style>
+              </object>
+            </child>
+          </object>
+        </child>
+        <child>
+          <object class="AdwToastOverlay" id="toasts">
+            <child>
+              <object class="AdwViewStack" id="stack_main">
+                <property name="vexpand">true</property>
+                <child>
+                  <object class="AdwViewStackPage">
+                    <property name="name">drivers</property>
+                    <property name="title">Drivers</property>
+                    <property name="icon-name">drive-harddisk-solidstate-symbolic</property>
+                    <property name="child">
+                      <object class="GtkBox">
+                        <property name="orientation">vertical</property>
+                        <property name="halign">fill</property>
+                        <property name="valign">center</property>
+                        <child>
+                          <object class="AdwStatusPage" id="status_drivers">
+                            <property name="icon-name">drive-harddisk-solidstate-symbolic</property>
+                            <property name="title">Loading drivers…</property>
+                            <property name="description">Please wait while the available drivers are being loaded.</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwPreferencesPage" id="page_drivers">
+                            <property name="visible">False</property>
+                          </object>
+                        </child>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+                <child>
+                  <object class="AdwViewStackPage">
+                    <property name="name">immutability</property>
+                    <property name="title">Immutability</property>
+                    <property name="icon-name">security-medium-symbolic</property>
+                    <property name="child">
+                      <object class="GtkBox">
+                        <property name="orientation">vertical</property>
+                        <child>
+                          <object class="GtkInfoBar" id="info_almost">
+                            <property name="message-type">warning</property>
+                            <property name="revealed">True</property>
+                            <child>
+                              <object class="GtkLabel">
+                                <property name="label" translatable="yes">The Almost Utility were not found on your system.</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwPreferencesPage" id="status_almost">
+                            <child>
+                              <object class="AdwPreferencesGroup">
+                                <property name="title">Preferences</property>
+                                <child>
+                                  <object class="AdwActionRow">
+                                    <property name="title">Status</property>
+                                    <property name="subtitle">Immutability is currently in Read and Write mode.</property>
+                                    <child type="suffix">
+                                      <object class="GtkSwitch" id="switch_almost_status">
+                                        <property name="valign">center</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwActionRow">
+                                    <property name="title">Restore on Reboot</property>
+                                    <property name="subtitle">Choose whether to restore the default mode after a system reboot.</property>
+                                    <child type="suffix">
+                                      <object class="GtkSwitch" id="switch_almost_reboot">
+                                        <property name="valign">center</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwComboRow" id="combo_almost_default">
+                                    <property name="title">Default Mode</property>
+                                    <property name="subtitle">Choose which mode to use by default.</property>
+                                    <property name="model">
+                                      <object class="GtkStringList" id="str_almost_defaults">
+                                        <items>
+                                          <item translatable="yes">Read Only</item>
+                                          <item translatable="yes">Read and Write</item>
+                                        </items>
+                                      </object>
+                                    </property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwPreferencesGroup">
+                                <property name="title">Overlays</property>
+                                <property name="description">Not Implemented yet.</property>
+                                <property name="sensitive">false</property>
+                                <child type="header-suffix">
+                                  <object class="GtkButton">
+                                    <property name="icon-name">list-add-symbolic</property>
+                                    <style>
+                                      <class name="flat" />
+                                    </style>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+                <child>
+                  <object class="AdwViewStackPage">
+                    <property name="name">subsystem</property>
+                    <property name="title">Sub System</property>
+                    <property name="icon-name">utilities-terminal-symbolic</property>
+                    <property name="child">
+                      <object class="AdwPreferencesPage">
+                        <child>
+                          <object class="AdwPreferencesGroup" id="group_apps">
+                            <property name="title">Installed Applications</property>
+                          </object>
+                        </child>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </template>
+  <menu id="primary_menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="true">_Preferences</attribute>
+        <attribute name="action">app.preferences</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="true">_Keyboard Shortcuts</attribute>
+        <attribute name="action">win.show-help-overlay</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="true">_About Control-panel</attribute>
+        <attribute name="action">app.about</attribute>
+      </item>
+    </section>
+  </menu>
+</interface>

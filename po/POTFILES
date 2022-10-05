@@ -1,0 +1,6 @@
+data/org.vanillaos.ControlCenter.desktop.in
+data/org.vanillaos.ControlCenter.appdata.xml.in
+data/org.vanillaos.ControlCenter.gschema.xml
+src/main.py
+src/window.py
+src/window.ui

@@ -1,0 +1,29 @@
+Source: vanilla-control-center
+Section: utils
+Priority: optional
+Maintainer: Mirko Brombin <send@mirko.pm>
+Build-Depends: 
+            build-essential,
+            debhelper,
+            python3,
+            meson,
+            libadwaita-1-dev,
+            gettext,
+            ubuntu-drivers-common,
+            make
+Homepage: https://github.com/mirkobrombin/vanilla-control-center/
+Vcs-Browser: hhttps://github.com/mirkobrombin/vanilla-control-center
+Vcs-Git: https://github.com/mirkobrombin/vanilla-control-center.git
+Rules-Requires-Root: no
+
+Package: vanilla-control-center
+Architecture: any
+Depends: python3,
+         python3-gi,
+         libadwaita-1-0,
+         gir1.2-gtk-4.0,
+         gir1.2-adw-1,
+         ubuntu-drivers-common,
+         apx,
+         almost
+Description: This utility allows you to manage Vanilla OS components.

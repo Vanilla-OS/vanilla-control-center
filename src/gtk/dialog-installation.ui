@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <requires lib="gtk" version="4.0"/>
+    <requires lib="libadwaita" version="1.0"/>
+    <template class="VanillaDialogInstallation" parent="AdwWindow">
+        <property name="title" translatable="yes">Installation</property>
+        <property name="default-width">500</property>
+        <property name="modal">True</property>
+        <child>
+            <object class="GtkBox">
+                <property name="orientation">vertical</property>
+                <child>
+                    <object class="AdwHeaderBar">
+                        <style>
+                            <class name="flat"/>
+                        </style>
+                    </object>
+                </child>
+                <child>
+                    <object class="AdwStatusPage">
+                        <property name="title">Installation in Progress…</property>
+                        <property name="description">This may take a while, based on your internet connection speed.</property>
+                        <child>
+                            <object class="GtkProgressBar" id="progressbar">
+                                <property name="visible">True</property>
+                            </object>
+                        </child>
+                    </object>
+                </child>
+            </object>
+        </child>
+    </template>
+</interface>
