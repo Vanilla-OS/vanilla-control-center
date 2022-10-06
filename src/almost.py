@@ -68,10 +68,10 @@ class Almost:
         return params
 
     def set_persistent(self, value: bool):
-        self.set_param("almost::persistmodestatus", "0" if value else "1")
+        return self.set_param("almost::persistmodestatus", "0" if value else "1")
 
     def set_default(self, value: bool):
-        self.set_param("almost::defaultmode", "0" if value else "1")
+        return self.set_param("almost::defaultmode", "0" if value else "1")
 
     def set_current(self, value: bool):
         mode = "ro" if value else "rw"
