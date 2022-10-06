@@ -59,7 +59,7 @@ class Almost:
             lines = f.readlines()
             for line in lines:
                 if "almost::persistmodestatus" in line:
-                    params["persistent"] = True if "true" in line else False
+                    params["persistent"] = True if "0" in line else False
                 elif "almost::defaultmode" in line:
                     params["default"] = True if "0" in line else False
                 elif "almost::currentmode" in line:
