@@ -133,10 +133,12 @@ class VanillaWindow(Adw.ApplicationWindow):
 
         if not self.almost.supported:
             return
+        
+        self.__selected_default = self.almost.params.get("default", 0)
+
         self.switch_almost_status.set_active(self.almost.params.get("current", True))
         self.switch_almost_reboot.set_active(self.almost.params.get("persistent", True))
-        self.combo_almost_default.set_selected(self.almost.params.get("default", True))
-        self.__selected_default = self.almost.params.get("default", True)
+        self.combo_almost_default.set_selected(self.__selected_default)
 
         self.switch_almost_status.connect("state-set", self.__on_almost_status_changed)
         self.switch_almost_reboot.connect("state-set", self.__on_almost_reboot_changed)
@@ -179,7 +181,7 @@ class VanillaWindow(Adw.ApplicationWindow):
     def __on_almost_default_changed(self, widget, state):
         def run_async():
             return self.almost.set_default(widget.get_selected())
-
+            
         def callback(result, *args):
             widget.set_sensitive(True)
             if result in [None, False]:

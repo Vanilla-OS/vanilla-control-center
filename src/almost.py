@@ -61,7 +61,7 @@ class Almost:
                 if "almost::persistmodestatus" in line:
                     params["persistent"] = True if "0" in line else False
                 elif "almost::defaultmode" in line:
-                    params["default"] = True if "0" in line else False
+                    params["default"] = 0 if "0" in line else 1
                 elif "almost::currentmode" in line:
                     params["current"] = True if "0" in line else False
                     
@@ -70,8 +70,8 @@ class Almost:
     def set_persistent(self, value: bool):
         return self.set_param("almost::persistmodestatus", "0" if value else "1")
 
-    def set_default(self, value: bool):
-        return self.set_param("almost::defaultmode", "0" if value else "1")
+    def set_default(self, value: int):
+        return self.set_param("almost::defaultmode", str(value))
 
     def set_current(self, value: bool):
         mode = "ro" if value else "rw"

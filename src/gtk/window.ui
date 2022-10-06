@@ -89,7 +89,7 @@
                                 <property name="title">Preferences</property>
                                 <child>
                                   <object class="AdwActionRow">
-                                    <property name="title">Status</property>
+                                    <property name="title">Immutability Status (current session)</property>
                                     <property name="subtitle">Immutability is currently in Read and Write mode.</property>
                                     <child type="suffix">
                                       <object class="GtkSwitch" id="switch_almost_status">
