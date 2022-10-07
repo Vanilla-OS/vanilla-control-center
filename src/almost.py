@@ -35,6 +35,8 @@ class Almost:
     
     @property
     def supported(self):
+        if "almost" in os.environ.get("DISABLED_MODULES", []):
+            return False
         return self.__binary is not None
 
     @property

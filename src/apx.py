@@ -37,6 +37,8 @@ class Apx:
     
     @property
     def supported(self):
+        if "apx" in os.environ.get("DISABLED_MODULES", []):
+            return False
         return self.__binary is not None
 
     def get_apps(self):
