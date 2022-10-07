@@ -44,12 +44,13 @@ class VanillaWindow(Adw.ApplicationWindow):
     status_drivers = Gtk.Template.Child()
     btn_apply = Gtk.Template.Child()
     toasts = Gtk.Template.Child()
-    info_almost = Gtk.Template.Child()
     status_almost = Gtk.Template.Child()
     switch_almost_status = Gtk.Template.Child()
     switch_almost_reboot = Gtk.Template.Child()
     combo_almost_default = Gtk.Template.Child()
     str_almost_defaults = Gtk.Template.Child()
+    page_almost = Gtk.Template.Child()
+    page_apx = Gtk.Template.Child()
     group_apps = Gtk.Template.Child()
     __selected_drivers = {}
 
@@ -128,10 +129,8 @@ class VanillaWindow(Adw.ApplicationWindow):
 
     # region Almost
     def __setup_almost(self):
-        self.info_almost.set_visible(not self.almost.supported)
-        self.status_almost.set_sensitive(self.almost.supported)
-
         if not self.almost.supported:
+            self.page_almost.set_visible(False)
             return
         
         self.__selected_default = self.almost.params.get("default", 0)
@@ -199,6 +198,10 @@ class VanillaWindow(Adw.ApplicationWindow):
 
     # region Apx
     def __setup_apx(self):
+        if not self.apx.supported:
+            self.page_apx.set_visible(False)
+            return
+
         for app in self.apx.get_apps():
             _name, _exec = app
             _row = Adw.ActionRow()

@@ -13,6 +13,7 @@
             <property name="title-widget">
               <object class="AdwViewSwitcherTitle">
                 <property name="stack">stack_main</property>
+                <property name="title">Vanilla OS Control Center</property>
               </object>
             </property>
             <child type="end">
@@ -64,80 +65,64 @@
                   </object>
                 </child>
                 <child>
-                  <object class="AdwViewStackPage">
+                  <object class="AdwViewStackPage" id="page_almost">
                     <property name="name">immutability</property>
                     <property name="title">Immutability</property>
                     <property name="icon-name">security-medium-symbolic</property>
                     <property name="child">
-                      <object class="GtkBox">
-                        <property name="orientation">vertical</property>
+                      <object class="AdwPreferencesPage" id="status_almost">
                         <child>
-                          <object class="GtkInfoBar" id="info_almost">
-                            <property name="message-type">warning</property>
-                            <property name="revealed">True</property>
+                          <object class="AdwPreferencesGroup">
+                            <property name="title">Preferences</property>
                             <child>
-                              <object class="GtkLabel">
-                                <property name="label" translatable="yes">The Almost Utility were not found on your system.</property>
+                              <object class="AdwActionRow">
+                                <property name="title">Immutability Status (current session)</property>
+                                <property name="subtitle">Immutability is currently in Read and Write mode.</property>
+                                <child type="suffix">
+                                  <object class="GtkSwitch" id="switch_almost_status">
+                                    <property name="valign">center</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwActionRow">
+                                <property name="title">Restore on Reboot</property>
+                                <property name="subtitle">Choose whether to restore the default mode after a system reboot.</property>
+                                <child type="suffix">
+                                  <object class="GtkSwitch" id="switch_almost_reboot">
+                                    <property name="valign">center</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="AdwComboRow" id="combo_almost_default">
+                                <property name="title">Default Mode</property>
+                                <property name="subtitle">Choose which mode to use by default.</property>
+                                <property name="model">
+                                  <object class="GtkStringList" id="str_almost_defaults">
+                                    <items>
+                                      <item translatable="yes">Read Only</item>
+                                      <item translatable="yes">Read and Write</item>
+                                    </items>
+                                  </object>
+                                </property>
                               </object>
                             </child>
                           </object>
                         </child>
                         <child>
-                          <object class="AdwPreferencesPage" id="status_almost">
-                            <child>
-                              <object class="AdwPreferencesGroup">
-                                <property name="title">Preferences</property>
-                                <child>
-                                  <object class="AdwActionRow">
-                                    <property name="title">Immutability Status (current session)</property>
-                                    <property name="subtitle">Immutability is currently in Read and Write mode.</property>
-                                    <child type="suffix">
-                                      <object class="GtkSwitch" id="switch_almost_status">
-                                        <property name="valign">center</property>
-                                      </object>
-                                    </child>
-                                  </object>
-                                </child>
-                                <child>
-                                  <object class="AdwActionRow">
-                                    <property name="title">Restore on Reboot</property>
-                                    <property name="subtitle">Choose whether to restore the default mode after a system reboot.</property>
-                                    <child type="suffix">
-                                      <object class="GtkSwitch" id="switch_almost_reboot">
-                                        <property name="valign">center</property>
-                                      </object>
-                                    </child>
-                                  </object>
-                                </child>
-                                <child>
-                                  <object class="AdwComboRow" id="combo_almost_default">
-                                    <property name="title">Default Mode</property>
-                                    <property name="subtitle">Choose which mode to use by default.</property>
-                                    <property name="model">
-                                      <object class="GtkStringList" id="str_almost_defaults">
-                                        <items>
-                                          <item translatable="yes">Read Only</item>
-                                          <item translatable="yes">Read and Write</item>
-                                        </items>
-                                      </object>
-                                    </property>
-                                  </object>
-                                </child>
-                              </object>
-                            </child>
-                            <child>
-                              <object class="AdwPreferencesGroup">
-                                <property name="title">Overlays</property>
-                                <property name="description">Not Implemented yet.</property>
-                                <property name="sensitive">false</property>
-                                <child type="header-suffix">
-                                  <object class="GtkButton">
-                                    <property name="icon-name">list-add-symbolic</property>
-                                    <style>
-                                      <class name="flat" />
-                                    </style>
-                                  </object>
-                                </child>
+                          <object class="AdwPreferencesGroup">
+                            <property name="title">Overlays</property>
+                            <property name="description">Not Implemented yet.</property>
+                            <property name="sensitive">false</property>
+                            <child type="header-suffix">
+                              <object class="GtkButton">
+                                <property name="icon-name">list-add-symbolic</property>
+                                <style>
+                                  <class name="flat" />
+                                </style>
                               </object>
                             </child>
                           </object>
@@ -147,7 +132,7 @@
                   </object>
                 </child>
                 <child>
-                  <object class="AdwViewStackPage">
+                  <object class="AdwViewStackPage" id="page_apx">
                     <property name="name">subsystem</property>
                     <property name="title">Sub System</property>
                     <property name="icon-name">utilities-terminal-symbolic</property>
