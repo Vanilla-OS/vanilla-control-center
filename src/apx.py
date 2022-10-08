@@ -34,14 +34,19 @@ class Apx:
     def __init__(self):
         self.__binary = shutil.which("apx")
         self.__desktop = os.path.join(Path.home(), ".local", "share", "applications")
+        self.__apps = self.__get_apps()
     
     @property
-    def supported(self):
+    def supported(self) -> bool:
         if "apx" in os.environ.get("DISABLED_MODULES", []):
             return False
         return self.__binary is not None
+    
+    @property
+    def apps(self) -> list:
+        return self.__apps
 
-    def get_apps(self):
+    def __get_apps(self) -> list:
         if not self.supported or not os.path.exists(self.__desktop):
             return []
         
@@ -61,3 +66,18 @@ class Apx:
                         break
 
         return apps
+
+    def run(self, name: str) -> bool:
+        logger.info("Running application: '{0}'".format(name))
+
+        for app in self.__apps:
+            if app[0] == name:
+                try:
+                    proc = subprocess.Popen(app[1], shell=True)
+                    proc.wait()
+                except Exception as e:
+                    logger.error("Unable to start managed application: '{0}'".format(name))
+                    logger.debug(e)
+                    return False
+                    
+        return True

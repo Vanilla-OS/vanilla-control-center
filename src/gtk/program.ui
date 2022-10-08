@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <template class="VanillaApxProgram" parent="AdwActionRow">
+    <property name="activatable-widget">btn_run</property>
+    <child type="suffix">
+      <object class="GtkButton" id="btn_run">
+        <property name="icon-name">media-playback-start-symbolic</property>
+        <property name="valign">center</property>
+      </object>
+    </child>
+  </template>
+</interface>

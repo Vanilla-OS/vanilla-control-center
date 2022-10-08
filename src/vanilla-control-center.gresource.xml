@@ -3,6 +3,7 @@
   <gresource prefix="/org/vanillaos/ControlCenter">
     <file preprocess="xml-stripblanks">gtk/window.ui</file>
     <file preprocess="xml-stripblanks">gtk/driver.ui</file>
+    <file preprocess="xml-stripblanks">gtk/program.ui</file>
     <file preprocess="xml-stripblanks">gtk/dialog-installation.ui</file>
   </gresource>
 </gresources>

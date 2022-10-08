@@ -23,6 +23,7 @@ from gi.repository import Adw
 from gi.repository import Gtk, GLib, GObject
 
 from .driver import VanillaDriverRow, VanillaDriversGroup
+from .program import VanillaApxProgram
 from .ubuntu_drivers import UbuntuDrivers
 from .almost import Almost
 from .apx import Apx
@@ -202,11 +203,27 @@ class VanillaWindow(Adw.ApplicationWindow):
             self.page_apx.set_visible(False)
             return
 
-        for app in self.apx.get_apps():
-            _name, _exec = app
-            _row = Adw.ActionRow()
-            _row.set_title(_name)
+        for app in self.apx.apps:
+            _name, _ = app
+            _row = VanillaApxProgram(_name)
+            _row.connect("run-requested", self.__on_apx_run_requested)
             self.group_apps.add(_row)
+    
+    def __on_apx_run_requested(self, widget, name):
+        def run_async():
+            return self.apx.run(name)
+
+        def callback(result, *args):
+            widget.emit("program-exited", name)
+
+            if result in [None, False]:
+                self.toast("{} Exited With Error.".format(name))
+                return
+
+            self.toast("{} Exited.".format(name))
+
+        RunAsync(run_async, callback)
+        self.toast("{} Launched.".format(name))
     # endregion
     
     def toast(self, message, timeout=2):

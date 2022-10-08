@@ -30,6 +30,7 @@ vanilla_control_center_sources = [
   'main.py',
   'window.py',
   'driver.py',
+  'program.py',
   'run_async.py',
   'almost.py',
   'apx.py',
