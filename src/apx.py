@@ -31,6 +31,11 @@ logger = logging.getLogger("Vanilla::Apx")
 
 class Apx:
 
+    __managed_containers = {
+        "apx_managed": "Sub System",
+        "apx_managed_aur": "Arch Linux Sub System",
+    }
+
     def __init__(self):
         self.__binary = shutil.which("apx")
         self.__desktop = os.path.join(Path.home(), ".local", "share", "applications")
@@ -52,6 +57,7 @@ class Apx:
         
         apps = []
         for file in glob(os.path.join(self.__desktop, "apx_managed*.desktop")):
+            container = os.path.basename(file).split("-")[0]
             with open(file, "r") as f:
                 _name, _exec = None, None
 
@@ -62,7 +68,11 @@ class Apx:
                         _exec = line.split("=")[1].strip()
                         
                     if _name and _exec:
-                        apps.append((_name, _exec))
+                        apps.append({
+                            "Container": self.__managed_containers[container],
+                            "Name": _name,
+                            "Exec": _exec,
+                        })
                         break
 
         return apps
@@ -71,9 +81,9 @@ class Apx:
         logger.info("Running application: '{0}'".format(name))
 
         for app in self.__apps:
-            if app[0] == name:
+            if app["Name"] == name:
                 try:
-                    proc = subprocess.Popen(app[1], shell=True)
+                    proc = subprocess.Popen(app["Exec"], shell=True)
                     proc.wait()
                 except Exception as e:
                     logger.error("Unable to start managed application: '{0}'".format(name))

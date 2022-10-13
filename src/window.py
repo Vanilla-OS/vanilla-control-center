@@ -204,8 +204,7 @@ class VanillaWindow(Adw.ApplicationWindow):
             return
 
         for app in self.apx.apps:
-            _name, _ = app
-            _row = VanillaApxProgram(_name)
+            _row = VanillaApxProgram(app)
             _row.connect("run-requested", self.__on_apx_run_requested)
             self.group_apps.add(_row)
     

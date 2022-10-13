@@ -34,20 +34,21 @@ class VanillaApxProgram(Adw.ActionRow):
     }
     btn_run = Gtk.Template.Child()
     
-    def __init__(self, name: str):
+    def __init__(self, app: dict):
         super().__init__()
-        self.__name = name
+        self.__app = app
         self.__build_ui()
     
     def __build_ui(self):
-        self.set_title(self.__name)
+        self.set_title(self.__app["Name"])
+        self.set_subtitle(self.__app["Container"])
         
         self.btn_run.connect("clicked", self.__on_btn_run_clicked)
         self.connect("program-exited", self.__on_program_exited)
 
     def __on_btn_run_clicked(self, widget: Gtk.Widget):
         self.btn_run.set_sensitive(False)
-        self.emit("run-requested", self.__name)
+        self.emit("run-requested", self.__app["Name"])
 
     def __on_program_exited(self, widget, apxname: str):
         self.btn_run.set_sensitive(True)
