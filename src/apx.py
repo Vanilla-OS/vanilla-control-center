@@ -58,22 +58,31 @@ class Apx:
         apps = []
         for file in glob(os.path.join(self.__desktop, "apx_managed*.desktop")):
             container = os.path.basename(file).split("-")[0]
+            
             with open(file, "r") as f:
-                _name, _exec = None, None
+                _name, _exec, _terminal = None, None, None
+                lines = f.readlines()
 
-                for line in f.readlines():
-                    if line.startswith("Name="):
-                        _name = line.split("=")[1].strip().replace("◆", "")
-                    elif line.startswith("Exec="):
-                        _exec = line.split("=")[1].strip()
-                        
-                    if _name and _exec:
+                for index, line in enumerate(lines):
+                    if _name and _exec and _terminal:
                         apps.append({
                             "Container": self.__managed_containers[container],
                             "Name": _name,
                             "Exec": _exec,
+                            "Terminal": _terminal,
                         })
                         break
+
+                    if line.startswith("Name="):
+                        _name = line.split("=")[1].strip().replace("◆", "")
+                    elif line.startswith("Exec="):
+                        _exec = line.split("=")[1].strip()
+                    elif line.startswith("Terminal="):
+                        _terminal = line.split("=")[1].strip()
+                        logger.info("Terminal: {0}".format(_terminal))
+
+                        if index == len(lines) - 1 and not _terminal:
+                            _terminal = "false"
 
         return apps
 
@@ -82,8 +91,13 @@ class Apx:
 
         for app in self.__apps:
             if app["Name"] == name:
+
+                cmd = app["Exec"]
+                if app["Terminal"] == "true":
+                    cmd = "x-terminal-emulator -e " + cmd
+                
                 try:
-                    proc = subprocess.Popen(app["Exec"], shell=True)
+                    proc = subprocess.Popen(cmd, shell=True)
                     proc.wait()
                 except Exception as e:
                     logger.error("Unable to start managed application: '{0}'".format(name))
