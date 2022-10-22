@@ -1,4 +1,4 @@
-# Italian translations for vanilla-control-center package.
+# Finnish translations for vanilla-control-center package.
 # Copyright (C) 2022 THE vanilla-control-center'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
 # Automatically generated, 2022.
@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-22 21:41+0200\n"
-"PO-Revision-Date: 2022-10-22 21:41+0200\n"
+"POT-Creation-Date: 2022-10-22 21:54+0200\n"
+"PO-Revision-Date: 2022-10-22 21:54+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
-"Language: it\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
