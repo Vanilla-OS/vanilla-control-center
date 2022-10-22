@@ -83,8 +83,8 @@ class VanillaWindow(Adw.ApplicationWindow):
         def callback(result, *args):
             if result is None:
                 self.status_drivers.set_icon_name("dialog-error-symbolic")
-                self.status_drivers.set_title("No Drivers Found.")
-                self.status_drivers.set_description("No drivers found for your devices or an error occurred.")
+                self.status_drivers.set_title(_("No Drivers Found."))
+                self.status_drivers.set_description(_("No drivers found for your devices or an error occurred."))
                 return
 
             self.btn_apply.connect("clicked", self.__on_apply_clicked)
@@ -114,12 +114,12 @@ class VanillaWindow(Adw.ApplicationWindow):
 
         def callback(result, error=False):
             if error:
-                self.toast("Installation Failed.")
+                self.toast(_("Installation Failed."))
                 return
 
             self.emit("installation-finished", self.__selected_drivers)
             self.__selected_drivers = {}
-            self.toast("New Drivers Installed.")
+            self.toast(_("New Drivers Installed."))
             logger.info("Installation finished.")
             subprocess.run(['gnome-session-quit', '--reboot'])
 
@@ -151,12 +151,12 @@ class VanillaWindow(Adw.ApplicationWindow):
         def callback(result, *args):
             widget.set_sensitive(True)
             if result in [None, False]:
-                self.toast("Failed to Set Immutability Status.")
+                self.toast(_("Failed to Set Immutability Status."))
                 self.set_state_with_no_trigger(
                     widget, self.__on_almost_status_changed, not state)
                 return
 
-            self.toast("Immutability Enabled." if state else "Immutability Disabled.",)
+            self.toast(_("Immutability Enabled.") if state else _("Immutability Disabled."),)
 
         widget.set_sensitive(False)
         RunAsync(run_async, callback)
@@ -173,7 +173,7 @@ class VanillaWindow(Adw.ApplicationWindow):
                     widget, self.__on_almost_reboot_changed, not state)
                 return
 
-            self.toast("Persistent Mode Enabled." if state else "Persistent Mode Disabled.",)
+            self.toast(_("Persistent Mode Enabled.") if state else _("Persistent Mode Disabled."),)
 
         widget.set_sensitive(False)
         RunAsync(run_async, callback)
@@ -185,13 +185,14 @@ class VanillaWindow(Adw.ApplicationWindow):
         def callback(result, *args):
             widget.set_sensitive(True)
             if result in [None, False]:
-                self.toast("Failed to Set Default Mode.")
+                self.toast(_("Failed to Set Default Mode."))
                 self.set_selected_with_no_trigger(
                     widget, self.__on_almost_default_changed, self.__selected_default)
                 return
                 
             self.__selected_default = widget.get_selected()
-            self.toast("Default Mode Changed to {}.".format("Read-Only" if widget.get_selected() == 0 else "Read-Write"))
+            self.toast(_("Default Mode Changed to {}.").format(
+                _("Read-Only") if widget.get_selected() == 0 else _("Read-Write")))
 
         widget.set_sensitive(False)
         RunAsync(run_async, callback)
@@ -216,13 +217,13 @@ class VanillaWindow(Adw.ApplicationWindow):
             widget.emit("program-exited", name)
 
             if result in [None, False]:
-                self.toast("{} Exited With Error.".format(name))
+                self.toast(_("{} Exited With Error.").format(name))
                 return
 
-            self.toast("{} Exited.".format(name))
+            self.toast(_("{} Exited.").format(name))
 
         RunAsync(run_async, callback)
-        self.toast("{} Launched.".format(name))
+        self.toast(_("{} Launched.").format(name))
     # endregion
     
     def toast(self, message, timeout=2):
