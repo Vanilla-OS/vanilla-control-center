@@ -20,7 +20,7 @@ msgstr ""
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
 #: src/gtk/window.ui:16 src/main.py:59
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "Centre de contrôle du système d'exploitation Vanilla"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
@@ -59,7 +59,7 @@ msgstr "Appliquer les modifications"
 
 #: src/gtk/window.ui:44
 msgid "Drivers"
-msgstr ""
+msgstr "Pilotes"
 
 #: src/gtk/window.ui:54
 msgid "Loading drivers…"
@@ -83,7 +83,7 @@ msgstr "Statut d'immuabilité (session en cours)"
 
 #: src/gtk/window.ui:80
 msgid "Immutability is currently in Read and Write mode."
-msgstr ""
+msgstr "L'immutabilité est actuellement en mode lecture et écriture."
 
 #: src/gtk/window.ui:90
 msgid "Restore on Reboot"
@@ -179,7 +179,7 @@ msgstr "Lecture seulement"
 
 #: src/window.py:195
 msgid "Read-Write"
-msgstr ""
+msgstr "Lire-Ecrire"
 
 #: src/window.py:220
 msgid "{} Exited With Error."
