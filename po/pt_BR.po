@@ -1,4 +1,4 @@
-# Portuguese translations for vanilla-control-center package.
+# Brazilian Portuguese translations for vanilla-control-center package.
 # Copyright (C) 2022 THE vanilla-control-center'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
 # Automatically generated, 2022.
@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-22 21:54+0200\n"
 "PO-Revision-Date: 2022-10-22 21:54+0200\n"
-"Last-Translator: Automatically generated\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: none\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -20,175 +20,175 @@ msgstr ""
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
 #: src/gtk/window.ui:16 src/main.py:59
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "Centro de Controle do Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Sem descrição"
 
 #: src/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "Instalação"
 
 #: src/gtk/dialog-installation.ui:21
 msgid "Installation in Progress…"
-msgstr ""
+msgstr "Instalação em progresso…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr ""
+msgstr "Isso pode demorar um pouco, com base na velocidade da sua conexão com a Internet."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Geral"
 
 #: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Mostra os atalhos"
 
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Sai"
 
 #: src/gtk/window.ui:27
 msgid "Apply Changes"
-msgstr ""
+msgstr "Aplicar alterações"
 
 #: src/gtk/window.ui:44
 msgid "Drivers"
-msgstr ""
+msgstr "Drivers"
 
 #: src/gtk/window.ui:54
 msgid "Loading drivers…"
-msgstr ""
+msgstr "Carregando drivers…"
 
 #: src/gtk/window.ui:55
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "Aguarde enquanto os drivers disponíveis estão sendo carregados."
 
 #: src/gtk/window.ui:70
 msgid "Immutability"
-msgstr ""
+msgstr "Imutabilidade"
 
 #: src/gtk/window.ui:76
 msgid "Preferences"
-msgstr ""
+msgstr "Preferências"
 
 #: src/gtk/window.ui:79
 msgid "Immutability Status (current session)"
-msgstr ""
+msgstr "Status de Imutabilidade (sessão atual)"
 
 #: src/gtk/window.ui:80
 msgid "Immutability is currently in Read and Write mode."
-msgstr ""
+msgstr "A imutabilidade está atualmente no modo de leitura e gravação."
 
 #: src/gtk/window.ui:90
 msgid "Restore on Reboot"
-msgstr ""
+msgstr "Restaurar na reinicialização"
 
 #: src/gtk/window.ui:91
 msgid "Choose whether to restore the default mode after a system reboot."
-msgstr ""
+msgstr "Escolha se deseja restaurar o modo padrão após a reinicialização do sistema."
 
 #: src/gtk/window.ui:101
 msgid "Default Mode"
-msgstr ""
+msgstr "Modo padrão"
 
 #: src/gtk/window.ui:102
 msgid "Choose which mode to use by default."
-msgstr ""
+msgstr "Escolha qual modo usar por padrão."
 
 #: src/gtk/window.ui:106
 msgid "Read Only"
-msgstr ""
+msgstr "Somente leitura"
 
 #: src/gtk/window.ui:107
 msgid "Read and Write"
-msgstr ""
+msgstr "Leitura e gravação"
 
 #: src/gtk/window.ui:117
 msgid "Overlays"
-msgstr ""
+msgstr "Sobreposições"
 
 #: src/gtk/window.ui:118
 msgid "Not Implemented yet."
-msgstr ""
+msgstr "Não implementado ainda."
 
 #: src/gtk/window.ui:137
 msgid "Sub System"
-msgstr ""
+msgstr "Subsistema"
 
 #: src/gtk/window.ui:143
 msgid "Installed Applications"
-msgstr ""
+msgstr "Aplicativos instalados"
 
 #: src/gtk/window.ui:160
 msgid "_About Control-panel"
-msgstr ""
+msgstr "_Sobre o Painel de Controle"
 
 #: src/window.py:86
 msgid "No Drivers Found."
-msgstr ""
+msgstr "Nenhum driver encontrado."
 
 #: src/window.py:87
 msgid "No drivers found for your devices or an error occurred."
-msgstr ""
+msgstr "Nenhum driver encontrado para seus dispositivos ou ocorreu um erro."
 
 #: src/window.py:117
 msgid "Installation Failed."
-msgstr ""
+msgstr "Falha na instalação."
 
 #: src/window.py:122
 msgid "New Drivers Installed."
-msgstr ""
+msgstr "Novos drivers instalados"
 
 #: src/window.py:154
 msgid "Failed to Set Immutability Status."
-msgstr ""
+msgstr "Falha ao definir status de imutabilidade."
 
 #: src/window.py:159
 msgid "Immutability Enabled."
-msgstr ""
+msgstr "Imutabilidade habilitada."
 
 #: src/window.py:159
 msgid "Immutability Disabled."
-msgstr ""
+msgstr "Imutabilidade desabilitada."
 
 #: src/window.py:176
 msgid "Persistent Mode Enabled."
-msgstr ""
+msgstr "Modo persistente habilitado."
 
 #: src/window.py:176
 msgid "Persistent Mode Disabled."
-msgstr ""
+msgstr "Modo persistente desabilitado."
 
 #: src/window.py:188
 msgid "Failed to Set Default Mode."
-msgstr ""
+msgstr "Falha ao definir o modo padrão."
 
 #: src/window.py:194
 msgid "Default Mode Changed to {}."
-msgstr ""
+msgstr "Modo padrão alterado para {}."
 
 #: src/window.py:195
 msgid "Read-Only"
-msgstr ""
+msgstr "Somente leitura"
 
 #: src/window.py:195
 msgid "Read-Write"
-msgstr ""
+msgstr "Leitura/gravação"
 
 #: src/window.py:220
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} foi encerrado com erro."
 
 #: src/window.py:223
 msgid "{} Exited."
-msgstr ""
+msgstr "{} foi encerrado."
 
 #: src/window.py:226
 msgid "{} Launched."
-msgstr ""
+msgstr "{} iniciado."
