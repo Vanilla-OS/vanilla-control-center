@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-22 21:54+0200\n"
+"POT-Creation-Date: 2022-10-23 22:43+0200\n"
 "PO-Revision-Date: 2022-10-22 21:54+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -36,7 +36,8 @@ msgstr "Instalación en progreso…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr "Esto puede tomar un tiempo, en base a la velocidad de su conexión a internet."
+msgstr ""
+"Esto puede tomar un tiempo, en base a la velocidad de su conexión a internet."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -91,7 +92,9 @@ msgstr "Restablecimiento en el arranque"
 
 #: src/gtk/window.ui:91
 msgid "Choose whether to restore the default mode after a system reboot."
-msgstr "Elija si desea restaurar el modo predeterminado después de reiniciar el sistema."
+msgstr ""
+"Elija si desea restaurar el modo predeterminado después de reiniciar el "
+"sistema."
 
 #: src/gtk/window.ui:101
 msgid "Default Mode"
@@ -128,6 +131,10 @@ msgstr "Aplicaciones instaladas"
 #: src/gtk/window.ui:160
 msgid "_About Control-panel"
 msgstr "_Acerca Panel-control"
+
+#: src/main.py:66
+msgid "Translators"
+msgstr ""
 
 #: src/window.py:86
 msgid "No Drivers Found."
