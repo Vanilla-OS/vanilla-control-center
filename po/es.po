@@ -20,118 +20,118 @@ msgstr ""
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
 #: src/gtk/window.ui:16 src/main.py:59
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "Centro de control del sistema operativo Vainilla"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Sin descripción"
 
 #: src/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "Instalación"
 
 #: src/gtk/dialog-installation.ui:21
 msgid "Installation in Progress…"
-msgstr ""
+msgstr "Instalación en progreso…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr ""
+msgstr "Esto puede tomar un tiempo, en base a la velocidad de su conexión a internet."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Mostrar atajos"
 
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Dejar"
 
 #: src/gtk/window.ui:27
 msgid "Apply Changes"
-msgstr ""
+msgstr "Aplicar cambios"
 
 #: src/gtk/window.ui:44
 msgid "Drivers"
-msgstr ""
+msgstr "Controladores"
 
 #: src/gtk/window.ui:54
 msgid "Loading drivers…"
-msgstr ""
+msgstr "Cargando controladores…"
 
 #: src/gtk/window.ui:55
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "Por favor espere mientras se cargan los controladores disponibles."
 
 #: src/gtk/window.ui:70
 msgid "Immutability"
-msgstr ""
+msgstr "Inmutabilidad"
 
 #: src/gtk/window.ui:76
 msgid "Preferences"
-msgstr ""
+msgstr "Preferencias"
 
 #: src/gtk/window.ui:79
 msgid "Immutability Status (current session)"
-msgstr ""
+msgstr "Estado de inmutabilidad (sesión actual)"
 
 #: src/gtk/window.ui:80
 msgid "Immutability is currently in Read and Write mode."
-msgstr ""
+msgstr "La inmutabilidad está actualmente en modo de Lectura y Escritura."
 
 #: src/gtk/window.ui:90
 msgid "Restore on Reboot"
-msgstr ""
+msgstr "Restablecimiento en el arranque"
 
 #: src/gtk/window.ui:91
 msgid "Choose whether to restore the default mode after a system reboot."
-msgstr ""
+msgstr "Elija si desea restaurar el modo predeterminado después de reiniciar el sistema."
 
 #: src/gtk/window.ui:101
 msgid "Default Mode"
-msgstr ""
+msgstr "Modo por defecto"
 
 #: src/gtk/window.ui:102
 msgid "Choose which mode to use by default."
-msgstr ""
+msgstr "Elija qué modo usar por defecto."
 
 #: src/gtk/window.ui:106
 msgid "Read Only"
-msgstr ""
+msgstr "Solo lectura"
 
 #: src/gtk/window.ui:107
 msgid "Read and Write"
-msgstr ""
+msgstr "Lee y escribe"
 
 #: src/gtk/window.ui:117
 msgid "Overlays"
-msgstr ""
+msgstr "Superposiciones"
 
 #: src/gtk/window.ui:118
 msgid "Not Implemented yet."
-msgstr ""
+msgstr "Aún no implemetado."
 
 #: src/gtk/window.ui:137
 msgid "Sub System"
-msgstr ""
+msgstr "Sistema secundario"
 
 #: src/gtk/window.ui:143
 msgid "Installed Applications"
-msgstr ""
+msgstr "Aplicaciones instaladas"
 
 #: src/gtk/window.ui:160
 msgid "_About Control-panel"
-msgstr ""
+msgstr "_Acerca Panel-control"
 
 #: src/window.py:86
 msgid "No Drivers Found."
-msgstr ""
+msgstr "Constroladores no encontrados."
 
 #: src/window.py:87
 msgid "No drivers found for your devices or an error occurred."
@@ -139,56 +139,56 @@ msgstr ""
 
 #: src/window.py:117
 msgid "Installation Failed."
-msgstr ""
+msgstr "Instalación Fallida."
 
 #: src/window.py:122
 msgid "New Drivers Installed."
-msgstr ""
+msgstr "Nuevos Controladores Instalados."
 
 #: src/window.py:154
 msgid "Failed to Set Immutability Status."
-msgstr ""
+msgstr "Error al configurar el estado de inmutabilidad."
 
 #: src/window.py:159
 msgid "Immutability Enabled."
-msgstr ""
+msgstr "Inmutabilidad activado."
 
 #: src/window.py:159
 msgid "Immutability Disabled."
-msgstr ""
+msgstr "Inmutabilidad desactivado."
 
 #: src/window.py:176
 msgid "Persistent Mode Enabled."
-msgstr ""
+msgstr "Modo persistente activado."
 
 #: src/window.py:176
 msgid "Persistent Mode Disabled."
-msgstr ""
+msgstr "Modo persistente desactivado."
 
 #: src/window.py:188
 msgid "Failed to Set Default Mode."
-msgstr ""
+msgstr "Error al configurar el modo prederterminado."
 
 #: src/window.py:194
 msgid "Default Mode Changed to {}."
-msgstr ""
+msgstr "Modo prederterminado cambiado a {}."
 
 #: src/window.py:195
 msgid "Read-Only"
-msgstr ""
+msgstr "Solo-Lectura"
 
 #: src/window.py:195
 msgid "Read-Write"
-msgstr ""
+msgstr "Solo-Escritura"
 
 #: src/window.py:220
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} Salió con error."
 
 #: src/window.py:223
 msgid "{} Exited."
-msgstr ""
+msgstr "{} Salió."
 
 #: src/window.py:226
 msgid "{} Launched."
-msgstr ""
+msgstr "{} Lanzado."
