@@ -61,8 +61,15 @@ class VanillaControlCenterApplication(Adw.Application):
                                 developer_name='Mirko Brombin',
                                 version='0.0.9',
                                 developers=['Mirko Brombin'],
-                                translators="""0xMRTT https://github.com/0xMRTT""",
                                 copyright='© 2022 Mirko Brombin')
+        about.add_credit_section(
+            _("Translators"),
+            [
+                "0xMRTT https://github.com/0xMRTT",
+                "rffontenelle https://github.com/rffontenelle",
+                "alinpr18 https://github.com/alinpr18"
+            ]
+        )
         about.present()
 
     def on_preferences_action(self, widget, _):
