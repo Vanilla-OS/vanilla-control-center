@@ -61,6 +61,7 @@ class VanillaControlCenterApplication(Adw.Application):
                                 developer_name='Mirko Brombin',
                                 version='0.0.9',
                                 developers=['Mirko Brombin'],
+                                translators="""0xMRTT https://github.com/0xMRTT""",
                                 copyright='© 2022 Mirko Brombin')
         about.present()
 
