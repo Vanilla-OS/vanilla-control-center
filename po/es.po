@@ -1,26 +1,26 @@
-# Spanish translations for vanilla-control-center package.
-# Copyright (C) 2022 THE vanilla-control-center'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# Automatically generated, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-23 22:43+0200\n"
-"PO-Revision-Date: 2022-10-22 21:54+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: es\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
 #: src/gtk/window.ui:16 src/main.py:59
 msgid "Vanilla OS Control Center"
-msgstr "Centro de control del sistema operativo Vainilla"
+msgstr "Centro de control de Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
@@ -36,8 +36,7 @@ msgstr "Instalación en progreso…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr ""
-"Esto puede tomar un tiempo, en base a la velocidad de su conexión a internet."
+msgstr "Esto puede tomar un tiempo, depende de la velocidad de su conexión a internet."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -52,7 +51,7 @@ msgstr "Mostrar atajos"
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Dejar"
+msgstr "Salir"
 
 #: src/gtk/window.ui:27
 msgid "Apply Changes"
@@ -68,7 +67,7 @@ msgstr "Cargando controladores…"
 
 #: src/gtk/window.ui:55
 msgid "Please wait while the available drivers are being loaded."
-msgstr "Por favor espere mientras se cargan los controladores disponibles."
+msgstr "Por favor espere mientras se cargan los controladores."
 
 #: src/gtk/window.ui:70
 msgid "Immutability"
@@ -88,13 +87,12 @@ msgstr "La inmutabilidad está actualmente en modo de Lectura y Escritura."
 
 #: src/gtk/window.ui:90
 msgid "Restore on Reboot"
-msgstr "Restablecimiento en el arranque"
+msgstr "Restablecer en el reinicio"
 
 #: src/gtk/window.ui:91
 msgid "Choose whether to restore the default mode after a system reboot."
-msgstr ""
-"Elija si desea restaurar el modo predeterminado después de reiniciar el "
-"sistema."
+msgstr "Elija si desea restaurar el modo por defecto después de reiniciar el 
+sistema."
 
 #: src/gtk/window.ui:101
 msgid "Default Mode"
@@ -110,7 +108,7 @@ msgstr "Solo lectura"
 
 #: src/gtk/window.ui:107
 msgid "Read and Write"
-msgstr "Lee y escribe"
+msgstr "Lectura y escritura"
 
 #: src/gtk/window.ui:117
 msgid "Overlays"
@@ -118,11 +116,11 @@ msgstr "Superposiciones"
 
 #: src/gtk/window.ui:118
 msgid "Not Implemented yet."
-msgstr "Aún no implemetado."
+msgstr "Aún no ha sido implementado"
 
 #: src/gtk/window.ui:137
 msgid "Sub System"
-msgstr "Sistema secundario"
+msgstr "Subsistema"
 
 #: src/gtk/window.ui:143
 msgid "Installed Applications"
@@ -134,23 +132,24 @@ msgstr "_Acerca Panel-control"
 
 #: src/main.py:66
 msgid "Translators"
-msgstr ""
+msgstr "Traductores"
 
 #: src/window.py:86
 msgid "No Drivers Found."
-msgstr "Constroladores no encontrados."
+msgstr "No se han encontrado controladores
+"
 
 #: src/window.py:87
 msgid "No drivers found for your devices or an error occurred."
-msgstr ""
+msgstr "No se han encontrado controladores para tus dispositivos. O ha ocurrido un error"
 
 #: src/window.py:117
 msgid "Installation Failed."
-msgstr "Instalación Fallida."
+msgstr "La instalación ha fallado"
 
 #: src/window.py:122
 msgid "New Drivers Installed."
-msgstr "Nuevos Controladores Instalados."
+msgstr "Nuevos controladores instalados."
 
 #: src/window.py:154
 msgid "Failed to Set Immutability Status."
@@ -158,11 +157,11 @@ msgstr "Error al configurar el estado de inmutabilidad."
 
 #: src/window.py:159
 msgid "Immutability Enabled."
-msgstr "Inmutabilidad activado."
+msgstr "Inmutabilidad activada."
 
 #: src/window.py:159
 msgid "Immutability Disabled."
-msgstr "Inmutabilidad desactivado."
+msgstr "Inmutabilidad desactivada."
 
 #: src/window.py:176
 msgid "Persistent Mode Enabled."
@@ -174,11 +173,11 @@ msgstr "Modo persistente desactivado."
 
 #: src/window.py:188
 msgid "Failed to Set Default Mode."
-msgstr "Error al configurar el modo prederterminado."
+msgstr "Error al configurar el modo predeterminado."
 
 #: src/window.py:194
 msgid "Default Mode Changed to {}."
-msgstr "Modo prederterminado cambiado a {}."
+msgstr "El modo predeterminado ha sido cambiado a {}."
 
 #: src/window.py:195
 msgid "Read-Only"
@@ -186,15 +185,15 @@ msgstr "Solo-Lectura"
 
 #: src/window.py:195
 msgid "Read-Write"
-msgstr "Solo-Escritura"
+msgstr "Lectura-Escritura"
 
 #: src/window.py:220
 msgid "{} Exited With Error."
-msgstr "{} Salió con error."
+msgstr "{} Cerrado con un error."
 
 #: src/window.py:223
 msgid "{} Exited."
-msgstr "{} Salió."
+msgstr "{} Cerrado."
 
 #: src/window.py:226
 msgid "{} Launched."
