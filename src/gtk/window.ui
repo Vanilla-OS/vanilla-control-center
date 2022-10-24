@@ -2,6 +2,7 @@
 <interface>
   <requires lib="gtk" version="4.0"/>
   <template class="VanillaWindow" parent="AdwApplicationWindow">
+    <property name="width-request">400</property>
     <property name="default-width">990</property>
     <property name="default-height">700</property>
     <property name="title" translatable="yes">Vanilla OS Control Center</property>
