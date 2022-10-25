@@ -67,7 +67,7 @@ msgstr "Illesztőprogramok betöltése…"
 
 #: src/gtk/window.ui:55
 msgid "Please wait while the available drivers are being loaded."
-msgstr "Kérjük, várjon, amíg az elérhető illesztőprogramok betöltődnek."
+msgstr "Kérem, várjon, amíg az elérhető illesztőprogramok betöltődnek."
 
 #: src/gtk/window.ui:70
 msgid "Immutability"
