@@ -135,7 +135,7 @@ msgstr "மொழிபெயர்ப்பாளர்கள்"
 
 #: src/window.py:86
 msgid "No Drivers Found."
-msgstr ""
+msgstr "இயக்கிகள் எதுவும் கிடைக்கவில்லை."
 
 #: src/window.py:87
 msgid "No drivers found for your devices or an error occurred."
