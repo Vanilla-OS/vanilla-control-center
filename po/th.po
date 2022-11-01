@@ -20,11 +20,11 @@ msgstr ""
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
 #: src/gtk/window.ui:16 src/main.py:59
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "ศูนย์ควบคุม Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "ไม่มีคำอธิบาย"
 
 #: src/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -71,7 +71,7 @@ msgstr "โปรดรอสักครู่ขณะกำลังโหล
 
 #: src/gtk/window.ui:70
 msgid "Immutability"
-msgstr ""
+msgstr "ความไม่เปลี่ยนรูป"
 
 #: src/gtk/window.ui:76
 msgid "Preferences"
@@ -79,11 +79,11 @@ msgstr "การตั้งค่า"
 
 #: src/gtk/window.ui:79
 msgid "Immutability Status (current session)"
-msgstr ""
+msgstr "สถานะความไม่เปลี่ยนรูป (เซสชันปัจจุบัน)"
 
 #: src/gtk/window.ui:80
 msgid "Immutability is currently in Read and Write mode."
-msgstr ""
+msgstr "ขณะนี้ความไม่เปลี่ยนรูปอยู่ในโหมดอ่านและเขียน"
 
 #: src/gtk/window.ui:90
 msgid "Restore on Reboot"
@@ -123,7 +123,7 @@ msgstr "ระบบย่อย"
 
 #: src/gtk/window.ui:143
 msgid "Installed Applications"
-msgstr ""
+msgstr "แอปพลิเคชันที่ติดตั้งแล้ว"
 
 #: src/gtk/window.ui:160
 msgid "_About Control-panel"
@@ -135,15 +135,15 @@ msgstr "นักแปล"
 
 #: src/window.py:86
 msgid "No Drivers Found."
-msgstr ""
+msgstr "ไม่พบไดรเวอร์"
 
 #: src/window.py:87
 msgid "No drivers found for your devices or an error occurred."
-msgstr ""
+msgstr "ไม่พบไดรเวอร์สำหรับอุปกรณ์ของคุณ หรือมีข้อผิดพลาดเกิดขึ้น"
 
 #: src/window.py:117
 msgid "Installation Failed."
-msgstr ""
+msgstr "การติดตั้งผิดพลาด"
 
 #: src/window.py:122
 msgid "New Drivers Installed."
@@ -151,11 +151,11 @@ msgstr "ติดตั้งไดรเวอร์ใหม่แล้ว"
 
 #: src/window.py:154
 msgid "Failed to Set Immutability Status."
-msgstr ""
+msgstr "ไม่สามารถตั้งค่าสถานะความไม่เปลี่ยนรูป"
 
 #: src/window.py:159
 msgid "Immutability Enabled."
-msgstr ""
+msgstr "ความไม่เปลี่ยนรูปถูกเปิดการใช้งาน"
 
 #: src/window.py:159
 msgid "Immutability Disabled."
