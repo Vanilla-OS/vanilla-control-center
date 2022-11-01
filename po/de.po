@@ -24,7 +24,7 @@ msgstr "Vanilla OS Kontrollzentrum"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Keine Beschreibung"
 
 #: src/gtk/dialog-installation.ui:6
 msgid "Installation"
