@@ -1,17 +1,18 @@
-# Thai translations for vanilla-control-center package.
-# Copyright (C) 2022 THE vanilla-control-center'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# Automatically generated, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-23 22:43+0200\n"
-"PO-Revision-Date: 2022-10-22 21:54+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: th\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,179 +20,179 @@ msgstr ""
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
 #: src/gtk/window.ui:16 src/main.py:59
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "ศูนย์ควบคุม Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "ไม่มีคำอธิบาย"
 
 #: src/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "การติดตั้ง"
 
 #: src/gtk/dialog-installation.ui:21
 msgid "Installation in Progress…"
-msgstr ""
+msgstr "กำลังดำเนินการติดตั้ง…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr ""
+msgstr "อาจใช้เวลาสักครู่ขึ้นอยู่กับความเร็วการเชื่อมต่ออินเทอร์เน็ตของคุณ"
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "ทั่วไป"
 
 #: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "แสดงทางลัด"
 
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "เลิก"
 
 #: src/gtk/window.ui:27
 msgid "Apply Changes"
-msgstr ""
+msgstr "ใช้การเปลี่ยนแปลง"
 
 #: src/gtk/window.ui:44
 msgid "Drivers"
-msgstr ""
+msgstr "ไดรเวอร์"
 
 #: src/gtk/window.ui:54
 msgid "Loading drivers…"
-msgstr ""
+msgstr "กำลังโหลดไดรเวอร์..."
 
 #: src/gtk/window.ui:55
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "โปรดรอสักครู่ขณะกำลังโหลดไดรเวอร์ที่มีอยู่"
 
 #: src/gtk/window.ui:70
 msgid "Immutability"
-msgstr ""
+msgstr "ความไม่เปลี่ยนรูป"
 
 #: src/gtk/window.ui:76
 msgid "Preferences"
-msgstr ""
+msgstr "การตั้งค่า"
 
 #: src/gtk/window.ui:79
 msgid "Immutability Status (current session)"
-msgstr ""
+msgstr "สถานะความไม่เปลี่ยนรูป (เซสชันปัจจุบัน)"
 
 #: src/gtk/window.ui:80
 msgid "Immutability is currently in Read and Write mode."
-msgstr ""
+msgstr "ขณะนี้ความไม่เปลี่ยนรูปอยู่ในโหมดอ่านและเขียน"
 
 #: src/gtk/window.ui:90
 msgid "Restore on Reboot"
-msgstr ""
+msgstr "กู้คืนเมื่อรีบูต"
 
 #: src/gtk/window.ui:91
 msgid "Choose whether to restore the default mode after a system reboot."
-msgstr ""
+msgstr "เลือกว่าจะคืนค่าโหมดเริ่มต้นหลังจากรีบูตระบบหรือไม่"
 
 #: src/gtk/window.ui:101
 msgid "Default Mode"
-msgstr ""
+msgstr "โหมดเริ่มต้น"
 
 #: src/gtk/window.ui:102
 msgid "Choose which mode to use by default."
-msgstr ""
+msgstr "เลือกโหมดที่จะใช้เป็นค่าเริ่มต้น"
 
 #: src/gtk/window.ui:106
 msgid "Read Only"
-msgstr ""
+msgstr "อ่านเท่านั้น"
 
 #: src/gtk/window.ui:107
 msgid "Read and Write"
-msgstr ""
+msgstr "อ่านและเขียน"
 
 #: src/gtk/window.ui:117
 msgid "Overlays"
-msgstr ""
+msgstr "โอเวอร์เลย์"
 
 #: src/gtk/window.ui:118
 msgid "Not Implemented yet."
-msgstr ""
+msgstr "ยังไม่ได้ดำเนินการ"
 
 #: src/gtk/window.ui:137
 msgid "Sub System"
-msgstr ""
+msgstr "ระบบย่อย"
 
 #: src/gtk/window.ui:143
 msgid "Installed Applications"
-msgstr ""
+msgstr "แอปพลิเคชันที่ติดตั้งแล้ว"
 
 #: src/gtk/window.ui:160
 msgid "_About Control-panel"
-msgstr ""
+msgstr "_เกี่ยวกับแผงควบคุม"
 
 #: src/main.py:66
 msgid "Translators"
-msgstr ""
+msgstr "นักแปล"
 
 #: src/window.py:86
 msgid "No Drivers Found."
-msgstr ""
+msgstr "ไม่พบไดรเวอร์"
 
 #: src/window.py:87
 msgid "No drivers found for your devices or an error occurred."
-msgstr ""
+msgstr "ไม่พบไดรเวอร์สำหรับอุปกรณ์ของคุณ หรือมีข้อผิดพลาดเกิดขึ้น"
 
 #: src/window.py:117
 msgid "Installation Failed."
-msgstr ""
+msgstr "การติดตั้งผิดพลาด"
 
 #: src/window.py:122
 msgid "New Drivers Installed."
-msgstr ""
+msgstr "ติดตั้งไดรเวอร์ใหม่แล้ว"
 
 #: src/window.py:154
 msgid "Failed to Set Immutability Status."
-msgstr ""
+msgstr "ไม่สามารถตั้งค่าสถานะความไม่เปลี่ยนรูป"
 
 #: src/window.py:159
 msgid "Immutability Enabled."
-msgstr ""
+msgstr "ความไม่เปลี่ยนรูปถูกเปิดการใช้งาน"
 
 #: src/window.py:159
 msgid "Immutability Disabled."
-msgstr ""
+msgstr "ความไม่เปลี่ยนรูปถูกปิดใช้งาน"
 
 #: src/window.py:176
 msgid "Persistent Mode Enabled."
-msgstr ""
+msgstr "เปิดใช้งานโหมดถาวร"
 
 #: src/window.py:176
 msgid "Persistent Mode Disabled."
-msgstr ""
+msgstr "ปิดใช้งานโหมดถาวร"
 
 #: src/window.py:188
 msgid "Failed to Set Default Mode."
-msgstr ""
+msgstr "ไม่สามารถตั้งค่าโหมดเริ่มต้น"
 
 #: src/window.py:194
 msgid "Default Mode Changed to {}."
-msgstr ""
+msgstr "โหมดเริ่มต้นเปลี่ยนเป็น {}"
 
 #: src/window.py:195
 msgid "Read-Only"
-msgstr ""
+msgstr "อ่านเท่านั้น"
 
 #: src/window.py:195
 msgid "Read-Write"
-msgstr ""
+msgstr "อ่านเขียน"
 
 #: src/window.py:220
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} ออกโดยมีข้อผิดพลาด"
 
 #: src/window.py:223
 msgid "{} Exited."
-msgstr ""
+msgstr "{} ออกแล้ว"
 
 #: src/window.py:226
 msgid "{} Launched."
-msgstr ""
+msgstr "{} เปิดตัว"
