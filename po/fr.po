@@ -36,9 +36,8 @@ msgstr "Installation en cours…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr ""
-"Cela peut prendre un certain temps, en fonction de la vitesse de votre "
-"connexion Internet."
+msgstr "Cela peut prendre un certain temps, en fonction de la vitesse de votre 
+connexion Internet."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -93,8 +92,7 @@ msgstr "Restaurer au redémarrage"
 
 #: src/gtk/window.ui:91
 msgid "Choose whether to restore the default mode after a system reboot."
-msgstr ""
-"Choisissez de restaurer le mode par défaut après un redémarrage du système."
+msgstr "Choisissez de restaurer le mode par défaut après un redémarrage du système."
 
 #: src/gtk/window.ui:101
 msgid "Default Mode"
@@ -134,7 +132,7 @@ msgstr "_À propos du panneau de configuration"
 
 #: src/main.py:66
 msgid "Translators"
-msgstr ""
+msgstr "Traducteurs "
 
 #: src/window.py:86
 msgid "No Drivers Found."
