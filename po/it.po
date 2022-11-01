@@ -36,9 +36,8 @@ msgstr "Installazione in Corso..."
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr ""
-"L'operazione potrebbe richiedere del tempo, in base alla velocità della tua "
-"connessione Internet."
+msgstr "L'operazione potrebbe richiedere del tempo, in base alla velocità della tua 
+connessione Internet."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -93,8 +92,7 @@ msgstr "Ripristina al Riavvio"
 
 #: src/gtk/window.ui:91
 msgid "Choose whether to restore the default mode after a system reboot."
-msgstr ""
-"Scegli se ripristinare la modalità predefinita dopo il riavvio del sistema."
+msgstr "Scegli se ripristinare la modalità predefinita dopo il riavvio del sistema."
 
 #: src/gtk/window.ui:101
 msgid "Default Mode"
@@ -134,7 +132,7 @@ msgstr "_Informazioni sul pannello di controllo"
 
 #: src/main.py:66
 msgid "Translators"
-msgstr ""
+msgstr "Traduttori"
 
 #: src/window.py:86
 msgid "No Drivers Found."
@@ -142,8 +140,7 @@ msgstr "Nessun driver trovato."
 
 #: src/window.py:87
 msgid "No drivers found for your devices or an error occurred."
-msgstr ""
-"Nessun driver trovato per i tuoi dispositivi o si è verificato un errore."
+msgstr "Nessun driver trovato per i tuoi dispositivi o si è verificato un errore."
 
 #: src/window.py:117
 msgid "Installation Failed."
