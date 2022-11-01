@@ -28,78 +28,78 @@ msgstr "Tiada deskripsi"
 
 #: src/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "Pemasangan"
 
 #: src/gtk/dialog-installation.ui:21
 msgid "Installation in Progress…"
-msgstr ""
+msgstr "Pemasangan sedang berjalan…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr ""
+msgstr "Ini mungkin mengambil sedikit masa, berdasarkan kelajuan sambungan internet anda."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Umum"
 
 #: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Tunjukkan Pintasan"
 
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Berhenti"
 
 #: src/gtk/window.ui:27
 msgid "Apply Changes"
-msgstr ""
+msgstr "Gunakan Perubahan"
 
 #: src/gtk/window.ui:44
 msgid "Drivers"
-msgstr ""
+msgstr "Pemandu"
 
 #: src/gtk/window.ui:54
 msgid "Loading drivers…"
-msgstr ""
+msgstr "Memuatkan pemandu…"
 
 #: src/gtk/window.ui:55
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "Sila tunggu sementara pemandu yang tersedia sedang dimuatkan."
 
 #: src/gtk/window.ui:70
 msgid "Immutability"
-msgstr ""
+msgstr "Ketidakbolehubahan"
 
 #: src/gtk/window.ui:76
 msgid "Preferences"
-msgstr ""
+msgstr "Keutamaan"
 
 #: src/gtk/window.ui:79
 msgid "Immutability Status (current session)"
-msgstr ""
+msgstr "Status Ketidakbolehubahan (sesi semasa)"
 
 #: src/gtk/window.ui:80
 msgid "Immutability is currently in Read and Write mode."
-msgstr ""
+msgstr "Ketidakbolehubahan sedang dalam mod Baca dan Tulis."
 
 #: src/gtk/window.ui:90
 msgid "Restore on Reboot"
-msgstr ""
+msgstr "Pulihkan pada But semula"
 
 #: src/gtk/window.ui:91
 msgid "Choose whether to restore the default mode after a system reboot."
-msgstr ""
+msgstr "Pilih sama ada untuk memulihkan mod lalai selepas but semula sistem."
 
 #: src/gtk/window.ui:101
 msgid "Default Mode"
-msgstr ""
+msgstr "Mod Lalai"
 
 #: src/gtk/window.ui:102
 msgid "Choose which mode to use by default."
-msgstr ""
+msgstr "Pilih mod yang hendak digunakan secara lalai."
 
 #: src/gtk/window.ui:106
 msgid "Read Only"
@@ -131,7 +131,7 @@ msgstr "_Mengenai Panel Kawalan"
 
 #: src/main.py:66
 msgid "Translators"
-msgstr ""
+msgstr "Penterjemah"
 
 #: src/window.py:86
 msgid "No Drivers Found."
@@ -147,35 +147,35 @@ msgstr "Pemasangan gagal."
 
 #: src/window.py:122
 msgid "New Drivers Installed."
-msgstr ""
+msgstr "Pemacu Baharu Dipasang."
 
 #: src/window.py:154
 msgid "Failed to Set Immutability Status."
-msgstr ""
+msgstr "Gagal Menetapkan Status Ketidakbolehubah."
 
 #: src/window.py:159
 msgid "Immutability Enabled."
-msgstr ""
+msgstr "Ketidakbolehubah Didayakan."
 
 #: src/window.py:159
 msgid "Immutability Disabled."
-msgstr ""
+msgstr "Ketidakbolehubah Dilumpuhkan."
 
 #: src/window.py:176
 msgid "Persistent Mode Enabled."
-msgstr ""
+msgstr "Mod Gigih Didayakan."
 
 #: src/window.py:176
 msgid "Persistent Mode Disabled."
-msgstr ""
+msgstr "Mod Gigih Dilumpuhkan."
 
 #: src/window.py:188
 msgid "Failed to Set Default Mode."
-msgstr ""
+msgstr "Gagal Menetapkan Mod Lalai."
 
 #: src/window.py:194
 msgid "Default Mode Changed to {}."
-msgstr ""
+msgstr "Mod Lalai Ditukar kepada {}."
 
 #: src/window.py:195
 msgid "Read-Only"
