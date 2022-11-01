@@ -20,11 +20,11 @@ msgstr ""
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
 #: src/gtk/window.ui:16 src/main.py:59
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "வெண்ணிலா OS கட்டுப்பாட்டு மையம்"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "விளக்கம் இல்லை"
 
 #: src/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -51,15 +51,15 @@ msgstr "குறுக்குவழிகளைக் காட்டு"
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "வெளியேறு"
 
 #: src/gtk/window.ui:27
 msgid "Apply Changes"
-msgstr ""
+msgstr "மாற்றங்களை விண்ணப்பிக்கவும்"
 
 #: src/gtk/window.ui:44
 msgid "Drivers"
-msgstr ""
+msgstr "இயக்கிகள்"
 
 #: src/gtk/window.ui:54
 msgid "Loading drivers…"
@@ -79,7 +79,7 @@ msgstr "விருப்பத்தேர்வுகள்"
 
 #: src/gtk/window.ui:79
 msgid "Immutability Status (current session)"
-msgstr ""
+msgstr "மாற்றமின்மை நிலை (தற்போதைய அமர்வு)"
 
 #: src/gtk/window.ui:80
 msgid "Immutability is currently in Read and Write mode."
@@ -107,7 +107,7 @@ msgstr "படிக்க மட்டும்"
 
 #: src/gtk/window.ui:107
 msgid "Read and Write"
-msgstr ""
+msgstr "படிக்கவும் மற்றும் எழுதவும்"
 
 #: src/gtk/window.ui:117
 msgid "Overlays"
@@ -139,7 +139,7 @@ msgstr ""
 
 #: src/window.py:87
 msgid "No drivers found for your devices or an error occurred."
-msgstr ""
+msgstr "உங்கள் சாதனங்களுக்கு இயக்கிகள் எதுவும் கிடைக்கவில்லை அல்லது ஒரு பிழை ஏற்பட்டது."
 
 #: src/window.py:117
 msgid "Installation Failed."
@@ -151,7 +151,7 @@ msgstr "புதிய இயக்கிகள் நிறுவப்பட�
 
 #: src/window.py:154
 msgid "Failed to Set Immutability Status."
-msgstr ""
+msgstr "மாறாத நிலையை அமைக்கத் தவறியது."
 
 #: src/window.py:159
 msgid "Immutability Enabled."
@@ -179,11 +179,11 @@ msgstr "இயல்புநிலை பயன்முறை {}க்கு �
 
 #: src/window.py:195
 msgid "Read-Only"
-msgstr ""
+msgstr "படிக்க-மட்டும்"
 
 #: src/window.py:195
 msgid "Read-Write"
-msgstr ""
+msgstr "படிக்க-எழுத"
 
 #: src/window.py:220
 msgid "{} Exited With Error."
