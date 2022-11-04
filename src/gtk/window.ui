@@ -158,7 +158,7 @@
   <menu id="primary_menu">
     <section>
       <item>
-        <attribute name="label" translatable="true">_About Control-panel</attribute>
+        <attribute name="label" translatable="true">_About Control-center</attribute>
         <attribute name="action">app.about</attribute>
       </item>
     </section>
