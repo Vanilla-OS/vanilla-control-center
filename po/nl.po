@@ -175,8 +175,7 @@ msgstr "Kon de standaardmodus niet instellen."
 
 #: src/window.py:194
 msgid "Default Mode Changed to {}."
-msgstr "Standaard modus veranderd naar {}.
-"
+msgstr "Standaard modus veranderd naar {}."
 
 #: src/window.py:195
 msgid "Read-Only"
