@@ -1,198 +1,198 @@
-# Swedish translations for vanilla-control-center package.
-# Copyright (C) 2022 THE vanilla-control-center'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# Automatically generated, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-23 22:43+0200\n"
-"PO-Revision-Date: 2022-10-22 21:54+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: sv\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
 #: src/gtk/window.ui:16 src/main.py:59
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "Vanilla OS Kontrollcenter"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Ingen beskrivning"
 
 #: src/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "Installation"
 
 #: src/gtk/dialog-installation.ui:21
 msgid "Installation in Progress…"
-msgstr ""
+msgstr "Installation pågår…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr ""
+msgstr "Detta kan ta ett tag, baserat på din internetanslutningshastighet."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Allmänt"
 
 #: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Visa genvägar"
 
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Avsluta"
 
 #: src/gtk/window.ui:27
 msgid "Apply Changes"
-msgstr ""
+msgstr "Tillämpa förändringar"
 
 #: src/gtk/window.ui:44
 msgid "Drivers"
-msgstr ""
+msgstr "Drivrutiner"
 
 #: src/gtk/window.ui:54
 msgid "Loading drivers…"
-msgstr ""
+msgstr "Laddar drivrutiner…"
 
 #: src/gtk/window.ui:55
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "Vänta medan de tillgängliga drivrutinerna laddas."
 
 #: src/gtk/window.ui:70
 msgid "Immutability"
-msgstr ""
+msgstr "Oföränderlighet"
 
 #: src/gtk/window.ui:76
 msgid "Preferences"
-msgstr ""
+msgstr "Inställningar"
 
 #: src/gtk/window.ui:79
 msgid "Immutability Status (current session)"
-msgstr ""
+msgstr "Status för oföränderlighet (nuvarande session)"
 
 #: src/gtk/window.ui:80
 msgid "Immutability is currently in Read and Write mode."
-msgstr ""
+msgstr "Oföränderlighet är för närvarande i läs- och skrivläge."
 
 #: src/gtk/window.ui:90
 msgid "Restore on Reboot"
-msgstr ""
+msgstr "Återställ vid omstart"
 
 #: src/gtk/window.ui:91
 msgid "Choose whether to restore the default mode after a system reboot."
-msgstr ""
+msgstr "Välj om du vill återställa standardläget efter en omstart av systemet."
 
 #: src/gtk/window.ui:101
 msgid "Default Mode"
-msgstr ""
+msgstr "Standardläge"
 
 #: src/gtk/window.ui:102
 msgid "Choose which mode to use by default."
-msgstr ""
+msgstr "Välj vilket läge som ska användas som standard."
 
 #: src/gtk/window.ui:106
 msgid "Read Only"
-msgstr ""
+msgstr "Läs endast"
 
 #: src/gtk/window.ui:107
 msgid "Read and Write"
-msgstr ""
+msgstr "Läs och skriv"
 
 #: src/gtk/window.ui:117
 msgid "Overlays"
-msgstr ""
+msgstr "Överlägg"
 
 #: src/gtk/window.ui:118
 msgid "Not Implemented yet."
-msgstr ""
+msgstr "Inte implementerat ännu."
 
 #: src/gtk/window.ui:137
 msgid "Sub System"
-msgstr ""
+msgstr "Undersystem"
 
 #: src/gtk/window.ui:143
 msgid "Installed Applications"
-msgstr ""
+msgstr "Installerade program"
 
 #: src/gtk/window.ui:160
 msgid "_About Control-panel"
-msgstr ""
+msgstr "_Om Kontroll-panel"
 
 #: src/main.py:66
 msgid "Translators"
-msgstr ""
+msgstr "Översättare"
 
 #: src/window.py:86
 msgid "No Drivers Found."
-msgstr ""
+msgstr "Inga drivrutiner hittades."
 
 #: src/window.py:87
 msgid "No drivers found for your devices or an error occurred."
-msgstr ""
+msgstr "Inga drivrutiner hittades för dina enheter eller så uppstod ett fel."
 
 #: src/window.py:117
 msgid "Installation Failed."
-msgstr ""
+msgstr "Installationen misslyckades."
 
 #: src/window.py:122
 msgid "New Drivers Installed."
-msgstr ""
+msgstr "Nya drivrutiner installerades."
 
 #: src/window.py:154
 msgid "Failed to Set Immutability Status."
-msgstr ""
+msgstr "Misslyckades att ställa in oföränderlighetsstatus."
 
 #: src/window.py:159
 msgid "Immutability Enabled."
-msgstr ""
+msgstr "Oföränderlighet aktiverat."
 
 #: src/window.py:159
 msgid "Immutability Disabled."
-msgstr ""
+msgstr "Oföränderlighet inaktiverat."
 
 #: src/window.py:176
 msgid "Persistent Mode Enabled."
-msgstr ""
+msgstr "Beständigt läge aktiverat."
 
 #: src/window.py:176
 msgid "Persistent Mode Disabled."
-msgstr ""
+msgstr "Beständigt läge inaktiverat."
 
 #: src/window.py:188
 msgid "Failed to Set Default Mode."
-msgstr ""
+msgstr "Misslyckades att ställa in standardläge."
 
 #: src/window.py:194
 msgid "Default Mode Changed to {}."
-msgstr ""
+msgstr "Standardläge ändrat till {}."
 
 #: src/window.py:195
 msgid "Read-Only"
-msgstr ""
+msgstr "Läs-endast"
 
 #: src/window.py:195
 msgid "Read-Write"
-msgstr ""
+msgstr "Läs-skriv"
 
 #: src/window.py:220
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} Avslutade med fel."
 
 #: src/window.py:223
 msgid "{} Exited."
-msgstr ""
+msgstr "{} Avslutade."
 
 #: src/window.py:226
 msgid "{} Launched."
-msgstr ""
+msgstr "{} Startat."
