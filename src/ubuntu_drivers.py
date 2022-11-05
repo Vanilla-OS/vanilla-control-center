@@ -19,6 +19,7 @@
 
 import os
 import logging
+import tempfile
 import subprocess
 import shutil
 
@@ -80,14 +81,17 @@ class UbuntuDrivers:
             logging.info(f"executing cmd: pkexec {self.__binary} install {driver}")
             return True
 
-        _cmd = [self.__binary, "install", driver]
-        if shutil.which("almost"):
-            _cmd = ["pkexec", "almost", "run"] + _cmd
-        else:
-            _cmd = ["pkexec"] + _cmd
+        with tempfile.NamedTemporaryFile(mode="w", delete=False) as f:
+            f.write("#!/bin/bash\n")
+            f.write(f"sudo apx --sys install {driver} -y")
+            f.close()
+            os.chmod(f.name, 0o755)
+            _cmd = ["pkexec", f.name]
             
         proc = subprocess.Popen(_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         out, err = proc.communicate()
+        logging.info("outpout")
+        logging.info(out.decode("utf-8"))
         return proc.returncode == 0
 
     def autoinstall(self) -> bool:
