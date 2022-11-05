@@ -1,198 +1,199 @@
-# Dutch translations for vanilla-control-center package.
-# Copyright (C) 2022 THE vanilla-control-center'S COPYRIGHT HOLDER
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# Automatically generated, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-23 22:43+0200\n"
-"PO-Revision-Date: 2022-10-22 21:54+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: nl\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
 #: src/gtk/window.ui:16 src/main.py:59
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "Vanilla OS Controlepaneel"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Geen beschrijving"
 
 #: src/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "Installatie"
 
 #: src/gtk/dialog-installation.ui:21
 msgid "Installation in Progress…"
-msgstr ""
+msgstr "De installatie is bezig…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr ""
+msgstr "Dit kan even duren, afhankelijk van de snelheid van uw internetverbinding."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Algemeen"
 
 #: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Sneltoetsen tonen"
 
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Afsluiten"
 
 #: src/gtk/window.ui:27
 msgid "Apply Changes"
-msgstr ""
+msgstr "Wijzigingen toepassen"
 
 #: src/gtk/window.ui:44
 msgid "Drivers"
-msgstr ""
+msgstr "Stuurprogramma's"
 
 #: src/gtk/window.ui:54
 msgid "Loading drivers…"
-msgstr ""
+msgstr "Stuurprogramma's laden…"
 
 #: src/gtk/window.ui:55
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "Wacht alstublieft terwijl de beschikbare stuurprogramma's worden geladen."
 
 #: src/gtk/window.ui:70
 msgid "Immutability"
-msgstr ""
+msgstr "Onveranderlijkheid"
 
 #: src/gtk/window.ui:76
 msgid "Preferences"
-msgstr ""
+msgstr "Voorkeuren"
 
 #: src/gtk/window.ui:79
 msgid "Immutability Status (current session)"
-msgstr ""
+msgstr "Onveranderlijkheidsstatus (huidige sessie)"
 
 #: src/gtk/window.ui:80
 msgid "Immutability is currently in Read and Write mode."
-msgstr ""
+msgstr "Onveranderlijkheid bevindt zich momenteel in de lees- en schrijfmodus."
 
 #: src/gtk/window.ui:90
 msgid "Restore on Reboot"
-msgstr ""
+msgstr "Herstellen bij opnieuw opstarten"
 
 #: src/gtk/window.ui:91
 msgid "Choose whether to restore the default mode after a system reboot."
-msgstr ""
+msgstr "Kies of u de standaardmodus wilt herstellen nadat het systeem opnieuw is opgestart."
 
 #: src/gtk/window.ui:101
 msgid "Default Mode"
-msgstr ""
+msgstr "Standaard modus"
 
 #: src/gtk/window.ui:102
 msgid "Choose which mode to use by default."
-msgstr ""
+msgstr "Kies welke modus standaard te gebruiken."
 
 #: src/gtk/window.ui:106
 msgid "Read Only"
-msgstr ""
+msgstr "Alleen lezen"
 
 #: src/gtk/window.ui:107
 msgid "Read and Write"
-msgstr ""
+msgstr "Lezen en schrijven"
 
 #: src/gtk/window.ui:117
 msgid "Overlays"
-msgstr ""
+msgstr "Overlays"
 
 #: src/gtk/window.ui:118
 msgid "Not Implemented yet."
-msgstr ""
+msgstr "Nog niet geïmplementeerd."
 
 #: src/gtk/window.ui:137
 msgid "Sub System"
-msgstr ""
+msgstr "Subsysteem"
 
 #: src/gtk/window.ui:143
 msgid "Installed Applications"
-msgstr ""
+msgstr "Geïnstalleerde applicaties"
 
 #: src/gtk/window.ui:160
 msgid "_About Control-panel"
-msgstr ""
+msgstr "_Over controlepaneel"
 
 #: src/main.py:66
 msgid "Translators"
-msgstr ""
+msgstr "Vertalers"
 
 #: src/window.py:86
 msgid "No Drivers Found."
-msgstr ""
+msgstr "Geen stuurprogramma's gevonden."
 
 #: src/window.py:87
 msgid "No drivers found for your devices or an error occurred."
-msgstr ""
+msgstr "Geen stuurprogramma's gevonden voor uw apparaat of er ging iets fout."
 
 #: src/window.py:117
 msgid "Installation Failed."
-msgstr ""
+msgstr "Installatie gefaald."
 
 #: src/window.py:122
 msgid "New Drivers Installed."
-msgstr ""
+msgstr "Nieuwe stuurprogramma's geïnstalleerd."
 
 #: src/window.py:154
 msgid "Failed to Set Immutability Status."
-msgstr ""
+msgstr "Kan de onveranderlijkheidsstatus niet instellen."
 
 #: src/window.py:159
 msgid "Immutability Enabled."
-msgstr ""
+msgstr "Onveranderlijkheid ingeschakeld."
 
 #: src/window.py:159
 msgid "Immutability Disabled."
-msgstr ""
+msgstr "Onveranderlijkheid uitgeschakeld."
 
 #: src/window.py:176
 msgid "Persistent Mode Enabled."
-msgstr ""
+msgstr "Aanhoudende modus ingeschakeld."
 
 #: src/window.py:176
 msgid "Persistent Mode Disabled."
-msgstr ""
+msgstr "Aanhoudende modus uitgeschakeld."
 
 #: src/window.py:188
 msgid "Failed to Set Default Mode."
-msgstr ""
+msgstr "Kon de standaardmodus niet instellen."
 
 #: src/window.py:194
 msgid "Default Mode Changed to {}."
-msgstr ""
+msgstr "Standaard modus veranderd naar {}.
+"
 
 #: src/window.py:195
 msgid "Read-Only"
-msgstr ""
+msgstr "Alleen-lezen"
 
 #: src/window.py:195
 msgid "Read-Write"
-msgstr ""
+msgstr "Lezen-schrijven"
 
 #: src/window.py:220
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} afgesloten met fout."
 
 #: src/window.py:223
 msgid "{} Exited."
-msgstr ""
+msgstr "{} afgesloten."
 
 #: src/window.py:226
 msgid "{} Launched."
-msgstr ""
+msgstr "{} opgestart."
