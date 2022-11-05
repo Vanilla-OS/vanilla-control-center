@@ -3,19 +3,21 @@
 # This file is distributed under the same license as the vanilla-control-center package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-23 22:43+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2022-11-05 21:07+0000\n"
+"Last-Translator: rOxANDtOl <rodrigosgdlcc@gmail.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
 #: src/gtk/window.ui:16 src/main.py:59
@@ -115,7 +117,7 @@ msgstr "Superposiciones"
 
 #: src/gtk/window.ui:118
 msgid "Not Implemented yet."
-msgstr "Aún no ha sido implementado"
+msgstr "Aún no ha sido implementado."
 
 #: src/gtk/window.ui:137
 msgid "Sub System"
@@ -143,7 +145,7 @@ msgstr "No se han encontrado controladores para tus dispositivos. O ha ocurrido 
 
 #: src/window.py:117
 msgid "Installation Failed."
-msgstr "La instalación ha fallado"
+msgstr "La instalación ha fallado."
 
 #: src/window.py:122
 msgid "New Drivers Installed."
