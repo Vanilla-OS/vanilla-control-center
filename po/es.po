@@ -91,8 +91,7 @@ msgstr "Restablecer en el reinicio"
 
 #: src/gtk/window.ui:91
 msgid "Choose whether to restore the default mode after a system reboot."
-msgstr "Elija si desea restaurar el modo por defecto después de reiniciar el 
-sistema."
+msgstr "Elija si desea restaurar el modo por defecto después de reiniciar el sistema."
 
 #: src/gtk/window.ui:101
 msgid "Default Mode"
@@ -136,8 +135,7 @@ msgstr "Traductores"
 
 #: src/window.py:86
 msgid "No Drivers Found."
-msgstr "No se han encontrado controladores
-"
+msgstr "No se han encontrado controladores"
 
 #: src/window.py:87
 msgid "No drivers found for your devices or an error occurred."

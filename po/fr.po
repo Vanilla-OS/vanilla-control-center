@@ -36,8 +36,7 @@ msgstr "Installation en cours…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr "Cela peut prendre un certain temps, en fonction de la vitesse de votre 
-connexion Internet."
+msgstr "Cela peut prendre un certain temps, en fonction de la vitesse de votre connexion Internet."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
