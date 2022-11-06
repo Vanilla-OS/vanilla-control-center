@@ -43,6 +43,8 @@ class VanillaWindow(Adw.ApplicationWindow):
 
     page_drivers = Gtk.Template.Child()
     status_drivers = Gtk.Template.Child()
+    status_no_drivers = Gtk.Template.Child()
+    status_no_apx = Gtk.Template.Child()
     btn_apply = Gtk.Template.Child()
     toasts = Gtk.Template.Child()
     status_almost = Gtk.Template.Child()
@@ -82,9 +84,8 @@ class VanillaWindow(Adw.ApplicationWindow):
 
         def callback(result, *args):
             if result is None:
-                self.status_drivers.set_icon_name("dialog-error-symbolic")
-                self.status_drivers.set_title(_("No Drivers Found."))
-                self.status_drivers.set_description(_("No drivers found for your devices or an error occurred."))
+                self.status_no_drivers.set_visible(True)
+                self.status_drivers.set_visible(False)
                 return
 
             self.btn_apply.connect("clicked", self.__on_apply_clicked)
@@ -204,6 +205,11 @@ class VanillaWindow(Adw.ApplicationWindow):
             self.page_apx.set_visible(False)
             return
 
+        if len(self.apx.apps) == 0:
+            self.group_apps.set_visible(False)
+            self.status_no_apx.set_visible(True)
+            return
+            
         for app in self.apx.apps:
             _row = VanillaApxProgram(app)
             _row.connect("run-requested", self.__on_apx_run_requested)

@@ -54,6 +54,15 @@
                             <property name="icon-name">drive-harddisk-solidstate-symbolic</property>
                             <property name="title" translatable="true">Loading drivers…</property>
                             <property name="description" translatable="true">Please wait while the available drivers are being loaded.</property>
+                            <property name="valign">center</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwStatusPage" id="status_no_drivers">
+                            <property name="visible">false</property>
+                            <property name="icon-name">drive-harddisk-solidstate-symbolic</property>
+                            <property name="title" translatable="true">No Drivers Available</property>
+                            <property name="description" translatable="true">There are no extra drivers available for your system.</property>
                           </object>
                         </child>
                         <child>
@@ -138,10 +147,25 @@
                     <property name="title" translatable="true">Sub System</property>
                     <property name="icon-name">utilities-terminal-symbolic</property>
                     <property name="child">
-                      <object class="AdwPreferencesPage">
+                      <object class="GtkBox">
+                        <property name="orientation">vertical</property>
+                        <property name="halign">fill</property>
+                        <property name="valign">center</property>
                         <child>
-                          <object class="AdwPreferencesGroup" id="group_apps">
-                            <property name="title" translatable="true">Installed Applications</property>
+                          <object class="AdwStatusPage" id="status_no_apx">
+                            <property name="visible">false</property>
+                            <property name="icon-name">utilities-terminal-symbolic</property>
+                            <property name="title" translatable="true">No Containerized Apps</property>
+                            <property name="description" translatable="true">There are no containerized apps installed on your system.</property>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="AdwPreferencesPage">
+                            <child>
+                              <object class="AdwPreferencesGroup" id="group_apps">
+                                <property name="title" translatable="true">Installed Applications</property>
+                              </object>
+                            </child>
                           </object>
                         </child>
                       </object>
