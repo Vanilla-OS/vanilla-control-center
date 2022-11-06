@@ -8,191 +8,197 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-23 22:43+0200\n"
-"PO-Revision-Date: 2022-10-22 21:54+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-11-09 04:10+0000\n"
+"Last-Translator: Nguyễn Phú Trọng <minhhoang9105@gmail.com>\n"
+"Language-Team: Vietnamese <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/vi/>\n"
 "Language: vi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
 #: src/gtk/window.ui:16 src/main.py:59
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "Trung Tâm Điều Khiển hệ điều hành Vanilla"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Không có thông tin mô tả"
 
 #: src/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "Cài đặt"
 
 #: src/gtk/dialog-installation.ui:21
 msgid "Installation in Progress…"
-msgstr ""
+msgstr "Quá trình cài đặt đang tiến hành…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
 msgstr ""
+"Điều này có thể mất một lúc, phụ thuộc vào tốc độ kết nối internet của bạn."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Chung"
 
 #: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Hiện các Phím Tắt"
 
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Thoát"
 
 #: src/gtk/window.ui:27
 msgid "Apply Changes"
-msgstr ""
+msgstr "Áp dụng các thay đổi"
 
 #: src/gtk/window.ui:44
 msgid "Drivers"
-msgstr ""
+msgstr "Drivers"
 
 #: src/gtk/window.ui:54
 msgid "Loading drivers…"
-msgstr ""
+msgstr "Đang chạy các driver…"
 
 #: src/gtk/window.ui:55
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "Xin chờ trong lúc các drivers có sẵn đang được chạy."
 
 #: src/gtk/window.ui:70
 msgid "Immutability"
-msgstr ""
+msgstr "Trạng thái không đổi"
 
 #: src/gtk/window.ui:76
 msgid "Preferences"
-msgstr ""
+msgstr "Các tùy chọn ưu tiên"
 
 #: src/gtk/window.ui:79
 msgid "Immutability Status (current session)"
-msgstr ""
+msgstr "Trạng thái không đổi (phiên làm việc giữ nguyên)"
 
 #: src/gtk/window.ui:80
 msgid "Immutability is currently in Read and Write mode."
-msgstr ""
+msgstr "Trạng thái bất biến hiện tại đang ở chế độ Đọc và Viết."
 
 #: src/gtk/window.ui:90
 msgid "Restore on Reboot"
-msgstr ""
+msgstr "Khôi phục khi Khởi động lại"
 
 #: src/gtk/window.ui:91
 msgid "Choose whether to restore the default mode after a system reboot."
 msgstr ""
+"Chọn có khôi phục chế độ mặc định sau khi khởi động lại hệ thống hay không."
 
 #: src/gtk/window.ui:101
 msgid "Default Mode"
-msgstr ""
+msgstr "Chế độ mặc định"
 
 #: src/gtk/window.ui:102
 msgid "Choose which mode to use by default."
-msgstr ""
+msgstr "Chọn chế độ để sử dụng theo mặc định."
 
 #: src/gtk/window.ui:106
 msgid "Read Only"
-msgstr ""
+msgstr "Chỉ đọc"
 
 #: src/gtk/window.ui:107
 msgid "Read and Write"
-msgstr ""
+msgstr "Đọc và Viết"
 
 #: src/gtk/window.ui:117
 msgid "Overlays"
-msgstr ""
+msgstr "Các lớp che phủ"
 
 #: src/gtk/window.ui:118
 msgid "Not Implemented yet."
-msgstr ""
+msgstr "Chưa được thực hiện."
 
 #: src/gtk/window.ui:137
 msgid "Sub System"
-msgstr ""
+msgstr "Hệ thống phụ"
 
 #: src/gtk/window.ui:143
 msgid "Installed Applications"
-msgstr ""
+msgstr "Các ứng dụng đã được cài đặt"
 
 #: src/gtk/window.ui:160
 msgid "_About Control-panel"
-msgstr ""
+msgstr "Về bảng điều khiển"
 
 #: src/main.py:66
 msgid "Translators"
-msgstr ""
+msgstr "Phiên dịch viên"
 
 #: src/window.py:86
 msgid "No Drivers Found."
-msgstr ""
+msgstr "Không tìm thấy bất kì driver nào."
 
 #: src/window.py:87
 msgid "No drivers found for your devices or an error occurred."
 msgstr ""
+"Không tìm thấy bất kì driver nào cho các thiết bị của bạn hoặc đã có một số "
+"lỗi xảy ra."
 
 #: src/window.py:117
 msgid "Installation Failed."
-msgstr ""
+msgstr "Cài đặt thất bại."
 
 #: src/window.py:122
 msgid "New Drivers Installed."
-msgstr ""
+msgstr "Các driver mới đã được cài đặt."
 
 #: src/window.py:154
 msgid "Failed to Set Immutability Status."
-msgstr ""
+msgstr "Không đặt được trạng thái không đổi."
 
 #: src/window.py:159
 msgid "Immutability Enabled."
-msgstr ""
+msgstr "Trạng thái không đổi được kích hoạt."
 
 #: src/window.py:159
 msgid "Immutability Disabled."
-msgstr ""
+msgstr "Trạng thái không đổi được vô hiệu hóa."
 
 #: src/window.py:176
 msgid "Persistent Mode Enabled."
-msgstr ""
+msgstr "Chế độ Persistent được kích hoạt."
 
 #: src/window.py:176
 msgid "Persistent Mode Disabled."
-msgstr ""
+msgstr "Chế độ Persistent được vô hiệu hóa."
 
 #: src/window.py:188
 msgid "Failed to Set Default Mode."
-msgstr ""
+msgstr "Đặt chế độ Mặc định thất bại."
 
 #: src/window.py:194
 msgid "Default Mode Changed to {}."
-msgstr ""
+msgstr "Chế độ mặc định đã thay đổi thành {}."
 
 #: src/window.py:195
 msgid "Read-Only"
-msgstr ""
+msgstr "Chỉ đọc"
 
 #: src/window.py:195
 msgid "Read-Write"
-msgstr ""
+msgstr "Đọc - Viết"
 
 #: src/window.py:220
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} Đã thoát với Lỗi."
 
 #: src/window.py:223
 msgid "{} Exited."
-msgstr ""
+msgstr "{} Đã thoát ra."
 
 #: src/window.py:226
 msgid "{} Launched."
-msgstr ""
+msgstr "{} Đã kích hoạt."
