@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-23 22:43+0200\n"
-"PO-Revision-Date: 2022-11-05 21:07+0000\n"
+"PO-Revision-Date: 2022-11-06 00:07+0000\n"
 "Last-Translator: Raphaël Denni <raphoro.d@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/fr/>\n"
@@ -38,7 +38,9 @@ msgstr "Installation en cours…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr "Cela peut prendre un certain temps, en fonction de la vitesse de votre connexion Internet."
+msgstr ""
+"Cela peut prendre un certain temps en fonction de la vitesse de votre "
+"connexion Internet."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -85,7 +87,7 @@ msgstr "Statut d'immutabilité (session en cours)"
 
 #: src/gtk/window.ui:80
 msgid "Immutability is currently in Read and Write mode."
-msgstr "L'immutabilité est actuellement en mode lecture et écriture."
+msgstr "L'immutabilité est actuellement en mode lecture-écriture."
 
 #: src/gtk/window.ui:90
 msgid "Restore on Reboot"
@@ -154,7 +156,7 @@ msgstr "Nouveaux pilotes installés."
 
 #: src/window.py:154
 msgid "Failed to Set Immutability Status."
-msgstr "Impossible de définir le statut d'immuabilité."
+msgstr "Impossible de définir le statut d'immutabilité."
 
 #: src/window.py:159
 msgid "Immutability Enabled."
@@ -190,12 +192,12 @@ msgstr "Lecture-Écriture"
 
 #: src/window.py:220
 msgid "{} Exited With Error."
-msgstr "{} Quitté avec erreur."
+msgstr "{} quitté avec erreur."
 
 #: src/window.py:223
 msgid "{} Exited."
-msgstr "{} Quitté."
+msgstr "{} quitté."
 
 #: src/window.py:226
 msgid "{} Launched."
-msgstr "{} Lancé."
+msgstr "{} lancé."
