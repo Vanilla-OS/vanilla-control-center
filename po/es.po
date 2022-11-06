@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-23 22:43+0200\n"
-"PO-Revision-Date: 2022-11-05 21:07+0000\n"
-"Last-Translator: rOxANDtOl <rodrigosgdlcc@gmail.com>\n"
+"PO-Revision-Date: 2022-11-09 04:10+0000\n"
+"Last-Translator: Jehu Marcos Herrera Puentes <jehuherrerap@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/es/>\n"
 "Language: es\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
 #: src/gtk/window.ui:16 src/main.py:59
 msgid "Vanilla OS Control Center"
-msgstr "Centro de control de Vanilla OS"
+msgstr "Panel de control de Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
@@ -89,7 +89,7 @@ msgstr "La inmutabilidad está actualmente en modo de Lectura y Escritura."
 
 #: src/gtk/window.ui:90
 msgid "Restore on Reboot"
-msgstr "Restablecer en el reinicio"
+msgstr "Restablecer al reiniciar"
 
 #: src/gtk/window.ui:91
 msgid "Choose whether to restore the default mode after a system reboot."
@@ -117,7 +117,7 @@ msgstr "Superposiciones"
 
 #: src/gtk/window.ui:118
 msgid "Not Implemented yet."
-msgstr "Aún no ha sido implementado."
+msgstr "Aún no se ha implementado."
 
 #: src/gtk/window.ui:137
 msgid "Sub System"
@@ -129,7 +129,7 @@ msgstr "Aplicaciones instaladas"
 
 #: src/gtk/window.ui:160
 msgid "_About Control-panel"
-msgstr "_Acerca Panel-control"
+msgstr "_Acerca del panel de control"
 
 #: src/main.py:66
 msgid "Translators"
@@ -137,11 +137,13 @@ msgstr "Traductores"
 
 #: src/window.py:86
 msgid "No Drivers Found."
-msgstr "No se han encontrado controladores"
+msgstr "No se han encontrado controladores."
 
 #: src/window.py:87
 msgid "No drivers found for your devices or an error occurred."
-msgstr "No se han encontrado controladores para tus dispositivos. O ha ocurrido un error"
+msgstr ""
+"No se han encontrado controladores para sus dispositivos. O ha ocurrido un "
+"error."
 
 #: src/window.py:117
 msgid "Installation Failed."
@@ -189,12 +191,12 @@ msgstr "Lectura-Escritura"
 
 #: src/window.py:220
 msgid "{} Exited With Error."
-msgstr "{} Cerrado con un error."
+msgstr "{} Terminado con un error."
 
 #: src/window.py:223
 msgid "{} Exited."
-msgstr "{} Cerrado."
+msgstr "{} Terminado."
 
 #: src/window.py:226
 msgid "{} Launched."
-msgstr "{} Lanzado."
+msgstr "{} Ejecutado."
