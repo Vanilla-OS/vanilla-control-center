@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-23 22:43+0200\n"
-"PO-Revision-Date: 2022-11-05 21:07+0000\n"
+"PO-Revision-Date: 2022-11-09 04:10+0000\n"
 "Last-Translator: sherichev <s9erx2@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ru/>\n"
@@ -86,7 +86,7 @@ msgstr "Статус неизменяемости (текущий сеанс)"
 
 #: src/gtk/window.ui:80
 msgid "Immutability is currently in Read and Write mode."
-msgstr "Неизменяемость сейчас находится в режиме Чтения и записи."
+msgstr "Неизменяемость сейчас находится в режиме чтения и записи."
 
 #: src/gtk/window.ui:90
 msgid "Restore on Reboot"
@@ -154,7 +154,7 @@ msgstr "Новые драйверы установлены."
 
 #: src/window.py:154
 msgid "Failed to Set Immutability Status."
-msgstr "Не удалось установить Статус неизменяемости."
+msgstr "Не удалось установить статус неизменяемости."
 
 #: src/window.py:159
 msgid "Immutability Enabled."
@@ -174,7 +174,7 @@ msgstr "Постоянный режим отключен."
 
 #: src/window.py:188
 msgid "Failed to Set Default Mode."
-msgstr "Не удалось изменить Режим по умолчанию."
+msgstr "Не удалось изменить режим по умолчанию."
 
 #: src/window.py:194
 msgid "Default Mode Changed to {}."
