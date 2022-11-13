@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-23 22:43+0200\n"
-"PO-Revision-Date: 2022-11-12 17:47+0000\n"
+"PO-Revision-Date: 2022-11-14 21:46+0000\n"
 "Last-Translator: عثمان محامدي <othmahammedi@proton.me>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ar/>\n"
@@ -86,7 +86,7 @@ msgstr "حالة الثبات (الجلسة الحالية)"
 
 #: src/gtk/window.ui:80
 msgid "Immutability is currently in Read and Write mode."
-msgstr "حالة الثبات: نظام ملفات الجذر في وضع القراءة والكتابة."
+msgstr "حالة الثبات: ملفات الجذر في وضع القراءة والكتابة."
 
 #: src/gtk/window.ui:90
 msgid "Restore on Reboot"
