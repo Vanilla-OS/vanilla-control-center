@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-23 22:43+0200\n"
-"PO-Revision-Date: 2022-11-09 04:10+0000\n"
-"Last-Translator: Pedro Costa <eng.pedrocosta@gmail.com>\n"
+"PO-Revision-Date: 2022-11-21 19:59+0000\n"
+"Last-Translator: Rodrigo Pedro <rodrigoresendespedro@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/pt/>\n"
 "Language: pt\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
 #: src/gtk/window.ui:16 src/main.py:59
@@ -34,7 +34,7 @@ msgstr "Instalação"
 
 #: src/gtk/dialog-installation.ui:21
 msgid "Installation in Progress…"
-msgstr "Instalação em progresso..."
+msgstr "Instalação em Progresso…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
@@ -61,11 +61,11 @@ msgstr "Aplicar Alterações"
 
 #: src/gtk/window.ui:44
 msgid "Drivers"
-msgstr "Controladores."
+msgstr "Controladores"
 
 #: src/gtk/window.ui:54
 msgid "Loading drivers…"
-msgstr "A carregar controladores..."
+msgstr "A carregar controladores…"
 
 #: src/gtk/window.ui:55
 msgid "Please wait while the available drivers are being loaded."
@@ -93,7 +93,7 @@ msgstr "Restaurar ao reiniciar"
 
 #: src/gtk/window.ui:91
 msgid "Choose whether to restore the default mode after a system reboot."
-msgstr "Escolha se pretende restaurar o modo padrão após reinicar o sistema."
+msgstr "Escolha se pretende restaurar o modo padrão após reiniciar o sistema."
 
 #: src/gtk/window.ui:101
 msgid "Default Mode"
@@ -105,11 +105,11 @@ msgstr "Escolha qual o modo a usar por defeito."
 
 #: src/gtk/window.ui:106
 msgid "Read Only"
-msgstr "Apenas Ler"
+msgstr "Apenas de Leitura"
 
 #: src/gtk/window.ui:107
 msgid "Read and Write"
-msgstr "Ler e Escrever"
+msgstr "Leitura e Escrita"
 
 #: src/gtk/window.ui:117
 msgid "Overlays"
@@ -149,7 +149,7 @@ msgstr "A instalação falhou."
 
 #: src/window.py:122
 msgid "New Drivers Installed."
-msgstr "Novos controladores instalados. "
+msgstr "Novos controladores instalados."
 
 #: src/window.py:154
 msgid "Failed to Set Immutability Status."
@@ -181,19 +181,19 @@ msgstr "Modo padrão alterado para {}."
 
 #: src/window.py:195
 msgid "Read-Only"
-msgstr "Apenas-Ler"
+msgstr "Apenas-de-Leitura"
 
 #: src/window.py:195
 msgid "Read-Write"
-msgstr "Ler-Escrever"
+msgstr "Leitura-Escrita"
 
 #: src/window.py:220
 msgid "{} Exited With Error."
-msgstr "{} terminado com erro."
+msgstr "{} terminou com erro."
 
 #: src/window.py:223
 msgid "{} Exited."
-msgstr "{} terminado."
+msgstr "{} terminou."
 
 #: src/window.py:226
 msgid "{} Launched."
