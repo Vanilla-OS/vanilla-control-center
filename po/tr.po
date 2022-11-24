@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-23 22:43+0200\n"
-"PO-Revision-Date: 2022-11-06 00:07+0000\n"
-"Last-Translator: Deniz Akşimşek <deniz@denizaksimsek.com>\n"
+"PO-Revision-Date: 2022-11-25 00:46+0000\n"
+"Last-Translator: Veysel Erden <veyselerden@outlook.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
 #: src/gtk/window.ui:16 src/main.py:59
@@ -129,7 +129,7 @@ msgstr "Yüklü Uygulamalar"
 
 #: src/gtk/window.ui:160
 msgid "_About Control-panel"
-msgstr "_Kontrol paneli hakkında"
+msgstr "_Kontrol Paneli Hakkında"
 
 #: src/main.py:66
 msgid "Translators"
