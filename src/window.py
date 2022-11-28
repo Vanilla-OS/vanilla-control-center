@@ -25,8 +25,8 @@ from gi.repository import Gtk, GLib, GObject
 from .driver import VanillaDriverRow, VanillaDriversGroup
 from .program import VanillaApxProgram
 from .ubuntu_drivers import UbuntuDrivers
-from .almost import Almost
 from .apx import Apx
+from .vso import Vso
 from .dialog_installation import VanillaDialogInstallation
 from .run_async import RunAsync
 
@@ -47,12 +47,10 @@ class VanillaWindow(Adw.ApplicationWindow):
     status_no_apx = Gtk.Template.Child()
     btn_apply = Gtk.Template.Child()
     toasts = Gtk.Template.Child()
-    status_almost = Gtk.Template.Child()
-    switch_almost_status = Gtk.Template.Child()
-    switch_almost_reboot = Gtk.Template.Child()
-    combo_almost_default = Gtk.Template.Child()
-    str_almost_defaults = Gtk.Template.Child()
-    page_almost = Gtk.Template.Child()
+    status_updates = Gtk.Template.Child()
+    row_update_status = Gtk.Template.Child()
+    combo_update_schedule = Gtk.Template.Child()
+    str_update_schedule = Gtk.Template.Child()
     page_apx = Gtk.Template.Child()
     group_apps = Gtk.Template.Child()
     __selected_drivers = {}
@@ -61,13 +59,13 @@ class VanillaWindow(Adw.ApplicationWindow):
         super().__init__(**kwargs)
         self.__selected_default = None
         self.ubuntu_drivers = UbuntuDrivers()
-        self.almost = Almost()
+        self.vso = Vso()
         self.apx = Apx()
         self.__build_ui()
 
     def __build_ui(self):
         self.__setup_devices()
-        self.__setup_almost()
+        self.__setup_vso()
         self.__setup_apx()
     
     # region Devices
@@ -129,74 +127,25 @@ class VanillaWindow(Adw.ApplicationWindow):
         RunAsync(async_task, callback)
     # endregion
 
-    # region Almost
-    def __setup_almost(self):
-        if not self.almost.supported:
-            self.page_almost.set_visible(False)
-            return
-        
-        self.__selected_default = self.almost.params.get("default", 0)
+    # region Vso
+    def __setup_vso(self):
+        if latest_check := self.vso.get_latest_check_beautified():
+            self.row_update_status.set_subtitle(latest_check)
 
-        self.switch_almost_status.set_active(self.almost.params.get("current", True))
-        self.switch_almost_reboot.set_active(self.almost.params.get("persistent", True))
-        self.combo_almost_default.set_selected(self.__selected_default)
+        self.combo_update_schedule.connect("notify::selected", self.__on_update_schedule_changed)
 
-        self.switch_almost_status.connect("state-set", self.__on_almost_status_changed)
-        self.switch_almost_reboot.connect("state-set", self.__on_almost_reboot_changed)
-        self.combo_almost_default.connect("notify::selected", self.__on_almost_default_changed)
+        if scheduling := self.vso.get_scheduling():
+            state = 1
+            if scheduling == "weekly":
+                state = 0
+            elif scheduling == "monthly":
+                state = 1
+            self.set_selected_with_no_trigger(self.combo_update_schedule, self.__on_update_schedule_changed, state)
 
-    def __on_almost_status_changed(self, widget, state):
-        def run_async():
-            return self.almost.set_current(state)
+    def __on_update_schedule_changed(self, widget, *args):
+        self.vso.set_scheduling(widget.get_selected())
+        self.toast(_("Update Schedule Changed."))
 
-        def callback(result, *args):
-            widget.set_sensitive(True)
-            if result in [None, False]:
-                self.toast(_("Failed to Set Immutability Status."))
-                self.set_state_with_no_trigger(
-                    widget, self.__on_almost_status_changed, not state)
-                return
-
-            self.toast(_("Immutability Enabled.") if state else _("Immutability Disabled."),)
-
-        widget.set_sensitive(False)
-        RunAsync(run_async, callback)
-
-    def __on_almost_reboot_changed(self, widget, state):
-        def run_async():
-            return self.almost.set_persistent(state)
-
-        def callback(result, *args):
-            widget.set_sensitive(True)
-            if result in [None, False]:
-                self.toast("Failed to Set Persistent Mode.")
-                self.set_state_with_no_trigger(
-                    widget, self.__on_almost_reboot_changed, not state)
-                return
-
-            self.toast(_("Persistent Mode Enabled.") if state else _("Persistent Mode Disabled."),)
-
-        widget.set_sensitive(False)
-        RunAsync(run_async, callback)
-
-    def __on_almost_default_changed(self, widget, state):
-        def run_async():
-            return self.almost.set_default(widget.get_selected())
-            
-        def callback(result, *args):
-            widget.set_sensitive(True)
-            if result in [None, False]:
-                self.toast(_("Failed to Set Default Mode."))
-                self.set_selected_with_no_trigger(
-                    widget, self.__on_almost_default_changed, self.__selected_default)
-                return
-                
-            self.__selected_default = widget.get_selected()
-            self.toast(_("Default Mode Changed to {}.").format(
-                _("Read-Only") if widget.get_selected() == 0 else _("Read-Write")))
-
-        widget.set_sensitive(False)
-        RunAsync(run_async, callback)
     # endregion
 
     # region Apx

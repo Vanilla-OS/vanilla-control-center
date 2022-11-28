@@ -8,7 +8,7 @@ src/gtk/help-overlay.ui
 src/gtk/program.ui
 src/gtk/window.ui
 
-src/almost.py
+src/vso.py
 src/apx.py
 src/dialog_installation.py
 src/driver.py

@@ -75,64 +75,33 @@
                   </object>
                 </child>
                 <child>
-                  <object class="AdwViewStackPage" id="page_almost">
-                    <property name="name">immutability</property>
-                    <property name="title" translatable="true">Immutability</property>
-                    <property name="icon-name">security-medium-symbolic</property>
+                  <object class="AdwViewStackPage" id="page_updates">
+                    <property name="name">updates</property>
+                    <property name="title" translatable="true">Updates</property>
+                    <property name="icon-name">software-update-available-symbolic</property>
                     <property name="child">
-                      <object class="AdwPreferencesPage" id="status_almost">
+                      <object class="AdwPreferencesPage" id="status_updates">
                         <child>
                           <object class="AdwPreferencesGroup">
                             <property name="title" translatable="true">Preferences</property>
                             <child>
-                              <object class="AdwActionRow">
-                                <property name="title" translatable="true">Immutability Status (current session)</property>
-                                <property name="subtitle" translatable="true">Immutability is currently in Read and Write mode.</property>
-                                <child type="suffix">
-                                  <object class="GtkSwitch" id="switch_almost_status">
-                                    <property name="valign">center</property>
-                                  </object>
-                                </child>
+                              <object class="AdwActionRow" id="row_update_status">
+                                <property name="title" translatable="true">Latest Update Check</property>
+                                <property name="subtitle" translatable="true">Never</property>
                               </object>
                             </child>
                             <child>
-                              <object class="AdwActionRow">
-                                <property name="title" translatable="true">Restore on Reboot</property>
-                                <property name="subtitle" translatable="true">Choose whether to restore the default mode after a system reboot.</property>
-                                <child type="suffix">
-                                  <object class="GtkSwitch" id="switch_almost_reboot">
-                                    <property name="valign">center</property>
-                                  </object>
-                                </child>
-                              </object>
-                            </child>
-                            <child>
-                              <object class="AdwComboRow" id="combo_almost_default">
-                                <property name="title" translatable="true">Default Mode</property>
-                                <property name="subtitle" translatable="true">Choose which mode to use by default.</property>
+                              <object class="AdwComboRow" id="combo_update_schedule">
+                                <property name="title" translatable="true">Updates Scheduling</property>
+                                <property name="subtitle" translatable="true">Choose how often the system should check for updates.</property>
                                 <property name="model">
-                                  <object class="GtkStringList" id="str_almost_defaults">
+                                  <object class="GtkStringList" id="str_update_schedule">
                                     <items>
-                                      <item translatable="yes">Read Only</item>
-                                      <item translatable="yes">Read and Write</item>
+                                      <item translatable="yes">Weekly</item>
+                                      <item translatable="yes">Monthly</item>
                                     </items>
                                   </object>
                                 </property>
-                              </object>
-                            </child>
-                          </object>
-                        </child>
-                        <child>
-                          <object class="AdwPreferencesGroup">
-                            <property name="title" translatable="true">Overlays</property>
-                            <property name="description" translatable="true">Not Implemented yet.</property>
-                            <property name="sensitive">false</property>
-                            <child type="header-suffix">
-                              <object class="GtkButton">
-                                <property name="icon-name">list-add-symbolic</property>
-                                <style>
-                                  <class name="flat" />
-                                </style>
                               </object>
                             </child>
                           </object>
@@ -150,7 +119,6 @@
                       <object class="GtkBox">
                         <property name="orientation">vertical</property>
                         <property name="halign">fill</property>
-                        <property name="valign">center</property>
                         <child>
                           <object class="AdwStatusPage" id="status_no_apx">
                             <property name="visible">false</property>

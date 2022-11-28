@@ -32,7 +32,7 @@ vanilla_control_center_sources = [
   'driver.py',
   'program.py',
   'run_async.py',
-  'almost.py',
+  'vso.py',
   'apx.py',
   'ubuntu_drivers.py',
   'dialog_installation.py',

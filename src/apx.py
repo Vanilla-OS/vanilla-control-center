@@ -34,6 +34,7 @@ class Apx:
     __managed_containers = {
         "apx_managed": "Sub System",
         "apx_managed_aur": "Arch Linux Sub System",
+        "apx_managed_dnf": "Fedora Sub System",
     }
 
     def __init__(self):
@@ -66,7 +67,7 @@ class Apx:
                 for index, line in enumerate(lines):
                     if _name and _exec and _terminal:
                         apps.append({
-                            "Container": self.__managed_containers[container],
+                            "Container": self.__managed_containers.get(container, "Other"),
                             "Name": _name,
                             "Exec": _exec,
                             "Terminal": _terminal,

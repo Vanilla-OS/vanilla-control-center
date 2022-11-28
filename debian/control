@@ -26,5 +26,5 @@ Depends: python3,
          gir1.2-adw-1,
          ubuntu-drivers-common,
          apx,
-         almost
+         vanilla-system-operator
 Description: This utility allows you to manage Vanilla OS components.
