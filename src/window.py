@@ -103,6 +103,10 @@ class VanillaWindow(Adw.ApplicationWindow):
         self.btn_apply.set_visible(len(self.__selected_drivers) > 0)
 
     def __on_apply_clicked(self, widget):
+        if not self.ubuntu_drivers.can_install():
+            self.toast(_("Another transaction is running or the system needs to be restarted."))
+            return
+
         def async_task():
             res = []
             for model in self.__selected_drivers:

@@ -76,6 +76,9 @@ class UbuntuDrivers:
         logger.debug("Driver %s installed: %s", driver, res)
         return res
 
+    def can_install(self) -> bool:
+        return not os.path.exists("/tmp/abroot-transactions.lock")
+
     def install(self, driver: str) -> bool:
         if "FAKE" in os.environ:
             logging.info(f"executing cmd: pkexec {self.__binary} install {driver}")
