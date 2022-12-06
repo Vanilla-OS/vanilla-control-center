@@ -9,7 +9,6 @@ Build-Depends:
             meson,
             libadwaita-1-dev,
             gettext,
-            ubuntu-drivers-common,
             make,
             desktop-file-utils
 Homepage: https://github.com/mirkobrombin/vanilla-control-center/
