@@ -86,7 +86,7 @@ class UbuntuDrivers:
 
         with tempfile.NamedTemporaryFile(mode="w", delete=False) as f:
             f.write("#!/bin/bash\n")
-            f.write(f"sudo abroot exec apt install {driver} -y")
+            f.write(f"sudo abroot exec apt install linux-headers-$(uname -r) {driver} -y")
             f.close()
             os.chmod(f.name, 0o755)
             _cmd = ["pkexec", f.name]
