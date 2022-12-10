@@ -51,8 +51,10 @@ class VanillaWindow(Adw.ApplicationWindow):
     row_update_status = Gtk.Template.Child()
     combo_update_schedule = Gtk.Template.Child()
     str_update_schedule = Gtk.Template.Child()
+    switch_update_smart = Gtk.Template.Child()
     page_apx = Gtk.Template.Child()
     group_apps = Gtk.Template.Child()
+    
     __selected_drivers = {}
 
     def __init__(self, **kwargs):
@@ -136,20 +138,33 @@ class VanillaWindow(Adw.ApplicationWindow):
         if latest_check := self.vso.get_latest_check_beautified():
             self.row_update_status.set_subtitle(latest_check)
 
-        self.combo_update_schedule.connect("notify::selected", self.__on_update_schedule_changed)
-
         if scheduling := self.vso.get_scheduling():
             state = 1
             if scheduling == "weekly":
                 state = 0
             elif scheduling == "monthly":
                 state = 1
-            self.set_selected_with_no_trigger(self.combo_update_schedule, self.__on_update_schedule_changed, state)
+            self.combo_update_schedule.set_selected(state)
+
+        if smart := self.vso.get_smart():
+            self.switch_update_smart.set_active(smart)
+
+        self.combo_update_schedule.connect("notify::selected", self.__on_update_schedule_changed)
+        self.switch_update_smart.connect("state-set", self.__on_update_smart_changed)
+
+    def __on_update_smart_changed(self, widget, state, *args):
+        if self.vso.set_smartupdate(state):
+            self.toast(_("SmartUpdate Changed."))
+            return
 
     def __on_update_schedule_changed(self, widget, *args):
-        self.vso.set_scheduling(widget.get_selected())
-        self.toast(_("Update Schedule Changed."))
+        new_state = widget.get_selected()
+        old_state = 0 if new_state == 1 else 1
 
+        if self.vso.set_scheduling(new_state):
+            self.toast(_("Update Schedule Changed."))
+            return
+            
     # endregion
 
     # region Apx
@@ -189,13 +204,3 @@ class VanillaWindow(Adw.ApplicationWindow):
         toast = Adw.Toast.new(message)
         toast.props.timeout = timeout
         self.toasts.add_toast(toast)
-    
-    def set_state_with_no_trigger(self, widget, signal_func, state):
-        widget.handler_block_by_func(signal_func)
-        widget.set_active(state)
-        widget.handler_unblock_by_func(signal_func)
-
-    def set_selected_with_no_trigger(self, widget, signal_func, state):
-        widget.handler_block_by_func(signal_func)
-        widget.set_selected(state)
-        widget.handler_unblock_by_func(signal_func)

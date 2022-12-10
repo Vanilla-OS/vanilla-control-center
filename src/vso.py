@@ -18,6 +18,7 @@
 # SPDX-License-Identifier: GPL-3.0-only
 
 import os
+import json
 import logging
 import subprocess
 import shutil
@@ -34,6 +35,7 @@ class Vso:
 
     def __init__(self):
         self.__binary = shutil.which("vso")
+        self.__conf_path = "/etc/vso/config.json"
         
     def get_latest_check(self) -> str:
         if os.path.exists("/var/log/vso-check.log"):
@@ -51,13 +53,27 @@ class Vso:
             
         return
 
-    def get_scheduling(self) -> str:
-        res = subprocess.check_output([self.__binary, "config", "get", "updates.schedule"])
-        return res.decode("utf-8").strip()
+    def get_config(self) -> dict:
+        if os.path.exists(self.__conf_path):
+            with open(self.__conf_path, "r") as f:
+                return json.load(f)
+        
+        raise FileNotFoundError("VSO Config file not found at {}".format(self.__conf_path))
 
-    def set_scheduling(self, value: int):
+    def get_scheduling(self) -> str:
+        return self.get_config()["updates"]["schedule"]
+
+    def get_smart(self) -> bool:
+        return self.get_config()["updates"]["smart"]
+
+    def set_scheduling(self, value: int) -> bool:
         rules = {
             0: "weekly",
             1: "monthly"
         }
-        subprocess.run(["pkexec", self.__binary, "config", "set", "updates.schedule", rules[value]])
+        res = subprocess.run(["pkexec", self.__binary, "config", "set", "updates.schedule", rules[value]])
+        return res.returncode == 0
+
+    def set_smartupdate(self, value: bool) -> bool:
+        res = subprocess.run(["pkexec", self.__binary, "config", "set", "updates.smart", str(value).lower()])
+        return res.returncode == 0
