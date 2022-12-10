@@ -1,5 +1,5 @@
-vanilla-control-center (0.2) kinetic; urgency=low
+vanilla-control-center (0.2.1) kinetic; urgency=low
 
-  * First release
+  * Support for VSO SmartUpdate
 
- -- Mirko Brombin <send@mirko.pm>  Thu, 20 Sep 2022 22:01:00 +0000
+ -- Mirko Brombin <send@mirko.pm>  Sat, 10 Dec 2022 13:48:00 +0000
