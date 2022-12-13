@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-23 22:43+0200\n"
-"PO-Revision-Date: 2022-12-12 08:50+0000\n"
+"PO-Revision-Date: 2022-12-13 10:48+0000\n"
 "Last-Translator: Neeraj55#5 <thakurfazer55@gmail.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/hi/>\n"
@@ -26,46 +26,46 @@ msgstr "वैनिला OS कंट्रोल सेंटर"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "कोई विवरण नहीं"
 
 #: src/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "इंस्टालेशन"
 
 #: src/gtk/dialog-installation.ui:21
 msgid "Installation in Progress…"
-msgstr ""
+msgstr "इंस्टालेशन हो रही है …"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr ""
+msgstr "आपकी इंटरनेट स्पीड के अनुसार, कुछ देर लग सकती है ।"
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "जनरल"
 
 #: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "शॉर्टकट दिखाएं"
 
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "बंद करें"
 
 #: src/gtk/window.ui:27
 msgid "Apply Changes"
-msgstr ""
+msgstr "परिवर्तन लागू करें"
 
 #: src/gtk/window.ui:44
 msgid "Drivers"
-msgstr ""
+msgstr "ड्राइवर्ज़"
 
 #: src/gtk/window.ui:54
 msgid "Loading drivers…"
-msgstr ""
+msgstr "ड्राइवर्ज़ लोड हो रहे हैं…"
 
 #: src/gtk/window.ui:55
 msgid "Please wait while the available drivers are being loaded."
