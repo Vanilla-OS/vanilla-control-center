@@ -8,191 +8,195 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-10-23 22:43+0200\n"
-"PO-Revision-Date: 2022-10-22 21:54+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-12-22 11:48+0000\n"
+"Last-Translator: Michal Maděra <misamadera1@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
 #: src/gtk/window.ui:16 src/main.py:59
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "Ovládací Centrum Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Bez popisu"
 
 #: src/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "Instalace"
 
 #: src/gtk/dialog-installation.ui:21
 msgid "Installation in Progress…"
-msgstr ""
+msgstr "Probíhá instalace…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
 msgstr ""
+"Tato akce může trvat v závislosti na rychlosti vašeho internetového "
+"připojení ."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Obecné"
 
 #: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Zobrazit klávesové zkratky"
 
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Ukončit"
 
 #: src/gtk/window.ui:27
 msgid "Apply Changes"
-msgstr ""
+msgstr "Použít změny"
 
 #: src/gtk/window.ui:44
 msgid "Drivers"
-msgstr ""
+msgstr "Ovladače"
 
 #: src/gtk/window.ui:54
 msgid "Loading drivers…"
-msgstr ""
+msgstr "Načítání ovladačů…"
 
 #: src/gtk/window.ui:55
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "Počkejte prosím, než se načtou dostupné ovladače."
 
 #: src/gtk/window.ui:70
 msgid "Immutability"
-msgstr ""
+msgstr "Neměnnost"
 
 #: src/gtk/window.ui:76
 msgid "Preferences"
-msgstr ""
+msgstr "Předvolby"
 
 #: src/gtk/window.ui:79
 msgid "Immutability Status (current session)"
-msgstr ""
+msgstr "Stav neměnnosti (aktuální relace)"
 
 #: src/gtk/window.ui:80
 msgid "Immutability is currently in Read and Write mode."
-msgstr ""
+msgstr "Neměnnost je v současné době v režimu čtení a zápisu."
 
 #: src/gtk/window.ui:90
 msgid "Restore on Reboot"
-msgstr ""
+msgstr "Obnovit při restartu"
 
 #: src/gtk/window.ui:91
 msgid "Choose whether to restore the default mode after a system reboot."
-msgstr ""
+msgstr "Zvolte, zda se má po restartu systému obnovit výchozí režim."
 
 #: src/gtk/window.ui:101
 msgid "Default Mode"
-msgstr ""
+msgstr "Výchozí režim"
 
 #: src/gtk/window.ui:102
 msgid "Choose which mode to use by default."
-msgstr ""
+msgstr "Vyberte, který režim se má použít ve výchozím nastavení."
 
 #: src/gtk/window.ui:106
 msgid "Read Only"
-msgstr ""
+msgstr "Pouze pro čtení"
 
 #: src/gtk/window.ui:107
 msgid "Read and Write"
-msgstr ""
+msgstr "Čtení a zápis"
 
 #: src/gtk/window.ui:117
 msgid "Overlays"
-msgstr ""
+msgstr "Překrytí"
 
 #: src/gtk/window.ui:118
 msgid "Not Implemented yet."
-msgstr ""
+msgstr "Zatím neimplementováno."
 
 #: src/gtk/window.ui:137
 msgid "Sub System"
-msgstr ""
+msgstr "Subsystém"
 
 #: src/gtk/window.ui:143
 msgid "Installed Applications"
-msgstr ""
+msgstr "Nainstalované aplikace"
 
 #: src/gtk/window.ui:160
 msgid "_About Control-panel"
-msgstr ""
+msgstr "_O ovládacím panelu"
 
 #: src/main.py:66
 msgid "Translators"
-msgstr ""
+msgstr "Překladatelé"
 
 #: src/window.py:86
 msgid "No Drivers Found."
-msgstr ""
+msgstr "Nebyly nalezeny žádné ovladače."
 
 #: src/window.py:87
 msgid "No drivers found for your devices or an error occurred."
-msgstr ""
+msgstr "Pro vaše zařízení nebyly nalezeny žádné ovladače nebo došlo k chybě."
 
 #: src/window.py:117
 msgid "Installation Failed."
-msgstr ""
+msgstr "Instalace se nezdařila."
 
 #: src/window.py:122
 msgid "New Drivers Installed."
-msgstr ""
+msgstr "Nainstalovaly se nové ovladače."
 
 #: src/window.py:154
 msgid "Failed to Set Immutability Status."
-msgstr ""
+msgstr "Nepodařilo se nastavit stav neměnnosti."
 
 #: src/window.py:159
 msgid "Immutability Enabled."
-msgstr ""
+msgstr "Neměnnost povolena."
 
 #: src/window.py:159
 msgid "Immutability Disabled."
-msgstr ""
+msgstr "Neměnnost zakázána."
 
 #: src/window.py:176
 msgid "Persistent Mode Enabled."
-msgstr ""
+msgstr "Povolen trvalý režim."
 
 #: src/window.py:176
 msgid "Persistent Mode Disabled."
-msgstr ""
+msgstr "Zakázán trvalý režim."
 
 #: src/window.py:188
 msgid "Failed to Set Default Mode."
-msgstr ""
+msgstr "Nepodařilo se nastavit výchozí režim."
 
 #: src/window.py:194
 msgid "Default Mode Changed to {}."
-msgstr ""
+msgstr "Výchozí režim změněn na {}."
 
 #: src/window.py:195
 msgid "Read-Only"
-msgstr ""
+msgstr "Pouze pro čtení"
 
 #: src/window.py:195
 msgid "Read-Write"
-msgstr ""
+msgstr "Čtení a zápis"
 
 #: src/window.py:220
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} Ukončeno s chybou."
 
 #: src/window.py:223
 msgid "{} Exited."
-msgstr ""
+msgstr "{} Ukončeno."
 
 #: src/window.py:226
 msgid "{} Launched."
-msgstr ""
+msgstr "{} Spuštěno."
