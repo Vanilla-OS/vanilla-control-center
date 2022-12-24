@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-23 22:43+0200\n"
+"POT-Creation-Date: 2022-12-24 20:34+0530\n"
 "PO-Revision-Date: 2022-11-09 04:10+0000\n"
 "Last-Translator: 이정희 <daemul72@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/vanilla-os/"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.14.2\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
-#: src/gtk/window.ui:16 src/main.py:59
+#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
+#: src/gtk/window.ui:17 src/main.py:58
 msgid "Vanilla OS Control Center"
 msgstr "바닐라 OS 제어 센터"
 
@@ -55,146 +55,192 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "종료"
 
-#: src/gtk/window.ui:27
+#: src/gtk/window.ui:28
 msgid "Apply Changes"
 msgstr "변경사항 적용하기"
 
-#: src/gtk/window.ui:44
+#: src/gtk/window.ui:45
 msgid "Drivers"
 msgstr "드라이버"
 
-#: src/gtk/window.ui:54
+#: src/gtk/window.ui:55
 msgid "Loading drivers…"
 msgstr "드라이버 불러오는 중…"
 
-#: src/gtk/window.ui:55
+#: src/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
 msgstr "사용 가능한 드라이버를 불러오는 동안 잠시 기다려 주십시오."
 
-#: src/gtk/window.ui:70
-msgid "Immutability"
-msgstr "불변성"
+#: src/gtk/window.ui:64
+#, fuzzy
+msgid "No Drivers Available"
+msgstr "새 드라이버가 설치되었습니다."
 
-#: src/gtk/window.ui:76
+#: src/gtk/window.ui:65
+msgid "There are no extra drivers available for your system."
+msgstr ""
+
+#: src/gtk/window.ui:80
+msgid "Updates"
+msgstr ""
+
+#: src/gtk/window.ui:86
 msgid "Preferences"
 msgstr "환경설정"
 
-#: src/gtk/window.ui:79
-msgid "Immutability Status (current session)"
-msgstr "불변성 상태 (현재 세션)"
-
-#: src/gtk/window.ui:80
-msgid "Immutability is currently in Read and Write mode."
-msgstr "불변성은 현재 읽기 및 쓰기 모드에 있습니다."
+#: src/gtk/window.ui:89
+msgid "Latest Update Check"
+msgstr ""
 
 #: src/gtk/window.ui:90
-msgid "Restore on Reboot"
-msgstr "재부팅 시 복원하기"
+msgid "Never"
+msgstr ""
 
-#: src/gtk/window.ui:91
-msgid "Choose whether to restore the default mode after a system reboot."
-msgstr "시스템 재부팅 후 기본 모드를 복원할지 여부를 결정합니다."
+#: src/gtk/window.ui:95
+msgid "Updates Scheduling"
+msgstr ""
+
+#: src/gtk/window.ui:96
+msgid "Choose how often the system should check for updates."
+msgstr ""
+
+#: src/gtk/window.ui:100
+msgid "Weekly"
+msgstr ""
 
 #: src/gtk/window.ui:101
-msgid "Default Mode"
-msgstr "기본 모드"
+msgid "Monthly"
+msgstr ""
 
-#: src/gtk/window.ui:102
-msgid "Choose which mode to use by default."
-msgstr "기본적으로 사용할 모드를 결정합니다."
+#: src/gtk/window.ui:109
+msgid "SmartUpdate"
+msgstr ""
 
-#: src/gtk/window.ui:106
-msgid "Read Only"
-msgstr "읽기 전용"
+#: src/gtk/window.ui:110
+msgid ""
+"If enabled, the system will not update if the system is in high load or "
+"battery is low."
+msgstr ""
 
-#: src/gtk/window.ui:107
-msgid "Read and Write"
-msgstr "읽기 및 쓰기"
-
-#: src/gtk/window.ui:117
-msgid "Overlays"
-msgstr "오버레이"
-
-#: src/gtk/window.ui:118
-msgid "Not Implemented yet."
-msgstr "아직 구현되지 않았습니다."
-
-#: src/gtk/window.ui:137
+#: src/gtk/window.ui:127
 msgid "Sub System"
 msgstr "하위 시스템"
 
-#: src/gtk/window.ui:143
+#: src/gtk/window.ui:139
+msgid "No Containerized Apps"
+msgstr ""
+
+#: src/gtk/window.ui:140
+msgid "There are no containerized apps installed on your system."
+msgstr ""
+
+#: src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr "설치된 응용 프로그램"
 
-#: src/gtk/window.ui:160
-msgid "_About Control-panel"
+#: src/gtk/window.ui:166
+#, fuzzy
+msgid "_About Control-center"
 msgstr "제어판 정보(_A)"
 
-#: src/main.py:66
+#: src/main.py:65
 msgid "Translators"
 msgstr "번역자"
 
-#: src/window.py:86
-msgid "No Drivers Found."
-msgstr "드라이버를 찾을 수 없습니다."
+#: src/window.py:109
+msgid "Another transaction is running or the system needs to be restarted."
+msgstr ""
 
-#: src/window.py:87
-msgid "No drivers found for your devices or an error occurred."
-msgstr "장치에 대한 드라이버를 찾을 수 없거나 오류가 발생했습니다."
-
-#: src/window.py:117
+#: src/window.py:122
 msgid "Installation Failed."
 msgstr "설치에 실패했습니다."
 
-#: src/window.py:122
+#: src/window.py:127
 msgid "New Drivers Installed."
 msgstr "새 드라이버가 설치되었습니다."
 
-#: src/window.py:154
-msgid "Failed to Set Immutability Status."
-msgstr "불변성 상태를 설정하지 못했습니다."
+#: src/window.py:157
+msgid "SmartUpdate Changed."
+msgstr ""
 
-#: src/window.py:159
-msgid "Immutability Enabled."
-msgstr "불변성이 활성화되었습니다."
-
-#: src/window.py:159
-msgid "Immutability Disabled."
-msgstr "불변성이 비활성화되었습니다."
-
-#: src/window.py:176
-msgid "Persistent Mode Enabled."
-msgstr "영구 모드가 활성화되었습니다."
-
-#: src/window.py:176
-msgid "Persistent Mode Disabled."
-msgstr "영구 모드가 비활성화되었습니다."
-
-#: src/window.py:188
-msgid "Failed to Set Default Mode."
-msgstr "기본 모드를 설정하지 못했습니다."
+#: src/window.py:165
+msgid "Update Schedule Changed."
+msgstr ""
 
 #: src/window.py:194
-msgid "Default Mode Changed to {}."
-msgstr "기본 모드가 {}(으)로 변경되었습니다."
-
-#: src/window.py:195
-msgid "Read-Only"
-msgstr "읽기 전용"
-
-#: src/window.py:195
-msgid "Read-Write"
-msgstr "읽기-쓰기"
-
-#: src/window.py:220
 msgid "{} Exited With Error."
 msgstr "{}이 오류와 함께 종료되었습니다."
 
-#: src/window.py:223
+#: src/window.py:197
 msgid "{} Exited."
 msgstr "{}이 종료되었습니다."
 
-#: src/window.py:226
+#: src/window.py:200
 msgid "{} Launched."
 msgstr "{}이 시작되었습니다."
+
+#~ msgid "Immutability"
+#~ msgstr "불변성"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "불변성 상태 (현재 세션)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "불변성은 현재 읽기 및 쓰기 모드에 있습니다."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "재부팅 시 복원하기"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr "시스템 재부팅 후 기본 모드를 복원할지 여부를 결정합니다."
+
+#~ msgid "Default Mode"
+#~ msgstr "기본 모드"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "기본적으로 사용할 모드를 결정합니다."
+
+#~ msgid "Read Only"
+#~ msgstr "읽기 전용"
+
+#~ msgid "Read and Write"
+#~ msgstr "읽기 및 쓰기"
+
+#~ msgid "Overlays"
+#~ msgstr "오버레이"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "아직 구현되지 않았습니다."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "드라이버를 찾을 수 없습니다."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr "장치에 대한 드라이버를 찾을 수 없거나 오류가 발생했습니다."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "불변성 상태를 설정하지 못했습니다."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "불변성이 활성화되었습니다."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "불변성이 비활성화되었습니다."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "영구 모드가 활성화되었습니다."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "영구 모드가 비활성화되었습니다."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "기본 모드를 설정하지 못했습니다."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "기본 모드가 {}(으)로 변경되었습니다."
+
+#~ msgid "Read-Only"
+#~ msgstr "읽기 전용"
+
+#~ msgid "Read-Write"
+#~ msgstr "읽기-쓰기"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-23 22:43+0200\n"
+"POT-Creation-Date: 2022-12-24 20:34+0530\n"
 "PO-Revision-Date: 2022-11-21 19:59+0000\n"
 "Last-Translator: Rodrigo Pedro <rodrigoresendespedro@gmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/vanilla-os/"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.15-dev\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
-#: src/gtk/window.ui:16 src/main.py:59
+#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
+#: src/gtk/window.ui:17 src/main.py:58
 msgid "Vanilla OS Control Center"
 msgstr "Centro de Controlo do Vanilla OS"
 
@@ -38,7 +38,9 @@ msgstr "Instalação em Progresso…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr "Isto poderá demorar um pouco, dependendo da velocidade da sua ligação à internet."
+msgstr ""
+"Isto poderá demorar um pouco, dependendo da velocidade da sua ligação à "
+"internet."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -55,146 +57,197 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Sair"
 
-#: src/gtk/window.ui:27
+#: src/gtk/window.ui:28
 msgid "Apply Changes"
 msgstr "Aplicar Alterações"
 
-#: src/gtk/window.ui:44
+#: src/gtk/window.ui:45
 msgid "Drivers"
 msgstr "Controladores"
 
-#: src/gtk/window.ui:54
+#: src/gtk/window.ui:55
 msgid "Loading drivers…"
 msgstr "A carregar controladores…"
 
-#: src/gtk/window.ui:55
+#: src/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
-msgstr "Por favor aguarde enquanto os controladores disponíveis estão a ser carregados."
+msgstr ""
+"Por favor aguarde enquanto os controladores disponíveis estão a ser "
+"carregados."
 
-#: src/gtk/window.ui:70
-msgid "Immutability"
-msgstr "Imutabilidade"
+#: src/gtk/window.ui:64
+#, fuzzy
+msgid "No Drivers Available"
+msgstr "Novos controladores instalados."
 
-#: src/gtk/window.ui:76
+#: src/gtk/window.ui:65
+msgid "There are no extra drivers available for your system."
+msgstr ""
+
+#: src/gtk/window.ui:80
+msgid "Updates"
+msgstr ""
+
+#: src/gtk/window.ui:86
 msgid "Preferences"
 msgstr "Preferências"
 
-#: src/gtk/window.ui:79
-msgid "Immutability Status (current session)"
-msgstr "Estado da Imutabilidade (sessão atual)"
-
-#: src/gtk/window.ui:80
-msgid "Immutability is currently in Read and Write mode."
-msgstr "A Imutabilidade está atualmente em modo de Leitura e Escrita."
+#: src/gtk/window.ui:89
+msgid "Latest Update Check"
+msgstr ""
 
 #: src/gtk/window.ui:90
-msgid "Restore on Reboot"
-msgstr "Restaurar ao reiniciar"
+msgid "Never"
+msgstr ""
 
-#: src/gtk/window.ui:91
-msgid "Choose whether to restore the default mode after a system reboot."
-msgstr "Escolha se pretende restaurar o modo padrão após reiniciar o sistema."
+#: src/gtk/window.ui:95
+msgid "Updates Scheduling"
+msgstr ""
+
+#: src/gtk/window.ui:96
+msgid "Choose how often the system should check for updates."
+msgstr ""
+
+#: src/gtk/window.ui:100
+msgid "Weekly"
+msgstr ""
 
 #: src/gtk/window.ui:101
-msgid "Default Mode"
-msgstr "Modo Padrão"
+msgid "Monthly"
+msgstr ""
 
-#: src/gtk/window.ui:102
-msgid "Choose which mode to use by default."
-msgstr "Escolha qual o modo a usar por defeito."
+#: src/gtk/window.ui:109
+msgid "SmartUpdate"
+msgstr ""
 
-#: src/gtk/window.ui:106
-msgid "Read Only"
-msgstr "Apenas de Leitura"
+#: src/gtk/window.ui:110
+msgid ""
+"If enabled, the system will not update if the system is in high load or "
+"battery is low."
+msgstr ""
 
-#: src/gtk/window.ui:107
-msgid "Read and Write"
-msgstr "Leitura e Escrita"
-
-#: src/gtk/window.ui:117
-msgid "Overlays"
-msgstr "Sobreposições"
-
-#: src/gtk/window.ui:118
-msgid "Not Implemented yet."
-msgstr "Ainda não implementado."
-
-#: src/gtk/window.ui:137
+#: src/gtk/window.ui:127
 msgid "Sub System"
 msgstr "Sub Sistema"
 
-#: src/gtk/window.ui:143
+#: src/gtk/window.ui:139
+msgid "No Containerized Apps"
+msgstr ""
+
+#: src/gtk/window.ui:140
+msgid "There are no containerized apps installed on your system."
+msgstr ""
+
+#: src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr "Aplicações Instaladas"
 
-#: src/gtk/window.ui:160
-msgid "_About Control-panel"
+#: src/gtk/window.ui:166
+#, fuzzy
+msgid "_About Control-center"
 msgstr "_Sobre Painel-controlo"
 
-#: src/main.py:66
+#: src/main.py:65
 msgid "Translators"
 msgstr "Tradutores"
 
-#: src/window.py:86
-msgid "No Drivers Found."
-msgstr "Não foram encontrados controladores."
+#: src/window.py:109
+msgid "Another transaction is running or the system needs to be restarted."
+msgstr ""
 
-#: src/window.py:87
-msgid "No drivers found for your devices or an error occurred."
-msgstr "Não foram encontrados controladores para os seus dispositivos, ou terá ocorrido um erro."
-
-#: src/window.py:117
+#: src/window.py:122
 msgid "Installation Failed."
 msgstr "A instalação falhou."
 
-#: src/window.py:122
+#: src/window.py:127
 msgid "New Drivers Installed."
 msgstr "Novos controladores instalados."
 
-#: src/window.py:154
-msgid "Failed to Set Immutability Status."
-msgstr "Falha ao definir o Estado de Imutabilidade."
+#: src/window.py:157
+msgid "SmartUpdate Changed."
+msgstr ""
 
-#: src/window.py:159
-msgid "Immutability Enabled."
-msgstr "Imutabilidade ativada."
-
-#: src/window.py:159
-msgid "Immutability Disabled."
-msgstr "Imutabilidade desativada."
-
-#: src/window.py:176
-msgid "Persistent Mode Enabled."
-msgstr "Modo Persistente ativado."
-
-#: src/window.py:176
-msgid "Persistent Mode Disabled."
-msgstr "Modo Persistente desativado."
-
-#: src/window.py:188
-msgid "Failed to Set Default Mode."
-msgstr "Falha ao definir o modo padrão."
+#: src/window.py:165
+msgid "Update Schedule Changed."
+msgstr ""
 
 #: src/window.py:194
-msgid "Default Mode Changed to {}."
-msgstr "Modo padrão alterado para {}."
-
-#: src/window.py:195
-msgid "Read-Only"
-msgstr "Apenas-de-Leitura"
-
-#: src/window.py:195
-msgid "Read-Write"
-msgstr "Leitura-Escrita"
-
-#: src/window.py:220
 msgid "{} Exited With Error."
 msgstr "{} terminou com erro."
 
-#: src/window.py:223
+#: src/window.py:197
 msgid "{} Exited."
 msgstr "{} terminou."
 
-#: src/window.py:226
+#: src/window.py:200
 msgid "{} Launched."
 msgstr "{} iniciado."
+
+#~ msgid "Immutability"
+#~ msgstr "Imutabilidade"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Estado da Imutabilidade (sessão atual)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "A Imutabilidade está atualmente em modo de Leitura e Escrita."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Restaurar ao reiniciar"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr ""
+#~ "Escolha se pretende restaurar o modo padrão após reiniciar o sistema."
+
+#~ msgid "Default Mode"
+#~ msgstr "Modo Padrão"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Escolha qual o modo a usar por defeito."
+
+#~ msgid "Read Only"
+#~ msgstr "Apenas de Leitura"
+
+#~ msgid "Read and Write"
+#~ msgstr "Leitura e Escrita"
+
+#~ msgid "Overlays"
+#~ msgstr "Sobreposições"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Ainda não implementado."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Não foram encontrados controladores."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr ""
+#~ "Não foram encontrados controladores para os seus dispositivos, ou terá "
+#~ "ocorrido um erro."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Falha ao definir o Estado de Imutabilidade."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Imutabilidade ativada."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Imutabilidade desativada."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Modo Persistente ativado."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Modo Persistente desativado."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Falha ao definir o modo padrão."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Modo padrão alterado para {}."
+
+#~ msgid "Read-Only"
+#~ msgstr "Apenas-de-Leitura"
+
+#~ msgid "Read-Write"
+#~ msgstr "Leitura-Escrita"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-23 22:43+0200\n"
+"POT-Creation-Date: 2022-12-24 20:34+0530\n"
 "PO-Revision-Date: 2022-12-04 04:48+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/vanilla-os/"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.15-dev\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
-#: src/gtk/window.ui:16 src/main.py:59
+#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
+#: src/gtk/window.ui:17 src/main.py:58
 msgid "Vanilla OS Control Center"
 msgstr ""
 
@@ -55,146 +55,124 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr ""
 
-#: src/gtk/window.ui:27
+#: src/gtk/window.ui:28
 msgid "Apply Changes"
 msgstr ""
 
-#: src/gtk/window.ui:44
+#: src/gtk/window.ui:45
 msgid "Drivers"
 msgstr ""
 
-#: src/gtk/window.ui:54
+#: src/gtk/window.ui:55
 msgid "Loading drivers…"
 msgstr ""
 
-#: src/gtk/window.ui:55
+#: src/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
 msgstr ""
 
-#: src/gtk/window.ui:70
-msgid "Immutability"
+#: src/gtk/window.ui:64
+msgid "No Drivers Available"
 msgstr ""
 
-#: src/gtk/window.ui:76
-msgid "Preferences"
-msgstr ""
-
-#: src/gtk/window.ui:79
-msgid "Immutability Status (current session)"
+#: src/gtk/window.ui:65
+msgid "There are no extra drivers available for your system."
 msgstr ""
 
 #: src/gtk/window.ui:80
-msgid "Immutability is currently in Read and Write mode."
+msgid "Updates"
+msgstr ""
+
+#: src/gtk/window.ui:86
+msgid "Preferences"
+msgstr ""
+
+#: src/gtk/window.ui:89
+msgid "Latest Update Check"
 msgstr ""
 
 #: src/gtk/window.ui:90
-msgid "Restore on Reboot"
+msgid "Never"
 msgstr ""
 
-#: src/gtk/window.ui:91
-msgid "Choose whether to restore the default mode after a system reboot."
+#: src/gtk/window.ui:95
+msgid "Updates Scheduling"
+msgstr ""
+
+#: src/gtk/window.ui:96
+msgid "Choose how often the system should check for updates."
+msgstr ""
+
+#: src/gtk/window.ui:100
+msgid "Weekly"
 msgstr ""
 
 #: src/gtk/window.ui:101
-msgid "Default Mode"
+msgid "Monthly"
 msgstr ""
 
-#: src/gtk/window.ui:102
-msgid "Choose which mode to use by default."
+#: src/gtk/window.ui:109
+msgid "SmartUpdate"
 msgstr ""
 
-#: src/gtk/window.ui:106
-msgid "Read Only"
+#: src/gtk/window.ui:110
+msgid ""
+"If enabled, the system will not update if the system is in high load or "
+"battery is low."
 msgstr ""
 
-#: src/gtk/window.ui:107
-msgid "Read and Write"
-msgstr ""
-
-#: src/gtk/window.ui:117
-msgid "Overlays"
-msgstr ""
-
-#: src/gtk/window.ui:118
-msgid "Not Implemented yet."
-msgstr ""
-
-#: src/gtk/window.ui:137
+#: src/gtk/window.ui:127
 msgid "Sub System"
 msgstr ""
 
-#: src/gtk/window.ui:143
+#: src/gtk/window.ui:139
+msgid "No Containerized Apps"
+msgstr ""
+
+#: src/gtk/window.ui:140
+msgid "There are no containerized apps installed on your system."
+msgstr ""
+
+#: src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr ""
 
-#: src/gtk/window.ui:160
-msgid "_About Control-panel"
+#: src/gtk/window.ui:166
+msgid "_About Control-center"
 msgstr ""
 
-#: src/main.py:66
+#: src/main.py:65
 msgid "Translators"
 msgstr ""
 
-#: src/window.py:86
-msgid "No Drivers Found."
-msgstr ""
-
-#: src/window.py:87
-msgid "No drivers found for your devices or an error occurred."
-msgstr ""
-
-#: src/window.py:117
-msgid "Installation Failed."
+#: src/window.py:109
+msgid "Another transaction is running or the system needs to be restarted."
 msgstr ""
 
 #: src/window.py:122
+msgid "Installation Failed."
+msgstr ""
+
+#: src/window.py:127
 msgid "New Drivers Installed."
 msgstr ""
 
-#: src/window.py:154
-msgid "Failed to Set Immutability Status."
+#: src/window.py:157
+msgid "SmartUpdate Changed."
 msgstr ""
 
-#: src/window.py:159
-msgid "Immutability Enabled."
-msgstr ""
-
-#: src/window.py:159
-msgid "Immutability Disabled."
-msgstr ""
-
-#: src/window.py:176
-msgid "Persistent Mode Enabled."
-msgstr ""
-
-#: src/window.py:176
-msgid "Persistent Mode Disabled."
-msgstr ""
-
-#: src/window.py:188
-msgid "Failed to Set Default Mode."
+#: src/window.py:165
+msgid "Update Schedule Changed."
 msgstr ""
 
 #: src/window.py:194
-msgid "Default Mode Changed to {}."
-msgstr ""
-
-#: src/window.py:195
-msgid "Read-Only"
-msgstr ""
-
-#: src/window.py:195
-msgid "Read-Write"
-msgstr ""
-
-#: src/window.py:220
 msgid "{} Exited With Error."
 msgstr ""
 
-#: src/window.py:223
+#: src/window.py:197
 msgid "{} Exited."
 msgstr ""
 
-#: src/window.py:226
+#: src/window.py:200
 msgid "{} Launched."
 msgstr ""

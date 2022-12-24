@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-23 22:43+0200\n"
+"POT-Creation-Date: 2022-12-24 20:34+0530\n"
 "PO-Revision-Date: 2022-11-30 03:48+0000\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/vanilla-os/"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.15-dev\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
-#: src/gtk/window.ui:16 src/main.py:59
+#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
+#: src/gtk/window.ui:17 src/main.py:58
 msgid "Vanilla OS Control Center"
 msgstr "Stirpanelo de Vanilla OS"
 
@@ -55,146 +55,192 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Forlasi"
 
-#: src/gtk/window.ui:27
+#: src/gtk/window.ui:28
 msgid "Apply Changes"
 msgstr "Efektivigi ŝanĝojn"
 
-#: src/gtk/window.ui:44
+#: src/gtk/window.ui:45
 msgid "Drivers"
 msgstr "Zorgiloj"
 
-#: src/gtk/window.ui:54
+#: src/gtk/window.ui:55
 msgid "Loading drivers…"
 msgstr "Ŝargante zorgilojn…"
 
-#: src/gtk/window.ui:55
+#: src/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
 msgstr "Bonvolu atendi dum ŝargiĝas la listo de haveblaj zorgiloj."
 
-#: src/gtk/window.ui:70
-msgid "Immutability"
-msgstr "Neŝanĝebleco"
+#: src/gtk/window.ui:64
+#, fuzzy
+msgid "No Drivers Available"
+msgstr "Novaj zorgiloj instaliĝis."
 
-#: src/gtk/window.ui:76
+#: src/gtk/window.ui:65
+msgid "There are no extra drivers available for your system."
+msgstr ""
+
+#: src/gtk/window.ui:80
+msgid "Updates"
+msgstr ""
+
+#: src/gtk/window.ui:86
 msgid "Preferences"
 msgstr "Preferoj"
 
-#: src/gtk/window.ui:79
-msgid "Immutability Status (current session)"
-msgstr "Stato de senŝanĝebleco (aktuala seanco)"
-
-#: src/gtk/window.ui:80
-msgid "Immutability is currently in Read and Write mode."
-msgstr "Neŝanĝebleco estas aktuale en legskriba reĝimo."
+#: src/gtk/window.ui:89
+msgid "Latest Update Check"
+msgstr ""
 
 #: src/gtk/window.ui:90
-msgid "Restore on Reboot"
-msgstr "Restaŭri post restartigo"
+msgid "Never"
+msgstr ""
 
-#: src/gtk/window.ui:91
-msgid "Choose whether to restore the default mode after a system reboot."
-msgstr "Elektu, ĉu restaŭri la implicitan reĝimon post sistema restartigo."
+#: src/gtk/window.ui:95
+msgid "Updates Scheduling"
+msgstr ""
+
+#: src/gtk/window.ui:96
+msgid "Choose how often the system should check for updates."
+msgstr ""
+
+#: src/gtk/window.ui:100
+msgid "Weekly"
+msgstr ""
 
 #: src/gtk/window.ui:101
-msgid "Default Mode"
-msgstr "Implicita reĝimo"
+msgid "Monthly"
+msgstr ""
 
-#: src/gtk/window.ui:102
-msgid "Choose which mode to use by default."
-msgstr "Elektu la reĝimon uzotan implicite."
+#: src/gtk/window.ui:109
+msgid "SmartUpdate"
+msgstr ""
 
-#: src/gtk/window.ui:106
-msgid "Read Only"
-msgstr "Nurlega"
+#: src/gtk/window.ui:110
+msgid ""
+"If enabled, the system will not update if the system is in high load or "
+"battery is low."
+msgstr ""
 
-#: src/gtk/window.ui:107
-msgid "Read and Write"
-msgstr "Legskriba"
-
-#: src/gtk/window.ui:117
-msgid "Overlays"
-msgstr "Supermetaĵoj"
-
-#: src/gtk/window.ui:118
-msgid "Not Implemented yet."
-msgstr "Ankoraŭ ne realigita."
-
-#: src/gtk/window.ui:137
+#: src/gtk/window.ui:127
 msgid "Sub System"
 msgstr "Subsistemo"
 
-#: src/gtk/window.ui:143
+#: src/gtk/window.ui:139
+msgid "No Containerized Apps"
+msgstr ""
+
+#: src/gtk/window.ui:140
+msgid "There are no containerized apps installed on your system."
+msgstr ""
+
+#: src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr "Instalitaj programoj"
 
-#: src/gtk/window.ui:160
-msgid "_About Control-panel"
+#: src/gtk/window.ui:166
+#, fuzzy
+msgid "_About Control-center"
 msgstr "_Pri Stirpanelo"
 
-#: src/main.py:66
+#: src/main.py:65
 msgid "Translators"
 msgstr "Tradukintoj"
 
-#: src/window.py:86
-msgid "No Drivers Found."
-msgstr "Neniu zorgilo troviĝis."
+#: src/window.py:109
+msgid "Another transaction is running or the system needs to be restarted."
+msgstr ""
 
-#: src/window.py:87
-msgid "No drivers found for your devices or an error occurred."
-msgstr "Aŭ troviĝis neniu zorgilo por via sistemo, aŭ okazis eraro."
-
-#: src/window.py:117
+#: src/window.py:122
 msgid "Installation Failed."
 msgstr "Instalado malsukcesis."
 
-#: src/window.py:122
+#: src/window.py:127
 msgid "New Drivers Installed."
 msgstr "Novaj zorgiloj instaliĝis."
 
-#: src/window.py:154
-msgid "Failed to Set Immutability Status."
-msgstr "Malsukcesis modifi staton de senŝanĝebleco."
+#: src/window.py:157
+msgid "SmartUpdate Changed."
+msgstr ""
 
-#: src/window.py:159
-msgid "Immutability Enabled."
-msgstr "Neŝanĝebleco ŝaltita."
-
-#: src/window.py:159
-msgid "Immutability Disabled."
-msgstr "Neŝanĝebleco malŝaltita."
-
-#: src/window.py:176
-msgid "Persistent Mode Enabled."
-msgstr "Persista reĝimo ŝaltita."
-
-#: src/window.py:176
-msgid "Persistent Mode Disabled."
-msgstr "Persista reĝimo malŝaltita."
-
-#: src/window.py:188
-msgid "Failed to Set Default Mode."
-msgstr "Malsukcesis agordi implicitan reĝimon."
+#: src/window.py:165
+msgid "Update Schedule Changed."
+msgstr ""
 
 #: src/window.py:194
-msgid "Default Mode Changed to {}."
-msgstr "Implicita reĝimo ŝanĝiĝis al {}."
-
-#: src/window.py:195
-msgid "Read-Only"
-msgstr "Nurlega"
-
-#: src/window.py:195
-msgid "Read-Write"
-msgstr "Legskriba"
-
-#: src/window.py:220
 msgid "{} Exited With Error."
 msgstr "{} finiĝis pro eraro."
 
-#: src/window.py:223
+#: src/window.py:197
 msgid "{} Exited."
 msgstr "{} finiĝis."
 
-#: src/window.py:226
+#: src/window.py:200
 msgid "{} Launched."
 msgstr "{} lanĉiĝis."
+
+#~ msgid "Immutability"
+#~ msgstr "Neŝanĝebleco"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Stato de senŝanĝebleco (aktuala seanco)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "Neŝanĝebleco estas aktuale en legskriba reĝimo."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Restaŭri post restartigo"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr "Elektu, ĉu restaŭri la implicitan reĝimon post sistema restartigo."
+
+#~ msgid "Default Mode"
+#~ msgstr "Implicita reĝimo"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Elektu la reĝimon uzotan implicite."
+
+#~ msgid "Read Only"
+#~ msgstr "Nurlega"
+
+#~ msgid "Read and Write"
+#~ msgstr "Legskriba"
+
+#~ msgid "Overlays"
+#~ msgstr "Supermetaĵoj"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Ankoraŭ ne realigita."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Neniu zorgilo troviĝis."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr "Aŭ troviĝis neniu zorgilo por via sistemo, aŭ okazis eraro."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Malsukcesis modifi staton de senŝanĝebleco."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Neŝanĝebleco ŝaltita."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Neŝanĝebleco malŝaltita."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Persista reĝimo ŝaltita."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Persista reĝimo malŝaltita."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Malsukcesis agordi implicitan reĝimon."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Implicita reĝimo ŝanĝiĝis al {}."
+
+#~ msgid "Read-Only"
+#~ msgstr "Nurlega"
+
+#~ msgid "Read-Write"
+#~ msgstr "Legskriba"

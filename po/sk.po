@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-23 22:43+0200\n"
+"POT-Creation-Date: 2022-12-24 20:34+0530\n"
 "PO-Revision-Date: 2022-11-05 21:07+0000\n"
 "Last-Translator: Viktor <viktor@grigel.one>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/vanilla-os/"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 4.14.2\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
-#: src/gtk/window.ui:16 src/main.py:59
+#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
+#: src/gtk/window.ui:17 src/main.py:58
 msgid "Vanilla OS Control Center"
 msgstr "Vanilla OS Ovládacie centrum"
 
@@ -38,7 +38,9 @@ msgstr "Prebiehajúca inštalácia..."
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr "Môže to chvíľu trvať v závislosti od rýchlosti vášho internetového pripojenia."
+msgstr ""
+"Môže to chvíľu trvať v závislosti od rýchlosti vášho internetového "
+"pripojenia."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -55,146 +57,193 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Ukončiť"
 
-#: src/gtk/window.ui:27
+#: src/gtk/window.ui:28
 msgid "Apply Changes"
 msgstr "Použiť zmeny"
 
-#: src/gtk/window.ui:44
+#: src/gtk/window.ui:45
 msgid "Drivers"
 msgstr "Ovládače"
 
-#: src/gtk/window.ui:54
+#: src/gtk/window.ui:55
 msgid "Loading drivers…"
 msgstr "Načítavanie ovládačov..."
 
-#: src/gtk/window.ui:55
+#: src/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
 msgstr "Počkajte, kým sa načítajú dostupné ovládače."
 
-#: src/gtk/window.ui:70
-msgid "Immutability"
-msgstr "Nemennosť"
+#: src/gtk/window.ui:64
+#, fuzzy
+msgid "No Drivers Available"
+msgstr "Nainštalovali sa nové ovládače."
 
-#: src/gtk/window.ui:76
+#: src/gtk/window.ui:65
+msgid "There are no extra drivers available for your system."
+msgstr ""
+
+#: src/gtk/window.ui:80
+msgid "Updates"
+msgstr ""
+
+#: src/gtk/window.ui:86
 msgid "Preferences"
 msgstr "Predvoľby"
 
-#: src/gtk/window.ui:79
-msgid "Immutability Status (current session)"
-msgstr "Stav nemennosti (aktuálna relácia)"
-
-#: src/gtk/window.ui:80
-msgid "Immutability is currently in Read and Write mode."
-msgstr "Nemennosť je v režime čítania a zápisu."
+#: src/gtk/window.ui:89
+msgid "Latest Update Check"
+msgstr ""
 
 #: src/gtk/window.ui:90
-msgid "Restore on Reboot"
-msgstr "Obnovenie po reštartovaní."
+msgid "Never"
+msgstr ""
 
-#: src/gtk/window.ui:91
-msgid "Choose whether to restore the default mode after a system reboot."
-msgstr "Vyberte, či sa má po reštarte systému obnoviť predvolený režim."
+#: src/gtk/window.ui:95
+msgid "Updates Scheduling"
+msgstr ""
+
+#: src/gtk/window.ui:96
+msgid "Choose how often the system should check for updates."
+msgstr ""
+
+#: src/gtk/window.ui:100
+msgid "Weekly"
+msgstr ""
 
 #: src/gtk/window.ui:101
-msgid "Default Mode"
-msgstr "Predvolený režim"
+msgid "Monthly"
+msgstr ""
 
-#: src/gtk/window.ui:102
-msgid "Choose which mode to use by default."
-msgstr "Vyberte predvolený režim."
+#: src/gtk/window.ui:109
+msgid "SmartUpdate"
+msgstr ""
 
-#: src/gtk/window.ui:106
-msgid "Read Only"
-msgstr "Iba na čítanie"
+#: src/gtk/window.ui:110
+msgid ""
+"If enabled, the system will not update if the system is in high load or "
+"battery is low."
+msgstr ""
 
-#: src/gtk/window.ui:107
-msgid "Read and Write"
-msgstr "Čítanie a zápis"
-
-#: src/gtk/window.ui:117
-msgid "Overlays"
-msgstr "Prekrytia"
-
-#: src/gtk/window.ui:118
-msgid "Not Implemented yet."
-msgstr "Zatiaľ neimplementované."
-
-#: src/gtk/window.ui:137
+#: src/gtk/window.ui:127
 msgid "Sub System"
 msgstr "Subsystém"
 
-#: src/gtk/window.ui:143
+#: src/gtk/window.ui:139
+msgid "No Containerized Apps"
+msgstr ""
+
+#: src/gtk/window.ui:140
+msgid "There are no containerized apps installed on your system."
+msgstr ""
+
+#: src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr "Nainštalované aplikácie"
 
-#: src/gtk/window.ui:160
-msgid "_About Control-panel"
+#: src/gtk/window.ui:166
+#, fuzzy
+msgid "_About Control-center"
 msgstr "_O Ovládacom paneli"
 
-#: src/main.py:66
+#: src/main.py:65
 msgid "Translators"
 msgstr "Prekladatelia"
 
-#: src/window.py:86
-msgid "No Drivers Found."
-msgstr "Neboli nájdené žiadne ovládače."
+#: src/window.py:109
+msgid "Another transaction is running or the system needs to be restarted."
+msgstr ""
 
-#: src/window.py:87
-msgid "No drivers found for your devices or an error occurred."
-msgstr "Pre vaše zariadenia neboli nájdené žiadne ovládače alebo došlo k chybe."
-
-#: src/window.py:117
+#: src/window.py:122
 msgid "Installation Failed."
 msgstr "Inštalácia zlyhala."
 
-#: src/window.py:122
+#: src/window.py:127
 msgid "New Drivers Installed."
 msgstr "Nainštalovali sa nové ovládače."
 
-#: src/window.py:154
-msgid "Failed to Set Immutability Status."
-msgstr "Nepodarilo sa nastaviť definíciu nemennosti."
+#: src/window.py:157
+msgid "SmartUpdate Changed."
+msgstr ""
 
-#: src/window.py:159
-msgid "Immutability Enabled."
-msgstr "Nemennosť je povolená."
-
-#: src/window.py:159
-msgid "Immutability Disabled."
-msgstr "Nemennosť je zakázaná."
-
-#: src/window.py:176
-msgid "Persistent Mode Enabled."
-msgstr "Perzistentný režim je povolený."
-
-#: src/window.py:176
-msgid "Persistent Mode Disabled."
-msgstr "Perzistentný režim je zakázaný."
-
-#: src/window.py:188
-msgid "Failed to Set Default Mode."
-msgstr "Nepodarilo sa nastaviť predvolený režim."
+#: src/window.py:165
+msgid "Update Schedule Changed."
+msgstr ""
 
 #: src/window.py:194
-msgid "Default Mode Changed to {}."
-msgstr "Predvolený režim bol zmenený na {}."
-
-#: src/window.py:195
-msgid "Read-Only"
-msgstr "Iba na čítanie."
-
-#: src/window.py:195
-msgid "Read-Write"
-msgstr "Čítanie-Zápis"
-
-#: src/window.py:220
 msgid "{} Exited With Error."
 msgstr "{} Ukončené s chybou."
 
-#: src/window.py:223
+#: src/window.py:197
 msgid "{} Exited."
 msgstr "{} Ukončené."
 
-#: src/window.py:226
+#: src/window.py:200
 msgid "{} Launched."
 msgstr "{} Spustené."
+
+#~ msgid "Immutability"
+#~ msgstr "Nemennosť"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Stav nemennosti (aktuálna relácia)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "Nemennosť je v režime čítania a zápisu."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Obnovenie po reštartovaní."
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr "Vyberte, či sa má po reštarte systému obnoviť predvolený režim."
+
+#~ msgid "Default Mode"
+#~ msgstr "Predvolený režim"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Vyberte predvolený režim."
+
+#~ msgid "Read Only"
+#~ msgstr "Iba na čítanie"
+
+#~ msgid "Read and Write"
+#~ msgstr "Čítanie a zápis"
+
+#~ msgid "Overlays"
+#~ msgstr "Prekrytia"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Zatiaľ neimplementované."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Neboli nájdené žiadne ovládače."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr ""
+#~ "Pre vaše zariadenia neboli nájdené žiadne ovládače alebo došlo k chybe."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Nepodarilo sa nastaviť definíciu nemennosti."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Nemennosť je povolená."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Nemennosť je zakázaná."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Perzistentný režim je povolený."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Perzistentný režim je zakázaný."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Nepodarilo sa nastaviť predvolený režim."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Predvolený režim bol zmenený na {}."
+
+#~ msgid "Read-Only"
+#~ msgstr "Iba na čítanie."
+
+#~ msgid "Read-Write"
+#~ msgstr "Čítanie-Zápis"

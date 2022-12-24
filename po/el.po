@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-23 22:43+0200\n"
+"POT-Creation-Date: 2022-12-24 20:34+0530\n"
 "PO-Revision-Date: 2022-12-16 13:48+0000\n"
 "Last-Translator: stathious <stathious@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/vanilla-os/"
-"control-center/el/>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/vanilla-os/control-"
+"center/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.15\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
-#: src/gtk/window.ui:16 src/main.py:59
+#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
+#: src/gtk/window.ui:17 src/main.py:58
 msgid "Vanilla OS Control Center"
 msgstr "Κέντρο ελέγχου Vanilla OS"
 
@@ -38,7 +38,9 @@ msgstr "Εγκατάσταση σε εξέλιξη…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr "Αυτό μπορεί να διαρκέσει λίγο, με βάση την ταχύτητα σύνδεσής σας στο Διαδίκτυο."
+msgstr ""
+"Αυτό μπορεί να διαρκέσει λίγο, με βάση την ταχύτητα σύνδεσής σας στο "
+"Διαδίκτυο."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -55,146 +57,196 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Έξοδος"
 
-#: src/gtk/window.ui:27
+#: src/gtk/window.ui:28
 msgid "Apply Changes"
 msgstr "Εφαρμογή αλλαγών"
 
-#: src/gtk/window.ui:44
+#: src/gtk/window.ui:45
 msgid "Drivers"
 msgstr "Οδηγοί"
 
-#: src/gtk/window.ui:54
+#: src/gtk/window.ui:55
 msgid "Loading drivers…"
 msgstr "Φόρτωση προγραμμάτων οδήγησης…"
 
-#: src/gtk/window.ui:55
+#: src/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
 msgstr "Περιμένετε μέχρι να φορτωθούν τα διαθέσιμα προγράμματα οδήγησης."
 
-#: src/gtk/window.ui:70
-msgid "Immutability"
-msgstr "Immutability"
+#: src/gtk/window.ui:64
+#, fuzzy
+msgid "No Drivers Available"
+msgstr "Εγκαταστάθηκαν νέα προγράμματα οδήγησης."
 
-#: src/gtk/window.ui:76
+#: src/gtk/window.ui:65
+msgid "There are no extra drivers available for your system."
+msgstr ""
+
+#: src/gtk/window.ui:80
+msgid "Updates"
+msgstr ""
+
+#: src/gtk/window.ui:86
 msgid "Preferences"
 msgstr "Προτιμήσεις"
 
-#: src/gtk/window.ui:79
-msgid "Immutability Status (current session)"
-msgstr "Κατάσταση αμετάβλητου (τρέχουσα συνεδρία)"
-
-#: src/gtk/window.ui:80
-msgid "Immutability is currently in Read and Write mode."
-msgstr "Η αμεταβλητότητα βρίσκεται σε λειτουργία εγγραφής και ανάγνωσης."
+#: src/gtk/window.ui:89
+msgid "Latest Update Check"
+msgstr ""
 
 #: src/gtk/window.ui:90
-msgid "Restore on Reboot"
-msgstr "Επαναφορά κατά την επανεκκίνηση"
+msgid "Never"
+msgstr ""
 
-#: src/gtk/window.ui:91
-msgid "Choose whether to restore the default mode after a system reboot."
-msgstr "Επιλέξτε εάν θα επαναφέρετε την προεπιλεγμένη λειτουργία μετά από επανεκκίνηση του συστήματος."
+#: src/gtk/window.ui:95
+msgid "Updates Scheduling"
+msgstr ""
+
+#: src/gtk/window.ui:96
+msgid "Choose how often the system should check for updates."
+msgstr ""
+
+#: src/gtk/window.ui:100
+msgid "Weekly"
+msgstr ""
 
 #: src/gtk/window.ui:101
-msgid "Default Mode"
-msgstr "Προεπιλεγμένη λειτουργία"
+msgid "Monthly"
+msgstr ""
 
-#: src/gtk/window.ui:102
-msgid "Choose which mode to use by default."
-msgstr "Επιλέξτε ποια λειτουργία θα χρησιμοποιηθεί ως προεπιλεγμένη."
+#: src/gtk/window.ui:109
+msgid "SmartUpdate"
+msgstr ""
 
-#: src/gtk/window.ui:106
-msgid "Read Only"
-msgstr "Μόνο ανάγνωση"
+#: src/gtk/window.ui:110
+msgid ""
+"If enabled, the system will not update if the system is in high load or "
+"battery is low."
+msgstr ""
 
-#: src/gtk/window.ui:107
-msgid "Read and Write"
-msgstr "Ανάγνωση και εγγραφή"
-
-#: src/gtk/window.ui:117
-msgid "Overlays"
-msgstr "Επικαλύψεις"
-
-#: src/gtk/window.ui:118
-msgid "Not Implemented yet."
-msgstr "Δεν έχει εφαρμοστεί ακόμα."
-
-#: src/gtk/window.ui:137
+#: src/gtk/window.ui:127
 msgid "Sub System"
 msgstr "Υποσύστημα"
 
-#: src/gtk/window.ui:143
+#: src/gtk/window.ui:139
+msgid "No Containerized Apps"
+msgstr ""
+
+#: src/gtk/window.ui:140
+msgid "There are no containerized apps installed on your system."
+msgstr ""
+
+#: src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr "Εγκατεστημένες Εφαρμογές"
 
-#: src/gtk/window.ui:160
-msgid "_About Control-panel"
+#: src/gtk/window.ui:166
+#, fuzzy
+msgid "_About Control-center"
 msgstr "_About Control-panel"
 
-#: src/main.py:66
+#: src/main.py:65
 msgid "Translators"
 msgstr "Μεταφραστές"
 
-#: src/window.py:86
-msgid "No Drivers Found."
-msgstr "Δεν βρέθηκαν προγράμματα οδήγησης."
+#: src/window.py:109
+msgid "Another transaction is running or the system needs to be restarted."
+msgstr ""
 
-#: src/window.py:87
-msgid "No drivers found for your devices or an error occurred."
-msgstr "Δεν βρέθηκαν προγράμματα οδήγησης για τις συσκευές σας ή παρουσιάστηκε σφάλμα."
-
-#: src/window.py:117
+#: src/window.py:122
 msgid "Installation Failed."
 msgstr "Η εγκατάσταση απέτυχε."
 
-#: src/window.py:122
+#: src/window.py:127
 msgid "New Drivers Installed."
 msgstr "Εγκαταστάθηκαν νέα προγράμματα οδήγησης."
 
-#: src/window.py:154
-msgid "Failed to Set Immutability Status."
-msgstr "Ο ορισμός της αμεταβλητότητας απέτυχε."
+#: src/window.py:157
+msgid "SmartUpdate Changed."
+msgstr ""
 
-#: src/window.py:159
-msgid "Immutability Enabled."
-msgstr "Η αμεταβλητότητα ενεργοποιήθηκε."
-
-#: src/window.py:159
-msgid "Immutability Disabled."
-msgstr "Η αμεταβλητότητα απενεργοποιήθηκε."
-
-#: src/window.py:176
-msgid "Persistent Mode Enabled."
-msgstr "Ενεργοποιήθηκε η μόνιμη λειτουργία."
-
-#: src/window.py:176
-msgid "Persistent Mode Disabled."
-msgstr "Η μόνιμη λειτουργία είναι απενεργοποιημένη."
-
-#: src/window.py:188
-msgid "Failed to Set Default Mode."
-msgstr "Ο ορισμός της προεπιλεγμένης λειτουργίας απέτυχε."
+#: src/window.py:165
+msgid "Update Schedule Changed."
+msgstr ""
 
 #: src/window.py:194
-msgid "Default Mode Changed to {}."
-msgstr "Η προεπιλεγμένη λειτουργία άλλαξε σε {}."
-
-#: src/window.py:195
-msgid "Read-Only"
-msgstr "Ανάγνωση-Μόνο"
-
-#: src/window.py:195
-msgid "Read-Write"
-msgstr "Ανάγνωση-Εγγραφή"
-
-#: src/window.py:220
 msgid "{} Exited With Error."
 msgstr "{} έκλεισε με σφάλμα."
 
-#: src/window.py:223
+#: src/window.py:197
 msgid "{} Exited."
 msgstr "{} έκλεισε."
 
-#: src/window.py:226
+#: src/window.py:200
 msgid "{} Launched."
 msgstr "{} εκτελέστηκε."
+
+#~ msgid "Immutability"
+#~ msgstr "Immutability"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Κατάσταση αμετάβλητου (τρέχουσα συνεδρία)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "Η αμεταβλητότητα βρίσκεται σε λειτουργία εγγραφής και ανάγνωσης."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Επαναφορά κατά την επανεκκίνηση"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr ""
+#~ "Επιλέξτε εάν θα επαναφέρετε την προεπιλεγμένη λειτουργία μετά από "
+#~ "επανεκκίνηση του συστήματος."
+
+#~ msgid "Default Mode"
+#~ msgstr "Προεπιλεγμένη λειτουργία"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Επιλέξτε ποια λειτουργία θα χρησιμοποιηθεί ως προεπιλεγμένη."
+
+#~ msgid "Read Only"
+#~ msgstr "Μόνο ανάγνωση"
+
+#~ msgid "Read and Write"
+#~ msgstr "Ανάγνωση και εγγραφή"
+
+#~ msgid "Overlays"
+#~ msgstr "Επικαλύψεις"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Δεν έχει εφαρμοστεί ακόμα."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Δεν βρέθηκαν προγράμματα οδήγησης."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr ""
+#~ "Δεν βρέθηκαν προγράμματα οδήγησης για τις συσκευές σας ή παρουσιάστηκε "
+#~ "σφάλμα."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Ο ορισμός της αμεταβλητότητας απέτυχε."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Η αμεταβλητότητα ενεργοποιήθηκε."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Η αμεταβλητότητα απενεργοποιήθηκε."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Ενεργοποιήθηκε η μόνιμη λειτουργία."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Η μόνιμη λειτουργία είναι απενεργοποιημένη."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Ο ορισμός της προεπιλεγμένης λειτουργίας απέτυχε."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Η προεπιλεγμένη λειτουργία άλλαξε σε {}."
+
+#~ msgid "Read-Only"
+#~ msgstr "Ανάγνωση-Μόνο"
+
+#~ msgid "Read-Write"
+#~ msgstr "Ανάγνωση-Εγγραφή"
