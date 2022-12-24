@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-23 22:43+0200\n"
+"POT-Creation-Date: 2022-12-24 20:34+0530\n"
 "PO-Revision-Date: 2022-11-14 21:46+0000\n"
 "Last-Translator: عثمان محامدي <othmahammedi@proton.me>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/vanilla-os/"
@@ -20,8 +20,8 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 4.15-dev\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
-#: src/gtk/window.ui:16 src/main.py:59
+#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
+#: src/gtk/window.ui:17 src/main.py:58
 msgid "Vanilla OS Control Center"
 msgstr "مركز تحكم فانيلا"
 
@@ -56,146 +56,193 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "إلغاء"
 
-#: src/gtk/window.ui:27
+#: src/gtk/window.ui:28
 msgid "Apply Changes"
 msgstr "تطبيق التعديلات"
 
-#: src/gtk/window.ui:44
+#: src/gtk/window.ui:45
 msgid "Drivers"
 msgstr "التعريفات"
 
-#: src/gtk/window.ui:54
+#: src/gtk/window.ui:55
 msgid "Loading drivers…"
 msgstr "جاري تحميل التعريفات…"
 
-#: src/gtk/window.ui:55
+#: src/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
 msgstr "يرجى الانتظار ريثما يتم تحميل التعريفات المتاحة."
 
-#: src/gtk/window.ui:70
-msgid "Immutability"
-msgstr "الثبات"
+#: src/gtk/window.ui:64
+#, fuzzy
+msgid "No Drivers Available"
+msgstr "تم تثبيت تعريفات جديدة."
 
-#: src/gtk/window.ui:76
+#: src/gtk/window.ui:65
+msgid "There are no extra drivers available for your system."
+msgstr ""
+
+#: src/gtk/window.ui:80
+msgid "Updates"
+msgstr ""
+
+#: src/gtk/window.ui:86
 msgid "Preferences"
 msgstr "التفضيلات"
 
-#: src/gtk/window.ui:79
-msgid "Immutability Status (current session)"
-msgstr "حالة الثبات (الجلسة الحالية)"
-
-#: src/gtk/window.ui:80
-msgid "Immutability is currently in Read and Write mode."
-msgstr "حالة الثبات: ملفات الجذر في وضع القراءة والكتابة."
+#: src/gtk/window.ui:89
+msgid "Latest Update Check"
+msgstr ""
 
 #: src/gtk/window.ui:90
-msgid "Restore on Reboot"
-msgstr "استعادة عند إعادة التشغيل"
+msgid "Never"
+msgstr ""
 
-#: src/gtk/window.ui:91
-msgid "Choose whether to restore the default mode after a system reboot."
-msgstr "اختر ما إذا كنت تريد استعادة الوضع الافتراضي بعد إعادة تشغيل النظام."
+#: src/gtk/window.ui:95
+msgid "Updates Scheduling"
+msgstr ""
+
+#: src/gtk/window.ui:96
+msgid "Choose how often the system should check for updates."
+msgstr ""
+
+#: src/gtk/window.ui:100
+msgid "Weekly"
+msgstr ""
 
 #: src/gtk/window.ui:101
-msgid "Default Mode"
-msgstr "الوضع الافتراضي"
+msgid "Monthly"
+msgstr ""
 
-#: src/gtk/window.ui:102
-msgid "Choose which mode to use by default."
-msgstr "اختر الوضع الذي تريد استخدامه بشكل افتراضي."
+#: src/gtk/window.ui:109
+msgid "SmartUpdate"
+msgstr ""
 
-#: src/gtk/window.ui:106
-msgid "Read Only"
-msgstr "القراءة فقط"
+#: src/gtk/window.ui:110
+msgid ""
+"If enabled, the system will not update if the system is in high load or "
+"battery is low."
+msgstr ""
 
-#: src/gtk/window.ui:107
-msgid "Read and Write"
-msgstr "القراءة والكتابة"
-
-#: src/gtk/window.ui:117
-msgid "Overlays"
-msgstr "التراكبات"
-
-#: src/gtk/window.ui:118
-msgid "Not Implemented yet."
-msgstr "لم يتم تنفيذ شيء."
-
-#: src/gtk/window.ui:137
+#: src/gtk/window.ui:127
 msgid "Sub System"
 msgstr "النظام الفرعي"
 
-#: src/gtk/window.ui:143
+#: src/gtk/window.ui:139
+msgid "No Containerized Apps"
+msgstr ""
+
+#: src/gtk/window.ui:140
+msgid "There are no containerized apps installed on your system."
+msgstr ""
+
+#: src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr "التطبيقات المثبتة"
 
-#: src/gtk/window.ui:160
-msgid "_About Control-panel"
+#: src/gtk/window.ui:166
+#, fuzzy
+msgid "_About Control-center"
 msgstr "_حول لوحة التحكم"
 
-#: src/main.py:66
+#: src/main.py:65
 msgid "Translators"
 msgstr "المترجمون"
 
-#: src/window.py:86
-msgid "No Drivers Found."
-msgstr "لم يتم العثور على أية تعريفات."
+#: src/window.py:109
+msgid "Another transaction is running or the system needs to be restarted."
+msgstr ""
 
-#: src/window.py:87
-msgid "No drivers found for your devices or an error occurred."
-msgstr "لم يتم العثور على تعريفات لأجهزتك أو حدث خطأ ما."
-
-#: src/window.py:117
+#: src/window.py:122
 msgid "Installation Failed."
 msgstr "فشل التثبيت."
 
-#: src/window.py:122
+#: src/window.py:127
 msgid "New Drivers Installed."
 msgstr "تم تثبيت تعريفات جديدة."
 
-#: src/window.py:154
-msgid "Failed to Set Immutability Status."
-msgstr "فشل تعيين حالة الثبات."
+#: src/window.py:157
+msgid "SmartUpdate Changed."
+msgstr ""
 
-#: src/window.py:159
-msgid "Immutability Enabled."
-msgstr "تم تفعيل الثبات."
-
-#: src/window.py:159
-msgid "Immutability Disabled."
-msgstr "تم تعطيل الثبات."
-
-#: src/window.py:176
-msgid "Persistent Mode Enabled."
-msgstr "تم تفعيل الوضع المستمر."
-
-#: src/window.py:176
-msgid "Persistent Mode Disabled."
-msgstr "تم تعطيل الوضع المستمر."
-
-#: src/window.py:188
-msgid "Failed to Set Default Mode."
-msgstr "فشل تعيين الوضع الافتراضي."
+#: src/window.py:165
+msgid "Update Schedule Changed."
+msgstr ""
 
 #: src/window.py:194
-msgid "Default Mode Changed to {}."
-msgstr "تم تغيير الوضع الافتراضي إلى ()."
-
-#: src/window.py:195
-msgid "Read-Only"
-msgstr "القراءة فقط"
-
-#: src/window.py:195
-msgid "Read-Write"
-msgstr "القراءة والكتابة"
-
-#: src/window.py:220
 msgid "{} Exited With Error."
 msgstr "تم الخروج من {} مع وجود خطأ."
 
-#: src/window.py:223
+#: src/window.py:197
 msgid "{} Exited."
 msgstr "تم الخروج من {}."
 
-#: src/window.py:226
+#: src/window.py:200
 msgid "{} Launched."
 msgstr "تم تشغيل {}."
+
+#~ msgid "Immutability"
+#~ msgstr "الثبات"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "حالة الثبات (الجلسة الحالية)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "حالة الثبات: ملفات الجذر في وضع القراءة والكتابة."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "استعادة عند إعادة التشغيل"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr ""
+#~ "اختر ما إذا كنت تريد استعادة الوضع الافتراضي بعد إعادة تشغيل النظام."
+
+#~ msgid "Default Mode"
+#~ msgstr "الوضع الافتراضي"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "اختر الوضع الذي تريد استخدامه بشكل افتراضي."
+
+#~ msgid "Read Only"
+#~ msgstr "القراءة فقط"
+
+#~ msgid "Read and Write"
+#~ msgstr "القراءة والكتابة"
+
+#~ msgid "Overlays"
+#~ msgstr "التراكبات"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "لم يتم تنفيذ شيء."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "لم يتم العثور على أية تعريفات."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr "لم يتم العثور على تعريفات لأجهزتك أو حدث خطأ ما."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "فشل تعيين حالة الثبات."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "تم تفعيل الثبات."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "تم تعطيل الثبات."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "تم تفعيل الوضع المستمر."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "تم تعطيل الوضع المستمر."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "فشل تعيين الوضع الافتراضي."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "تم تغيير الوضع الافتراضي إلى ()."
+
+#~ msgid "Read-Only"
+#~ msgstr "القراءة فقط"
+
+#~ msgid "Read-Write"
+#~ msgstr "القراءة والكتابة"

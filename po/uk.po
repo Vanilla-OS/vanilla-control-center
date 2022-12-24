@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-23 22:43+0200\n"
+"POT-Creation-Date: 2022-12-24 20:34+0530\n"
 "PO-Revision-Date: 2022-11-09 04:10+0000\n"
 "Last-Translator: Serhii Chebanenko <4e6anenk0@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -16,12 +16,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.14.2\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:7
-#: src/gtk/window.ui:16 src/main.py:59
+#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
+#: src/gtk/window.ui:17 src/main.py:58
 msgid "Vanilla OS Control Center"
 msgstr "Центр керування Vanilla OS"
 
@@ -39,7 +39,8 @@ msgstr "Виконується встановлення…"
 
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
-msgstr "Це може зайняти деякий час залежно від швидкості вашого інтернет-з’єднання."
+msgstr ""
+"Це може зайняти деякий час залежно від швидкості вашого інтернет-з’єднання."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -56,146 +57,194 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Вийти"
 
-#: src/gtk/window.ui:27
+#: src/gtk/window.ui:28
 msgid "Apply Changes"
 msgstr "Застосувати зміни"
 
-#: src/gtk/window.ui:44
+#: src/gtk/window.ui:45
 msgid "Drivers"
 msgstr "Драйвери"
 
-#: src/gtk/window.ui:54
+#: src/gtk/window.ui:55
 msgid "Loading drivers…"
 msgstr "Завантаження драйверів…"
 
-#: src/gtk/window.ui:55
+#: src/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
 msgstr "Зачекайте, будь ласка, поки завантажуються доступні драйвери."
 
-#: src/gtk/window.ui:70
-msgid "Immutability"
-msgstr "Незмінність"
+#: src/gtk/window.ui:64
+#, fuzzy
+msgid "No Drivers Available"
+msgstr "Встановлені нові драйвери."
 
-#: src/gtk/window.ui:76
+#: src/gtk/window.ui:65
+msgid "There are no extra drivers available for your system."
+msgstr ""
+
+#: src/gtk/window.ui:80
+msgid "Updates"
+msgstr ""
+
+#: src/gtk/window.ui:86
 msgid "Preferences"
 msgstr "Налаштування"
 
-#: src/gtk/window.ui:79
-msgid "Immutability Status (current session)"
-msgstr "Статус незмінності (поточний сеанс)"
-
-#: src/gtk/window.ui:80
-msgid "Immutability is currently in Read and Write mode."
-msgstr "Незмінність зараз у режимі читання та запису."
+#: src/gtk/window.ui:89
+msgid "Latest Update Check"
+msgstr ""
 
 #: src/gtk/window.ui:90
-msgid "Restore on Reboot"
-msgstr "Відновити після перезавантаження"
+msgid "Never"
+msgstr ""
 
-#: src/gtk/window.ui:91
-msgid "Choose whether to restore the default mode after a system reboot."
-msgstr "Виберіть, чи відновлювати стандартний режим після перезавантаження системи."
+#: src/gtk/window.ui:95
+msgid "Updates Scheduling"
+msgstr ""
+
+#: src/gtk/window.ui:96
+msgid "Choose how often the system should check for updates."
+msgstr ""
+
+#: src/gtk/window.ui:100
+msgid "Weekly"
+msgstr ""
 
 #: src/gtk/window.ui:101
-msgid "Default Mode"
-msgstr "Стандартний режим"
+msgid "Monthly"
+msgstr ""
 
-#: src/gtk/window.ui:102
-msgid "Choose which mode to use by default."
-msgstr "Виберіть, який режим використовувати як стандартний."
+#: src/gtk/window.ui:109
+msgid "SmartUpdate"
+msgstr ""
 
-#: src/gtk/window.ui:106
-msgid "Read Only"
-msgstr "Лише для читання"
+#: src/gtk/window.ui:110
+msgid ""
+"If enabled, the system will not update if the system is in high load or "
+"battery is low."
+msgstr ""
 
-#: src/gtk/window.ui:107
-msgid "Read and Write"
-msgstr "Читання та запис"
-
-#: src/gtk/window.ui:117
-msgid "Overlays"
-msgstr "Оверлеї"
-
-#: src/gtk/window.ui:118
-msgid "Not Implemented yet."
-msgstr "Ще не реалізовано."
-
-#: src/gtk/window.ui:137
+#: src/gtk/window.ui:127
 msgid "Sub System"
 msgstr "Підсистема"
 
-#: src/gtk/window.ui:143
+#: src/gtk/window.ui:139
+msgid "No Containerized Apps"
+msgstr ""
+
+#: src/gtk/window.ui:140
+msgid "There are no containerized apps installed on your system."
+msgstr ""
+
+#: src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr "Встановлені застосунки"
 
-#: src/gtk/window.ui:160
-msgid "_About Control-panel"
+#: src/gtk/window.ui:166
+#, fuzzy
+msgid "_About Control-center"
 msgstr "_Про центр керування"
 
-#: src/main.py:66
+#: src/main.py:65
 msgid "Translators"
 msgstr "Перекладачі"
 
-#: src/window.py:86
-msgid "No Drivers Found."
-msgstr "Драйверів не знайдено."
+#: src/window.py:109
+msgid "Another transaction is running or the system needs to be restarted."
+msgstr ""
 
-#: src/window.py:87
-msgid "No drivers found for your devices or an error occurred."
-msgstr "Для ваших пристроїв не знайдено драйверів або сталася помилка."
-
-#: src/window.py:117
+#: src/window.py:122
 msgid "Installation Failed."
 msgstr "Встановлення зазнало невдачі."
 
-#: src/window.py:122
+#: src/window.py:127
 msgid "New Drivers Installed."
 msgstr "Встановлені нові драйвери."
 
-#: src/window.py:154
-msgid "Failed to Set Immutability Status."
-msgstr "Не вдалося встановити статус незмінності."
+#: src/window.py:157
+msgid "SmartUpdate Changed."
+msgstr ""
 
-#: src/window.py:159
-msgid "Immutability Enabled."
-msgstr "Незмінність увімкнена."
-
-#: src/window.py:159
-msgid "Immutability Disabled."
-msgstr "Незмінність вимкнена."
-
-#: src/window.py:176
-msgid "Persistent Mode Enabled."
-msgstr "Persistent Mode увімкнено."
-
-#: src/window.py:176
-msgid "Persistent Mode Disabled."
-msgstr "Persistent Mode вимкнено."
-
-#: src/window.py:188
-msgid "Failed to Set Default Mode."
-msgstr "Не вдалося змінити стандартний режим."
+#: src/window.py:165
+msgid "Update Schedule Changed."
+msgstr ""
 
 #: src/window.py:194
-msgid "Default Mode Changed to {}."
-msgstr "Стандартний режим змінено на: {}."
-
-#: src/window.py:195
-msgid "Read-Only"
-msgstr "Читання"
-
-#: src/window.py:195
-msgid "Read-Write"
-msgstr "Читання-Запис"
-
-#: src/window.py:220
 msgid "{} Exited With Error."
 msgstr "{} завершено з помилкою."
 
-#: src/window.py:223
+#: src/window.py:197
 msgid "{} Exited."
 msgstr "{} завершено."
 
-#: src/window.py:226
+#: src/window.py:200
 msgid "{} Launched."
 msgstr "{} запущено."
+
+#~ msgid "Immutability"
+#~ msgstr "Незмінність"
+
+#~ msgid "Immutability Status (current session)"
+#~ msgstr "Статус незмінності (поточний сеанс)"
+
+#~ msgid "Immutability is currently in Read and Write mode."
+#~ msgstr "Незмінність зараз у режимі читання та запису."
+
+#~ msgid "Restore on Reboot"
+#~ msgstr "Відновити після перезавантаження"
+
+#~ msgid "Choose whether to restore the default mode after a system reboot."
+#~ msgstr ""
+#~ "Виберіть, чи відновлювати стандартний режим після перезавантаження "
+#~ "системи."
+
+#~ msgid "Default Mode"
+#~ msgstr "Стандартний режим"
+
+#~ msgid "Choose which mode to use by default."
+#~ msgstr "Виберіть, який режим використовувати як стандартний."
+
+#~ msgid "Read Only"
+#~ msgstr "Лише для читання"
+
+#~ msgid "Read and Write"
+#~ msgstr "Читання та запис"
+
+#~ msgid "Overlays"
+#~ msgstr "Оверлеї"
+
+#~ msgid "Not Implemented yet."
+#~ msgstr "Ще не реалізовано."
+
+#~ msgid "No Drivers Found."
+#~ msgstr "Драйверів не знайдено."
+
+#~ msgid "No drivers found for your devices or an error occurred."
+#~ msgstr "Для ваших пристроїв не знайдено драйверів або сталася помилка."
+
+#~ msgid "Failed to Set Immutability Status."
+#~ msgstr "Не вдалося встановити статус незмінності."
+
+#~ msgid "Immutability Enabled."
+#~ msgstr "Незмінність увімкнена."
+
+#~ msgid "Immutability Disabled."
+#~ msgstr "Незмінність вимкнена."
+
+#~ msgid "Persistent Mode Enabled."
+#~ msgstr "Persistent Mode увімкнено."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Persistent Mode вимкнено."
+
+#~ msgid "Failed to Set Default Mode."
+#~ msgstr "Не вдалося змінити стандартний режим."
+
+#~ msgid "Default Mode Changed to {}."
+#~ msgstr "Стандартний режим змінено на: {}."
+
+#~ msgid "Read-Only"
+#~ msgstr "Читання"
+
+#~ msgid "Read-Write"
+#~ msgstr "Читання-Запис"
