@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-24 20:34+0530\n"
+"POT-Creation-Date: 2022-12-25 18:54+0530\n"
 "PO-Revision-Date: 2022-10-22 21:54+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -115,7 +115,7 @@ msgstr ""
 
 #: src/gtk/window.ui:110
 msgid ""
-"If enabled, the system will not update if the system is in high load or "
+"If enabled, the system will not update if the system is in high load or the "
 "battery is low."
 msgstr ""
 

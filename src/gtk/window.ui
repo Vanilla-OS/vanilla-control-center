@@ -107,7 +107,7 @@
                             <child>
                               <object class="AdwActionRow" id="row_update_smart">
                                 <property name="title" translatable="true">SmartUpdate</property>
-                                <property name="subtitle" translatable="true">If enabled, the system will not update if the system is in high load or battery is low.</property>
+                                <property name="subtitle" translatable="true">If enabled, the system will not update if the system is in high load or the battery is low.</property>
                                 <child type="suffix">
                                   <object class="GtkSwitch" id="switch_update_smart">
                                     <property name="valign">center</property>
