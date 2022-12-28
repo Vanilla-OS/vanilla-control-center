@@ -138,7 +138,7 @@ class VanillaWindow(Adw.ApplicationWindow):
         if latest_check := self.vso.get_latest_check_beautified():
             self.row_update_status.set_subtitle(latest_check)
 
-        if scheduling := self.vso.get_scheduling():
+        if scheduling := self.vso.scheduling:
             state = 1
             if scheduling == "weekly":
                 state = 0
@@ -146,7 +146,8 @@ class VanillaWindow(Adw.ApplicationWindow):
                 state = 1
             self.combo_update_schedule.set_selected(state)
 
-        if smart := self.vso.get_smart():
+        if smart := self.vso.smart:
+            print(smart)
             self.switch_update_smart.set_active(smart)
 
         self.combo_update_schedule.connect("notify::selected", self.__on_update_schedule_changed)

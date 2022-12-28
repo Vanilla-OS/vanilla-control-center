@@ -60,10 +60,12 @@ class Vso:
         
         raise FileNotFoundError("VSO Config file not found at {}".format(self.__conf_path))
 
-    def get_scheduling(self) -> str:
+    @property
+    def scheduling(self) -> str:
         return self.get_config()["updates"]["schedule"]
 
-    def get_smart(self) -> bool:
+    @property
+    def smart(self) -> bool:
         return self.get_config()["updates"]["smart"]
 
     def set_scheduling(self, value: int) -> bool:
