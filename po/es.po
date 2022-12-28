@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-25 18:54+0530\n"
-"PO-Revision-Date: 2022-11-09 04:10+0000\n"
+"PO-Revision-Date: 2022-12-28 15:27+0000\n"
 "Last-Translator: Jehu Marcos Herrera Puentes <jehuherrerap@hotmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
 #: src/gtk/window.ui:17 src/main.py:58
@@ -39,7 +39,7 @@ msgstr "Instalación en progreso…"
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
 msgstr ""
-"Esto puede tomar un tiempo, depende de la velocidad de su conexión a "
+"Esto puede tomar un tiempo, dependerá de la velocidad de su conexión a "
 "internet."
 
 #: src/gtk/help-overlay.ui:11
@@ -74,17 +74,16 @@ msgid "Please wait while the available drivers are being loaded."
 msgstr "Por favor espere mientras se cargan los controladores."
 
 #: src/gtk/window.ui:64
-#, fuzzy
 msgid "No Drivers Available"
-msgstr "Nuevos controladores instalados."
+msgstr "No hay controladores disponibles"
 
 #: src/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "No hay controladores extra disponibles para su dispositivo."
 
 #: src/gtk/window.ui:80
 msgid "Updates"
-msgstr ""
+msgstr "Actualizaciones"
 
 #: src/gtk/window.ui:86
 msgid "Preferences"
@@ -92,37 +91,39 @@ msgstr "Preferencias"
 
 #: src/gtk/window.ui:89
 msgid "Latest Update Check"
-msgstr ""
+msgstr "Última comprobación"
 
 #: src/gtk/window.ui:90
 msgid "Never"
-msgstr ""
+msgstr "Nunca"
 
 #: src/gtk/window.ui:95
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "Programación de actualizaciones"
 
 #: src/gtk/window.ui:96
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "Elija cuando debería el sistema buscar actualizaciones."
 
 #: src/gtk/window.ui:100
 msgid "Weekly"
-msgstr ""
+msgstr "Semanal"
 
 #: src/gtk/window.ui:101
 msgid "Monthly"
-msgstr ""
+msgstr "Mensual"
 
 #: src/gtk/window.ui:109
 msgid "SmartUpdate"
-msgstr ""
+msgstr "Actualización Inteligente"
 
 #: src/gtk/window.ui:110
 msgid ""
 "If enabled, the system will not update if the system is in high load or the "
 "battery is low."
 msgstr ""
+"Si está habilitado, el sistema no se actualizará si está bajo mucha carga de "
+"trabajo o la batería es baja."
 
 #: src/gtk/window.ui:127
 msgid "Sub System"
@@ -130,20 +131,19 @@ msgstr "Subsistema"
 
 #: src/gtk/window.ui:139
 msgid "No Containerized Apps"
-msgstr ""
+msgstr "Sin aplicaciones en contenedores"
 
 #: src/gtk/window.ui:140
 msgid "There are no containerized apps installed on your system."
-msgstr ""
+msgstr "No hay aplicaciones en contenedores instaladas en su sistema."
 
 #: src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr "Aplicaciones instaladas"
 
 #: src/gtk/window.ui:166
-#, fuzzy
 msgid "_About Control-center"
-msgstr "_Acerca del panel de control"
+msgstr "_Acerca del Panel de Control"
 
 #: src/main.py:65
 msgid "Translators"
@@ -151,7 +151,7 @@ msgstr "Traductores"
 
 #: src/window.py:109
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
+msgstr "Otra instancia está ejecutándose o el sistema necesita reiniciarse."
 
 #: src/window.py:122
 msgid "Installation Failed."
@@ -163,11 +163,11 @@ msgstr "Nuevos controladores instalados."
 
 #: src/window.py:157
 msgid "SmartUpdate Changed."
-msgstr ""
+msgstr "La actualización inteligente se ha cambiado."
 
 #: src/window.py:165
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "La programación de actualizaciones se ha cambiado."
 
 #: src/window.py:194
 msgid "{} Exited With Error."
