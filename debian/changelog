@@ -1,5 +1,5 @@
-vanilla-control-center (1.0.1) kinetic; urgency=low
+vanilla-control-center (1.0.2) kinetic; urgency=low
 
-  * Support for VSO SmartUpdate
+  * Show no drivers view when no drivers are available
 
  -- Mirko Brombin <send@mirko.pm>  Sat, 10 Dec 2022 13:48:00 +0000
