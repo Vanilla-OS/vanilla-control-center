@@ -1,4 +1,4 @@
-vanilla-control-center (1.0.2) kinetic; urgency=low
+vanilla-control-center (1.0.3) kinetic; urgency=critical
 
   * Show no drivers view when no drivers are available
 
