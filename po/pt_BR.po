@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-25 18:54+0530\n"
-"PO-Revision-Date: 2022-12-28 15:27+0000\n"
+"PO-Revision-Date: 2022-12-30 12:57+0000\n"
 "Last-Translator: Henrique Picanço <114828539+henriquepicanco@users.noreply."
 "github.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -23,7 +23,7 @@ msgstr ""
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
 #: src/gtk/window.ui:17 src/main.py:58
 msgid "Vanilla OS Control Center"
-msgstr "Centro de Controle do Vanilla OS"
+msgstr "Central de Controle do Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
