@@ -83,7 +83,7 @@ class VanillaWindow(Adw.ApplicationWindow):
             return result
 
         def callback(result, *args):
-            if result is None:
+            if result is None or type(result) is bool or len(result) == 0:
                 self.status_no_drivers.set_visible(True)
                 self.status_drivers.set_visible(False)
                 return
