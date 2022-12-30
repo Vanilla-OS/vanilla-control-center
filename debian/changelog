@@ -1,3 +1,9 @@
+vanilla-control-center (1.0.4) kinetic; urgency=critical
+
+  * Fix dpkg location with new ABRoot versions
+
+ -- Mirko Brombin <send@mirko.pm>  Fri, 30 Dec 2022 13:48:00 +0000
+
 vanilla-control-center (1.0.3) kinetic; urgency=critical
 
   * Show no drivers view when no drivers are available
