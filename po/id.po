@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-25 18:54+0530\n"
-"PO-Revision-Date: 2022-11-09 04:10+0000\n"
-"Last-Translator: Ophellia <nekopoihentai69@gmail.com>\n"
+"PO-Revision-Date: 2023-01-01 15:50+0000\n"
+"Last-Translator: Imam Faraz Aditya <imamaditya2211@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/id/>\n"
 "Language: id\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
 #: src/gtk/window.ui:17 src/main.py:58
@@ -74,17 +74,16 @@ msgid "Please wait while the available drivers are being loaded."
 msgstr "Harap tunggu sementara driver yang tersedia sedang dimuat."
 
 #: src/gtk/window.ui:64
-#, fuzzy
 msgid "No Drivers Available"
-msgstr "Driver Baru Terpasang."
+msgstr "Pengendali Piranti Tidak Tersedia"
 
 #: src/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "Tidak ada tambahan pengendali piranti yang tersedia di sistem anda."
 
 #: src/gtk/window.ui:80
 msgid "Updates"
-msgstr ""
+msgstr "Perbarui"
 
 #: src/gtk/window.ui:86
 msgid "Preferences"
@@ -92,15 +91,15 @@ msgstr "Pilihan"
 
 #: src/gtk/window.ui:89
 msgid "Latest Update Check"
-msgstr ""
+msgstr "Cek Pembaruan Terbaru"
 
 #: src/gtk/window.ui:90
 msgid "Never"
-msgstr ""
+msgstr "Tidak Pernah"
 
 #: src/gtk/window.ui:95
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "Penjadwalan Pembaruan"
 
 #: src/gtk/window.ui:96
 msgid "Choose how often the system should check for updates."
