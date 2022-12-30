@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-25 18:54+0530\n"
 "PO-Revision-Date: 2023-01-01 15:50+0000\n"
-"Last-Translator: Imam Faraz Aditya <imamaditya2211@gmail.com>\n"
+"Last-Translator: yukidream <ahawaribagus@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/id/>\n"
 "Language: id\n"
@@ -107,11 +107,12 @@ msgstr ""
 
 #: src/gtk/window.ui:100
 msgid "Weekly"
-msgstr ""
+msgstr "Per minggu"
 
 #: src/gtk/window.ui:101
+#, fuzzy
 msgid "Monthly"
-msgstr ""
+msgstr "Bulanan"
 
 #: src/gtk/window.ui:109
 msgid "SmartUpdate"
@@ -150,7 +151,7 @@ msgstr "Penerjemah"
 
 #: src/window.py:109
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
+msgstr "Transaksi lain sedang berjalan atau sistem perlu dimulai ulang"
 
 #: src/window.py:122
 msgid "Installation Failed."
@@ -161,12 +162,13 @@ msgid "New Drivers Installed."
 msgstr "Driver Baru Terpasang."
 
 #: src/window.py:157
+#, fuzzy
 msgid "SmartUpdate Changed."
-msgstr ""
+msgstr "MutakhirPintar Diubah."
 
 #: src/window.py:165
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "Jadwal Pemutakhiran Dirubah."
 
 #: src/window.py:194
 msgid "{} Exited With Error."
