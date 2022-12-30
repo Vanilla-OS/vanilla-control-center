@@ -29,8 +29,14 @@ logger = logging.getLogger("Vanilla::UbuntuDrivers")
 class UbuntuDrivers:
     def __init__(self):
         self.__binary = "/usr/bin/ubuntu-drivers"
-        if shutil.which("_ubuntu-drivers"):
-            self.__binary = "/usr/bin/_ubuntu-drivers"
+        self.__bin_dpkg = "/usr/bin/dpkg"
+
+        if bin_ud := shutil.which("_ubuntu-drivers"):
+            self.__binary = bin_ud
+
+        if bin_dpkg := shutil.which("___dpkg___"):
+            self.__bin_dpkg = bin_dpkg
+            
     
     def get_devices(self) -> list:
         logger.info("Getting devices list")
@@ -71,7 +77,7 @@ class UbuntuDrivers:
         return devices
 
     def __check_installation(self, driver: str) -> bool:
-        output = subprocess.run(["dpkg", "-l", driver], capture_output=True, text=True).stdout
+        output = subprocess.run([self.__bin_dpkg, "-l", driver], capture_output=True, text=True).stdout
         res = "ii" in output
         logger.debug("Driver %s installed: %s", driver, res)
         return res
