@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-25 18:54+0530\n"
-"PO-Revision-Date: 2022-11-19 20:47+0000\n"
+"PO-Revision-Date: 2022-12-30 12:57+0000\n"
 "Last-Translator: finnmonstar <finnmonstar@pm.me>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ro/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
 #: src/gtk/window.ui:17 src/main.py:58
@@ -75,17 +75,16 @@ msgid "Please wait while the available drivers are being loaded."
 msgstr "Driverele disponibilie se încarcă, te rog așteaptă."
 
 #: src/gtk/window.ui:64
-#, fuzzy
 msgid "No Drivers Available"
-msgstr "Drivere noi instalate."
+msgstr "Niciun driver disponibil"
 
 #: src/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "Nu mai sunt drivere disponibile pentru sistemul tău."
 
 #: src/gtk/window.ui:80
 msgid "Updates"
-msgstr ""
+msgstr "Actualizări"
 
 #: src/gtk/window.ui:86
 msgid "Preferences"
@@ -93,37 +92,39 @@ msgstr "Preferințe"
 
 #: src/gtk/window.ui:89
 msgid "Latest Update Check"
-msgstr ""
+msgstr "Ultima verificare de actualizări"
 
 #: src/gtk/window.ui:90
 msgid "Never"
-msgstr ""
+msgstr "Niciodată"
 
 #: src/gtk/window.ui:95
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "Actualizările se programează"
 
 #: src/gtk/window.ui:96
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "Alege cât de des sistemul ar trebui să caute actualizări."
 
 #: src/gtk/window.ui:100
 msgid "Weekly"
-msgstr ""
+msgstr "Săptămânal"
 
 #: src/gtk/window.ui:101
 msgid "Monthly"
-msgstr ""
+msgstr "Lunar"
 
 #: src/gtk/window.ui:109
 msgid "SmartUpdate"
-msgstr ""
+msgstr "Actualizare inteligentă"
 
 #: src/gtk/window.ui:110
 msgid ""
 "If enabled, the system will not update if the system is in high load or the "
 "battery is low."
 msgstr ""
+"Dacă această opțiune este activată, sistemul nu se va actualiza atunci când "
+"este solicitat sau bateria este la un nivel scăzut."
 
 #: src/gtk/window.ui:127
 msgid "Sub System"
@@ -131,18 +132,17 @@ msgstr "Subsistem"
 
 #: src/gtk/window.ui:139
 msgid "No Containerized Apps"
-msgstr ""
+msgstr "Nicio aplicație containerizată"
 
 #: src/gtk/window.ui:140
 msgid "There are no containerized apps installed on your system."
-msgstr ""
+msgstr "Nu există nicio aplicație containerizată pe sistemul tău."
 
 #: src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr "Aplicații instalate"
 
 #: src/gtk/window.ui:166
-#, fuzzy
 msgid "_About Control-center"
 msgstr "Despre panoul de control"
 
@@ -153,6 +153,7 @@ msgstr "Traducători"
 #: src/window.py:109
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr ""
+"Altă tranzacție se rulează în acest moment sau sistemul trebuie repornit."
 
 #: src/window.py:122
 msgid "Installation Failed."
@@ -164,11 +165,11 @@ msgstr "Drivere noi instalate."
 
 #: src/window.py:157
 msgid "SmartUpdate Changed."
-msgstr ""
+msgstr "Actualizare inteligentă schimbată."
 
 #: src/window.py:165
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "Programul de actualizare schimbat."
 
 #: src/window.py:194
 msgid "{} Exited With Error."
