@@ -21,8 +21,24 @@
                         <property name="title" translatable="true">Installation in Progress…</property>
                         <property name="description" translatable="true">This may take a while, based on your internet connection speed.</property>
                         <child>
-                            <object class="GtkProgressBar" id="progressbar">
-                                <property name="visible">True</property>
+                            <object class="GtkBox" id="console_box">
+                                <property name="margin-start">40</property>
+                                <property name="margin-end">40</property>
+                                <property name="margin-top">1</property>
+                                <property name="margin-bottom">18</property>
+                                <property name="height-request">250</property>
+                                <property name="orientation">vertical</property>
+                                <child>
+                                    <object class="GtkBox" id="console_output">
+                                        <property name="margin-top">12</property>
+                                        <property name="margin-start">12</property>
+                                        <property name="margin-end">12</property>
+                                        <property name="orientation">vertical</property>
+                                    </object>
+                                </child>
+                                <style>
+                                    <class name="card"/>
+                                </style>
                             </object>
                         </child>
                     </object>

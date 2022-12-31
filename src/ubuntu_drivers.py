@@ -85,23 +85,16 @@ class UbuntuDrivers:
     def can_install(self) -> bool:
         return not os.path.exists("/tmp/abroot-transactions.lock")
 
-    def install(self, driver: str) -> bool:
-        if "FAKE" in os.environ:
-            logging.info(f"executing cmd: pkexec {self.__binary} install {driver}")
-            return True
+    def get_install_command(self, drivers: list) -> str:
+        command = ["pkexec", "abroot", "exec", "-y", "apt", "install", f"linux-headers-$(uname -r)"]
 
-        with tempfile.NamedTemporaryFile(mode="w", delete=False) as f:
-            f.write("#!/bin/bash\n")
-            f.write(f"sudo abroot exec apt install linux-headers-$(uname -r) {driver} -y")
-            f.close()
-            os.chmod(f.name, 0o755)
-            _cmd = ["pkexec", f.name]
-            
-        proc = subprocess.Popen(_cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        out, err = proc.communicate()
-        logging.info("outpout")
-        logging.info(out.decode("utf-8"))
-        return proc.returncode == 0
+        for driver in drivers:
+            command.append(driver)
+
+        command.append("-y")
+        logger.info("Install command: %s", " ".join(command))
+        
+        return " ".join(command)
 
     def autoinstall(self) -> bool:
         if "FAKE" in os.environ:

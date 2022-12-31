@@ -69,6 +69,8 @@ class VanillaWindow(Adw.ApplicationWindow):
         self.__setup_devices()
         self.__setup_vso()
         self.__setup_apx()
+
+        self.connect("installation-finished", self.__on_installation_finished)
     
     # region Devices
     def __setup_devices(self):
@@ -103,34 +105,33 @@ class VanillaWindow(Adw.ApplicationWindow):
         logging.info("Installation requested: {}".format(driver))
         self.__selected_drivers[model] = driver
         self.btn_apply.set_visible(len(self.__selected_drivers) > 0)
+    
+    def __on_installation_finished(self, widget, result, *args):
+        self.__selected_drivers = {}
+        self.btn_apply.set_visible(False)
+
+        if not result:
+            self.toast(_("Installation Failed."))
+            return
+
+        self.toast(_("New Drivers Installed."))
+        logger.info("Installation finished.")
+        subprocess.run(['gnome-session-quit', '--reboot'])
+
 
     def __on_apply_clicked(self, widget):
         if not self.ubuntu_drivers.can_install():
             self.toast(_("Another transaction is running or the system needs to be restarted."))
             return
 
-        def async_task():
-            res = []
-            for model in self.__selected_drivers:
-                res.append(self.ubuntu_drivers.install(self.__selected_drivers[model]))
-
-            if False in res:
-                return res, False
-
-        def callback(result, error=False):
-            if error:
-                self.toast(_("Installation Failed."))
-                return
-
-            self.emit("installation-finished", self.__selected_drivers)
-            self.__selected_drivers = {}
-            self.toast(_("New Drivers Installed."))
-            logger.info("Installation finished.")
-            subprocess.run(['gnome-session-quit', '--reboot'])
-
         self.btn_apply.set_visible(False)
-        VanillaDialogInstallation(self).show()
-        RunAsync(async_task, callback)
+
+        res = []
+        for model in self.__selected_drivers:
+            res.append(self.__selected_drivers[model])
+
+        command = self.ubuntu_drivers.get_install_command(res)
+        VanillaDialogInstallation(self, command).show()
     # endregion
 
     # region Vso
