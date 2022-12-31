@@ -1,3 +1,10 @@
+vanilla-control-center (1.1.0) kinetic; urgency=critical
+
+  * Fix drivers not being installed
+  * Show output of driver installation
+
+ -- Mirko Brombin <send@mirko.pm>  Sat, 31 Dec 2022 10:48:00 +0000
+
 vanilla-control-center (1.0.4) kinetic; urgency=critical
 
   * Fix dpkg location with new ABRoot versions
