@@ -32,26 +32,53 @@ logger = logging.getLogger("Vanilla::Apx")
 class Apx:
 
     __managed_containers = {
-        "apx_managed": "Sub System",
-        "apx_managed_aur": "Arch Linux Sub System",
-        "apx_managed_dnf": "Fedora Sub System",
-        "apx_managed_apk": "Alpine Sub System",
+        "apx_managed": {
+            "Flag": "",
+            "Name": "Sub System",
+        },
+        "apx_managed_aur": {
+            "Flag": "--aur",
+            "Name": "Arch Linux Sub System",
+        },
+        "apx_managed_dnf": {
+            "Flag": "--dnf",
+            "Name": "Fedora Sub System",
+        },
+        "apx_managed_apk": {
+            "Flag": "--apk",
+            "Name": "Alpine Sub System",
+        }
     }
 
     def __init__(self):
         self.__binary = shutil.which("apx")
+        self.__dbox_binary = "/usr/lib/apx/distrobox"
         self.__desktop = os.path.join(Path.home(), ".local", "share", "applications")
         self.__apps = self.__get_apps()
     
     @property
     def supported(self) -> bool:
         if "apx" in os.environ.get("DISABLED_MODULES", []):
+            logger.debug("apx module disabled")
             return False
-        return self.__binary is not None
+
+        if self.__binary is None:
+            logger.debug("apx binary not found")
+            return False
+
+        if not os.path.exists(self.__dbox_binary):
+            logger.debug("distrobox binary not found")
+            return False
+
+        return True
     
     @property
     def apps(self) -> list:
         return self.__apps
+
+    @property
+    def containers(self) -> list:
+        return self.__get_containers()
 
     def __get_apps(self) -> list:
         if not self.supported or not os.path.exists(self.__desktop):
@@ -68,7 +95,7 @@ class Apx:
                 for index, line in enumerate(lines):
                     if _name and _exec and _terminal:
                         apps.append({
-                            "Container": self.__managed_containers.get(container, "Other"),
+                            "Container": self.__managed_containers[container]["Name"],
                             "Name": _name,
                             "Exec": _exec,
                             "Terminal": _terminal,
@@ -87,6 +114,47 @@ class Apx:
                             _terminal = "false"
 
         return apps
+    
+    def __get_apps_for_container(self, container: str) -> list:
+        if not self.supported:
+            return []
+
+        apps = []
+        for app in self.__apps:
+            if app["Container"] == container:
+                apps.append(app)
+
+        return apps
+
+    def __get_containers(self) -> list:
+        if not self.supported:
+            return []
+
+        res = subprocess.run([self.__dbox_binary, "list"], capture_output=True)
+        if res.returncode != 0:
+            logger.error("Unable to get containers")
+            return []
+            
+        containers = []
+        for alias, container in self.__managed_containers.items():
+            _container = {
+                "Name": container["Name"],
+                "Status": 1,
+                "Alias": alias,
+                "ShellCmd": f"kgx -e { self.__binary } { container['Flag'] } enter",
+                "InitCmd": f"kgx -e { self.__binary } { container['Flag'] } init",
+                "Apps": []
+            }
+            if alias in res.stdout.decode("utf-8"):
+                logger.info("Container '{0}' found".format(alias))
+                _container["Status"] = 0
+                _container["Apps"] = self.__get_apps_for_container(_container["Name"])
+            else:
+                logger.info("Container '{0}' not found".format(alias))
+
+            containers.append(_container)
+
+        return containers
 
     def run(self, name: str) -> bool:
         logger.info("Running application: '{0}'".format(name))

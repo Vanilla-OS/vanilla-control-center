@@ -24,6 +24,7 @@ from gi.repository import Gtk, GLib, GObject
 
 from .driver import VanillaDriverRow, VanillaDriversGroup
 from .program import VanillaApxProgram
+from .container import VanillaApxContainer
 from .ubuntu_drivers import UbuntuDrivers
 from .apx import Apx
 from .vso import Vso
@@ -44,15 +45,15 @@ class VanillaWindow(Adw.ApplicationWindow):
     page_drivers = Gtk.Template.Child()
     status_drivers = Gtk.Template.Child()
     status_no_drivers = Gtk.Template.Child()
-    status_no_apx = Gtk.Template.Child()
+    status_updates = Gtk.Template.Child()
     btn_apply = Gtk.Template.Child()
     toasts = Gtk.Template.Child()
-    status_updates = Gtk.Template.Child()
     row_update_status = Gtk.Template.Child()
     combo_update_schedule = Gtk.Template.Child()
     str_update_schedule = Gtk.Template.Child()
     switch_update_smart = Gtk.Template.Child()
     page_apx = Gtk.Template.Child()
+    group_containers = Gtk.Template.Child()
     group_apps = Gtk.Template.Child()
     
     __selected_drivers = {}
@@ -174,11 +175,10 @@ class VanillaWindow(Adw.ApplicationWindow):
         if not self.apx.supported:
             self.page_apx.set_visible(False)
             return
-
-        if len(self.apx.apps) == 0:
-            self.group_apps.set_visible(False)
-            self.status_no_apx.set_visible(True)
-            return
+            
+        for container in self.apx.containers:
+            _row = VanillaApxContainer(self, container)
+            self.group_containers.add(_row)
             
         for app in self.apx.apps:
             _row = VanillaApxProgram(app)

@@ -131,17 +131,12 @@
                         <property name="orientation">vertical</property>
                         <property name="halign">fill</property>
                         <child>
-                          <object class="AdwStatusPage" id="status_no_apx">
-                            <property name="visible">false</property>
-                            <property name="valign">center</property>
-                            <property name="vexpand">true</property>
-                            <property name="icon-name">utilities-terminal-symbolic</property>
-                            <property name="title" translatable="true">No Containerized Apps</property>
-                            <property name="description" translatable="true">There are no containerized apps installed on your system.</property>
-                          </object>
-                        </child>
-                        <child>
                           <object class="AdwPreferencesPage">
+                            <child>
+                              <object class="AdwPreferencesGroup" id="group_containers">
+                                <property name="title" translatable="true">Containers</property>
+                              </object>
+                            </child>
                             <child>
                               <object class="AdwPreferencesGroup" id="group_apps">
                                 <property name="title" translatable="true">Installed Applications</property>

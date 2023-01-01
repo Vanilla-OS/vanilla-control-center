@@ -34,6 +34,7 @@ vanilla_control_center_sources = [
   'run_async.py',
   'vso.py',
   'apx.py',
+  'container.py',
   'ubuntu_drivers.py',
   'dialog_installation.py',
 ]
