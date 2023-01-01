@@ -1,3 +1,9 @@
+vanilla-control-center (1.2.0) kinetic; urgency=critical
+
+  * Support the Alpine subsystem
+
+ -- Mirko Brombin <send@mirko.pm>  Sun, 1 Jan 2022 10:44:00 +0000
+
 vanilla-control-center (1.1.0) kinetic; urgency=critical
 
   * Fix drivers not being installed
