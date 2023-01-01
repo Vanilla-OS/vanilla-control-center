@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-25 18:54+0530\n"
-"PO-Revision-Date: 2022-11-25 00:46+0000\n"
-"Last-Translator: Veysel Erden <veyselerden@outlook.com>\n"
+"PO-Revision-Date: 2023-01-01 15:50+0000\n"
+"Last-Translator: Emin KÖSE <kansaslicocuk@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
 #: src/gtk/window.ui:17 src/main.py:58
@@ -72,17 +72,16 @@ msgid "Please wait while the available drivers are being loaded."
 msgstr "Mevcut sürücüler yüklenirken lütfen bekleyin."
 
 #: src/gtk/window.ui:64
-#, fuzzy
 msgid "No Drivers Available"
-msgstr "Yeni Sürücüler Yüklendi."
+msgstr "Herhangi sürücü bulunamadı"
 
 #: src/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "Sisteminiz için fazladan sürücü yok"
 
 #: src/gtk/window.ui:80
 msgid "Updates"
-msgstr ""
+msgstr "Güncelle"
 
 #: src/gtk/window.ui:86
 msgid "Preferences"
@@ -90,37 +89,39 @@ msgstr "Tercihler"
 
 #: src/gtk/window.ui:89
 msgid "Latest Update Check"
-msgstr ""
+msgstr "Son güncelleme kontrolü"
 
 #: src/gtk/window.ui:90
 msgid "Never"
-msgstr ""
+msgstr "hiçbir zaman"
 
 #: src/gtk/window.ui:95
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "Güncelleme planla"
 
 #: src/gtk/window.ui:96
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "Güncellemelerin ne sıklıkla kotrol edilmesini istediğinizi seçin."
 
 #: src/gtk/window.ui:100
 msgid "Weekly"
-msgstr ""
+msgstr "Haftalık"
 
 #: src/gtk/window.ui:101
 msgid "Monthly"
-msgstr ""
+msgstr "Aylık"
 
 #: src/gtk/window.ui:109
 msgid "SmartUpdate"
-msgstr ""
+msgstr "Akıllı Güncelleme"
 
 #: src/gtk/window.ui:110
 msgid ""
 "If enabled, the system will not update if the system is in high load or the "
 "battery is low."
 msgstr ""
+"Etkinleştirilirse, sistem yüksek yükteyse veya pil zayıfsa sistem "
+"güncellenmeyecektir."
 
 #: src/gtk/window.ui:127
 msgid "Sub System"
@@ -128,18 +129,17 @@ msgstr "Alt Sistem"
 
 #: src/gtk/window.ui:139
 msgid "No Containerized Apps"
-msgstr ""
+msgstr "Konteynerlaştırılmış uygulama yok"
 
 #: src/gtk/window.ui:140
 msgid "There are no containerized apps installed on your system."
-msgstr ""
+msgstr "Sisteminizde konteynerlaştırılmış uygulama yok."
 
 #: src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr "Yüklü Uygulamalar"
 
 #: src/gtk/window.ui:166
-#, fuzzy
 msgid "_About Control-center"
 msgstr "_Kontrol Paneli Hakkında"
 
@@ -149,7 +149,7 @@ msgstr "Çevirmenler"
 
 #: src/window.py:109
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
+msgstr "Başka bir işlem çalışıyor veya sistemin yeniden başlatılması gerekiyor."
 
 #: src/window.py:122
 msgid "Installation Failed."
@@ -161,11 +161,11 @@ msgstr "Yeni Sürücüler Yüklendi."
 
 #: src/window.py:157
 msgid "SmartUpdate Changed."
-msgstr ""
+msgstr "Akıllı güncelleme değiştirildi."
 
 #: src/window.py:165
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "Güncelleme takvimi değiştirildi."
 
 #: src/window.py:194
 msgid "{} Exited With Error."
