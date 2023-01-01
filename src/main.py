@@ -104,8 +104,23 @@ class VanillaControlCenterApplication(Adw.Application):
                 "deinen.finny https://github.com/finnmonstar",
                 "Rodrigo Pedro https://github.com/rodrigo-pedro",
                 "Veysel Erden https://github.com/veyselerden",
-                "mmouzo https://github.com/mmouzo"
-
+                "mmouzo https://github.com/mmouzo",
+                "phlostically https://hosted.weblate.org/user/phlostically/",
+                "Ryo Nakano https://github.com/ryonakano",
+                "Cealica https://github.com/Cealica",
+                "Chris wolrekids@gmail.com",
+                "Martin Meizoso https://github.com/martinmei71",
+                "Neeraj55#5 https://github.com/thakurfazer55",
+                "stathious https://hosted.weblate.org/user/stathious/",
+                "Michal Maděra https://github.com/czM1K3",
+                "Mr.Narsus https://github.com/MrNarsus",
+                "Kakujeetoz https://github.com/Kakujeetoz",
+                "Henrique Picanço https://github.com/henriquepicanco",
+                "Óscar Fernández Díaz https://github.com/oscfdezdz",
+                "Nagy Ádám https://github.com/NagyAdamA",
+                "Philip Goto https://github.com/flipflop97",
+                "Roman Vassilchenko https://github.com/RomanVassilchenko",
+                "Mohammad saliq https://github.com/darsaliq00",
             ]
         )
         about.present()
