@@ -120,7 +120,7 @@ class VanillaControlCenterApplication(Adw.Application):
                 "Nagy Ádám https://github.com/NagyAdamA",
                 "Philip Goto https://github.com/flipflop97",
                 "Roman Vassilchenko https://github.com/RomanVassilchenko",
-                "Mohammad saliq https://github.com/darsaliq00",
+                "Mohammad saliq https://github.com/darsaliq00"
             ]
         )
         about.present()
