@@ -35,6 +35,7 @@ class Apx:
         "apx_managed": "Sub System",
         "apx_managed_aur": "Arch Linux Sub System",
         "apx_managed_dnf": "Fedora Sub System",
+        "apx_managed_apk": "Alpine Sub System",
     }
 
     def __init__(self):
