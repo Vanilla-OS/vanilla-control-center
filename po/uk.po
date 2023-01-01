@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-25 18:54+0530\n"
-"PO-Revision-Date: 2022-11-09 04:10+0000\n"
+"PO-Revision-Date: 2023-01-02 20:50+0000\n"
 "Last-Translator: Serhii Chebanenko <4e6anenk0@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
 #: src/gtk/window.ui:17 src/main.py:58
@@ -74,17 +74,16 @@ msgid "Please wait while the available drivers are being loaded."
 msgstr "Зачекайте, будь ласка, поки завантажуються доступні драйвери."
 
 #: src/gtk/window.ui:64
-#, fuzzy
 msgid "No Drivers Available"
-msgstr "Встановлені нові драйвери."
+msgstr "Немає доступних драйверів"
 
 #: src/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "Немає додаткових драйверів, доступних для вашої системи."
 
 #: src/gtk/window.ui:80
 msgid "Updates"
-msgstr ""
+msgstr "Оновлення"
 
 #: src/gtk/window.ui:86
 msgid "Preferences"
@@ -92,37 +91,39 @@ msgstr "Налаштування"
 
 #: src/gtk/window.ui:89
 msgid "Latest Update Check"
-msgstr ""
+msgstr "Перевірка останнього оновлення"
 
 #: src/gtk/window.ui:90
 msgid "Never"
-msgstr ""
+msgstr "Ніколи"
 
 #: src/gtk/window.ui:95
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "Розклад оновлень"
 
 #: src/gtk/window.ui:96
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "Виберіть, як часто система має перевіряти наявність оновлень."
 
 #: src/gtk/window.ui:100
 msgid "Weekly"
-msgstr ""
+msgstr "Щотижня"
 
 #: src/gtk/window.ui:101
 msgid "Monthly"
-msgstr ""
+msgstr "Щомісяця"
 
 #: src/gtk/window.ui:109
 msgid "SmartUpdate"
-msgstr ""
+msgstr "Інтелектуальні оновлення"
 
 #: src/gtk/window.ui:110
 msgid ""
 "If enabled, the system will not update if the system is in high load or the "
 "battery is low."
 msgstr ""
+"Якщо ввімкнено, система не оновлюватиметься, якщо система навантажена або "
+"заряд батареї низький."
 
 #: src/gtk/window.ui:127
 msgid "Sub System"
@@ -130,18 +131,17 @@ msgstr "Підсистема"
 
 #: src/gtk/window.ui:139
 msgid "No Containerized Apps"
-msgstr ""
+msgstr "Немає контейнерних застосунків"
 
 #: src/gtk/window.ui:140
 msgid "There are no containerized apps installed on your system."
-msgstr ""
+msgstr "У вашій системі не встановлено жодних контейнерних застосунків."
 
 #: src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr "Встановлені застосунки"
 
 #: src/gtk/window.ui:166
-#, fuzzy
 msgid "_About Control-center"
 msgstr "_Про центр керування"
 
@@ -151,7 +151,7 @@ msgstr "Перекладачі"
 
 #: src/window.py:109
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
+msgstr "Виконується інша транзакція або систему потрібно перезапустити."
 
 #: src/window.py:122
 msgid "Installation Failed."
@@ -163,11 +163,11 @@ msgstr "Встановлені нові драйвери."
 
 #: src/window.py:157
 msgid "SmartUpdate Changed."
-msgstr ""
+msgstr "Інтелектуальні оновлення змінено."
 
 #: src/window.py:165
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "Розклад оновлення змінено."
 
 #: src/window.py:194
 msgid "{} Exited With Error."
