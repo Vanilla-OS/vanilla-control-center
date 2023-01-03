@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-25 18:54+0530\n"
-"PO-Revision-Date: 2022-12-30 12:57+0000\n"
-"Last-Translator: Roman Vassilchenko <roman.vassilchenko.work@gmail.com>\n"
+"PO-Revision-Date: 2023-01-03 21:51+0000\n"
+"Last-Translator: Kira Roubin <obodenkokirill@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ru/>\n"
 "Language: ru\n"
@@ -75,13 +75,12 @@ msgid "Please wait while the available drivers are being loaded."
 msgstr "Пожалуйста подождите, пока загружаются доступные драйверы."
 
 #: src/gtk/window.ui:64
-#, fuzzy
 msgid "No Drivers Available"
-msgstr "Новые драйверы установлены."
+msgstr "Установлены последние версии драйверов"
 
 #: src/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "Нет необходимости в дополнительных драйверах для вашей системы."
 
 #: src/gtk/window.ui:80
 msgid "Updates"
@@ -93,7 +92,7 @@ msgstr "Настройки"
 
 #: src/gtk/window.ui:89
 msgid "Latest Update Check"
-msgstr ""
+msgstr "Последняя проверка обновлений"
 
 #: src/gtk/window.ui:90
 msgid "Never"
@@ -101,11 +100,11 @@ msgstr "Никогда"
 
 #: src/gtk/window.ui:95
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "Расписание обновлений"
 
 #: src/gtk/window.ui:96
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "Выберите, как часто система должна проверять наличие обновлений."
 
 #: src/gtk/window.ui:100
 msgid "Weekly"
@@ -124,6 +123,8 @@ msgid ""
 "If enabled, the system will not update if the system is in high load or the "
 "battery is low."
 msgstr ""
+"Если этот параметр включен, система не будет обновляться при высокой "
+"нагрузке или низком заряде батареи."
 
 #: src/gtk/window.ui:127
 msgid "Sub System"
@@ -142,7 +143,6 @@ msgid "Installed Applications"
 msgstr "Установленные приложения"
 
 #: src/gtk/window.ui:166
-#, fuzzy
 msgid "_About Control-center"
 msgstr "_О центре управления"
 
@@ -152,7 +152,7 @@ msgstr "Переводчики"
 
 #: src/window.py:109
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
+msgstr "Выполняется другая операция или системе необходима перезагрузка."
 
 #: src/window.py:122
 msgid "Installation Failed."
@@ -164,7 +164,7 @@ msgstr "Новые драйверы установлены."
 
 #: src/window.py:157
 msgid "SmartUpdate Changed."
-msgstr ""
+msgstr "Умное обновление изменено."
 
 #: src/window.py:165
 msgid "Update Schedule Changed."
