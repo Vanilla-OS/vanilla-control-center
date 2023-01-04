@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-25 18:54+0530\n"
-"PO-Revision-Date: 2023-01-01 15:50+0000\n"
-"Last-Translator: Emin KÖSE <kansaslicocuk@gmail.com>\n"
+"PO-Revision-Date: 2023-01-06 08:49+0000\n"
+"Last-Translator: Muhammed Bayraktar <mhmmd.bayraktar@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/tr/>\n"
 "Language: tr\n"
@@ -101,7 +101,7 @@ msgstr "Güncelleme planla"
 
 #: src/gtk/window.ui:96
 msgid "Choose how often the system should check for updates."
-msgstr "Güncellemelerin ne sıklıkla kotrol edilmesini istediğinizi seçin."
+msgstr "Sistemin güncellemeleri ne sıklıkta kontrol etmesi gerektiğini seçin."
 
 #: src/gtk/window.ui:100
 msgid "Weekly"
@@ -129,11 +129,11 @@ msgstr "Alt Sistem"
 
 #: src/gtk/window.ui:139
 msgid "No Containerized Apps"
-msgstr "Konteynerlaştırılmış uygulama yok"
+msgstr "Konteynerleştirilmiş Uygulama Yok"
 
 #: src/gtk/window.ui:140
 msgid "There are no containerized apps installed on your system."
-msgstr "Sisteminizde konteynerlaştırılmış uygulama yok."
+msgstr "Sisteminizde konteynerleştirilmiş uygulama yok."
 
 #: src/gtk/window.ui:147
 msgid "Installed Applications"
