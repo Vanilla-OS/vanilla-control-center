@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-25 18:54+0530\n"
-"PO-Revision-Date: 2022-11-09 04:10+0000\n"
-"Last-Translator: Nguyễn Phú Trọng <minhhoang9105@gmail.com>\n"
+"PO-Revision-Date: 2023-01-06 08:49+0000\n"
+"Last-Translator: imgradeone - 一年级么么哒 <imgradeone@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "vanilla-os/control-center/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
 #: src/gtk/window.ui:17 src/main.py:58
 msgid "Vanilla OS Control Center"
-msgstr "香草操作系统控制中心"
+msgstr "Vanilla OS 控制中心"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
@@ -43,7 +43,7 @@ msgstr "这可能需要一段时间，具体取决于您的互联网连接速度
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "一般的"
+msgstr "通用"
 
 #: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
@@ -61,43 +61,43 @@ msgstr "应用更改"
 
 #: src/gtk/window.ui:45
 msgid "Drivers"
-msgstr "Drivers"
+msgstr "驱动"
 
 #: src/gtk/window.ui:55
 msgid "Loading drivers…"
-msgstr "正在加载 Drivers…"
+msgstr "正在加载驱动…"
 
 #: src/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
-msgstr "请稍候 drivers 正在加载。"
+msgstr "请等待可用驱动列表加载。"
 
 #: src/gtk/window.ui:64
 msgid "No Drivers Available"
-msgstr ""
+msgstr "无可用驱动"
 
 #: src/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "您的设备没有可用的额外驱动。"
 
 #: src/gtk/window.ui:80
 msgid "Updates"
-msgstr ""
+msgstr "更新"
 
 #: src/gtk/window.ui:86
 msgid "Preferences"
-msgstr ""
+msgstr "首选项"
 
 #: src/gtk/window.ui:89
 msgid "Latest Update Check"
-msgstr ""
+msgstr "检查最新更新"
 
 #: src/gtk/window.ui:90
 msgid "Never"
-msgstr ""
+msgstr "从不"
 
 #: src/gtk/window.ui:95
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "更新频率"
 
 #: src/gtk/window.ui:96
 msgid "Choose how often the system should check for updates."
@@ -139,11 +139,11 @@ msgstr ""
 
 #: src/gtk/window.ui:166
 msgid "_About Control-center"
-msgstr ""
+msgstr "关于控制中心 (_A)"
 
 #: src/main.py:65
 msgid "Translators"
-msgstr ""
+msgstr "翻译者"
 
 #: src/window.py:109
 msgid "Another transaction is running or the system needs to be restarted."
