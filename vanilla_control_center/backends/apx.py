@@ -59,15 +59,15 @@ class Apx:
     @property
     def supported(self) -> bool:
         if "apx" in os.environ.get("DISABLED_MODULES", []):
-            logger.debug("apx module disabled")
+            logger.info("apx module disabled")
             return False
 
         if self.__binary is None:
-            logger.debug("apx binary not found")
+            logger.info("apx binary not found")
             return False
 
         if not os.path.exists(self.__dbox_binary):
-            logger.debug("distrobox binary not found")
+            logger.info("distrobox binary not found")
             return False
 
         return True
