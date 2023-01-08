@@ -24,13 +24,16 @@ from gi.repository import Gtk, Gio, Gdk, GLib, Adw, Vte, Pango
 class VanillaDialogInstallation(Adw.Window):
     __gtype_name__ = 'VanillaDialogInstallation'
 
+    status = Gtk.Template.Child()
     console_output = Gtk.Template.Child()
 
-    def __init__(self, window, command, **kwargs):
+    def __init__(self, title, window, command, callback, **kwargs):
         super().__init__(**kwargs)
         self.set_transient_for(window)
+        self.status.set_title(title)
         self.__window = window
         self.__command = command
+        self.__callback = callback
         self.__terminal = Vte.Terminal()
         self.__font = Pango.FontDescription()
         self.__font.set_family("Ubuntu Mono")
@@ -90,5 +93,4 @@ class VanillaDialogInstallation(Adw.Window):
 
     def on_vte_child_exited(self, terminal, status, *args):
         status = not bool(status)
-        self.__window.emit('installation-finished', status)
-        
+        self.__callback(status)
