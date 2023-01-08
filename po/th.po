@@ -51,7 +51,7 @@ msgstr "แสดงทางลัด"
 #: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "เลิก"
+msgstr "ออก"
 
 #: src/gtk/window.ui:28
 msgid "Apply Changes"
@@ -63,7 +63,7 @@ msgstr "ไดรเวอร์"
 
 #: src/gtk/window.ui:55
 msgid "Loading drivers…"
-msgstr "กำลังโหลดไดรเวอร์..."
+msgstr "กำลังโหลดไดรเวอร์…"
 
 #: src/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
@@ -76,11 +76,11 @@ msgstr "ติดตั้งไดรเวอร์ใหม่แล้ว"
 
 #: src/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "ไม่มีไดรเวอร์เพิ่มเติมพร้อมใช้งานสำหรับระบบของคุณ"
 
 #: src/gtk/window.ui:80
 msgid "Updates"
-msgstr ""
+msgstr "อัปเดต"
 
 #: src/gtk/window.ui:86
 msgid "Preferences"
@@ -88,37 +88,37 @@ msgstr "การตั้งค่า"
 
 #: src/gtk/window.ui:89
 msgid "Latest Update Check"
-msgstr ""
+msgstr "ตรวจสอบอัปเดตล่าสุด"
 
 #: src/gtk/window.ui:90
 msgid "Never"
-msgstr ""
+msgstr "ไม่เคย"
 
 #: src/gtk/window.ui:95
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "กำหนดการอัปเดต"
 
 #: src/gtk/window.ui:96
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "เลือกความถี่ที่ระบบจะทำการตรวจสอบอัปเดต"
 
 #: src/gtk/window.ui:100
 msgid "Weekly"
-msgstr ""
+msgstr "ทุกสัปดาห์"
 
 #: src/gtk/window.ui:101
 msgid "Monthly"
-msgstr ""
+msgstr "ทุกเดือน"
 
 #: src/gtk/window.ui:109
 msgid "SmartUpdate"
-msgstr ""
+msgstr "SmartUpdate"
 
 #: src/gtk/window.ui:110
 msgid ""
 "If enabled, the system will not update if the system is in high load or the "
 "battery is low."
-msgstr ""
+msgstr "เมื่อเปิดอยู่ ระบบจะไม่อัปเดตหากระบบทำงานหนักหรือแบตเตอรี่ต่ำ"
 
 #: src/gtk/window.ui:127
 msgid "Sub System"
@@ -128,50 +128,58 @@ msgstr "ระบบย่อย"
 msgid "Containers"
 msgstr ""
 
-#: src/gtk/window.ui:142
+#: src/gtk/window.ui:142 src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr "แอปพลิเคชันที่ติดตั้งแล้ว"
 
-#: src/gtk/window.ui:161
+#: src/gtk/window.ui:161 src/gtk/window.ui:166
 #, fuzzy
 msgid "_About Control-center"
 msgstr "_เกี่ยวกับแผงควบคุม"
 
-#: src/main.py:67
+#: src/main.py:67 src/main.py:65
 msgid "Translators"
 msgstr "นักแปล"
 
-#: src/window.py:115
+#: src/window.py:115 src/window.py:122
 msgid "Installation Failed."
 msgstr "การติดตั้งผิดพลาด"
 
-#: src/window.py:118
+#: src/window.py:118 src/window.py:127
 msgid "New Drivers Installed."
 msgstr "ติดตั้งไดรเวอร์ใหม่แล้ว"
 
-#: src/window.py:125
+#: src/window.py:109
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
+msgstr "กำลังมีการทำรายการอื่นอยู่ หรือจำเป็นต้องเริ่มระบบใหม่"
 
-#: src/window.py:160
+#: src/window.py:157
 msgid "SmartUpdate Changed."
-msgstr ""
+msgstr "เปลี่ยน SmartUpdate แล้ว"
 
-#: src/window.py:168
+#: src/window.py:165
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "เปลี่ยนกำหนดการอัปเดตแล้ว"
 
-#: src/window.py:196
+#: src/window.py:196 src/window.py:194
 msgid "{} Exited With Error."
 msgstr "{} ออกโดยมีข้อผิดพลาด"
 
-#: src/window.py:199
+#: src/window.py:199 src/window.py:197
 msgid "{} Exited."
 msgstr "{} ออกแล้ว"
 
-#: src/window.py:202
+#: src/window.py:202 src/window.py:200
 msgid "{} Launched."
-msgstr "{} เปิดตัว"
+msgstr "{} เปิดแล้ว"
+
+#: src/gtk/window.ui:139
+msgid "No Containerized Apps"
+msgstr "ไม่มีแอปที่อยู่ในคอนเทนเนอร์"
+
+#: src/gtk/window.ui:140
+msgid "There are no containerized apps installed on your system."
+msgstr "ไม่มีแอปที่อยู่ในคอนเทนเนอร์ติดตั้งอยู่บนระบบของคุณ"
 
 #~ msgid "Immutability"
 #~ msgstr "ความไม่เปลี่ยนรูป"

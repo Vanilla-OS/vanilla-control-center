@@ -73,17 +73,16 @@ msgstr ""
 "Porfavor agarde mentres as controladoras dispoñíbeis estan a ser cargadas."
 
 #: src/gtk/window.ui:64
-#, fuzzy
 msgid "No Drivers Available"
-msgstr "Novas Controladoras Instaladas."
+msgstr "Non se atoparon controladoras"
 
 #: src/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "Ningunha controladora extra para o seu sistema."
 
 #: src/gtk/window.ui:80
 msgid "Updates"
-msgstr ""
+msgstr "Actualizacións"
 
 #: src/gtk/window.ui:86
 msgid "Preferences"
@@ -91,90 +90,99 @@ msgstr "Preferencias"
 
 #: src/gtk/window.ui:89
 msgid "Latest Update Check"
-msgstr ""
+msgstr "Verificación da última actualización"
 
 #: src/gtk/window.ui:90
 msgid "Never"
-msgstr ""
+msgstr "Nunca"
 
 #: src/gtk/window.ui:95
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "Programación da actualización"
 
 #: src/gtk/window.ui:96
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "Escolla a frecuencia para comprobar actualizacións."
 
 #: src/gtk/window.ui:100
 msgid "Weekly"
-msgstr ""
+msgstr "Cada semana"
 
 #: src/gtk/window.ui:101
 msgid "Monthly"
-msgstr ""
+msgstr "Cada mes"
 
 #: src/gtk/window.ui:109
 msgid "SmartUpdate"
-msgstr ""
+msgstr "Actualización intelixente"
 
 #: src/gtk/window.ui:110
 msgid ""
 "If enabled, the system will not update if the system is in high load or the "
 "battery is low."
 msgstr ""
+"Se está activado, pararanse as actualizacións en caso de sobrecarga do "
+"sistema ou batería baixa."
 
 #: src/gtk/window.ui:127
 msgid "Sub System"
-msgstr "Sub Sistema"
+msgstr "Subsistema"
 
 #: src/gtk/window.ui:137
 msgid "Containers"
 msgstr ""
 
-#: src/gtk/window.ui:142
+#: src/gtk/window.ui:142 src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr "Aplicacións Instaladas"
 
-#: src/gtk/window.ui:161
-#, fuzzy
+#: src/gtk/window.ui:166
 msgid "_About Control-center"
 msgstr "_Sobre o Panel de Control"
 
-#: src/main.py:67
+#: src/main.py:67 src/main.py:65
 msgid "Translators"
 msgstr "Traductores"
 
-#: src/window.py:115
+#: src/window.py:115 src/window.py:122
 msgid "Installation Failed."
 msgstr "Erro de Instalación."
 
-#: src/window.py:118
+#: src/window.py:118 src/window.py:127
 msgid "New Drivers Installed."
 msgstr "Novas Controladoras Instaladas."
 
-#: src/window.py:125
+#: src/window.py:109
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
+msgstr "O sistema esta ocupado ou debe reiniciarse."
 
-#: src/window.py:160
+#: src/window.py:157
 msgid "SmartUpdate Changed."
-msgstr ""
+msgstr "Actualización intelixente modificada."
 
-#: src/window.py:168
+#: src/window.py:165
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "A planificación das actualizacións cambiou."
 
-#: src/window.py:196
+#: src/window.py:196 src/window.py:194
 msgid "{} Exited With Error."
-msgstr "{} Finado con Erros."
+msgstr "{} Rematou con Erros."
 
-#: src/window.py:199
+#: src/window.py:199 src/window.py:197
 msgid "{} Exited."
-msgstr "{} Finado."
+msgstr "{} Rematado."
 
-#: src/window.py:202
+#: src/window.py:202 src/window.py:200
 msgid "{} Launched."
 msgstr "{} Executado."
+
+#: src/gtk/window.ui:139
+msgid "No Containerized Apps"
+msgstr "Non hai aplicacións contedores"
+
+#: src/gtk/window.ui:140
+msgid "There are no containerized apps installed on your system."
+msgstr "Non hai aplicacións en contedores instalados no seu sistema."
 
 #~ msgid "Immutability"
 #~ msgstr "Inalienabilidade"
