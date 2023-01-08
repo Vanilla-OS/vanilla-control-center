@@ -1,17 +1,17 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Vanilla Control Center Tamil translation
+# Copyright (C) 2023 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# K.B.Dharun Krishna <kbdharunkrishna@gmail.com>, 2023
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-25 18:54+0530\n"
+"POT-Creation-Date: 2023-01-08 11:57+0530\n"
 "PO-Revision-Date: 2022-12-28 15:27+0000\n"
 "Last-Translator: K.B.Dharun Krishna <kbdharunkrishna@gmail.com>\n"
-"Language-Team: Tamil <https://hosted.weblate.org/projects/vanilla-os/"
-"control-center/ta/>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/vanilla-os/control-"
+"center/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -121,72 +121,71 @@ msgid ""
 "If enabled, the system will not update if the system is in high load or the "
 "battery is low."
 msgstr ""
-"இயக்கப்பட்டால், கணினி அதிக சுமையில் இருந்தாலும் அல்லது பேட்டரி குறைவாக "
-"இருந்தாலும் கணினி புதுப்பிக்கப்படாது."
+"இயக்கப்பட்டால், கணினி அதிக சுமையில் இருந்தாலும் அல்லது பேட்டரி குறைவாக இருந்தாலும் "
+"கணினி புதுப்பிக்கப்படாது."
 
 #: src/gtk/window.ui:127
 msgid "Sub System"
 msgstr "துணை அமைப்பு"
 
-#: src/gtk/window.ui:139
-msgid "No Containerized Apps"
+#: src/gtk/window.ui:137
+#, fuzzy
+msgid "Containers"
 msgstr "கண்டெய்னரைஸ் செய்யப்பட்ட பயன்பாடுகள் இல்லை"
 
-#: src/gtk/window.ui:140
-msgid "There are no containerized apps installed on your system."
-msgstr "உங்கள் கணினியில் கண்டெய்னரைஸ் செய்யப்பட்ட பயன்பாடுகள் எதுவும் நிறுவப்படவில்லை."
-
-#: src/gtk/window.ui:147
+#: src/gtk/window.ui:142
 msgid "Installed Applications"
 msgstr "நிறுவப்பட்ட பயன்பாடுகள்"
 
-#: src/gtk/window.ui:166
+#: src/gtk/window.ui:161
 msgid "_About Control-center"
 msgstr "_கட்டுப்பாட்டு-மையம் பற்றி"
 
-#: src/main.py:65
+#: src/main.py:67
 msgid "Translators"
 msgstr "மொழிபெயர்ப்பாளர்கள்"
 
-#: src/window.py:109
-msgid "Another transaction is running or the system needs to be restarted."
-msgstr "மற்றொரு பரிவர்த்தனை இயங்குகிறது அல்லது கணினியை மறுதொடக்கம் செய்ய வேண்டும்."
-
-#: src/window.py:122
+#: src/window.py:115
 msgid "Installation Failed."
 msgstr "நிறுவல் தோல்வி அடைந்தது."
 
-#: src/window.py:127
+#: src/window.py:118
 msgid "New Drivers Installed."
 msgstr "புதிய இயக்கிகள் நிறுவப்பட்டுள்ளன."
 
-#: src/window.py:157
+#: src/window.py:125
+msgid "Another transaction is running or the system needs to be restarted."
+msgstr "மற்றொரு பரிவர்த்தனை இயங்குகிறது அல்லது கணினியை மறுதொடக்கம் செய்ய வேண்டும்."
+
+#: src/window.py:160
 msgid "SmartUpdate Changed."
 msgstr "ஸ்மார்ட் புதுப்பிப்பு மாற்றப்பட்டுள்ளது."
 
-#: src/window.py:165
+#: src/window.py:168
 msgid "Update Schedule Changed."
 msgstr "புதுப்பிப்பு அட்டவணை மாற்றப்பட்டது."
 
-#: src/window.py:194
+#: src/window.py:196
 msgid "{} Exited With Error."
 msgstr "{} பிழையுடன் வெளியேறியது."
 
-#: src/window.py:197
+#: src/window.py:199
 msgid "{} Exited."
 msgstr "{} வெளியேறியது."
 
-#: src/window.py:200
+#: src/window.py:202
 msgid "{} Launched."
 msgstr "{} தொடங்கப்பட்டது."
 
-#: src/gtk/window.ui:110
-msgid ""
-"If enabled, the system will not update if the system is in high load or "
-"battery is low."
-msgstr ""
-"இயக்கப்பட்டால், கணினி அதிக சுமையில் அல்லது பேட்டரி குறைவாக இருந்தால் கணினி "
-"புதுப்பிக்கப்படாது."
+#~ msgid "There are no containerized apps installed on your system."
+#~ msgstr "உங்கள் கணினியில் கண்டெய்னரைஸ் செய்யப்பட்ட பயன்பாடுகள் எதுவும் நிறுவப்படவில்லை."
+
+#~ msgid ""
+#~ "If enabled, the system will not update if the system is in high load or "
+#~ "battery is low."
+#~ msgstr ""
+#~ "இயக்கப்பட்டால், கணினி அதிக சுமையில் அல்லது பேட்டரி குறைவாக இருந்தால் கணினி "
+#~ "புதுப்பிக்கப்படாது."
 
 #~ msgid "Immutability"
 #~ msgstr "மாறாத தன்மை"

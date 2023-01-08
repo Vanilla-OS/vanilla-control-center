@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-25 18:54+0530\n"
+"POT-Creation-Date: 2023-01-08 11:57+0530\n"
 "PO-Revision-Date: 2022-11-05 21:12+0000\n"
 "Last-Translator: Mirko Brombin <send@mirko.pm>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -128,56 +128,52 @@ msgstr ""
 msgid "Sub System"
 msgstr "Sottosistema"
 
-#: src/gtk/window.ui:139
-msgid "No Containerized Apps"
+#: src/gtk/window.ui:137
+msgid "Containers"
 msgstr ""
 
-#: src/gtk/window.ui:140
-msgid "There are no containerized apps installed on your system."
-msgstr ""
-
-#: src/gtk/window.ui:147
+#: src/gtk/window.ui:142
 msgid "Installed Applications"
 msgstr "Applicazioni installate"
 
-#: src/gtk/window.ui:166
+#: src/gtk/window.ui:161
 #, fuzzy
 msgid "_About Control-center"
 msgstr "_Informazioni sul pannello di controllo"
 
-#: src/main.py:65
+#: src/main.py:67
 msgid "Translators"
 msgstr "Traduttori"
 
-#: src/window.py:109
-msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
-
-#: src/window.py:122
+#: src/window.py:115
 msgid "Installation Failed."
 msgstr "Installazione Fallita."
 
-#: src/window.py:127
+#: src/window.py:118
 msgid "New Drivers Installed."
 msgstr "Nuovi Driver Installati."
 
-#: src/window.py:157
+#: src/window.py:125
+msgid "Another transaction is running or the system needs to be restarted."
+msgstr ""
+
+#: src/window.py:160
 msgid "SmartUpdate Changed."
 msgstr ""
 
-#: src/window.py:165
+#: src/window.py:168
 msgid "Update Schedule Changed."
 msgstr ""
 
-#: src/window.py:194
+#: src/window.py:196
 msgid "{} Exited With Error."
 msgstr "{} Terminato Con Errore."
 
-#: src/window.py:197
+#: src/window.py:199
 msgid "{} Exited."
 msgstr "{} Terminato."
 
-#: src/window.py:200
+#: src/window.py:202
 msgid "{} Launched."
 msgstr "{} Lanciato."
 
