@@ -27,6 +27,7 @@ logger = logging.getLogger("Vanilla::UbuntuDrivers")
 
 
 class UbuntuDrivers:
+    
     def __init__(self):
         self.__binary = "/usr/bin/ubuntu-drivers"
         self.__bin_dpkg = "/usr/bin/dpkg"
@@ -89,6 +90,8 @@ class UbuntuDrivers:
         command = ["pkexec", "abroot", "exec", "-y", "apt", "install", f"linux-headers-$(uname -r)"]
 
         for driver in drivers:
+            if "nvidia" in driver:
+                command.append("nvidia-prime")
             command.append(driver)
 
         command.append("-y")
