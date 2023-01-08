@@ -122,7 +122,17 @@ class VanillaControlCenterApplication(Adw.Application):
                 "Nagy Ádám https://github.com/NagyAdamA",
                 "Philip Goto https://github.com/flipflop97",
                 "Roman Vassilchenko https://github.com/RomanVassilchenko",
-                "Mohammad saliq https://github.com/darsaliq00"
+                "Mohammad saliq https://github.com/darsaliq00",
+                "Leo https://github.com/gnesterif",
+                "Imam Faraz Aditya https://github.com/imfaditya",
+                "yukidream https://github.com/sekalengrengginang",
+                "Ghost/duch3201 https://github.com/duch3201",
+                "Hugo Carvalho https://github.com/hugok79",
+                "Emin KÖSE <kansaslicocuk@gmail.com>",
+                "Kira Roubin https://github.com/jplie",
+                "Samuel NAIT https://github.com/Tisamu",
+                "Muhammed Bayraktar https://github.com/Xelorium",
+                "imgradeone https://github.com/imgradeone"
             ]
         )
         about.present()
