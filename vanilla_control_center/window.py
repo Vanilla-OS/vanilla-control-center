@@ -22,14 +22,14 @@ import subprocess
 from gi.repository import Adw
 from gi.repository import Gtk, GLib, GObject
 
-from .driver import VanillaDriverRow, VanillaDriversGroup
-from .program import VanillaApxProgram
-from .container import VanillaApxContainer
-from .ubuntu_drivers import UbuntuDrivers
-from .apx import Apx
-from .vso import Vso
-from .dialog_installation import VanillaDialogInstallation
-from .run_async import RunAsync
+from vanilla_control_center.driver import VanillaDriverRow, VanillaDriversGroup
+from vanilla_control_center.program import VanillaApxProgram
+from vanilla_control_center.container import VanillaApxContainer
+from vanilla_control_center.backends.ubuntu_drivers import UbuntuDrivers
+from vanilla_control_center.backends.apx import Apx
+from vanilla_control_center.backends.vso import Vso
+from vanilla_control_center.dialog_installation import VanillaDialogInstallation
+from vanilla_control_center.run_async import RunAsync
 
 
 logger = logging.getLogger("Vanilla")
@@ -149,7 +149,6 @@ class VanillaWindow(Adw.ApplicationWindow):
             self.combo_update_schedule.set_selected(state)
 
         if smart := self.vso.smart:
-            print(smart)
             self.switch_update_smart.set_active(smart)
 
         self.combo_update_schedule.connect("notify::selected", self.__on_update_schedule_changed)

@@ -3,6 +3,7 @@ Section: utils
 Priority: optional
 Maintainer: Mirko Brombin <send@mirko.pm>
 Build-Depends: 
+            itstool,
             build-essential,
             debhelper,
             python3,

@@ -25,6 +25,8 @@ configure_file(
   install_dir: get_option('bindir')
 )
 
+subdir('backends')
+
 vanilla_control_center_sources = [
   '__init__.py',
   'main.py',
@@ -32,10 +34,7 @@ vanilla_control_center_sources = [
   'driver.py',
   'program.py',
   'run_async.py',
-  'vso.py',
-  'apx.py',
   'container.py',
-  'ubuntu_drivers.py',
   'dialog_installation.py',
 ]
 
