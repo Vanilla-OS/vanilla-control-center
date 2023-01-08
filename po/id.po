@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-25 18:54+0530\n"
+"POT-Creation-Date: 2023-01-08 11:57+0530\n"
 "PO-Revision-Date: 2023-01-01 15:50+0000\n"
 "Last-Translator: yukidream <ahawaribagus@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -128,57 +128,53 @@ msgstr ""
 msgid "Sub System"
 msgstr "Subsistem"
 
-#: src/gtk/window.ui:139
-msgid "No Containerized Apps"
+#: src/gtk/window.ui:137
+msgid "Containers"
 msgstr ""
 
-#: src/gtk/window.ui:140
-msgid "There are no containerized apps installed on your system."
-msgstr ""
-
-#: src/gtk/window.ui:147
+#: src/gtk/window.ui:142
 msgid "Installed Applications"
 msgstr "Aplikasi yang Terinstal"
 
-#: src/gtk/window.ui:166
+#: src/gtk/window.ui:161
 #, fuzzy
 msgid "_About Control-center"
 msgstr "_Tentang Panel-Kontrol"
 
-#: src/main.py:65
+#: src/main.py:67
 msgid "Translators"
 msgstr "Penerjemah"
 
-#: src/window.py:109
-msgid "Another transaction is running or the system needs to be restarted."
-msgstr "Transaksi lain sedang berjalan atau sistem perlu dimulai ulang"
-
-#: src/window.py:122
+#: src/window.py:115
 msgid "Installation Failed."
 msgstr "Instalasi Gagal"
 
-#: src/window.py:127
+#: src/window.py:118
 msgid "New Drivers Installed."
 msgstr "Driver Baru Terpasang."
 
-#: src/window.py:157
+#: src/window.py:125
+msgid "Another transaction is running or the system needs to be restarted."
+msgstr "Transaksi lain sedang berjalan atau sistem perlu dimulai ulang"
+
+#: src/window.py:160
 #, fuzzy
 msgid "SmartUpdate Changed."
 msgstr "MutakhirPintar Diubah."
 
-#: src/window.py:165
+#: src/window.py:168
 msgid "Update Schedule Changed."
 msgstr "Jadwal Pemutakhiran Dirubah."
 
-#: src/window.py:194
+#: src/window.py:196
 msgid "{} Exited With Error."
 msgstr "{} Keluar Dengan Kesalahan."
 
-#: src/window.py:197
+#: src/window.py:199
 msgid "{} Exited."
 msgstr "{} Keluar."
 
-#: src/window.py:200
+#: src/window.py:202
 msgid "{} Launched."
 msgstr "{} Diluncurkan."
 

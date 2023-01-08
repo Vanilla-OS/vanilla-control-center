@@ -1,6 +1,6 @@
 # main.py
 #
-# Copyright 2022 Mirko Brombin
+# Copyright 2023 Mirko Brombin
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -58,9 +58,12 @@ class VanillaControlCenterApplication(Adw.Application):
                                 application_name=_('Vanilla OS Control Center'),
                                 application_icon='org.vanillaos.ControlCenter',
                                 developer_name='Mirko Brombin',
-                                version='1.0.2',
+                                version='1.3.1',
                                 developers=['Mirko Brombin'],
-                                copyright='© 2022 Mirko Brombin')
+                                copyright='© 2023 Mirko Brombin',
+                                website='https://vanillaos.org/',
+                                issue_url=('https://github.com/Vanilla-OS/vanilla-control-center/issues'),
+                                license_type=('gpl-3-0-only'))
         about.add_credit_section(
             _("Translators"),
             [
@@ -108,7 +111,7 @@ class VanillaControlCenterApplication(Adw.Application):
                 "phlostically https://hosted.weblate.org/user/phlostically/",
                 "Ryo Nakano https://github.com/ryonakano",
                 "Cealica https://github.com/Cealica",
-                "Chris wolrekids@gmail.com",
+                "Chris <wolrekids@gmail.com>",
                 "Martin Meizoso https://github.com/martinmei71",
                 "Neeraj55#5 https://github.com/thakurfazer55",
                 "stathious https://hosted.weblate.org/user/stathious/",
@@ -120,7 +123,17 @@ class VanillaControlCenterApplication(Adw.Application):
                 "Nagy Ádám https://github.com/NagyAdamA",
                 "Philip Goto https://github.com/flipflop97",
                 "Roman Vassilchenko https://github.com/RomanVassilchenko",
-                "Mohammad saliq https://github.com/darsaliq00"
+                "Mohammad saliq https://github.com/darsaliq00",
+                "Leo https://github.com/gnesterif",
+                "Imam Faraz Aditya https://github.com/imfaditya",
+                "yukidream https://github.com/sekalengrengginang",
+                "Ghost/duch3201 https://github.com/duch3201",
+                "Hugo Carvalho https://github.com/hugok79",
+                "Emin KÖSE <kansaslicocuk@gmail.com>",
+                "Kira Roubin https://github.com/jplie",
+                "Samuel NAIT https://github.com/Tisamu",
+                "Muhammed Bayraktar https://github.com/Xelorium",
+                "imgradeone https://github.com/imgradeone"
             ]
         )
         about.present()
