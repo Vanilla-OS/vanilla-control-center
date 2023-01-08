@@ -11,13 +11,12 @@ pages = [
 ]
 
 media = [
-  'media/search-recent.png',
   'media/vanilla-control-center.png',
   'media/vanilla-control-center-apply.png',
   'media/vanilla-control-center-installation.png',
-  'vanilla-control-center-update.png',
-  'vanilla-control-center-subsystem.png',
-  'vanilla-control-center-subsystem-enter.png',
+  'media/vanilla-control-center-update.png',
+  'media/vanilla-control-center-subsystem.png',
+  'media/vanilla-control-center-subsystem-enter.png',
 ]
 
 gnome.yelp(meson.project_name(),
