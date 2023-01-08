@@ -1,0 +1,40 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task" version="1.1"
+      id="subsystem-containers">
+  <info>
+   <revision version="1.1" date="2023-01-08" status="draft"/>
+
+    <credit type="author copyright">
+      <name>K.B.Dharun Krishna</name>
+      <email>kbdharunkrishna@gmail.com</email>
+      <years>2023</years>
+    </credit>
+
+    <link type="guide" xref="index#subsystem"/>
+    <link type="seealso" xref="subsystem-installed"/>
+
+    <keywords>apx, subsystem, containers, package manager</keywords>
+    <desc>Learn how to manage your Containers graphically in Vanilla OS.</desc>
+  </info>
+  
+  <title>How to manage Containers?</title>
+
+  <p><gui>Vanilla OS Control Center</gui> allows you to manage various <gui>apx</gui> containers from multiple sources seamlessly in a unified place.</p>
+  
+  <p>It allows us to initialize or enter containers through the <gui>Containers</gui> menu.</p>
+  
+<media type="image" src="media/vanilla-control-center-subsystem.png"/>
+
+  <p> You can initialize the <gui>apx</gui> container by:</p>
+  
+ <list>
+        <item><p>Clicking on the <gui>+</gui> button in the desired container.</p></item>
+        <item><p>Upon clicking, a Read-only window opens, and the container gets created.</p></item>
+        <item><p>Now, the <gui>+</gui> icon would have changed to a terminal icon which means the container's creation is successful.</p></item>
+ </list>
+ 
+ <media type="image" src="media/vanilla-control-center-subsystem-enter.png"/>
+ 
+ <p> You can enter the <gui>apx</gui> container by clicking on the terminal icon, which opens a terminal window logged into the <gui>apx_managed</gui> container.</p>
+</page>

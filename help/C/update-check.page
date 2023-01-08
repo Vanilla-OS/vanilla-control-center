@@ -1,0 +1,29 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task" version="1.1"
+      id="update-check">
+  <info>
+   <revision version="1.1" date="2023-01-08" status="draft"/>
+
+    <credit type="author copyright">
+      <name>K.B.Dharun Krishna</name>
+      <email>kbdharunkrishna@gmail.com</email>
+      <years>2023</years>
+    </credit>
+
+    <link type="guide" xref="index#updates"/>
+    <link type="seealso" xref="update-scheduling"/>
+    <link type="seealso" xref="update-smart"/>
+
+    <keywords>update check, update, vso</keywords>
+    <desc>Learn how Update Checks work in Vanilla OS.</desc>
+  </info>
+  
+  <title>What is the Latest Update Check?</title>
+
+  <p> Latest Update Check displays the last time an update check has run through <gui>vso</gui> (<gui>Vanilla System Operator</gui>). If you have scheduled <gui>Weekly</gui> or <gui>Monthly</gui> updates, then the update check is done based on your preferred schedule.</p>
+  
+  <p>Latest Update Checks are necessary to know if automatic updates are working as expected.</p>
+  
+<media type="image" src="media/vanilla-control-center-update.png"/>
+</page>

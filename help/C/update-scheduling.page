@@ -1,0 +1,29 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task" version="1.1"
+      id="update-scheduling">
+  <info>
+   <revision version="1.1" date="2023-01-08" status="draft"/>
+
+    <credit type="author copyright">
+      <name>K.B.Dharun Krishna</name>
+      <email>kbdharunkrishna@gmail.com</email>
+      <years>2023</years>
+    </credit>
+
+    <link type="guide" xref="index#updates"/>
+    <link type="seealso" xref="update-check"/>
+    <link type="seealso" xref="update-smart"/>
+
+    <keywords>update, scheduling, vso</keywords>
+    <desc>Learn how to Schedule Updates in Vanilla OS.</desc>
+  </info>
+  
+  <title>How to Schedule Automatic Updates?</title>
+
+  <p>Update scheduling is used to perform automatic updates using <gui>VSO</gui> (<gui>Vanilla System Operator</gui>) at fixed intervals, such as <gui>Weekly</gui> or <gui>Monthly</gui>.</p>
+  
+  <p>The default setting is "<gui>Weekly</gui>" to perform automatic updates at weekly intervals.</p>
+  
+<media type="image" src="media/vanilla-control-center-update.png"/>
+</page>
