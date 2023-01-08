@@ -74,37 +74,41 @@ msgid "Please wait while the available drivers are being loaded."
 msgstr "Attendi il caricamento dei driver disponibili."
 
 #: src/gtk/window.ui:64
-#, fuzzy
 msgid "No Drivers Available"
-msgstr "Nuovi Driver Installati."
+msgstr "Nessun Driver Disponibile"
 
 #: src/gtk/window.ui:65
+#, fuzzy
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "Non sono disponibili driver aggiuntivi per il tuo sistema."
 
 #: src/gtk/window.ui:80
 msgid "Updates"
-msgstr ""
+msgstr "Aggiornamenti"
 
 #: src/gtk/window.ui:86
 msgid "Preferences"
 msgstr "Preferenze"
 
 #: src/gtk/window.ui:89
+#, fuzzy
 msgid "Latest Update Check"
-msgstr ""
+msgstr "Ultimo Aggiornamento"
 
 #: src/gtk/window.ui:90
 msgid "Never"
-msgstr ""
+msgstr "Mai"
 
 #: src/gtk/window.ui:95
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "Pianificazione degli Aggiornamenti"
 
 #: src/gtk/window.ui:96
+#, fuzzy
 msgid "Choose how often the system should check for updates."
 msgstr ""
+"Scegli quanto spesso il sistema dovrebbe controllare la presenza di "
+"aggiornamenti."
 
 #: src/gtk/window.ui:100
 msgid "Weekly"
@@ -123,6 +127,8 @@ msgid ""
 "If enabled, the system will not update if the system is in high load or the "
 "battery is low."
 msgstr ""
+"Se abilitato, il sistema non si aggiornerà se il sistema è in sovraccarico o "
+"la batteria è scarica."
 
 #: src/gtk/window.ui:127
 msgid "Sub System"
@@ -132,50 +138,59 @@ msgstr "Sottosistema"
 msgid "Containers"
 msgstr ""
 
-#: src/gtk/window.ui:142
+#: src/gtk/window.ui:142 src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr "Applicazioni installate"
 
-#: src/gtk/window.ui:161
+#: src/gtk/window.ui:161 src/gtk/window.ui:166
 #, fuzzy
 msgid "_About Control-center"
 msgstr "_Informazioni sul pannello di controllo"
 
-#: src/main.py:67
+#: src/main.py:67 src/main.py:65
 msgid "Translators"
 msgstr "Traduttori"
 
-#: src/window.py:115
+#: src/window.py:115 src/window.py:122
 msgid "Installation Failed."
 msgstr "Installazione Fallita."
 
-#: src/window.py:118
+#: src/window.py:118 src/window.py:127
 msgid "New Drivers Installed."
 msgstr "Nuovi Driver Installati."
 
-#: src/window.py:125
+#: src/window.py:109
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
+msgstr "Un'altra transazione è in corso o il sistema deve essere riavviato."
 
-#: src/window.py:160
+#: src/window.py:160 src/window.py:157
 msgid "SmartUpdate Changed."
 msgstr ""
 
-#: src/window.py:168
+#: src/window.py:168 src/window.py:165
+#, fuzzy
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "Pianificazione degli Aggiornamenti Modificato."
 
-#: src/window.py:196
+#: src/window.py:196 src/window.py:194
 msgid "{} Exited With Error."
 msgstr "{} Terminato Con Errore."
 
-#: src/window.py:199
+#: src/window.py:199 src/window.py:197
 msgid "{} Exited."
 msgstr "{} Terminato."
 
-#: src/window.py:202
+#: src/window.py:202 src/window.py:200
 msgid "{} Launched."
 msgstr "{} Lanciato."
+
+#: src/gtk/window.ui:139
+msgid "No Containerized Apps"
+msgstr "Nessuna App Containerizzata"
+
+#: src/gtk/window.ui:140
+msgid "There are no containerized apps installed on your system."
+msgstr "Non sono installate nessune app containerizzate sul tuo sistema."
 
 #~ msgid "Immutability"
 #~ msgstr "Immutabilità"
