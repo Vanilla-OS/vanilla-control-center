@@ -61,6 +61,7 @@ class VanillaControlCenterApplication(Adw.Application):
                                 version='1.3.1',
                                 developers=['Mirko Brombin'],
                                 copyright='© 2023 Mirko Brombin',
+                                website='https://vanillaos.org/',
                                 issue_url=('https://github.com/Vanilla-OS/vanilla-control-center/issues'),
                                 license_type=('gpl-3-0-only'))
         about.add_credit_section(
