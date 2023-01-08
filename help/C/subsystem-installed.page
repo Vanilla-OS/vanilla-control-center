@@ -1,0 +1,30 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task" version="1.1"
+      id="subsystem-installed">
+  <info>
+   <revision version="1.1" date="2023-01-08" status="draft"/>
+
+    <credit type="author copyright">
+      <name>K.B.Dharun Krishna</name>
+      <email>kbdharunkrishna@gmail.com</email>
+      <years>2023</years>
+    </credit>
+
+    <link type="guide" xref="index#subsystem"/>
+    <link type="seealso" xref="subsystem-containers"/>
+
+    <keywords>apx, subsystem, containers, package manager</keywords>
+    <desc>Learn how to open applications graphically in Vanilla OS.</desc>
+  </info>
+  
+  <title>How to view Installed applications from Containers?</title>
+
+  <p><gui>Vanilla OS Control Center</gui> allows you to view the GUI applications installed inside multiple <gui>apx</gui> containers in a unified place.</p>
+  
+  <p>Applications with a desktop entries are listed in this <gui>Installed Application</gui> menu.</p>
+ 
+ <media type="image" src="media/vanilla-control-center-subsystem-enter.png"/>
+ 
+ <p> You can execute the application by clicking on the <gui>Start</gui> (Play) button beside the required application.</p>
+</page>

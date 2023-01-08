@@ -1,0 +1,31 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:its="http://www.w3.org/2005/11/its"
+      type="topic" style="task" version="1.1"
+      id="update-smart">
+  <info>
+   <revision version="1.1" date="2023-01-08" status="draft"/>
+
+    <credit type="author copyright">
+      <name>K.B.Dharun Krishna</name>
+      <email>kbdharunkrishna@gmail.com</email>
+      <years>2023</years>
+    </credit>
+
+    <link type="guide" xref="index#updates"/>
+    <link type="seealso" xref="update-check"/>
+    <link type="seealso" xref="update-scheduling"/>
+
+    <keywords>update, smart, smart updates, vso</keywords>
+    <desc>Learn about Smart Updates in Vanilla OS.</desc>
+  </info>
+  
+  <title>What is Smart Updates?</title>
+
+  <p>Smart Updates is a way to ensure automatic updates are performed only on ideal conditions.</p>
+
+<p>When <gui>Smart Updates</gui> is enabled, <gui>vso</gui> checks whether the system is capable of performing an update without hindering the user experience. Multiple checks for connection, memory, CPU and battery status get performed. If the system isn't ideal or capable of performing an update, then <gui>vso</gui> will skip it and try again later.</p>
+
+<p>If <gui>Smart Updates</gui> is disabled, then <gui>vso</gui> will perform the update without any further checks.</p>
+  
+<media type="image" src="media/vanilla-control-center-update.png"/>
+</page>
