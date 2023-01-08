@@ -58,9 +58,11 @@ class VanillaControlCenterApplication(Adw.Application):
                                 application_name=_('Vanilla OS Control Center'),
                                 application_icon='org.vanillaos.ControlCenter',
                                 developer_name='Mirko Brombin',
-                                version='1.0.2',
+                                version='1.3.0',
                                 developers=['Mirko Brombin'],
-                                copyright='© 2022 Mirko Brombin')
+                                copyright='© 2023 Mirko Brombin',
+                                issue_url=('https://github.com/Vanilla-OS/vanilla-control-center/issues'),
+                                license_type=('gpl-3-0-only'))
         about.add_credit_section(
             _("Translators"),
             [
@@ -108,7 +110,7 @@ class VanillaControlCenterApplication(Adw.Application):
                 "phlostically https://hosted.weblate.org/user/phlostically/",
                 "Ryo Nakano https://github.com/ryonakano",
                 "Cealica https://github.com/Cealica",
-                "Chris wolrekids@gmail.com",
+                "Chris <wolrekids@gmail.com>",
                 "Martin Meizoso https://github.com/martinmei71",
                 "Neeraj55#5 https://github.com/thakurfazer55",
                 "stathious https://hosted.weblate.org/user/stathious/",
