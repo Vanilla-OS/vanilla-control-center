@@ -28,6 +28,7 @@ from vanilla_control_center.container import VanillaApxContainer
 from vanilla_control_center.backends.ubuntu_drivers import UbuntuDrivers
 from vanilla_control_center.backends.apx import Apx
 from vanilla_control_center.backends.vso import Vso
+from vanilla_control_center.backends.prime_profiles import PrimeProfiles
 from vanilla_control_center.dialog_installation import VanillaDialogInstallation
 from vanilla_control_center.run_async import RunAsync
 
@@ -43,6 +44,7 @@ class VanillaWindow(Adw.ApplicationWindow):
     }
 
     page_drivers = Gtk.Template.Child()
+    page_prime = Gtk.Template.Child()
     status_drivers = Gtk.Template.Child()
     status_no_drivers = Gtk.Template.Child()
     status_updates = Gtk.Template.Child()
@@ -55,6 +57,14 @@ class VanillaWindow(Adw.ApplicationWindow):
     page_apx = Gtk.Template.Child()
     group_containers = Gtk.Template.Child()
     group_apps = Gtk.Template.Child()
+    status_prime = Gtk.Template.Child()
+    row_igpu_status = Gtk.Template.Child()
+    row_dgpu_status = Gtk.Template.Child()
+    row_hgpu_status = Gtk.Template.Child()
+    img_igpu = Gtk.Template.Child()
+    img_dgpu = Gtk.Template.Child()
+    img_hgpu = Gtk.Template.Child()
+    list_prime = Gtk.Template.Child()
     
     __selected_drivers = {}
 
@@ -64,14 +74,14 @@ class VanillaWindow(Adw.ApplicationWindow):
         self.ubuntu_drivers = UbuntuDrivers()
         self.vso = Vso()
         self.apx = Apx()
+        self.prime_profiles = PrimeProfiles()
         self.__build_ui()
 
     def __build_ui(self):
         self.__setup_devices()
         self.__setup_vso()
         self.__setup_apx()
-
-        self.connect("installation-finished", self.__on_installation_finished)
+        self.__setup_prime()
     
     # region Devices
     def __setup_devices(self):
@@ -107,7 +117,7 @@ class VanillaWindow(Adw.ApplicationWindow):
         self.__selected_drivers[model] = driver
         self.btn_apply.set_visible(len(self.__selected_drivers) > 0)
     
-    def __on_installation_finished(self, widget, result, *args):
+    def callback(self, result, *args):
         self.__selected_drivers = {}
         self.btn_apply.set_visible(False)
 
@@ -132,7 +142,7 @@ class VanillaWindow(Adw.ApplicationWindow):
             res.append(self.__selected_drivers[model])
 
         command = self.ubuntu_drivers.get_install_command(res)
-        VanillaDialogInstallation(self, command).show()
+        VanillaDialogInstallation(_("Installing new Drivers…"), self, command, callback).show()
     # endregion
 
     # region Vso
@@ -201,6 +211,64 @@ class VanillaWindow(Adw.ApplicationWindow):
         self.toast(_("{} Launched.").format(name))
     # endregion
     
+    # region Prime
+    def __setup_prime(self):
+        if not self.prime_profiles.supported:
+            self.page_prime.set_visible(False)
+            return
+            
+        gpus = self.prime_profiles.get_gpus()
+        if len(gpus) == 0:
+            self.page_prime.set_visible(False)
+            return
+
+        self.row_igpu_status.set_subtitle(gpus["integrated"])
+        self.row_dgpu_status.set_subtitle(gpus["discrete"])
+
+        current = self.prime_profiles.get_current()
+        if current == "intel":
+            self.img_igpu.set_visible(True)
+        elif current == "nvidia":
+            self.img_dgpu.set_visible(True)
+        else:
+            self.img_hgpu.set_visible(True)
+
+        self.list_prime.connect('row-selected', self.__on_prime_row_selected)
+
+    def __on_prime_row_selected(self, widget, row):
+        if not self.prime_profiles.can_set():
+            self.toast(_("Another transaction is running or the system needs to be restarted."))
+            return
+
+        buildable = row.get_buildable_id()
+        profile = "on-demand"
+        states = False, False, True
+        
+        if buildable == "row_igpu_status":
+            profile = "intel"
+            states = True, False, False
+        elif buildable == "row_dgpu_status":
+            profile = "nvidia"
+            states = False, True, False
+
+        def callback(result, *args):
+            if result:
+                self.toast(_("Prime Profile Changed."))
+                self.img_igpu.set_visible(states[0])
+                self.img_dgpu.set_visible(states[1])
+                self.img_hgpu.set_visible(states[2])
+                subprocess.run(['gnome-session-quit', '--reboot'])
+                return
+
+            self.toast(_("Prime Profile Change Failed."))
+
+        if command:= self.prime_profiles.get_set_profile_command(profile):
+            VanillaDialogInstallation(_("Switching PRIME Profile…"), self, command, callback).show()
+        else:
+            self.toast(_("Prime Profile Change Failed."))
+
+    # endregion
+
     def toast(self, message, timeout=2):
         toast = Adw.Toast.new(message)
         toast.props.timeout = timeout

@@ -75,6 +75,74 @@
                   </object>
                 </child>
                 <child>
+                  <object class="AdwViewStackPage" id="page_prime">
+                    <property name="name">prime</property>
+                    <property name="title" translatable="true">PRIME Profiles</property>
+                    <property name="icon-name">video-display-symbolic</property>
+                    <property name="child">
+                      <object class="AdwPreferencesPage" id="status_prime">
+                        <child>
+                          <object class="AdwPreferencesGroup">
+                            <property name="title" translatable="true">Active Profile</property>
+                            <child>
+                              <object class="GtkListBox" id="list_prime">
+                                <style>
+                                  <class name="boxed-list"/>
+                                </style>
+                                <child>
+                                  <object class="AdwActionRow" id="row_igpu_status">
+                                    <property name="title" translatable="true">Integrated GPU</property>
+                                    <property name="subtitle" translatable="true">Not detected</property>
+                                    <property name="activatable">True</property>
+                                    <property name="selectable">True</property>
+                                    <child type="suffix">
+                                      <object class="GtkImage" id="img_igpu">
+                                        <property name="icon-name">object-select-symbolic</property>
+                                        <property name="valign">center</property>
+                                        <property name="visible">False</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwActionRow" id="row_dgpu_status">
+                                    <property name="title" translatable="true">Discrete GPU</property>
+                                    <property name="subtitle" translatable="true">Not detected</property>
+                                    <property name="activatable">True</property>
+                                    <property name="selectable">True</property>
+                                    <child type="suffix">
+                                      <object class="GtkImage" id="img_dgpu">
+                                        <property name="icon-name">object-select-symbolic</property>
+                                        <property name="valign">center</property>
+                                        <property name="visible">False</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="AdwActionRow" id="row_hgpu_status">
+                                    <property name="title" translatable="true">Hybrid</property>
+                                    <property name="subtitle" translatable="true">Use the integrated GPU for everything and the discrete GPU on demand</property>
+                                    <property name="activatable">True</property>
+                                    <property name="selectable">True</property>
+                                    <child type="suffix">
+                                      <object class="GtkImage" id="img_hgpu">
+                                        <property name="icon-name">object-select-symbolic</property>
+                                        <property name="valign">center</property>
+                                        <property name="visible">False</property>
+                                      </object>
+                                    </child>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </property>
+                  </object>
+                </child>
+                <child>
                   <object class="AdwViewStackPage" id="page_updates">
                     <property name="name">updates</property>
                     <property name="title" translatable="true">Updates</property>

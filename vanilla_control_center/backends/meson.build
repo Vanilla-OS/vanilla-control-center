@@ -6,6 +6,8 @@ sources = [
   'apx.py',
   'ubuntu_drivers.py',
   'vso.py',
+  'prime_profiles.py',
+  'exceptions.py',
 ]
 
 install_data(sources, install_dir: backendsdir)

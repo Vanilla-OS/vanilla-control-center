@@ -17,9 +17,9 @@
                     </object>
                 </child>
                 <child>
-                    <object class="AdwStatusPage">
+                    <object class="AdwStatusPage" id="status">
                         <property name="title" translatable="true">Installation in Progress…</property>
-                        <property name="description" translatable="true">This may take a while, based on your internet connection speed.</property>
+                        <property name="description" translatable="true">This may take a while.</property>
                         <child>
                             <object class="GtkBox" id="console_box">
                                 <property name="margin-start">40</property>
