@@ -25,5 +25,5 @@
   
   <p>The default setting is "<gui>Weekly</gui>" to perform automatic updates at weekly intervals.</p>
   
-<media type="image" src="media/vanilla-control-center-update.png"/>
+<media type="image" its:translate="no" src="media/vanilla-control-center-update.png"/>
 </page>

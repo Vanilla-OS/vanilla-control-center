@@ -25,5 +25,5 @@
   
   <p>Latest Update Checks are necessary to know if automatic updates are working as expected.</p>
   
-<media type="image" src="media/vanilla-control-center-update.png"/>
+<media type="image" its:translate="no" src="media/vanilla-control-center-update.png"/>
 </page>

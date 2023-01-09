@@ -24,7 +24,7 @@
   
   <p>Applications with a desktop entries are listed in this <gui>Installed Application</gui> menu.</p>
  
- <media type="image" src="media/vanilla-control-center-subsystem-enter.png"/>
+ <media type="image" its:translate="no" src="media/vanilla-control-center-subsystem-enter.png"/>
  
  <p> You can execute the application by clicking on the <gui>Start</gui> (Play) button beside the required application.</p>
 </page>
