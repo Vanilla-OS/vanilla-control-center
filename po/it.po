@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-08 11:57+0530\n"
-"PO-Revision-Date: 2022-11-05 21:12+0000\n"
-"Last-Translator: Mirko Brombin <send@mirko.pm>\n"
+"PO-Revision-Date: 2023-01-12 18:47+0000\n"
+"Last-Translator: EncryptedEasty <c.zullo08@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/it/>\n"
 "Language: it\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
 #: src/gtk/window.ui:17 src/main.py:58
@@ -78,9 +78,8 @@ msgid "No Drivers Available"
 msgstr "Nessun Driver Disponibile"
 
 #: src/gtk/window.ui:65
-#, fuzzy
 msgid "There are no extra drivers available for your system."
-msgstr "Non sono disponibili driver aggiuntivi per il tuo sistema."
+msgstr "Non sono disponibili driver aggiuntivi per il sistema."
 
 #: src/gtk/window.ui:80
 msgid "Updates"
@@ -91,9 +90,8 @@ msgid "Preferences"
 msgstr "Preferenze"
 
 #: src/gtk/window.ui:89
-#, fuzzy
 msgid "Latest Update Check"
-msgstr "Ultimo Aggiornamento"
+msgstr "Controllo dell'ultimo aggiornamento"
 
 #: src/gtk/window.ui:90
 msgid "Never"
@@ -104,23 +102,22 @@ msgid "Updates Scheduling"
 msgstr "Pianificazione degli Aggiornamenti"
 
 #: src/gtk/window.ui:96
-#, fuzzy
 msgid "Choose how often the system should check for updates."
 msgstr ""
-"Scegli quanto spesso il sistema dovrebbe controllare la presenza di "
+"Scegli la frequenza con cui il sistema deve verificare la presenza di "
 "aggiornamenti."
 
 #: src/gtk/window.ui:100
 msgid "Weekly"
-msgstr ""
+msgstr "Settimanale"
 
 #: src/gtk/window.ui:101
 msgid "Monthly"
-msgstr ""
+msgstr "Mensile"
 
 #: src/gtk/window.ui:109
 msgid "SmartUpdate"
-msgstr ""
+msgstr "Aggiornamento intelligente"
 
 #: src/gtk/window.ui:110
 msgid ""
@@ -136,14 +133,13 @@ msgstr "Sottosistema"
 
 #: src/gtk/window.ui:137
 msgid "Containers"
-msgstr ""
+msgstr "Contenitori"
 
 #: src/gtk/window.ui:142 src/gtk/window.ui:147
 msgid "Installed Applications"
 msgstr "Applicazioni installate"
 
 #: src/gtk/window.ui:161 src/gtk/window.ui:166
-#, fuzzy
 msgid "_About Control-center"
 msgstr "_Informazioni sul pannello di controllo"
 
@@ -165,10 +161,9 @@ msgstr "Un'altra transazione è in corso o il sistema deve essere riavviato."
 
 #: src/window.py:160 src/window.py:157
 msgid "SmartUpdate Changed."
-msgstr ""
+msgstr "Aggiornamento intelligente modificato."
 
 #: src/window.py:168 src/window.py:165
-#, fuzzy
 msgid "Update Schedule Changed."
 msgstr "Pianificazione degli Aggiornamenti Modificato."
 
