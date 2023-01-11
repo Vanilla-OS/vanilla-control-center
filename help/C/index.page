@@ -30,6 +30,11 @@
     <title>Drivers</title>
     <links type="topic" style="2column"/>
   </section>
+  
+    <section id="profiles">
+    <title>Profiles</title>
+    <links type="topic" style="2column"/>
+  </section>
 
   <section id="updates">
     <title>Updates</title>

@@ -1,0 +1,443 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-01-11 13:31+0530\n"
+"PO-Revision-Date: 2023-01-11 13:44+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/index.page:7
+msgctxt "link:trail"
+msgid "Vanilla OS Control Center"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "link"
+msgid "Vanilla OS Control Center"
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/index.page:9
+msgctxt "text"
+msgid "Vanilla OS Control Center"
+msgstr ""
+
+#. (itstool) path: credit/name
+#: C/index.page:14 C/drivers-install.page:9 C/drivers-not-available.page:9
+#: C/update-check.page:9 C/update-scheduling.page:9 C/update-smart.page:9
+#: C/subsystem-containers.page:9 C/subsystem-installed.page:9
+#: C/prime-profiles.page:9
+msgid "K.B.Dharun Krishna"
+msgstr ""
+
+#. (itstool) path: credit/years
+#: C/index.page:16 C/drivers-install.page:11 C/drivers-not-available.page:11
+#: C/update-check.page:11 C/update-scheduling.page:11 C/update-smart.page:11
+#: C/subsystem-containers.page:11 C/subsystem-installed.page:11
+#: C/prime-profiles.page:11
+msgid "2023"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/index.page:21
+msgid "Guide on how to use <app>Vanilla OS Control Center</app>."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/index.page:24
+msgid "<_:media-1/> Vanilla OS Control Center"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/index.page:30
+msgid "Drivers"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/index.page:35
+msgid "Profiles"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/index.page:40
+msgid "Updates"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/index.page:45
+msgid "Sub System"
+msgstr ""
+
+#. (itstool) path: info/keywords
+#: C/drivers-install.page:17
+msgid "drivers, install drivers, install"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/drivers-install.page:18
+msgid "Learn how to install Drivers in Vanilla OS."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/drivers-install.page:21
+msgid "Install Drivers"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/drivers-install.page:23
+msgid ""
+"Vanilla Control Center allows installation of available drivers from the "
+"<gui>ubuntu-drivers</gui> package."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/drivers-install.page:27
+msgid "The steps to install drivers are:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/drivers-install.page:30
+msgid "Open <app>Vanilla Control Center</app>."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/drivers-install.page:31
+msgid ""
+"Click on the required driver to install from the <gui>Drivers</gui> tab."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/drivers-install.page:34
+msgid "Click on the <gui>Apply Changes</gui> button on the top right corner."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/drivers-install.page:39
+msgid ""
+"Once the changes are applied the Installation of the <gui>Drivers</gui> "
+"begins in a separate window."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/drivers-install.page:43
+msgid ""
+"After the installation of Drivers, Reboot your system. You have successfully "
+"installed the required drivers."
+msgstr ""
+
+#. (itstool) path: info/keywords
+#: C/drivers-not-available.page:16
+msgid "no drivers, no drivers available"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/drivers-not-available.page:17
+msgid "Learn why no drivers are available for your system."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/drivers-not-available.page:20
+msgid "Why are No Drivers Available?"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/drivers-not-available.page:22
+msgid "If you see this message:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/drivers-not-available.page:25
+msgid ""
+"Then your System doesn't require any specific drivers to function as it "
+"might already be part of the Linux kernel."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/drivers-not-available.page:26
+msgid ""
+"Or Your System doesn't have drivers in the <gui>ubuntu-drivers</gui> package "
+"and must be loaded manually through ABRoot."
+msgstr ""
+
+#. (itstool) path: info/keywords
+#: C/update-check.page:18
+msgid "update check, update, vso"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/update-check.page:19
+msgid "Learn how Update Checks work in Vanilla OS."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/update-check.page:22
+msgid "What is the Latest Update Check?"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/update-check.page:24
+msgid ""
+"Latest Update Check displays the last time an update check has run through "
+"<gui>vso</gui> (<gui>Vanilla System Operator</gui>). If you have scheduled "
+"<gui>Weekly</gui> or <gui>Monthly</gui> updates, then the update check is "
+"done based on your preferred schedule."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/update-check.page:26
+msgid ""
+"Latest Update Checks are necessary to know if automatic updates are working "
+"as expected."
+msgstr ""
+
+#. (itstool) path: info/keywords
+#: C/update-scheduling.page:18
+msgid "update, scheduling, vso"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/update-scheduling.page:19
+msgid "Learn how to Schedule Updates in Vanilla OS."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/update-scheduling.page:22
+msgid "How to Schedule Automatic Updates?"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/update-scheduling.page:24
+msgid ""
+"Update scheduling is used to perform automatic updates using <gui>VSO</gui> "
+"(<gui>Vanilla System Operator</gui>) at fixed intervals, such as "
+"<gui>Weekly</gui> or <gui>Monthly</gui>."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/update-scheduling.page:26
+msgid ""
+"The default setting is \"<gui>Weekly</gui>\" to perform automatic updates at "
+"weekly intervals."
+msgstr ""
+
+#. (itstool) path: info/keywords
+#: C/update-smart.page:18
+msgid "update, smart, smart updates, vso"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/update-smart.page:19
+msgid "Learn about Smart Updates in Vanilla OS."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/update-smart.page:22
+msgid "What is Smart Updates?"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/update-smart.page:24
+msgid ""
+"Smart Updates is a way to ensure automatic updates are performed only on "
+"ideal conditions."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/update-smart.page:26
+msgid ""
+"When <gui>Smart Updates</gui> is enabled, <gui>vso</gui> checks whether the "
+"system is capable of performing an update without hindering the user "
+"experience. Multiple checks for connection, memory, CPU and battery status "
+"get performed. If the system isn't ideal or capable of performing an update, "
+"then <gui>vso</gui> will skip it and try again later."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/update-smart.page:28
+msgid ""
+"If <gui>Smart Updates</gui> is disabled, then <gui>vso</gui> will perform "
+"the update without any further checks."
+msgstr ""
+
+#. (itstool) path: info/keywords
+#: C/subsystem-containers.page:17 C/subsystem-installed.page:17
+msgid "apx, subsystem, containers, package manager"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/subsystem-containers.page:18
+msgid "Learn how to manage your Containers graphically in Vanilla OS."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/subsystem-containers.page:21
+msgid "How to manage Containers?"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/subsystem-containers.page:23
+msgid ""
+"<gui>Vanilla OS Control Center</gui> allows you to manage various <gui>apx</"
+"gui> containers from multiple sources seamlessly in a unified place."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/subsystem-containers.page:25
+msgid ""
+"It allows us to initialize or enter containers through the <gui>Containers</"
+"gui> menu."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/subsystem-containers.page:29
+msgid "You can initialize the <gui>apx</gui> container by:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/subsystem-containers.page:32
+msgid "Clicking on the <gui>+</gui> button in the desired container."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/subsystem-containers.page:33
+msgid ""
+"Upon clicking, a Read-only window opens, and the container gets created."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/subsystem-containers.page:34
+msgid ""
+"Now, the <gui>+</gui> icon would have changed to a terminal icon which means "
+"the container's creation is successful."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/subsystem-containers.page:39
+msgid ""
+"You can enter the <gui>apx</gui> container by clicking on the terminal icon, "
+"which opens a terminal window logged into the <gui>apx_managed</gui> "
+"container."
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/subsystem-installed.page:18
+msgid "Learn how to open applications graphically in Vanilla OS."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/subsystem-installed.page:21
+msgid "How to view Installed applications from Containers?"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/subsystem-installed.page:23
+msgid ""
+"<gui>Vanilla OS Control Center</gui> allows you to view the GUI applications "
+"installed inside multiple <gui>apx</gui> containers in a unified place."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/subsystem-installed.page:25
+msgid ""
+"Applications with a desktop entries are listed in this <gui>Installed "
+"Application</gui> menu."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/subsystem-installed.page:29
+msgid ""
+"You can execute the application by clicking on the <gui>Start</gui> (Play) "
+"button beside the required application."
+msgstr ""
+
+#. (itstool) path: info/keywords
+#: C/prime-profiles.page:16
+msgid "GPU, Optimus, profiles, Prime"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/prime-profiles.page:17
+msgid "Learn how to use your hybrid graphics hardware efficiently."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/prime-profiles.page:20
+msgid "How to switch between PRIME Profiles in Vanilla OS?"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/prime-profiles.page:22
+msgid ""
+"PRIME is the technology for managing hybrid graphics found on recent "
+"desktops and laptops. It is used in Optimus for NVIDIA and AMD Dynamic "
+"Switchable Graphics for Radeon. It supports both high-performance and power-"
+"saving use cases in a single computer."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/prime-profiles.page:24
+msgid ""
+"Vanilla OS provides an easy out-of-the-box experience with PRIME profiles by "
+"allowing you to select between <gui>Integrated GPU</gui>, <gui>Discrete GPU</"
+"gui> and <gui>Hybrid</gui> Active profiles."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/prime-profiles.page:28
+msgid "Steps to change the active profile:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prime-profiles.page:31
+msgid "Open the <gui>Vanilla OS Control Center.</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prime-profiles.page:32
+msgid "Select the required <gui>Active Profile</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prime-profiles.page:33
+msgid "Click on <gui>Apply Changes</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prime-profiles.page:34
+msgid "A new window is opened now for applying the changes."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prime-profiles.page:35
+msgid "Wait for the changes to be applied, then reboot your system."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/prime-profiles.page:38
+msgid ""
+"You have successfully switched your Active PRIME Profile. Enjoy your "
+"extended performance and battery life"
+msgstr ""
+
+#. (itstool) path: p/link
+#: C/legal.xml:4
+msgid "Creative Commons Attribution-ShareAlike 4.0 International License"
+msgstr ""
+
+#. (itstool) path: license/p
+#: C/legal.xml:3
+msgid "This work is licensed under a <_:link-1/>."
+msgstr ""

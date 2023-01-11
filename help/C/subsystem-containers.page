@@ -24,7 +24,7 @@
   
   <p>It allows us to initialize or enter containers through the <gui>Containers</gui> menu.</p>
   
-<media type="image" src="media/vanilla-control-center-subsystem.png"/>
+<media type="image" its:translate="no" src="media/vanilla-control-center-subsystem.png"/>
 
   <p> You can initialize the <gui>apx</gui> container by:</p>
   
@@ -34,7 +34,7 @@
         <item><p>Now, the <gui>+</gui> icon would have changed to a terminal icon which means the container's creation is successful.</p></item>
  </list>
  
- <media type="image" src="media/vanilla-control-center-subsystem-enter.png"/>
+ <media type="image" its:translate="no" src="media/vanilla-control-center-subsystem-enter.png"/>
  
  <p> You can enter the <gui>apx</gui> container by clicking on the terminal icon, which opens a terminal window logged into the <gui>apx_managed</gui> container.</p>
 </page>

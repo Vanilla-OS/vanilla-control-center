@@ -27,5 +27,5 @@
 
 <p>If <gui>Smart Updates</gui> is disabled, then <gui>vso</gui> will perform the update without any further checks.</p>
   
-<media type="image" src="media/vanilla-control-center-update.png"/>
+<media type="image" its:translate="no" src="media/vanilla-control-center-update.png"/>
 </page>

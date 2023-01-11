@@ -17,6 +17,7 @@ media = [
   'media/vanilla-control-center-update.png',
   'media/vanilla-control-center-subsystem.png',
   'media/vanilla-control-center-subsystem-enter.png',
+  'media/vanilla-control-center-prime-profiles.png',
 ]
 
 gnome.yelp(meson.project_name(),
