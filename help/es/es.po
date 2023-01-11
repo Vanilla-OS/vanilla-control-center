@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2023-01-09 17:48+0530\n"
-"PO-Revision-Date: 2023-01-09 17:48+0530\n"
+"POT-Creation-Date: 2023-01-11 13:31+0530\n"
+"PO-Revision-Date: 2023-01-11 13:33+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -39,6 +39,7 @@ msgstr ""
 #: C/index.page:14 C/drivers-install.page:9 C/drivers-not-available.page:9
 #: C/update-check.page:9 C/update-scheduling.page:9 C/update-smart.page:9
 #: C/subsystem-containers.page:9 C/subsystem-installed.page:9
+#: C/prime-profiles.page:9
 msgid "K.B.Dharun Krishna"
 msgstr ""
 
@@ -46,6 +47,7 @@ msgstr ""
 #: C/index.page:16 C/drivers-install.page:11 C/drivers-not-available.page:11
 #: C/update-check.page:11 C/update-scheduling.page:11 C/update-smart.page:11
 #: C/subsystem-containers.page:11 C/subsystem-installed.page:11
+#: C/prime-profiles.page:11
 msgid "2023"
 msgstr ""
 
@@ -66,11 +68,16 @@ msgstr ""
 
 #. (itstool) path: section/title
 #: C/index.page:35
-msgid "Updates"
+msgid "Profiles"
 msgstr ""
 
 #. (itstool) path: section/title
 #: C/index.page:40
+msgid "Updates"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/index.page:45
 msgid "Sub System"
 msgstr ""
 
@@ -354,6 +361,75 @@ msgstr ""
 msgid ""
 "You can execute the application by clicking on the <gui>Start</gui> (Play) "
 "button beside the required application."
+msgstr ""
+
+#. (itstool) path: info/keywords
+#: C/prime-profiles.page:16
+msgid "GPU, Optimus, profiles, Prime"
+msgstr ""
+
+#. (itstool) path: info/desc
+#: C/prime-profiles.page:17
+msgid "Learn how to use your hybrid graphics hardware efficiently."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/prime-profiles.page:20
+msgid "How to switch between PRIME Profiles in Vanilla OS?"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/prime-profiles.page:22
+msgid ""
+"PRIME is the technology for managing hybrid graphics found on recent "
+"desktops and laptops. It is used in Optimus for NVIDIA and AMD Dynamic "
+"Switchable Graphics for Radeon. It supports both high-performance and power-"
+"saving use cases in a single computer."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/prime-profiles.page:24
+msgid ""
+"Vanilla OS provides an easy out-of-the-box experience with PRIME profiles by "
+"allowing you to select between <gui>Integrated GPU</gui>, <gui>Discrete GPU</"
+"gui> and <gui>Hybrid</gui> Active profiles."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/prime-profiles.page:28
+msgid "Steps to change the active profile:"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prime-profiles.page:31
+msgid "Open the <gui>Vanilla OS Control Center.</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prime-profiles.page:32
+msgid "Select the required <gui>Active Profile</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prime-profiles.page:33
+msgid "Click on <gui>Apply Changes</gui>"
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prime-profiles.page:34
+msgid "A new window is opened now for applying the changes."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/prime-profiles.page:35
+msgid "Wait for the changes to be applied, then reboot your system."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/prime-profiles.page:38
+msgid ""
+"You have successfully switched your Active PRIME Profile. Enjoy your "
+"extended performance and battery life"
 msgstr ""
 
 #. (itstool) path: p/link
