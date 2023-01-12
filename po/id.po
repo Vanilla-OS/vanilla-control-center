@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-08 11:57+0530\n"
-"PO-Revision-Date: 2023-01-01 15:50+0000\n"
-"Last-Translator: yukidream <ahawaribagus@gmail.com>\n"
+"PO-Revision-Date: 2023-01-12 18:47+0000\n"
+"Last-Translator: Raka Prasetya Pratama <iputuaryasukanadi8@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/id/>\n"
 "Language: id\n"
@@ -103,7 +103,7 @@ msgstr "Penjadwalan Pembaruan"
 
 #: src/gtk/window.ui:96
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "Pilih seberapa sering sistem harus memeriksa pembaruan."
 
 #: src/gtk/window.ui:100
 msgid "Weekly"
@@ -116,13 +116,16 @@ msgstr "Bulanan"
 
 #: src/gtk/window.ui:109
 msgid "SmartUpdate"
-msgstr ""
+msgstr "PembaruanPintar"
 
 #: src/gtk/window.ui:110
+#, fuzzy
 msgid ""
 "If enabled, the system will not update if the system is in high load or the "
 "battery is low."
 msgstr ""
+"Jika diaktifkan, sistem tidak akan diperbarui jika sistem dalam beban tinggi "
+"atau baterai lemah."
 
 #: src/gtk/window.ui:127
 msgid "Sub System"
@@ -130,7 +133,7 @@ msgstr "Subsistem"
 
 #: src/gtk/window.ui:137
 msgid "Containers"
-msgstr ""
+msgstr "Kontainer"
 
 #: src/gtk/window.ui:142
 msgid "Installed Applications"
@@ -158,9 +161,8 @@ msgid "Another transaction is running or the system needs to be restarted."
 msgstr "Transaksi lain sedang berjalan atau sistem perlu dimulai ulang"
 
 #: src/window.py:160
-#, fuzzy
 msgid "SmartUpdate Changed."
-msgstr "MutakhirPintar Diubah."
+msgstr "PembaruanPintar Diubah."
 
 #: src/window.py:168
 msgid "Update Schedule Changed."

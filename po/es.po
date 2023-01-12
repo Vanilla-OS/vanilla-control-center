@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-08 11:57+0530\n"
-"PO-Revision-Date: 2022-12-29 15:47+0000\n"
-"Last-Translator: Óscar Fernández Díaz <oscfdezdz@tuta.io>\n"
+"PO-Revision-Date: 2023-01-12 18:47+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/es/>\n"
 "Language: es\n"
@@ -39,8 +39,8 @@ msgstr "Instalación en progreso…"
 #: src/gtk/dialog-installation.ui:22
 msgid "This may take a while, based on your internet connection speed."
 msgstr ""
-"Esto puede tomar un tiempo, dependerá de la velocidad de su conexión a "
-"internet."
+"Esto puede tardar un poco, dependiendo de la velocidad de tu conexión a "
+"Internet."
 
 #: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -130,9 +130,8 @@ msgid "Sub System"
 msgstr "Subsistema"
 
 #: src/gtk/window.ui:137
-#, fuzzy
 msgid "Containers"
-msgstr "Sin aplicaciones en contenedores"
+msgstr "Contenedores"
 
 #: src/gtk/window.ui:142
 msgid "Installed Applications"

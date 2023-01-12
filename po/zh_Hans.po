@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-08 11:57+0530\n"
-"PO-Revision-Date: 2023-01-06 08:49+0000\n"
-"Last-Translator: imgradeone - 一年级么么哒 <imgradeone@outlook.com>\n"
+"PO-Revision-Date: 2023-01-12 18:47+0000\n"
+"Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "vanilla-os/control-center/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -89,7 +89,7 @@ msgstr "首选项"
 
 #: src/gtk/window.ui:89
 msgid "Latest Update Check"
-msgstr "检查最新更新"
+msgstr "上次更新检查"
 
 #: src/gtk/window.ui:90
 msgid "Never"
@@ -101,37 +101,37 @@ msgstr "更新频率"
 
 #: src/gtk/window.ui:96
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "选择系统检查更新的频率。"
 
 #: src/gtk/window.ui:100
 msgid "Weekly"
-msgstr ""
+msgstr "每周"
 
 #: src/gtk/window.ui:101
 msgid "Monthly"
-msgstr ""
+msgstr "每个月"
 
 #: src/gtk/window.ui:109
 msgid "SmartUpdate"
-msgstr ""
+msgstr "智能更新（SmartUpdate）"
 
 #: src/gtk/window.ui:110
 msgid ""
 "If enabled, the system will not update if the system is in high load or the "
 "battery is low."
-msgstr ""
+msgstr "启用后，系统在高负载或电池电量低的情况下不会执行更新。"
 
 #: src/gtk/window.ui:127
 msgid "Sub System"
-msgstr ""
+msgstr "子系统"
 
 #: src/gtk/window.ui:137
 msgid "Containers"
-msgstr ""
+msgstr "容器"
 
 #: src/gtk/window.ui:142
 msgid "Installed Applications"
-msgstr ""
+msgstr "已安装的应用"
 
 #: src/gtk/window.ui:161
 msgid "_About Control-center"
@@ -143,35 +143,35 @@ msgstr "翻译者"
 
 #: src/window.py:115
 msgid "Installation Failed."
-msgstr ""
+msgstr "安装失败。"
 
 #: src/window.py:118
 msgid "New Drivers Installed."
-msgstr ""
+msgstr "已安装新驱动。"
 
 #: src/window.py:125
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
+msgstr "有其他事务正在运行，或者系统需要重新启动。"
 
 #: src/window.py:160
 msgid "SmartUpdate Changed."
-msgstr ""
+msgstr "已更改智能更新（SmartUpdate）。"
 
 #: src/window.py:168
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "已更改更新频率。"
 
 #: src/window.py:196
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} 报错退出。"
 
 #: src/window.py:199
 msgid "{} Exited."
-msgstr ""
+msgstr "{} 已退出。"
 
 #: src/window.py:202
 msgid "{} Launched."
-msgstr ""
+msgstr "{} 已启动。"
 
 #~ msgid "Immutability"
 #~ msgstr "不变性"
