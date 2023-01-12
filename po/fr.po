@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-08 11:57+0530\n"
-"PO-Revision-Date: 2023-01-06 08:49+0000\n"
-"Last-Translator: Samuel NAIT <nait.samuel@gmail.com>\n"
+"PO-Revision-Date: 2023-01-12 18:47+0000\n"
+"Last-Translator: czenon1 <christopher02zenon@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/fr/>\n"
 "Language: fr\n"
@@ -79,7 +79,7 @@ msgstr "Aucun pilote disponible"
 
 #: src/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr "Aucun pilote supplémentaire disponible pour votre système."
+msgstr "Aucun pilote supplémentaire n'est disponible pour votre système."
 
 #: src/gtk/window.ui:80
 msgid "Updates"
@@ -91,7 +91,7 @@ msgstr "Préférences"
 
 #: src/gtk/window.ui:89
 msgid "Latest Update Check"
-msgstr "Dernière vérification de mise à jour"
+msgstr "Dernière vérification des mises à jour"
 
 #: src/gtk/window.ui:90
 msgid "Never"
@@ -103,15 +103,16 @@ msgstr "Planification des mises à jour"
 
 #: src/gtk/window.ui:96
 msgid "Choose how often the system should check for updates."
-msgstr "Définir la fréquence des mises à jour système."
+msgstr ""
+"Choisissez la fréquence à laquelle le système doit vérifier les mises à jour."
 
 #: src/gtk/window.ui:100
 msgid "Weekly"
-msgstr "Toutes les semaines"
+msgstr "Hebdomadaire"
 
 #: src/gtk/window.ui:101
 msgid "Monthly"
-msgstr "Tous les mois"
+msgstr "Mensuel"
 
 #: src/gtk/window.ui:109
 msgid "SmartUpdate"
@@ -130,9 +131,8 @@ msgid "Sub System"
 msgstr "Sous-système"
 
 #: src/gtk/window.ui:137
-#, fuzzy
 msgid "Containers"
-msgstr "Pas d'applications conteneurisées"
+msgstr "Conteneurs"
 
 #: src/gtk/window.ui:142
 msgid "Installed Applications"
@@ -140,7 +140,7 @@ msgstr "Applications installées"
 
 #: src/gtk/window.ui:161
 msgid "_About Control-center"
-msgstr "_À propos du panneau de configuration"
+msgstr "_À propos du centre de contrôle"
 
 #: src/main.py:67
 msgid "Translators"
