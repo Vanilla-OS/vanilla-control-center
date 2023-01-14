@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-08 11:57+0530\n"
-"PO-Revision-Date: 2023-01-01 15:50+0000\n"
-"Last-Translator: _Ghost_ <Krzysztof.siekierski@interia.pl>\n"
+"PO-Revision-Date: 2023-01-15 15:48+0000\n"
+"Last-Translator: gnu-ewm <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/pl/>\n"
 "Language: pl\n"
@@ -91,7 +91,7 @@ msgstr "Preferencje"
 
 #: src/gtk/window.ui:89
 msgid "Latest Update Check"
-msgstr ""
+msgstr "Ostatnie sprawdzenie dostępnych aktualizacji"
 
 #: src/gtk/window.ui:90
 msgid "Never"
@@ -111,11 +111,11 @@ msgstr "Tygodniowo"
 
 #: src/gtk/window.ui:101
 msgid "Monthly"
-msgstr "miesięcznie"
+msgstr "Miesięcznie"
 
 #: src/gtk/window.ui:109
 msgid "SmartUpdate"
-msgstr "SmartUpdate"
+msgstr "Inteligentne aktualizacje"
 
 #: src/gtk/window.ui:110
 msgid ""
@@ -130,9 +130,8 @@ msgid "Sub System"
 msgstr "Podsystem"
 
 #: src/gtk/window.ui:137
-#, fuzzy
 msgid "Containers"
-msgstr "Brak aplikacji kontenerowych"
+msgstr "Kontenery"
 
 #: src/gtk/window.ui:142
 msgid "Installed Applications"
