@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-08 11:57+0530\n"
+"POT-Creation-Date: 2023-01-17 00:08+0530\n"
 "PO-Revision-Date: 2023-01-12 18:47+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.15.1-dev\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
-#: src/gtk/window.ui:17 src/main.py:58
+#: data/org.vanillaos.ControlCenter.desktop.in:3
+#: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
 msgid "Vanilla OS Control Center"
 msgstr "Vanilla OS 控制中心"
 
@@ -28,150 +28,156 @@ msgstr "Vanilla OS 控制中心"
 msgid "No description"
 msgstr "没有说明"
 
-#: src/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "安装"
 
-#: src/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr "安装中…"
-
-#: src/gtk/dialog-installation.ui:22
-msgid "This may take a while, based on your internet connection speed."
-msgstr "这可能需要一段时间，具体取决于您的互联网连接速度。"
-
-#: src/gtk/help-overlay.ui:11
+#: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
 msgstr "通用"
 
-#: src/gtk/help-overlay.ui:14
+#: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "显示快捷方式"
 
-#: src/gtk/help-overlay.ui:20
+#: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "退出"
 
-#: src/gtk/window.ui:28
-msgid "Apply Changes"
-msgstr "应用更改"
-
-#: src/gtk/window.ui:45
-msgid "Drivers"
-msgstr "驱动"
-
-#: src/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "正在加载驱动…"
-
-#: src/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr "请等待可用驱动列表加载。"
-
-#: src/gtk/window.ui:64
-msgid "No Drivers Available"
-msgstr "无可用驱动"
-
-#: src/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr "您的设备没有可用的额外驱动。"
-
-#: src/gtk/window.ui:80
-msgid "Updates"
-msgstr "更新"
-
-#: src/gtk/window.ui:86
-msgid "Preferences"
-msgstr "首选项"
-
-#: src/gtk/window.ui:89
-msgid "Latest Update Check"
-msgstr "上次更新检查"
-
-#: src/gtk/window.ui:90
-msgid "Never"
-msgstr "从不"
-
-#: src/gtk/window.ui:95
-msgid "Updates Scheduling"
-msgstr "更新频率"
-
-#: src/gtk/window.ui:96
-msgid "Choose how often the system should check for updates."
-msgstr "选择系统检查更新的频率。"
-
-#: src/gtk/window.ui:100
+#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr "每周"
 
-#: src/gtk/window.ui:101
+#: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
 msgstr "每个月"
 
-#: src/gtk/window.ui:109
-msgid "SmartUpdate"
-msgstr "智能更新（SmartUpdate）"
+#: vanilla_control_center/gtk/window.ui:229
+msgid "_Help"
+msgstr ""
 
-#: src/gtk/window.ui:110
-msgid ""
-"If enabled, the system will not update if the system is in high load or the "
-"battery is low."
-msgstr "启用后，系统在高负载或电池电量低的情况下不会执行更新。"
+#: vanilla_control_center/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr ""
 
-#: src/gtk/window.ui:127
-msgid "Sub System"
-msgstr "子系统"
+#: vanilla_control_center/container.py:59
+msgid "Container '{}' initialized"
+msgstr ""
 
-#: src/gtk/window.ui:137
-msgid "Containers"
-msgstr "容器"
-
-#: src/gtk/window.ui:142
-msgid "Installed Applications"
-msgstr "已安装的应用"
-
-#: src/gtk/window.ui:161
-msgid "_About Control-center"
-msgstr "关于控制中心 (_A)"
-
-#: src/main.py:67
+#: vanilla_control_center/main.py:70
 msgid "Translators"
 msgstr "翻译者"
 
-#: src/window.py:115
+#: vanilla_control_center/window.py:125
 msgid "Installation Failed."
 msgstr "安装失败。"
 
-#: src/window.py:118
+#: vanilla_control_center/window.py:128
 msgid "New Drivers Installed."
 msgstr "已安装新驱动。"
 
-#: src/window.py:125
+#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr "有其他事务正在运行，或者系统需要重新启动。"
 
-#: src/window.py:160
+#: vanilla_control_center/window.py:145
+#, fuzzy
+msgid "Installing new Drivers…"
+msgstr "安装中…"
+
+#: vanilla_control_center/window.py:169
 msgid "SmartUpdate Changed."
 msgstr "已更改智能更新（SmartUpdate）。"
 
-#: src/window.py:168
+#: vanilla_control_center/window.py:177
 msgid "Update Schedule Changed."
 msgstr "已更改更新频率。"
 
-#: src/window.py:196
+#: vanilla_control_center/window.py:205
 msgid "{} Exited With Error."
 msgstr "{} 报错退出。"
 
-#: src/window.py:199
+#: vanilla_control_center/window.py:208
 msgid "{} Exited."
 msgstr "{} 已退出。"
 
-#: src/window.py:202
+#: vanilla_control_center/window.py:211
 msgid "{} Launched."
 msgstr "{} 已启动。"
+
+#: vanilla_control_center/window.py:256
+msgid "Prime Profile Changed."
+msgstr ""
+
+#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+msgid "Prime Profile Change Failed."
+msgstr ""
+
+#: vanilla_control_center/window.py:266
+msgid "Switching PRIME Profile…"
+msgstr ""
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr "这可能需要一段时间，具体取决于您的互联网连接速度。"
+
+#~ msgid "Apply Changes"
+#~ msgstr "应用更改"
+
+#~ msgid "Drivers"
+#~ msgstr "驱动"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "正在加载驱动…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "请等待可用驱动列表加载。"
+
+#~ msgid "No Drivers Available"
+#~ msgstr "无可用驱动"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "您的设备没有可用的额外驱动。"
+
+#~ msgid "Updates"
+#~ msgstr "更新"
+
+#~ msgid "Preferences"
+#~ msgstr "首选项"
+
+#~ msgid "Latest Update Check"
+#~ msgstr "上次更新检查"
+
+#~ msgid "Never"
+#~ msgstr "从不"
+
+#~ msgid "Updates Scheduling"
+#~ msgstr "更新频率"
+
+#~ msgid "Choose how often the system should check for updates."
+#~ msgstr "选择系统检查更新的频率。"
+
+#~ msgid "SmartUpdate"
+#~ msgstr "智能更新（SmartUpdate）"
+
+#~ msgid ""
+#~ "If enabled, the system will not update if the system is in high load or "
+#~ "the battery is low."
+#~ msgstr "启用后，系统在高负载或电池电量低的情况下不会执行更新。"
+
+#~ msgid "Sub System"
+#~ msgstr "子系统"
+
+#~ msgid "Containers"
+#~ msgstr "容器"
+
+#~ msgid "Installed Applications"
+#~ msgstr "已安装的应用"
+
+#~ msgid "_About Control-center"
+#~ msgstr "关于控制中心 (_A)"
 
 #~ msgid "Immutability"
 #~ msgstr "不变性"

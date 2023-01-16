@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-08 11:57+0530\n"
+"POT-Creation-Date: 2023-01-17 00:08+0530\n"
 "PO-Revision-Date: 2023-01-12 18:47+0000\n"
 "Last-Translator: Raka Prasetya Pratama <iputuaryasukanadi8@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.15.1-dev\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
-#: src/gtk/window.ui:17 src/main.py:58
+#: data/org.vanillaos.ControlCenter.desktop.in:3
+#: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
 msgid "Vanilla OS Control Center"
 msgstr "Pusat Kontrol Vanilla OS"
 
@@ -28,157 +28,163 @@ msgstr "Pusat Kontrol Vanilla OS"
 msgid "No description"
 msgstr "Tidak ada deskripsi"
 
-#: src/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "Instalasi"
 
-#: src/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr "Instalasi sedang berlangsung…"
-
-#: src/gtk/dialog-installation.ui:22
-msgid "This may take a while, based on your internet connection speed."
-msgstr ""
-"Ini mungkin memakan waktu cukup lama, berdasarkan kecepatan koneksi internet "
-"Anda."
-
-#: src/gtk/help-overlay.ui:11
+#: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Umum"
 
-#: src/gtk/help-overlay.ui:14
+#: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Tampilkan Pintasan"
 
-#: src/gtk/help-overlay.ui:20
+#: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Berhenti"
 
-#: src/gtk/window.ui:28
-msgid "Apply Changes"
-msgstr "Terapkan perubahan"
-
-#: src/gtk/window.ui:45
-msgid "Drivers"
-msgstr "Driver"
-
-#: src/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "Memuat driver…"
-
-#: src/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr "Harap tunggu sementara driver yang tersedia sedang dimuat."
-
-#: src/gtk/window.ui:64
-msgid "No Drivers Available"
-msgstr "Pengendali Piranti Tidak Tersedia"
-
-#: src/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr "Tidak ada tambahan pengendali piranti yang tersedia di sistem anda."
-
-#: src/gtk/window.ui:80
-msgid "Updates"
-msgstr "Perbarui"
-
-#: src/gtk/window.ui:86
-msgid "Preferences"
-msgstr "Pilihan"
-
-#: src/gtk/window.ui:89
-msgid "Latest Update Check"
-msgstr "Cek Pembaruan Terbaru"
-
-#: src/gtk/window.ui:90
-msgid "Never"
-msgstr "Tidak Pernah"
-
-#: src/gtk/window.ui:95
-msgid "Updates Scheduling"
-msgstr "Penjadwalan Pembaruan"
-
-#: src/gtk/window.ui:96
-msgid "Choose how often the system should check for updates."
-msgstr "Pilih seberapa sering sistem harus memeriksa pembaruan."
-
-#: src/gtk/window.ui:100
+#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr "Per minggu"
 
-#: src/gtk/window.ui:101
+#: vanilla_control_center/gtk/window.ui:169
 #, fuzzy
 msgid "Monthly"
 msgstr "Bulanan"
 
-#: src/gtk/window.ui:109
-msgid "SmartUpdate"
-msgstr "PembaruanPintar"
-
-#: src/gtk/window.ui:110
-#, fuzzy
-msgid ""
-"If enabled, the system will not update if the system is in high load or the "
-"battery is low."
+#: vanilla_control_center/gtk/window.ui:229
+msgid "_Help"
 msgstr ""
-"Jika diaktifkan, sistem tidak akan diperbarui jika sistem dalam beban tinggi "
-"atau baterai lemah."
 
-#: src/gtk/window.ui:127
-msgid "Sub System"
-msgstr "Subsistem"
+#: vanilla_control_center/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr ""
 
-#: src/gtk/window.ui:137
-msgid "Containers"
-msgstr "Kontainer"
+#: vanilla_control_center/container.py:59
+msgid "Container '{}' initialized"
+msgstr ""
 
-#: src/gtk/window.ui:142
-msgid "Installed Applications"
-msgstr "Aplikasi yang Terinstal"
-
-#: src/gtk/window.ui:161
-#, fuzzy
-msgid "_About Control-center"
-msgstr "_Tentang Panel-Kontrol"
-
-#: src/main.py:67
+#: vanilla_control_center/main.py:70
 msgid "Translators"
 msgstr "Penerjemah"
 
-#: src/window.py:115
+#: vanilla_control_center/window.py:125
 msgid "Installation Failed."
 msgstr "Instalasi Gagal"
 
-#: src/window.py:118
+#: vanilla_control_center/window.py:128
 msgid "New Drivers Installed."
 msgstr "Driver Baru Terpasang."
 
-#: src/window.py:125
+#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr "Transaksi lain sedang berjalan atau sistem perlu dimulai ulang"
 
-#: src/window.py:160
+#: vanilla_control_center/window.py:145
+#, fuzzy
+msgid "Installing new Drivers…"
+msgstr "Instalasi sedang berlangsung…"
+
+#: vanilla_control_center/window.py:169
 msgid "SmartUpdate Changed."
 msgstr "PembaruanPintar Diubah."
 
-#: src/window.py:168
+#: vanilla_control_center/window.py:177
 msgid "Update Schedule Changed."
 msgstr "Jadwal Pemutakhiran Dirubah."
 
-#: src/window.py:196
+#: vanilla_control_center/window.py:205
 msgid "{} Exited With Error."
 msgstr "{} Keluar Dengan Kesalahan."
 
-#: src/window.py:199
+#: vanilla_control_center/window.py:208
 msgid "{} Exited."
 msgstr "{} Keluar."
 
-#: src/window.py:202
+#: vanilla_control_center/window.py:211
 msgid "{} Launched."
 msgstr "{} Diluncurkan."
+
+#: vanilla_control_center/window.py:256
+msgid "Prime Profile Changed."
+msgstr ""
+
+#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+msgid "Prime Profile Change Failed."
+msgstr ""
+
+#: vanilla_control_center/window.py:266
+msgid "Switching PRIME Profile…"
+msgstr ""
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr ""
+#~ "Ini mungkin memakan waktu cukup lama, berdasarkan kecepatan koneksi "
+#~ "internet Anda."
+
+#~ msgid "Apply Changes"
+#~ msgstr "Terapkan perubahan"
+
+#~ msgid "Drivers"
+#~ msgstr "Driver"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Memuat driver…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Harap tunggu sementara driver yang tersedia sedang dimuat."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Pengendali Piranti Tidak Tersedia"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Tidak ada tambahan pengendali piranti yang tersedia di sistem anda."
+
+#~ msgid "Updates"
+#~ msgstr "Perbarui"
+
+#~ msgid "Preferences"
+#~ msgstr "Pilihan"
+
+#~ msgid "Latest Update Check"
+#~ msgstr "Cek Pembaruan Terbaru"
+
+#~ msgid "Never"
+#~ msgstr "Tidak Pernah"
+
+#~ msgid "Updates Scheduling"
+#~ msgstr "Penjadwalan Pembaruan"
+
+#~ msgid "Choose how often the system should check for updates."
+#~ msgstr "Pilih seberapa sering sistem harus memeriksa pembaruan."
+
+#~ msgid "SmartUpdate"
+#~ msgstr "PembaruanPintar"
+
+#, fuzzy
+#~ msgid ""
+#~ "If enabled, the system will not update if the system is in high load or "
+#~ "the battery is low."
+#~ msgstr ""
+#~ "Jika diaktifkan, sistem tidak akan diperbarui jika sistem dalam beban "
+#~ "tinggi atau baterai lemah."
+
+#~ msgid "Sub System"
+#~ msgstr "Subsistem"
+
+#~ msgid "Containers"
+#~ msgstr "Kontainer"
+
+#~ msgid "Installed Applications"
+#~ msgstr "Aplikasi yang Terinstal"
+
+#, fuzzy
+#~ msgid "_About Control-center"
+#~ msgstr "_Tentang Panel-Kontrol"
 
 #~ msgid "Immutability"
 #~ msgstr "Kekekalan"

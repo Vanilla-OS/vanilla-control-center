@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-08 11:57+0530\n"
+"POT-Creation-Date: 2023-01-17 00:08+0530\n"
 "PO-Revision-Date: 2023-01-12 18:47+0000\n"
 "Last-Translator: EncryptedEasty <c.zullo08@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.15.1-dev\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
-#: src/gtk/window.ui:17 src/main.py:58
+#: data/org.vanillaos.ControlCenter.desktop.in:3
+#: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
 msgid "Vanilla OS Control Center"
 msgstr "Vanilla OS Centro di Controllo"
 
@@ -28,164 +28,168 @@ msgstr "Vanilla OS Centro di Controllo"
 msgid "No description"
 msgstr "Nessuna descrizione"
 
-#: src/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "Installazione"
 
-#: src/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr "Installazione in Corso…"
-
-#: src/gtk/dialog-installation.ui:22
-msgid "This may take a while, based on your internet connection speed."
-msgstr ""
-"L'operazione potrebbe richiedere del tempo, in base alla velocità della tua "
-"connessione Internet."
-
-#: src/gtk/help-overlay.ui:11
+#: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Generale"
 
-#: src/gtk/help-overlay.ui:14
+#: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Mostra Scorciatoie"
 
-#: src/gtk/help-overlay.ui:20
+#: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Esci"
 
-#: src/gtk/window.ui:28
-msgid "Apply Changes"
-msgstr "Applica Modifiche"
-
-#: src/gtk/window.ui:45
-msgid "Drivers"
-msgstr "Drivers"
-
-#: src/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "Caricamento driver…"
-
-#: src/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr "Attendi il caricamento dei driver disponibili."
-
-#: src/gtk/window.ui:64
-msgid "No Drivers Available"
-msgstr "Nessun Driver Disponibile"
-
-#: src/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr "Non sono disponibili driver aggiuntivi per il sistema."
-
-#: src/gtk/window.ui:80
-msgid "Updates"
-msgstr "Aggiornamenti"
-
-#: src/gtk/window.ui:86
-msgid "Preferences"
-msgstr "Preferenze"
-
-#: src/gtk/window.ui:89
-msgid "Latest Update Check"
-msgstr "Controllo dell'ultimo aggiornamento"
-
-#: src/gtk/window.ui:90
-msgid "Never"
-msgstr "Mai"
-
-#: src/gtk/window.ui:95
-msgid "Updates Scheduling"
-msgstr "Pianificazione degli Aggiornamenti"
-
-#: src/gtk/window.ui:96
-msgid "Choose how often the system should check for updates."
-msgstr ""
-"Scegli la frequenza con cui il sistema deve verificare la presenza di "
-"aggiornamenti."
-
-#: src/gtk/window.ui:100
+#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr "Settimanale"
 
-#: src/gtk/window.ui:101
+#: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
 msgstr "Mensile"
 
-#: src/gtk/window.ui:109
-msgid "SmartUpdate"
-msgstr "Aggiornamento intelligente"
-
-#: src/gtk/window.ui:110
-msgid ""
-"If enabled, the system will not update if the system is in high load or the "
-"battery is low."
+#: vanilla_control_center/gtk/window.ui:229
+msgid "_Help"
 msgstr ""
-"Se abilitato, il sistema non si aggiornerà se il sistema è in sovraccarico o "
-"la batteria è scarica."
 
-#: src/gtk/window.ui:127
-msgid "Sub System"
-msgstr "Sottosistema"
+#: vanilla_control_center/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr ""
 
-#: src/gtk/window.ui:137
-msgid "Containers"
-msgstr "Contenitori"
+#: vanilla_control_center/container.py:59
+msgid "Container '{}' initialized"
+msgstr ""
 
-#: src/gtk/window.ui:142 src/gtk/window.ui:147
-msgid "Installed Applications"
-msgstr "Applicazioni installate"
-
-#: src/gtk/window.ui:161 src/gtk/window.ui:166
-msgid "_About Control-center"
-msgstr "_Informazioni sul pannello di controllo"
-
-#: src/main.py:67 src/main.py:65
+#: vanilla_control_center/main.py:70
 msgid "Translators"
 msgstr "Traduttori"
 
-#: src/window.py:115 src/window.py:122
+#: vanilla_control_center/window.py:125
 msgid "Installation Failed."
 msgstr "Installazione Fallita."
 
-#: src/window.py:118 src/window.py:127
+#: vanilla_control_center/window.py:128
 msgid "New Drivers Installed."
 msgstr "Nuovi Driver Installati."
 
-#: src/window.py:109
+#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr "Un'altra transazione è in corso o il sistema deve essere riavviato."
 
-#: src/window.py:160 src/window.py:157
+#: vanilla_control_center/window.py:145
+#, fuzzy
+msgid "Installing new Drivers…"
+msgstr "Installazione in Corso…"
+
+#: vanilla_control_center/window.py:169
 msgid "SmartUpdate Changed."
 msgstr "Aggiornamento intelligente modificato."
 
-#: src/window.py:168 src/window.py:165
+#: vanilla_control_center/window.py:177
 msgid "Update Schedule Changed."
 msgstr "Pianificazione degli Aggiornamenti Modificato."
 
-#: src/window.py:196 src/window.py:194
+#: vanilla_control_center/window.py:205
 msgid "{} Exited With Error."
 msgstr "{} Terminato Con Errore."
 
-#: src/window.py:199 src/window.py:197
+#: vanilla_control_center/window.py:208
 msgid "{} Exited."
 msgstr "{} Terminato."
 
-#: src/window.py:202 src/window.py:200
+#: vanilla_control_center/window.py:211
 msgid "{} Launched."
 msgstr "{} Lanciato."
 
-#: src/gtk/window.ui:139
-msgid "No Containerized Apps"
-msgstr "Nessuna App Containerizzata"
+#: vanilla_control_center/window.py:256
+msgid "Prime Profile Changed."
+msgstr ""
 
-#: src/gtk/window.ui:140
-msgid "There are no containerized apps installed on your system."
-msgstr "Non sono installate nessune app containerizzate sul tuo sistema."
+#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+msgid "Prime Profile Change Failed."
+msgstr ""
+
+#: vanilla_control_center/window.py:266
+msgid "Switching PRIME Profile…"
+msgstr ""
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr ""
+#~ "L'operazione potrebbe richiedere del tempo, in base alla velocità della "
+#~ "tua connessione Internet."
+
+#~ msgid "Apply Changes"
+#~ msgstr "Applica Modifiche"
+
+#~ msgid "Drivers"
+#~ msgstr "Drivers"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Caricamento driver…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Attendi il caricamento dei driver disponibili."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Nessun Driver Disponibile"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Non sono disponibili driver aggiuntivi per il sistema."
+
+#~ msgid "Updates"
+#~ msgstr "Aggiornamenti"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferenze"
+
+#~ msgid "Latest Update Check"
+#~ msgstr "Controllo dell'ultimo aggiornamento"
+
+#~ msgid "Never"
+#~ msgstr "Mai"
+
+#~ msgid "Updates Scheduling"
+#~ msgstr "Pianificazione degli Aggiornamenti"
+
+#~ msgid "Choose how often the system should check for updates."
+#~ msgstr ""
+#~ "Scegli la frequenza con cui il sistema deve verificare la presenza di "
+#~ "aggiornamenti."
+
+#~ msgid "SmartUpdate"
+#~ msgstr "Aggiornamento intelligente"
+
+#~ msgid ""
+#~ "If enabled, the system will not update if the system is in high load or "
+#~ "the battery is low."
+#~ msgstr ""
+#~ "Se abilitato, il sistema non si aggiornerà se il sistema è in "
+#~ "sovraccarico o la batteria è scarica."
+
+#~ msgid "Sub System"
+#~ msgstr "Sottosistema"
+
+#~ msgid "Containers"
+#~ msgstr "Contenitori"
+
+#~ msgid "Installed Applications"
+#~ msgstr "Applicazioni installate"
+
+#~ msgid "_About Control-center"
+#~ msgstr "_Informazioni sul pannello di controllo"
+
+#~ msgid "No Containerized Apps"
+#~ msgstr "Nessuna App Containerizzata"
+
+#~ msgid "There are no containerized apps installed on your system."
+#~ msgstr "Non sono installate nessune app containerizzate sul tuo sistema."
 
 #~ msgid "Immutability"
 #~ msgstr "Immutabilità"

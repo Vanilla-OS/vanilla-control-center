@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-08 11:57+0530\n"
+"POT-Creation-Date: 2023-01-17 00:08+0530\n"
 "PO-Revision-Date: 2022-12-16 13:48+0000\n"
 "Last-Translator: stathious <stathious@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/vanilla-os/control-"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.15\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
-#: src/gtk/window.ui:17 src/main.py:58
+#: data/org.vanillaos.ControlCenter.desktop.in:3
+#: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
 msgid "Vanilla OS Control Center"
 msgstr "Κέντρο ελέγχου Vanilla OS"
 
@@ -28,154 +28,131 @@ msgstr "Κέντρο ελέγχου Vanilla OS"
 msgid "No description"
 msgstr "Καμία περιγραφή"
 
-#: src/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "Εγκατάσταση"
 
-#: src/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr "Εγκατάσταση σε εξέλιξη…"
-
-#: src/gtk/dialog-installation.ui:22
-msgid "This may take a while, based on your internet connection speed."
-msgstr ""
-"Αυτό μπορεί να διαρκέσει λίγο, με βάση την ταχύτητα σύνδεσής σας στο "
-"Διαδίκτυο."
-
-#: src/gtk/help-overlay.ui:11
+#: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Παράθυρο γενικών συντομέυσεων"
 
-#: src/gtk/help-overlay.ui:14
+#: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Εμφάνιση Συντομεύσεων"
 
-#: src/gtk/help-overlay.ui:20
+#: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Έξοδος"
 
-#: src/gtk/window.ui:28
-msgid "Apply Changes"
-msgstr "Εφαρμογή αλλαγών"
-
-#: src/gtk/window.ui:45
-msgid "Drivers"
-msgstr "Οδηγοί"
-
-#: src/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "Φόρτωση προγραμμάτων οδήγησης…"
-
-#: src/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr "Περιμένετε μέχρι να φορτωθούν τα διαθέσιμα προγράμματα οδήγησης."
-
-#: src/gtk/window.ui:64
-#, fuzzy
-msgid "No Drivers Available"
-msgstr "Εγκαταστάθηκαν νέα προγράμματα οδήγησης."
-
-#: src/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr ""
-
-#: src/gtk/window.ui:80
-msgid "Updates"
-msgstr ""
-
-#: src/gtk/window.ui:86
-msgid "Preferences"
-msgstr "Προτιμήσεις"
-
-#: src/gtk/window.ui:89
-msgid "Latest Update Check"
-msgstr ""
-
-#: src/gtk/window.ui:90
-msgid "Never"
-msgstr ""
-
-#: src/gtk/window.ui:95
-msgid "Updates Scheduling"
-msgstr ""
-
-#: src/gtk/window.ui:96
-msgid "Choose how often the system should check for updates."
-msgstr ""
-
-#: src/gtk/window.ui:100
+#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr ""
 
-#: src/gtk/window.ui:101
+#: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
 msgstr ""
 
-#: src/gtk/window.ui:109
-msgid "SmartUpdate"
+#: vanilla_control_center/gtk/window.ui:229
+msgid "_Help"
 msgstr ""
 
-#: src/gtk/window.ui:110
-msgid ""
-"If enabled, the system will not update if the system is in high load or the "
-"battery is low."
+#: vanilla_control_center/container.py:52
+msgid "Shell opened for container '{}'"
 msgstr ""
 
-#: src/gtk/window.ui:127
-msgid "Sub System"
-msgstr "Υποσύστημα"
-
-#: src/gtk/window.ui:137
-msgid "Containers"
+#: vanilla_control_center/container.py:59
+msgid "Container '{}' initialized"
 msgstr ""
 
-#: src/gtk/window.ui:142
-msgid "Installed Applications"
-msgstr "Εγκατεστημένες Εφαρμογές"
-
-#: src/gtk/window.ui:161
-#, fuzzy
-msgid "_About Control-center"
-msgstr "_About Control-panel"
-
-#: src/main.py:67
+#: vanilla_control_center/main.py:70
 msgid "Translators"
 msgstr "Μεταφραστές"
 
-#: src/window.py:115
+#: vanilla_control_center/window.py:125
 msgid "Installation Failed."
 msgstr "Η εγκατάσταση απέτυχε."
 
-#: src/window.py:118
+#: vanilla_control_center/window.py:128
 msgid "New Drivers Installed."
 msgstr "Εγκαταστάθηκαν νέα προγράμματα οδήγησης."
 
-#: src/window.py:125
+#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr ""
 
-#: src/window.py:160
+#: vanilla_control_center/window.py:145
+#, fuzzy
+msgid "Installing new Drivers…"
+msgstr "Εγκατάσταση σε εξέλιξη…"
+
+#: vanilla_control_center/window.py:169
 msgid "SmartUpdate Changed."
 msgstr ""
 
-#: src/window.py:168
+#: vanilla_control_center/window.py:177
 msgid "Update Schedule Changed."
 msgstr ""
 
-#: src/window.py:196
+#: vanilla_control_center/window.py:205
 msgid "{} Exited With Error."
 msgstr "{} έκλεισε με σφάλμα."
 
-#: src/window.py:199
+#: vanilla_control_center/window.py:208
 msgid "{} Exited."
 msgstr "{} έκλεισε."
 
-#: src/window.py:202
+#: vanilla_control_center/window.py:211
 msgid "{} Launched."
 msgstr "{} εκτελέστηκε."
+
+#: vanilla_control_center/window.py:256
+msgid "Prime Profile Changed."
+msgstr ""
+
+#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+msgid "Prime Profile Change Failed."
+msgstr ""
+
+#: vanilla_control_center/window.py:266
+msgid "Switching PRIME Profile…"
+msgstr ""
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr ""
+#~ "Αυτό μπορεί να διαρκέσει λίγο, με βάση την ταχύτητα σύνδεσής σας στο "
+#~ "Διαδίκτυο."
+
+#~ msgid "Apply Changes"
+#~ msgstr "Εφαρμογή αλλαγών"
+
+#~ msgid "Drivers"
+#~ msgstr "Οδηγοί"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Φόρτωση προγραμμάτων οδήγησης…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Περιμένετε μέχρι να φορτωθούν τα διαθέσιμα προγράμματα οδήγησης."
+
+#, fuzzy
+#~ msgid "No Drivers Available"
+#~ msgstr "Εγκαταστάθηκαν νέα προγράμματα οδήγησης."
+
+#~ msgid "Preferences"
+#~ msgstr "Προτιμήσεις"
+
+#~ msgid "Sub System"
+#~ msgstr "Υποσύστημα"
+
+#~ msgid "Installed Applications"
+#~ msgstr "Εγκατεστημένες Εφαρμογές"
+
+#, fuzzy
+#~ msgid "_About Control-center"
+#~ msgstr "_About Control-panel"
 
 #~ msgid "Immutability"
 #~ msgstr "Immutability"

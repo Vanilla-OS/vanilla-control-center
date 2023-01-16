@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-08 11:57+0530\n"
+"POT-Creation-Date: 2023-01-17 00:08+0530\n"
 "PO-Revision-Date: 2023-01-12 18:47+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Galician <https://hosted.weblate.org/projects/vanilla-os/"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.15.1-dev\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
-#: src/gtk/window.ui:17 src/main.py:58
+#: data/org.vanillaos.ControlCenter.desktop.in:3
+#: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
 msgid "Vanilla OS Control Center"
 msgstr "Centro de Control de Vanilla OS"
 
@@ -28,161 +28,165 @@ msgstr "Centro de Control de Vanilla OS"
 msgid "No description"
 msgstr "Sen descrición"
 
-#: src/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "Instalación"
 
-#: src/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr "A instalación estase a realizar …"
-
-#: src/gtk/dialog-installation.ui:22
-msgid "This may take a while, based on your internet connection speed."
-msgstr "Esto pode levar un anaco, depende da túa velocidade de conexión."
-
-#: src/gtk/help-overlay.ui:11
+#: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Xeral"
 
-#: src/gtk/help-overlay.ui:14
+#: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Amosar Accesos Directos"
 
-#: src/gtk/help-overlay.ui:20
+#: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Saír"
 
-#: src/gtk/window.ui:28
-msgid "Apply Changes"
-msgstr "Aplicar Cambios"
-
-#: src/gtk/window.ui:45
-msgid "Drivers"
-msgstr "Controladoras"
-
-#: src/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "Cargando Controladoras…"
-
-#: src/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr ""
-"Porfavor agarde mentres as controladoras dispoñíbeis estan a ser cargadas."
-
-#: src/gtk/window.ui:64
-msgid "No Drivers Available"
-msgstr "Non se atoparon controladoras"
-
-#: src/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr "Ningunha controladora extra para o seu sistema."
-
-#: src/gtk/window.ui:80
-msgid "Updates"
-msgstr "Actualizacións"
-
-#: src/gtk/window.ui:86
-msgid "Preferences"
-msgstr "Preferencias"
-
-#: src/gtk/window.ui:89
-msgid "Latest Update Check"
-msgstr "Verificación da última actualización"
-
-#: src/gtk/window.ui:90
-msgid "Never"
-msgstr "Nunca"
-
-#: src/gtk/window.ui:95
-msgid "Updates Scheduling"
-msgstr "Programación da actualización"
-
-#: src/gtk/window.ui:96
-msgid "Choose how often the system should check for updates."
-msgstr "Escolla a frecuencia para comprobar actualizacións."
-
-#: src/gtk/window.ui:100
+#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr "Cada semana"
 
-#: src/gtk/window.ui:101
+#: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
 msgstr "Cada mes"
 
-#: src/gtk/window.ui:109
-msgid "SmartUpdate"
-msgstr "Actualización intelixente"
-
-#: src/gtk/window.ui:110
-msgid ""
-"If enabled, the system will not update if the system is in high load or the "
-"battery is low."
+#: vanilla_control_center/gtk/window.ui:229
+msgid "_Help"
 msgstr ""
-"Se está activado, pararanse as actualizacións en caso de sobrecarga do "
-"sistema ou batería baixa."
 
-#: src/gtk/window.ui:127
-msgid "Sub System"
-msgstr "Subsistema"
+#: vanilla_control_center/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr ""
 
-#: src/gtk/window.ui:137
-msgid "Containers"
-msgstr "Contenedores"
+#: vanilla_control_center/container.py:59
+msgid "Container '{}' initialized"
+msgstr ""
 
-#: src/gtk/window.ui:142 src/gtk/window.ui:147
-msgid "Installed Applications"
-msgstr "Aplicacións Instaladas"
-
-#: src/gtk/window.ui:166
-msgid "_About Control-center"
-msgstr "_Sobre o Panel de Control"
-
-#: src/main.py:67 src/main.py:65
+#: vanilla_control_center/main.py:70
 msgid "Translators"
 msgstr "Traductores"
 
-#: src/window.py:115 src/window.py:122
+#: vanilla_control_center/window.py:125
 msgid "Installation Failed."
 msgstr "Erro de Instalación."
 
-#: src/window.py:118 src/window.py:127
+#: vanilla_control_center/window.py:128
 msgid "New Drivers Installed."
 msgstr "Novas Controladoras Instaladas."
 
-#: src/window.py:109
+#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr "O sistema esta ocupado ou debe reiniciarse."
 
-#: src/window.py:157
+#: vanilla_control_center/window.py:145
+#, fuzzy
+msgid "Installing new Drivers…"
+msgstr "A instalación estase a realizar …"
+
+#: vanilla_control_center/window.py:169
 msgid "SmartUpdate Changed."
 msgstr "Actualización intelixente modificada."
 
-#: src/window.py:165
+#: vanilla_control_center/window.py:177
 msgid "Update Schedule Changed."
 msgstr "A planificación das actualizacións cambiou."
 
-#: src/window.py:196 src/window.py:194
+#: vanilla_control_center/window.py:205
 msgid "{} Exited With Error."
 msgstr "{} Rematou con Erros."
 
-#: src/window.py:199 src/window.py:197
+#: vanilla_control_center/window.py:208
 msgid "{} Exited."
 msgstr "{} Rematado."
 
-#: src/window.py:202 src/window.py:200
+#: vanilla_control_center/window.py:211
 msgid "{} Launched."
 msgstr "{} Executado."
 
-#: src/gtk/window.ui:139
-msgid "No Containerized Apps"
-msgstr "Non hai aplicacións contedores"
+#: vanilla_control_center/window.py:256
+msgid "Prime Profile Changed."
+msgstr ""
 
-#: src/gtk/window.ui:140
-msgid "There are no containerized apps installed on your system."
-msgstr "Non hai aplicacións en contedores instalados no seu sistema."
+#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+msgid "Prime Profile Change Failed."
+msgstr ""
+
+#: vanilla_control_center/window.py:266
+msgid "Switching PRIME Profile…"
+msgstr ""
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr "Esto pode levar un anaco, depende da túa velocidade de conexión."
+
+#~ msgid "Apply Changes"
+#~ msgstr "Aplicar Cambios"
+
+#~ msgid "Drivers"
+#~ msgstr "Controladoras"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Cargando Controladoras…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr ""
+#~ "Porfavor agarde mentres as controladoras dispoñíbeis estan a ser cargadas."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Non se atoparon controladoras"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Ningunha controladora extra para o seu sistema."
+
+#~ msgid "Updates"
+#~ msgstr "Actualizacións"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferencias"
+
+#~ msgid "Latest Update Check"
+#~ msgstr "Verificación da última actualización"
+
+#~ msgid "Never"
+#~ msgstr "Nunca"
+
+#~ msgid "Updates Scheduling"
+#~ msgstr "Programación da actualización"
+
+#~ msgid "Choose how often the system should check for updates."
+#~ msgstr "Escolla a frecuencia para comprobar actualizacións."
+
+#~ msgid "SmartUpdate"
+#~ msgstr "Actualización intelixente"
+
+#~ msgid ""
+#~ "If enabled, the system will not update if the system is in high load or "
+#~ "the battery is low."
+#~ msgstr ""
+#~ "Se está activado, pararanse as actualizacións en caso de sobrecarga do "
+#~ "sistema ou batería baixa."
+
+#~ msgid "Sub System"
+#~ msgstr "Subsistema"
+
+#~ msgid "Containers"
+#~ msgstr "Contenedores"
+
+#~ msgid "Installed Applications"
+#~ msgstr "Aplicacións Instaladas"
+
+#~ msgid "_About Control-center"
+#~ msgstr "_Sobre o Panel de Control"
+
+#~ msgid "No Containerized Apps"
+#~ msgstr "Non hai aplicacións contedores"
+
+#~ msgid "There are no containerized apps installed on your system."
+#~ msgstr "Non hai aplicacións en contedores instalados no seu sistema."
 
 #~ msgid "Immutability"
 #~ msgstr "Inalienabilidade"

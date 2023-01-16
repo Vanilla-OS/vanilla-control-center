@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-08 11:57+0530\n"
+"POT-Creation-Date: 2023-01-17 00:08+0530\n"
 "PO-Revision-Date: 2023-01-12 18:47+0000\n"
 "Last-Translator: Park Seonu <cotwo0139@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/vanilla-os/"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.15.1-dev\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
-#: src/gtk/window.ui:17 src/main.py:58
+#: data/org.vanillaos.ControlCenter.desktop.in:3
+#: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
 msgid "Vanilla OS Control Center"
 msgstr "바닐라 OS 제어 센터"
 
@@ -28,151 +28,146 @@ msgstr "바닐라 OS 제어 센터"
 msgid "No description"
 msgstr "설명 없음"
 
-#: src/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "설치"
 
-#: src/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr "설치 진행 중…"
-
-#: src/gtk/dialog-installation.ui:22
-msgid "This may take a while, based on your internet connection speed."
-msgstr "인터넷 연결 속도에 따라 다소 시간이 걸릴 수 있습니다."
-
-#: src/gtk/help-overlay.ui:11
+#: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
 msgstr "일반"
 
-#: src/gtk/help-overlay.ui:14
+#: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "바로가기 표시하기"
 
-#: src/gtk/help-overlay.ui:20
+#: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "종료"
 
-#: src/gtk/window.ui:28
-msgid "Apply Changes"
-msgstr "변경사항 적용하기"
-
-#: src/gtk/window.ui:45
-msgid "Drivers"
-msgstr "드라이버"
-
-#: src/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "드라이버 불러오는 중…"
-
-#: src/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr "사용 가능한 드라이버를 불러오는 동안 잠시 기다려 주십시오."
-
-#: src/gtk/window.ui:64
-msgid "No Drivers Available"
-msgstr "사용 가능한 드라이버가 존재하지 않음"
-
-#: src/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr "당신의 시스템에 사용 할 수 있는 추가 드라이버가 존재하지 않습니다."
-
-#: src/gtk/window.ui:80
-msgid "Updates"
-msgstr "업데이트"
-
-#: src/gtk/window.ui:86
-msgid "Preferences"
-msgstr "환경설정"
-
-#: src/gtk/window.ui:89
-msgid "Latest Update Check"
-msgstr "마지막 업데이트 확인"
-
-#: src/gtk/window.ui:90
-msgid "Never"
-msgstr ""
-
-#: src/gtk/window.ui:95
-msgid "Updates Scheduling"
-msgstr "압데이트 스케줄링"
-
-#: src/gtk/window.ui:96
-msgid "Choose how often the system should check for updates."
-msgstr "얼마나 자주 시스템이 업데이트를 확인해야 하는 지 빈도를 선택합니다."
-
-#: src/gtk/window.ui:100
+#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr "주간"
 
-#: src/gtk/window.ui:101
+#: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
 msgstr "월간"
 
-#: src/gtk/window.ui:109
-msgid "SmartUpdate"
-msgstr "스마트 업데이트"
-
-#: src/gtk/window.ui:110
-msgid ""
-"If enabled, the system will not update if the system is in high load or the "
-"battery is low."
+#: vanilla_control_center/gtk/window.ui:229
+msgid "_Help"
 msgstr ""
 
-#: src/gtk/window.ui:127
-msgid "Sub System"
-msgstr "하위 시스템"
-
-#: src/gtk/window.ui:137
-msgid "Containers"
+#: vanilla_control_center/container.py:52
+msgid "Shell opened for container '{}'"
 msgstr ""
 
-#: src/gtk/window.ui:142
-msgid "Installed Applications"
-msgstr "설치된 응용 프로그램"
+#: vanilla_control_center/container.py:59
+msgid "Container '{}' initialized"
+msgstr ""
 
-#: src/gtk/window.ui:161
-#, fuzzy
-msgid "_About Control-center"
-msgstr "제어판 정보(_A)"
-
-#: src/main.py:67
+#: vanilla_control_center/main.py:70
 msgid "Translators"
 msgstr "번역자"
 
-#: src/window.py:115
+#: vanilla_control_center/window.py:125
 msgid "Installation Failed."
 msgstr "설치에 실패했습니다."
 
-#: src/window.py:118
+#: vanilla_control_center/window.py:128
 msgid "New Drivers Installed."
 msgstr "새 드라이버가 설치되었습니다."
 
-#: src/window.py:125
+#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr ""
 
-#: src/window.py:160
+#: vanilla_control_center/window.py:145
+#, fuzzy
+msgid "Installing new Drivers…"
+msgstr "설치 진행 중…"
+
+#: vanilla_control_center/window.py:169
 msgid "SmartUpdate Changed."
 msgstr ""
 
-#: src/window.py:168
+#: vanilla_control_center/window.py:177
 msgid "Update Schedule Changed."
 msgstr ""
 
-#: src/window.py:196
+#: vanilla_control_center/window.py:205
 msgid "{} Exited With Error."
 msgstr "{}이 오류와 함께 종료되었습니다."
 
-#: src/window.py:199
+#: vanilla_control_center/window.py:208
 msgid "{} Exited."
 msgstr "{}이 종료되었습니다."
 
-#: src/window.py:202
+#: vanilla_control_center/window.py:211
 msgid "{} Launched."
 msgstr "{}이 시작되었습니다."
+
+#: vanilla_control_center/window.py:256
+msgid "Prime Profile Changed."
+msgstr ""
+
+#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+msgid "Prime Profile Change Failed."
+msgstr ""
+
+#: vanilla_control_center/window.py:266
+msgid "Switching PRIME Profile…"
+msgstr ""
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr "인터넷 연결 속도에 따라 다소 시간이 걸릴 수 있습니다."
+
+#~ msgid "Apply Changes"
+#~ msgstr "변경사항 적용하기"
+
+#~ msgid "Drivers"
+#~ msgstr "드라이버"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "드라이버 불러오는 중…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "사용 가능한 드라이버를 불러오는 동안 잠시 기다려 주십시오."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "사용 가능한 드라이버가 존재하지 않음"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "당신의 시스템에 사용 할 수 있는 추가 드라이버가 존재하지 않습니다."
+
+#~ msgid "Updates"
+#~ msgstr "업데이트"
+
+#~ msgid "Preferences"
+#~ msgstr "환경설정"
+
+#~ msgid "Latest Update Check"
+#~ msgstr "마지막 업데이트 확인"
+
+#~ msgid "Updates Scheduling"
+#~ msgstr "압데이트 스케줄링"
+
+#~ msgid "Choose how often the system should check for updates."
+#~ msgstr "얼마나 자주 시스템이 업데이트를 확인해야 하는 지 빈도를 선택합니다."
+
+#~ msgid "SmartUpdate"
+#~ msgstr "스마트 업데이트"
+
+#~ msgid "Sub System"
+#~ msgstr "하위 시스템"
+
+#~ msgid "Installed Applications"
+#~ msgstr "설치된 응용 프로그램"
+
+#, fuzzy
+#~ msgid "_About Control-center"
+#~ msgstr "제어판 정보(_A)"
 
 #~ msgid "Immutability"
 #~ msgstr "불변성"

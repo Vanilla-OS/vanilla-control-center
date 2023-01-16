@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-08 11:57+0530\n"
+"POT-Creation-Date: 2023-01-17 00:08+0530\n"
 "PO-Revision-Date: 2022-12-30 12:57+0000\n"
 "Last-Translator: finnmonstar <finnmonstar@pm.me>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -20,8 +20,8 @@ msgstr ""
 "20)) ? 1 : 2;\n"
 "X-Generator: Weblate 4.15.1-dev\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
-#: src/gtk/window.ui:17 src/main.py:58
+#: data/org.vanillaos.ControlCenter.desktop.in:3
+#: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
 msgid "Vanilla OS Control Center"
 msgstr "Panoul de control Vanilla OS"
 
@@ -29,156 +29,162 @@ msgstr "Panoul de control Vanilla OS"
 msgid "No description"
 msgstr "Fără descriere"
 
-#: src/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "Instalare"
 
-#: src/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr "Instalarea este în progres…"
-
-#: src/gtk/dialog-installation.ui:22
-msgid "This may take a while, based on your internet connection speed."
-msgstr ""
-"Acest pas poate dura ceva timp, dar depinde de viteza conexiunii tale la "
-"internet."
-
-#: src/gtk/help-overlay.ui:11
+#: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
 msgstr "General"
 
-#: src/gtk/help-overlay.ui:14
+#: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Arată scurtăturile"
 
-#: src/gtk/help-overlay.ui:20
+#: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Ieși"
 
-#: src/gtk/window.ui:28
-msgid "Apply Changes"
-msgstr "Aplică schimbările"
-
-#: src/gtk/window.ui:45
-msgid "Drivers"
-msgstr "Drivere"
-
-#: src/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "Se încarcă driverele…"
-
-#: src/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr "Driverele disponibilie se încarcă, te rog așteaptă."
-
-#: src/gtk/window.ui:64
-msgid "No Drivers Available"
-msgstr "Niciun driver disponibil"
-
-#: src/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr "Nu mai sunt drivere disponibile pentru sistemul tău."
-
-#: src/gtk/window.ui:80
-msgid "Updates"
-msgstr "Actualizări"
-
-#: src/gtk/window.ui:86
-msgid "Preferences"
-msgstr "Preferințe"
-
-#: src/gtk/window.ui:89
-msgid "Latest Update Check"
-msgstr "Ultima verificare de actualizări"
-
-#: src/gtk/window.ui:90
-msgid "Never"
-msgstr "Niciodată"
-
-#: src/gtk/window.ui:95
-msgid "Updates Scheduling"
-msgstr "Actualizările se programează"
-
-#: src/gtk/window.ui:96
-msgid "Choose how often the system should check for updates."
-msgstr "Alege cât de des sistemul ar trebui să caute actualizări."
-
-#: src/gtk/window.ui:100
+#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr "Săptămânal"
 
-#: src/gtk/window.ui:101
+#: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
 msgstr "Lunar"
 
-#: src/gtk/window.ui:109
-msgid "SmartUpdate"
-msgstr "Actualizare inteligentă"
-
-#: src/gtk/window.ui:110
-msgid ""
-"If enabled, the system will not update if the system is in high load or the "
-"battery is low."
+#: vanilla_control_center/gtk/window.ui:229
+msgid "_Help"
 msgstr ""
-"Dacă această opțiune este activată, sistemul nu se va actualiza atunci când "
-"este solicitat sau bateria este la un nivel scăzut."
 
-#: src/gtk/window.ui:127
-msgid "Sub System"
-msgstr "Subsistem"
+#: vanilla_control_center/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr ""
 
-#: src/gtk/window.ui:137
-#, fuzzy
-msgid "Containers"
-msgstr "Nicio aplicație containerizată"
+#: vanilla_control_center/container.py:59
+msgid "Container '{}' initialized"
+msgstr ""
 
-#: src/gtk/window.ui:142
-msgid "Installed Applications"
-msgstr "Aplicații instalate"
-
-#: src/gtk/window.ui:161
-msgid "_About Control-center"
-msgstr "Despre panoul de control"
-
-#: src/main.py:67
+#: vanilla_control_center/main.py:70
 msgid "Translators"
 msgstr "Traducători"
 
-#: src/window.py:115
+#: vanilla_control_center/window.py:125
 msgid "Installation Failed."
 msgstr "Instalarea a eșuat."
 
-#: src/window.py:118
+#: vanilla_control_center/window.py:128
 msgid "New Drivers Installed."
 msgstr "Drivere noi instalate."
 
-#: src/window.py:125
+#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr ""
 "Altă tranzacție se rulează în acest moment sau sistemul trebuie repornit."
 
-#: src/window.py:160
+#: vanilla_control_center/window.py:145
+#, fuzzy
+msgid "Installing new Drivers…"
+msgstr "Instalarea este în progres…"
+
+#: vanilla_control_center/window.py:169
 msgid "SmartUpdate Changed."
 msgstr "Actualizare inteligentă schimbată."
 
-#: src/window.py:168
+#: vanilla_control_center/window.py:177
 msgid "Update Schedule Changed."
 msgstr "Programul de actualizare schimbat."
 
-#: src/window.py:196
+#: vanilla_control_center/window.py:205
 msgid "{} Exited With Error."
 msgstr "{} a ieșit cu o eroare."
 
-#: src/window.py:199
+#: vanilla_control_center/window.py:208
 msgid "{} Exited."
 msgstr "{} a ieșit."
 
-#: src/window.py:202
+#: vanilla_control_center/window.py:211
 msgid "{} Launched."
 msgstr "{} s-a lansat."
+
+#: vanilla_control_center/window.py:256
+msgid "Prime Profile Changed."
+msgstr ""
+
+#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+msgid "Prime Profile Change Failed."
+msgstr ""
+
+#: vanilla_control_center/window.py:266
+msgid "Switching PRIME Profile…"
+msgstr ""
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr ""
+#~ "Acest pas poate dura ceva timp, dar depinde de viteza conexiunii tale la "
+#~ "internet."
+
+#~ msgid "Apply Changes"
+#~ msgstr "Aplică schimbările"
+
+#~ msgid "Drivers"
+#~ msgstr "Drivere"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Se încarcă driverele…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Driverele disponibilie se încarcă, te rog așteaptă."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Niciun driver disponibil"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Nu mai sunt drivere disponibile pentru sistemul tău."
+
+#~ msgid "Updates"
+#~ msgstr "Actualizări"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferințe"
+
+#~ msgid "Latest Update Check"
+#~ msgstr "Ultima verificare de actualizări"
+
+#~ msgid "Never"
+#~ msgstr "Niciodată"
+
+#~ msgid "Updates Scheduling"
+#~ msgstr "Actualizările se programează"
+
+#~ msgid "Choose how often the system should check for updates."
+#~ msgstr "Alege cât de des sistemul ar trebui să caute actualizări."
+
+#~ msgid "SmartUpdate"
+#~ msgstr "Actualizare inteligentă"
+
+#~ msgid ""
+#~ "If enabled, the system will not update if the system is in high load or "
+#~ "the battery is low."
+#~ msgstr ""
+#~ "Dacă această opțiune este activată, sistemul nu se va actualiza atunci "
+#~ "când este solicitat sau bateria este la un nivel scăzut."
+
+#~ msgid "Sub System"
+#~ msgstr "Subsistem"
+
+#, fuzzy
+#~ msgid "Containers"
+#~ msgstr "Nicio aplicație containerizată"
+
+#~ msgid "Installed Applications"
+#~ msgstr "Aplicații instalate"
+
+#~ msgid "_About Control-center"
+#~ msgstr "Despre panoul de control"
 
 #~ msgid "There are no containerized apps installed on your system."
 #~ msgstr "Nu există nicio aplicație containerizată pe sistemul tău."

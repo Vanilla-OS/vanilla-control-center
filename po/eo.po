@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-08 11:57+0530\n"
+"POT-Creation-Date: 2023-01-17 00:08+0530\n"
 "PO-Revision-Date: 2022-11-30 03:48+0000\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/vanilla-os/"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.15-dev\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
-#: src/gtk/window.ui:17 src/main.py:58
+#: data/org.vanillaos.ControlCenter.desktop.in:3
+#: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
 msgid "Vanilla OS Control Center"
 msgstr "Stirpanelo de Vanilla OS"
 
@@ -28,152 +28,129 @@ msgstr "Stirpanelo de Vanilla OS"
 msgid "No description"
 msgstr "Neniu priskribo"
 
-#: src/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "Instalado"
 
-#: src/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr "Instalante…"
-
-#: src/gtk/dialog-installation.ui:22
-msgid "This may take a while, based on your internet connection speed."
-msgstr "Tio eble daŭros iom laŭ via Interreta konekta rapido."
-
-#: src/gtk/help-overlay.ui:11
+#: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Ĝenerala"
 
-#: src/gtk/help-overlay.ui:14
+#: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Montri fulmoklavojn"
 
-#: src/gtk/help-overlay.ui:20
+#: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Forlasi"
 
-#: src/gtk/window.ui:28
-msgid "Apply Changes"
-msgstr "Efektivigi ŝanĝojn"
-
-#: src/gtk/window.ui:45
-msgid "Drivers"
-msgstr "Zorgiloj"
-
-#: src/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "Ŝargante zorgilojn…"
-
-#: src/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr "Bonvolu atendi dum ŝargiĝas la listo de haveblaj zorgiloj."
-
-#: src/gtk/window.ui:64
-#, fuzzy
-msgid "No Drivers Available"
-msgstr "Novaj zorgiloj instaliĝis."
-
-#: src/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr ""
-
-#: src/gtk/window.ui:80
-msgid "Updates"
-msgstr ""
-
-#: src/gtk/window.ui:86
-msgid "Preferences"
-msgstr "Preferoj"
-
-#: src/gtk/window.ui:89
-msgid "Latest Update Check"
-msgstr ""
-
-#: src/gtk/window.ui:90
-msgid "Never"
-msgstr ""
-
-#: src/gtk/window.ui:95
-msgid "Updates Scheduling"
-msgstr ""
-
-#: src/gtk/window.ui:96
-msgid "Choose how often the system should check for updates."
-msgstr ""
-
-#: src/gtk/window.ui:100
+#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr ""
 
-#: src/gtk/window.ui:101
+#: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
 msgstr ""
 
-#: src/gtk/window.ui:109
-msgid "SmartUpdate"
+#: vanilla_control_center/gtk/window.ui:229
+msgid "_Help"
 msgstr ""
 
-#: src/gtk/window.ui:110
-msgid ""
-"If enabled, the system will not update if the system is in high load or the "
-"battery is low."
+#: vanilla_control_center/container.py:52
+msgid "Shell opened for container '{}'"
 msgstr ""
 
-#: src/gtk/window.ui:127
-msgid "Sub System"
-msgstr "Subsistemo"
-
-#: src/gtk/window.ui:137
-msgid "Containers"
+#: vanilla_control_center/container.py:59
+msgid "Container '{}' initialized"
 msgstr ""
 
-#: src/gtk/window.ui:142
-msgid "Installed Applications"
-msgstr "Instalitaj programoj"
-
-#: src/gtk/window.ui:161
-#, fuzzy
-msgid "_About Control-center"
-msgstr "_Pri Stirpanelo"
-
-#: src/main.py:67
+#: vanilla_control_center/main.py:70
 msgid "Translators"
 msgstr "Tradukintoj"
 
-#: src/window.py:115
+#: vanilla_control_center/window.py:125
 msgid "Installation Failed."
 msgstr "Instalado malsukcesis."
 
-#: src/window.py:118
+#: vanilla_control_center/window.py:128
 msgid "New Drivers Installed."
 msgstr "Novaj zorgiloj instaliĝis."
 
-#: src/window.py:125
+#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr ""
 
-#: src/window.py:160
+#: vanilla_control_center/window.py:145
+#, fuzzy
+msgid "Installing new Drivers…"
+msgstr "Instalante…"
+
+#: vanilla_control_center/window.py:169
 msgid "SmartUpdate Changed."
 msgstr ""
 
-#: src/window.py:168
+#: vanilla_control_center/window.py:177
 msgid "Update Schedule Changed."
 msgstr ""
 
-#: src/window.py:196
+#: vanilla_control_center/window.py:205
 msgid "{} Exited With Error."
 msgstr "{} finiĝis pro eraro."
 
-#: src/window.py:199
+#: vanilla_control_center/window.py:208
 msgid "{} Exited."
 msgstr "{} finiĝis."
 
-#: src/window.py:202
+#: vanilla_control_center/window.py:211
 msgid "{} Launched."
 msgstr "{} lanĉiĝis."
+
+#: vanilla_control_center/window.py:256
+msgid "Prime Profile Changed."
+msgstr ""
+
+#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+msgid "Prime Profile Change Failed."
+msgstr ""
+
+#: vanilla_control_center/window.py:266
+msgid "Switching PRIME Profile…"
+msgstr ""
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr "Tio eble daŭros iom laŭ via Interreta konekta rapido."
+
+#~ msgid "Apply Changes"
+#~ msgstr "Efektivigi ŝanĝojn"
+
+#~ msgid "Drivers"
+#~ msgstr "Zorgiloj"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Ŝargante zorgilojn…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Bonvolu atendi dum ŝargiĝas la listo de haveblaj zorgiloj."
+
+#, fuzzy
+#~ msgid "No Drivers Available"
+#~ msgstr "Novaj zorgiloj instaliĝis."
+
+#~ msgid "Preferences"
+#~ msgstr "Preferoj"
+
+#~ msgid "Sub System"
+#~ msgstr "Subsistemo"
+
+#~ msgid "Installed Applications"
+#~ msgstr "Instalitaj programoj"
+
+#, fuzzy
+#~ msgid "_About Control-center"
+#~ msgstr "_Pri Stirpanelo"
 
 #~ msgid "Immutability"
 #~ msgstr "Neŝanĝebleco"
