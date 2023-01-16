@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-08 11:57+0530\n"
+"POT-Creation-Date: 2023-01-17 00:08+0530\n"
 "PO-Revision-Date: 2023-01-12 18:47+0000\n"
 "Last-Translator: K.B.Dharun Krishna <kbdharunkrishna@gmail.com>\n"
-"Language-Team: Tamil <https://hosted.weblate.org/projects/vanilla-os/"
-"control-center/ta/>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/vanilla-os/control-"
+"center/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.15.1-dev\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
-#: src/gtk/window.ui:17 src/main.py:58
+#: data/org.vanillaos.ControlCenter.desktop.in:3
+#: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
 msgid "Vanilla OS Control Center"
 msgstr "வெண்ணிலா OS கட்டுப்பாட்டு மையம்"
 
@@ -28,153 +28,159 @@ msgstr "வெண்ணிலா OS கட்டுப்பாட்டு ம�
 msgid "No description"
 msgstr "விளக்கம் இல்லை"
 
-#: src/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "நிறுவல்"
 
-#: src/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr "நிறுவல் நடந்து கொண்டிருக்கிறது…"
-
-#: src/gtk/dialog-installation.ui:22
-msgid "This may take a while, based on your internet connection speed."
-msgstr "உங்கள் இணைய இணைப்பு வேகத்தின் அடிப்படையில் இதற்கு சிறிது நேரம் ஆகலாம்."
-
-#: src/gtk/help-overlay.ui:11
+#: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
 msgstr "பொது"
 
-#: src/gtk/help-overlay.ui:14
+#: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "குறுக்குவழிகளைக் காட்டு"
 
-#: src/gtk/help-overlay.ui:20
+#: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "வெளியேறு"
 
-#: src/gtk/window.ui:28
-msgid "Apply Changes"
-msgstr "மாற்றங்களை விண்ணப்பிக்கவும்"
-
-#: src/gtk/window.ui:45
-msgid "Drivers"
-msgstr "இயக்கிகள்"
-
-#: src/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "இயக்கிகளை ஏற்றுகிறது…"
-
-#: src/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr "கிடைக்கக்கூடிய இயக்கிகள் ஏற்றப்படும் வரை காத்திருக்கவும்."
-
-#: src/gtk/window.ui:64
-msgid "No Drivers Available"
-msgstr "இயக்கிகள் இல்லை"
-
-#: src/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr "உங்கள் கணினிக்கு கூடுதல் இயக்கிகள் எதுவும் கிடைக்கவில்லை."
-
-#: src/gtk/window.ui:80
-msgid "Updates"
-msgstr "புதுப்பிப்புகள்"
-
-#: src/gtk/window.ui:86
-msgid "Preferences"
-msgstr "விருப்பத்தேர்வுகள்"
-
-#: src/gtk/window.ui:89
-msgid "Latest Update Check"
-msgstr "சமீபத்திய புதுப்பிப்பு சரிபார்ப்பு"
-
-#: src/gtk/window.ui:90
-msgid "Never"
-msgstr "ஒருபோதும் இல்லை"
-
-#: src/gtk/window.ui:95
-msgid "Updates Scheduling"
-msgstr "புதுப்பிப்புகளை திட்டமிடுதல்"
-
-#: src/gtk/window.ui:96
-msgid "Choose how often the system should check for updates."
-msgstr ""
-"புதுப்பிப்புகளை கணினி எவ்வளவு அடிக்கடி சரிபார்க்க வேண்டும் என்பதைத் தேர்வுசெய்யவும்."
-
-#: src/gtk/window.ui:100
+#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr "வாராந்திர"
 
-#: src/gtk/window.ui:101
+#: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
 msgstr "மாதாந்திர"
 
-#: src/gtk/window.ui:109
-msgid "SmartUpdate"
-msgstr "ஸ்மார்ட் புதுப்பிப்பு"
-
-#: src/gtk/window.ui:110
-msgid ""
-"If enabled, the system will not update if the system is in high load or the "
-"battery is low."
+#: vanilla_control_center/gtk/window.ui:229
+msgid "_Help"
 msgstr ""
-"இயக்கப்பட்டால், கணினி அதிக சுமையில் இருந்தாலும் அல்லது பேட்டரி குறைவாக இருந்தாலும் "
-"கணினி புதுப்பிக்கப்படாது."
 
-#: src/gtk/window.ui:127
-msgid "Sub System"
-msgstr "துணை அமைப்பு"
+#: vanilla_control_center/container.py:52
+msgid "Shell opened for container '{}'"
+msgstr ""
 
-#: src/gtk/window.ui:137
-msgid "Containers"
-msgstr "கொள்கலன்கள்"
+#: vanilla_control_center/container.py:59
+msgid "Container '{}' initialized"
+msgstr ""
 
-#: src/gtk/window.ui:142
-msgid "Installed Applications"
-msgstr "நிறுவப்பட்ட பயன்பாடுகள்"
-
-#: src/gtk/window.ui:161
-msgid "_About Control-center"
-msgstr "_கட்டுப்பாட்டு-மையம் பற்றி"
-
-#: src/main.py:67
+#: vanilla_control_center/main.py:70
 msgid "Translators"
 msgstr "மொழிபெயர்ப்பாளர்கள்"
 
-#: src/window.py:115
+#: vanilla_control_center/window.py:125
 msgid "Installation Failed."
 msgstr "நிறுவல் தோல்வி அடைந்தது."
 
-#: src/window.py:118
+#: vanilla_control_center/window.py:128
 msgid "New Drivers Installed."
 msgstr "புதிய இயக்கிகள் நிறுவப்பட்டுள்ளன."
 
-#: src/window.py:125
+#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr "மற்றொரு பரிவர்த்தனை இயங்குகிறது அல்லது கணினியை மறுதொடக்கம் செய்ய வேண்டும்."
 
-#: src/window.py:160
+#: vanilla_control_center/window.py:145
+#, fuzzy
+msgid "Installing new Drivers…"
+msgstr "நிறுவல் நடந்து கொண்டிருக்கிறது…"
+
+#: vanilla_control_center/window.py:169
 msgid "SmartUpdate Changed."
 msgstr "ஸ்மார்ட் புதுப்பிப்பு மாற்றப்பட்டுள்ளது."
 
-#: src/window.py:168
+#: vanilla_control_center/window.py:177
 msgid "Update Schedule Changed."
 msgstr "புதுப்பிப்பு அட்டவணை மாற்றப்பட்டது."
 
-#: src/window.py:196
+#: vanilla_control_center/window.py:205
 msgid "{} Exited With Error."
 msgstr "{} பிழையுடன் வெளியேறியது."
 
-#: src/window.py:199
+#: vanilla_control_center/window.py:208
 msgid "{} Exited."
 msgstr "{} வெளியேறியது."
 
-#: src/window.py:202
+#: vanilla_control_center/window.py:211
 msgid "{} Launched."
 msgstr "{} தொடங்கப்பட்டது."
+
+#: vanilla_control_center/window.py:256
+msgid "Prime Profile Changed."
+msgstr ""
+
+#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+msgid "Prime Profile Change Failed."
+msgstr ""
+
+#: vanilla_control_center/window.py:266
+msgid "Switching PRIME Profile…"
+msgstr ""
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr "உங்கள் இணைய இணைப்பு வேகத்தின் அடிப்படையில் இதற்கு சிறிது நேரம் ஆகலாம்."
+
+#~ msgid "Apply Changes"
+#~ msgstr "மாற்றங்களை விண்ணப்பிக்கவும்"
+
+#~ msgid "Drivers"
+#~ msgstr "இயக்கிகள்"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "இயக்கிகளை ஏற்றுகிறது…"
+
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "கிடைக்கக்கூடிய இயக்கிகள் ஏற்றப்படும் வரை காத்திருக்கவும்."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "இயக்கிகள் இல்லை"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "உங்கள் கணினிக்கு கூடுதல் இயக்கிகள் எதுவும் கிடைக்கவில்லை."
+
+#~ msgid "Updates"
+#~ msgstr "புதுப்பிப்புகள்"
+
+#~ msgid "Preferences"
+#~ msgstr "விருப்பத்தேர்வுகள்"
+
+#~ msgid "Latest Update Check"
+#~ msgstr "சமீபத்திய புதுப்பிப்பு சரிபார்ப்பு"
+
+#~ msgid "Never"
+#~ msgstr "ஒருபோதும் இல்லை"
+
+#~ msgid "Updates Scheduling"
+#~ msgstr "புதுப்பிப்புகளை திட்டமிடுதல்"
+
+#~ msgid "Choose how often the system should check for updates."
+#~ msgstr ""
+#~ "புதுப்பிப்புகளை கணினி எவ்வளவு அடிக்கடி சரிபார்க்க வேண்டும் என்பதைத் தேர்வுசெய்யவும்."
+
+#~ msgid "SmartUpdate"
+#~ msgstr "ஸ்மார்ட் புதுப்பிப்பு"
+
+#~ msgid ""
+#~ "If enabled, the system will not update if the system is in high load or "
+#~ "the battery is low."
+#~ msgstr ""
+#~ "இயக்கப்பட்டால், கணினி அதிக சுமையில் இருந்தாலும் அல்லது பேட்டரி குறைவாக இருந்தாலும் "
+#~ "கணினி புதுப்பிக்கப்படாது."
+
+#~ msgid "Sub System"
+#~ msgstr "துணை அமைப்பு"
+
+#~ msgid "Containers"
+#~ msgstr "கொள்கலன்கள்"
+
+#~ msgid "Installed Applications"
+#~ msgstr "நிறுவப்பட்ட பயன்பாடுகள்"
+
+#~ msgid "_About Control-center"
+#~ msgstr "_கட்டுப்பாட்டு-மையம் பற்றி"
 
 #~ msgid "There are no containerized apps installed on your system."
 #~ msgstr "உங்கள் கணினியில் கண்டெய்னரைஸ் செய்யப்பட்ட பயன்பாடுகள் எதுவும் நிறுவப்படவில்லை."
