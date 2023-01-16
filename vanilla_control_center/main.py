@@ -135,7 +135,17 @@ class VanillaControlCenterApplication(Adw.Application):
                 "Kira Roubin https://github.com/jplie",
                 "Samuel NAIT https://github.com/Tisamu",
                 "Muhammed Bayraktar https://github.com/Xelorium",
-                "imgradeone https://github.com/imgradeone"
+                "imgradeone https://github.com/imgradeone",
+                "sakydogalo https://github.com/sakydogalo",
+                "EncryptedEasty https://github.com/EncryptedEasty",
+                "PPNplus https://hosted.weblate.org/user/ppnplus",
+                "gallegonovato https://github.com/gallegonovato",
+                "czenon1 https://github.com/czenon1",
+                "Raka Prasetya Pratama https://github.com/MizuNotCool",
+                "Park Seonu https://github.com/Sannoob3144",
+                "lakejason0 https://github.com/lakejason0",
+                "Kefir2105 https://github.com/Kefir2105",
+                "Eryk Michalak https://github.com/gnu-ewm"
             ]
         )
         about.present()
