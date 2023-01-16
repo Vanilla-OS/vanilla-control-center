@@ -19,6 +19,7 @@
 
 import sys
 import logging
+import subprocess
 import gi
 from gettext import gettext as _
 
@@ -40,6 +41,7 @@ class VanillaControlCenterApplication(Adw.Application):
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
         self.create_action('quit', self.quit, ['<primary>q'])
         self.create_action('about', self.on_about_action)
+        self.create_action('help', self.help, ['F1'])
 
     def do_activate(self):
         """Called when the application is activated.
@@ -137,6 +139,9 @@ class VanillaControlCenterApplication(Adw.Application):
             ]
         )
         about.present()
+    
+    def help(self, widget, callback=None):
+        subprocess.Popen(["yelp", "help:vanilla-control-center"], start_new_session=True)
 
     def create_action(self, name, callback, shortcuts=None):
         """Add an application action.
