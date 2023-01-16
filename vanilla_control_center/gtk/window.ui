@@ -226,6 +226,10 @@
   <menu id="primary_menu">
     <section>
       <item>
+        <attribute name="label" translatable="yes">_Help</attribute>
+        <attribute name="action">app.help</attribute>
+      </item>
+      <item>
         <attribute name="label" translatable="true">_About Control-center</attribute>
         <attribute name="action">app.about</attribute>
       </item>

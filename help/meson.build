@@ -2,6 +2,7 @@ pages = [
   'index.page',
   'drivers-install.page',
   'drivers-not-available.page',
+  'prime-profiles.page',
   'update-check.page',
   'update-scheduling.page',
   'update-smart.page',
