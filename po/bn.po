@@ -16,41 +16,41 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3
-#: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
+#: data/org.vanillaos.ControlCenter.desktop.in:3 src/gtk/window.ui:8
+#: src/gtk/window.ui:17 src/main.py:58
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "ভ্যানিলা ওএস কন্ট্রোল সেন্টার"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "কোনো বর্ণনা নেই"
 
-#: vanilla_control_center/gtk/dialog-installation.ui:6
+#: src/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "ইনস্টলেশন"
 
-#: vanilla_control_center/gtk/help-overlay.ui:11
+#: src/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "সাধারণ"
 
-#: vanilla_control_center/gtk/help-overlay.ui:14
+#: src/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "শর্টকাটগুলি দেখুন"
 
-#: vanilla_control_center/gtk/help-overlay.ui:20
+#: src/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "প্রস্থান করুন"
 
-#: vanilla_control_center/gtk/window.ui:168
+#: src/gtk/window.ui:100
 msgid "Weekly"
-msgstr ""
+msgstr "প্রতি সপ্তাহে"
 
-#: vanilla_control_center/gtk/window.ui:169
+#: src/gtk/window.ui:101
 msgid "Monthly"
-msgstr ""
+msgstr "প্রতি মাসে"
 
 #: vanilla_control_center/gtk/window.ui:229
 msgid "_Help"
@@ -64,45 +64,45 @@ msgstr ""
 msgid "Container '{}' initialized"
 msgstr ""
 
-#: vanilla_control_center/main.py:70
+#: src/main.py:67
 msgid "Translators"
-msgstr ""
+msgstr "অনুবাদক"
 
-#: vanilla_control_center/window.py:125
+#: src/window.py:115
 msgid "Installation Failed."
-msgstr ""
+msgstr "ইনস্টলেশন ব্যর্থ হয়েছে।"
 
-#: vanilla_control_center/window.py:128
+#: src/window.py:118
 msgid "New Drivers Installed."
-msgstr ""
+msgstr "নতুন ড্রাইভার ইনস্টল করা হয়েছে।"
 
-#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
+#: src/window.py:125
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
+msgstr "অন্য কার্যপরিচালনা চলছে অথবা সিস্টেমটি করতে রিস্টার্ট হবে৷"
 
 #: vanilla_control_center/window.py:145
 msgid "Installing new Drivers…"
 msgstr ""
 
-#: vanilla_control_center/window.py:169
+#: src/window.py:160
 msgid "SmartUpdate Changed."
-msgstr ""
+msgstr "স্মার্টআপডেট পরিবর্তিত হয়েছে।"
 
-#: vanilla_control_center/window.py:177
+#: src/window.py:168
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "আপডেট এর সময়সূচী পরিবর্তিত হয়েছে।"
 
-#: vanilla_control_center/window.py:205
+#: src/window.py:196
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} ত্রুটি সহ বের হয়ে গেছে৷"
 
-#: vanilla_control_center/window.py:208
+#: src/window.py:199
 msgid "{} Exited."
-msgstr ""
+msgstr "{} বের হয়ে গেছে।"
 
-#: vanilla_control_center/window.py:211
+#: src/window.py:202
 msgid "{} Launched."
-msgstr ""
+msgstr "{} চালু হয়েছে৷"
 
 #: vanilla_control_center/window.py:256
 msgid "Prime Profile Changed."
@@ -115,3 +115,86 @@ msgstr ""
 #: vanilla_control_center/window.py:266
 msgid "Switching PRIME Profile…"
 msgstr ""
+
+#: src/gtk/dialog-installation.ui:21
+msgid "Installation in Progress…"
+msgstr "ইন্সটলেশন চলছে"
+
+#: src/gtk/dialog-installation.ui:22
+msgid "This may take a while, based on your internet connection speed."
+msgstr "এটি কিছুটা সময় নিবে, আপনার ইন্টারনেট কানেকশনের গতির উপর নির্ভর করে।"
+
+#: src/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "পরিবর্তন করুন"
+
+#: src/gtk/window.ui:45
+msgid "Drivers"
+msgstr "ড্রাইভার"
+
+#: src/gtk/window.ui:55
+msgid "Loading drivers…"
+msgstr "ড্রাইভার লোড হচ্ছে…"
+
+#: src/gtk/window.ui:56
+msgid "Please wait while the available drivers are being loaded."
+msgstr "ব্যবহারযোগ্য ড্রাইভার লোড হচ্ছে অনুগ্রহ করে অপেক্ষা করুন।"
+
+#: src/gtk/window.ui:64
+msgid "No Drivers Available"
+msgstr "কোন ব্যবহারযোগ্য ড্রাইভার নেই"
+
+#: src/gtk/window.ui:65
+msgid "There are no extra drivers available for your system."
+msgstr "আপনার ডিভাইস এর জন্য কোন অতিরিক্ত ড্রাইভার নেই।"
+
+#: src/gtk/window.ui:80
+msgid "Updates"
+msgstr "আপডেট"
+
+#: src/gtk/window.ui:86
+msgid "Preferences"
+msgstr "পছন্দসমূহ"
+
+#: src/gtk/window.ui:89
+msgid "Latest Update Check"
+msgstr "সর্বশেষ আপডেট চেক"
+
+#: src/gtk/window.ui:90
+msgid "Never"
+msgstr "কখনই হয়নি"
+
+#: src/gtk/window.ui:95
+msgid "Updates Scheduling"
+msgstr "আপডেট এর সময়সূচী"
+
+#: src/gtk/window.ui:96
+msgid "Choose how often the system should check for updates."
+msgstr "কত ঘন ঘন সিস্টেম আপডেটের জন্য চেক করবে তা নির্বাচন করুন।"
+
+#: src/gtk/window.ui:109
+msgid "SmartUpdate"
+msgstr "স্মার্ট আপডেট"
+
+#: src/gtk/window.ui:110
+msgid ""
+"If enabled, the system will not update if the system is in high load or the "
+"battery is low."
+msgstr ""
+"চালু থাকলে, সিস্টেমটি বেশি লোড হলে বা ব্যাটারি কম থাকলে সিস্টেম আপডেট হবে না৷"
+
+#: src/gtk/window.ui:127
+msgid "Sub System"
+msgstr "সাব সিস্টেম"
+
+#: src/gtk/window.ui:137
+msgid "Containers"
+msgstr "কনটেইনার"
+
+#: src/gtk/window.ui:142
+msgid "Installed Applications"
+msgstr "ইনস্টল করা অ্যাপ্লিকেশন"
+
+#: src/gtk/window.ui:161
+msgid "_About Control-center"
+msgstr "_কন্ট্রোল সেন্টার সম্পর্কে"
