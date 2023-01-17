@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 00:08+0530\n"
-"PO-Revision-Date: 2022-12-30 12:57+0000\n"
-"Last-Translator: Nagy Ádám <n.adam@ckik.hu>\n"
+"PO-Revision-Date: 2023-01-18 22:43+0000\n"
+"Last-Translator: kramo <login@kramo.hu>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/hu/>\n"
 "Language: hu\n"
@@ -49,23 +49,23 @@ msgstr "Kilépés"
 
 #: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
-msgstr ""
+msgstr "Heti"
 
 #: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
-msgstr ""
+msgstr "Havi"
 
 #: vanilla_control_center/gtk/window.ui:229
 msgid "_Help"
-msgstr ""
+msgstr "_Segítség"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "Shell megnyitva a '{}' konténerhez"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "'{}' konténer elindítva"
 
 #: vanilla_control_center/main.py:70
 msgid "Translators"
@@ -81,20 +81,19 @@ msgstr "Új illesztőprogramok telepítve."
 
 #: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
+msgstr "Egy másik tranzakció fut, vagy a rendszer újraindítása szükséges."
 
 #: vanilla_control_center/window.py:145
-#, fuzzy
 msgid "Installing new Drivers…"
-msgstr "Telepítés folyamatban…"
+msgstr "Illesztőprogramok telepítése…"
 
 #: vanilla_control_center/window.py:169
 msgid "SmartUpdate Changed."
-msgstr ""
+msgstr "A SmartUpdate módosult."
 
 #: vanilla_control_center/window.py:177
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "A frissítés ütemezése módosult."
 
 #: vanilla_control_center/window.py:205
 msgid "{} Exited With Error."
@@ -110,15 +109,15 @@ msgstr "{} Elindult."
 
 #: vanilla_control_center/window.py:256
 msgid "Prime Profile Changed."
-msgstr ""
+msgstr "A Prime Profile módosult."
 
 #: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
 msgid "Prime Profile Change Failed."
-msgstr ""
+msgstr "A Prime Profile módosítása sikertelen."
 
 #: vanilla_control_center/window.py:266
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "PRIME Profile módosítása…"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr "Ez eltarthat egy ideig, az internetkapcsolat sebességétől függően."
