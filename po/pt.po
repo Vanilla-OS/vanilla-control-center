@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 00:08+0530\n"
-"PO-Revision-Date: 2023-01-01 15:50+0000\n"
+"PO-Revision-Date: 2023-01-20 19:20+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.15.1\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
@@ -57,15 +57,15 @@ msgstr "Mensal"
 
 #: vanilla_control_center/gtk/window.ui:229
 msgid "_Help"
-msgstr ""
+msgstr "_Ajuda"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "Shell aberto para contentor '{}'"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "Contentor '{}' inicializado"
 
 #: vanilla_control_center/main.py:70
 msgid "Translators"
@@ -84,9 +84,8 @@ msgid "Another transaction is running or the system needs to be restarted."
 msgstr "Outra transação está em execução ou o sistema precisa ser reiniciado."
 
 #: vanilla_control_center/window.py:145
-#, fuzzy
 msgid "Installing new Drivers…"
-msgstr "Instalação em curso…"
+msgstr "A instalar novos controladores…"
 
 #: vanilla_control_center/window.py:169
 msgid "SmartUpdate Changed."
@@ -110,15 +109,15 @@ msgstr "{} iniciado."
 
 #: vanilla_control_center/window.py:256
 msgid "Prime Profile Changed."
-msgstr ""
+msgstr "Perfil principal alterado."
 
 #: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
 msgid "Prime Profile Change Failed."
-msgstr ""
+msgstr "Falha ao alterar perfil principal."
 
 #: vanilla_control_center/window.py:266
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "A trocar perfil PRINCIPAL…"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr ""
