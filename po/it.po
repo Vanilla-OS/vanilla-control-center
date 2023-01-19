@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 00:08+0530\n"
-"PO-Revision-Date: 2023-01-12 18:47+0000\n"
+"PO-Revision-Date: 2023-01-18 22:43+0000\n"
 "Last-Translator: EncryptedEasty <c.zullo08@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/it/>\n"
@@ -57,15 +57,15 @@ msgstr "Mensile"
 
 #: vanilla_control_center/gtk/window.ui:229
 msgid "_Help"
-msgstr ""
+msgstr "_Aiuto"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "Shell aperta per il container '{}'"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "Container '{}' inizializzato"
 
 #: vanilla_control_center/main.py:70
 msgid "Translators"
@@ -84,9 +84,8 @@ msgid "Another transaction is running or the system needs to be restarted."
 msgstr "Un'altra transazione è in corso o il sistema deve essere riavviato."
 
 #: vanilla_control_center/window.py:145
-#, fuzzy
 msgid "Installing new Drivers…"
-msgstr "Installazione in Corso…"
+msgstr "Installando nuovi Driver…"
 
 #: vanilla_control_center/window.py:169
 msgid "SmartUpdate Changed."
@@ -110,15 +109,15 @@ msgstr "{} Lanciato."
 
 #: vanilla_control_center/window.py:256
 msgid "Prime Profile Changed."
-msgstr ""
+msgstr "Profile Prime Modificato."
 
 #: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
 msgid "Prime Profile Change Failed."
-msgstr ""
+msgstr "Modifica del Profilo Prime Fallita."
 
 #: vanilla_control_center/window.py:266
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "Cambiando Profilo Prime…"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr ""
