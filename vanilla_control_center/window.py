@@ -54,6 +54,7 @@ class VanillaWindow(Adw.ApplicationWindow):
     combo_update_schedule = Gtk.Template.Child()
     str_update_schedule = Gtk.Template.Child()
     switch_update_smart = Gtk.Template.Child()
+    switch_update_auto = Gtk.Template.Child()
     page_apx = Gtk.Template.Child()
     group_containers = Gtk.Template.Child()
     group_apps = Gtk.Template.Child()
@@ -61,11 +62,12 @@ class VanillaWindow(Adw.ApplicationWindow):
     row_igpu_status = Gtk.Template.Child()
     row_dgpu_status = Gtk.Template.Child()
     row_hgpu_status = Gtk.Template.Child()
+    row_update_auto = Gtk.Template.Child()
     img_igpu = Gtk.Template.Child()
     img_dgpu = Gtk.Template.Child()
     img_hgpu = Gtk.Template.Child()
     list_prime = Gtk.Template.Child()
-    
+
     __selected_drivers = {}
 
     def __init__(self, **kwargs):
@@ -160,14 +162,27 @@ class VanillaWindow(Adw.ApplicationWindow):
 
         if smart := self.vso.smart:
             self.switch_update_smart.set_active(smart)
+        
+        if auto := self.vso.auto:
+            self.switch_update_auto.set_active(auto)
 
         self.combo_update_schedule.connect("notify::selected", self.__on_update_schedule_changed)
         self.switch_update_smart.connect("state-set", self.__on_update_smart_changed)
+        self.switch_update_auto.connect("state-set", self.__on_update_auto_changed)
 
     def __on_update_smart_changed(self, widget, state, *args):
-        if self.vso.set_smartupdate(state):
+        res = self.vso.set_smartupdate(state)
+        if res:
             self.toast(_("SmartUpdate Changed."))
-            return
+        else:
+            self.toast(_("Failed to change SmartUpdate setting."))
+
+    def __on_update_auto_changed(self, widget, state, *args):
+        res = self.vso.set_autoupdate(state)
+        if res:
+            self.toast(_("Auto Update Changed."))
+        else:
+            self.toast(_("Failed to change Auto Update setting."))
 
     def __on_update_schedule_changed(self, widget, *args):
         new_state = widget.get_selected()

@@ -183,6 +183,17 @@
                                 </child>
                               </object>
                             </child>
+                            <child>
+                              <object class="AdwActionRow" id="row_update_auto">
+                                <property name="title" translatable="true">Auto Update</property>
+                                <property name="subtitle" translatable="true">If enabled, the system will automatically update itself in the background.</property>
+                                <child type="suffix">
+                                  <object class="GtkSwitch" id="switch_update_auto">
+                                    <property name="valign">center</property>
+                                  </object>
+                                </child>
+                              </object>
+                            </child>
                           </object>
                         </child>
                       </object>

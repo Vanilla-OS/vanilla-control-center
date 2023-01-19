@@ -68,6 +68,10 @@ class Vso:
     def smart(self) -> bool:
         return self.get_config()["updates"]["smart"]
 
+    @property
+    def auto(self) -> bool:
+        return self.get_autoupdate_status()
+
     def set_scheduling(self, value: int) -> bool:
         rules = {
             0: "weekly",
@@ -79,3 +83,12 @@ class Vso:
     def set_smartupdate(self, value: bool) -> bool:
         res = subprocess.run(["pkexec", self.__binary, "config", "set", "updates.smart", str(value).lower()])
         return res.returncode == 0
+
+    def get_autoupdate_status(self) -> bool:
+        res = subprocess.run(["systemctl", "is-enabled", "vso-autoupdate.timer"], capture_output=True)
+        return res.returncode == 0
+
+    def set_autoupdate(self, value: bool) -> bool:
+        action = "enable" if value else "disable"
+        subprocess.run(["pkexec", "systemctl", action, "vso-autoupdate.timer", "--now"])
+        return self.get_autoupdate_status() == value
