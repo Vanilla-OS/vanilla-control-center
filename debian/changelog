@@ -1,3 +1,10 @@
+vanilla-control-center (1.4.0) kinetic; urgency=critical
+
+  * Support for configuring PRIME Profiles
+  * Help page
+
+ -- Mirko Brombin <send@mirko.pm>  Sun, 1 Jan 2022 10:44:00 +0000
+
 vanilla-control-center (1.3.1) kinetic; urgency=critical
 
   * Support the Alpine subsystem

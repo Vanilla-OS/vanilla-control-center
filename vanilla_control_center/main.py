@@ -60,7 +60,7 @@ class VanillaControlCenterApplication(Adw.Application):
                                 application_name=_('Vanilla OS Control Center'),
                                 application_icon='org.vanillaos.ControlCenter',
                                 developer_name='Mirko Brombin',
-                                version='1.3.1',
+                                version='1.4.0',
                                 developers=['Mirko Brombin'],
                                 copyright='© 2023 Mirko Brombin',
                                 website='https://vanillaos.org/',
