@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 00:08+0530\n"
-"PO-Revision-Date: 2023-01-12 18:47+0000\n"
+"PO-Revision-Date: 2023-01-20 19:20+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "vanilla-os/control-center/zh_Hant/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.15.1\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
@@ -57,15 +57,15 @@ msgstr "每月"
 
 #: vanilla_control_center/gtk/window.ui:229
 msgid "_Help"
-msgstr ""
+msgstr "說明 (_H)"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "已為容器 '{}' 開啟 shell"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "已初始化容器 '{}'"
 
 #: vanilla_control_center/main.py:70
 msgid "Translators"
@@ -84,9 +84,8 @@ msgid "Another transaction is running or the system needs to be restarted."
 msgstr "另一個事務正在執行或是系統需要重新開機。"
 
 #: vanilla_control_center/window.py:145
-#, fuzzy
 msgid "Installing new Drivers…"
-msgstr "安裝正在進行中…"
+msgstr "正在安裝新的驅動程式…"
 
 #: vanilla_control_center/window.py:169
 msgid "SmartUpdate Changed."
@@ -110,15 +109,15 @@ msgstr "{} 已啟動。"
 
 #: vanilla_control_center/window.py:256
 msgid "Prime Profile Changed."
-msgstr ""
+msgstr "已變更 PRIME 設定檔。"
 
 #: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
 msgid "Prime Profile Change Failed."
-msgstr ""
+msgstr "PRIME 設定檔變更失敗。"
 
 #: vanilla_control_center/window.py:266
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "正在切換 PRIME 設定檔…"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr "依照您的網路速度，這可能會花上一些時間。"
