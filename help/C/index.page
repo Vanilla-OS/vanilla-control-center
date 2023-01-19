@@ -8,7 +8,7 @@
     <title type="link">Vanilla OS Control Center</title>
     <title type="text">Vanilla OS Control Center</title>
     <revision version="1.1" date="2023-01-08" status="draft"/>
-    <revision pkgversion="1.4.0" date="2023-01-08" status="review"/>
+    <revision pkgversion="1.5.0" date="2023-01-08" status="review"/>
 
     <credit type="author copyright">
       <name>K.B.Dharun Krishna</name>
