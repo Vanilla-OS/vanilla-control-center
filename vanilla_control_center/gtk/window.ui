@@ -156,6 +156,12 @@
                               <object class="AdwActionRow" id="row_update_status">
                                 <property name="title" translatable="true">Latest Update Check</property>
                                 <property name="subtitle" translatable="true">Never</property>
+                                <child type="suffix">
+                                  <object class="GtkButton" id="btn_update_now">
+                                    <property name="valign">center</property>
+                                    <property name="label" translatable="true">Check Now</property>
+                                  </object>
+                                </child>
                               </object>
                             </child>
                             <child>

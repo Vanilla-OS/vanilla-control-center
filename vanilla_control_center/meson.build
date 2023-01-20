@@ -36,6 +36,7 @@ vanilla_control_center_sources = [
   'run_async.py',
   'container.py',
   'dialog_installation.py',
+  'dialog_update_check.py',
 ]
 
 install_data(vanilla_control_center_sources, install_dir: moduledir)

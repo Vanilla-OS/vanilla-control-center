@@ -61,6 +61,10 @@ class Vso:
         raise FileNotFoundError("VSO Config file not found at {}".format(self.__conf_path))
 
     @property
+    def update_command(self) -> str:
+        return "pkexec {} trigger-update --now".format(self.__binary)
+
+    @property
     def scheduling(self) -> str:
         return self.get_config()["updates"]["schedule"]
 
@@ -92,3 +96,19 @@ class Vso:
         action = "enable" if value else "disable"
         subprocess.run(["pkexec", "systemctl", action, "vso-autoupdate.timer", "--now"])
         return self.get_autoupdate_status() == value
+
+    def get_updates(self) -> [bool, list]:
+        res = subprocess.run(["pkexec", self.__binary, "update-check"], capture_output=True)
+        updates = []
+
+        if res.returncode == 0:
+            for update in [line for line in res.stdout.decode().splitlines() if line.startswith("  -")]:
+                update = update.split()
+                updates.append({
+                    "name": update[1],
+                    "version": update[2] + " -> " + update[4]
+                })
+            return True, updates
+        else:
+            logger.error(res.stderr.decode())
+            return False, []
