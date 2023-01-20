@@ -1,3 +1,9 @@
+vanilla-control-center (1.6.0) kinetic; urgency=medium
+
+  * Ability to trigger updates manually
+
+ -- Mirko Brombin <send@mirko.pm>  Fri, 20 Jan 2023 23:09:00 +0000
+
 vanilla-control-center (1.5.0) kinetic; urgency=medium
 
   * Ability to disable automatic updates
