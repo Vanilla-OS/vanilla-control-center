@@ -7,12 +7,17 @@
     <title type='link' role="trail">Vanilla OS Control Center</title>
     <title type="link">Vanilla OS Control Center</title>
     <title type="text">Vanilla OS Control Center</title>
-    <revision version="1.1" date="2023-01-08" status="draft"/>
+    <revision version="1.2" date="2023-01-21" status="done"/>
     <revision pkgversion="1.6.0" date="2023-01-08" status="review"/>
 
     <credit type="author copyright">
       <name>K.B.Dharun Krishna</name>
       <email its:translate="no">kbdharunkrishna@gmail.com</email>
+      <years>2023</years>
+    </credit>
+    <credit type="editor copyright">
+      <name>Bart Gravendeel</name>
+      <email its:translate="no">monstertux@proton.me</email>
       <years>2023</years>
     </credit>
 
