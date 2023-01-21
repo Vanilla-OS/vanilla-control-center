@@ -15,6 +15,11 @@
       <email its:translate="no">kbdharunkrishna@gmail.com</email>
       <years>2023</years>
     </credit>
+    <credit type="editor copyright">
+      <name>Bart Gravendeel</name>
+      <email its:translate="no">monstertux@proton.me</email>
+      <years>2023</years>
+    </credit>
 
     <include href="legal.xml" xmlns="http://www.w3.org/2001/XInclude"/>
 

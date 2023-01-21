@@ -3,11 +3,16 @@
       type="topic" style="task" version="1.1"
       id="drivers-install">
   <info>
-    <revision version="1.1" date="2023-01-08" status="draft"/>
+    <revision version="1.2" date="2023-01-21" status="done"/>
 
     <credit type="author copyright">
       <name>K.B.Dharun Krishna</name>
-      <email>kbdharunkrishna@gmail.com</email>
+      <email its:translate="no">kbdharunkrishna@gmail.com</email>
+      <years>2023</years>
+    </credit>
+    <credit type="editor copyright">
+      <name>Bart Gravendeel</name>
+      <email its:translate="no">monstertux@proton.me</email>
       <years>2023</years>
     </credit>
 
@@ -20,25 +25,32 @@
 
   <title>Install Drivers</title>
 
-  <p>Vanilla Control Center allows installation of available drivers from the <gui>ubuntu-drivers</gui> package.</p>
-  
-<media type="image" its:translate="no" src="media/vanilla-control-center.png"/>
+  <p>Vanilla OS Control Center allows the user to install available drivers from the <gui>ubuntu-drivers</gui> package.</p>
+
+        <figure>
+                <title><gui>Drivers</gui> panel in Vanilla OS Control Center</title>
+               <media type="image" its:translate="no" src="media/vanilla-control-center.png"/>
+        </figure>
  
-  <p>The steps to install drivers are:</p>
+  <p>The steps for installing drivers are:</p>
 
   <list>
-    <item><p>Open <app>Vanilla Control Center</app>.</p></item>
-    <item><p>Click on the required driver to install from the <gui>Drivers</gui> tab.</p></item>
-    
-    <media type="image" its:translate="no" src="media/vanilla-control-center-apply.png"/>
+    <item><p>Open the <app>Vanilla OS Control Center</app>.</p></item>
+    <item><p>Click on the required Driver to install from the <gui>Drivers</gui> tab.</p></item>
     <item><p>Click on the <gui>Apply Changes</gui> button on the top right corner.</p></item>
   </list>
-  
-  <media type="image" its:translate="no" src="media/vanilla-control-center-apply.png"/>
 
-  <p>Once the changes are applied the Installation of the <gui>Drivers</gui> begins in a separate window.</p>
-  
-<media type="image" its:translate="no" src="media/vanilla-control-center-installation.png"/>
+        <figure>
+                <title><gui>Drivers</gui> panel in Vanilla OS Control Center with <gui>Apply Changes</gui> button</title>
+                <media type="image" its:translate="no" src="media/vanilla-control-center-apply.png"/>
+        </figure>
 
-  <p>After the installation of Drivers, Reboot your system. You have successfully installed the required drivers.</p>
+  <p>Once the changes are applied, the installation of the <gui>Drivers</gui> will begin in a separate window.</p>
+
+        <figure>
+                <title>Driver <gui>Installation in Progress..</gui> Window</title>
+                <media type="image" its:translate="no" src="media/vanilla-control-center-installation.png"/>
+        </figure>
+
+  <p>After the installation of the Drivers, reboot your system. You have now successfully installed the required drivers.</p>
 </page>

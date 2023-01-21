@@ -3,11 +3,16 @@
       type="topic" style="task" version="1.1"
       id="prime-profiles">
   <info>
-   <revision version="1.1" date="2023-01-11" status="draft"/>
+   <revision version="1.2" date="2023-01-21" status="done"/>
 
     <credit type="author copyright">
       <name>K.B.Dharun Krishna</name>
-      <email>kbdharunkrishna@gmail.com</email>
+      <email its:translate="no">kbdharunkrishna@gmail.com</email>
+      <years>2023</years>
+    </credit>
+    <credit type="editor copyright">
+      <name>Bart Gravendeel</name>
+      <email its:translate="no">monstertux@proton.me</email>
       <years>2023</years>
     </credit>
 
@@ -23,7 +28,10 @@
   
   <p>Vanilla OS provides an easy out-of-the-box experience with PRIME profiles by allowing you to select between <gui>Integrated GPU</gui>, <gui>Discrete GPU</gui> and <gui>Hybrid</gui> Active profiles.</p>
   
-  <media type="image" its:translate="no" src="media/vanilla-control-center-prime-profiles.png"/>
+        <figure>
+                <title><gui>PRIME Profiles</gui> panel in Vanilla OS Control Center</title>
+                <media type="image" its:translate="no" src="media/vanilla-control-center-prime-profiles.png"/>
+        </figure>
   
   <p>Steps to change the active profile:</p>
   
@@ -32,8 +40,8 @@
         <item><p>Select the required <gui>Active Profile</gui></p></item>
         <item><p>Click on <gui>Apply Changes</gui></p></item>
         <item><p>A new window is opened now for applying the changes.</p></item>
-        <item><p> Wait for the changes to be applied, then reboot your system.</p></item>
+        <item><p>Wait for the changes to be applied, then reboot your system.</p></item>
  </list>
  
- <p>You have successfully switched your Active PRIME Profile. Enjoy your extended performance and battery life</p>
+ <p>You have now successfully switched your Active PRIME Profile. Enjoy your increased performance and extended battery life!</p>
 </page>
