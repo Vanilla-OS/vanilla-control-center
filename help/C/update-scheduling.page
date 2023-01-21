@@ -17,8 +17,10 @@
     </credit>
 
     <link type="guide" xref="index#updates"/>
+    <link type="seealso" xref="update-automatic"/>
     <link type="seealso" xref="update-check"/>
     <link type="seealso" xref="update-smart"/>
+    <link type="seealso" xref="update-system"/>
 
     <keywords>update, scheduling, vso</keywords>
     <desc>Learn how to Schedule Updates in Vanilla OS.</desc>
@@ -29,6 +31,10 @@
   <p>Update scheduling is used to perform automatic updates using <gui>VSO</gui> (<gui>Vanilla System Operator</gui>) at fixed intervals, such as <gui>Weekly</gui> or <gui>Monthly</gui>.</p>
   
   <p>The default setting is "<gui>Weekly</gui>" to perform automatic updates at weekly intervals. You can change this to "<gui>Monthly</gui>" to perform automatic updates at monthly intervals.</p>
-  
-<media type="image" its:translate="no" src="media/vanilla-control-center-update.png"/>
+
+        <figure>
+                <title><gui>Updates</gui> panel in Vanilla OS Control Center</title>
+                <media type="image" its:translate="no" src="media/vanilla-control-center-update.png"/>
+        </figure>
+
 </page>

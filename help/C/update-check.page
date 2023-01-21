@@ -3,11 +3,11 @@
       type="topic" style="task" version="1.1"
       id="update-check">
   <info>
-   <revision version="1.2" date="2023-01-21" status="draft"/>
+   <revision version="1.2" date="2023-01-21" status="done"/>
 
     <credit type="author copyright">
       <name>K.B.Dharun Krishna</name>
-      <email>kbdharunkrishna@gmail.com</email>
+      <email its:translate="no">kbdharunkrishna@gmail.com</email>
       <years>2023</years>
     </credit>
     <credit type="editor copyright">
@@ -17,18 +17,24 @@
     </credit>
 
     <link type="guide" xref="index#updates"/>
+    <link type="seealso" xref="update-automatic"/>
     <link type="seealso" xref="update-scheduling"/>
     <link type="seealso" xref="update-smart"/>
+    <link type="seealso" xref="update-system"/>
 
     <keywords>update check, update, vso</keywords>
     <desc>Learn how Update Checks work in Vanilla OS.</desc>
   </info>
   
-  <title>What is the Latest Update Check?</title>
+ <title>What is the Latest Update Check?</title>
 
   <p> Latest Update Check displays the last time an Update Check has run through <gui>vso</gui> (<gui>Vanilla System Operator</gui>). If you have scheduled <gui>Weekly</gui> or <gui>Monthly</gui> updates, the Update Checks are done based on your preferred schedule.</p>
   
-  <p>Latest Update Checks are necessary to know if automatic updates are working as expected.</p>
-  
-<media type="image" its:translate="no" src="media/vanilla-control-center-update.png"/>
+  <p>The date and time in the <gui>Latest Update Check</gui> are essential to know if automatic and manual updates are working as expected through <gui>vso</gui>.</p>
+ 
+         <figure>
+                <title><gui>Updates</gui> panel in Vanilla OS Control Center</title>
+                <media type="image" its:translate="no" src="media/vanilla-control-center-update.png"/>
+        </figure>
+ 
 </page>

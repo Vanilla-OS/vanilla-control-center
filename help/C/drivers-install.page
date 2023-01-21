@@ -25,25 +25,32 @@
 
   <title>Install Drivers</title>
 
-  <p>Vanilla Control Center allows the user to install available drivers from the <gui>ubuntu-drivers</gui> package.</p>
-  
-<media type="image" its:translate="no" src="media/vanilla-control-center.png"/>
+  <p>Vanilla OS Control Center allows the user to install available drivers from the <gui>ubuntu-drivers</gui> package.</p>
+
+        <figure>
+                <title><gui>Drivers</gui> panel in Vanilla OS Control Center</title>
+               <media type="image" its:translate="no" src="media/vanilla-control-center.png"/>
+        </figure>
  
   <p>The steps for installing drivers are:</p>
 
   <list>
-    <item><p>Open the <app>Vanilla Control Center</app>.</p></item>
+    <item><p>Open the <app>Vanilla OS Control Center</app>.</p></item>
     <item><p>Click on the required Driver to install from the <gui>Drivers</gui> tab.</p></item>
-    
-    <media type="image" its:translate="no" src="media/vanilla-control-center-apply.png"/>
     <item><p>Click on the <gui>Apply Changes</gui> button on the top right corner.</p></item>
   </list>
-  
-  <media type="image" its:translate="no" src="media/vanilla-control-center-apply.png"/>
+
+        <figure>
+                <title><gui>Drivers</gui> panel in Vanilla OS Control Center with <gui>Apply Changes</gui> button</title>
+                <media type="image" its:translate="no" src="media/vanilla-control-center-apply.png"/>
+        </figure>
 
   <p>Once the changes are applied, the installation of the <gui>Drivers</gui> will begin in a separate window.</p>
-  
-<media type="image" its:translate="no" src="media/vanilla-control-center-installation.png"/>
+
+        <figure>
+                <title>Driver <gui>Installation in Progress..</gui> Window</title>
+                <media type="image" its:translate="no" src="media/vanilla-control-center-installation.png"/>
+        </figure>
 
   <p>After the installation of the Drivers, reboot your system. You have now successfully installed the required drivers.</p>
 </page>

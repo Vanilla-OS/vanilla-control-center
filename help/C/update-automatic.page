@@ -1,7 +1,7 @@
 <page xmlns="http://projectmallard.org/1.0/"
       xmlns:its="http://www.w3.org/2005/11/its"
       type="topic" style="task" version="1.1"
-      id="update-smart">
+      id="update-automatic">
   <info>
    <revision version="1.2" date="2023-01-21" status="done"/>
 
@@ -17,26 +17,32 @@
     </credit>
 
     <link type="guide" xref="index#updates"/>
-    <link type="seealso" xref="update-automatic"/>
     <link type="seealso" xref="update-check"/>
+    <link type="seealso" xref="update-smart"/>
     <link type="seealso" xref="update-scheduling"/>
     <link type="seealso" xref="update-system"/>
 
-    <keywords>update, smart, smartupdate, vso</keywords>
-    <desc>Learn about SmartUpdate in Vanilla OS.</desc>
+    <keywords>update, automatic, vso</keywords>
+    <desc>Learn about Automatic Updates in Vanilla OS.</desc>
   </info>
   
-  <title>What is SmartUpdate?</title>
+  <title>What is Automatic Updates?</title>
 
-  <p><gui>SmartUpdate</gui> is a way to ensure automatic updates are performed only on ideal conditions.</p>
+  <p>Automatic Updates are updates that occur in the background during scheduled intervals.</p>
 
-<p>When <gui>SmartUpdate</gui> is enabled, <gui>vso</gui> checks whether the system is capable of performing an update without hindering the user experience. Multiple checks for connection, memory, CPU and battery status get performed. If the system isn't ideal or capable of performing an update, <gui>vso</gui> will skip it and try again later.</p>
+<p>Automatic Updates in Vanilla OS are facilitated by <gui>vso</gui> (<gui>Vanilla System Operator</gui>). It checks if the system's conditions are ideal using <gui>SmartUpdate</gui> and installs the update in the background.  If you wish to update your system manually, you can disable updates in <gui>Vanilla OS Control Center</gui>.</p>
 
-<p>If <gui>SmartUpdate</gui> is disabled, <gui>vso</gui> will perform the update without any further checks.</p>
+<p>Steps to disable Automatic updates:</p>
+
+<list>
+        <item><p>Open the <app>Vanilla OS Control Center</app>.</p></item>
+        <item><p>Click on the <gui>Updates</gui> section.</p></item>
+        <item><p>Toggle off <gui>Auto Update</gui>.</p></item>
+</list>
 
         <figure>
                 <title><gui>Updates</gui> panel in Vanilla OS Control Center</title>
                 <media type="image" its:translate="no" src="media/vanilla-control-center-update.png"/>
         </figure>
-
+        
 </page>

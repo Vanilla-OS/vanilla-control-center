@@ -28,7 +28,10 @@
   
   <p>Vanilla OS provides an easy out-of-the-box experience with PRIME profiles by allowing you to select between <gui>Integrated GPU</gui>, <gui>Discrete GPU</gui> and <gui>Hybrid</gui> Active profiles.</p>
   
-  <media type="image" its:translate="no" src="media/vanilla-control-center-prime-profiles.png"/>
+        <figure>
+                <title><gui>PRIME Profiles</gui> panel in Vanilla OS Control Center</title>
+                <media type="image" its:translate="no" src="media/vanilla-control-center-prime-profiles.png"/>
+        </figure>
   
   <p>Steps to change the active profile:</p>
   
