@@ -21,7 +21,7 @@
   
   <title>What is the Latest Update Check?</title>
 
-  <p> Latest Update Check displays the last time an update check has run through <gui>vso</gui> (<gui>Vanilla System Operator</gui>). If you have scheduled <gui>Weekly</gui> or <gui>Monthly</gui> updates, then the update check is done based on your preferred schedule.</p>
+  <p> Latest Update Check displays the last time an Update Check has run through <gui>vso</gui> (<gui>Vanilla System Operator</gui>). If you have scheduled <gui>Weekly</gui> or <gui>Monthly</gui> updates, the Update Checks are done based on your preferred schedule.</p>
   
   <p>Latest Update Checks are necessary to know if automatic updates are working as expected.</p>
   

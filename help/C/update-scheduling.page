@@ -23,7 +23,7 @@
 
   <p>Update scheduling is used to perform automatic updates using <gui>VSO</gui> (<gui>Vanilla System Operator</gui>) at fixed intervals, such as <gui>Weekly</gui> or <gui>Monthly</gui>.</p>
   
-  <p>The default setting is "<gui>Weekly</gui>" to perform automatic updates at weekly intervals.</p>
+  <p>The default setting is "<gui>Weekly</gui>" to perform automatic updates at weekly intervals. You can change this to "<gui>Monthly</gui>" to perform automatic updates at monthly intervals.</p>
   
 <media type="image" its:translate="no" src="media/vanilla-control-center-update.png"/>
 </page>

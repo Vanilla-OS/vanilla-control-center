@@ -20,15 +20,15 @@
 
   <title>Install Drivers</title>
 
-  <p>Vanilla Control Center allows installation of available drivers from the <gui>ubuntu-drivers</gui> package.</p>
+  <p>Vanilla Control Center allows the user to install available drivers from the <gui>ubuntu-drivers</gui> package.</p>
   
 <media type="image" its:translate="no" src="media/vanilla-control-center.png"/>
  
-  <p>The steps to install drivers are:</p>
+  <p>The steps for installing drivers are:</p>
 
   <list>
-    <item><p>Open <app>Vanilla Control Center</app>.</p></item>
-    <item><p>Click on the required driver to install from the <gui>Drivers</gui> tab.</p></item>
+    <item><p>Open the <app>Vanilla Control Center</app>.</p></item>
+    <item><p>Click on the required Driver to install from the <gui>Drivers</gui> tab.</p></item>
     
     <media type="image" its:translate="no" src="media/vanilla-control-center-apply.png"/>
     <item><p>Click on the <gui>Apply Changes</gui> button on the top right corner.</p></item>
@@ -36,9 +36,9 @@
   
   <media type="image" its:translate="no" src="media/vanilla-control-center-apply.png"/>
 
-  <p>Once the changes are applied the Installation of the <gui>Drivers</gui> begins in a separate window.</p>
+  <p>Once the changes are applied, the installation of the <gui>Drivers</gui> will begin in a separate window.</p>
   
 <media type="image" its:translate="no" src="media/vanilla-control-center-installation.png"/>
 
-  <p>After the installation of Drivers, Reboot your system. You have successfully installed the required drivers.</p>
+  <p>After the installation of the Drivers, reboot your system. You have now successfully installed the required drivers.</p>
 </page>

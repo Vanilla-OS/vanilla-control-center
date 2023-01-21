@@ -22,7 +22,7 @@
 
   <p><gui>Vanilla OS Control Center</gui> allows you to view the GUI applications installed inside multiple <gui>apx</gui> containers in a unified place.</p>
   
-  <p>Applications with a desktop entries are listed in this <gui>Installed Application</gui> menu.</p>
+  <p>Applications with a desktop entry are listed in the <gui>Installed Application</gui> menu.</p>
  
  <media type="image" its:translate="no" src="media/vanilla-control-center-subsystem-enter.png"/>
  

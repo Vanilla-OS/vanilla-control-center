@@ -20,18 +20,18 @@
   
   <title>How to manage Containers?</title>
 
-  <p><gui>Vanilla OS Control Center</gui> allows you to manage various <gui>apx</gui> containers from multiple sources seamlessly in a unified place.</p>
+  <p><gui>Vanilla OS Control Center</gui> allows you to manage your <gui>apx</gui> containers seamlessly in a unified place.</p>
   
-  <p>It allows us to initialize or enter containers through the <gui>Containers</gui> menu.</p>
+  <p>It allows you to initialize or enter containers through the <gui>Containers</gui> menu.</p>
   
 <media type="image" its:translate="no" src="media/vanilla-control-center-subsystem.png"/>
 
-  <p> You can initialize the <gui>apx</gui> container by:</p>
+  <p>You can initialize the <gui>apx</gui> container by:</p>
   
  <list>
-        <item><p>Clicking on the <gui>+</gui> button in the desired container.</p></item>
-        <item><p>Upon clicking, a Read-only window opens, and the container gets created.</p></item>
-        <item><p>Now, the <gui>+</gui> icon would have changed to a terminal icon which means the container's creation is successful.</p></item>
+        <item><p>Clicking on the <gui>+</gui> button of the desired container.</p></item>
+        <item><p>Upon clicking, a Read-only window opens and the container gets created.</p></item>
+        <item><p>Now, the <gui>+</gui> icon will change to a terminal icon which means the container's creation is successful.</p></item>
  </list>
  
  <media type="image" its:translate="no" src="media/vanilla-control-center-subsystem-enter.png"/>

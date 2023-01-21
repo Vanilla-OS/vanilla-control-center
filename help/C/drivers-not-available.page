@@ -14,7 +14,7 @@
     <link type="guide" xref="index#drivers"/>
 
     <keywords>no drivers, no drivers available</keywords>
-    <desc>Learn why no drivers are available for your system.</desc>
+    <desc>Learn why no Drivers are available for your system.</desc>
   </info>
 
   <title>Why are No Drivers Available?</title>
@@ -22,7 +22,7 @@
   <p>If you see this message:</p>
   
   <list>
-    <item><p>Then your System doesn't require any specific drivers to function as it might already be part of the Linux kernel.</p></item>
-    <item><p>Or Your System doesn't have drivers in the <gui>ubuntu-drivers</gui> package and must be loaded manually through ABRoot.</p></item>
+    <item><p>Your System doesn't require any specific Drivers to function as it might already be part of the Linux Kernel.</p></item>
+    <item><p>Your System doesn't have Drivers in the <gui>ubuntu-drivers</gui> package and the Drivers must be loaded manually through ABRoot.</p></item>
   </list>
 </page>
