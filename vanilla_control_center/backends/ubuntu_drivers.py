@@ -87,7 +87,7 @@ class UbuntuDrivers:
         return not os.path.exists("/tmp/abroot-transactions.lock")
 
     def get_install_command(self, drivers: list) -> str:
-        command = ["pkexec", "abroot", "exec", "-y", "apt", "install", f"linux-headers-$(uname -r)"]
+        command = ["pkexec", "abroot", "exec", "-f", "apt", "install", f"linux-headers-$(uname -r)"]
 
         for driver in drivers:
             if "nvidia" in driver:

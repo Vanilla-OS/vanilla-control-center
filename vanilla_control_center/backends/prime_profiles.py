@@ -89,7 +89,7 @@ class PrimeProfiles:
         if profile not in self.__available_profiles:
             raise ValueError("Invalid profile name")
 
-        return " ".join(["pkexec", "abroot", "exec", "-y", self.__binary, profile])
+        return " ".join(["pkexec", "abroot", "exec", "-f", self.__binary, profile])
 
     def get_gpus(self) -> dict:
         gpus = {
