@@ -67,6 +67,13 @@ class VanillaControlCenterApplication(Adw.Application):
                                 issue_url=('https://github.com/Vanilla-OS/vanilla-control-center/issues'),
                                 license_type=('gpl-3-0-only'))
         about.add_credit_section(
+            _("Documentation by"),
+            [
+                "K.B.Dharun Krishna <kbdharunkrishna@gmail.com>",
+                "Bart Gravendeel <monstertux@proton.me>",
+            ]
+        )
+        about.add_credit_section(
             _("Translators"),
             [
                 "0xMRTT https://github.com/0xMRTT",
@@ -145,7 +152,11 @@ class VanillaControlCenterApplication(Adw.Application):
                 "Park Seonu https://github.com/Sannoob3144",
                 "lakejason0 https://github.com/lakejason0",
                 "Kefir2105 https://github.com/Kefir2105",
-                "Eryk Michalak https://github.com/gnu-ewm"
+                "Eryk Michalak https://github.com/gnu-ewm",
+                "allubie https://github.com/allubie",
+                "David Lapshin https://github.com/daudix-UFO",
+                "Akros <akrostv2@gmail.com>",
+                "Jasenko https://github.com/jsnko"
             ]
         )
         about.present()
