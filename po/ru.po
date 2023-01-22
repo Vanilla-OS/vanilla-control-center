@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 00:08+0530\n"
-"PO-Revision-Date: 2023-01-18 22:43+0000\n"
-"Last-Translator: Daudix UFO <ddaudix@gmail.com>\n"
+"PO-Revision-Date: 2023-01-22 16:29+0000\n"
+"Last-Translator: Andrey Sobolev <andrey.g.sobolev@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ru/>\n"
 "Language: ru\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.15.1\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
@@ -207,7 +207,7 @@ msgstr "_О центре управления"
 
 #: src/gtk/dialog-installation.ui:21
 msgid "Installation in Progress…"
-msgstr "Выполняется установка..."
+msgstr "Выполняется установка…"
 
 #~ msgid "There are no containerized apps installed on your system."
 #~ msgstr "В вашей системе не установлены контейнерные приложения."

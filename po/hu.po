@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 00:08+0530\n"
-"PO-Revision-Date: 2023-01-18 22:43+0000\n"
-"Last-Translator: kramo <login@kramo.hu>\n"
+"PO-Revision-Date: 2023-01-22 16:29+0000\n"
+"Last-Translator: Tamás Ecsedi <ecseditamas22@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/hu/>\n"
 "Language: hu\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.15.1\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
@@ -49,11 +49,11 @@ msgstr "Kilépés"
 
 #: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
-msgstr "Heti"
+msgstr "Hetente"
 
 #: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
-msgstr "Havi"
+msgstr "Havonta"
 
 #: vanilla_control_center/gtk/window.ui:229
 msgid "_Help"
