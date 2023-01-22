@@ -3,17 +3,18 @@ pages = [
   'drivers-install.page',
   'drivers-not-available.page',
   'prime-profiles.page',
-  'update-automatic',
+  'update-automatic.page',
   'update-check.page',
   'update-scheduling.page',
   'update-smart.page',
-  'update-system',
+  'update-system.page',
   'subsystem-containers.page',
   'subsystem-installed.page',
   'legal.xml',
 ]
 
 media = [
+  'media/org.vanillaos.ControlCenter.svg',
   'media/vanilla-control-center.png',
   'media/vanilla-control-center-apply.png',
   'media/vanilla-control-center-installation.png',
