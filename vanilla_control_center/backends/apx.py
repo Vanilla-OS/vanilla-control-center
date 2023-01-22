@@ -52,8 +52,8 @@ class Apx:
             "Flag": "--zypper",
             "Name": "openSUSE Sub System",
         },
-        "apx_managed_void": {
-            "Flag": "--void",
+        "apx_managed_xbps": {
+            "Flag": "--xbps",
             "Name": "Void Linux Sub System",
         }
     }
