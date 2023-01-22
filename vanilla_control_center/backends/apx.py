@@ -47,6 +47,14 @@ class Apx:
         "apx_managed_apk": {
             "Flag": "--apk",
             "Name": "Alpine Sub System",
+        },
+        "zypper_managed_apk": {
+            "Flag": "--zypper",
+            "Name": "openSUSE Sub System",
+        },
+        "void_managed_apk": {
+            "Flag": "--void",
+            "Name": "Void Linux Sub System",
         }
     }
 
