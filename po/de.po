@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 00:08+0530\n"
-"PO-Revision-Date: 2023-01-01 15:50+0000\n"
-"Last-Translator: Leo <leomerh96@outlook.com>\n"
+"PO-Revision-Date: 2023-01-25 19:52+0000\n"
+"Last-Translator: baer <mail@lovisrentsch.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/de/>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
@@ -65,7 +65,7 @@ msgstr ""
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "Container '{}' initialisiert"
 
 #: vanilla_control_center/main.py:70
 msgid "Translators"
@@ -86,9 +86,8 @@ msgstr ""
 "werden."
 
 #: vanilla_control_center/window.py:145
-#, fuzzy
 msgid "Installing new Drivers…"
-msgstr "Installation läuft…"
+msgstr "Neue Treiber werden installiert…"
 
 #: vanilla_control_center/window.py:169
 msgid "SmartUpdate Changed."
@@ -119,8 +118,9 @@ msgid "Prime Profile Change Failed."
 msgstr ""
 
 #: vanilla_control_center/window.py:266
+#, fuzzy
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "Wechsele auf PRIME Profil"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr ""
