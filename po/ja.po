@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 00:08+0530\n"
-"PO-Revision-Date: 2022-12-04 04:48+0000\n"
-"Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
+"PO-Revision-Date: 2023-01-27 22:47+0000\n"
+"Last-Translator: azuki <ipadgoogcloud@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ja/>\n"
 "Language: ja\n"
@@ -17,12 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "Vanilla OS コントロールセンター"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
@@ -30,91 +30,91 @@ msgstr "説明なし"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "インストール"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "全般"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "ショートカットキーを表示"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "終了"
 
 #: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
-msgstr ""
+msgstr "毎週"
 
 #: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
-msgstr ""
+msgstr "毎月"
 
 #: vanilla_control_center/gtk/window.ui:229
 msgid "_Help"
-msgstr ""
+msgstr "_ヘルプ"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "コンテナー '{}' のシェルを起動しました"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "コンテナー '{}' を起動しました"
 
 #: vanilla_control_center/main.py:70
 msgid "Translators"
-msgstr ""
+msgstr "翻訳者"
 
 #: vanilla_control_center/window.py:125
 msgid "Installation Failed."
-msgstr ""
+msgstr "インストールに失敗しました。"
 
 #: vanilla_control_center/window.py:128
 msgid "New Drivers Installed."
-msgstr ""
+msgstr "新しいドライバーがインストールされました。"
 
 #: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
+msgstr "他のトランザクションが実行中もしくはシステムが再起動を必要としています。"
 
 #: vanilla_control_center/window.py:145
 msgid "Installing new Drivers…"
-msgstr ""
+msgstr "新しいドライバーをインストールしています…"
 
 #: vanilla_control_center/window.py:169
 msgid "SmartUpdate Changed."
-msgstr ""
+msgstr "スマートアップデートが変更されました。"
 
 #: vanilla_control_center/window.py:177
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "アップデートスケジュールが変更されました。"
 
 #: vanilla_control_center/window.py:205
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} がエラーで終了しました。"
 
 #: vanilla_control_center/window.py:208
 msgid "{} Exited."
-msgstr ""
+msgstr "{} を終了しました。"
 
 #: vanilla_control_center/window.py:211
 msgid "{} Launched."
-msgstr ""
+msgstr "{} を起動しました。"
 
 #: vanilla_control_center/window.py:256
 msgid "Prime Profile Changed."
-msgstr ""
+msgstr "Prime プロファイルが変更されました。"
 
 #: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
 msgid "Prime Profile Change Failed."
-msgstr ""
+msgstr "Prime プロファイルの変更に失敗しました。"
 
 #: vanilla_control_center/window.py:266
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "PRIME プロファイルを切り替えています…"
