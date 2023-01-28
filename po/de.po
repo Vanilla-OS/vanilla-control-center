@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 00:08+0530\n"
-"PO-Revision-Date: 2023-01-25 19:52+0000\n"
-"Last-Translator: baer <mail@lovisrentsch.de>\n"
+"PO-Revision-Date: 2023-01-27 22:47+0000\n"
+"Last-Translator: Tiefseetauchner <lena@tauchner.me>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/de/>\n"
 "Language: de\n"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "Shell für den container '{}' geöffnet"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
@@ -111,11 +111,11 @@ msgstr "{} Begonnen."
 
 #: vanilla_control_center/window.py:256
 msgid "Prime Profile Changed."
-msgstr ""
+msgstr "Prime Profil angepasst."
 
 #: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
 msgid "Prime Profile Change Failed."
-msgstr ""
+msgstr "Ändern des Prime Profils fehlgeschlagen."
 
 #: vanilla_control_center/window.py:266
 #, fuzzy
