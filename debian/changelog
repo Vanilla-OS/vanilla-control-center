@@ -1,4 +1,4 @@
-vanilla-control-center (1.7.0) kinetic; urgency=critical
+vanilla-control-center (1.7.0-1) kinetic; urgency=critical
 
   * Prevent the user from upgrade if another is waiting for reboot
   * New translations
