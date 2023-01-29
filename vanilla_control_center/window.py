@@ -175,10 +175,14 @@ class VanillaWindow(Adw.ApplicationWindow):
         self.switch_update_smart.connect("state-set", self.__on_update_smart_changed)
         self.switch_update_auto.connect("state-set", self.__on_update_auto_changed)
         self.btn_update_now.connect("clicked", self.__on_update_now_clicked)
+        self.btn_update_reboot.connect("clicked", self.__on_update_reboot_clicked)
     
     def __reset_update_buttons(self):
         self.btn_update_now.set_visible(self.vso.can_update)
         self.btn_update_reboot.set_visible(not self.vso.can_update)
+
+    def __on_update_reboot_clicked(self, widget):
+        subprocess.run(['gnome-session-quit', '--reboot'])
 
     def __on_update_now_clicked(self, widget):
         VanillaDialogUpdateCheck(self).show()
