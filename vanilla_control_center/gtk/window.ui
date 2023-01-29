@@ -157,9 +157,21 @@
                                 <property name="title" translatable="true">Latest Update Check</property>
                                 <property name="subtitle" translatable="true">Never</property>
                                 <child type="suffix">
-                                  <object class="GtkButton" id="btn_update_now">
-                                    <property name="valign">center</property>
-                                    <property name="label" translatable="true">Check Now</property>
+                                  <object class="GtkBox">
+                                    <child>
+                                      <object class="GtkButton" id="btn_update_now">
+                                        <property name="visible">True</property>
+                                        <property name="valign">center</property>
+                                        <property name="label" translatable="true">Check Now</property>
+                                      </object>
+                                    </child>
+                                    <child>
+                                      <object class="GtkButton" id="btn_update_reboot">
+                                        <property name="visible">False</property>
+                                        <property name="valign">center</property>
+                                        <property name="label" translatable="true">Reboot to Apply</property>
+                                      </object>
+                                    </child>
                                   </object>
                                 </child>
                               </object>
