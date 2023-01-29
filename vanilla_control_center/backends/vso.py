@@ -76,6 +76,11 @@ class Vso:
     def auto(self) -> bool:
         return self.get_autoupdate_status()
 
+    @property
+    def can_update(self) -> bool:
+        if res := os.path.exists("/tmp/abroot-transactions.lock"):
+            return False
+
     def set_scheduling(self, value: int) -> bool:
         rules = {
             0: "weekly",
