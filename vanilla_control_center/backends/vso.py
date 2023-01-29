@@ -112,7 +112,7 @@ class Vso:
                     "name": update[1],
                     "version": update[2] + " -> " + update[4]
                 })
-            return True, updates
+            return len(updates) > 0, updates
         else:
             logger.error(res.stderr.decode())
             return False, []
