@@ -78,8 +78,7 @@ class Vso:
 
     @property
     def can_update(self) -> bool:
-        if res := os.path.exists("/tmp/abroot-transactions.lock"):
-            return False
+        return not os.path.exists("/tmp/abroot-transactions.lock")
 
     def set_scheduling(self, value: int) -> bool:
         rules = {
