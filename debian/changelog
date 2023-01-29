@@ -1,7 +1,8 @@
-vanilla-control-center (1.7.0-1) kinetic; urgency=critical
+vanilla-control-center (1.7.0-2) kinetic; urgency=critical
 
   * Prevent the user from upgrade if another is waiting for reboot
   * New translations
+  * Fix a bug where the user can start the upgrade process multiple times even if no updates are available
 
  -- Mirko Brombin <send@mirko.pm>  Sun, 29 Jan 2023 15:54:00 +0000
 
