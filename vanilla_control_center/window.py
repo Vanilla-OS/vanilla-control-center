@@ -198,9 +198,9 @@ class VanillaWindow(Adw.ApplicationWindow):
     def __on_update_auto_changed(self, widget, state, *args):
         res = self.vso.set_autoupdate(state)
         if res:
-            self.toast(_("Auto Update Changed."))
+            self.toast(_("Automatic Update setting changed."))
         else:
-            self.toast(_("Failed to change Auto Update setting."))
+            self.toast(_("Failed to change Automatic Update setting"))
 
     def __on_update_schedule_changed(self, widget, *args):
         new_state = widget.get_selected()

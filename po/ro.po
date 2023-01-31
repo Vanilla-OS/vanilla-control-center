@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-31 21:44+0530\n"
+"POT-Creation-Date: 2023-01-31 22:32+0530\n"
 "PO-Revision-Date: 2022-12-30 12:57+0000\n"
 "Last-Translator: finnmonstar <finnmonstar@pm.me>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -75,7 +75,7 @@ msgstr "Săptămânal"
 msgid "Monthly"
 msgstr "Lunar"
 
-#: vanilla_control_center/gtk/window.ui:260
+#: vanilla_control_center/gtk/window.ui:258
 msgid "_Help"
 msgstr ""
 
@@ -123,20 +123,21 @@ msgid "Installing new Drivers…"
 msgstr "Instalarea este în progres…"
 
 #: vanilla_control_center/window.py:194
-msgid "SmartUpdate Changed."
+#, fuzzy
+msgid "Smart Update Changed."
 msgstr "Actualizare inteligentă schimbată."
 
 #: vanilla_control_center/window.py:196
-msgid "Failed to change SmartUpdate setting."
+msgid "Failed to change the Smart Update setting."
 msgstr ""
 
 #: vanilla_control_center/window.py:201
 #, fuzzy
-msgid "Auto Update Changed."
+msgid "Automatic Update setting changed."
 msgstr "Actualizare inteligentă schimbată."
 
 #: vanilla_control_center/window.py:203
-msgid "Failed to change Auto Update setting."
+msgid "Failed to change Automatic Update setting"
 msgstr ""
 
 #: vanilla_control_center/window.py:210

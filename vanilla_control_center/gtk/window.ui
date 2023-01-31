@@ -204,7 +204,7 @@
                             </child>
                             <child>
                               <object class="AdwActionRow" id="row_update_auto">
-                                <property name="title" translatable="true">Auto Update</property>
+                                <property name="title" translatable="true">Automatic Updates</property>
                                 <property name="subtitle" translatable="true">The system will automatically update itself in the background.</property>
                                 <property name="activatable-widget">switch_update_auto</property>
                                 <child type="suffix">

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-31 21:44+0530\n"
+"POT-Creation-Date: 2023-01-31 22:32+0530\n"
 "PO-Revision-Date: 2022-12-28 15:27+0000\n"
 "Last-Translator: Mr.Narsus <ridan777563332@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/vanilla-os/"
@@ -75,7 +75,7 @@ msgstr "أسبوعيًّا"
 msgid "Monthly"
 msgstr "شهريًّا"
 
-#: vanilla_control_center/gtk/window.ui:260
+#: vanilla_control_center/gtk/window.ui:258
 msgid "_Help"
 msgstr ""
 
@@ -121,20 +121,21 @@ msgid "Installing new Drivers…"
 msgstr "يُثبَّت…"
 
 #: vanilla_control_center/window.py:194
-msgid "SmartUpdate Changed."
+#, fuzzy
+msgid "Smart Update Changed."
 msgstr "تغيَّر التحديث الذكي."
 
 #: vanilla_control_center/window.py:196
-msgid "Failed to change SmartUpdate setting."
+msgid "Failed to change the Smart Update setting."
 msgstr ""
 
 #: vanilla_control_center/window.py:201
 #, fuzzy
-msgid "Auto Update Changed."
+msgid "Automatic Update setting changed."
 msgstr "تغيَّر التحديث الذكي."
 
 #: vanilla_control_center/window.py:203
-msgid "Failed to change Auto Update setting."
+msgid "Failed to change Automatic Update setting"
 msgstr ""
 
 #: vanilla_control_center/window.py:210
