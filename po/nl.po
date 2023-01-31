@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-17 00:08+0530\n"
+"POT-Creation-Date: 2023-01-31 21:44+0530\n"
 "PO-Revision-Date: 2023-01-25 19:52+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/vanilla-os/"
-"control-center/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/vanilla-os/control-"
+"center/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,8 +29,27 @@ msgid "No description"
 msgstr "Geen beschrijving"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-update-check.ui:6
 msgid "Installation"
 msgstr "Installatie"
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:40
+#, fuzzy
+msgid "Apply Updates"
+msgstr "Updates"
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:63
+#: vanilla_control_center/gtk/dialog-update-check.ui:148
+msgid "Close"
+msgstr ""
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:116
+msgid "Restart Now"
+msgstr ""
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:126
+msgid "Restart Later"
+msgstr ""
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -47,15 +66,15 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Afsluiten"
 
-#: vanilla_control_center/gtk/window.ui:168
+#: vanilla_control_center/gtk/window.ui:186
 msgid "Weekly"
 msgstr "Wekelijks"
 
-#: vanilla_control_center/gtk/window.ui:169
+#: vanilla_control_center/gtk/window.ui:187
 msgid "Monthly"
 msgstr "Maandelijks"
 
-#: vanilla_control_center/gtk/window.ui:229
+#: vanilla_control_center/gtk/window.ui:260
 msgid "_Help"
 msgstr "_Hulp"
 
@@ -67,57 +86,83 @@ msgstr "Opdrachtregel geopend voor container ‘{}’"
 msgid "Container '{}' initialized"
 msgstr "Container ‘{}’ geïnitialiseerd"
 
-#: vanilla_control_center/main.py:70
+#: vanilla_control_center/main.py:69
+msgid "Code by"
+msgstr ""
+
+#: vanilla_control_center/main.py:75
+msgid "Documentation by"
+msgstr ""
+
+#: vanilla_control_center/main.py:82
+#, fuzzy
+msgid "Contributors"
+msgstr "Containers"
+
+#: vanilla_control_center/main.py:90
 msgid "Translators"
 msgstr "Vertalers"
 
-#: vanilla_control_center/window.py:125
+#: vanilla_control_center/window.py:130
 msgid "Installation Failed."
 msgstr "Installatie mislukt."
 
-#: vanilla_control_center/window.py:128
+#: vanilla_control_center/window.py:133
 msgid "New Drivers Installed."
 msgstr "Nieuwe stuurprogramma's geïnstalleerd."
 
-#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
+#: vanilla_control_center/window.py:140 vanilla_control_center/window.py:273
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr ""
 "Er wordt al een andere handeling uitgevoerd, of het systeem moet opnieuw "
 "worden opgestart."
 
-#: vanilla_control_center/window.py:145
+#: vanilla_control_center/window.py:150
 msgid "Installing new Drivers…"
 msgstr "Nieuwe drivers installeren…"
 
-#: vanilla_control_center/window.py:169
+#: vanilla_control_center/window.py:194
 msgid "SmartUpdate Changed."
 msgstr "Slimme updates aangepast."
 
-#: vanilla_control_center/window.py:177
+#: vanilla_control_center/window.py:196
+msgid "Failed to change SmartUpdate setting."
+msgstr ""
+
+#: vanilla_control_center/window.py:201
+#, fuzzy
+msgid "Auto Update Changed."
+msgstr "Slimme updates aangepast."
+
+#: vanilla_control_center/window.py:203
+msgid "Failed to change Auto Update setting."
+msgstr ""
+
+#: vanilla_control_center/window.py:210
 msgid "Update Schedule Changed."
 msgstr "Update-rooster aangepast."
 
-#: vanilla_control_center/window.py:205
+#: vanilla_control_center/window.py:238
 msgid "{} Exited With Error."
 msgstr "{} is gesloten met fouten."
 
-#: vanilla_control_center/window.py:208
+#: vanilla_control_center/window.py:241
 msgid "{} Exited."
 msgstr "{} is gesloten."
 
-#: vanilla_control_center/window.py:211
+#: vanilla_control_center/window.py:244
 msgid "{} Launched."
 msgstr "{} is gestart."
 
-#: vanilla_control_center/window.py:256
+#: vanilla_control_center/window.py:289
 msgid "Prime Profile Changed."
 msgstr "PRIME-profiel aangepast."
 
-#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+#: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
 msgid "Prime Profile Change Failed."
 msgstr "PRIME-profiel aanpassen mislukt."
 
-#: vanilla_control_center/window.py:266
+#: vanilla_control_center/window.py:299
 msgid "Switching PRIME Profile…"
 msgstr "PRIME-profiel aanpassen…"
 
@@ -142,9 +187,6 @@ msgstr "PRIME-profiel aanpassen…"
 
 #~ msgid "There are no extra drivers available for your system."
 #~ msgstr "Er zijn geen extra stuurprogramma's beschikbaar voor uw systeem."
-
-#~ msgid "Updates"
-#~ msgstr "Updates"
 
 #~ msgid "Preferences"
 #~ msgstr "Voorkeuren"
@@ -173,9 +215,6 @@ msgstr "PRIME-profiel aanpassen…"
 
 #~ msgid "Sub System"
 #~ msgstr "Subsysteem"
-
-#~ msgid "Containers"
-#~ msgstr "Containers"
 
 #~ msgid "Installed Applications"
 #~ msgstr "Geïnstalleerde apps"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-17 00:08+0530\n"
+"POT-Creation-Date: 2023-01-31 21:44+0530\n"
 "PO-Revision-Date: 2023-01-27 22:47+0000\n"
 "Last-Translator: Diego Lima Novaes <diegolimanovaess@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -29,8 +29,27 @@ msgid "No description"
 msgstr "Sem descrição"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-update-check.ui:6
 msgid "Installation"
 msgstr "Instalação"
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:40
+#, fuzzy
+msgid "Apply Updates"
+msgstr "Atualizações"
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:63
+#: vanilla_control_center/gtk/dialog-update-check.ui:148
+msgid "Close"
+msgstr ""
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:116
+msgid "Restart Now"
+msgstr ""
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:126
+msgid "Restart Later"
+msgstr ""
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -47,15 +66,15 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Sair"
 
-#: vanilla_control_center/gtk/window.ui:168
+#: vanilla_control_center/gtk/window.ui:186
 msgid "Weekly"
 msgstr "Semanalmente"
 
-#: vanilla_control_center/gtk/window.ui:169
+#: vanilla_control_center/gtk/window.ui:187
 msgid "Monthly"
 msgstr "Mensalmente"
 
-#: vanilla_control_center/gtk/window.ui:229
+#: vanilla_control_center/gtk/window.ui:260
 msgid "_Help"
 msgstr "_Ajuda"
 
@@ -67,56 +86,82 @@ msgstr "Shell aberto para o container '{}'"
 msgid "Container '{}' initialized"
 msgstr "Container '{}' iniciado"
 
-#: vanilla_control_center/main.py:70
+#: vanilla_control_center/main.py:69
+msgid "Code by"
+msgstr ""
+
+#: vanilla_control_center/main.py:75
+msgid "Documentation by"
+msgstr ""
+
+#: vanilla_control_center/main.py:82
+#, fuzzy
+msgid "Contributors"
+msgstr "Nenhuma Aplicação em Contêineres"
+
+#: vanilla_control_center/main.py:90
 msgid "Translators"
 msgstr "Tradutores"
 
-#: vanilla_control_center/window.py:125
+#: vanilla_control_center/window.py:130
 msgid "Installation Failed."
 msgstr "Falha na instalação."
 
-#: vanilla_control_center/window.py:128
+#: vanilla_control_center/window.py:133
 msgid "New Drivers Installed."
 msgstr "Novos Drivers Instalados."
 
-#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
+#: vanilla_control_center/window.py:140 vanilla_control_center/window.py:273
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr ""
 "Outra transação está em execução ou o sistema necessita ser reiniciado."
 
-#: vanilla_control_center/window.py:145
+#: vanilla_control_center/window.py:150
 msgid "Installing new Drivers…"
 msgstr "Instalando novos Drivers…"
 
-#: vanilla_control_center/window.py:169
+#: vanilla_control_center/window.py:194
 msgid "SmartUpdate Changed."
 msgstr "SmartUpdate Alterado."
 
-#: vanilla_control_center/window.py:177
+#: vanilla_control_center/window.py:196
+msgid "Failed to change SmartUpdate setting."
+msgstr ""
+
+#: vanilla_control_center/window.py:201
+#, fuzzy
+msgid "Auto Update Changed."
+msgstr "SmartUpdate Alterado."
+
+#: vanilla_control_center/window.py:203
+msgid "Failed to change Auto Update setting."
+msgstr ""
+
+#: vanilla_control_center/window.py:210
 msgid "Update Schedule Changed."
 msgstr "Agendamento de Atualização Alterado."
 
-#: vanilla_control_center/window.py:205
+#: vanilla_control_center/window.py:238
 msgid "{} Exited With Error."
 msgstr "{} Foi Encerrado Com Erro."
 
-#: vanilla_control_center/window.py:208
+#: vanilla_control_center/window.py:241
 msgid "{} Exited."
 msgstr "{} Foi Encerrado."
 
-#: vanilla_control_center/window.py:211
+#: vanilla_control_center/window.py:244
 msgid "{} Launched."
 msgstr "{} Iniciado."
 
-#: vanilla_control_center/window.py:256
+#: vanilla_control_center/window.py:289
 msgid "Prime Profile Changed."
 msgstr "Perfil Principal Alterado."
 
-#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+#: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
 msgid "Prime Profile Change Failed."
 msgstr "Falha na Alteração do Perfil Avançado."
 
-#: vanilla_control_center/window.py:266
+#: vanilla_control_center/window.py:299
 msgid "Switching PRIME Profile…"
 msgstr "Mudança no Perfil Avançado…"
 
@@ -142,9 +187,6 @@ msgstr "Mudança no Perfil Avançado…"
 
 #~ msgid "There are no extra drivers available for your system."
 #~ msgstr "Não existem drivers adicionais para o seu sistema."
-
-#~ msgid "Updates"
-#~ msgstr "Atualizações"
 
 #~ msgid "Preferences"
 #~ msgstr "Preferências"
@@ -174,10 +216,6 @@ msgstr "Mudança no Perfil Avançado…"
 
 #~ msgid "Sub System"
 #~ msgstr "Subsistema"
-
-#, fuzzy
-#~ msgid "Containers"
-#~ msgstr "Nenhuma Aplicação em Contêineres"
 
 #~ msgid "Installed Applications"
 #~ msgstr "Aplicações Instaladas"

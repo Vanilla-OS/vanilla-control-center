@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-17 00:08+0530\n"
+"POT-Creation-Date: 2023-01-31 21:44+0530\n"
 "PO-Revision-Date: 2023-01-20 19:20+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -29,8 +29,27 @@ msgid "No description"
 msgstr "没有说明"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-update-check.ui:6
 msgid "Installation"
 msgstr "安装"
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:40
+#, fuzzy
+msgid "Apply Updates"
+msgstr "更新"
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:63
+#: vanilla_control_center/gtk/dialog-update-check.ui:148
+msgid "Close"
+msgstr ""
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:116
+msgid "Restart Now"
+msgstr ""
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:126
+msgid "Restart Later"
+msgstr ""
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -47,15 +66,15 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "退出"
 
-#: vanilla_control_center/gtk/window.ui:168
+#: vanilla_control_center/gtk/window.ui:186
 msgid "Weekly"
 msgstr "每周"
 
-#: vanilla_control_center/gtk/window.ui:169
+#: vanilla_control_center/gtk/window.ui:187
 msgid "Monthly"
 msgstr "每个月"
 
-#: vanilla_control_center/gtk/window.ui:229
+#: vanilla_control_center/gtk/window.ui:260
 msgid "_Help"
 msgstr "帮助 (_H)"
 
@@ -67,55 +86,81 @@ msgstr "已为容器 '{}' 打开 shell"
 msgid "Container '{}' initialized"
 msgstr "已初始化容器 '{}'"
 
-#: vanilla_control_center/main.py:70
+#: vanilla_control_center/main.py:69
+msgid "Code by"
+msgstr ""
+
+#: vanilla_control_center/main.py:75
+msgid "Documentation by"
+msgstr ""
+
+#: vanilla_control_center/main.py:82
+#, fuzzy
+msgid "Contributors"
+msgstr "容器"
+
+#: vanilla_control_center/main.py:90
 msgid "Translators"
 msgstr "翻译者"
 
-#: vanilla_control_center/window.py:125
+#: vanilla_control_center/window.py:130
 msgid "Installation Failed."
 msgstr "安装失败。"
 
-#: vanilla_control_center/window.py:128
+#: vanilla_control_center/window.py:133
 msgid "New Drivers Installed."
 msgstr "已安装新驱动。"
 
-#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
+#: vanilla_control_center/window.py:140 vanilla_control_center/window.py:273
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr "有其他事务正在运行，或者系统需要重新启动。"
 
-#: vanilla_control_center/window.py:145
+#: vanilla_control_center/window.py:150
 msgid "Installing new Drivers…"
 msgstr "正在安装新的驱动程序…"
 
-#: vanilla_control_center/window.py:169
+#: vanilla_control_center/window.py:194
 msgid "SmartUpdate Changed."
 msgstr "已更改智能更新（SmartUpdate）。"
 
-#: vanilla_control_center/window.py:177
+#: vanilla_control_center/window.py:196
+msgid "Failed to change SmartUpdate setting."
+msgstr ""
+
+#: vanilla_control_center/window.py:201
+#, fuzzy
+msgid "Auto Update Changed."
+msgstr "已更改智能更新（SmartUpdate）。"
+
+#: vanilla_control_center/window.py:203
+msgid "Failed to change Auto Update setting."
+msgstr ""
+
+#: vanilla_control_center/window.py:210
 msgid "Update Schedule Changed."
 msgstr "已更改更新频率。"
 
-#: vanilla_control_center/window.py:205
+#: vanilla_control_center/window.py:238
 msgid "{} Exited With Error."
 msgstr "{} 报错退出。"
 
-#: vanilla_control_center/window.py:208
+#: vanilla_control_center/window.py:241
 msgid "{} Exited."
 msgstr "{} 已退出。"
 
-#: vanilla_control_center/window.py:211
+#: vanilla_control_center/window.py:244
 msgid "{} Launched."
 msgstr "{} 已启动。"
 
-#: vanilla_control_center/window.py:256
+#: vanilla_control_center/window.py:289
 msgid "Prime Profile Changed."
 msgstr "已更改 PRIME 配置文件。"
 
-#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+#: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
 msgid "Prime Profile Change Failed."
 msgstr "更改 PRIME 配置文件失败。"
 
-#: vanilla_control_center/window.py:266
+#: vanilla_control_center/window.py:299
 msgid "Switching PRIME Profile…"
 msgstr "正在切换 PRIME 配置文件…"
 
@@ -139,9 +184,6 @@ msgstr "正在切换 PRIME 配置文件…"
 
 #~ msgid "There are no extra drivers available for your system."
 #~ msgstr "您的设备没有可用的额外驱动。"
-
-#~ msgid "Updates"
-#~ msgstr "更新"
 
 #~ msgid "Preferences"
 #~ msgstr "首选项"
@@ -168,9 +210,6 @@ msgstr "正在切换 PRIME 配置文件…"
 
 #~ msgid "Sub System"
 #~ msgstr "子系统"
-
-#~ msgid "Containers"
-#~ msgstr "容器"
 
 #~ msgid "Installed Applications"
 #~ msgstr "已安装的应用"

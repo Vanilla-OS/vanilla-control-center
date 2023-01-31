@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-17 00:08+0530\n"
+"POT-Creation-Date: 2023-01-31 21:44+0530\n"
 "PO-Revision-Date: 2023-01-22 16:29+0000\n"
 "Last-Translator: Andrey Sobolev <andrey.g.sobolev@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -22,7 +22,6 @@ msgstr ""
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
-#: src/gtk/window.ui:8 src/gtk/window.ui:17 src/main.py:58
 msgid "Vanilla OS Control Center"
 msgstr "Центр управления Vanilla OS"
 
@@ -31,34 +30,52 @@ msgid "No description"
 msgstr "Нет описания"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#: src/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-update-check.ui:6
 msgid "Installation"
 msgstr "Установка"
 
-#: vanilla_control_center/gtk/help-overlay.ui:11 src/gtk/help-overlay.ui:11
+#: vanilla_control_center/gtk/dialog-update-check.ui:40
+#, fuzzy
+msgid "Apply Updates"
+msgstr "Обновления"
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:63
+#: vanilla_control_center/gtk/dialog-update-check.ui:148
+msgid "Close"
+msgstr ""
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:116
+msgid "Restart Now"
+msgstr ""
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:126
+msgid "Restart Later"
+msgstr ""
+
+#: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Общие"
 
-#: vanilla_control_center/gtk/help-overlay.ui:14 src/gtk/help-overlay.ui:14
+#: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Показать сочетания клавиш"
 
-#: vanilla_control_center/gtk/help-overlay.ui:20 src/gtk/help-overlay.ui:20
+#: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Выйти"
 
-#: vanilla_control_center/gtk/window.ui:168 src/gtk/window.ui:100
+#: vanilla_control_center/gtk/window.ui:186
 msgid "Weekly"
 msgstr "Еженедельно"
 
-#: vanilla_control_center/gtk/window.ui:169 src/gtk/window.ui:101
+#: vanilla_control_center/gtk/window.ui:187
 msgid "Monthly"
 msgstr "Ежемесячно"
 
-#: vanilla_control_center/gtk/window.ui:229
+#: vanilla_control_center/gtk/window.ui:260
 msgid "_Help"
 msgstr "_Справка"
 
@@ -70,144 +87,143 @@ msgstr "Оболочка открыта для контейнера '{}'"
 msgid "Container '{}' initialized"
 msgstr "Контейнер '{}' инициализирован"
 
-#: vanilla_control_center/main.py:70 src/main.py:67
+#: vanilla_control_center/main.py:69
+msgid "Code by"
+msgstr ""
+
+#: vanilla_control_center/main.py:75
+msgid "Documentation by"
+msgstr ""
+
+#: vanilla_control_center/main.py:82
+#, fuzzy
+msgid "Contributors"
+msgstr "Контейнеры"
+
+#: vanilla_control_center/main.py:90
 msgid "Translators"
 msgstr "Переводчики"
 
-#: vanilla_control_center/window.py:125 src/window.py:115
+#: vanilla_control_center/window.py:130
 msgid "Installation Failed."
 msgstr "При установке произошла ошибка."
 
-#: vanilla_control_center/window.py:128 src/window.py:118
+#: vanilla_control_center/window.py:133
 msgid "New Drivers Installed."
 msgstr "Новые драйверы установлены."
 
-#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
-#: src/window.py:125
+#: vanilla_control_center/window.py:140 vanilla_control_center/window.py:273
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr "Выполняется другая операция или системе необходима перезагрузка."
 
-#: vanilla_control_center/window.py:145
+#: vanilla_control_center/window.py:150
 msgid "Installing new Drivers…"
 msgstr "Установка новых драйверов…"
 
-#: vanilla_control_center/window.py:169 src/window.py:160
+#: vanilla_control_center/window.py:194
 msgid "SmartUpdate Changed."
 msgstr "Умное обновление изменено."
 
-#: vanilla_control_center/window.py:177 src/window.py:168
+#: vanilla_control_center/window.py:196
+msgid "Failed to change SmartUpdate setting."
+msgstr ""
+
+#: vanilla_control_center/window.py:201
+#, fuzzy
+msgid "Auto Update Changed."
+msgstr "Умное обновление изменено."
+
+#: vanilla_control_center/window.py:203
+msgid "Failed to change Auto Update setting."
+msgstr ""
+
+#: vanilla_control_center/window.py:210
 msgid "Update Schedule Changed."
 msgstr "Расписание обновлений изменено."
 
-#: vanilla_control_center/window.py:205 src/window.py:196
+#: vanilla_control_center/window.py:238
 msgid "{} Exited With Error."
 msgstr "{} Завершено с ошибкой."
 
-#: vanilla_control_center/window.py:208 src/window.py:199
+#: vanilla_control_center/window.py:241
 msgid "{} Exited."
 msgstr "{} Завершено."
 
-#: vanilla_control_center/window.py:211 src/window.py:202
+#: vanilla_control_center/window.py:244
 msgid "{} Launched."
 msgstr "{} Запущено."
 
-#: vanilla_control_center/window.py:256
+#: vanilla_control_center/window.py:289
 msgid "Prime Profile Changed."
 msgstr "Профиль Prime изменен."
 
-#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+#: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
 msgid "Prime Profile Change Failed."
 msgstr "Изменение профиля Prime не удалось."
 
-#: vanilla_control_center/window.py:266
+#: vanilla_control_center/window.py:299
 msgid "Switching PRIME Profile…"
 msgstr "Переключение профиля PRIME…"
 
-#: src/gtk/dialog-installation.ui:22
-msgid "This may take a while, based on your internet connection speed."
-msgstr ""
-"Это может занять некоторое время, в зависимости от скорости вашего интернет-"
-"соединения."
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr ""
+#~ "Это может занять некоторое время, в зависимости от скорости вашего "
+#~ "интернет-соединения."
 
-#: src/gtk/window.ui:28
-msgid "Apply Changes"
-msgstr "Применить изменения"
+#~ msgid "Apply Changes"
+#~ msgstr "Применить изменения"
 
-#: src/gtk/window.ui:45
-msgid "Drivers"
-msgstr "Драйверы"
+#~ msgid "Drivers"
+#~ msgstr "Драйверы"
 
-#: src/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "Загрузка драйверов…"
+#~ msgid "Loading drivers…"
+#~ msgstr "Загрузка драйверов…"
 
-#: src/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr "Пожалуйста подождите, пока загружаются доступные драйверы."
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Пожалуйста подождите, пока загружаются доступные драйверы."
 
-#: src/gtk/window.ui:64
-msgid "No Drivers Available"
-msgstr "Установлены последние версии драйверов"
+#~ msgid "No Drivers Available"
+#~ msgstr "Установлены последние версии драйверов"
 
-#: src/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr "Нет необходимости в дополнительных драйверах для вашей системы."
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Нет необходимости в дополнительных драйверах для вашей системы."
 
-#: src/gtk/window.ui:80
-msgid "Updates"
-msgstr "Обновления"
+#~ msgid "Preferences"
+#~ msgstr "Настройки"
 
-#: src/gtk/window.ui:86
-msgid "Preferences"
-msgstr "Настройки"
+#~ msgid "Latest Update Check"
+#~ msgstr "Последняя проверка обновлений"
 
-#: src/gtk/window.ui:89
-msgid "Latest Update Check"
-msgstr "Последняя проверка обновлений"
+#~ msgid "Never"
+#~ msgstr "Никогда"
 
-#: src/gtk/window.ui:90
-msgid "Never"
-msgstr "Никогда"
+#~ msgid "Updates Scheduling"
+#~ msgstr "Расписание обновлений"
 
-#: src/gtk/window.ui:95
-msgid "Updates Scheduling"
-msgstr "Расписание обновлений"
+#~ msgid "Choose how often the system should check for updates."
+#~ msgstr "Выберите, как часто система должна проверять наличие обновлений."
 
-#: src/gtk/window.ui:96
-msgid "Choose how often the system should check for updates."
-msgstr "Выберите, как часто система должна проверять наличие обновлений."
+#~ msgid "SmartUpdate"
+#~ msgstr "Умные обновления"
 
-#: src/gtk/window.ui:109
-msgid "SmartUpdate"
-msgstr "Умные обновления"
+#~ msgid ""
+#~ "If enabled, the system will not update if the system is in high load or "
+#~ "the battery is low."
+#~ msgstr ""
+#~ "Если этот параметр включен, система не будет обновляться при высокой "
+#~ "нагрузке или низком заряде батареи."
 
-#: src/gtk/window.ui:110
-msgid ""
-"If enabled, the system will not update if the system is in high load or the "
-"battery is low."
-msgstr ""
-"Если этот параметр включен, система не будет обновляться при высокой "
-"нагрузке или низком заряде батареи."
+#~ msgid "Sub System"
+#~ msgstr "Подсистема"
 
-#: src/gtk/window.ui:127
-msgid "Sub System"
-msgstr "Подсистема"
+#~ msgid "Installed Applications"
+#~ msgstr "Установленные приложения"
 
-#: src/gtk/window.ui:137
-msgid "Containers"
-msgstr "Контейнеры"
+#~ msgid "_About Control-center"
+#~ msgstr "_О центре управления"
 
-#: src/gtk/window.ui:142
-msgid "Installed Applications"
-msgstr "Установленные приложения"
-
-#: src/gtk/window.ui:161
-msgid "_About Control-center"
-msgstr "_О центре управления"
-
-#: src/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr "Выполняется установка…"
+#~ msgid "Installation in Progress…"
+#~ msgstr "Выполняется установка…"
 
 #~ msgid "There are no containerized apps installed on your system."
 #~ msgstr "В вашей системе не установлены контейнерные приложения."

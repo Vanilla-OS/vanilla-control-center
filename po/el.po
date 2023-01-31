@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-17 00:08+0530\n"
+"POT-Creation-Date: 2023-01-31 21:44+0530\n"
 "PO-Revision-Date: 2022-12-16 13:48+0000\n"
 "Last-Translator: stathious <stathious@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/vanilla-os/control-"
@@ -29,8 +29,27 @@ msgid "No description"
 msgstr "Καμία περιγραφή"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-update-check.ui:6
 msgid "Installation"
 msgstr "Εγκατάσταση"
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:40
+#, fuzzy
+msgid "Apply Updates"
+msgstr "Εφαρμογή αλλαγών"
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:63
+#: vanilla_control_center/gtk/dialog-update-check.ui:148
+msgid "Close"
+msgstr ""
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:116
+msgid "Restart Now"
+msgstr ""
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:126
+msgid "Restart Later"
+msgstr ""
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -47,15 +66,15 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Έξοδος"
 
-#: vanilla_control_center/gtk/window.ui:168
+#: vanilla_control_center/gtk/window.ui:186
 msgid "Weekly"
 msgstr ""
 
-#: vanilla_control_center/gtk/window.ui:169
+#: vanilla_control_center/gtk/window.ui:187
 msgid "Monthly"
 msgstr ""
 
-#: vanilla_control_center/gtk/window.ui:229
+#: vanilla_control_center/gtk/window.ui:260
 msgid "_Help"
 msgstr ""
 
@@ -67,56 +86,80 @@ msgstr ""
 msgid "Container '{}' initialized"
 msgstr ""
 
-#: vanilla_control_center/main.py:70
+#: vanilla_control_center/main.py:69
+msgid "Code by"
+msgstr ""
+
+#: vanilla_control_center/main.py:75
+msgid "Documentation by"
+msgstr ""
+
+#: vanilla_control_center/main.py:82
+msgid "Contributors"
+msgstr ""
+
+#: vanilla_control_center/main.py:90
 msgid "Translators"
 msgstr "Μεταφραστές"
 
-#: vanilla_control_center/window.py:125
+#: vanilla_control_center/window.py:130
 msgid "Installation Failed."
 msgstr "Η εγκατάσταση απέτυχε."
 
-#: vanilla_control_center/window.py:128
+#: vanilla_control_center/window.py:133
 msgid "New Drivers Installed."
 msgstr "Εγκαταστάθηκαν νέα προγράμματα οδήγησης."
 
-#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
+#: vanilla_control_center/window.py:140 vanilla_control_center/window.py:273
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr ""
 
-#: vanilla_control_center/window.py:145
+#: vanilla_control_center/window.py:150
 #, fuzzy
 msgid "Installing new Drivers…"
 msgstr "Εγκατάσταση σε εξέλιξη…"
 
-#: vanilla_control_center/window.py:169
+#: vanilla_control_center/window.py:194
 msgid "SmartUpdate Changed."
 msgstr ""
 
-#: vanilla_control_center/window.py:177
+#: vanilla_control_center/window.py:196
+msgid "Failed to change SmartUpdate setting."
+msgstr ""
+
+#: vanilla_control_center/window.py:201
+msgid "Auto Update Changed."
+msgstr ""
+
+#: vanilla_control_center/window.py:203
+msgid "Failed to change Auto Update setting."
+msgstr ""
+
+#: vanilla_control_center/window.py:210
 msgid "Update Schedule Changed."
 msgstr ""
 
-#: vanilla_control_center/window.py:205
+#: vanilla_control_center/window.py:238
 msgid "{} Exited With Error."
 msgstr "{} έκλεισε με σφάλμα."
 
-#: vanilla_control_center/window.py:208
+#: vanilla_control_center/window.py:241
 msgid "{} Exited."
 msgstr "{} έκλεισε."
 
-#: vanilla_control_center/window.py:211
+#: vanilla_control_center/window.py:244
 msgid "{} Launched."
 msgstr "{} εκτελέστηκε."
 
-#: vanilla_control_center/window.py:256
+#: vanilla_control_center/window.py:289
 msgid "Prime Profile Changed."
 msgstr ""
 
-#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+#: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
 msgid "Prime Profile Change Failed."
 msgstr ""
 
-#: vanilla_control_center/window.py:266
+#: vanilla_control_center/window.py:299
 msgid "Switching PRIME Profile…"
 msgstr ""
 
@@ -124,9 +167,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Αυτό μπορεί να διαρκέσει λίγο, με βάση την ταχύτητα σύνδεσής σας στο "
 #~ "Διαδίκτυο."
-
-#~ msgid "Apply Changes"
-#~ msgstr "Εφαρμογή αλλαγών"
 
 #~ msgid "Drivers"
 #~ msgstr "Οδηγοί"
