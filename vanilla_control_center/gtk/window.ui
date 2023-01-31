@@ -192,8 +192,9 @@
                             </child>
                             <child>
                               <object class="AdwActionRow" id="row_update_smart">
-                                <property name="title" translatable="true">SmartUpdate</property>
-                                <property name="subtitle" translatable="true">If enabled, the system will not update if the system is in high load or the battery is low.</property>
+                                <property name="title" translatable="true">Smart Updates</property>
+                                <property name="subtitle" translatable="true">The system will not update if it is in heavy use or low battery.</property>
+                                <property name="activatable-widget">switch_update_smart</property>"
                                 <child type="suffix">
                                   <object class="GtkSwitch" id="switch_update_smart">
                                     <property name="valign">center</property>
@@ -204,7 +205,8 @@
                             <child>
                               <object class="AdwActionRow" id="row_update_auto">
                                 <property name="title" translatable="true">Auto Update</property>
-                                <property name="subtitle" translatable="true">If enabled, the system will automatically update itself in the background.</property>
+                                <property name="subtitle" translatable="true">The system will automatically update itself in the background.</property>
+                                <property name="activatable-widget">switch_update_auto</property>
                                 <child type="suffix">
                                   <object class="GtkSwitch" id="switch_update_auto">
                                     <property name="valign">center</property>
@@ -259,7 +261,7 @@
         <attribute name="action">app.help</attribute>
       </item>
       <item>
-        <attribute name="label" translatable="true">_About Control-center</attribute>
+        <attribute name="label" translatable="true">_About Control Center</attribute>
         <attribute name="action">app.about</attribute>
       </item>
     </section>
