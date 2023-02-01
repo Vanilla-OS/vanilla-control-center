@@ -37,7 +37,7 @@
 <list>
         <item><p>Open the <app>Vanilla OS Control Center</app>.</p></item>
         <item><p>Click on the <gui>Updates</gui> section.</p></item>
-        <item><p>Toggle off <gui>Auto Update</gui>.</p></item>
+        <item><p>Toggle off <gui>Automatic Updates</gui>.</p></item>
 </list>
 
         <figure>
