@@ -60,17 +60,30 @@ class VanillaControlCenterApplication(Adw.Application):
                                 application_name=_('Vanilla OS Control Center'),
                                 application_icon='org.vanillaos.ControlCenter',
                                 developer_name='Mirko Brombin',
-                                version='1.6.1',
-                                developers=['Mirko Brombin'],
-                                copyright='© 2023 Mirko Brombin',
+                                version='1.7.1',
+                                copyright='Copyright © 2023 Mirko Brombin and Contributors',
                                 website='https://vanillaos.org/',
                                 issue_url=('https://github.com/Vanilla-OS/vanilla-control-center/issues'),
                                 license_type=('gpl-3-0-only'))
+        about.add_credit_section(
+            _("Code by"),
+            [
+                "Mirko Brombin https://mirko.pm"
+            ]
+        )
         about.add_credit_section(
             _("Documentation by"),
             [
                 "K.B.Dharun Krishna <kbdharunkrishna@gmail.com>",
                 "Bart Gravendeel <monstertux@proton.me>",
+            ]
+        )
+        about.add_credit_section(
+            _("Contributors"),
+            [
+                "kramo https://github.com/kra-mo",
+                "Muqtadir https://github.com/Muqtxdir",
+                "Hari Rana (TheEvilSkeleton) https://theevilskeleton.gitlab.io",
             ]
         )
         about.add_credit_section(
@@ -156,7 +169,13 @@ class VanillaControlCenterApplication(Adw.Application):
                 "allubie https://github.com/allubie",
                 "David Lapshin https://github.com/daudix-UFO",
                 "Akros <akrostv2@gmail.com>",
-                "Jasenko https://github.com/jsnko"
+                "Jasenko https://github.com/jsnko",
+                "Pistak22 https://github.com/Pistak22",
+                "Andrey Sobolev <andrey.g.sobolev@gmail.com>",
+                "BaerLKR https://github.com/BaerLKR",
+                "Tiefseetauchner https://github.com/Tiefseetauchner",
+                "azuki https://github.com/azu0609",
+                "Diego Novaes https://github.com/dlnovaes"
             ]
         )
         about.present()

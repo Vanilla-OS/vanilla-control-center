@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-17 00:08+0530\n"
+"POT-Creation-Date: 2023-01-31 22:32+0530\n"
 "PO-Revision-Date: 2023-01-27 22:47+0000\n"
 "Last-Translator: azuki <ipadgoogcloud@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/vanilla-os/"
@@ -29,8 +29,26 @@ msgid "No description"
 msgstr "説明なし"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-update-check.ui:6
 msgid "Installation"
 msgstr "インストール"
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:40
+msgid "Apply Updates"
+msgstr ""
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:63
+#: vanilla_control_center/gtk/dialog-update-check.ui:148
+msgid "Close"
+msgstr ""
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:116
+msgid "Restart Now"
+msgstr ""
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:126
+msgid "Restart Later"
+msgstr ""
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -47,15 +65,15 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "終了"
 
-#: vanilla_control_center/gtk/window.ui:168
+#: vanilla_control_center/gtk/window.ui:186
 msgid "Weekly"
 msgstr "毎週"
 
-#: vanilla_control_center/gtk/window.ui:169
+#: vanilla_control_center/gtk/window.ui:187
 msgid "Monthly"
 msgstr "毎月"
 
-#: vanilla_control_center/gtk/window.ui:229
+#: vanilla_control_center/gtk/window.ui:258
 msgid "_Help"
 msgstr "_ヘルプ"
 
@@ -67,54 +85,81 @@ msgstr "コンテナー '{}' のシェルを起動しました"
 msgid "Container '{}' initialized"
 msgstr "コンテナー '{}' を起動しました"
 
-#: vanilla_control_center/main.py:70
+#: vanilla_control_center/main.py:69
+msgid "Code by"
+msgstr ""
+
+#: vanilla_control_center/main.py:75
+msgid "Documentation by"
+msgstr ""
+
+#: vanilla_control_center/main.py:82
+msgid "Contributors"
+msgstr ""
+
+#: vanilla_control_center/main.py:90
 msgid "Translators"
 msgstr "翻訳者"
 
-#: vanilla_control_center/window.py:125
+#: vanilla_control_center/window.py:130
 msgid "Installation Failed."
 msgstr "インストールに失敗しました。"
 
-#: vanilla_control_center/window.py:128
+#: vanilla_control_center/window.py:133
 msgid "New Drivers Installed."
 msgstr "新しいドライバーがインストールされました。"
 
-#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
+#: vanilla_control_center/window.py:140 vanilla_control_center/window.py:273
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr "他のトランザクションが実行中もしくはシステムが再起動を必要としています。"
+msgstr ""
+"他のトランザクションが実行中もしくはシステムが再起動を必要としています。"
 
-#: vanilla_control_center/window.py:145
+#: vanilla_control_center/window.py:150
 msgid "Installing new Drivers…"
 msgstr "新しいドライバーをインストールしています…"
 
-#: vanilla_control_center/window.py:169
-msgid "SmartUpdate Changed."
+#: vanilla_control_center/window.py:194
+#, fuzzy
+msgid "Smart Update Changed."
 msgstr "スマートアップデートが変更されました。"
 
-#: vanilla_control_center/window.py:177
+#: vanilla_control_center/window.py:196
+msgid "Failed to change the Smart Update setting."
+msgstr ""
+
+#: vanilla_control_center/window.py:201
+#, fuzzy
+msgid "Automatic Update setting changed."
+msgstr "スマートアップデートが変更されました。"
+
+#: vanilla_control_center/window.py:203
+msgid "Failed to change Automatic Update setting"
+msgstr ""
+
+#: vanilla_control_center/window.py:210
 msgid "Update Schedule Changed."
 msgstr "アップデートスケジュールが変更されました。"
 
-#: vanilla_control_center/window.py:205
+#: vanilla_control_center/window.py:238
 msgid "{} Exited With Error."
 msgstr "{} がエラーで終了しました。"
 
-#: vanilla_control_center/window.py:208
+#: vanilla_control_center/window.py:241
 msgid "{} Exited."
 msgstr "{} を終了しました。"
 
-#: vanilla_control_center/window.py:211
+#: vanilla_control_center/window.py:244
 msgid "{} Launched."
 msgstr "{} を起動しました。"
 
-#: vanilla_control_center/window.py:256
+#: vanilla_control_center/window.py:289
 msgid "Prime Profile Changed."
 msgstr "Prime プロファイルが変更されました。"
 
-#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+#: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
 msgid "Prime Profile Change Failed."
 msgstr "Prime プロファイルの変更に失敗しました。"
 
-#: vanilla_control_center/window.py:266
+#: vanilla_control_center/window.py:299
 msgid "Switching PRIME Profile…"
 msgstr "PRIME プロファイルを切り替えています…"

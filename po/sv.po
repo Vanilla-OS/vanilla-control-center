@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-17 00:08+0530\n"
+"POT-Creation-Date: 2023-01-31 22:32+0530\n"
 "PO-Revision-Date: 2023-01-16 00:56+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/vanilla-os/"
@@ -21,7 +21,6 @@ msgstr ""
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
-#: src/gtk/window.ui:8 src/gtk/window.ui:17 src/main.py:58
 msgid "Vanilla OS Control Center"
 msgstr "Vanilla OS Kontrollcenter"
 
@@ -30,34 +29,52 @@ msgid "No description"
 msgstr "Ingen beskrivning"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#: src/gtk/dialog-installation.ui:6
+#: vanilla_control_center/gtk/dialog-update-check.ui:6
 msgid "Installation"
 msgstr "Installation"
 
-#: vanilla_control_center/gtk/help-overlay.ui:11 src/gtk/help-overlay.ui:11
+#: vanilla_control_center/gtk/dialog-update-check.ui:40
+#, fuzzy
+msgid "Apply Updates"
+msgstr "Uppdateringar"
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:63
+#: vanilla_control_center/gtk/dialog-update-check.ui:148
+msgid "Close"
+msgstr ""
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:116
+msgid "Restart Now"
+msgstr ""
+
+#: vanilla_control_center/gtk/dialog-update-check.ui:126
+msgid "Restart Later"
+msgstr ""
+
+#: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Allmänt"
 
-#: vanilla_control_center/gtk/help-overlay.ui:14 src/gtk/help-overlay.ui:14
+#: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Visa genvägar"
 
-#: vanilla_control_center/gtk/help-overlay.ui:20 src/gtk/help-overlay.ui:20
+#: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Avsluta"
 
-#: vanilla_control_center/gtk/window.ui:168 src/gtk/window.ui:100
+#: vanilla_control_center/gtk/window.ui:186
 msgid "Weekly"
 msgstr "Veckovis"
 
-#: vanilla_control_center/gtk/window.ui:169 src/gtk/window.ui:101
+#: vanilla_control_center/gtk/window.ui:187
 msgid "Monthly"
 msgstr "Månadsvis"
 
-#: vanilla_control_center/gtk/window.ui:229
+#: vanilla_control_center/gtk/window.ui:258
 msgid "_Help"
 msgstr ""
 
@@ -69,143 +86,143 @@ msgstr ""
 msgid "Container '{}' initialized"
 msgstr ""
 
-#: vanilla_control_center/main.py:70 src/main.py:67
+#: vanilla_control_center/main.py:69
+msgid "Code by"
+msgstr ""
+
+#: vanilla_control_center/main.py:75
+msgid "Documentation by"
+msgstr ""
+
+#: vanilla_control_center/main.py:82
+#, fuzzy
+msgid "Contributors"
+msgstr "Behållare"
+
+#: vanilla_control_center/main.py:90
 msgid "Translators"
 msgstr "Översättare"
 
-#: vanilla_control_center/window.py:125 src/window.py:115
+#: vanilla_control_center/window.py:130
 msgid "Installation Failed."
 msgstr "Installationen misslyckades."
 
-#: vanilla_control_center/window.py:128 src/window.py:118
+#: vanilla_control_center/window.py:133
 msgid "New Drivers Installed."
 msgstr "Nya drivrutiner installerades."
 
-#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
-#: src/window.py:125
+#: vanilla_control_center/window.py:140 vanilla_control_center/window.py:273
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr "En annan transaktion körs eller så måste systemet startas om."
 
-#: vanilla_control_center/window.py:145
+#: vanilla_control_center/window.py:150
 #, fuzzy
 msgid "Installing new Drivers…"
 msgstr "Installation pågår…"
 
-#: vanilla_control_center/window.py:169 src/window.py:160
-msgid "SmartUpdate Changed."
+#: vanilla_control_center/window.py:194
+#, fuzzy
+msgid "Smart Update Changed."
 msgstr "SmartUpdate har ändrats."
 
-#: src/window.py:168
+#: vanilla_control_center/window.py:196
+msgid "Failed to change the Smart Update setting."
+msgstr ""
+
+#: vanilla_control_center/window.py:201
+#, fuzzy
+msgid "Automatic Update setting changed."
+msgstr "SmartUpdate har ändrats."
+
+#: vanilla_control_center/window.py:203
+msgid "Failed to change Automatic Update setting"
+msgstr ""
+
+#: vanilla_control_center/window.py:210
 msgid "Update Schedule Changed."
 msgstr "Uppdateringsschema har ändrats."
 
-#: vanilla_control_center/window.py:205 src/window.py:196
+#: vanilla_control_center/window.py:238
 msgid "{} Exited With Error."
 msgstr "{} Avslutade med fel."
 
-#: vanilla_control_center/window.py:208 src/window.py:199
+#: vanilla_control_center/window.py:241
 msgid "{} Exited."
 msgstr "{} Avslutade."
 
-#: vanilla_control_center/window.py:211 src/window.py:202
+#: vanilla_control_center/window.py:244
 msgid "{} Launched."
 msgstr "{} Startat."
 
-#: vanilla_control_center/window.py:256
+#: vanilla_control_center/window.py:289
 msgid "Prime Profile Changed."
 msgstr ""
 
-#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
+#: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
 msgid "Prime Profile Change Failed."
 msgstr ""
 
-#: vanilla_control_center/window.py:266
+#: vanilla_control_center/window.py:299
 msgid "Switching PRIME Profile…"
 msgstr ""
 
-#: src/gtk/dialog-installation.ui:22
-msgid "This may take a while, based on your internet connection speed."
-msgstr "Detta kan ta ett tag, baserat på din internetanslutningshastighet."
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr "Detta kan ta ett tag, baserat på din internetanslutningshastighet."
 
-#: src/gtk/window.ui:28
-msgid "Apply Changes"
-msgstr "Tillämpa förändringar"
+#~ msgid "Apply Changes"
+#~ msgstr "Tillämpa förändringar"
 
-#: src/gtk/window.ui:45
-msgid "Drivers"
-msgstr "Drivrutiner"
+#~ msgid "Drivers"
+#~ msgstr "Drivrutiner"
 
-#: src/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "Laddar drivrutiner…"
+#~ msgid "Loading drivers…"
+#~ msgstr "Laddar drivrutiner…"
 
-#: src/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr "Vänta medan de tillgängliga drivrutinerna laddas."
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Vänta medan de tillgängliga drivrutinerna laddas."
 
-#: src/gtk/window.ui:64
-msgid "No Drivers Available"
-msgstr "Inga drivrutiner tillgängliga"
+#~ msgid "No Drivers Available"
+#~ msgstr "Inga drivrutiner tillgängliga"
 
-#: src/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr "Det finns inga extra drivrutiner tillgängliga för ditt system."
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Det finns inga extra drivrutiner tillgängliga för ditt system."
 
-#: src/gtk/window.ui:80
-msgid "Updates"
-msgstr "Uppdateringar"
+#~ msgid "Preferences"
+#~ msgstr "Inställningar"
 
-#: src/gtk/window.ui:86
-msgid "Preferences"
-msgstr "Inställningar"
+#~ msgid "Latest Update Check"
+#~ msgstr "Senaste uppdateringskontrollen"
 
-#: src/gtk/window.ui:89
-msgid "Latest Update Check"
-msgstr "Senaste uppdateringskontrollen"
+#~ msgid "Never"
+#~ msgstr "Aldrig"
 
-#: src/gtk/window.ui:90
-msgid "Never"
-msgstr "Aldrig"
+#~ msgid "Updates Scheduling"
+#~ msgstr "Uppdateringar schemaläggning"
 
-#: src/gtk/window.ui:95
-msgid "Updates Scheduling"
-msgstr "Uppdateringar schemaläggning"
+#~ msgid "Choose how often the system should check for updates."
+#~ msgstr "Välj hur ofta systemet ska söka efter uppdateringar."
 
-#: src/gtk/window.ui:96
-msgid "Choose how often the system should check for updates."
-msgstr "Välj hur ofta systemet ska söka efter uppdateringar."
+#~ msgid "SmartUpdate"
+#~ msgstr "SmartUpdate"
 
-#: src/gtk/window.ui:109
-msgid "SmartUpdate"
-msgstr "SmartUpdate"
+#~ msgid ""
+#~ "If enabled, the system will not update if the system is in high load or "
+#~ "the battery is low."
+#~ msgstr ""
+#~ "Om aktiverat så kommer systemet inte att uppdateras om systemet har hög "
+#~ "belastning eller om batteriet är lågt."
 
-#: src/gtk/window.ui:110
-msgid ""
-"If enabled, the system will not update if the system is in high load or the "
-"battery is low."
-msgstr ""
-"Om aktiverat så kommer systemet inte att uppdateras om systemet har hög "
-"belastning eller om batteriet är lågt."
+#~ msgid "Sub System"
+#~ msgstr "Undersystem"
 
-#: src/gtk/window.ui:127
-msgid "Sub System"
-msgstr "Undersystem"
+#~ msgid "Installed Applications"
+#~ msgstr "Installerade program"
 
-#: src/gtk/window.ui:137
-msgid "Containers"
-msgstr "Behållare"
+#~ msgid "_About Control-center"
+#~ msgstr "_Om Kontroll-center"
 
-#: src/gtk/window.ui:142
-msgid "Installed Applications"
-msgstr "Installerade program"
-
-#: src/gtk/window.ui:161
-msgid "_About Control-center"
-msgstr "_Om Kontroll-center"
-
-#: src/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr "Installation pågår…"
+#~ msgid "Installation in Progress…"
+#~ msgstr "Installation pågår…"
 
 #~ msgid "Immutability"
 #~ msgstr "Oföränderlighet"

@@ -23,16 +23,16 @@
     <link type="seealso" xref="update-system"/>
 
     <keywords>update, smart, smartupdate, vso</keywords>
-    <desc>Learn about SmartUpdate in Vanilla OS.</desc>
+    <desc>Learn about Smart Updates in Vanilla OS.</desc>
   </info>
   
-  <title>What is SmartUpdate?</title>
+  <title>What is Smart Updates?</title>
 
-  <p><gui>SmartUpdate</gui> is a way to ensure automatic updates are performed only on ideal conditions.</p>
+  <p><gui>Smart Updates</gui> is a way to ensure automatic updates are performed only on ideal conditions.</p>
 
-<p>When <gui>SmartUpdate</gui> is enabled, <gui>vso</gui> checks whether the system is capable of performing an update without hindering the user experience. Multiple checks for connection, memory, CPU and battery status get performed. If the system isn't ideal or capable of performing an update, <gui>vso</gui> will skip it and try again later.</p>
+<p>When <gui>Smart Updates</gui> is enabled, <gui>vso</gui> checks whether the system is capable of performing an update without hindering the user experience. Multiple checks for connection, memory, CPU and battery status get performed. If the system isn't ideal or capable of performing an update, <gui>vso</gui> will skip it and try again later.</p>
 
-<p>If <gui>SmartUpdate</gui> is disabled, <gui>vso</gui> will perform the update without any further checks.</p>
+<p>If <gui>Smart Updates</gui> is disabled, <gui>vso</gui> will perform the update without any further checks.</p>
 
         <figure>
                 <title><gui>Updates</gui> panel in Vanilla OS Control Center</title>
