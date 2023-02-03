@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-31 22:32+0530\n"
 "PO-Revision-Date: 2023-02-05 08:36+0000\n"
-"Last-Translator: Chang-Chia Tseng <pswo10680@gmail.com>\n"
+"Last-Translator: Jen Kung-chih <Kaitul@outlook.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "vanilla-os/control-center/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -91,7 +91,7 @@ msgstr "程式碼撰寫"
 
 #: vanilla_control_center/main.py:75
 msgid "Documentation by"
-msgstr "文件製作"
+msgstr "文件撰寫"
 
 #: vanilla_control_center/main.py:82
 msgid "Contributors"
@@ -151,7 +151,7 @@ msgstr "{} 已啟動。"
 
 #: vanilla_control_center/window.py:289
 msgid "Prime Profile Changed."
-msgstr "已變更 PRIME 設定檔。"
+msgstr "PRIME 設定檔已變更。"
 
 #: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
 msgid "Prime Profile Change Failed."
