@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-31 22:32+0530\n"
-"PO-Revision-Date: 2023-01-18 22:43+0000\n"
+"PO-Revision-Date: 2023-02-03 14:34+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
@@ -34,22 +34,21 @@ msgid "Installation"
 msgstr "Instalación"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:40
-#, fuzzy
 msgid "Apply Updates"
-msgstr "Actualizaciones"
+msgstr "Aplicar las actualizaciones"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:63
 #: vanilla_control_center/gtk/dialog-update-check.ui:148
 msgid "Close"
-msgstr ""
+msgstr "Cerrar"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:116
 msgid "Restart Now"
-msgstr ""
+msgstr "Reiniciar ahora"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:126
 msgid "Restart Later"
-msgstr ""
+msgstr "Reiniciar después"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -88,16 +87,15 @@ msgstr "Contenedor '{}' inicializado"
 
 #: vanilla_control_center/main.py:69
 msgid "Code by"
-msgstr ""
+msgstr "Código de"
 
 #: vanilla_control_center/main.py:75
 msgid "Documentation by"
-msgstr ""
+msgstr "Documentación por"
 
 #: vanilla_control_center/main.py:82
-#, fuzzy
 msgid "Contributors"
-msgstr "Contenedores"
+msgstr "Colaboradores"
 
 #: vanilla_control_center/main.py:90
 msgid "Translators"
@@ -120,22 +118,20 @@ msgid "Installing new Drivers…"
 msgstr "Instalando nuevos controladores …"
 
 #: vanilla_control_center/window.py:194
-#, fuzzy
 msgid "Smart Update Changed."
-msgstr "La actualización inteligente se ha cambiado."
+msgstr "Actualización inteligente modificada."
 
 #: vanilla_control_center/window.py:196
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "No se pudo cambiar la configuración de la Actualización inteligente."
 
 #: vanilla_control_center/window.py:201
-#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr "La actualización inteligente se ha cambiado."
+msgstr "Se ha modificado la configuración de la actualización automática."
 
 #: vanilla_control_center/window.py:203
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "Error al cambiar la configuración de Actualización automática"
 
 #: vanilla_control_center/window.py:210
 msgid "Update Schedule Changed."

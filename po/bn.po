@@ -8,18 +8,21 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-31 22:32+0530\n"
-"PO-Revision-Date: 2022-10-22 21:54+0200\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-02-03 14:34+0000\n"
+"Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
+"Language-Team: Bengali <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/bn/>\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
 msgid "Vanilla OS Control Center"
-msgstr "ভ্যানিলা ওএস কন্ট্রোল সেন্টার"
+msgstr "ভেনিলা ওএস নিয়ন্ত্রণ কেন্দ্র"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
@@ -28,25 +31,24 @@ msgstr "কোনো বর্ণনা নেই"
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 #: vanilla_control_center/gtk/dialog-update-check.ui:6
 msgid "Installation"
-msgstr "ইনস্টলেশন"
+msgstr "স্থাপন"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:40
-#, fuzzy
 msgid "Apply Updates"
-msgstr "আপডেট"
+msgstr "আপডেট প্রয়োগ করুন"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:63
 #: vanilla_control_center/gtk/dialog-update-check.ui:148
 msgid "Close"
-msgstr ""
+msgstr "বন্ধ করুন"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:116
 msgid "Restart Now"
-msgstr ""
+msgstr "এখনই রিস্টার্ট করুন"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:126
 msgid "Restart Later"
-msgstr ""
+msgstr "পরবর্তীতে রিস্টার্ট করুন"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -56,12 +58,12 @@ msgstr "সাধারণ"
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "শর্টকাটগুলি দেখুন"
+msgstr "শর্টকাটগুলো দেখান"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "প্রস্থান করুন"
+msgstr "বের হোন"
 
 #: vanilla_control_center/gtk/window.ui:186
 msgid "Weekly"
@@ -73,28 +75,27 @@ msgstr "প্রতি মাসে"
 
 #: vanilla_control_center/gtk/window.ui:258
 msgid "_Help"
-msgstr ""
+msgstr "_সাহায্য"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "'{}' কনটেইনারের জন্য শেল চালু হয়েছে"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "'{}' কন্টেইনারটি সচল হয়েছে"
 
 #: vanilla_control_center/main.py:69
 msgid "Code by"
-msgstr ""
+msgstr "কোড করেছেন"
 
 #: vanilla_control_center/main.py:75
 msgid "Documentation by"
-msgstr ""
+msgstr "নথিপত্র তৈরিকরণে"
 
 #: vanilla_control_center/main.py:82
-#, fuzzy
 msgid "Contributors"
-msgstr "কনটেইনার"
+msgstr "অংশ গ্রহণকারীগণ"
 
 #: vanilla_control_center/main.py:90
 msgid "Translators"
@@ -114,25 +115,23 @@ msgstr "অন্য কার্যপরিচালনা চলছে অথ
 
 #: vanilla_control_center/window.py:150
 msgid "Installing new Drivers…"
-msgstr ""
+msgstr "নতুন ড্রাইভার ইন্সটল করা হচ্ছে…"
 
 #: vanilla_control_center/window.py:194
-#, fuzzy
 msgid "Smart Update Changed."
-msgstr "স্মার্টআপডেট পরিবর্তিত হয়েছে।"
+msgstr "স্মার্ট আপডেট পরিবর্তিত হয়েছে।"
 
 #: vanilla_control_center/window.py:196
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "স্মার্টআপডেট সেটিংস পরিবর্তনে ব্যর্থ হয়েছে।"
 
 #: vanilla_control_center/window.py:201
-#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr "স্মার্টআপডেট পরিবর্তিত হয়েছে।"
+msgstr "এ্যাটমিক আপডেট সেটিংস পরিবর্তিত হয়েছে।"
 
 #: vanilla_control_center/window.py:203
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "এ্যাটমিক আপডেট সেটিংস পরিবর্তনে ব্যর্থ হয়েছে"
 
 #: vanilla_control_center/window.py:210
 msgid "Update Schedule Changed."
@@ -152,15 +151,15 @@ msgstr "{} চালু হয়েছে৷"
 
 #: vanilla_control_center/window.py:289
 msgid "Prime Profile Changed."
-msgstr ""
+msgstr "প্রধান প্রোফাইল পরিবর্তিত হয়েছে।"
 
 #: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
 msgid "Prime Profile Change Failed."
-msgstr ""
+msgstr "প্রধান প্রোফাইল পরিবর্তনে ব্যর্থ হয়েছে।"
 
 #: vanilla_control_center/window.py:299
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "প্রধান প্রোফাইল বদলানো হচ্ছে…"
 
 #~ msgid "Installation in Progress…"
 #~ msgstr "ইন্সটলেশন চলছে"
