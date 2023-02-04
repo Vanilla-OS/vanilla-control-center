@@ -30,7 +30,6 @@ from vanilla_control_center.backends.apx import Apx
 from vanilla_control_center.backends.vso import Vso
 from vanilla_control_center.backends.prime_profiles import PrimeProfiles
 from vanilla_control_center.dialog_installation import VanillaDialogInstallation
-from vanilla_control_center.dialog_update_check import VanillaDialogUpdateCheck
 from vanilla_control_center.run_async import RunAsync
 
 
@@ -50,8 +49,6 @@ class VanillaWindow(Adw.ApplicationWindow):
     status_no_drivers = Gtk.Template.Child()
     status_updates = Gtk.Template.Child()
     btn_apply = Gtk.Template.Child()
-    btn_update_now = Gtk.Template.Child()
-    btn_update_reboot = Gtk.Template.Child()
     toasts = Gtk.Template.Child()
     row_update_status = Gtk.Template.Child()
     combo_update_schedule = Gtk.Template.Child()
@@ -169,24 +166,9 @@ class VanillaWindow(Adw.ApplicationWindow):
         if auto := self.vso.auto:
             self.switch_update_auto.set_active(auto)
 
-        self.__reset_update_buttons()
-
         self.combo_update_schedule.connect("notify::selected", self.__on_update_schedule_changed)
         self.switch_update_smart.connect("state-set", self.__on_update_smart_changed)
         self.switch_update_auto.connect("state-set", self.__on_update_auto_changed)
-        self.btn_update_now.connect("clicked", self.__on_update_now_clicked)
-        self.btn_update_reboot.connect("clicked", self.__on_update_reboot_clicked)
-    
-    def __reset_update_buttons(self):
-        self.btn_update_now.set_visible(self.vso.can_update)
-        self.btn_update_reboot.set_visible(not self.vso.can_update)
-
-    def __on_update_reboot_clicked(self, widget):
-        subprocess.run(['gnome-session-quit', '--reboot'])
-
-    def __on_update_now_clicked(self, widget):
-        VanillaDialogUpdateCheck(self).show()
-        self.__reset_update_buttons()
         
     def __on_update_smart_changed(self, widget, state, *args):
         res = self.vso.set_smartupdate(state)
