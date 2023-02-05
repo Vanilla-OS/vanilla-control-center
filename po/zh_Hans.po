@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-31 22:32+0530\n"
-"PO-Revision-Date: 2023-02-03 14:34+0000\n"
+"PO-Revision-Date: 2023-02-05 08:36+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "vanilla-os/control-center/zh_Hans/>\n"
@@ -58,7 +58,7 @@ msgstr "通用"
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "显示快捷方式"
+msgstr "显示快捷键"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -75,7 +75,7 @@ msgstr "每个月"
 
 #: vanilla_control_center/gtk/window.ui:258
 msgid "_Help"
-msgstr "帮助 (_H)"
+msgstr "_帮助"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
