@@ -6,6 +6,5 @@
     <file preprocess="xml-stripblanks">gtk/container.ui</file>
     <file preprocess="xml-stripblanks">gtk/program.ui</file>
     <file preprocess="xml-stripblanks">gtk/dialog-installation.ui</file>
-    <file preprocess="xml-stripblanks">gtk/dialog-update-check.ui</file>
   </gresource>
 </gresources>
