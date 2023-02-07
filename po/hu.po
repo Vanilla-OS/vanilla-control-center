@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-31 22:32+0530\n"
-"PO-Revision-Date: 2023-01-22 16:29+0000\n"
+"PO-Revision-Date: 2023-02-07 10:36+0000\n"
 "Last-Translator: Tamás Ecsedi <ecseditamas22@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/hu/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
@@ -34,22 +34,21 @@ msgid "Installation"
 msgstr "Telepítés"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:40
-#, fuzzy
 msgid "Apply Updates"
-msgstr "Frissítések"
+msgstr "Frissítések alkalmazása"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:63
 #: vanilla_control_center/gtk/dialog-update-check.ui:148
 msgid "Close"
-msgstr ""
+msgstr "Bezárás"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:116
 msgid "Restart Now"
-msgstr ""
+msgstr "Újraindítás most"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:126
 msgid "Restart Later"
-msgstr ""
+msgstr "Újraindítás később"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -59,7 +58,7 @@ msgstr "Általános"
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Parancsok megjelenítése"
+msgstr "Parancsikonok megjelenítése"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -80,7 +79,7 @@ msgstr "_Segítség"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr "Shell megnyitva a '{}' konténerhez"
+msgstr "Shell megnyitva a(z) '{}' konténerhez"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
@@ -88,15 +87,15 @@ msgstr "'{}' konténer elindítva"
 
 #: vanilla_control_center/main.py:69
 msgid "Code by"
-msgstr ""
+msgstr "Kódot készítette"
 
 #: vanilla_control_center/main.py:75
 msgid "Documentation by"
-msgstr ""
+msgstr "Dokumentációt készítette"
 
 #: vanilla_control_center/main.py:82
 msgid "Contributors"
-msgstr ""
+msgstr "Közreműködők"
 
 #: vanilla_control_center/main.py:90
 msgid "Translators"
@@ -119,22 +118,20 @@ msgid "Installing new Drivers…"
 msgstr "Illesztőprogramok telepítése…"
 
 #: vanilla_control_center/window.py:194
-#, fuzzy
 msgid "Smart Update Changed."
-msgstr "A SmartUpdate módosult."
+msgstr "Az Intelligens frissítés módosult."
 
 #: vanilla_control_center/window.py:196
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "Az Intelligens frissítés beállításának módosítása sikertelen."
 
 #: vanilla_control_center/window.py:201
-#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr "A SmartUpdate módosult."
+msgstr "Az Automatikus frissítés beállítása módosult."
 
 #: vanilla_control_center/window.py:203
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "Az Automatikus frissítés beállításának módosítása sikertelen"
 
 #: vanilla_control_center/window.py:210
 msgid "Update Schedule Changed."
@@ -154,15 +151,15 @@ msgstr "{} Elindult."
 
 #: vanilla_control_center/window.py:289
 msgid "Prime Profile Changed."
-msgstr "A Prime Profile módosult."
+msgstr "A PRIME profil módosult."
 
 #: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
 msgid "Prime Profile Change Failed."
-msgstr "A Prime Profile módosítása sikertelen."
+msgstr "A PRIME profil módosítása sikertelen."
 
 #: vanilla_control_center/window.py:299
 msgid "Switching PRIME Profile…"
-msgstr "PRIME Profile módosítása…"
+msgstr "PRIME profil módosítása…"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr "Ez eltarthat egy ideig, az internetkapcsolat sebességétől függően."

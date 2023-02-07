@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-31 22:32+0530\n"
-"PO-Revision-Date: 2022-12-30 12:57+0000\n"
+"PO-Revision-Date: 2023-02-07 10:36+0000\n"
 "Last-Translator: finnmonstar <finnmonstar@pm.me>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ro/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
@@ -35,22 +35,21 @@ msgid "Installation"
 msgstr "Instalare"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:40
-#, fuzzy
 msgid "Apply Updates"
-msgstr "Actualizări"
+msgstr "Aplică actualizările"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:63
 #: vanilla_control_center/gtk/dialog-update-check.ui:148
 msgid "Close"
-msgstr ""
+msgstr "Închide"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:116
 msgid "Restart Now"
-msgstr ""
+msgstr "Repornește acum"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:126
 msgid "Restart Later"
-msgstr ""
+msgstr "Repornește mai târziu"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -77,28 +76,27 @@ msgstr "Lunar"
 
 #: vanilla_control_center/gtk/window.ui:258
 msgid "_Help"
-msgstr ""
+msgstr "_Ajutor"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "Shell deschis pentru container-ul '{}'"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "Container-ul '{}' inițializat"
 
 #: vanilla_control_center/main.py:69
 msgid "Code by"
-msgstr ""
+msgstr "Codul de"
 
 #: vanilla_control_center/main.py:75
 msgid "Documentation by"
-msgstr ""
+msgstr "Documentația de"
 
 #: vanilla_control_center/main.py:82
-#, fuzzy
 msgid "Contributors"
-msgstr "Nicio aplicație containerizată"
+msgstr "Contribuitori"
 
 #: vanilla_control_center/main.py:90
 msgid "Translators"
@@ -118,27 +116,24 @@ msgstr ""
 "Altă tranzacție se rulează în acest moment sau sistemul trebuie repornit."
 
 #: vanilla_control_center/window.py:150
-#, fuzzy
 msgid "Installing new Drivers…"
-msgstr "Instalarea este în progres…"
+msgstr "Se instalează drivere noi…"
 
 #: vanilla_control_center/window.py:194
-#, fuzzy
 msgid "Smart Update Changed."
 msgstr "Actualizare inteligentă schimbată."
 
 #: vanilla_control_center/window.py:196
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "Nu s-a putut seta setarea actualizării inteligente."
 
 #: vanilla_control_center/window.py:201
-#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr "Actualizare inteligentă schimbată."
+msgstr "Setarea actualizării automate schimbată."
 
 #: vanilla_control_center/window.py:203
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "Nu s-a putut schimba setarea de actualizare automată"
 
 #: vanilla_control_center/window.py:210
 msgid "Update Schedule Changed."
@@ -158,15 +153,15 @@ msgstr "{} s-a lansat."
 
 #: vanilla_control_center/window.py:289
 msgid "Prime Profile Changed."
-msgstr ""
+msgstr "Profilul Prime schimbat."
 
 #: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
 msgid "Prime Profile Change Failed."
-msgstr ""
+msgstr "Nu s-a putut schimba profilul Prime."
 
 #: vanilla_control_center/window.py:299
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "Se schimbă profilul PRIME…"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr ""

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-31 22:32+0530\n"
-"PO-Revision-Date: 2023-01-27 22:47+0000\n"
+"PO-Revision-Date: 2023-02-07 10:36+0000\n"
 "Last-Translator: azuki <ipadgoogcloud@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ja/>\n"
@@ -35,20 +35,20 @@ msgstr "インストール"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:40
 msgid "Apply Updates"
-msgstr ""
+msgstr "アップデートを適用"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:63
 #: vanilla_control_center/gtk/dialog-update-check.ui:148
 msgid "Close"
-msgstr ""
+msgstr "閉じる"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:116
 msgid "Restart Now"
-msgstr ""
+msgstr "今すぐ再起動"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:126
 msgid "Restart Later"
-msgstr ""
+msgstr "後で再起動"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -98,7 +98,7 @@ msgstr ""
 
 #: vanilla_control_center/main.py:82
 msgid "Contributors"
-msgstr ""
+msgstr "貢献者"
 
 #: vanilla_control_center/main.py:90 vanilla_control_center/main.py:70
 msgid "Translators"
@@ -129,16 +129,15 @@ msgstr "スマートアップデートが変更されました。"
 
 #: vanilla_control_center/window.py:196
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "スマートアップデートの設定変更に失敗しました。"
 
 #: vanilla_control_center/window.py:201
-#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr "スマートアップデートが変更されました。"
+msgstr "自動更新設定が変更されました。"
 
 #: vanilla_control_center/window.py:203
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "自動更新設定の変更に失敗しました"
 
 #: vanilla_control_center/window.py:210 vanilla_control_center/window.py:177
 msgid "Update Schedule Changed."
