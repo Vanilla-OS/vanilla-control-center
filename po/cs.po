@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-31 22:32+0530\n"
-"PO-Revision-Date: 2022-12-22 11:48+0000\n"
-"Last-Translator: Michal Maděra <misamadera1@gmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/vanilla-os/control-"
-"center/cs/>\n"
+"PO-Revision-Date: 2023-02-11 11:35+0000\n"
+"Last-Translator: \"Vojtěch V.\" <xonax658@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
@@ -41,15 +41,15 @@ msgstr "Použít změny"
 #: vanilla_control_center/gtk/dialog-update-check.ui:63
 #: vanilla_control_center/gtk/dialog-update-check.ui:148
 msgid "Close"
-msgstr ""
+msgstr "Zavřít"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:116
 msgid "Restart Now"
-msgstr ""
+msgstr "Restartovat ihned"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:126
 msgid "Restart Later"
-msgstr ""
+msgstr "Restartovat později"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -68,23 +68,24 @@ msgstr "Ukončit"
 
 #: vanilla_control_center/gtk/window.ui:186
 msgid "Weekly"
-msgstr ""
+msgstr "Týdně"
 
 #: vanilla_control_center/gtk/window.ui:187
 msgid "Monthly"
-msgstr ""
+msgstr "Měsíčně"
 
 #: vanilla_control_center/gtk/window.ui:258
 msgid "_Help"
-msgstr ""
+msgstr "_Pomoc"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "Shell otevřen pro kontejner '{}'"
 
 #: vanilla_control_center/container.py:59
+#, fuzzy
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "Kontejner '{}' inicializován"
 
 #: vanilla_control_center/main.py:69
 msgid "Code by"
@@ -92,7 +93,7 @@ msgstr ""
 
 #: vanilla_control_center/main.py:75
 msgid "Documentation by"
-msgstr ""
+msgstr "Dokumentace od"
 
 #: vanilla_control_center/main.py:82
 msgid "Contributors"
@@ -115,13 +116,12 @@ msgid "Another transaction is running or the system needs to be restarted."
 msgstr ""
 
 #: vanilla_control_center/window.py:150
-#, fuzzy
 msgid "Installing new Drivers…"
-msgstr "Probíhá instalace…"
+msgstr "Probíhá instalace nových ovladačů…"
 
 #: vanilla_control_center/window.py:194
 msgid "Smart Update Changed."
-msgstr ""
+msgstr "Chytré Aktualizace změněny."
 
 #: vanilla_control_center/window.py:196
 msgid "Failed to change the Smart Update setting."
