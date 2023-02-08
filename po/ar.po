@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-31 22:32+0530\n"
 "PO-Revision-Date: 2023-02-11 11:35+0000\n"
-"Last-Translator: Khaled Mahmoud <Khaled.q6@gmail.com>\n"
+"Last-Translator: عثمان محامدي <othmahammedi@proton.me>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ar/>\n"
 "Language: ar\n"
@@ -140,15 +140,15 @@ msgstr "تغيَّرت جدولة التحديثات."
 
 #: vanilla_control_center/window.py:238
 msgid "{} Exited With Error."
-msgstr "تم الخروج من {} مع وجود خطأ."
+msgstr "{} تم الخروج مع وجود خطأ."
 
 #: vanilla_control_center/window.py:241
 msgid "{} Exited."
-msgstr "تم الخروج من {}."
+msgstr "{} تم الخروج."
 
 #: vanilla_control_center/window.py:244
 msgid "{} Launched."
-msgstr "تم تشغيل {}."
+msgstr "{} تم التشغيل."
 
 #: vanilla_control_center/window.py:289
 msgid "Prime Profile Changed."
