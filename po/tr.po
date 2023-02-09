@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-31 22:32+0530\n"
-"PO-Revision-Date: 2023-01-06 08:49+0000\n"
-"Last-Translator: Muhammed Bayraktar <mhmmd.bayraktar@gmail.com>\n"
+"PO-Revision-Date: 2023-02-11 11:35+0000\n"
+"Last-Translator: Alisalih Üçgül <alisalihucgul@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
@@ -34,22 +34,21 @@ msgid "Installation"
 msgstr "Kurulum"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:40
-#, fuzzy
 msgid "Apply Updates"
-msgstr "Güncelle"
+msgstr "Güncellemeleri Uygula"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:63
 #: vanilla_control_center/gtk/dialog-update-check.ui:148
 msgid "Close"
-msgstr ""
+msgstr "Kapat"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:116
 msgid "Restart Now"
-msgstr ""
+msgstr "Şimdi Yeniden Başlat"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:126
 msgid "Restart Later"
-msgstr ""
+msgstr "Sonra Yeniden Başlat"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -76,28 +75,27 @@ msgstr "Aylık"
 
 #: vanilla_control_center/gtk/window.ui:258
 msgid "_Help"
-msgstr ""
+msgstr "_Yardım"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "'{}' kapsayıcısı için kabuk açıldı"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "'{}' kapsayıcısı başlatıldı"
 
 #: vanilla_control_center/main.py:69
 msgid "Code by"
-msgstr ""
+msgstr "Kodlayan(lar)"
 
 #: vanilla_control_center/main.py:75
 msgid "Documentation by"
-msgstr ""
+msgstr "Dokümante eden(ler)"
 
 #: vanilla_control_center/main.py:82
-#, fuzzy
 msgid "Contributors"
-msgstr "Konteynerleştirilmiş Uygulama Yok"
+msgstr "Yardım edenler"
 
 #: vanilla_control_center/main.py:90
 msgid "Translators"
@@ -117,9 +115,8 @@ msgstr ""
 "Başka bir işlem çalışıyor veya sistemin yeniden başlatılması gerekiyor."
 
 #: vanilla_control_center/window.py:150
-#, fuzzy
 msgid "Installing new Drivers…"
-msgstr "Kurulum Devam Ediyor…"
+msgstr "Yeni sürücüler kuruluyor…"
 
 #: vanilla_control_center/window.py:194
 #, fuzzy
@@ -128,16 +125,15 @@ msgstr "Akıllı güncelleme değiştirildi."
 
 #: vanilla_control_center/window.py:196
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "Akıllı Güncelleme ayarı değiştirilemedi."
 
 #: vanilla_control_center/window.py:201
-#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr "Akıllı güncelleme değiştirildi."
+msgstr "Otomatik güncelleme ayarı değiştirildi."
 
 #: vanilla_control_center/window.py:203
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "Otomatik Güncelleme ayarını değiştirme işlemi başarısız oldu"
 
 #: vanilla_control_center/window.py:210
 msgid "Update Schedule Changed."
