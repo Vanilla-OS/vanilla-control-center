@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-31 22:32+0530\n"
-"PO-Revision-Date: 2023-01-20 19:20+0000\n"
+"PO-Revision-Date: 2023-02-11 11:35+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15.1\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
@@ -34,22 +34,21 @@ msgid "Installation"
 msgstr "Instalação"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:40
-#, fuzzy
 msgid "Apply Updates"
-msgstr "Atualizações"
+msgstr "Aplicar atualizações"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:63
 #: vanilla_control_center/gtk/dialog-update-check.ui:148
 msgid "Close"
-msgstr ""
+msgstr "Fechar"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:116
 msgid "Restart Now"
-msgstr ""
+msgstr "Reiniciar agora"
 
 #: vanilla_control_center/gtk/dialog-update-check.ui:126
 msgid "Restart Later"
-msgstr ""
+msgstr "Reiniciar depois"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -88,16 +87,15 @@ msgstr "Contentor '{}' inicializado"
 
 #: vanilla_control_center/main.py:69
 msgid "Code by"
-msgstr ""
+msgstr "Código por"
 
 #: vanilla_control_center/main.py:75
 msgid "Documentation by"
-msgstr ""
+msgstr "Documentação por"
 
 #: vanilla_control_center/main.py:82
-#, fuzzy
 msgid "Contributors"
-msgstr "Sem aplicações contentorizadas"
+msgstr "Contribuidores"
 
 #: vanilla_control_center/main.py:90
 msgid "Translators"
@@ -113,29 +111,28 @@ msgstr "Novos controladores instalados."
 
 #: vanilla_control_center/window.py:140 vanilla_control_center/window.py:273
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr "Outra transação está em execução ou o sistema precisa ser reiniciado."
+msgstr ""
+"Outra transação está em execução ou o sistema precisa de ser reiniciado."
 
 #: vanilla_control_center/window.py:150
 msgid "Installing new Drivers…"
 msgstr "A instalar novos controladores…"
 
 #: vanilla_control_center/window.py:194
-#, fuzzy
 msgid "Smart Update Changed."
-msgstr "Atualizações inteligentes alteradas."
+msgstr "Alteração da Atualização inteligente."
 
 #: vanilla_control_center/window.py:196
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "Falha ao alterar a configuração da Atualização inteligente."
 
 #: vanilla_control_center/window.py:201
-#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr "Atualizações inteligentes alteradas."
+msgstr "Alteração da configuração de atualização automática."
 
 #: vanilla_control_center/window.py:203
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "Falha ao alterar a configuração de Atualização automática"
 
 #: vanilla_control_center/window.py:210
 msgid "Update Schedule Changed."

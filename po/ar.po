@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-31 22:32+0530\n"
-"PO-Revision-Date: 2023-02-03 14:34+0000\n"
-"Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
+"PO-Revision-Date: 2023-02-11 11:35+0000\n"
+"Last-Translator: عثمان محامدي <othmahammedi@proton.me>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ar/>\n"
 "Language: ar\n"
@@ -80,23 +80,23 @@ msgstr "_المساعدة"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "يفتح الشل للكونتينر '{}'"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "يهيأ '{}' الكونتينر"
 
 #: vanilla_control_center/main.py:69
 msgid "Code by"
-msgstr ""
+msgstr "الكود بواسطة"
 
 #: vanilla_control_center/main.py:75
 msgid "Documentation by"
-msgstr ""
+msgstr "تم التوثيق بواسطة"
 
 #: vanilla_control_center/main.py:82
 msgid "Contributors"
-msgstr ""
+msgstr "المساهمون"
 
 #: vanilla_control_center/main.py:90
 msgid "Translators"
@@ -112,30 +112,27 @@ msgstr "ثُبِّتتِ التعريفات الجديدة."
 
 #: vanilla_control_center/window.py:140 vanilla_control_center/window.py:273
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
+msgstr "عملية أخرى قيد التنفيذ او النظام بحاجة لإعادة تشغيل."
 
 #: vanilla_control_center/window.py:150
-#, fuzzy
 msgid "Installing new Drivers…"
-msgstr "يُثبَّت…"
+msgstr "يُثبَّت تعريفات جديدة…"
 
 #: vanilla_control_center/window.py:194
-#, fuzzy
 msgid "Smart Update Changed."
 msgstr "تغيَّر التحديث الذكي."
 
 #: vanilla_control_center/window.py:196
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "فشل بتغيير إعدادات التحديثات الذكية."
 
 #: vanilla_control_center/window.py:201
-#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr "تغيَّر التحديث الذكي."
+msgstr "تم تغيير إعدادات التحديثات التلقائية."
 
 #: vanilla_control_center/window.py:203
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "فشل بتغيير إعدادات التحديثات التلقائية"
 
 #: vanilla_control_center/window.py:210
 msgid "Update Schedule Changed."
@@ -143,27 +140,27 @@ msgstr "تغيَّرت جدولة التحديثات."
 
 #: vanilla_control_center/window.py:238
 msgid "{} Exited With Error."
-msgstr "تم الخروج من {} مع وجود خطأ."
+msgstr "{} تم الخروج مع وجود خطأ."
 
 #: vanilla_control_center/window.py:241
 msgid "{} Exited."
-msgstr "تم الخروج من {}."
+msgstr "{} تم الخروج."
 
 #: vanilla_control_center/window.py:244
 msgid "{} Launched."
-msgstr "تم تشغيل {}."
+msgstr "{} تم التشغيل."
 
 #: vanilla_control_center/window.py:289
 msgid "Prime Profile Changed."
-msgstr ""
+msgstr "تم تغيير الحساب الأساسي."
 
 #: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
 msgid "Prime Profile Change Failed."
-msgstr ""
+msgstr "فشل بتغيير الحساب الأساسي."
 
 #: vanilla_control_center/window.py:299
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "يحول الحساب الأساسي…"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr "قد يستغرق وقتًا اعتمادًا على سرعة اتصالك بالإنترنت."
