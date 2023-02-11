@@ -20,7 +20,7 @@
 import logging
 from gi.repository import Adw
 from gi.repository import Gtk, GObject
-
+from gettext import gettext as _
 
 logger = logging.getLogger("Vanilla:Driver")
 
@@ -46,16 +46,16 @@ class VanillaDriverRow(Adw.ActionRow):
         if self.driver["installed"]:
             self.img_installed.set_visible(True)
 
-        self.connect("activated", self.__on_activated)
+        self.connect(_("Activated"), self.__on_activated)
     
     def __on_activated(self, widget):
-        self.emit("driver-selected", self.driver["name"])
+        self.emit(_("Driver selected"), self.driver["name"])
     
     def set_installed(self, installed: bool):
-        if self.driver["installed"] == installed:
+        if self.driver[_("Installed")] == installed:
             return
 
-        self.driver["installed"] = installed
+        self.driver[_("Installed")] = installed
         self.img_installed.set_visible(installed)
 
 class VanillaDriversGroup(Adw.PreferencesGroup):
@@ -80,13 +80,13 @@ class VanillaDriversGroup(Adw.PreferencesGroup):
             row = VanillaDriverRow(driver)
             self.__registry[driver["name"]] = row
             self.add(row)
-            row.connect("driver-selected", self.__on_driver_selected)
+            row.connect(_("Driver selected"), self.__on_driver_selected)
 
     def __on_driver_selected(self, widget, driver):
-        logging.info("Selected driver: {}".format(driver))
+        logging.info(_("Selected driver: {}").format(driver))
         for _driver, widget in self.__registry.items():
             if _driver == driver:
                 widget.set_installed(True)
                 continue
             widget.set_installed(False)
-        self.emit("installation-needed", self.model, driver)
+        self.emit(_("Installation needed"), self.model, driver)

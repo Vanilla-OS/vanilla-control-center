@@ -26,7 +26,7 @@ from datetime import datetime
 from pathlib import Path
 from enum import Enum
 from glob import glob
-
+from gettext import gettext as _
 
 logger = logging.getLogger("Vanilla::VSO")
 
@@ -58,7 +58,7 @@ class Vso:
             with open(self.__conf_path, "r") as f:
                 return json.load(f)
         
-        raise FileNotFoundError("VSO Config file not found at {}".format(self.__conf_path))
+        raise FileNotFoundError(_("VSO Config file not found at {}").format(self.__conf_path))
 
     @property
     def scheduling(self) -> str:

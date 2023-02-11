@@ -5,14 +5,14 @@
     <child type="suffix">
       <object class="GtkButton" id="btn_shell">
         <property name="icon-name">utilities-terminal-symbolic</property>
-        <property name="tooltip-text" translatable="true">Enter shell</property>
+        <property name="tooltip-text" translatable="yes">Enter shell</property>
         <property name="valign">center</property>
       </object>
     </child>
     <child type="suffix">
       <object class="GtkButton" id="btn_init">
         <property name="icon-name">tab-new-symbolic</property>
-        <property name="tooltip-text" translatable="true">Create subsystem</property>
+        <property name="tooltip-text" translatable="yes">Create subsystem</property>
         <property name="valign">center</property>
       </object>
     </child>

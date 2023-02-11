@@ -14,7 +14,7 @@
             <property name="title-widget">
               <object class="AdwViewSwitcherTitle">
                 <property name="stack">stack_main</property>
-                <property name="title" translatable="true">Vanilla OS Control Center</property>
+                <property name="title" translatable="yes">Vanilla OS Control Center</property>
               </object>
             </property>
             <child type="end">
@@ -25,7 +25,7 @@
             </child>
             <child type="end">
               <object class="GtkButton" id="btn_apply">
-                <property name="label" translatable="true">Apply Changes</property>
+                <property name="label" translatable="yes">Apply Changes</property>
                 <property name="visible">False</property>
                 <style>
                   <class name="suggested-action" />
@@ -42,7 +42,7 @@
                 <child>
                   <object class="AdwViewStackPage">
                     <property name="name">drivers</property>
-                    <property name="title" translatable="true">Drivers</property>
+                    <property name="title" translatable="yes">Drivers</property>
                     <property name="icon-name">drive-harddisk-solidstate-symbolic</property>
                     <property name="child">
                       <object class="GtkBox">
@@ -52,8 +52,8 @@
                         <child>
                           <object class="AdwStatusPage" id="status_drivers">
                             <property name="icon-name">drive-harddisk-solidstate-symbolic</property>
-                            <property name="title" translatable="true">Loading drivers…</property>
-                            <property name="description" translatable="true">Please wait while the available drivers are being loaded.</property>
+                            <property name="title" translatable="yes">Loading drivers…</property>
+                            <property name="description" translatable="yes">Please wait while the available drivers are being loaded.</property>
                             <property name="valign">center</property>
                           </object>
                         </child>
@@ -61,8 +61,8 @@
                           <object class="AdwStatusPage" id="status_no_drivers">
                             <property name="visible">false</property>
                             <property name="icon-name">drive-harddisk-solidstate-symbolic</property>
-                            <property name="title" translatable="true">No Drivers Available</property>
-                            <property name="description" translatable="true">There are no extra drivers available for your system.</property>
+                            <property name="title" translatable="yes">No Drivers Available</property>
+                            <property name="description" translatable="yes">There are no extra drivers available for your system.</property>
                           </object>
                         </child>
                         <child>
@@ -77,13 +77,13 @@
                 <child>
                   <object class="AdwViewStackPage" id="page_prime">
                     <property name="name">prime</property>
-                    <property name="title" translatable="true">PRIME Profiles</property>
+                    <property name="title" translatable="yes">PRIME Profiles</property>
                     <property name="icon-name">video-display-symbolic</property>
                     <property name="child">
                       <object class="AdwPreferencesPage" id="status_prime">
                         <child>
                           <object class="AdwPreferencesGroup">
-                            <property name="title" translatable="true">Active Profile</property>
+                            <property name="title" translatable="yes">Active Profile</property>
                             <child>
                               <object class="GtkListBox" id="list_prime">
                                 <style>
@@ -91,8 +91,8 @@
                                 </style>
                                 <child>
                                   <object class="AdwActionRow" id="row_igpu_status">
-                                    <property name="title" translatable="true">Integrated GPU</property>
-                                    <property name="subtitle" translatable="true">Not detected</property>
+                                    <property name="title" translatable="yes">Integrated GPU</property>
+                                    <property name="subtitle" translatable="yes">Not detected</property>
                                     <property name="activatable">True</property>
                                     <property name="selectable">True</property>
                                     <child type="suffix">
@@ -106,8 +106,8 @@
                                 </child>
                                 <child>
                                   <object class="AdwActionRow" id="row_dgpu_status">
-                                    <property name="title" translatable="true">Discrete GPU</property>
-                                    <property name="subtitle" translatable="true">Not detected</property>
+                                    <property name="title" translatable="yes">Discrete GPU</property>
+                                    <property name="subtitle" translatable="yes">Not detected</property>
                                     <property name="activatable">True</property>
                                     <property name="selectable">True</property>
                                     <child type="suffix">
@@ -121,8 +121,8 @@
                                 </child>
                                 <child>
                                   <object class="AdwActionRow" id="row_hgpu_status">
-                                    <property name="title" translatable="true">Hybrid</property>
-                                    <property name="subtitle" translatable="true">Use the integrated GPU for everything and the discrete GPU on demand</property>
+                                    <property name="title" translatable="yes">Hybrid</property>
+                                    <property name="subtitle" translatable="yes">Use the integrated GPU for everything and the discrete GPU on demand</property>
                                     <property name="activatable">True</property>
                                     <property name="selectable">True</property>
                                     <child type="suffix">
@@ -145,23 +145,23 @@
                 <child>
                   <object class="AdwViewStackPage" id="page_updates">
                     <property name="name">updates</property>
-                    <property name="title" translatable="true">Updates</property>
+                    <property name="title" translatable="yes">Updates</property>
                     <property name="icon-name">software-update-available-symbolic</property>
                     <property name="child">
                       <object class="AdwPreferencesPage" id="status_updates">
                         <child>
                           <object class="AdwPreferencesGroup">
-                            <property name="title" translatable="true">Preferences</property>
+                            <property name="title" translatable="yes">Preferences</property>
                             <child>
                               <object class="AdwActionRow" id="row_update_status">
-                                <property name="title" translatable="true">Latest Update Check</property>
-                                <property name="subtitle" translatable="true">Never</property>
+                                <property name="title" translatable="yes">Latest Update Check</property>
+                                <property name="subtitle" translatable="yes">Never</property>
                               </object>
                             </child>
                             <child>
                               <object class="AdwComboRow" id="combo_update_schedule">
-                                <property name="title" translatable="true">Updates Scheduling</property>
-                                <property name="subtitle" translatable="true">Choose how often the system should check for updates.</property>
+                                <property name="title" translatable="yes">Updates Scheduling</property>
+                                <property name="subtitle" translatable="yes">Choose how often the system should check for updates.</property>
                                 <property name="model">
                                   <object class="GtkStringList" id="str_update_schedule">
                                     <items>
@@ -174,8 +174,8 @@
                             </child>
                             <child>
                               <object class="AdwActionRow" id="row_update_smart">
-                                <property name="title" translatable="true">Smart Updates</property>
-                                <property name="subtitle" translatable="true">The system will not update if it is in heavy use or low battery.</property>
+                                <property name="title" translatable="yes">Smart Updates</property>
+                                <property name="subtitle" translatable="yes">The system will not update if it is in heavy use or low battery.</property>
                                 <property name="activatable-widget">switch_update_smart</property>"
                                 <child type="suffix">
                                   <object class="GtkSwitch" id="switch_update_smart">
@@ -186,8 +186,8 @@
                             </child>
                             <child>
                               <object class="AdwActionRow" id="row_update_auto">
-                                <property name="title" translatable="true">Automatic Updates</property>
-                                <property name="subtitle" translatable="true">The system will automatically update itself in the background.</property>
+                                <property name="title" translatable="yes">Automatic Updates</property>
+                                <property name="subtitle" translatable="yes">The system will automatically update itself in the background.</property>
                                 <property name="activatable-widget">switch_update_auto</property>
                                 <child type="suffix">
                                   <object class="GtkSwitch" id="switch_update_auto">
@@ -205,7 +205,7 @@
                 <child>
                   <object class="AdwViewStackPage" id="page_apx">
                     <property name="name">subsystem</property>
-                    <property name="title" translatable="true">Sub System</property>
+                    <property name="title" translatable="yes">Sub System</property>
                     <property name="icon-name">utilities-terminal-symbolic</property>
                     <property name="child">
                       <object class="GtkBox">
@@ -215,12 +215,12 @@
                           <object class="AdwPreferencesPage">
                             <child>
                               <object class="AdwPreferencesGroup" id="group_containers">
-                                <property name="title" translatable="true">Containers</property>
+                                <property name="title" translatable="yes">Containers</property>
                               </object>
                             </child>
                             <child>
                               <object class="AdwPreferencesGroup" id="group_apps">
-                                <property name="title" translatable="true">Installed Applications</property>
+                                <property name="title" translatable="yes">Installed Applications</property>
                               </object>
                             </child>
                           </object>
@@ -243,7 +243,7 @@
         <attribute name="action">app.help</attribute>
       </item>
       <item>
-        <attribute name="label" translatable="true">_About Control Center</attribute>
+        <attribute name="label" translatable="yes">_About Control Center</attribute>
         <attribute name="action">app.about</attribute>
       </item>
     </section>

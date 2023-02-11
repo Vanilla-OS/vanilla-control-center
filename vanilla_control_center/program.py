@@ -20,7 +20,7 @@
 import logging
 from gi.repository import Adw
 from gi.repository import Gtk, GObject
-
+from gettext import gettext as _
 
 logger = logging.getLogger("Vanilla:Program")
 

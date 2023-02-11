@@ -22,6 +22,7 @@ import logging
 import tempfile
 import subprocess
 import shutil
+from gettext import gettext as _
 
 from vanilla_control_center.backends.exceptions import UnsupportedPrimeSetup
 
@@ -37,21 +38,21 @@ class PrimeProfiles:
     @property
     def supported(self) -> bool:
         if "prime" in os.environ.get("DISABLED_MODULES", []):
-            logger.info("prime module disabled")
+            logger.info(_("PRIME module disabled"))
             return False
             
         if self.__binary is None:
-            logger.info("prime-select not found")
+            logger.info(_("prime-select not found"))
             return False
 
         if not self.__is_laptop():
-            logger.info("prime-select not supported for this device")
+            logger.info(_("prime-select not supported for this device"))
             return False
         
         try:
             self.get_gpus()
         except UnsupportedPrimeSetup:
-            logger.info("prime-select not supported for this setup")
+            logger.info(_("prime-select is not supported for this setup"))
             return False
 
         return True
@@ -87,7 +88,7 @@ class PrimeProfiles:
             return None
 
         if profile not in self.__available_profiles:
-            raise ValueError("Invalid profile name")
+            raise ValueError(_("Invalid profile name"))
 
         return " ".join(["pkexec", "abroot", "exec", "-f", self.__binary, profile])
 
@@ -110,14 +111,14 @@ class PrimeProfiles:
                     found["amd"] = _gpu
 
         if "intel" in found and "nvidia" in found:
-            gpus["integrated"] = found["intel"]
-            gpus["discrete"] = found["nvidia"]
+            gpus[_("integrated")] = found["intel"]
+            gpus[_("discrete")] = found["nvidia"]
         elif "intel" in found and "amd" in found:
-            gpus["integrated"] = found["intel"]
-            gpus["discrete"] = found["amd"]
+            gpus[_("integrated")] = found["intel"]
+            gpus[_("discrete")] = found["amd"]
         elif "nvidia" in found and "amd" in found:
-            gpus["integrated"] = found["amd"]
-            gpus["discrete"] = found["nvidia"]
+            gpus[_("integrated")] = found["amd"]
+            gpus[_("discrete")] = found["nvidia"]
         else:
             raise UnsupportedPrimeSetup
 

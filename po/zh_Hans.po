@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-31 22:32+0530\n"
+"POT-Creation-Date: 2023-02-11 22:10+0530\n"
 "PO-Revision-Date: 2023-02-05 08:36+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -20,7 +20,8 @@ msgstr ""
 "X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
-#: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
+#: vanilla_control_center/gtk/window.ui:8
+#: vanilla_control_center/gtk/window.ui:17 vanilla_control_center/main.py:96
 msgid "Vanilla OS Control Center"
 msgstr "Vanilla OS 控制中心"
 
@@ -28,54 +29,309 @@ msgstr "Vanilla OS 控制中心"
 msgid "No description"
 msgstr "没有说明"
 
+#: vanilla_control_center/gtk/container.ui:8
+msgid "Enter shell"
+msgstr ""
+
+#: vanilla_control_center/gtk/container.ui:15
+#, fuzzy
+msgid "Create subsystem"
+msgstr "子系统"
+
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#: vanilla_control_center/gtk/dialog-update-check.ui:6
+#, fuzzy
 msgid "Installation"
 msgstr "安装"
 
-#: vanilla_control_center/gtk/dialog-update-check.ui:40
-msgid "Apply Updates"
-msgstr "应用更新"
-
-#: vanilla_control_center/gtk/dialog-update-check.ui:63
-#: vanilla_control_center/gtk/dialog-update-check.ui:148
-msgid "Close"
-msgstr "关闭"
-
-#: vanilla_control_center/gtk/dialog-update-check.ui:116
-msgid "Restart Now"
-msgstr "现在重启"
-
-#: vanilla_control_center/gtk/dialog-update-check.ui:126
-msgid "Restart Later"
-msgstr "稍后重启"
-
 #: vanilla_control_center/gtk/help-overlay.ui:11
+#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "通用"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
+#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "显示快捷键"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
+#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "退出"
 
-#: vanilla_control_center/gtk/window.ui:186
+#: vanilla_control_center/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "应用更改"
+
+#: vanilla_control_center/gtk/window.ui:45
+#, fuzzy
+msgid "Drivers"
+msgstr "驱动"
+
+#: vanilla_control_center/gtk/window.ui:55
+msgid "Loading drivers…"
+msgstr "正在加载驱动…"
+
+#: vanilla_control_center/gtk/window.ui:56
+msgid "Please wait while the available drivers are being loaded."
+msgstr "请等待可用驱动列表加载。"
+
+#: vanilla_control_center/gtk/window.ui:64
+msgid "No Drivers Available"
+msgstr "无可用驱动"
+
+#: vanilla_control_center/gtk/window.ui:65
+msgid "There are no extra drivers available for your system."
+msgstr "您的设备没有可用的额外驱动。"
+
+#: vanilla_control_center/gtk/window.ui:80
+#, fuzzy
+msgid "PRIME Profiles"
+msgstr "正在切换 PRIME 配置文件…"
+
+#: vanilla_control_center/gtk/window.ui:86
+msgid "Active Profile"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:94
+msgid "Integrated GPU"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:95
+#: vanilla_control_center/gtk/window.ui:110
+msgid "Not detected"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:109
+msgid "Discrete GPU"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:124
+msgid "Hybrid"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:125
+msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:148
+#, fuzzy
+msgid "Updates"
+msgstr "应用更新"
+
+#: vanilla_control_center/gtk/window.ui:154
+msgid "Preferences"
+msgstr "首选项"
+
+#: vanilla_control_center/gtk/window.ui:157
+msgid "Latest Update Check"
+msgstr "上次更新检查"
+
+#: vanilla_control_center/gtk/window.ui:158
+msgid "Never"
+msgstr "从不"
+
+#: vanilla_control_center/gtk/window.ui:163
+msgid "Updates Scheduling"
+msgstr "更新频率"
+
+#: vanilla_control_center/gtk/window.ui:164
+msgid "Choose how often the system should check for updates."
+msgstr "选择系统检查更新的频率。"
+
+#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr "每周"
 
-#: vanilla_control_center/gtk/window.ui:187
+#: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
 msgstr "每个月"
 
-#: vanilla_control_center/gtk/window.ui:258
+#: vanilla_control_center/gtk/window.ui:177
+#, fuzzy
+msgid "Smart Updates"
+msgstr "智能更新（SmartUpdate）"
+
+#: vanilla_control_center/gtk/window.ui:178
+#, fuzzy
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr "启用后，系统在高负载或电池电量低的情况下不会执行更新。"
+
+#: vanilla_control_center/gtk/window.ui:189
+#, fuzzy
+msgid "Automatic Updates"
+msgstr "已更改自动更新设置。"
+
+#: vanilla_control_center/gtk/window.ui:190
+msgid "The system will automatically update itself in the background."
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:208
+#: vanilla_control_center/backends/apx.py:37
+msgid "Sub System"
+msgstr "子系统"
+
+#: vanilla_control_center/gtk/window.ui:218
+#, fuzzy
+msgid "Containers"
+msgstr "贡献者"
+
+#: vanilla_control_center/gtk/window.ui:223
+msgid "Installed Applications"
+msgstr "已安装的应用"
+
+#: vanilla_control_center/gtk/window.ui:242
 msgid "_Help"
 msgstr "_帮助"
+
+#: vanilla_control_center/gtk/window.ui:246
+#, fuzzy
+msgid "_About Control Center"
+msgstr "关于控制中心 (_A)"
+
+#: vanilla_control_center/backends/apx.py:36
+#: vanilla_control_center/backends/apx.py:40
+#: vanilla_control_center/backends/apx.py:44
+#: vanilla_control_center/backends/apx.py:48
+#: vanilla_control_center/backends/apx.py:52
+#: vanilla_control_center/backends/apx.py:56
+msgid "Flag"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:37
+#: vanilla_control_center/backends/apx.py:41
+#: vanilla_control_center/backends/apx.py:45
+#: vanilla_control_center/backends/apx.py:49
+#: vanilla_control_center/backends/apx.py:53
+#: vanilla_control_center/backends/apx.py:57
+msgid "Name"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:41
+#, fuzzy
+msgid "Arch Linux Sub System"
+msgstr "子系统"
+
+#: vanilla_control_center/backends/apx.py:45
+#, fuzzy
+msgid "Fedora Sub System"
+msgstr "子系统"
+
+#: vanilla_control_center/backends/apx.py:49
+#, fuzzy
+msgid "Alpine Sub System"
+msgstr "子系统"
+
+#: vanilla_control_center/backends/apx.py:53
+#, fuzzy
+msgid "openSUSE Sub System"
+msgstr "子系统"
+
+#: vanilla_control_center/backends/apx.py:57
+#, fuzzy
+msgid "Void Linux Sub System"
+msgstr "子系统"
+
+#: vanilla_control_center/backends/apx.py:69
+msgid "DISABLED_MODULES"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:70
+msgid "Apx module disabled"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:74
+msgid "Apx binary not found"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:78
+msgid "Distrobox binary not found"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:143
+msgid "Unable to get containers"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:161
+#, fuzzy, python-brace-format
+msgid "Container '{0}' not found"
+msgstr "已初始化容器 '{}'"
+
+#: vanilla_control_center/backends/apx.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr ""
+
+#: vanilla_control_center/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:41
+msgid "PRIME module disabled"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:45
+msgid "prime-select not found"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:49
+msgid "prime-select not supported for this device"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:55
+msgid "prime-select is not supported for this setup"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:91
+msgid "Invalid profile name"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:114
+#: vanilla_control_center/backends/prime_profiles.py:117
+#: vanilla_control_center/backends/prime_profiles.py:120
+msgid "integrated"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:115
+#: vanilla_control_center/backends/prime_profiles.py:118
+#: vanilla_control_center/backends/prime_profiles.py:121
+msgid "discrete"
+msgstr ""
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:44
+msgid "Getting devices list"
+msgstr ""
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:77
+#, python-format
+msgid "Devices list: %s"
+msgstr ""
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:84
+#, fuzzy, python-format
+msgid "Driver %s installed: %s"
+msgstr "已安装新驱动。"
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:99
+#, python-format
+msgid "Install command: %s"
+msgstr ""
+
+#: vanilla_control_center/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr ""
+
+#: vanilla_control_center/container.py:47
+#: vanilla_control_center/container.py:48
+msgid "Clicked"
+msgstr ""
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -85,134 +341,134 @@ msgstr "已为容器 '{}' 打开 shell"
 msgid "Container '{}' initialized"
 msgstr "已初始化容器 '{}'"
 
-#: vanilla_control_center/main.py:69
+#: vanilla_control_center/driver.py:49
+msgid "Activated"
+msgstr ""
+
+#: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
+#, fuzzy
+msgid "Driver selected"
+msgstr "驱动"
+
+#: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
+#, fuzzy
+msgid "Installed"
+msgstr "安装"
+
+#: vanilla_control_center/driver.py:86
+msgid "Selected driver: {}"
+msgstr ""
+
+#: vanilla_control_center/driver.py:92
+#, fuzzy
+msgid "Installation needed"
+msgstr "安装"
+
+#: vanilla_control_center/main.py:105
 msgid "Code by"
 msgstr "代码编写"
 
-#: vanilla_control_center/main.py:75
+#: vanilla_control_center/main.py:111
 msgid "Documentation by"
 msgstr "文档编写"
 
-#: vanilla_control_center/main.py:82
+#: vanilla_control_center/main.py:118
 msgid "Contributors"
 msgstr "贡献者"
 
-#: vanilla_control_center/main.py:90
+#: vanilla_control_center/main.py:126
 msgid "Translators"
 msgstr "翻译者"
 
-#: vanilla_control_center/window.py:130
+#: vanilla_control_center/window.py:119
+#, fuzzy
+msgid "Installation requested: {}"
+msgstr "安装"
+
+#: vanilla_control_center/window.py:128
 msgid "Installation Failed."
 msgstr "安装失败。"
 
-#: vanilla_control_center/window.py:133
+#: vanilla_control_center/window.py:131
 msgid "New Drivers Installed."
 msgstr "已安装新驱动。"
 
-#: vanilla_control_center/window.py:140 vanilla_control_center/window.py:273
+#: vanilla_control_center/window.py:132
+#, fuzzy
+msgid "Installation finished."
+msgstr "安装失败。"
+
+#: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr "有其他事务正在运行，或者系统需要重新启动。"
 
-#: vanilla_control_center/window.py:150
+#: vanilla_control_center/window.py:148
 msgid "Installing new Drivers…"
 msgstr "正在安装新的驱动程序…"
 
-#: vanilla_control_center/window.py:194
+#: vanilla_control_center/window.py:177
 msgid "Smart Update Changed."
 msgstr "已更改智能更新。"
 
-#: vanilla_control_center/window.py:196
+#: vanilla_control_center/window.py:179
 msgid "Failed to change the Smart Update setting."
 msgstr "无法更改智能更新设置。"
 
-#: vanilla_control_center/window.py:201
+#: vanilla_control_center/window.py:184
 msgid "Automatic Update setting changed."
 msgstr "已更改自动更新设置。"
 
-#: vanilla_control_center/window.py:203
+#: vanilla_control_center/window.py:186
 msgid "Failed to change Automatic Update setting"
 msgstr "无法更改自动更新设置"
 
-#: vanilla_control_center/window.py:210
+#: vanilla_control_center/window.py:193
 msgid "Update Schedule Changed."
 msgstr "已更改更新频率。"
 
-#: vanilla_control_center/window.py:238
+#: vanilla_control_center/window.py:221
 msgid "{} Exited With Error."
 msgstr "{} 报错退出。"
 
-#: vanilla_control_center/window.py:241
+#: vanilla_control_center/window.py:224
 msgid "{} Exited."
 msgstr "{} 已退出。"
 
-#: vanilla_control_center/window.py:244
+#: vanilla_control_center/window.py:227
 msgid "{} Launched."
 msgstr "{} 已启动。"
 
-#: vanilla_control_center/window.py:289
+#: vanilla_control_center/window.py:272
 msgid "Prime Profile Changed."
 msgstr "已更改 PRIME 配置文件。"
 
-#: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
+#: vanilla_control_center/window.py:279 vanilla_control_center/window.py:284
 msgid "Prime Profile Change Failed."
 msgstr "更改 PRIME 配置文件失败。"
 
-#: vanilla_control_center/window.py:299
+#: vanilla_control_center/window.py:282
 msgid "Switching PRIME Profile…"
 msgstr "正在切换 PRIME 配置文件…"
 
-#~ msgid "This may take a while, based on your internet connection speed."
-#~ msgstr "这可能需要一段时间，具体取决于您的互联网连接速度。"
-
-#~ msgid "Apply Changes"
-#~ msgstr "应用更改"
-
-#~ msgid "Drivers"
-#~ msgstr "驱动"
-
-#~ msgid "Loading drivers…"
-#~ msgstr "正在加载驱动…"
-
-#~ msgid "Please wait while the available drivers are being loaded."
-#~ msgstr "请等待可用驱动列表加载。"
-
-#~ msgid "No Drivers Available"
-#~ msgstr "无可用驱动"
-
-#~ msgid "There are no extra drivers available for your system."
-#~ msgstr "您的设备没有可用的额外驱动。"
-
-#~ msgid "Preferences"
-#~ msgstr "首选项"
-
-#~ msgid "Latest Update Check"
-#~ msgstr "上次更新检查"
-
-#~ msgid "Never"
-#~ msgstr "从不"
-
-#~ msgid "Updates Scheduling"
-#~ msgstr "更新频率"
-
-#~ msgid "Choose how often the system should check for updates."
-#~ msgstr "选择系统检查更新的频率。"
-
-#~ msgid "SmartUpdate"
-#~ msgstr "智能更新（SmartUpdate）"
-
-#~ msgid ""
-#~ "If enabled, the system will not update if the system is in high load or "
-#~ "the battery is low."
-#~ msgstr "启用后，系统在高负载或电池电量低的情况下不会执行更新。"
-
-#~ msgid "Sub System"
+#, fuzzy
+#~ msgid "_Sub System"
 #~ msgstr "子系统"
 
-#~ msgid "Installed Applications"
-#~ msgstr "已安装的应用"
+#, fuzzy
+#~ msgid "_Vanilla OS Control Center"
+#~ msgstr "Vanilla OS 控制中心"
 
-#~ msgid "_About Control-center"
-#~ msgstr "关于控制中心 (_A)"
+#~ msgid "Close"
+#~ msgstr "关闭"
+
+#~ msgid "Restart Now"
+#~ msgstr "现在重启"
+
+#~ msgid "Restart Later"
+#~ msgstr "稍后重启"
+
+#~ msgid "This may take a while, based on your internet connection speed."
+#~ msgstr "这可能需要一段时间，具体取决于您的互联网连接速度。"
 
 #~ msgid "Immutability"
 #~ msgstr "不变性"

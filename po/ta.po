@@ -7,20 +7,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-31 22:32+0530\n"
-"PO-Revision-Date: 2023-02-03 14:34+0000\n"
+"POT-Creation-Date: 2023-02-11 22:10+0530\n"
+"PO-Revision-Date: 2023-02-11 22:21+0530\n"
 "Last-Translator: K.B.Dharun Krishna <kbdharunkrishna@gmail.com>\n"
-"Language-Team: Tamil <https://hosted.weblate.org/projects/vanilla-os/"
-"control-center/ta/>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/vanilla-os/control-center/ta/"
+">\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Poedit 3.2.2\n"
 
-#: data/org.vanillaos.ControlCenter.desktop.in:3
-#: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
+#: data/org.vanillaos.ControlCenter.desktop.in:3 vanilla_control_center/gtk/window.ui:8
+#: vanilla_control_center/gtk/window.ui:17 vanilla_control_center/main.py:96
 msgid "Vanilla OS Control Center"
 msgstr "வெண்ணிலா OS கட்டுப்பாட்டு மையம்"
 
@@ -28,27 +28,17 @@ msgstr "வெண்ணிலா OS கட்டுப்பாட்டு ம�
 msgid "No description"
 msgstr "விளக்கம் இல்லை"
 
+#: vanilla_control_center/gtk/container.ui:8
+msgid "Enter shell"
+msgstr "ஷெல்லை (ஓடு) உள்ளிடவும்"
+
+#: vanilla_control_center/gtk/container.ui:15
+msgid "Create subsystem"
+msgstr "துணை அமைப்பை உருவாக்கவும்"
+
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#: vanilla_control_center/gtk/dialog-update-check.ui:6
 msgid "Installation"
 msgstr "நிறுவல்"
-
-#: vanilla_control_center/gtk/dialog-update-check.ui:40
-msgid "Apply Updates"
-msgstr "புதுப்பிப்புகளைப் பயன்படுத்தவும்"
-
-#: vanilla_control_center/gtk/dialog-update-check.ui:63
-#: vanilla_control_center/gtk/dialog-update-check.ui:148
-msgid "Close"
-msgstr "மூடுங்கள்"
-
-#: vanilla_control_center/gtk/dialog-update-check.ui:116
-msgid "Restart Now"
-msgstr "இப்போது மீண்டும் தொடங்கவும்"
-
-#: vanilla_control_center/gtk/dialog-update-check.ui:126
-msgid "Restart Later"
-msgstr "பின்னர் மீண்டும் தொடங்கவும்"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -65,17 +55,255 @@ msgctxt "shortcut window"
 msgid "Quit"
 msgstr "வெளியேறு"
 
-#: vanilla_control_center/gtk/window.ui:186
+#: vanilla_control_center/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "மாற்றங்களை விண்ணப்பிக்கவும்"
+
+#: vanilla_control_center/gtk/window.ui:45
+msgid "Drivers"
+msgstr "இயக்கிகள்"
+
+#: vanilla_control_center/gtk/window.ui:55
+msgid "Loading drivers…"
+msgstr "இயக்கிகளை ஏற்றுகிறது…"
+
+#: vanilla_control_center/gtk/window.ui:56
+msgid "Please wait while the available drivers are being loaded."
+msgstr "கிடைக்கக்கூடிய இயக்கிகள் ஏற்றப்படும் வரை காத்திருக்கவும்."
+
+#: vanilla_control_center/gtk/window.ui:64
+msgid "No Drivers Available"
+msgstr "இயக்கிகள் இல்லை"
+
+#: vanilla_control_center/gtk/window.ui:65
+msgid "There are no extra drivers available for your system."
+msgstr "உங்கள் கணினிக்கு கூடுதல் இயக்கிகள் எதுவும் கிடைக்கவில்லை."
+
+#: vanilla_control_center/gtk/window.ui:80
+msgid "PRIME Profiles"
+msgstr "பிரைம் சுயவிவரங்கள்"
+
+#: vanilla_control_center/gtk/window.ui:86
+msgid "Active Profile"
+msgstr "செயலில் உள்ள சுயவிவரம்"
+
+#: vanilla_control_center/gtk/window.ui:94
+msgid "Integrated GPU"
+msgstr "ஒருங்கிணைந்த GPU"
+
+#: vanilla_control_center/gtk/window.ui:95 vanilla_control_center/gtk/window.ui:110
+msgid "Not detected"
+msgstr "கண்டுபிடிக்க படவில்லை"
+
+#: vanilla_control_center/gtk/window.ui:109
+msgid "Discrete GPU"
+msgstr "தனித்துவமான ஜி.பீ"
+
+#: vanilla_control_center/gtk/window.ui:124
+msgid "Hybrid"
+msgstr "கலப்பு"
+
+#: vanilla_control_center/gtk/window.ui:125
+msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+msgstr "எல்லாவற்றிற்கும் ஒருங்கிணைந்த GPU மற்றும் தேவைக்கேற்ப தனி GPU ஆகியவற்றைப் பயன்படுத்தவும்"
+
+#: vanilla_control_center/gtk/window.ui:148
+msgid "Updates"
+msgstr "புதுப்பிப்புகள்"
+
+#: vanilla_control_center/gtk/window.ui:154
+msgid "Preferences"
+msgstr "விருப்பத்தேர்வுகள்"
+
+#: vanilla_control_center/gtk/window.ui:157
+msgid "Latest Update Check"
+msgstr "சமீபத்திய புதுப்பிப்பு சரிபார்ப்பு"
+
+#: vanilla_control_center/gtk/window.ui:158
+msgid "Never"
+msgstr "ஒருபோதும் இல்லை"
+
+#: vanilla_control_center/gtk/window.ui:163
+msgid "Updates Scheduling"
+msgstr "புதுப்பிப்புகளை திட்டமிடுதல்"
+
+#: vanilla_control_center/gtk/window.ui:164
+msgid "Choose how often the system should check for updates."
+msgstr "புதுப்பிப்புகளை கணினி எவ்வளவு அடிக்கடி சரிபார்க்க வேண்டும் என்பதைத் தேர்வுசெய்யவும்."
+
+#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr "வாராந்திர"
 
-#: vanilla_control_center/gtk/window.ui:187
+#: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
 msgstr "மாதாந்திர"
 
-#: vanilla_control_center/gtk/window.ui:258
+#: vanilla_control_center/gtk/window.ui:177
+msgid "Smart Updates"
+msgstr "புத்திசாலி புதுப்பிப்புகள்"
+
+#: vanilla_control_center/gtk/window.ui:178
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr "அதிக பயன்பாட்டில் இருந்தாலோ அல்லது குறைந்த மின்கலத்திலோ கணினி புதுப்பிக்கப்படாது."
+
+#: vanilla_control_center/gtk/window.ui:189
+msgid "Automatic Updates"
+msgstr "தானியங்கி புதுப்பிப்புகள்"
+
+#: vanilla_control_center/gtk/window.ui:190
+msgid "The system will automatically update itself in the background."
+msgstr "பின்னணியில் கணினி தானாகவே புதுப்பிக்கப்படும்."
+
+#: vanilla_control_center/gtk/window.ui:208 vanilla_control_center/backends/apx.py:37
+msgid "Sub System"
+msgstr "துணை அமைப்பு"
+
+#: vanilla_control_center/gtk/window.ui:218
+msgid "Containers"
+msgstr "கொள்கலன்கள்"
+
+#: vanilla_control_center/gtk/window.ui:223
+msgid "Installed Applications"
+msgstr "நிறுவப்பட்ட பயன்பாடுகள்"
+
+#: vanilla_control_center/gtk/window.ui:242
 msgid "_Help"
 msgstr "_உதவி"
+
+#: vanilla_control_center/gtk/window.ui:246
+msgid "_About Control Center"
+msgstr "_கட்டுப்பாட்டு மையம் பற்றி"
+
+#: vanilla_control_center/backends/apx.py:36 vanilla_control_center/backends/apx.py:40
+#: vanilla_control_center/backends/apx.py:44 vanilla_control_center/backends/apx.py:48
+#: vanilla_control_center/backends/apx.py:52 vanilla_control_center/backends/apx.py:56
+msgid "Flag"
+msgstr "கொடி"
+
+#: vanilla_control_center/backends/apx.py:37 vanilla_control_center/backends/apx.py:41
+#: vanilla_control_center/backends/apx.py:45 vanilla_control_center/backends/apx.py:49
+#: vanilla_control_center/backends/apx.py:53 vanilla_control_center/backends/apx.py:57
+msgid "Name"
+msgstr "பெயர்"
+
+#: vanilla_control_center/backends/apx.py:41
+msgid "Arch Linux Sub System"
+msgstr "ஆர்ச் லினக்ஸ் துணை அமைப்பு"
+
+#: vanilla_control_center/backends/apx.py:45
+msgid "Fedora Sub System"
+msgstr "ஃபெடோரா துணை அமைப்பு"
+
+#: vanilla_control_center/backends/apx.py:49
+msgid "Alpine Sub System"
+msgstr "ஆல்பைன் துணை அமைப்பு"
+
+#: vanilla_control_center/backends/apx.py:53
+msgid "openSUSE Sub System"
+msgstr "openSUSE துணை அமைப்பு"
+
+#: vanilla_control_center/backends/apx.py:57
+msgid "Void Linux Sub System"
+msgstr "வாய்டு லினக்ஸ் துணை அமைப்பு"
+
+#: vanilla_control_center/backends/apx.py:69
+msgid "DISABLED_MODULES"
+msgstr "முடக்கப்பட்ட_தொகுதிகள்"
+
+#: vanilla_control_center/backends/apx.py:70
+msgid "Apx module disabled"
+msgstr "Apx தொகுதி முடக்கப்பட்டுள்ளது"
+
+#: vanilla_control_center/backends/apx.py:74
+msgid "Apx binary not found"
+msgstr "Apx பைனரி கிடைக்கவில்லை"
+
+#: vanilla_control_center/backends/apx.py:78
+msgid "Distrobox binary not found"
+msgstr "Distrobox பைனரி கிடைக்கவில்லை"
+
+#: vanilla_control_center/backends/apx.py:143
+msgid "Unable to get containers"
+msgstr "கொள்கலன்களைப் பெற முடியவில்லை"
+
+#: vanilla_control_center/backends/apx.py:161
+#, python-brace-format
+msgid "Container '{0}' not found"
+msgstr "கொள்கலன் '{0}' கிடைக்கவில்லை"
+
+#: vanilla_control_center/backends/apx.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr "இயங்கும் பயன்பாடு: '{0}'"
+
+#: vanilla_control_center/backends/apx.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr "நிர்வகிக்கப்பட்ட பயன்பாட்டைத் தொடங்க முடியவில்லை: '{0}'"
+
+#: vanilla_control_center/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr "ஆதரிக்கப்படாத அமைவு"
+
+#: vanilla_control_center/backends/prime_profiles.py:41
+msgid "PRIME module disabled"
+msgstr "PRIME தொகுதி முடக்கப்பட்டது"
+
+#: vanilla_control_center/backends/prime_profiles.py:45
+msgid "prime-select not found"
+msgstr "பிரைம்-செலக்ட் காணப்படவில்லை"
+
+#: vanilla_control_center/backends/prime_profiles.py:49
+msgid "prime-select not supported for this device"
+msgstr "பிரைம்-செலக்ட் இந்தச் சாதனத்திற்கு ஆதரிக்கப்படவில்லை"
+
+#: vanilla_control_center/backends/prime_profiles.py:55
+msgid "prime-select is not supported for this setup"
+msgstr "இந்த அமைப்பிற்கு prime-select ஆதரிக்கப்படவில்லை"
+
+#: vanilla_control_center/backends/prime_profiles.py:91
+msgid "Invalid profile name"
+msgstr "தவறான சுயவிவரப் பெயர்"
+
+#: vanilla_control_center/backends/prime_profiles.py:114
+#: vanilla_control_center/backends/prime_profiles.py:117
+#: vanilla_control_center/backends/prime_profiles.py:120
+msgid "integrated"
+msgstr "ஒருங்கிணைக்கப்பட்டது"
+
+#: vanilla_control_center/backends/prime_profiles.py:115
+#: vanilla_control_center/backends/prime_profiles.py:118
+#: vanilla_control_center/backends/prime_profiles.py:121
+msgid "discrete"
+msgstr "தனித்தனி"
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:44
+msgid "Getting devices list"
+msgstr "சாதனங்களின் பட்டியலைப் பெறுகிறது"
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:77
+#, python-format
+msgid "Devices list: %s"
+msgstr "சாதனங்களின் பட்டியல்: %s"
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:84
+#, python-format
+msgid "Driver %s installed: %s"
+msgstr "இயக்கி %s நிறுவப்பட்டது: %s"
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:99
+#, python-format
+msgid "Install command: %s"
+msgstr "நிறுவல் கட்டளை: %s"
+
+#: vanilla_control_center/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr "VSO கட்டமைப்பு கோப்பு {} இல் காணப்படவில்லை"
+
+#: vanilla_control_center/container.py:47 vanilla_control_center/container.py:48
+msgid "Clicked"
+msgstr "சொடுக்கப்பட்டது"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -85,147 +313,159 @@ msgstr "'{}' கொள்கலனுக்காக ஷெல் (ஓடு) �
 msgid "Container '{}' initialized"
 msgstr "கொள்கலன் '{}' துவக்கப்பட்டது"
 
-#: vanilla_control_center/main.py:69
+#: vanilla_control_center/driver.py:49
+msgid "Activated"
+msgstr "செயல்படுத்தப்பட்டது"
+
+#: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
+msgid "Driver selected"
+msgstr "இயக்கி தேர்ந்தெடுக்கப்பட்டது"
+
+#: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
+msgid "Installed"
+msgstr "நிறுவப்பட்டது"
+
+#: vanilla_control_center/driver.py:86
+msgid "Selected driver: {}"
+msgstr "தேர்ந்தெடுக்கப்பட்ட இயக்கி: {}"
+
+#: vanilla_control_center/driver.py:92
+msgid "Installation needed"
+msgstr "நிறுவல் தேவை"
+
+#: vanilla_control_center/main.py:105
 msgid "Code by"
 msgstr "குறியீடு மூலம்"
 
-#: vanilla_control_center/main.py:75
+#: vanilla_control_center/main.py:111
 msgid "Documentation by"
 msgstr "மூலம் ஆவணப்படுத்தல்"
 
-#: vanilla_control_center/main.py:82
+#: vanilla_control_center/main.py:118
 msgid "Contributors"
 msgstr "பங்களிப்பாளர்கள்"
 
-#: vanilla_control_center/main.py:90
+#: vanilla_control_center/main.py:126
 msgid "Translators"
 msgstr "மொழிபெயர்ப்பாளர்கள்"
 
-#: vanilla_control_center/window.py:130
+#: vanilla_control_center/window.py:119
+msgid "Installation requested: {}"
+msgstr "நிறுவல் கோரப்பட்டது: {}"
+
+#: vanilla_control_center/window.py:128
 msgid "Installation Failed."
 msgstr "நிறுவல் தோல்வி அடைந்தது."
 
-#: vanilla_control_center/window.py:133
+#: vanilla_control_center/window.py:131
 msgid "New Drivers Installed."
 msgstr "புதிய இயக்கிகள் நிறுவப்பட்டுள்ளன."
 
-#: vanilla_control_center/window.py:140 vanilla_control_center/window.py:273
+#: vanilla_control_center/window.py:132
+msgid "Installation finished."
+msgstr "நிறுவல் முடிந்தது."
+
+#: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr "மற்றொரு பரிவர்த்தனை இயங்குகிறது அல்லது கணினியை மறுதொடக்கம் செய்ய வேண்டும்."
 
-#: vanilla_control_center/window.py:150
+#: vanilla_control_center/window.py:148
 msgid "Installing new Drivers…"
 msgstr "புதிய இயக்கிகளை நிறுவுகிறது…"
 
-#: vanilla_control_center/window.py:194
+#: vanilla_control_center/window.py:177
 msgid "Smart Update Changed."
 msgstr "புத்திசாலி புதுப்பிப்பு மாற்றப்பட்டுள்ளது."
 
-#: vanilla_control_center/window.py:196
+#: vanilla_control_center/window.py:179
 msgid "Failed to change the Smart Update setting."
 msgstr "புத்திசாலி புதுப்பிப்பு அமைப்பை மாற்ற முடியவில்லை."
 
-#: vanilla_control_center/window.py:201
+#: vanilla_control_center/window.py:184
 msgid "Automatic Update setting changed."
 msgstr "தானியங்கி புதுப்பிப்பு அமைப்பு மாற்றப்பட்டது."
 
-#: vanilla_control_center/window.py:203
+#: vanilla_control_center/window.py:186
 msgid "Failed to change Automatic Update setting"
 msgstr "தானியங்கு புதுப்பிப்பு அமைப்பை மாற்றுவதில் தோல்வி"
 
-#: vanilla_control_center/window.py:210
+#: vanilla_control_center/window.py:193
 msgid "Update Schedule Changed."
 msgstr "புதுப்பிப்பு அட்டவணை மாற்றப்பட்டது."
 
-#: vanilla_control_center/window.py:238
+#: vanilla_control_center/window.py:221
 msgid "{} Exited With Error."
 msgstr "{} பிழையுடன் வெளியேறியது."
 
-#: vanilla_control_center/window.py:241
+#: vanilla_control_center/window.py:224
 msgid "{} Exited."
 msgstr "{} வெளியேறியது."
 
-#: vanilla_control_center/window.py:244
+#: vanilla_control_center/window.py:227
 msgid "{} Launched."
 msgstr "{} தொடங்கப்பட்டது."
 
-#: vanilla_control_center/window.py:289
+#: vanilla_control_center/window.py:272
 msgid "Prime Profile Changed."
 msgstr "பிரைம் சுயவிவரம் மாற்றப்பட்டது."
 
-#: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
+#: vanilla_control_center/window.py:279 vanilla_control_center/window.py:284
 msgid "Prime Profile Change Failed."
 msgstr "பிரைம் சுயவிவரத்தை மாற்றுவதில் தோல்வி."
 
-#: vanilla_control_center/window.py:299
+#: vanilla_control_center/window.py:282
 msgid "Switching PRIME Profile…"
 msgstr "PRIME சுயவிவரத்தை மாற்றுகிறது…"
+
+#~ msgid "_Sub System"
+#~ msgstr "_துணை அமைப்பு"
+
+#, fuzzy
+#~ msgid "_Vanilla OS Control Center"
+#~ msgstr "வெண்ணிலா OS கட்டுப்பாட்டு மையம்"
+
+#~ msgid "apx_managed"
+#~ msgstr "apx_நிர்வகிக்கப்படும்"
+
+#~ msgid "apx_managed_aur"
+#~ msgstr "apx_நிர்வகிக்கப்படும்_aur"
+
+#~ msgid "apx_managed_dnf"
+#~ msgstr "apx_நிர்வகிக்கப்படும்_dnf"
+
+#~ msgid "apx_managed_apk"
+#~ msgstr "apx_நிர்வகிக்கப்படும்_apk"
+
+#~ msgid "apx_managed_zypper"
+#~ msgstr "apx_நிர்வகிக்கப்படும்_zypper"
+
+#~ msgid "apx_managed_xbps"
+#~ msgstr "apx_நிர்வகிக்கப்படும்_xbps"
+
+#~ msgid "prime module disabled"
+#~ msgstr "பிரைம் தொகுதி முடக்கப்பட்டது"
+
+#~ msgid "Close"
+#~ msgstr "மூடுங்கள்"
+
+#~ msgid "Restart Now"
+#~ msgstr "இப்போது மீண்டும் தொடங்கவும்"
+
+#~ msgid "Restart Later"
+#~ msgstr "பின்னர் மீண்டும் தொடங்கவும்"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr "உங்கள் இணைய இணைப்பு வேகத்தின் அடிப்படையில் இதற்கு சிறிது நேரம் ஆகலாம்."
 
-#~ msgid "Apply Changes"
-#~ msgstr "மாற்றங்களை விண்ணப்பிக்கவும்"
-
-#~ msgid "Drivers"
-#~ msgstr "இயக்கிகள்"
-
-#~ msgid "Loading drivers…"
-#~ msgstr "இயக்கிகளை ஏற்றுகிறது…"
-
-#~ msgid "Please wait while the available drivers are being loaded."
-#~ msgstr "கிடைக்கக்கூடிய இயக்கிகள் ஏற்றப்படும் வரை காத்திருக்கவும்."
-
-#~ msgid "No Drivers Available"
-#~ msgstr "இயக்கிகள் இல்லை"
-
-#~ msgid "There are no extra drivers available for your system."
-#~ msgstr "உங்கள் கணினிக்கு கூடுதல் இயக்கிகள் எதுவும் கிடைக்கவில்லை."
-
-#~ msgid "Preferences"
-#~ msgstr "விருப்பத்தேர்வுகள்"
-
-#~ msgid "Latest Update Check"
-#~ msgstr "சமீபத்திய புதுப்பிப்பு சரிபார்ப்பு"
-
-#~ msgid "Never"
-#~ msgstr "ஒருபோதும் இல்லை"
-
-#~ msgid "Updates Scheduling"
-#~ msgstr "புதுப்பிப்புகளை திட்டமிடுதல்"
-
-#~ msgid "Choose how often the system should check for updates."
-#~ msgstr ""
-#~ "புதுப்பிப்புகளை கணினி எவ்வளவு அடிக்கடி சரிபார்க்க வேண்டும் என்பதைத் தேர்வுசெய்யவும்."
-
-#~ msgid "SmartUpdate"
-#~ msgstr "ஸ்மார்ட் புதுப்பிப்பு"
-
 #~ msgid ""
-#~ "If enabled, the system will not update if the system is in high load or "
-#~ "the battery is low."
+#~ "If enabled, the system will not update if the system is in high load or the battery "
+#~ "is low."
 #~ msgstr ""
-#~ "இயக்கப்பட்டால், கணினி அதிக சுமையில் இருந்தாலும் அல்லது பேட்டரி குறைவாக இருந்தாலும் "
-#~ "கணினி புதுப்பிக்கப்படாது."
-
-#~ msgid "Sub System"
-#~ msgstr "துணை அமைப்பு"
-
-#~ msgid "Installed Applications"
-#~ msgstr "நிறுவப்பட்ட பயன்பாடுகள்"
-
-#~ msgid "_About Control-center"
-#~ msgstr "_கட்டுப்பாட்டு-மையம் பற்றி"
+#~ "இயக்கப்பட்டால், கணினி அதிக சுமையில் இருந்தாலும் அல்லது பேட்டரி குறைவாக இருந்தாலும் கணினி "
+#~ "புதுப்பிக்கப்படாது."
 
 #~ msgid "There are no containerized apps installed on your system."
 #~ msgstr "உங்கள் கணினியில் கண்டெய்னரைஸ் செய்யப்பட்ட பயன்பாடுகள் எதுவும் நிறுவப்படவில்லை."
-
-#~ msgid ""
-#~ "If enabled, the system will not update if the system is in high load or "
-#~ "battery is low."
-#~ msgstr ""
-#~ "இயக்கப்பட்டால், கணினி அதிக சுமையில் அல்லது பேட்டரி குறைவாக இருந்தால் கணினி "
-#~ "புதுப்பிக்கப்படாது."
 
 #~ msgid "Immutability"
 #~ msgstr "மாறாத தன்மை"
@@ -241,8 +481,7 @@ msgstr "PRIME சுயவிவரத்தை மாற்றுகிறத�
 
 #~ msgid "Choose whether to restore the default mode after a system reboot."
 #~ msgstr ""
-#~ "கணினி மறுதொடக்கத்திற்குப் பிறகு இயல்புநிலை பயன்முறையை மீட்டமைக்க வேண்டுமா என்பதைத் "
-#~ "தேர்ந்தெடுக்கவும்."
+#~ "கணினி மறுதொடக்கத்திற்குப் பிறகு இயல்புநிலை பயன்முறையை மீட்டமைக்க வேண்டுமா என்பதைத் தேர்ந்தெடுக்கவும்."
 
 #~ msgid "Default Mode"
 #~ msgstr "இயல்புநிலை பயன்முறை"
@@ -279,9 +518,6 @@ msgstr "PRIME சுயவிவரத்தை மாற்றுகிறத�
 
 #~ msgid "Persistent Mode Enabled."
 #~ msgstr "நிரந்தர பயன்முறை இயக்கப்பட்டது."
-
-#~ msgid "Persistent Mode Disabled."
-#~ msgstr "நிரந்தர பயன்முறை முடக்கப்பட்டது."
 
 #~ msgid "Failed to Set Default Mode."
 #~ msgstr "இயல்புநிலை பயன்முறையை அமைப்பதில் தோல்வி."

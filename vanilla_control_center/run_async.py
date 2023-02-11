@@ -22,7 +22,7 @@ import sys
 import threading
 import traceback
 import logging
-
+from gettext import gettext as _
 from gi.repository import GLib
 
 logger = logging.getLogger("Vanilla::Async")

@@ -21,7 +21,9 @@ import sys
 import logging
 import subprocess
 import gi
-from gettext import gettext as _
+import gettext
+from os import path
+import locale
 
 gi.require_version('Gtk', '4.0')
 gi.require_version('Adw', '1')
@@ -31,6 +33,40 @@ from .window import VanillaWindow
 
 
 logging.basicConfig(level=logging.INFO)
+
+# region Translations
+'''
+This code snippet searches for and uploads translations to different 
+directories, depending on your production or development environment. 
+The function _() can be used to create and retrieve translations.
+'''
+share_dir = path.join(sys.prefix, 'share')
+base_dir = '.'
+
+if getattr(sys, 'frozen', False):
+    base_dir = path.dirname(sys.executable)
+    share_dir = path.join(base_dir, 'share')
+elif sys.argv[0]:
+    exec_dir = path.dirname(path.realpath(sys.argv[0]))
+    base_dir = path.dirname(exec_dir)
+    share_dir = path.join(base_dir, 'share')
+
+    if not path.exists(share_dir):
+        share_dir = base_dir
+
+locale_dir = path.join(share_dir, 'locale')
+
+if not path.exists(locale_dir):  # development
+    locale_dir = path.join(base_dir, 'build', 'mo')
+
+locale.bindtextdomain("vanilla-control-center", locale_dir)
+locale.textdomain("vanilla-control-center")
+gettext.bindtextdomain("vanilla-control-center", locale_dir)
+gettext.textdomain("vanilla-control-center")
+_ = gettext.gettext
+
+
+# endregion
 
 
 class VanillaControlCenterApplication(Adw.Application):

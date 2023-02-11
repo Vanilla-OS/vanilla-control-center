@@ -22,6 +22,7 @@ import logging
 import tempfile
 import subprocess
 import shutil
+from gettext import gettext as _
 
 logger = logging.getLogger("Vanilla::UbuntuDrivers")
 
@@ -40,7 +41,7 @@ class UbuntuDrivers:
             
     
     def get_devices(self) -> list:
-        logger.info("Getting devices list")
+        logger.info(_("Getting devices list"))
         devices = []
         output = subprocess.run([self.__binary, "devices"], capture_output=True, text=True).stdout
         nvidia_installed = False
@@ -73,14 +74,14 @@ class UbuntuDrivers:
                 devices[-1]["drivers"] = sorted(devices[-1]["drivers"], key=lambda k: k["name"])
                 devices[-1]["drivers"] = sorted(devices[-1]["drivers"], key=lambda k: k["installed"], reverse=True)
         
-        logger.debug("Devices list: %s", devices)
+        logger.debug(_("Devices list: %s", devices))
                     
         return devices
 
     def __check_installation(self, driver: str) -> bool:
         output = subprocess.run([self.__bin_dpkg, "-l", driver], capture_output=True, text=True).stdout
         res = "ii" in output
-        logger.debug("Driver %s installed: %s", driver, res)
+        logger.debug(_("Driver %s installed: %s"), driver, res)
         return res
 
     def can_install(self) -> bool:
@@ -95,13 +96,13 @@ class UbuntuDrivers:
             command.append(driver)
 
         command.append("-y")
-        logger.info("Install command: %s", " ".join(command))
+        logger.info(_("Install command: %s"), " ".join(command))
         
         return " ".join(command)
 
     def autoinstall(self) -> bool:
         if "FAKE" in os.environ:
-            logging.info(f"executing cmd: pkexec {self.__binary} autoinstall")
+            logging.info(f"_(executing cmd: pkexec) {self.__binary} _(autoinstall)")
             return True
 
         proc = subprocess.Popen(["pkexec", self.__binary, "autoinstall"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)

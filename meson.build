@@ -4,14 +4,13 @@ project('vanilla-control-center',
   default_options: [ 'warning_level=2', 'werror=false', ],
 )
 
-i18n = import('i18n')
 gnome = import('gnome')
+i18n = import('i18n')
+localedir = get_option('localedir')
 
-
-
-subdir('data')
-subdir('vanilla_control_center')
 subdir('po')
+subdir('vanilla_control_center')
+subdir('data')
 subdir('help')
 
 gnome.post_install(

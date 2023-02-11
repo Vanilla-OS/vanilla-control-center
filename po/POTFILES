@@ -4,7 +4,6 @@ data/org.vanillaos.ControlCenter.gschema.xml
 
 vanilla_control_center/gtk/container.ui
 vanilla_control_center/gtk/dialog-installation.ui
-vanilla_control_center/gtk/dialog-update-check.ui
 vanilla_control_center/gtk/driver.ui
 vanilla_control_center/gtk/help-overlay.ui
 vanilla_control_center/gtk/program.ui
@@ -18,7 +17,6 @@ vanilla_control_center/backends/vso.py
 
 vanilla_control_center/container.py
 vanilla_control_center/dialog_installation.py
-vanilla_control_center/dialog_update_check.py
 vanilla_control_center/driver.py
 vanilla_control_center/main.py
 vanilla_control_center/program.py

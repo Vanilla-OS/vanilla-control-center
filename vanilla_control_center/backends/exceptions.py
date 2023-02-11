@@ -17,8 +17,8 @@
 #
 # SPDX-License-Identifier: GPL-3.0-only
 
-
+from gettext import gettext as _
 class UnsupportedPrimeSetup(Exception):
     
     def __init__(self):
-        super().__init__("Unsupported setup")
+        super().__init__(_("Unsupported setup"))

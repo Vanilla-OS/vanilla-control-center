@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-31 22:32+0530\n"
+"POT-Creation-Date: 2023-02-11 22:10+0530\n"
 "PO-Revision-Date: 2023-02-02 12:40+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/vanilla-os/"
-"control-center/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/vanilla-os/control-"
+"center/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +20,8 @@ msgstr ""
 "X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
-#: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
+#: vanilla_control_center/gtk/window.ui:8
+#: vanilla_control_center/gtk/window.ui:17 vanilla_control_center/main.py:96
 msgid "Vanilla OS Control Center"
 msgstr "Instellingen van Vanilla OS"
 
@@ -28,54 +29,313 @@ msgstr "Instellingen van Vanilla OS"
 msgid "No description"
 msgstr "Geen beschrijving"
 
+#: vanilla_control_center/gtk/container.ui:8
+msgid "Enter shell"
+msgstr ""
+
+#: vanilla_control_center/gtk/container.ui:15
+#, fuzzy
+msgid "Create subsystem"
+msgstr "Subsysteem"
+
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#: vanilla_control_center/gtk/dialog-update-check.ui:6
+#, fuzzy
 msgid "Installation"
 msgstr "Installatie"
 
-#: vanilla_control_center/gtk/dialog-update-check.ui:40
-msgid "Apply Updates"
-msgstr "Updates toepassen"
-
-#: vanilla_control_center/gtk/dialog-update-check.ui:63
-#: vanilla_control_center/gtk/dialog-update-check.ui:148
-msgid "Close"
-msgstr "Sluiten"
-
-#: vanilla_control_center/gtk/dialog-update-check.ui:116
-msgid "Restart Now"
-msgstr "Nu herstarten"
-
-#: vanilla_control_center/gtk/dialog-update-check.ui:126
-msgid "Restart Later"
-msgstr "Later herstarten"
-
 #: vanilla_control_center/gtk/help-overlay.ui:11
+#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Algemeen"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
+#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Sneltoetsen tonen"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
+#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Afsluiten"
 
-#: vanilla_control_center/gtk/window.ui:186
+#: vanilla_control_center/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "Wijzigingen toepassen"
+
+#: vanilla_control_center/gtk/window.ui:45
+#, fuzzy
+msgid "Drivers"
+msgstr "Stuurprogramma's"
+
+#: vanilla_control_center/gtk/window.ui:55
+msgid "Loading drivers…"
+msgstr "Stuurprogramma's laden…"
+
+#: vanilla_control_center/gtk/window.ui:56
+msgid "Please wait while the available drivers are being loaded."
+msgstr "Wacht terwijl de beschikbare stuurprogramma's worden geladen."
+
+#: vanilla_control_center/gtk/window.ui:64
+msgid "No Drivers Available"
+msgstr "Geen stuurprogramma's beschikbaar"
+
+#: vanilla_control_center/gtk/window.ui:65
+msgid "There are no extra drivers available for your system."
+msgstr "Er zijn geen extra stuurprogramma's beschikbaar voor uw systeem."
+
+#: vanilla_control_center/gtk/window.ui:80
+#, fuzzy
+msgid "PRIME Profiles"
+msgstr "PRIME-profiel aanpassen…"
+
+#: vanilla_control_center/gtk/window.ui:86
+msgid "Active Profile"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:94
+msgid "Integrated GPU"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:95
+#: vanilla_control_center/gtk/window.ui:110
+msgid "Not detected"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:109
+msgid "Discrete GPU"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:124
+msgid "Hybrid"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:125
+msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:148
+#, fuzzy
+msgid "Updates"
+msgstr "Updates toepassen"
+
+#: vanilla_control_center/gtk/window.ui:154
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: vanilla_control_center/gtk/window.ui:157
+msgid "Latest Update Check"
+msgstr "Meest recente update-controle"
+
+#: vanilla_control_center/gtk/window.ui:158
+msgid "Never"
+msgstr "Nooit"
+
+#: vanilla_control_center/gtk/window.ui:163
+msgid "Updates Scheduling"
+msgstr "Update-rooster"
+
+#: vanilla_control_center/gtk/window.ui:164
+msgid "Choose how often the system should check for updates."
+msgstr "Kies hoe vaak het systeem zal controleren op updates."
+
+#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr "Wekelijks"
 
-#: vanilla_control_center/gtk/window.ui:187
+#: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
 msgstr "Maandelijks"
 
-#: vanilla_control_center/gtk/window.ui:258
+#: vanilla_control_center/gtk/window.ui:177
+#, fuzzy
+msgid "Smart Updates"
+msgstr "Slimme updates"
+
+#: vanilla_control_center/gtk/window.ui:178
+#, fuzzy
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr ""
+"Indien ingeschakeld zal het systeem niet bijwerken wanneer intensieve taken "
+"worden uitgevoerd of de accu bijna leeg is."
+
+#: vanilla_control_center/gtk/window.ui:189
+#, fuzzy
+msgid "Automatic Updates"
+msgstr "Uutomatische updates aangepast"
+
+#: vanilla_control_center/gtk/window.ui:190
+msgid "The system will automatically update itself in the background."
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:208
+#: vanilla_control_center/backends/apx.py:37
+msgid "Sub System"
+msgstr "Subsysteem"
+
+#: vanilla_control_center/gtk/window.ui:218
+#, fuzzy
+msgid "Containers"
+msgstr "Met bijdrage van"
+
+#: vanilla_control_center/gtk/window.ui:223
+msgid "Installed Applications"
+msgstr "Geïnstalleerde apps"
+
+#: vanilla_control_center/gtk/window.ui:242
 msgid "_Help"
 msgstr "_Hulp"
+
+#: vanilla_control_center/gtk/window.ui:246
+#, fuzzy
+msgid "_About Control Center"
+msgstr "_Over Instellingen"
+
+#: vanilla_control_center/backends/apx.py:36
+#: vanilla_control_center/backends/apx.py:40
+#: vanilla_control_center/backends/apx.py:44
+#: vanilla_control_center/backends/apx.py:48
+#: vanilla_control_center/backends/apx.py:52
+#: vanilla_control_center/backends/apx.py:56
+msgid "Flag"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:37
+#: vanilla_control_center/backends/apx.py:41
+#: vanilla_control_center/backends/apx.py:45
+#: vanilla_control_center/backends/apx.py:49
+#: vanilla_control_center/backends/apx.py:53
+#: vanilla_control_center/backends/apx.py:57
+msgid "Name"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:41
+#, fuzzy
+msgid "Arch Linux Sub System"
+msgstr "Subsysteem"
+
+#: vanilla_control_center/backends/apx.py:45
+#, fuzzy
+msgid "Fedora Sub System"
+msgstr "Subsysteem"
+
+#: vanilla_control_center/backends/apx.py:49
+#, fuzzy
+msgid "Alpine Sub System"
+msgstr "Subsysteem"
+
+#: vanilla_control_center/backends/apx.py:53
+#, fuzzy
+msgid "openSUSE Sub System"
+msgstr "Subsysteem"
+
+#: vanilla_control_center/backends/apx.py:57
+#, fuzzy
+msgid "Void Linux Sub System"
+msgstr "Subsysteem"
+
+#: vanilla_control_center/backends/apx.py:69
+msgid "DISABLED_MODULES"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:70
+#, fuzzy
+msgid "Apx module disabled"
+msgstr "Aanhoudende modus uitgeschakeld."
+
+#: vanilla_control_center/backends/apx.py:74
+msgid "Apx binary not found"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:78
+msgid "Distrobox binary not found"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:143
+msgid "Unable to get containers"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:161
+#, fuzzy, python-brace-format
+msgid "Container '{0}' not found"
+msgstr "Container ‘{}’ geïnitialiseerd"
+
+#: vanilla_control_center/backends/apx.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr ""
+
+#: vanilla_control_center/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:41
+#, fuzzy
+msgid "PRIME module disabled"
+msgstr "Aanhoudende modus uitgeschakeld."
+
+#: vanilla_control_center/backends/prime_profiles.py:45
+msgid "prime-select not found"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:49
+msgid "prime-select not supported for this device"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:55
+msgid "prime-select is not supported for this setup"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:91
+msgid "Invalid profile name"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:114
+#: vanilla_control_center/backends/prime_profiles.py:117
+#: vanilla_control_center/backends/prime_profiles.py:120
+msgid "integrated"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:115
+#: vanilla_control_center/backends/prime_profiles.py:118
+#: vanilla_control_center/backends/prime_profiles.py:121
+msgid "discrete"
+msgstr ""
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:44
+msgid "Getting devices list"
+msgstr ""
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:77
+#, python-format
+msgid "Devices list: %s"
+msgstr ""
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:84
+#, fuzzy, python-format
+msgid "Driver %s installed: %s"
+msgstr "Nieuwe stuurprogramma's geïnstalleerd."
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:99
+#, python-format
+msgid "Install command: %s"
+msgstr ""
+
+#: vanilla_control_center/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr ""
+
+#: vanilla_control_center/container.py:47
+#: vanilla_control_center/container.py:48
+msgid "Clicked"
+msgstr ""
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -85,139 +345,137 @@ msgstr "Opdrachtregel geopend voor container ‘{}’"
 msgid "Container '{}' initialized"
 msgstr "Container ‘{}’ geïnitialiseerd"
 
-#: vanilla_control_center/main.py:69
+#: vanilla_control_center/driver.py:49
+msgid "Activated"
+msgstr ""
+
+#: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
+#, fuzzy
+msgid "Driver selected"
+msgstr "Stuurprogramma's"
+
+#: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
+#, fuzzy
+msgid "Installed"
+msgstr "Installatie"
+
+#: vanilla_control_center/driver.py:86
+msgid "Selected driver: {}"
+msgstr ""
+
+#: vanilla_control_center/driver.py:92
+#, fuzzy
+msgid "Installation needed"
+msgstr "Installatie"
+
+#: vanilla_control_center/main.py:105
 msgid "Code by"
 msgstr "Code door"
 
-#: vanilla_control_center/main.py:75
+#: vanilla_control_center/main.py:111
 msgid "Documentation by"
 msgstr "Documentatie door"
 
-#: vanilla_control_center/main.py:82
+#: vanilla_control_center/main.py:118
 msgid "Contributors"
 msgstr "Met bijdrage van"
 
-#: vanilla_control_center/main.py:90
+#: vanilla_control_center/main.py:126
 msgid "Translators"
 msgstr "Vertaling door"
 
-#: vanilla_control_center/window.py:130
+#: vanilla_control_center/window.py:119
+#, fuzzy
+msgid "Installation requested: {}"
+msgstr "Installatie"
+
+#: vanilla_control_center/window.py:128
 msgid "Installation Failed."
 msgstr "Installatie mislukt."
 
-#: vanilla_control_center/window.py:133
+#: vanilla_control_center/window.py:131
 msgid "New Drivers Installed."
 msgstr "Nieuwe stuurprogramma's geïnstalleerd."
 
-#: vanilla_control_center/window.py:140 vanilla_control_center/window.py:273
+#: vanilla_control_center/window.py:132
+#, fuzzy
+msgid "Installation finished."
+msgstr "Installatie mislukt."
+
+#: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr ""
 "Er wordt al een andere handeling uitgevoerd, of het systeem moet opnieuw "
 "worden opgestart."
 
-#: vanilla_control_center/window.py:150
+#: vanilla_control_center/window.py:148
 msgid "Installing new Drivers…"
 msgstr "Nieuwe drivers installeren…"
 
-#: vanilla_control_center/window.py:194
+#: vanilla_control_center/window.py:177
 msgid "Smart Update Changed."
 msgstr "Slimme updates aangepast"
 
-#: vanilla_control_center/window.py:196
+#: vanilla_control_center/window.py:179
 msgid "Failed to change the Smart Update setting."
 msgstr "Instelling voor slimme updates aanpassen mislukt"
 
-#: vanilla_control_center/window.py:201
+#: vanilla_control_center/window.py:184
 msgid "Automatic Update setting changed."
 msgstr "Uutomatische updates aangepast"
 
-#: vanilla_control_center/window.py:203
+#: vanilla_control_center/window.py:186
 msgid "Failed to change Automatic Update setting"
 msgstr "Instelling voor automatische updates aanpassen mislukt"
 
-#: vanilla_control_center/window.py:210
+#: vanilla_control_center/window.py:193
 msgid "Update Schedule Changed."
 msgstr "Update-rooster aangepast."
 
-#: vanilla_control_center/window.py:238
+#: vanilla_control_center/window.py:221
 msgid "{} Exited With Error."
 msgstr "{} is gesloten met fouten."
 
-#: vanilla_control_center/window.py:241
+#: vanilla_control_center/window.py:224
 msgid "{} Exited."
 msgstr "{} is gesloten."
 
-#: vanilla_control_center/window.py:244
+#: vanilla_control_center/window.py:227
 msgid "{} Launched."
 msgstr "{} is gestart."
 
-#: vanilla_control_center/window.py:289
+#: vanilla_control_center/window.py:272
 msgid "Prime Profile Changed."
 msgstr "PRIME-profiel aangepast."
 
-#: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
+#: vanilla_control_center/window.py:279 vanilla_control_center/window.py:284
 msgid "Prime Profile Change Failed."
 msgstr "PRIME-profiel aanpassen mislukt."
 
-#: vanilla_control_center/window.py:299
+#: vanilla_control_center/window.py:282
 msgid "Switching PRIME Profile…"
 msgstr "PRIME-profiel aanpassen…"
+
+#, fuzzy
+#~ msgid "_Sub System"
+#~ msgstr "Subsysteem"
+
+#, fuzzy
+#~ msgid "_Vanilla OS Control Center"
+#~ msgstr "Instellingen van Vanilla OS"
+
+#~ msgid "Close"
+#~ msgstr "Sluiten"
+
+#~ msgid "Restart Now"
+#~ msgstr "Nu herstarten"
+
+#~ msgid "Restart Later"
+#~ msgstr "Later herstarten"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr ""
 #~ "Dit kan even duren, afhankelijk van de snelheid van uw internetverbinding."
-
-#~ msgid "Apply Changes"
-#~ msgstr "Wijzigingen toepassen"
-
-#~ msgid "Drivers"
-#~ msgstr "Stuurprogramma's"
-
-#~ msgid "Loading drivers…"
-#~ msgstr "Stuurprogramma's laden…"
-
-#~ msgid "Please wait while the available drivers are being loaded."
-#~ msgstr "Wacht terwijl de beschikbare stuurprogramma's worden geladen."
-
-#~ msgid "No Drivers Available"
-#~ msgstr "Geen stuurprogramma's beschikbaar"
-
-#~ msgid "There are no extra drivers available for your system."
-#~ msgstr "Er zijn geen extra stuurprogramma's beschikbaar voor uw systeem."
-
-#~ msgid "Preferences"
-#~ msgstr "Voorkeuren"
-
-#~ msgid "Latest Update Check"
-#~ msgstr "Meest recente update-controle"
-
-#~ msgid "Never"
-#~ msgstr "Nooit"
-
-#~ msgid "Updates Scheduling"
-#~ msgstr "Update-rooster"
-
-#~ msgid "Choose how often the system should check for updates."
-#~ msgstr "Kies hoe vaak het systeem zal controleren op updates."
-
-#~ msgid "SmartUpdate"
-#~ msgstr "Slimme updates"
-
-#~ msgid ""
-#~ "If enabled, the system will not update if the system is in high load or "
-#~ "the battery is low."
-#~ msgstr ""
-#~ "Indien ingeschakeld zal het systeem niet bijwerken wanneer intensieve "
-#~ "taken worden uitgevoerd of de accu bijna leeg is."
-
-#~ msgid "Sub System"
-#~ msgstr "Subsysteem"
-
-#~ msgid "Installed Applications"
-#~ msgstr "Geïnstalleerde apps"
-
-#~ msgid "_About Control-center"
-#~ msgstr "_Over Instellingen"
 
 #~ msgid "There are no containerized apps installed on your system."
 #~ msgstr "Er zijn geen apps in een container geïnstalleerd op uw systeem."
@@ -276,9 +534,6 @@ msgstr "PRIME-profiel aanpassen…"
 
 #~ msgid "Persistent Mode Enabled."
 #~ msgstr "Aanhoudende modus ingeschakeld."
-
-#~ msgid "Persistent Mode Disabled."
-#~ msgstr "Aanhoudende modus uitgeschakeld."
 
 #~ msgid "Failed to Set Default Mode."
 #~ msgstr "Kon de standaardmodus niet instellen."

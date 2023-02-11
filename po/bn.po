@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-31 22:32+0530\n"
+"POT-Creation-Date: 2023-02-11 22:10+0530\n"
 "PO-Revision-Date: 2023-02-03 14:34+0000\n"
 "Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
 "Language-Team: Bengali <https://hosted.weblate.org/projects/vanilla-os/"
@@ -20,7 +20,8 @@ msgstr ""
 "X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
-#: vanilla_control_center/gtk/window.ui:8 vanilla_control_center/main.py:60
+#: vanilla_control_center/gtk/window.ui:8
+#: vanilla_control_center/gtk/window.ui:17 vanilla_control_center/main.py:96
 msgid "Vanilla OS Control Center"
 msgstr "ভেনিলা ওএস নিয়ন্ত্রণ কেন্দ্র"
 
@@ -28,54 +29,310 @@ msgstr "ভেনিলা ওএস নিয়ন্ত্রণ কেন্দ
 msgid "No description"
 msgstr "কোনো বর্ণনা নেই"
 
+#: vanilla_control_center/gtk/container.ui:8
+msgid "Enter shell"
+msgstr ""
+
+#: vanilla_control_center/gtk/container.ui:15
+#, fuzzy
+msgid "Create subsystem"
+msgstr "সাব সিস্টেম"
+
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#: vanilla_control_center/gtk/dialog-update-check.ui:6
+#, fuzzy
 msgid "Installation"
 msgstr "স্থাপন"
 
-#: vanilla_control_center/gtk/dialog-update-check.ui:40
-msgid "Apply Updates"
-msgstr "আপডেট প্রয়োগ করুন"
-
-#: vanilla_control_center/gtk/dialog-update-check.ui:63
-#: vanilla_control_center/gtk/dialog-update-check.ui:148
-msgid "Close"
-msgstr "বন্ধ করুন"
-
-#: vanilla_control_center/gtk/dialog-update-check.ui:116
-msgid "Restart Now"
-msgstr "এখনই রিস্টার্ট করুন"
-
-#: vanilla_control_center/gtk/dialog-update-check.ui:126
-msgid "Restart Later"
-msgstr "পরবর্তীতে রিস্টার্ট করুন"
-
 #: vanilla_control_center/gtk/help-overlay.ui:11
+#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "সাধারণ"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
+#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "শর্টকাটগুলো দেখান"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
+#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "বের হোন"
 
-#: vanilla_control_center/gtk/window.ui:186
+#: vanilla_control_center/gtk/window.ui:28
+msgid "Apply Changes"
+msgstr "পরিবর্তন করুন"
+
+#: vanilla_control_center/gtk/window.ui:45
+#, fuzzy
+msgid "Drivers"
+msgstr "ড্রাইভার"
+
+#: vanilla_control_center/gtk/window.ui:55
+msgid "Loading drivers…"
+msgstr "ড্রাইভার লোড হচ্ছে…"
+
+#: vanilla_control_center/gtk/window.ui:56
+msgid "Please wait while the available drivers are being loaded."
+msgstr "ব্যবহারযোগ্য ড্রাইভার লোড হচ্ছে অনুগ্রহ করে অপেক্ষা করুন।"
+
+#: vanilla_control_center/gtk/window.ui:64
+msgid "No Drivers Available"
+msgstr "কোন ব্যবহারযোগ্য ড্রাইভার নেই"
+
+#: vanilla_control_center/gtk/window.ui:65
+msgid "There are no extra drivers available for your system."
+msgstr "আপনার ডিভাইস এর জন্য কোন অতিরিক্ত ড্রাইভার নেই।"
+
+#: vanilla_control_center/gtk/window.ui:80
+#, fuzzy
+msgid "PRIME Profiles"
+msgstr "প্রধান প্রোফাইল বদলানো হচ্ছে…"
+
+#: vanilla_control_center/gtk/window.ui:86
+msgid "Active Profile"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:94
+msgid "Integrated GPU"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:95
+#: vanilla_control_center/gtk/window.ui:110
+msgid "Not detected"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:109
+msgid "Discrete GPU"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:124
+msgid "Hybrid"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:125
+msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:148
+#, fuzzy
+msgid "Updates"
+msgstr "আপডেট প্রয়োগ করুন"
+
+#: vanilla_control_center/gtk/window.ui:154
+msgid "Preferences"
+msgstr "পছন্দসমূহ"
+
+#: vanilla_control_center/gtk/window.ui:157
+msgid "Latest Update Check"
+msgstr "সর্বশেষ আপডেট চেক"
+
+#: vanilla_control_center/gtk/window.ui:158
+msgid "Never"
+msgstr "কখনই হয়নি"
+
+#: vanilla_control_center/gtk/window.ui:163
+msgid "Updates Scheduling"
+msgstr "আপডেট এর সময়সূচী"
+
+#: vanilla_control_center/gtk/window.ui:164
+msgid "Choose how often the system should check for updates."
+msgstr "কত ঘন ঘন সিস্টেম আপডেটের জন্য চেক করবে তা নির্বাচন করুন।"
+
+#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr "প্রতি সপ্তাহে"
 
-#: vanilla_control_center/gtk/window.ui:187
+#: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
 msgstr "প্রতি মাসে"
 
-#: vanilla_control_center/gtk/window.ui:258
+#: vanilla_control_center/gtk/window.ui:177
+#, fuzzy
+msgid "Smart Updates"
+msgstr "স্মার্ট আপডেট"
+
+#: vanilla_control_center/gtk/window.ui:178
+#, fuzzy
+msgid "The system will not update if it is in heavy use or low battery."
+msgstr ""
+"চালু থাকলে, সিস্টেমটি বেশি লোড হলে বা ব্যাটারি কম থাকলে সিস্টেম আপডেট হবে না৷"
+
+#: vanilla_control_center/gtk/window.ui:189
+#, fuzzy
+msgid "Automatic Updates"
+msgstr "এ্যাটমিক আপডেট সেটিংস পরিবর্তিত হয়েছে।"
+
+#: vanilla_control_center/gtk/window.ui:190
+msgid "The system will automatically update itself in the background."
+msgstr ""
+
+#: vanilla_control_center/gtk/window.ui:208
+#: vanilla_control_center/backends/apx.py:37
+msgid "Sub System"
+msgstr "সাব সিস্টেম"
+
+#: vanilla_control_center/gtk/window.ui:218
+#, fuzzy
+msgid "Containers"
+msgstr "অংশ গ্রহণকারীগণ"
+
+#: vanilla_control_center/gtk/window.ui:223
+msgid "Installed Applications"
+msgstr "ইনস্টল করা অ্যাপ্লিকেশন"
+
+#: vanilla_control_center/gtk/window.ui:242
 msgid "_Help"
 msgstr "_সাহায্য"
+
+#: vanilla_control_center/gtk/window.ui:246
+#, fuzzy
+msgid "_About Control Center"
+msgstr "_কন্ট্রোল সেন্টার সম্পর্কে"
+
+#: vanilla_control_center/backends/apx.py:36
+#: vanilla_control_center/backends/apx.py:40
+#: vanilla_control_center/backends/apx.py:44
+#: vanilla_control_center/backends/apx.py:48
+#: vanilla_control_center/backends/apx.py:52
+#: vanilla_control_center/backends/apx.py:56
+msgid "Flag"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:37
+#: vanilla_control_center/backends/apx.py:41
+#: vanilla_control_center/backends/apx.py:45
+#: vanilla_control_center/backends/apx.py:49
+#: vanilla_control_center/backends/apx.py:53
+#: vanilla_control_center/backends/apx.py:57
+msgid "Name"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:41
+#, fuzzy
+msgid "Arch Linux Sub System"
+msgstr "সাব সিস্টেম"
+
+#: vanilla_control_center/backends/apx.py:45
+#, fuzzy
+msgid "Fedora Sub System"
+msgstr "সাব সিস্টেম"
+
+#: vanilla_control_center/backends/apx.py:49
+#, fuzzy
+msgid "Alpine Sub System"
+msgstr "সাব সিস্টেম"
+
+#: vanilla_control_center/backends/apx.py:53
+#, fuzzy
+msgid "openSUSE Sub System"
+msgstr "সাব সিস্টেম"
+
+#: vanilla_control_center/backends/apx.py:57
+#, fuzzy
+msgid "Void Linux Sub System"
+msgstr "সাব সিস্টেম"
+
+#: vanilla_control_center/backends/apx.py:69
+msgid "DISABLED_MODULES"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:70
+msgid "Apx module disabled"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:74
+msgid "Apx binary not found"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:78
+msgid "Distrobox binary not found"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:143
+msgid "Unable to get containers"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:161
+#, fuzzy, python-brace-format
+msgid "Container '{0}' not found"
+msgstr "'{}' কন্টেইনারটি সচল হয়েছে"
+
+#: vanilla_control_center/backends/apx.py:168
+#, python-brace-format
+msgid "Running application: '{0}'"
+msgstr ""
+
+#: vanilla_control_center/backends/apx.py:181
+#, python-brace-format
+msgid "Unable to start managed application: '{0}'"
+msgstr ""
+
+#: vanilla_control_center/backends/exceptions.py:24
+msgid "Unsupported setup"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:41
+msgid "PRIME module disabled"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:45
+msgid "prime-select not found"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:49
+msgid "prime-select not supported for this device"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:55
+msgid "prime-select is not supported for this setup"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:91
+msgid "Invalid profile name"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:114
+#: vanilla_control_center/backends/prime_profiles.py:117
+#: vanilla_control_center/backends/prime_profiles.py:120
+msgid "integrated"
+msgstr ""
+
+#: vanilla_control_center/backends/prime_profiles.py:115
+#: vanilla_control_center/backends/prime_profiles.py:118
+#: vanilla_control_center/backends/prime_profiles.py:121
+msgid "discrete"
+msgstr ""
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:44
+msgid "Getting devices list"
+msgstr ""
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:77
+#, python-format
+msgid "Devices list: %s"
+msgstr ""
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:84
+#, fuzzy, python-format
+msgid "Driver %s installed: %s"
+msgstr "নতুন ড্রাইভার ইনস্টল করা হয়েছে।"
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:99
+#, python-format
+msgid "Install command: %s"
+msgstr ""
+
+#: vanilla_control_center/backends/vso.py:61
+msgid "VSO Config file not found at {}"
+msgstr ""
+
+#: vanilla_control_center/container.py:47
+#: vanilla_control_center/container.py:48
+msgid "Clicked"
+msgstr ""
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -85,135 +342,134 @@ msgstr "'{}' কনটেইনারের জন্য শেল চালু 
 msgid "Container '{}' initialized"
 msgstr "'{}' কন্টেইনারটি সচল হয়েছে"
 
-#: vanilla_control_center/main.py:69
+#: vanilla_control_center/driver.py:49
+msgid "Activated"
+msgstr ""
+
+#: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
+#, fuzzy
+msgid "Driver selected"
+msgstr "ড্রাইভার"
+
+#: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
+#, fuzzy
+msgid "Installed"
+msgstr "স্থাপন"
+
+#: vanilla_control_center/driver.py:86
+msgid "Selected driver: {}"
+msgstr ""
+
+#: vanilla_control_center/driver.py:92
+#, fuzzy
+msgid "Installation needed"
+msgstr "স্থাপন"
+
+#: vanilla_control_center/main.py:105
 msgid "Code by"
 msgstr "কোড করেছেন"
 
-#: vanilla_control_center/main.py:75
+#: vanilla_control_center/main.py:111
 msgid "Documentation by"
 msgstr "নথিপত্র তৈরিকরণে"
 
-#: vanilla_control_center/main.py:82
+#: vanilla_control_center/main.py:118
 msgid "Contributors"
 msgstr "অংশ গ্রহণকারীগণ"
 
-#: vanilla_control_center/main.py:90
+#: vanilla_control_center/main.py:126
 msgid "Translators"
 msgstr "অনুবাদক"
 
-#: vanilla_control_center/window.py:130
+#: vanilla_control_center/window.py:119
+#, fuzzy
+msgid "Installation requested: {}"
+msgstr "স্থাপন"
+
+#: vanilla_control_center/window.py:128
 msgid "Installation Failed."
 msgstr "ইনস্টলেশন ব্যর্থ হয়েছে।"
 
-#: vanilla_control_center/window.py:133
+#: vanilla_control_center/window.py:131
 msgid "New Drivers Installed."
 msgstr "নতুন ড্রাইভার ইনস্টল করা হয়েছে।"
 
-#: vanilla_control_center/window.py:140 vanilla_control_center/window.py:273
+#: vanilla_control_center/window.py:132
+#, fuzzy
+msgid "Installation finished."
+msgstr "ইনস্টলেশন ব্যর্থ হয়েছে।"
+
+#: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr "অন্য কার্যপরিচালনা চলছে অথবা সিস্টেমটি করতে রিস্টার্ট হবে৷"
 
-#: vanilla_control_center/window.py:150
+#: vanilla_control_center/window.py:148
 msgid "Installing new Drivers…"
 msgstr "নতুন ড্রাইভার ইন্সটল করা হচ্ছে…"
 
-#: vanilla_control_center/window.py:194
+#: vanilla_control_center/window.py:177
 msgid "Smart Update Changed."
 msgstr "স্মার্ট আপডেট পরিবর্তিত হয়েছে।"
 
-#: vanilla_control_center/window.py:196
+#: vanilla_control_center/window.py:179
 msgid "Failed to change the Smart Update setting."
 msgstr "স্মার্টআপডেট সেটিংস পরিবর্তনে ব্যর্থ হয়েছে।"
 
-#: vanilla_control_center/window.py:201
+#: vanilla_control_center/window.py:184
 msgid "Automatic Update setting changed."
 msgstr "এ্যাটমিক আপডেট সেটিংস পরিবর্তিত হয়েছে।"
 
-#: vanilla_control_center/window.py:203
+#: vanilla_control_center/window.py:186
 msgid "Failed to change Automatic Update setting"
 msgstr "এ্যাটমিক আপডেট সেটিংস পরিবর্তনে ব্যর্থ হয়েছে"
 
-#: vanilla_control_center/window.py:210
+#: vanilla_control_center/window.py:193
 msgid "Update Schedule Changed."
 msgstr "আপডেট এর সময়সূচী পরিবর্তিত হয়েছে।"
 
-#: vanilla_control_center/window.py:238
+#: vanilla_control_center/window.py:221
 msgid "{} Exited With Error."
 msgstr "{} ত্রুটি সহ বের হয়ে গেছে৷"
 
-#: vanilla_control_center/window.py:241
+#: vanilla_control_center/window.py:224
 msgid "{} Exited."
 msgstr "{} বের হয়ে গেছে।"
 
-#: vanilla_control_center/window.py:244
+#: vanilla_control_center/window.py:227
 msgid "{} Launched."
 msgstr "{} চালু হয়েছে৷"
 
-#: vanilla_control_center/window.py:289
+#: vanilla_control_center/window.py:272
 msgid "Prime Profile Changed."
 msgstr "প্রধান প্রোফাইল পরিবর্তিত হয়েছে।"
 
-#: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
+#: vanilla_control_center/window.py:279 vanilla_control_center/window.py:284
 msgid "Prime Profile Change Failed."
 msgstr "প্রধান প্রোফাইল পরিবর্তনে ব্যর্থ হয়েছে।"
 
-#: vanilla_control_center/window.py:299
+#: vanilla_control_center/window.py:282
 msgid "Switching PRIME Profile…"
 msgstr "প্রধান প্রোফাইল বদলানো হচ্ছে…"
+
+#, fuzzy
+#~ msgid "_Sub System"
+#~ msgstr "সাব সিস্টেম"
+
+#, fuzzy
+#~ msgid "_Vanilla OS Control Center"
+#~ msgstr "ভেনিলা ওএস নিয়ন্ত্রণ কেন্দ্র"
+
+#~ msgid "Close"
+#~ msgstr "বন্ধ করুন"
+
+#~ msgid "Restart Now"
+#~ msgstr "এখনই রিস্টার্ট করুন"
+
+#~ msgid "Restart Later"
+#~ msgstr "পরবর্তীতে রিস্টার্ট করুন"
 
 #~ msgid "Installation in Progress…"
 #~ msgstr "ইন্সটলেশন চলছে"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr "এটি কিছুটা সময় নিবে, আপনার ইন্টারনেট কানেকশনের গতির উপর নির্ভর করে।"
-
-#~ msgid "Apply Changes"
-#~ msgstr "পরিবর্তন করুন"
-
-#~ msgid "Drivers"
-#~ msgstr "ড্রাইভার"
-
-#~ msgid "Loading drivers…"
-#~ msgstr "ড্রাইভার লোড হচ্ছে…"
-
-#~ msgid "Please wait while the available drivers are being loaded."
-#~ msgstr "ব্যবহারযোগ্য ড্রাইভার লোড হচ্ছে অনুগ্রহ করে অপেক্ষা করুন।"
-
-#~ msgid "No Drivers Available"
-#~ msgstr "কোন ব্যবহারযোগ্য ড্রাইভার নেই"
-
-#~ msgid "There are no extra drivers available for your system."
-#~ msgstr "আপনার ডিভাইস এর জন্য কোন অতিরিক্ত ড্রাইভার নেই।"
-
-#~ msgid "Preferences"
-#~ msgstr "পছন্দসমূহ"
-
-#~ msgid "Latest Update Check"
-#~ msgstr "সর্বশেষ আপডেট চেক"
-
-#~ msgid "Never"
-#~ msgstr "কখনই হয়নি"
-
-#~ msgid "Updates Scheduling"
-#~ msgstr "আপডেট এর সময়সূচী"
-
-#~ msgid "Choose how often the system should check for updates."
-#~ msgstr "কত ঘন ঘন সিস্টেম আপডেটের জন্য চেক করবে তা নির্বাচন করুন।"
-
-#~ msgid "SmartUpdate"
-#~ msgstr "স্মার্ট আপডেট"
-
-#~ msgid ""
-#~ "If enabled, the system will not update if the system is in high load or "
-#~ "the battery is low."
-#~ msgstr ""
-#~ "চালু থাকলে, সিস্টেমটি বেশি লোড হলে বা ব্যাটারি কম থাকলে সিস্টেম আপডেট হবে না৷"
-
-#~ msgid "Sub System"
-#~ msgstr "সাব সিস্টেম"
-
-#~ msgid "Installed Applications"
-#~ msgstr "ইনস্টল করা অ্যাপ্লিকেশন"
-
-#~ msgid "_About Control-center"
-#~ msgstr "_কন্ট্রোল সেন্টার সম্পর্কে"

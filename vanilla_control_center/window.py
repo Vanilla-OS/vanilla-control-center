@@ -21,6 +21,7 @@ import logging
 import subprocess
 from gi.repository import Adw
 from gi.repository import Gtk, GLib, GObject
+from gettext import gettext as _
 
 from vanilla_control_center.driver import VanillaDriverRow, VanillaDriversGroup
 from vanilla_control_center.program import VanillaApxProgram
@@ -93,7 +94,7 @@ class VanillaWindow(Adw.ApplicationWindow):
                 result.append(VanillaDriversGroup(
                         vendor["vendor"], 
                         vendor["model"], 
-                        vendor["drivers"]))
+                        vendor["drivers)"]))
 
             return result
 
@@ -115,7 +116,7 @@ class VanillaWindow(Adw.ApplicationWindow):
         RunAsync(run_async, callback)
     
     def __on_installation_needed(self, widget, model, driver):
-        logging.info("Installation requested: {}".format(driver))
+        logging.info(_("Installation requested: {}").format(driver))
         self.__selected_drivers[model] = driver
         self.btn_apply.set_visible(len(self.__selected_drivers) > 0)
     
@@ -128,7 +129,7 @@ class VanillaWindow(Adw.ApplicationWindow):
             return
 
         self.toast(_("New Drivers Installed."))
-        logger.info("Installation finished.")
+        logger.info(_("Installation finished."))
         subprocess.run(['gnome-session-quit', '--reboot'])
 
 
