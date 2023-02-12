@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
 "PO-Revision-Date: 2022-11-30 03:48+0000\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/vanilla-os/"
@@ -34,29 +34,24 @@ msgid "Enter shell"
 msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
-#, fuzzy
 msgid "Create subsystem"
-msgstr "Subsistemo"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "Instalado"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Ĝenerala"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Montri fulmoklavojn"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Forlasi"
@@ -67,7 +62,6 @@ msgid "Apply Changes"
 msgstr "Efektivigi ŝanĝojn"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Drivers"
 msgstr "Zorgiloj"
 
@@ -238,9 +232,8 @@ msgid "DISABLED_MODULES"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:70
-#, fuzzy
 msgid "Apx module disabled"
-msgstr "Persista reĝimo malŝaltita."
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
@@ -274,9 +267,8 @@ msgid "Unsupported setup"
 msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:41
-#, fuzzy
 msgid "PRIME module disabled"
-msgstr "Persista reĝimo malŝaltita."
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
@@ -384,7 +376,7 @@ msgstr "Tradukintoj"
 #: vanilla_control_center/window.py:119
 #, fuzzy
 msgid "Installation requested: {}"
-msgstr "Instalado"
+msgstr "Instalado malsukcesis."
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -452,14 +444,6 @@ msgstr ""
 msgid "Switching PRIME Profile…"
 msgstr ""
 
-#, fuzzy
-#~ msgid "_Sub System"
-#~ msgstr "Subsistemo"
-
-#, fuzzy
-#~ msgid "_Vanilla OS Control Center"
-#~ msgstr "Stirpanelo de Vanilla OS"
-
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr "Tio eble daŭros iom laŭ via Interreta konekta rapido."
 
@@ -513,6 +497,9 @@ msgstr ""
 
 #~ msgid "Persistent Mode Enabled."
 #~ msgstr "Persista reĝimo ŝaltita."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Persista reĝimo malŝaltita."
 
 #~ msgid "Failed to Set Default Mode."
 #~ msgstr "Malsukcesis agordi implicitan reĝimon."

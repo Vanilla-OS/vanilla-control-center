@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,29 +32,24 @@ msgid "Enter shell"
 msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
-#, fuzzy
 msgid "Create subsystem"
-msgstr "ระบบย่อย"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "การติดตั้ง"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "ทั่วไป"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "แสดงทางลัด"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "ออก"
@@ -64,7 +59,6 @@ msgid "Apply Changes"
 msgstr "ใช้การเปลี่ยนแปลง"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Drivers"
 msgstr "ไดรเวอร์"
 
@@ -237,9 +231,8 @@ msgid "DISABLED_MODULES"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:70
-#, fuzzy
 msgid "Apx module disabled"
-msgstr "ปิดใช้งานโหมดถาวร"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
@@ -273,9 +266,8 @@ msgid "Unsupported setup"
 msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:41
-#, fuzzy
 msgid "PRIME module disabled"
-msgstr "ปิดใช้งานโหมดถาวร"
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
@@ -383,7 +375,7 @@ msgstr "นักแปล"
 #: vanilla_control_center/window.py:119
 #, fuzzy
 msgid "Installation requested: {}"
-msgstr "การติดตั้ง"
+msgstr "การติดตั้งผิดพลาด"
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -453,14 +445,6 @@ msgstr ""
 msgid "Switching PRIME Profile…"
 msgstr ""
 
-#, fuzzy
-#~ msgid "_Sub System"
-#~ msgstr "ระบบย่อย"
-
-#, fuzzy
-#~ msgid "_Vanilla OS Control Center"
-#~ msgstr "ศูนย์ควบคุม Vanilla OS"
-
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr "อาจใช้เวลาสักครู่ขึ้นอยู่กับความเร็วการเชื่อมต่ออินเทอร์เน็ตของคุณ"
 
@@ -517,6 +501,9 @@ msgstr ""
 
 #~ msgid "Persistent Mode Enabled."
 #~ msgstr "เปิดใช้งานโหมดถาวร"
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "ปิดใช้งานโหมดถาวร"
 
 #~ msgid "Failed to Set Default Mode."
 #~ msgstr "ไม่สามารถตั้งค่าโหมดเริ่มต้น"

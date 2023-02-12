@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
 "PO-Revision-Date: 2023-01-18 22:43+0000\n"
 "Last-Translator: Akros <akrostv2@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/vanilla-os/"
@@ -35,29 +35,24 @@ msgid "Enter shell"
 msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
-#, fuzzy
 msgid "Create subsystem"
-msgstr "Podsystem"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "Instalacja"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Ogólne"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Pokaż skróty"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Wyjdź"
@@ -67,7 +62,6 @@ msgid "Apply Changes"
 msgstr "Zatwierdź zmiany"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Drivers"
 msgstr "Sterowniki"
 
@@ -242,9 +236,8 @@ msgid "DISABLED_MODULES"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:70
-#, fuzzy
 msgid "Apx module disabled"
-msgstr "Tryb trwały wyłączony."
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
@@ -278,9 +271,8 @@ msgid "Unsupported setup"
 msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:41
-#, fuzzy
 msgid "PRIME module disabled"
-msgstr "Tryb trwały wyłączony."
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
@@ -389,7 +381,7 @@ msgstr "Tłumacze"
 #: vanilla_control_center/window.py:119
 #, fuzzy
 msgid "Installation requested: {}"
-msgstr "Instalacja"
+msgstr "Instalacja zakończona niepowodzeniem."
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -458,14 +450,6 @@ msgstr "Zmiana Profilu Podstawowego Nieudana."
 msgid "Switching PRIME Profile…"
 msgstr "Zmienianie Profilu Podstawowego…"
 
-#, fuzzy
-#~ msgid "_Sub System"
-#~ msgstr "Podsystem"
-
-#, fuzzy
-#~ msgid "_Vanilla OS Control Center"
-#~ msgstr "Panel sterowania Vanilla OS"
-
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr ""
 #~ "Może to chwilę potrwać, w zależności od szybkości połączenia "
@@ -526,6 +510,9 @@ msgstr "Zmienianie Profilu Podstawowego…"
 
 #~ msgid "Persistent Mode Enabled."
 #~ msgstr "Tryb trwały włączony."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Tryb trwały wyłączony."
 
 #~ msgid "Failed to Set Default Mode."
 #~ msgstr "Nie udało się ustawić trybu domyślnego."

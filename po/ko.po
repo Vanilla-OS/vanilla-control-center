@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
 "PO-Revision-Date: 2023-01-12 18:47+0000\n"
 "Last-Translator: Park Seonu <cotwo0139@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/vanilla-os/"
@@ -34,29 +34,24 @@ msgid "Enter shell"
 msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
-#, fuzzy
 msgid "Create subsystem"
-msgstr "하위 시스템"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "설치"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "일반"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "바로가기 표시하기"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "종료"
@@ -66,7 +61,6 @@ msgid "Apply Changes"
 msgstr "변경사항 적용하기"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Drivers"
 msgstr "드라이버"
 
@@ -237,9 +231,8 @@ msgid "DISABLED_MODULES"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:70
-#, fuzzy
 msgid "Apx module disabled"
-msgstr "영구 모드가 비활성화되었습니다."
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
@@ -273,9 +266,8 @@ msgid "Unsupported setup"
 msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:41
-#, fuzzy
 msgid "PRIME module disabled"
-msgstr "영구 모드가 비활성화되었습니다."
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
@@ -383,7 +375,7 @@ msgstr "번역자"
 #: vanilla_control_center/window.py:119
 #, fuzzy
 msgid "Installation requested: {}"
-msgstr "설치"
+msgstr "설치에 실패했습니다."
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -453,14 +445,6 @@ msgstr ""
 msgid "Switching PRIME Profile…"
 msgstr ""
 
-#, fuzzy
-#~ msgid "_Sub System"
-#~ msgstr "하위 시스템"
-
-#, fuzzy
-#~ msgid "_Vanilla OS Control Center"
-#~ msgstr "바닐라 OS 제어 센터"
-
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr "인터넷 연결 속도에 따라 다소 시간이 걸릴 수 있습니다."
 
@@ -514,6 +498,9 @@ msgstr ""
 
 #~ msgid "Persistent Mode Enabled."
 #~ msgstr "영구 모드가 활성화되었습니다."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "영구 모드가 비활성화되었습니다."
 
 #~ msgid "Failed to Set Default Mode."
 #~ msgstr "기본 모드를 설정하지 못했습니다."

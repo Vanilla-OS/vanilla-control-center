@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
 "PO-Revision-Date: 2023-01-18 22:43+0000\n"
 "Last-Translator: Jasenko Blagojevic <kontakt@jasenko.at>\n"
 "Language-Team: Serbian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -39,7 +39,6 @@ msgid "Create subsystem"
 msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "Instalacija"
 

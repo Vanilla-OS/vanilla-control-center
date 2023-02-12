@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
 "PO-Revision-Date: 2023-02-05 08:36+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -34,29 +34,24 @@ msgid "Enter shell"
 msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
-#, fuzzy
 msgid "Create subsystem"
-msgstr "子系统"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "安装"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "通用"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "显示快捷键"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "退出"
@@ -66,7 +61,6 @@ msgid "Apply Changes"
 msgstr "应用更改"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Drivers"
 msgstr "驱动"
 
@@ -383,7 +377,7 @@ msgstr "翻译者"
 #: vanilla_control_center/window.py:119
 #, fuzzy
 msgid "Installation requested: {}"
-msgstr "安装"
+msgstr "安装失败。"
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -449,14 +443,6 @@ msgstr "更改 PRIME 配置文件失败。"
 #: vanilla_control_center/window.py:282
 msgid "Switching PRIME Profile…"
 msgstr "正在切换 PRIME 配置文件…"
-
-#, fuzzy
-#~ msgid "_Sub System"
-#~ msgstr "子系统"
-
-#, fuzzy
-#~ msgid "_Vanilla OS Control Center"
-#~ msgstr "Vanilla OS 控制中心"
 
 #~ msgid "Close"
 #~ msgstr "关闭"

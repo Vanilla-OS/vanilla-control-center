@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
-"PO-Revision-Date: 2023-01-06 08:49+0000\n"
-"Last-Translator: Muhammed Bayraktar <mhmmd.bayraktar@gmail.com>\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
+"PO-Revision-Date: 2023-02-11 11:35+0000\n"
+"Last-Translator: Alisalih Üçgül <alisalihucgul@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
@@ -34,29 +34,24 @@ msgid "Enter shell"
 msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
-#, fuzzy
 msgid "Create subsystem"
-msgstr "Alt Sistem"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "Kurulum"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Genel"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Kısayolları Göster"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Çık"
@@ -66,7 +61,6 @@ msgid "Apply Changes"
 msgstr "Değişiklikleri uygula"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Drivers"
 msgstr "Sürücüler"
 
@@ -118,7 +112,7 @@ msgstr ""
 #: vanilla_control_center/gtk/window.ui:148
 #, fuzzy
 msgid "Updates"
-msgstr "Güncelle"
+msgstr "Güncellemeleri Uygula"
 
 #: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
@@ -163,7 +157,7 @@ msgstr ""
 #: vanilla_control_center/gtk/window.ui:189
 #, fuzzy
 msgid "Automatic Updates"
-msgstr "Akıllı güncelleme değiştirildi."
+msgstr "Otomatik güncelleme ayarı değiştirildi."
 
 #: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
@@ -177,7 +171,7 @@ msgstr "Alt Sistem"
 #: vanilla_control_center/gtk/window.ui:218
 #, fuzzy
 msgid "Containers"
-msgstr "Konteynerleştirilmiş Uygulama Yok"
+msgstr "Yardım edenler"
 
 #: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
@@ -185,7 +179,7 @@ msgstr "Yüklü Uygulamalar"
 
 #: vanilla_control_center/gtk/window.ui:242
 msgid "_Help"
-msgstr ""
+msgstr "_Yardım"
 
 #: vanilla_control_center/gtk/window.ui:246
 #, fuzzy
@@ -240,9 +234,8 @@ msgid "DISABLED_MODULES"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:70
-#, fuzzy
 msgid "Apx module disabled"
-msgstr "Kalıcı Mod Devre Dışı."
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
@@ -257,9 +250,9 @@ msgid "Unable to get containers"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:161
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Container '{0}' not found"
-msgstr ""
+msgstr "'{}' kapsayıcısı başlatıldı"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
@@ -276,9 +269,8 @@ msgid "Unsupported setup"
 msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:41
-#, fuzzy
 msgid "PRIME module disabled"
-msgstr "Kalıcı Mod Devre Dışı."
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
@@ -338,11 +330,11 @@ msgstr ""
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "'{}' kapsayıcısı için kabuk açıldı"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "'{}' kapsayıcısı başlatıldı"
 
 #: vanilla_control_center/driver.py:49
 msgid "Activated"
@@ -369,16 +361,15 @@ msgstr "Kurulum"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr ""
+msgstr "Kodlayan(lar)"
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr ""
+msgstr "Dokümante eden(ler)"
 
 #: vanilla_control_center/main.py:118
-#, fuzzy
 msgid "Contributors"
-msgstr "Konteynerleştirilmiş Uygulama Yok"
+msgstr "Yardım edenler"
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
@@ -387,7 +378,7 @@ msgstr "Çevirmenler"
 #: vanilla_control_center/window.py:119
 #, fuzzy
 msgid "Installation requested: {}"
-msgstr "Kurulum"
+msgstr "Kurulum başarısız."
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -408,9 +399,8 @@ msgstr ""
 "Başka bir işlem çalışıyor veya sistemin yeniden başlatılması gerekiyor."
 
 #: vanilla_control_center/window.py:148
-#, fuzzy
 msgid "Installing new Drivers…"
-msgstr "Kurulum Devam Ediyor…"
+msgstr "Yeni sürücüler kuruluyor…"
 
 #: vanilla_control_center/window.py:177
 #, fuzzy
@@ -419,16 +409,15 @@ msgstr "Akıllı güncelleme değiştirildi."
 
 #: vanilla_control_center/window.py:179
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "Akıllı Güncelleme ayarı değiştirilemedi."
 
 #: vanilla_control_center/window.py:184
-#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr "Akıllı güncelleme değiştirildi."
+msgstr "Otomatik güncelleme ayarı değiştirildi."
 
 #: vanilla_control_center/window.py:186
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "Otomatik Güncelleme ayarını değiştirme işlemi başarısız oldu"
 
 #: vanilla_control_center/window.py:193
 msgid "Update Schedule Changed."
@@ -458,13 +447,14 @@ msgstr ""
 msgid "Switching PRIME Profile…"
 msgstr ""
 
-#, fuzzy
-#~ msgid "_Sub System"
-#~ msgstr "Alt Sistem"
+#~ msgid "Close"
+#~ msgstr "Kapat"
 
-#, fuzzy
-#~ msgid "_Vanilla OS Control Center"
-#~ msgstr "Vanilla OS Kontrol Merkezi"
+#~ msgid "Restart Now"
+#~ msgstr "Şimdi Yeniden Başlat"
+
+#~ msgid "Restart Later"
+#~ msgstr "Sonra Yeniden Başlat"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr "Bu, internet bağlantı hızınıza bağlı olarak biraz zaman alabilir."
@@ -524,6 +514,9 @@ msgstr ""
 
 #~ msgid "Persistent Mode Enabled."
 #~ msgstr "Kalıcı Mod Etkinleştirildi."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Kalıcı Mod Devre Dışı."
 
 #~ msgid "Failed to Set Default Mode."
 #~ msgstr "Varsayılan Mod Ayarlanamadı."

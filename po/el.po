@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
 "PO-Revision-Date: 2022-12-16 13:48+0000\n"
 "Last-Translator: stathious <stathious@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/vanilla-os/control-"
@@ -34,29 +34,24 @@ msgid "Enter shell"
 msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
-#, fuzzy
 msgid "Create subsystem"
-msgstr "Υποσύστημα"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "Εγκατάσταση"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Παράθυρο γενικών συντομέυσεων"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Εμφάνιση Συντομεύσεων"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Έξοδος"
@@ -67,7 +62,6 @@ msgid "Apply Changes"
 msgstr "Εφαρμογή αλλαγών"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Drivers"
 msgstr "Οδηγοί"
 
@@ -238,9 +232,8 @@ msgid "DISABLED_MODULES"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:70
-#, fuzzy
 msgid "Apx module disabled"
-msgstr "Η μόνιμη λειτουργία είναι απενεργοποιημένη."
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
@@ -274,9 +267,8 @@ msgid "Unsupported setup"
 msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:41
-#, fuzzy
 msgid "PRIME module disabled"
-msgstr "Η μόνιμη λειτουργία είναι απενεργοποιημένη."
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
@@ -384,7 +376,7 @@ msgstr "Μεταφραστές"
 #: vanilla_control_center/window.py:119
 #, fuzzy
 msgid "Installation requested: {}"
-msgstr "Εγκατάσταση"
+msgstr "Η εγκατάσταση απέτυχε."
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -452,14 +444,6 @@ msgstr ""
 msgid "Switching PRIME Profile…"
 msgstr ""
 
-#, fuzzy
-#~ msgid "_Sub System"
-#~ msgstr "Υποσύστημα"
-
-#, fuzzy
-#~ msgid "_Vanilla OS Control Center"
-#~ msgstr "Κέντρο ελέγχου Vanilla OS"
-
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr ""
 #~ "Αυτό μπορεί να διαρκέσει λίγο, με βάση την ταχύτητα σύνδεσής σας στο "
@@ -519,6 +503,9 @@ msgstr ""
 
 #~ msgid "Persistent Mode Enabled."
 #~ msgstr "Ενεργοποιήθηκε η μόνιμη λειτουργία."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Η μόνιμη λειτουργία είναι απενεργοποιημένη."
 
 #~ msgid "Failed to Set Default Mode."
 #~ msgstr "Ο ορισμός της προεπιλεγμένης λειτουργίας απέτυχε."

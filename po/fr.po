@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
 "PO-Revision-Date: 2023-02-07 10:36+0000\n"
 "Last-Translator: czenon1 <christopher02zenon@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/vanilla-os/"
@@ -34,29 +34,24 @@ msgid "Enter shell"
 msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
-#, fuzzy
 msgid "Create subsystem"
-msgstr "Sous-système"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "Installation"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Général"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Afficher les raccourcis"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Quitter"
@@ -66,7 +61,6 @@ msgid "Apply Changes"
 msgstr "Appliquer les modifications"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Drivers"
 msgstr "Pilotes"
 
@@ -242,9 +236,8 @@ msgid "DISABLED_MODULES"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:70
-#, fuzzy
 msgid "Apx module disabled"
-msgstr "Mode persistant désactivé."
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
@@ -278,9 +271,8 @@ msgid "Unsupported setup"
 msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:41
-#, fuzzy
 msgid "PRIME module disabled"
-msgstr "Mode persistant désactivé."
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
@@ -388,7 +380,7 @@ msgstr "Traducteurs"
 #: vanilla_control_center/window.py:119
 #, fuzzy
 msgid "Installation requested: {}"
-msgstr "Installation"
+msgstr "L'installation a échoué."
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -456,14 +448,6 @@ msgstr "Impossible de modifier le profil principal."
 #: vanilla_control_center/window.py:282
 msgid "Switching PRIME Profile…"
 msgstr "Modification du profil principal…"
-
-#, fuzzy
-#~ msgid "_Sub System"
-#~ msgstr "Sous-système"
-
-#, fuzzy
-#~ msgid "_Vanilla OS Control Center"
-#~ msgstr "Centre de contrôle de Vanilla OS"
 
 #~ msgid "Close"
 #~ msgstr "Fermer"
@@ -537,6 +521,9 @@ msgstr "Modification du profil principal…"
 
 #~ msgid "Persistent Mode Enabled."
 #~ msgstr "Mode persistant activé."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Mode persistant désactivé."
 
 #~ msgid "Failed to Set Default Mode."
 #~ msgstr "Impossible de définir le mode par défaut."

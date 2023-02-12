@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
-"PO-Revision-Date: 2023-02-03 14:34+0000\n"
-"Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
+"PO-Revision-Date: 2023-02-11 11:35+0000\n"
+"Last-Translator: عثمان محامدي <othmahammedi@proton.me>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ar/>\n"
 "Language: ar\n"
@@ -35,29 +35,24 @@ msgid "Enter shell"
 msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
-#, fuzzy
 msgid "Create subsystem"
-msgstr "النظام الفرعي"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "التثبيت"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "عام"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "اعرضِ الاختصارات"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "إلغاء"
@@ -67,7 +62,6 @@ msgid "Apply Changes"
 msgstr "طبَّقِ التعديلات"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Drivers"
 msgstr "التعريفات"
 
@@ -88,8 +82,9 @@ msgid "There are no extra drivers available for your system."
 msgstr "لا تتوفر تعريفات إضافية لنظامك."
 
 #: vanilla_control_center/gtk/window.ui:80
+#, fuzzy
 msgid "PRIME Profiles"
-msgstr ""
+msgstr "يحول الحساب الأساسي…"
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Active Profile"
@@ -163,7 +158,7 @@ msgstr ""
 #: vanilla_control_center/gtk/window.ui:189
 #, fuzzy
 msgid "Automatic Updates"
-msgstr "تغيَّر التحديث الذكي."
+msgstr "تم تغيير إعدادات التحديثات التلقائية."
 
 #: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
@@ -175,8 +170,9 @@ msgid "Sub System"
 msgstr "النظام الفرعي"
 
 #: vanilla_control_center/gtk/window.ui:218
+#, fuzzy
 msgid "Containers"
-msgstr ""
+msgstr "المساهمون"
 
 #: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
@@ -239,9 +235,8 @@ msgid "DISABLED_MODULES"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:70
-#, fuzzy
 msgid "Apx module disabled"
-msgstr "تم تعطيل الوضع المستمر."
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
@@ -256,9 +251,9 @@ msgid "Unable to get containers"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:161
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Container '{0}' not found"
-msgstr ""
+msgstr "يهيأ '{}' الكونتينر"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
@@ -275,9 +270,8 @@ msgid "Unsupported setup"
 msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:41
-#, fuzzy
 msgid "PRIME module disabled"
-msgstr "تم تعطيل الوضع المستمر."
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
@@ -337,11 +331,11 @@ msgstr ""
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "يفتح الشل للكونتينر '{}'"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "يهيأ '{}' الكونتينر"
 
 #: vanilla_control_center/driver.py:49
 msgid "Activated"
@@ -368,15 +362,15 @@ msgstr "التثبيت"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr ""
+msgstr "الكود بواسطة"
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr ""
+msgstr "تم التوثيق بواسطة"
 
 #: vanilla_control_center/main.py:118
 msgid "Contributors"
-msgstr ""
+msgstr "المساهمون"
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
@@ -385,7 +379,7 @@ msgstr "المترجمون"
 #: vanilla_control_center/window.py:119
 #, fuzzy
 msgid "Installation requested: {}"
-msgstr "التثبيت"
+msgstr "فشل التثبيت."
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -402,30 +396,27 @@ msgstr "فشل التثبيت."
 
 #: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
+msgstr "عملية أخرى قيد التنفيذ او النظام بحاجة لإعادة تشغيل."
 
 #: vanilla_control_center/window.py:148
-#, fuzzy
 msgid "Installing new Drivers…"
-msgstr "يُثبَّت…"
+msgstr "يُثبَّت تعريفات جديدة…"
 
 #: vanilla_control_center/window.py:177
-#, fuzzy
 msgid "Smart Update Changed."
 msgstr "تغيَّر التحديث الذكي."
 
 #: vanilla_control_center/window.py:179
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "فشل بتغيير إعدادات التحديثات الذكية."
 
 #: vanilla_control_center/window.py:184
-#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr "تغيَّر التحديث الذكي."
+msgstr "تم تغيير إعدادات التحديثات التلقائية."
 
 #: vanilla_control_center/window.py:186
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "فشل بتغيير إعدادات التحديثات التلقائية"
 
 #: vanilla_control_center/window.py:193
 msgid "Update Schedule Changed."
@@ -433,35 +424,27 @@ msgstr "تغيَّرت جدولة التحديثات."
 
 #: vanilla_control_center/window.py:221
 msgid "{} Exited With Error."
-msgstr "تم الخروج من {} مع وجود خطأ."
+msgstr "{} تم الخروج مع وجود خطأ."
 
 #: vanilla_control_center/window.py:224
 msgid "{} Exited."
-msgstr "تم الخروج من {}."
+msgstr "{} تم الخروج."
 
 #: vanilla_control_center/window.py:227
 msgid "{} Launched."
-msgstr "تم تشغيل {}."
+msgstr "{} تم التشغيل."
 
 #: vanilla_control_center/window.py:272
 msgid "Prime Profile Changed."
-msgstr ""
+msgstr "تم تغيير الحساب الأساسي."
 
 #: vanilla_control_center/window.py:279 vanilla_control_center/window.py:284
 msgid "Prime Profile Change Failed."
-msgstr ""
+msgstr "فشل بتغيير الحساب الأساسي."
 
 #: vanilla_control_center/window.py:282
 msgid "Switching PRIME Profile…"
-msgstr ""
-
-#, fuzzy
-#~ msgid "_Sub System"
-#~ msgstr "النظام الفرعي"
-
-#, fuzzy
-#~ msgid "_Vanilla OS Control Center"
-#~ msgstr "مركز تحكم نظام فانيلا"
+msgstr "يحول الحساب الأساسي…"
 
 #~ msgid "Close"
 #~ msgstr "أغلق"
@@ -526,6 +509,9 @@ msgstr ""
 
 #~ msgid "Persistent Mode Enabled."
 #~ msgstr "تم تفعيل الوضع المستمر."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "تم تعطيل الوضع المستمر."
 
 #~ msgid "Failed to Set Default Mode."
 #~ msgstr "فشل تعيين الوضع الافتراضي."

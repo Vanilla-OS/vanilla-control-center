@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
-"PO-Revision-Date: 2023-01-16 00:56+0000\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
+"PO-Revision-Date: 2023-02-11 11:35+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
@@ -34,29 +34,24 @@ msgid "Enter shell"
 msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
-#, fuzzy
 msgid "Create subsystem"
-msgstr "Undersystem"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "Installation"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Allmänt"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Visa genvägar"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Avsluta"
@@ -66,7 +61,6 @@ msgid "Apply Changes"
 msgstr "Tillämpa förändringar"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Drivers"
 msgstr "Drivrutiner"
 
@@ -87,8 +81,9 @@ msgid "There are no extra drivers available for your system."
 msgstr "Det finns inga extra drivrutiner tillgängliga för ditt system."
 
 #: vanilla_control_center/gtk/window.ui:80
+#, fuzzy
 msgid "PRIME Profiles"
-msgstr ""
+msgstr "Byter PRIME profil…"
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Active Profile"
@@ -118,7 +113,7 @@ msgstr ""
 #: vanilla_control_center/gtk/window.ui:148
 #, fuzzy
 msgid "Updates"
-msgstr "Uppdateringar"
+msgstr "Tillämpa uppdateringar"
 
 #: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
@@ -163,7 +158,7 @@ msgstr ""
 #: vanilla_control_center/gtk/window.ui:189
 #, fuzzy
 msgid "Automatic Updates"
-msgstr "SmartUpdate har ändrats."
+msgstr "Inställningen för automatisk uppdatering har ändrats."
 
 #: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
@@ -177,7 +172,7 @@ msgstr "Undersystem"
 #: vanilla_control_center/gtk/window.ui:218
 #, fuzzy
 msgid "Containers"
-msgstr "Behållare"
+msgstr "Bidragsgivare"
 
 #: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
@@ -185,7 +180,7 @@ msgstr "Installerade program"
 
 #: vanilla_control_center/gtk/window.ui:242
 msgid "_Help"
-msgstr ""
+msgstr "_Hjälp"
 
 #: vanilla_control_center/gtk/window.ui:246
 #, fuzzy
@@ -240,9 +235,8 @@ msgid "DISABLED_MODULES"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:70
-#, fuzzy
 msgid "Apx module disabled"
-msgstr "Beständigt läge inaktiverat."
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
@@ -257,9 +251,9 @@ msgid "Unable to get containers"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:161
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Container '{0}' not found"
-msgstr ""
+msgstr "Behållare '{}' initierad"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
@@ -276,9 +270,8 @@ msgid "Unsupported setup"
 msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:41
-#, fuzzy
 msgid "PRIME module disabled"
-msgstr "Beständigt läge inaktiverat."
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
@@ -338,11 +331,11 @@ msgstr ""
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "Skalet öppnat för behållare '{}'"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "Behållare '{}' initierad"
 
 #: vanilla_control_center/driver.py:49
 msgid "Activated"
@@ -369,16 +362,15 @@ msgstr "Installation"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr ""
+msgstr "Kod av"
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr ""
+msgstr "Dokumentation av"
 
 #: vanilla_control_center/main.py:118
-#, fuzzy
 msgid "Contributors"
-msgstr "Behållare"
+msgstr "Bidragsgivare"
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
@@ -387,7 +379,7 @@ msgstr "Översättare"
 #: vanilla_control_center/window.py:119
 #, fuzzy
 msgid "Installation requested: {}"
-msgstr "Installation"
+msgstr "Installationen misslyckades."
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -407,27 +399,24 @@ msgid "Another transaction is running or the system needs to be restarted."
 msgstr "En annan transaktion körs eller så måste systemet startas om."
 
 #: vanilla_control_center/window.py:148
-#, fuzzy
 msgid "Installing new Drivers…"
-msgstr "Installation pågår…"
+msgstr "Installerar nya drivrutiner…"
 
 #: vanilla_control_center/window.py:177
-#, fuzzy
 msgid "Smart Update Changed."
-msgstr "SmartUpdate har ändrats."
+msgstr "Smart Update har ändrats."
 
 #: vanilla_control_center/window.py:179
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "Misslyckades att ändra inställningarna för Smart uppdatering."
 
 #: vanilla_control_center/window.py:184
-#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr "SmartUpdate har ändrats."
+msgstr "Inställningen för automatisk uppdatering har ändrats."
 
 #: vanilla_control_center/window.py:186
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "Misslyckades att ändra inställningarna för automatiska uppdateringar"
 
 #: vanilla_control_center/window.py:193
 msgid "Update Schedule Changed."
@@ -447,23 +436,24 @@ msgstr "{} Startat."
 
 #: vanilla_control_center/window.py:272
 msgid "Prime Profile Changed."
-msgstr ""
+msgstr "Prime-profil har ändrats."
 
 #: vanilla_control_center/window.py:279 vanilla_control_center/window.py:284
 msgid "Prime Profile Change Failed."
-msgstr ""
+msgstr "Prime profil ändring misslyckades."
 
 #: vanilla_control_center/window.py:282
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "Byter PRIME profil…"
 
-#, fuzzy
-#~ msgid "_Sub System"
-#~ msgstr "Undersystem"
+#~ msgid "Close"
+#~ msgstr "Stäng"
 
-#, fuzzy
-#~ msgid "_Vanilla OS Control Center"
-#~ msgstr "Vanilla OS Kontrollcenter"
+#~ msgid "Restart Now"
+#~ msgstr "Starta om nu"
+
+#~ msgid "Restart Later"
+#~ msgstr "Starta om senare"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr "Detta kan ta ett tag, baserat på din internetanslutningshastighet."
@@ -523,6 +513,9 @@ msgstr ""
 
 #~ msgid "Persistent Mode Enabled."
 #~ msgstr "Beständigt läge aktiverat."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Beständigt läge inaktiverat."
 
 #~ msgid "Failed to Set Default Mode."
 #~ msgstr "Misslyckades att ställa in standardläge."

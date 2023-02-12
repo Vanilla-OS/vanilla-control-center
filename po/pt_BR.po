@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
-"PO-Revision-Date: 2023-02-05 08:36+0000\n"
-"Last-Translator: Robert de Abreu Viana <deathrobert2010@gmail.com>\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
+"PO-Revision-Date: 2023-02-11 11:35+0000\n"
+"Last-Translator: Rodrigo Mantoan <rodrigomantoan@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "vanilla-os/control-center/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -34,29 +34,24 @@ msgid "Enter shell"
 msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
-#, fuzzy
 msgid "Create subsystem"
-msgstr "Subsistema"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "Instalação"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Geral"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Mostrar atalhos"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Sair"
@@ -66,7 +61,6 @@ msgid "Apply Changes"
 msgstr "Aplicar Alterações"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Drivers"
 msgstr "Drivers"
 
@@ -89,7 +83,7 @@ msgstr "Não existem drivers adicionais para o seu sistema."
 #: vanilla_control_center/gtk/window.ui:80
 #, fuzzy
 msgid "PRIME Profiles"
-msgstr "Mudança no Perfil Avançado…"
+msgstr "Alterando Perfil PRIME…"
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Active Profile"
@@ -119,7 +113,7 @@ msgstr ""
 #: vanilla_control_center/gtk/window.ui:148
 #, fuzzy
 msgid "Updates"
-msgstr "Atualizações"
+msgstr "Aplicar Atualizações"
 
 #: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
@@ -165,7 +159,7 @@ msgstr ""
 #: vanilla_control_center/gtk/window.ui:189
 #, fuzzy
 msgid "Automatic Updates"
-msgstr "SmartUpdate Alterado."
+msgstr "Configuração da Atualização Inteligente modificada."
 
 #: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
@@ -179,7 +173,7 @@ msgstr "Subsistema"
 #: vanilla_control_center/gtk/window.ui:218
 #, fuzzy
 msgid "Containers"
-msgstr "Nenhuma Aplicação em Contêineres"
+msgstr "Colaboradores"
 
 #: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
@@ -242,9 +236,8 @@ msgid "DISABLED_MODULES"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:70
-#, fuzzy
 msgid "Apx module disabled"
-msgstr "Modo Persistente Desabilitado."
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
@@ -261,7 +254,7 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:161
 #, fuzzy, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "Container '{}' iniciado"
+msgstr "Contêiner '{}' inicializado"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
@@ -278,9 +271,8 @@ msgid "Unsupported setup"
 msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:41
-#, fuzzy
 msgid "PRIME module disabled"
-msgstr "Modo Persistente Desabilitado."
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
@@ -340,11 +332,11 @@ msgstr ""
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr "Shell aberto para o container '{}'"
+msgstr "Shell aberto para o contêiner '{}'"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr "Container '{}' iniciado"
+msgstr "Contêiner '{}' inicializado"
 
 #: vanilla_control_center/driver.py:49
 msgid "Activated"
@@ -371,16 +363,15 @@ msgstr "Instalação"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr ""
+msgstr "Código por"
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
 msgstr "Documentação por"
 
 #: vanilla_control_center/main.py:118
-#, fuzzy
 msgid "Contributors"
-msgstr "Nenhuma Aplicação em Contêineres"
+msgstr "Colaboradores"
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
@@ -389,7 +380,7 @@ msgstr "Tradutores"
 #: vanilla_control_center/window.py:119
 #, fuzzy
 msgid "Installation requested: {}"
-msgstr "Instalação"
+msgstr "Falha na instalação."
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -414,22 +405,20 @@ msgid "Installing new Drivers…"
 msgstr "Instalando novos Drivers…"
 
 #: vanilla_control_center/window.py:177
-#, fuzzy
 msgid "Smart Update Changed."
-msgstr "SmartUpdate Alterado."
+msgstr "Atualização Inteligente Alterada."
 
 #: vanilla_control_center/window.py:179
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "Falha ao alterar as configurações da Atualização Inteligente."
 
 #: vanilla_control_center/window.py:184
-#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr "SmartUpdate Alterado."
+msgstr "Configuração da Atualização Inteligente modificada."
 
 #: vanilla_control_center/window.py:186
 msgid "Failed to change Automatic Update setting"
-msgstr "Falhou ao alterar a configuração de atualização automática"
+msgstr "Falha ao alterar a configuração de Atualização Automática"
 
 #: vanilla_control_center/window.py:193
 msgid "Update Schedule Changed."
@@ -453,19 +442,11 @@ msgstr "Perfil Principal Alterado."
 
 #: vanilla_control_center/window.py:279 vanilla_control_center/window.py:284
 msgid "Prime Profile Change Failed."
-msgstr "Falha na Alteração do Perfil Avançado."
+msgstr "Falha na Alteração do Perfil Principal."
 
 #: vanilla_control_center/window.py:282
 msgid "Switching PRIME Profile…"
-msgstr "Mudança no Perfil Avançado…"
-
-#, fuzzy
-#~ msgid "_Sub System"
-#~ msgstr "Subsistema"
-
-#, fuzzy
-#~ msgid "_Vanilla OS Control Center"
-#~ msgstr "Central de Controle do Vanilla OS"
+msgstr "Alterando Perfil PRIME…"
 
 #~ msgid "Close"
 #~ msgstr "Fechar"
@@ -536,6 +517,9 @@ msgstr "Mudança no Perfil Avançado…"
 
 #~ msgid "Persistent Mode Enabled."
 #~ msgstr "Modo Persistente Habilitado."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Modo Persistente Desabilitado."
 
 #~ msgid "Failed to Set Default Mode."
 #~ msgstr "Falha ao Definir o Modo Padrão."

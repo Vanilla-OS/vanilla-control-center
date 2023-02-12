@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
-"PO-Revision-Date: 2023-01-20 19:20+0000\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
+"PO-Revision-Date: 2023-02-11 11:35+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15.1\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
@@ -34,29 +34,24 @@ msgid "Enter shell"
 msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
-#, fuzzy
 msgid "Create subsystem"
-msgstr "Sub Sistema"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "Instalação"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Geral"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Mostrar Atalhos"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Sair"
@@ -66,7 +61,6 @@ msgid "Apply Changes"
 msgstr "Aplicar Alterações"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Drivers"
 msgstr "Controladores"
 
@@ -119,7 +113,7 @@ msgstr ""
 #: vanilla_control_center/gtk/window.ui:148
 #, fuzzy
 msgid "Updates"
-msgstr "Atualizações"
+msgstr "Aplicar atualizações"
 
 #: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
@@ -165,7 +159,7 @@ msgstr ""
 #: vanilla_control_center/gtk/window.ui:189
 #, fuzzy
 msgid "Automatic Updates"
-msgstr "Atualizações inteligentes alteradas."
+msgstr "Alteração da configuração de atualização automática."
 
 #: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
@@ -179,7 +173,7 @@ msgstr "Sub Sistema"
 #: vanilla_control_center/gtk/window.ui:218
 #, fuzzy
 msgid "Containers"
-msgstr "Sem aplicações contentorizadas"
+msgstr "Contribuidores"
 
 #: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
@@ -242,9 +236,8 @@ msgid "DISABLED_MODULES"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:70
-#, fuzzy
 msgid "Apx module disabled"
-msgstr "Modo Persistente desativado."
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
@@ -278,9 +271,8 @@ msgid "Unsupported setup"
 msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:41
-#, fuzzy
 msgid "PRIME module disabled"
-msgstr "Modo Persistente desativado."
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
@@ -371,16 +363,15 @@ msgstr "Instalação"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr ""
+msgstr "Código por"
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr ""
+msgstr "Documentação por"
 
 #: vanilla_control_center/main.py:118
-#, fuzzy
 msgid "Contributors"
-msgstr "Sem aplicações contentorizadas"
+msgstr "Contribuidores"
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
@@ -389,7 +380,7 @@ msgstr "Tradutores"
 #: vanilla_control_center/window.py:119
 #, fuzzy
 msgid "Installation requested: {}"
-msgstr "Instalação"
+msgstr "Falha na instalação."
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -406,29 +397,28 @@ msgstr "Falha na instalação."
 
 #: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr "Outra transação está em execução ou o sistema precisa ser reiniciado."
+msgstr ""
+"Outra transação está em execução ou o sistema precisa de ser reiniciado."
 
 #: vanilla_control_center/window.py:148
 msgid "Installing new Drivers…"
 msgstr "A instalar novos controladores…"
 
 #: vanilla_control_center/window.py:177
-#, fuzzy
 msgid "Smart Update Changed."
-msgstr "Atualizações inteligentes alteradas."
+msgstr "Alteração da Atualização inteligente."
 
 #: vanilla_control_center/window.py:179
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "Falha ao alterar a configuração da Atualização inteligente."
 
 #: vanilla_control_center/window.py:184
-#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr "Atualizações inteligentes alteradas."
+msgstr "Alteração da configuração de atualização automática."
 
 #: vanilla_control_center/window.py:186
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "Falha ao alterar a configuração de Atualização automática"
 
 #: vanilla_control_center/window.py:193
 msgid "Update Schedule Changed."
@@ -458,13 +448,14 @@ msgstr "Falha ao alterar perfil principal."
 msgid "Switching PRIME Profile…"
 msgstr "A trocar perfil PRINCIPAL…"
 
-#, fuzzy
-#~ msgid "_Sub System"
-#~ msgstr "Sub Sistema"
+#~ msgid "Close"
+#~ msgstr "Fechar"
 
-#, fuzzy
-#~ msgid "_Vanilla OS Control Center"
-#~ msgstr "Centro de Controlo do Vanilla OS"
+#~ msgid "Restart Now"
+#~ msgstr "Reiniciar agora"
+
+#~ msgid "Restart Later"
+#~ msgstr "Reiniciar depois"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr ""
@@ -527,6 +518,9 @@ msgstr "A trocar perfil PRINCIPAL…"
 
 #~ msgid "Persistent Mode Enabled."
 #~ msgstr "Modo Persistente ativado."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Modo Persistente desativado."
 
 #~ msgid "Failed to Set Default Mode."
 #~ msgstr "Falha ao definir o modo padrão."

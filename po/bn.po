@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
 "PO-Revision-Date: 2023-02-03 14:34+0000\n"
 "Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
 "Language-Team: Bengali <https://hosted.weblate.org/projects/vanilla-os/"
@@ -34,29 +34,24 @@ msgid "Enter shell"
 msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
-#, fuzzy
 msgid "Create subsystem"
-msgstr "সাব সিস্টেম"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "স্থাপন"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "সাধারণ"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "শর্টকাটগুলো দেখান"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "বের হোন"
@@ -66,7 +61,6 @@ msgid "Apply Changes"
 msgstr "পরিবর্তন করুন"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Drivers"
 msgstr "ড্রাইভার"
 
@@ -384,7 +378,7 @@ msgstr "অনুবাদক"
 #: vanilla_control_center/window.py:119
 #, fuzzy
 msgid "Installation requested: {}"
-msgstr "স্থাপন"
+msgstr "ইনস্টলেশন ব্যর্থ হয়েছে।"
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -450,14 +444,6 @@ msgstr "প্রধান প্রোফাইল পরিবর্তনে 
 #: vanilla_control_center/window.py:282
 msgid "Switching PRIME Profile…"
 msgstr "প্রধান প্রোফাইল বদলানো হচ্ছে…"
-
-#, fuzzy
-#~ msgid "_Sub System"
-#~ msgstr "সাব সিস্টেম"
-
-#, fuzzy
-#~ msgid "_Vanilla OS Control Center"
-#~ msgstr "ভেনিলা ওএস নিয়ন্ত্রণ কেন্দ্র"
 
 #~ msgid "Close"
 #~ msgstr "বন্ধ করুন"

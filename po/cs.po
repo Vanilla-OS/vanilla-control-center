@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
-"PO-Revision-Date: 2022-12-22 11:48+0000\n"
-"Last-Translator: Michal Maděra <misamadera1@gmail.com>\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
+"PO-Revision-Date: 2023-02-11 11:35+0000\n"
+"Last-Translator: \"Vojtěch V.\" <xonax658@gmail.com>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/vanilla-os/control-"
 "center/cs/>\n"
 "Language: cs\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
@@ -34,29 +34,24 @@ msgid "Enter shell"
 msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
-#, fuzzy
 msgid "Create subsystem"
-msgstr "Subsystém"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "Instalace"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Obecné"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Zobrazit klávesové zkratky"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Ukončit"
@@ -67,7 +62,6 @@ msgid "Apply Changes"
 msgstr "Použít změny"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Drivers"
 msgstr "Ovladače"
 
@@ -127,8 +121,9 @@ msgid "Preferences"
 msgstr "Předvolby"
 
 #: vanilla_control_center/gtk/window.ui:157
+#, fuzzy
 msgid "Latest Update Check"
-msgstr ""
+msgstr "Chytré Aktualizace změněny."
 
 #: vanilla_control_center/gtk/window.ui:158
 msgid "Never"
@@ -144,16 +139,16 @@ msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
-msgstr ""
+msgstr "Týdně"
 
 #: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
-msgstr ""
+msgstr "Měsíčně"
 
 #: vanilla_control_center/gtk/window.ui:177
 #, fuzzy
 msgid "Smart Updates"
-msgstr "Použít změny"
+msgstr "Chytré Aktualizace změněny."
 
 #: vanilla_control_center/gtk/window.ui:178
 msgid "The system will not update if it is in heavy use or low battery."
@@ -183,7 +178,7 @@ msgstr "Nainstalované aplikace"
 
 #: vanilla_control_center/gtk/window.ui:242
 msgid "_Help"
-msgstr ""
+msgstr "_Pomoc"
 
 #: vanilla_control_center/gtk/window.ui:246
 #, fuzzy
@@ -238,9 +233,8 @@ msgid "DISABLED_MODULES"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:70
-#, fuzzy
 msgid "Apx module disabled"
-msgstr "Zakázán trvalý režim."
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
@@ -255,9 +249,9 @@ msgid "Unable to get containers"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:161
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Container '{0}' not found"
-msgstr ""
+msgstr "Kontejner '{}' inicializován"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
@@ -274,9 +268,8 @@ msgid "Unsupported setup"
 msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:41
-#, fuzzy
 msgid "PRIME module disabled"
-msgstr "Zakázán trvalý režim."
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
@@ -336,11 +329,12 @@ msgstr ""
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "Shell otevřen pro kontejner '{}'"
 
 #: vanilla_control_center/container.py:59
+#, fuzzy
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "Kontejner '{}' inicializován"
 
 #: vanilla_control_center/driver.py:49
 msgid "Activated"
@@ -371,7 +365,7 @@ msgstr ""
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr ""
+msgstr "Dokumentace od"
 
 #: vanilla_control_center/main.py:118
 msgid "Contributors"
@@ -384,7 +378,7 @@ msgstr "Překladatelé"
 #: vanilla_control_center/window.py:119
 #, fuzzy
 msgid "Installation requested: {}"
-msgstr "Instalace"
+msgstr "Instalace se nezdařila."
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -404,13 +398,12 @@ msgid "Another transaction is running or the system needs to be restarted."
 msgstr ""
 
 #: vanilla_control_center/window.py:148
-#, fuzzy
 msgid "Installing new Drivers…"
-msgstr "Probíhá instalace…"
+msgstr "Probíhá instalace nových ovladačů…"
 
 #: vanilla_control_center/window.py:177
 msgid "Smart Update Changed."
-msgstr ""
+msgstr "Chytré Aktualizace změněny."
 
 #: vanilla_control_center/window.py:179
 msgid "Failed to change the Smart Update setting."
@@ -452,13 +445,14 @@ msgstr ""
 msgid "Switching PRIME Profile…"
 msgstr ""
 
-#, fuzzy
-#~ msgid "_Sub System"
-#~ msgstr "Subsystém"
+#~ msgid "Close"
+#~ msgstr "Zavřít"
 
-#, fuzzy
-#~ msgid "_Vanilla OS Control Center"
-#~ msgstr "Ovládací Centrum Vanilla OS"
+#~ msgid "Restart Now"
+#~ msgstr "Restartovat ihned"
+
+#~ msgid "Restart Later"
+#~ msgstr "Restartovat později"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr ""
@@ -516,6 +510,9 @@ msgstr ""
 
 #~ msgid "Persistent Mode Enabled."
 #~ msgstr "Povolen trvalý režim."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Zakázán trvalý režim."
 
 #~ msgid "Failed to Set Default Mode."
 #~ msgstr "Nepodařilo se nastavit výchozí režim."

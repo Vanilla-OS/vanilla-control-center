@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-11 22:10+0530\n"
+"POT-Creation-Date: 2023-02-12 14:30+0530\n"
 "PO-Revision-Date: 2023-02-05 08:36+0000\n"
 "Last-Translator: inal <inaltarba89@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -35,29 +35,24 @@ msgid "Enter shell"
 msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
-#, fuzzy
 msgid "Create subsystem"
-msgstr "Подсистема"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
-#, fuzzy
 msgid "Installation"
 msgstr "Установка"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
-#, fuzzy
 msgctxt "shortcut window"
 msgid "General"
 msgstr "Общие"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
 msgstr "Показать сочетания клавиш"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
-#, fuzzy
 msgctxt "shortcut window"
 msgid "Quit"
 msgstr "Выйти"
@@ -67,7 +62,6 @@ msgid "Apply Changes"
 msgstr "Применить изменения"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Drivers"
 msgstr "Драйверы"
 
@@ -242,9 +236,8 @@ msgid "DISABLED_MODULES"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:70
-#, fuzzy
 msgid "Apx module disabled"
-msgstr "Постоянный режим отключен."
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
@@ -278,9 +271,8 @@ msgid "Unsupported setup"
 msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:41
-#, fuzzy
 msgid "PRIME module disabled"
-msgstr "Постоянный режим отключен."
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
@@ -388,7 +380,7 @@ msgstr "Переводчики"
 #: vanilla_control_center/window.py:119
 #, fuzzy
 msgid "Installation requested: {}"
-msgstr "Установка"
+msgstr "При установке произошла ошибка."
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -454,14 +446,6 @@ msgstr "Изменение профиля Prime не удалось."
 #: vanilla_control_center/window.py:282
 msgid "Switching PRIME Profile…"
 msgstr "Переключение профиля PRIME…"
-
-#, fuzzy
-#~ msgid "_Sub System"
-#~ msgstr "Подсистема"
-
-#, fuzzy
-#~ msgid "_Vanilla OS Control Center"
-#~ msgstr "Центр управления Vanilla OS"
 
 #~ msgid "Close"
 #~ msgstr "Закрыть"
@@ -535,6 +519,9 @@ msgstr "Переключение профиля PRIME…"
 
 #~ msgid "Persistent Mode Enabled."
 #~ msgstr "Постоянный режим включен."
+
+#~ msgid "Persistent Mode Disabled."
+#~ msgstr "Постоянный режим отключен."
 
 #~ msgid "Failed to Set Default Mode."
 #~ msgstr "Не удалось изменить режим по умолчанию."
