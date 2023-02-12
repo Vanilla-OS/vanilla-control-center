@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the vanilla-control-center package.
 # Automatically generated, 2022.
 #
+# lakejason0 <sunliyuan200402@outlook.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-05 08:36+0000\n"
+"PO-Revision-Date: 2023-02-12 09:49+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "vanilla-os/control-center/zh_Hans/>\n"
@@ -31,11 +32,11 @@ msgstr "没有说明"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "进入 shell"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "创建子系统"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -81,9 +82,8 @@ msgid "There are no extra drivers available for your system."
 msgstr "您的设备没有可用的额外驱动。"
 
 #: vanilla_control_center/gtk/window.ui:80
-#, fuzzy
 msgid "PRIME Profiles"
-msgstr "正在切换 PRIME 配置文件…"
+msgstr "PRIME 配置文件"
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Active Profile"
