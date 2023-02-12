@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-12 09:53+0000\n"
+"PO-Revision-Date: 2023-02-12 09:54+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "vanilla-os/control-center/zh_Hans/>\n"
@@ -96,7 +96,7 @@ msgstr "集成显卡"
 #: vanilla_control_center/gtk/window.ui:95
 #: vanilla_control_center/gtk/window.ui:110
 msgid "Not detected"
-msgstr ""
+msgstr "未检测到"
 
 #: vanilla_control_center/gtk/window.ui:109
 msgid "Discrete GPU"
