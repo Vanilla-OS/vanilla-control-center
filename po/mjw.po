@@ -1,184 +1,179 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# EncryptedEasty <c.zullo08@gmail.com>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-12 12:03+0000\n"
-"Last-Translator: EncryptedEasty <c.zullo08@gmail.com>\n"
-"Language-Team: Italian <https://hosted.weblate.org/projects/vanilla-os/"
-"control-center/it/>\n"
-"Language: it\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: mjw\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
 #: vanilla_control_center/gtk/window.ui:17 vanilla_control_center/main.py:96
 msgid "Vanilla OS Control Center"
-msgstr "Vanilla OS Centro di Controllo"
+msgstr ""
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr "Nessuna descrizione"
+msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr "Entra nella Shell"
+msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr "Crea il sottosistema"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr "Installazione"
+msgstr ""
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Generale"
+msgstr ""
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Mostra Scorciatoie"
+msgstr ""
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Esci"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:28
 msgid "Apply Changes"
-msgstr "Applica Modifiche"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:45
 msgid "Drivers"
-msgstr "Driver"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:55
 msgid "Loading drivers…"
-msgstr "Caricamento driver…"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
-msgstr "Attendi il caricamento dei driver disponibili."
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:64
 msgid "No Drivers Available"
-msgstr "Nessun Driver Disponibile"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr "Non sono disponibili driver aggiuntivi per il sistema."
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:80
 msgid "PRIME Profiles"
-msgstr "Profili PRIME"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Active Profile"
-msgstr "Profilo Attivo"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:94
 msgid "Integrated GPU"
-msgstr "GPU Integrata"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:95
 #: vanilla_control_center/gtk/window.ui:110
 msgid "Not detected"
-msgstr "Non rilevato"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:109
 msgid "Discrete GPU"
-msgstr "GPU Discreta"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:124
 msgid "Hybrid"
-msgstr "Ibrido"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:125
 msgid "Use the integrated GPU for everything and the discrete GPU on demand"
-msgstr "Usa la GPU integrata per tutto e la GPU discreta su richiesta"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:148
 msgid "Updates"
-msgstr "Aggiornamenti"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
-msgstr "Preferenze"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:157
 msgid "Latest Update Check"
-msgstr "Controllo dell'ultimo aggiornamento"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:158
 msgid "Never"
-msgstr "Mai"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:163
 msgid "Updates Scheduling"
-msgstr "Pianificazione degli Aggiornamenti"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:164
 msgid "Choose how often the system should check for updates."
 msgstr ""
-"Scegli la frequenza con cui il sistema deve verificare la presenza di "
-"aggiornamenti."
 
 #: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
-msgstr "Settimanale"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
-msgstr "Mensile"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:177
 msgid "Smart Updates"
-msgstr "Aggiornamenti intelligenti"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:178
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
-"Il sistema non si aggiornerà se è in sovraccarico o la batteria è scarica."
 
 #: vanilla_control_center/gtk/window.ui:189
 msgid "Automatic Updates"
-msgstr "Aggiornamenti Automatici"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
-msgstr "Il sistema si aggiornerà automaticamente in background."
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:208
 #: vanilla_control_center/backends/apx.py:37
 msgid "Sub System"
-msgstr "Sottosistema"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:218
 msgid "Containers"
-msgstr "Container"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
-msgstr "Applicazioni installate"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:242
 msgid "_Help"
-msgstr "_Aiuto"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:246
 msgid "_About Control Center"
-msgstr "_Informazioni sul pannello di controllo"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:36
 #: vanilla_control_center/backends/apx.py:40
@@ -187,7 +182,7 @@ msgstr "_Informazioni sul pannello di controllo"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr "Flag"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -196,322 +191,235 @@ msgstr "Flag"
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr "Nome"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:41
 msgid "Arch Linux Sub System"
-msgstr "Sottosistema di Arch Linux"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:45
 msgid "Fedora Sub System"
-msgstr "Sottosistema di Fedora"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:49
 msgid "Alpine Sub System"
-msgstr "Sottosistema di Alpine"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:53
 msgid "openSUSE Sub System"
-msgstr "Sottosistema di openSUSE"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:57
 msgid "Void Linux Sub System"
-msgstr "Sottosistema di Void Linux"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:69
 msgid "DISABLED_MODULES"
-msgstr "MODULI_DISABILITATI"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr "Modulo di apx disabilitato"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr "Binary di apx non trovato"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr "Binary di Distrobox non trovato"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr "Impossibile ottenere i container"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:161
 #, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "Container '{0}' non trovato"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr "Eseguendo l'applicazione: '{0}'"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr "Impossibile eseguire l’applicazione gestita: '{0}'"
+msgstr ""
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr "Setup non supportato"
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:41
 msgid "PRIME module disabled"
-msgstr "Modulo PRIME disabilitato"
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
-msgstr "prime-select non trovato"
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:49
 msgid "prime-select not supported for this device"
-msgstr "prime-select non è supportato per questo dispositivo"
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:55
 msgid "prime-select is not supported for this setup"
-msgstr "prime-select non è supportato per questo setup"
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:91
 msgid "Invalid profile name"
-msgstr "Nome del Profilo Invalido"
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:114
 #: vanilla_control_center/backends/prime_profiles.py:117
 #: vanilla_control_center/backends/prime_profiles.py:120
 msgid "integrated"
-msgstr "Integrata"
+msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:115
 #: vanilla_control_center/backends/prime_profiles.py:118
 #: vanilla_control_center/backends/prime_profiles.py:121
 msgid "discrete"
-msgstr "Discreta"
+msgstr ""
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:44
 msgid "Getting devices list"
-msgstr "Ottenendo la lista di dispositivi"
+msgstr ""
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:77
 #, python-format
 msgid "Devices list: %s"
-msgstr "Lista dei dispositivi: %s"
+msgstr ""
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:84
 #, python-format
 msgid "Driver %s installed: %s"
-msgstr "Driver %s installato: %s"
+msgstr ""
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:99
 #, python-format
 msgid "Install command: %s"
-msgstr "Comando di installazione: %s"
+msgstr ""
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr "File di Configurazione VSO non trovato a {}"
+msgstr ""
 
 #: vanilla_control_center/container.py:47
 #: vanilla_control_center/container.py:48
 msgid "Clicked"
-msgstr "Cliccato"
+msgstr ""
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr "Shell aperta per il container '{}'"
+msgstr ""
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr "Container '{}' inizializzato"
+msgstr ""
 
 #: vanilla_control_center/driver.py:49
 msgid "Activated"
-msgstr "Attivato"
+msgstr ""
 
 #: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
 msgid "Driver selected"
-msgstr "Driver selezionato"
+msgstr ""
 
 #: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
 msgid "Installed"
-msgstr "Installato"
+msgstr ""
 
 #: vanilla_control_center/driver.py:86
 msgid "Selected driver: {}"
-msgstr "Selezionato il driver: {}"
+msgstr ""
 
 #: vanilla_control_center/driver.py:92
 msgid "Installation needed"
-msgstr "Installazione richiesta"
+msgstr ""
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr "Codice da"
+msgstr ""
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr "Documentazione da"
+msgstr ""
 
 #: vanilla_control_center/main.py:118
 msgid "Contributors"
-msgstr "Contributori"
+msgstr ""
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
-msgstr "Traduttori"
+msgstr ""
 
 #: vanilla_control_center/window.py:119
 msgid "Installation requested: {}"
-msgstr "Installazione richiesta: {}"
+msgstr ""
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
-msgstr "Installazione Fallita."
+msgstr ""
 
 #: vanilla_control_center/window.py:131
 msgid "New Drivers Installed."
-msgstr "Nuovi Driver Installati."
+msgstr ""
 
 #: vanilla_control_center/window.py:132
 msgid "Installation finished."
-msgstr "Installazione terminata."
+msgstr ""
 
 #: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr "Un'altra transazione è in corso o il sistema deve essere riavviato."
+msgstr ""
 
 #: vanilla_control_center/window.py:148
 msgid "Installing new Drivers…"
-msgstr "Installando nuovi Driver…"
+msgstr ""
 
 #: vanilla_control_center/window.py:177
 msgid "Smart Update Changed."
-msgstr "Aggiornamento Intelligente modificato."
+msgstr ""
 
 #: vanilla_control_center/window.py:179
 msgid "Failed to change the Smart Update setting."
 msgstr ""
-"Impossibile modificare l’impostazione dell' Aggiornamento Intelligente."
 
 #: vanilla_control_center/window.py:184
 msgid "Automatic Update setting changed."
-msgstr "Aggiornamento Automatico modificato."
+msgstr ""
 
 #: vanilla_control_center/window.py:186
 msgid "Failed to change Automatic Update setting"
-msgstr "Impossibile modificare l'impostazione dell' Aggiornamento Automatico"
+msgstr ""
 
 #: vanilla_control_center/window.py:193
 msgid "Update Schedule Changed."
-msgstr "Pianificazione degli Aggiornamenti Modificato."
+msgstr ""
 
 #: vanilla_control_center/window.py:221
 msgid "{} Exited With Error."
-msgstr "{} Terminato Con Errore."
+msgstr ""
 
 #: vanilla_control_center/window.py:224
 msgid "{} Exited."
-msgstr "{} Terminato."
+msgstr ""
 
 #: vanilla_control_center/window.py:227
 msgid "{} Launched."
-msgstr "{} Lanciato."
+msgstr ""
 
 #: vanilla_control_center/window.py:272
 msgid "Prime Profile Changed."
-msgstr "Profile Prime Modificato."
+msgstr ""
 
 #: vanilla_control_center/window.py:279 vanilla_control_center/window.py:284
 msgid "Prime Profile Change Failed."
-msgstr "Modifica del Profilo Prime Fallita."
+msgstr ""
 
 #: vanilla_control_center/window.py:282
 msgid "Switching PRIME Profile…"
-msgstr "Cambiando Profilo PRIME…"
-
-#~ msgid "Close"
-#~ msgstr "Chiudi"
-
-#~ msgid "Restart Now"
-#~ msgstr "Riavvia Ora"
-
-#~ msgid "Restart Later"
-#~ msgstr "Riavvia più tardi"
-
-#~ msgid "This may take a while, based on your internet connection speed."
-#~ msgstr ""
-#~ "L'operazione potrebbe richiedere del tempo, in base alla velocità della "
-#~ "tua connessione Internet."
-
-#~ msgid "There are no containerized apps installed on your system."
-#~ msgstr "Non sono installate nessune app containerizzate sul tuo sistema."
-
-#~ msgid "Immutability"
-#~ msgstr "Immutabilità"
-
-#~ msgid "Immutability Status (current session)"
-#~ msgstr "Stato di Immutabilità (sessione corrente)"
-
-#~ msgid "Immutability is currently in Read and Write mode."
-#~ msgstr "L'immutabilità è attualmente in modalità di lettura e scrittura."
-
-#~ msgid "Restore on Reboot"
-#~ msgstr "Ripristina al Riavvio"
-
-#~ msgid "Choose whether to restore the default mode after a system reboot."
-#~ msgstr ""
-#~ "Scegli se ripristinare la modalità predefinita dopo il riavvio del "
-#~ "sistema."
-
-#~ msgid "Default Mode"
-#~ msgstr "Modalità di Default"
-
-#~ msgid "Choose which mode to use by default."
-#~ msgstr "Scegli quale modalità utilizzare per impostazione predefinita."
-
-#~ msgid "Read Only"
-#~ msgstr "Sola Lettura"
-
-#~ msgid "Read and Write"
-#~ msgstr "Lettura e Scrittura"
-
-#~ msgid "Overlays"
-#~ msgstr "Sovrapposizioni"
-
-#~ msgid "Not Implemented yet."
-#~ msgstr "Non ancora implementato."
-
-#~ msgid "No Drivers Found."
-#~ msgstr "Nessun driver trovato."
-
-#~ msgid "No drivers found for your devices or an error occurred."
-#~ msgstr ""
-#~ "Nessun driver trovato per i tuoi dispositivi o si è verificato un errore."
-
-#~ msgid "Failed to Set Immutability Status."
-#~ msgstr "Impossibile Impostare lo Stato di Immutabilità."
-
-#~ msgid "Immutability Enabled."
-#~ msgstr "Immutabilità Abilitata."
-
-#~ msgid "Immutability Disabled."
-#~ msgstr "Immutabilità Disabilitata."
-
-#~ msgid "Persistent Mode Enabled."
-#~ msgstr "Modalità Persistente Abilitata."
-
-#~ msgid "Persistent Mode Disabled."
-#~ msgstr "Modalità Persistente Disabilitata."
-
-#~ msgid "Failed to Set Default Mode."
-#~ msgstr "Impossibile Impostare la Modalità Predefinita."
-
-#~ msgid "Default Mode Changed to {}."
-#~ msgstr "Modalità Predefinita Modificata in {}."
-
-#~ msgid "Read-Only"
-#~ msgstr "Sola-Lettura"
-
-#~ msgid "Read-Write"
-#~ msgstr "Lettura-Scrittura"
+msgstr ""
