@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-12 09:49+0000\n"
+"PO-Revision-Date: 2023-02-12 09:53+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "vanilla-os/control-center/zh_Hans/>\n"
@@ -87,7 +87,7 @@ msgstr "PRIME 配置文件"
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Active Profile"
-msgstr ""
+msgstr "已启用的配置文件"
 
 #: vanilla_control_center/gtk/window.ui:94
 msgid "Integrated GPU"
