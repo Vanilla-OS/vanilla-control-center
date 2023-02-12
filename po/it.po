@@ -123,7 +123,8 @@ msgstr "Aggiornamento Intelligente modificato."
 
 #: vanilla_control_center/window.py:196
 msgid "Failed to change the Smart Update setting."
-msgstr "Impossibile modificare l’impostazione dell' Aggiornamento Intelligente."
+msgstr ""
+"Impossibile modificare l’impostazione dell' Aggiornamento Intelligente."
 
 #: vanilla_control_center/window.py:201
 msgid "Automatic Update setting changed."

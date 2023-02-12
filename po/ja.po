@@ -66,17 +66,14 @@ msgid "Quit"
 msgstr "終了"
 
 #: vanilla_control_center/gtk/window.ui:186
-#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr "毎週"
 
 #: vanilla_control_center/gtk/window.ui:187
-#: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
 msgstr "毎月"
 
 #: vanilla_control_center/gtk/window.ui:258
-#: vanilla_control_center/gtk/window.ui:229
 msgid "_Help"
 msgstr "_ヘルプ"
 
@@ -100,25 +97,24 @@ msgstr ""
 msgid "Contributors"
 msgstr "貢献者"
 
-#: vanilla_control_center/main.py:90 vanilla_control_center/main.py:70
+#: vanilla_control_center/main.py:90
 msgid "Translators"
 msgstr "翻訳者"
 
-#: vanilla_control_center/window.py:130 vanilla_control_center/window.py:125
+#: vanilla_control_center/window.py:130
 msgid "Installation Failed."
 msgstr "インストールに失敗しました。"
 
-#: vanilla_control_center/window.py:133 vanilla_control_center/window.py:128
+#: vanilla_control_center/window.py:133
 msgid "New Drivers Installed."
 msgstr "新しいドライバーがインストールされました。"
 
 #: vanilla_control_center/window.py:140 vanilla_control_center/window.py:273
-#: vanilla_control_center/window.py:135 vanilla_control_center/window.py:240
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr ""
 "他のトランザクションが実行中もしくはシステムが再起動を必要としています。"
 
-#: vanilla_control_center/window.py:150 vanilla_control_center/window.py:145
+#: vanilla_control_center/window.py:150
 msgid "Installing new Drivers…"
 msgstr "新しいドライバーをインストールしています…"
 
@@ -139,35 +135,33 @@ msgstr "自動更新設定が変更されました。"
 msgid "Failed to change Automatic Update setting"
 msgstr "自動更新設定の変更に失敗しました"
 
-#: vanilla_control_center/window.py:210 vanilla_control_center/window.py:177
+#: vanilla_control_center/window.py:210
 msgid "Update Schedule Changed."
 msgstr "アップデートスケジュールが変更されました。"
 
-#: vanilla_control_center/window.py:238 vanilla_control_center/window.py:205
+#: vanilla_control_center/window.py:238
 msgid "{} Exited With Error."
 msgstr "{} がエラーで終了しました。"
 
-#: vanilla_control_center/window.py:241 vanilla_control_center/window.py:208
+#: vanilla_control_center/window.py:241
 msgid "{} Exited."
 msgstr "{} を終了しました。"
 
-#: vanilla_control_center/window.py:244 vanilla_control_center/window.py:211
+#: vanilla_control_center/window.py:244
 msgid "{} Launched."
 msgstr "{} を起動しました。"
 
-#: vanilla_control_center/window.py:289 vanilla_control_center/window.py:256
+#: vanilla_control_center/window.py:289
 msgid "Prime Profile Changed."
 msgstr "Prime プロファイルが変更されました。"
 
 #: vanilla_control_center/window.py:296 vanilla_control_center/window.py:301
-#: vanilla_control_center/window.py:263 vanilla_control_center/window.py:268
 msgid "Prime Profile Change Failed."
 msgstr "Prime プロファイルの変更に失敗しました。"
 
-#: vanilla_control_center/window.py:299 vanilla_control_center/window.py:266
+#: vanilla_control_center/window.py:299
 msgid "Switching PRIME Profile…"
 msgstr "PRIME プロファイルを切り替えています…"
 
-#: vanilla_control_center/window.py:169
-msgid "SmartUpdate Changed."
-msgstr "スマートアップデートが変更されました。"
+#~ msgid "SmartUpdate Changed."
+#~ msgstr "スマートアップデートが変更されました。"
