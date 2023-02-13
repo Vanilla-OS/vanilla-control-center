@@ -1,23 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Andrew Geo <andrewgeo@outlook.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2022-12-16 13:48+0000\n"
-"Last-Translator: stathious <stathious@users.noreply.hosted.weblate.org>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/vanilla-os/control-"
-"center/el/>\n"
+"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"Last-Translator: Andrew Geo <andrewgeo@outlook.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
@@ -27,15 +26,15 @@ msgstr "Κέντρο ελέγχου Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr "Καμία περιγραφή"
+msgstr "Δεν υπάρχει περιγραφή"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Είσοδος στο κέλυφος"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Δημιουργία υποσυστήματος"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -44,12 +43,12 @@ msgstr "Εγκατάσταση"
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Παράθυρο γενικών συντομέυσεων"
+msgstr "Γενικές συντομεύσεις"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Εμφάνιση Συντομεύσεων"
+msgstr "Προβολή συντομεύσεων"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -63,7 +62,7 @@ msgstr "Εφαρμογή αλλαγών"
 
 #: vanilla_control_center/gtk/window.ui:45
 msgid "Drivers"
-msgstr "Οδηγοί"
+msgstr "Προγράμματα οδήγησης"
 
 #: vanilla_control_center/gtk/window.ui:55
 msgid "Loading drivers…"
@@ -71,50 +70,52 @@ msgstr "Φόρτωση προγραμμάτων οδήγησης…"
 
 #: vanilla_control_center/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
-msgstr "Περιμένετε μέχρι να φορτωθούν τα διαθέσιμα προγράμματα οδήγησης."
+msgstr ""
+"Παρακαλώ περιμένετε ώσπου να φορτωθούν τα διαθέσιμα προγράμματα οδήγησης."
 
 #: vanilla_control_center/gtk/window.ui:64
-#, fuzzy
 msgid "No Drivers Available"
-msgstr "Εγκαταστάθηκαν νέα προγράμματα οδήγησης."
+msgstr "Δεν υπάρχουν διαθέσιμα προγράμματα οδήγησης"
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
 msgstr ""
+"Δεν υπάρχουν διαθέσιμα πρόσθετα προγράμματα οδήγησης για το σύστημά σας."
 
 #: vanilla_control_center/gtk/window.ui:80
 msgid "PRIME Profiles"
-msgstr ""
+msgstr "Προφίλ PRIME"
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Active Profile"
-msgstr ""
+msgstr "Ενεργό προφίλ"
 
 #: vanilla_control_center/gtk/window.ui:94
 msgid "Integrated GPU"
-msgstr ""
+msgstr "Ενσωματωμένη GPU"
 
 #: vanilla_control_center/gtk/window.ui:95
 #: vanilla_control_center/gtk/window.ui:110
 msgid "Not detected"
-msgstr ""
+msgstr "Δεν εντοπίστηκε"
 
 #: vanilla_control_center/gtk/window.ui:109
 msgid "Discrete GPU"
-msgstr ""
+msgstr "Ανεξάρτητη GPU"
 
 #: vanilla_control_center/gtk/window.ui:124
 msgid "Hybrid"
-msgstr ""
+msgstr "Υβριδικό"
 
 #: vanilla_control_center/gtk/window.ui:125
 msgid "Use the integrated GPU for everything and the discrete GPU on demand"
 msgstr ""
+"Χρήση της ενσωματωμένης GPU για τα πάντα, ενώ της ανεξάρτητης GPU κατά "
+"παραγγελία"
 
 #: vanilla_control_center/gtk/window.ui:148
-#, fuzzy
 msgid "Updates"
-msgstr "Εφαρμογή αλλαγών"
+msgstr "Ενημερώσεις"
 
 #: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
@@ -122,45 +123,44 @@ msgstr "Προτιμήσεις"
 
 #: vanilla_control_center/gtk/window.ui:157
 msgid "Latest Update Check"
-msgstr ""
+msgstr "Τελευταίος έλεγχος ενημερώσεων"
 
 #: vanilla_control_center/gtk/window.ui:158
 msgid "Never"
-msgstr ""
+msgstr "Ποτέ"
 
 #: vanilla_control_center/gtk/window.ui:163
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "Προγραμματισμός ενημερώσεων"
 
 #: vanilla_control_center/gtk/window.ui:164
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "Επιλέξτε πόσο συχνά το σύστημά σας θα αναζητεί ενημερώσεις."
 
 #: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
-msgstr ""
+msgstr "Εβδομαδιαία"
 
 #: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
-msgstr ""
+msgstr "Μηνιαία"
 
 #: vanilla_control_center/gtk/window.ui:177
-#, fuzzy
 msgid "Smart Updates"
-msgstr "Εφαρμογή αλλαγών"
+msgstr "Έξυπνες Ενημερώσεις"
 
 #: vanilla_control_center/gtk/window.ui:178
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
+"Το σύστημα δεν θα ενημερωθεί σε συνθήκες έντονης χρήσης ή χαμηλής μπαταρίας."
 
 #: vanilla_control_center/gtk/window.ui:189
-#, fuzzy
 msgid "Automatic Updates"
-msgstr "Εφαρμογή αλλαγών"
+msgstr "Αυτόματες Ενημερώσεις"
 
 #: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "Το σύστημα θα ενημερώνεται αυτόματα στο υπόβαθρο."
 
 #: vanilla_control_center/gtk/window.ui:208
 #: vanilla_control_center/backends/apx.py:37
@@ -169,7 +169,7 @@ msgstr "Υποσύστημα"
 
 #: vanilla_control_center/gtk/window.ui:218
 msgid "Containers"
-msgstr ""
+msgstr "Περιέκτες"
 
 #: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
@@ -177,12 +177,11 @@ msgstr "Εγκατεστημένες Εφαρμογές"
 
 #: vanilla_control_center/gtk/window.ui:242
 msgid "_Help"
-msgstr ""
+msgstr "_Βοήθεια"
 
 #: vanilla_control_center/gtk/window.ui:246
-#, fuzzy
 msgid "_About Control Center"
-msgstr "_About Control-panel"
+msgstr "_Σχετικά με το Κέντρο Ελέγχου"
 
 #: vanilla_control_center/backends/apx.py:36
 #: vanilla_control_center/backends/apx.py:40
@@ -191,7 +190,7 @@ msgstr "_About Control-panel"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "Επισήμανση"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -200,62 +199,57 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Όνομα"
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "Υποσύστημα"
+msgstr "Υποσύστημα του Arch Linux"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "Υποσύστημα"
+msgstr "Υποσύστημα του Fedora"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "Υποσύστημα"
+msgstr "Υποσύστημα του Alpine"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "Υποσύστημα"
+msgstr "Υποσύστημα του openSUSE"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "Υποσύστημα"
+msgstr "Υποσύστημα του Void Linux"
 
 #: vanilla_control_center/backends/apx.py:69
 msgid "DISABLED_MODULES"
-msgstr ""
+msgstr "ΑΠΕΝΕΡΓΟΠΟΙΗΜΕΝΑ_ΔΟΜΟΣΤΟΙΧΕΙΑ"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Το δομοστοιχείο apx έχει απενεργοποιηθεί"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Δεν βρέθηκε δυαδικό αρχείο του apx"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Δεν βρέθηκε δυαδικό αρχείο του Distrobox"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "Αδυναμία εύρεσης περιέκτη"
 
 #: vanilla_control_center/backends/apx.py:161
 #, python-brace-format
 msgid "Container '{0}' not found"
-msgstr ""
+msgstr "Ο περιέκτης '{0}' δεν βρέθηκε"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Εκτελούμενη εφαρμογή: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
@@ -315,7 +309,7 @@ msgstr "Εγκαταστάθηκαν νέα προγράμματα οδήγησ�
 #: vanilla_control_center/backends/ubuntu_drivers.py:99
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "Εντολή εγκατάστασης: %s"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
