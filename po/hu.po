@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
 # Tamás Ecsedi <ecseditamas22@gmail.com>, 2023.
+# Benjamin Kőhidi <benstone326@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
 "PO-Revision-Date: 2023-02-16 17:29+0000\n"
-"Last-Translator: Tamás Ecsedi <ecseditamas22@gmail.com>\n"
+"Last-Translator: Benjamin Kőhidi <benstone326@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/hu/>\n"
 "Language: hu\n"
@@ -69,11 +70,12 @@ msgstr "Illesztőprogramok betöltése…"
 
 #: vanilla_control_center/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
-msgstr "Kérem, várjon, amíg az elérhető illesztőprogramok betöltődnek."
+msgstr ""
+"Kérjük, várjon, amíg a rendelkezésre álló illesztőprogramok betöltődnek."
 
 #: vanilla_control_center/gtk/window.ui:64
 msgid "No Drivers Available"
-msgstr "Nincs elérhető illesztőprogram"
+msgstr "Nincsenek elérhető illesztőprogramok"
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
@@ -148,6 +150,8 @@ msgstr "Intelligens frissítések"
 #: vanilla_control_center/gtk/window.ui:178
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
+"A rendszer nem frissít, ha a készülék intenzív használatban van, vagy "
+"alacsony az akkumulátor töltöttsége."
 
 #: vanilla_control_center/gtk/window.ui:189
 msgid "Automatic Updates"
@@ -185,7 +189,7 @@ msgstr "_A Vezérlőpultról"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "Zászló"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -226,11 +230,11 @@ msgstr "Apx modul letiltva"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Apx bináris nem található"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Distrobox bináris nem található"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
@@ -244,76 +248,76 @@ msgstr "'{0}' konténer nem található"
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Futó alkalmazás: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Nem sikerült elindítani a kezelt alkalmazást: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Nem támogatott konfiguráció"
 
 #: vanilla_control_center/backends/prime_profiles.py:41
 msgid "PRIME module disabled"
-msgstr ""
+msgstr "PRIME modul letiltva"
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
-msgstr ""
+msgstr "prime-select nem található"
 
 #: vanilla_control_center/backends/prime_profiles.py:49
 msgid "prime-select not supported for this device"
-msgstr ""
+msgstr "prime-select nem támogatott ezen az eszközön"
 
 #: vanilla_control_center/backends/prime_profiles.py:55
 msgid "prime-select is not supported for this setup"
-msgstr ""
+msgstr "prime-select nem támogatott ebben a konfigurációban"
 
 #: vanilla_control_center/backends/prime_profiles.py:91
 msgid "Invalid profile name"
-msgstr ""
+msgstr "Érvénytelen profilnév"
 
 #: vanilla_control_center/backends/prime_profiles.py:114
 #: vanilla_control_center/backends/prime_profiles.py:117
 #: vanilla_control_center/backends/prime_profiles.py:120
 msgid "integrated"
-msgstr ""
+msgstr "integrált"
 
 #: vanilla_control_center/backends/prime_profiles.py:115
 #: vanilla_control_center/backends/prime_profiles.py:118
 #: vanilla_control_center/backends/prime_profiles.py:121
 msgid "discrete"
-msgstr ""
+msgstr "diszkrét"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:44
 msgid "Getting devices list"
-msgstr ""
+msgstr "Eszközök listájának lekérdezése"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:77
 #, python-format
 msgid "Devices list: %s"
-msgstr ""
+msgstr "Eszközök listája: %s"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:84
-#, fuzzy, python-format
+#, python-format
 msgid "Driver %s installed: %s"
-msgstr "Új illesztőprogramok telepítve."
+msgstr "%s illesztőprogram telepítve: %s"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:99
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "Telepítési parancs: %s"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "VSO Config fájl nem található itt {}"
 
 #: vanilla_control_center/container.py:47
 #: vanilla_control_center/container.py:48
 msgid "Clicked"
-msgstr ""
+msgstr "Összekapcsolva"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
