@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the vanilla-control-center package.
 # Automatically generated, 2022.
 #
+# Vojtěch Perník <translations@pervoj.cz>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-11 11:35+0000\n"
-"Last-Translator: \"Vojtěch V.\" <xonax658@gmail.com>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/vanilla-os/control-"
-"center/cs/>\n"
+"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"Last-Translator: Vojtěch Perník <translations@pervoj.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +28,7 @@ msgstr "Ovládací Centrum Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr "Bez popisu"
+msgstr "Žádný popis"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
@@ -49,7 +50,7 @@ msgstr "Obecné"
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Zobrazit klávesové zkratky"
+msgstr "Zobrazit zkratky"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -74,13 +75,12 @@ msgid "Please wait while the available drivers are being loaded."
 msgstr "Počkejte prosím, než se načtou dostupné ovladače."
 
 #: vanilla_control_center/gtk/window.ui:64
-#, fuzzy
 msgid "No Drivers Available"
-msgstr "Nainstalovaly se nové ovladače."
+msgstr "Nejsou k dispozici žádné ovladače"
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "Pro váš systém nejsou k dispozici žádné další ovladače."
 
 #: vanilla_control_center/gtk/window.ui:80
 msgid "PRIME Profiles"
@@ -316,7 +316,7 @@ msgstr "Nainstalovaly se nové ovladače."
 #: vanilla_control_center/backends/ubuntu_drivers.py:99
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "Instalační příkaz: %s"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
