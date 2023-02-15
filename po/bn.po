@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the vanilla-control-center package.
 # Automatically generated, 2022.
 #
+# Abu Huraira <abuhuraira@tutamail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-03 14:34+0000\n"
+"PO-Revision-Date: 2023-02-16 17:29+0000\n"
 "Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
 "Language-Team: Bengali <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/bn/>\n"
@@ -27,15 +28,15 @@ msgstr "ভেনিলা ওএস নিয়ন্ত্রণ কেন্দ
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr "কোনো বর্ণনা নেই"
+msgstr "কোন বর্ণনা নেই"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "শেলে প্রবেশ করুন"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "সাবসিস্টেম তৈরি করুন"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -70,7 +71,7 @@ msgstr "ড্রাইভার লোড হচ্ছে…"
 
 #: vanilla_control_center/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
-msgstr "ব্যবহারযোগ্য ড্রাইভার লোড হচ্ছে অনুগ্রহ করে অপেক্ষা করুন।"
+msgstr "উপলব্ধ ড্রাইভারগুলি লোড হওয়ার সময় দয়া করে অপেক্ষা করুন।"
 
 #: vanilla_control_center/gtk/window.ui:64
 msgid "No Drivers Available"
@@ -78,42 +79,42 @@ msgstr "কোন ব্যবহারযোগ্য ড্রাইভার 
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr "আপনার ডিভাইস এর জন্য কোন অতিরিক্ত ড্রাইভার নেই।"
+msgstr "আপনার সিস্টেমের জন্য কোন অতিরিক্ত ড্রাইভার উপলব্ধ নেই।"
 
 #: vanilla_control_center/gtk/window.ui:80
-#, fuzzy
 msgid "PRIME Profiles"
-msgstr "প্রধান প্রোফাইল বদলানো হচ্ছে…"
+msgstr "প্রধান প্রোফাইলগুলি"
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Active Profile"
-msgstr ""
+msgstr "সক্রিয় প্রোফাইল"
 
 #: vanilla_control_center/gtk/window.ui:94
 msgid "Integrated GPU"
-msgstr ""
+msgstr "ইন্টিগ্রেটেড GPU"
 
 #: vanilla_control_center/gtk/window.ui:95
 #: vanilla_control_center/gtk/window.ui:110
 msgid "Not detected"
-msgstr ""
+msgstr "সনাক্ত করা যায়নি"
 
 #: vanilla_control_center/gtk/window.ui:109
 msgid "Discrete GPU"
-msgstr ""
+msgstr "বিচ্ছিন্ন জিপিইউ"
 
 #: vanilla_control_center/gtk/window.ui:124
 msgid "Hybrid"
-msgstr ""
+msgstr "হাইব্রিড"
 
 #: vanilla_control_center/gtk/window.ui:125
 msgid "Use the integrated GPU for everything and the discrete GPU on demand"
 msgstr ""
+"সবকিছুর জন্য ইন্টিগ্রেটেড GPU এবং যখন ইচ্ছা চাহিদা অনুযায়ী আলাদা GPU ব্যবহা"
+"র করুন"
 
 #: vanilla_control_center/gtk/window.ui:148
-#, fuzzy
 msgid "Updates"
-msgstr "আপডেট প্রয়োগ করুন"
+msgstr "আপডেট সমূহ"
 
 #: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
@@ -144,24 +145,20 @@ msgid "Monthly"
 msgstr "প্রতি মাসে"
 
 #: vanilla_control_center/gtk/window.ui:177
-#, fuzzy
 msgid "Smart Updates"
 msgstr "স্মার্ট আপডেট"
 
 #: vanilla_control_center/gtk/window.ui:178
-#, fuzzy
 msgid "The system will not update if it is in heavy use or low battery."
-msgstr ""
-"চালু থাকলে, সিস্টেমটি বেশি লোড হলে বা ব্যাটারি কম থাকলে সিস্টেম আপডেট হবে না৷"
+msgstr "ভারী ব্যবহারের সময় বা ব্যাটারি চার্জ কম থাকলে সিস্টেম আপডেট হবে না।"
 
 #: vanilla_control_center/gtk/window.ui:189
-#, fuzzy
 msgid "Automatic Updates"
-msgstr "এ্যাটমিক আপডেট সেটিংস পরিবর্তিত হয়েছে।"
+msgstr "স্বয়ংক্রিয় আপডেট"
 
 #: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "সিস্টেমটি ব্যাকগ্রাউন্ডে স্বয়ংক্রিয়ভাবে নিজেকে আপডেট করবে।"
 
 #: vanilla_control_center/gtk/window.ui:208
 #: vanilla_control_center/backends/apx.py:37
@@ -169,9 +166,8 @@ msgid "Sub System"
 msgstr "সাব সিস্টেম"
 
 #: vanilla_control_center/gtk/window.ui:218
-#, fuzzy
 msgid "Containers"
-msgstr "অংশ গ্রহণকারীগণ"
+msgstr "কনটেইনারগুলি"
 
 #: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
@@ -182,7 +178,6 @@ msgid "_Help"
 msgstr "_সাহায্য"
 
 #: vanilla_control_center/gtk/window.ui:246
-#, fuzzy
 msgid "_About Control Center"
 msgstr "_কন্ট্রোল সেন্টার সম্পর্কে"
 
@@ -193,7 +188,7 @@ msgstr "_কন্ট্রোল সেন্টার সম্পর্কে
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "পতাকা"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -202,131 +197,126 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "নাম"
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "সাব সিস্টেম"
+msgstr "আর্চ লিনাক্স সাবসিস্টেম"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "সাব সিস্টেম"
+msgstr "ফেডোরা সাবসিস্টেম"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "সাব সিস্টেম"
+msgstr "আলপাইন সাবসিস্টেম"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "সাব সিস্টেম"
+msgstr "ওপেনসুজা সাবসিস্টেম"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "সাব সিস্টেম"
+msgstr "ভইড লিনাক্ম সাবসিস্টেম"
 
 #: vanilla_control_center/backends/apx.py:69
 msgid "DISABLED_MODULES"
-msgstr ""
+msgstr "নিষ্ক্রিয়_মডিউলগুলি"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Apx মডিউল নিষ্ক্রিয়"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Apx বাইনারি খুঁজে পাওয়া যায়নি"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "ডিস্ট্রোবক্স বাইনারি খুঁজে পাওয়া যায়নি"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "কনটেইনার গুলি পাওয়া সম্ভব হচ্ছে না"
 
 #: vanilla_control_center/backends/apx.py:161
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "'{}' কন্টেইনারটি সচল হয়েছে"
+msgstr "'{0}' কন্টেইনারটি পাওয়া যায় নি"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "'{0}' এপ্লিকেশনটি চলমান"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "পরিচালিত অ্যাপ্লিকেশন '{0}' চালু করা সম্ভব হচ্ছে না"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "অসমর্থিত সেটআপ"
 
 #: vanilla_control_center/backends/prime_profiles.py:41
 msgid "PRIME module disabled"
-msgstr ""
+msgstr "প্রাইম মডিউল নিষ্ক্রিয়"
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
-msgstr ""
+msgstr "প্রাইম-সিলেক্ট খুঁজে পাওয়া যায়নি"
 
 #: vanilla_control_center/backends/prime_profiles.py:49
 msgid "prime-select not supported for this device"
-msgstr ""
+msgstr "প্রাইম-সিলেক্ট এই ডিভাইসের জন্য সমর্থিত নয়"
 
 #: vanilla_control_center/backends/prime_profiles.py:55
 msgid "prime-select is not supported for this setup"
-msgstr ""
+msgstr "প্রাইম-সিলেক্ট এই সেটআপের জন্য সমর্থিত নয়"
 
 #: vanilla_control_center/backends/prime_profiles.py:91
 msgid "Invalid profile name"
-msgstr ""
+msgstr "অগ্রহণযোগ্য প্রোফাইল নাম"
 
 #: vanilla_control_center/backends/prime_profiles.py:114
 #: vanilla_control_center/backends/prime_profiles.py:117
 #: vanilla_control_center/backends/prime_profiles.py:120
 msgid "integrated"
-msgstr ""
+msgstr "সংযুক্ত"
 
 #: vanilla_control_center/backends/prime_profiles.py:115
 #: vanilla_control_center/backends/prime_profiles.py:118
 #: vanilla_control_center/backends/prime_profiles.py:121
 msgid "discrete"
-msgstr ""
+msgstr "বিচ্ছিন্ন"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:44
 msgid "Getting devices list"
-msgstr ""
+msgstr "ডিভাইসের তালিকা অনুসন্ধান"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:77
 #, python-format
 msgid "Devices list: %s"
-msgstr ""
+msgstr "ডিভাইস তালিকা: %s"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:84
-#, fuzzy, python-format
+#, python-format
 msgid "Driver %s installed: %s"
-msgstr "নতুন ড্রাইভার ইনস্টল করা হয়েছে।"
+msgstr "%s ড্রাইভার ইনস্টল করা হয়েছে: %s"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:99
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "ইনস্টল কমান্ড: %s"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "VSO কনফিগ ফাইল {} -এ পাওয়া যায়নি"
 
 #: vanilla_control_center/container.py:47
 #: vanilla_control_center/container.py:48
 msgid "Clicked"
-msgstr ""
+msgstr "ক্লিক করা হয়েছে"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -338,26 +328,23 @@ msgstr "'{}' কন্টেইনারটি সচল হয়েছে"
 
 #: vanilla_control_center/driver.py:49
 msgid "Activated"
-msgstr ""
+msgstr "সক্রিয়"
 
 #: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
-#, fuzzy
 msgid "Driver selected"
-msgstr "ড্রাইভার"
+msgstr "ড্রাইভার নির্বাচিত হয়েছে"
 
 #: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
-#, fuzzy
 msgid "Installed"
-msgstr "স্থাপন"
+msgstr "ইনস্টল করা হয়েছে"
 
 #: vanilla_control_center/driver.py:86
 msgid "Selected driver: {}"
-msgstr ""
+msgstr "নির্বাচিত ড্রাইভার: {}"
 
 #: vanilla_control_center/driver.py:92
-#, fuzzy
 msgid "Installation needed"
-msgstr "স্থাপন"
+msgstr "ইনস্টলেশন প্রয়োজন"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
@@ -376,9 +363,8 @@ msgid "Translators"
 msgstr "অনুবাদক"
 
 #: vanilla_control_center/window.py:119
-#, fuzzy
 msgid "Installation requested: {}"
-msgstr "ইনস্টলেশন ব্যর্থ হয়েছে।"
+msgstr "ইনস্টলেশন অনুরোধ করা হয়েছে: {}"
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -389,9 +375,8 @@ msgid "New Drivers Installed."
 msgstr "নতুন ড্রাইভার ইনস্টল করা হয়েছে।"
 
 #: vanilla_control_center/window.py:132
-#, fuzzy
 msgid "Installation finished."
-msgstr "ইনস্টলেশন ব্যর্থ হয়েছে।"
+msgstr "ইনস্টলেশন সমাপ্ত।"
 
 #: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
 msgid "Another transaction is running or the system needs to be restarted."
