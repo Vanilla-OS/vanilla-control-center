@@ -1,14 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# inal <inaltarba89@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-05 08:36+0000\n"
+"PO-Revision-Date: 2023-02-16 17:29+0000\n"
 "Last-Translator: inal <inaltarba89@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ru/>\n"
@@ -36,7 +35,7 @@ msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Создать подсистему"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -45,12 +44,12 @@ msgstr "Установка"
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Общие"
+msgstr "Главное"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Показать сочетания клавиш"
+msgstr "Показывать ярлыки"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -71,15 +70,15 @@ msgstr "Загрузка драйверов…"
 
 #: vanilla_control_center/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
-msgstr "Пожалуйста подождите, пока загружаются доступные драйверы."
+msgstr "Пожалуйста, подождите, пока будут загружены доступные драйверы."
 
 #: vanilla_control_center/gtk/window.ui:64
 msgid "No Drivers Available"
-msgstr "Установлены последние версии драйверов"
+msgstr "Нет доступных драйверов"
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr "Нет необходимости в дополнительных драйверах для вашей системы."
+msgstr "Для вашей системы нет доступных дополнительных драйверов."
 
 #: vanilla_control_center/gtk/window.ui:80
 #, fuzzy
@@ -88,28 +87,31 @@ msgstr "Переключение профиля PRIME…"
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Active Profile"
-msgstr ""
+msgstr "Активный профиль"
 
 #: vanilla_control_center/gtk/window.ui:94
 msgid "Integrated GPU"
-msgstr ""
+msgstr "Встроенный графический процессор"
 
 #: vanilla_control_center/gtk/window.ui:95
 #: vanilla_control_center/gtk/window.ui:110
 msgid "Not detected"
-msgstr ""
+msgstr "Не обнаружено"
 
 #: vanilla_control_center/gtk/window.ui:109
 msgid "Discrete GPU"
-msgstr ""
+msgstr "Дискретный графический процессор"
 
 #: vanilla_control_center/gtk/window.ui:124
 msgid "Hybrid"
-msgstr ""
+msgstr "Гибридный"
 
 #: vanilla_control_center/gtk/window.ui:125
+#, fuzzy
 msgid "Use the integrated GPU for everything and the discrete GPU on demand"
 msgstr ""
+"Используйте встроенный графический процессор по умолчанию и дискретный "
+"графический процессор по запросу"
 
 #: vanilla_control_center/gtk/window.ui:148
 #, fuzzy
@@ -157,13 +159,12 @@ msgstr ""
 "нагрузке или низком заряде батареи."
 
 #: vanilla_control_center/gtk/window.ui:189
-#, fuzzy
 msgid "Automatic Updates"
-msgstr "Умное обновление изменено."
+msgstr "Автоматические обновления"
 
 #: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "Система автоматически обновится в фоновом режиме."
 
 #: vanilla_control_center/gtk/window.ui:208
 #: vanilla_control_center/backends/apx.py:37
@@ -171,9 +172,8 @@ msgid "Sub System"
 msgstr "Подсистема"
 
 #: vanilla_control_center/gtk/window.ui:218
-#, fuzzy
 msgid "Containers"
-msgstr "Участники"
+msgstr "Контейнеры"
 
 #: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
@@ -184,7 +184,6 @@ msgid "_Help"
 msgstr "_Справка"
 
 #: vanilla_control_center/gtk/window.ui:246
-#, fuzzy
 msgid "_About Control Center"
 msgstr "_О центре управления"
 
@@ -194,8 +193,9 @@ msgstr "_О центре управления"
 #: vanilla_control_center/backends/apx.py:48
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
+#, fuzzy
 msgid "Flag"
-msgstr ""
+msgstr "Флаг"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -204,52 +204,49 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "Подсистема"
+msgstr "Подсистема Arch Linux"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "Подсистема"
+msgstr "Подсистема Fedora"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "Подсистема"
+msgstr "Подсистема Alpine"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "Подсистема"
+msgstr "Подсистема openSUSE"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "Подсистема"
+msgstr "Подсистема Void Linux"
 
 #: vanilla_control_center/backends/apx.py:69
 msgid "DISABLED_MODULES"
-msgstr ""
+msgstr "ОТКЛЮЧЕННЫЕ_МОДУЛИ"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Модуль Apx отключен"
 
 #: vanilla_control_center/backends/apx.py:74
+#, fuzzy
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Двоичный файл Apx не найден"
 
 #: vanilla_control_center/backends/apx.py:78
+#, fuzzy
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Двоичный файл дистрибутива не найден"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "Не удается получить контейнеры"
 
 #: vanilla_control_center/backends/apx.py:161
 #, fuzzy, python-brace-format
@@ -319,7 +316,7 @@ msgstr "Новые драйверы установлены."
 #: vanilla_control_center/backends/ubuntu_drivers.py:99
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "Команда установки: %s"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
