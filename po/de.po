@@ -1,15 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# M00nD3v <matteo.duchs@outlook.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-01-27 22:47+0000\n"
-"Last-Translator: Tiefseetauchner <lena@tauchner.me>\n"
+"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"Last-Translator: M00nD3v <matteo.duchs@outlook.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/de/>\n"
 "Language: de\n"
@@ -31,11 +30,11 @@ msgstr "Keine Beschreibung"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Shell öffnen"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Erstelle Subsystem"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -49,12 +48,12 @@ msgstr "Allgemein"
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Kürzel anzeigen"
+msgstr "Shortcuts anzeigen"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Verlassen"
+msgstr "Beenden"
 
 #: vanilla_control_center/gtk/window.ui:28
 msgid "Apply Changes"
@@ -78,42 +77,40 @@ msgstr "Keine Treiber verfügbar"
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr "Es sind keine zusätzlichen Treiber für dein System verfügbar."
+msgstr "Es sind keine zusätzlichen Treiber für dieses System verfügbar."
 
 #: vanilla_control_center/gtk/window.ui:80
-#, fuzzy
 msgid "PRIME Profiles"
-msgstr "Wechsele auf PRIME Profil"
+msgstr "PRIME Profile"
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Active Profile"
-msgstr ""
+msgstr "Aktives Profil"
 
 #: vanilla_control_center/gtk/window.ui:94
 msgid "Integrated GPU"
-msgstr ""
+msgstr "Integrierte GPU"
 
 #: vanilla_control_center/gtk/window.ui:95
 #: vanilla_control_center/gtk/window.ui:110
 msgid "Not detected"
-msgstr ""
+msgstr "Nicht erkannt"
 
 #: vanilla_control_center/gtk/window.ui:109
 msgid "Discrete GPU"
-msgstr ""
+msgstr "Separate GPU"
 
 #: vanilla_control_center/gtk/window.ui:124
 msgid "Hybrid"
-msgstr ""
+msgstr "Hybrid"
 
 #: vanilla_control_center/gtk/window.ui:125
 msgid "Use the integrated GPU for everything and the discrete GPU on demand"
-msgstr ""
+msgstr "Verwende die integrierten GPU für alles und die separate GPU bei Bedarf"
 
 #: vanilla_control_center/gtk/window.ui:148
-#, fuzzy
 msgid "Updates"
-msgstr "Aktualisierungen"
+msgstr "Updates"
 
 #: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
@@ -144,25 +141,22 @@ msgid "Monthly"
 msgstr "Monatlich"
 
 #: vanilla_control_center/gtk/window.ui:177
-#, fuzzy
 msgid "Smart Updates"
-msgstr "Smart-Update"
+msgstr "Intelligente Updates"
 
 #: vanilla_control_center/gtk/window.ui:178
-#, fuzzy
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
 "Wenn diese Option aktiviert ist, wird das System nicht aktualisiert, wenn "
-"das System unter Last ist oder die Batterie fast leer ist."
+"das System unter Last oder die Batterie fast leer ist."
 
 #: vanilla_control_center/gtk/window.ui:189
-#, fuzzy
 msgid "Automatic Updates"
-msgstr "Smart-Update wurde geändert."
+msgstr "Automatische Updates"
 
 #: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "Das System aktualisiert sich automatisch im Hintergrund."
 
 #: vanilla_control_center/gtk/window.ui:208
 #: vanilla_control_center/backends/apx.py:37
@@ -170,9 +164,8 @@ msgid "Sub System"
 msgstr "Subsystem"
 
 #: vanilla_control_center/gtk/window.ui:218
-#, fuzzy
 msgid "Containers"
-msgstr "Keine containerisierten Apps"
+msgstr "Container"
 
 #: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
@@ -183,9 +176,8 @@ msgid "_Help"
 msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:246
-#, fuzzy
 msgid "_About Control Center"
-msgstr "_Über Kontrollzentrum"
+msgstr "_Über das Kontrollzentrum"
 
 #: vanilla_control_center/backends/apx.py:36
 #: vanilla_control_center/backends/apx.py:40
@@ -194,7 +186,7 @@ msgstr "_Über Kontrollzentrum"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "Flag"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -203,75 +195,70 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "Subsystem"
+msgstr "Arch Linux Subsystem"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "Subsystem"
+msgstr "Fedora Subsystem"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "Subsystem"
+msgstr "Alpine Subsystem"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "Subsystem"
+msgstr "openSUSE Subsystem"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "Subsystem"
+msgstr "Void Linux Subsystem"
 
 #: vanilla_control_center/backends/apx.py:69
 msgid "DISABLED_MODULES"
-msgstr ""
+msgstr "DEAKTIVIERTE_MODULE"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Apx-Modul deaktiviert"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Apx-Binärdatei nicht gefunden"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Distrobox-Binärdatei nicht gefunden"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "Container können nicht abgerufen werden"
 
 #: vanilla_control_center/backends/apx.py:161
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "Container '{}' initialisiert"
+msgstr "Container '{0}' nicht gefunden"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Laufende Anwendung: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Verwaltete Anwendung kann nicht gestartet werden: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Nicht unterstützte Einrichtung"
 
 #: vanilla_control_center/backends/prime_profiles.py:41
 msgid "PRIME module disabled"
-msgstr ""
+msgstr "PRIME-Modul deaktiviert"
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
@@ -287,47 +274,47 @@ msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:91
 msgid "Invalid profile name"
-msgstr ""
+msgstr "Ungültiger Profilname"
 
 #: vanilla_control_center/backends/prime_profiles.py:114
 #: vanilla_control_center/backends/prime_profiles.py:117
 #: vanilla_control_center/backends/prime_profiles.py:120
 msgid "integrated"
-msgstr ""
+msgstr "integriert"
 
 #: vanilla_control_center/backends/prime_profiles.py:115
 #: vanilla_control_center/backends/prime_profiles.py:118
 #: vanilla_control_center/backends/prime_profiles.py:121
 msgid "discrete"
-msgstr ""
+msgstr "diskret"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:44
 msgid "Getting devices list"
-msgstr ""
+msgstr "Geräteliste abrufen"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:77
 #, python-format
 msgid "Devices list: %s"
-msgstr ""
+msgstr "Geräteliste: %s"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:84
-#, fuzzy, python-format
+#, python-format
 msgid "Driver %s installed: %s"
-msgstr "Neue Treiber installiert."
+msgstr "Treiber %s installiert: %s"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:99
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "Befehl installieren: %s"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "VSO-Konfigurationsdatei nicht gefunden unter {}"
 
 #: vanilla_control_center/container.py:47
 #: vanilla_control_center/container.py:48
 msgid "Clicked"
-msgstr ""
+msgstr "Geklickt"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -339,48 +326,43 @@ msgstr "Container '{}' initialisiert"
 
 #: vanilla_control_center/driver.py:49
 msgid "Activated"
-msgstr ""
+msgstr "Aktiviert"
 
 #: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
-#, fuzzy
 msgid "Driver selected"
-msgstr "Treiber"
+msgstr "Treiber ausgewählt"
 
 #: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
-#, fuzzy
 msgid "Installed"
-msgstr "Installation"
+msgstr "Installiert"
 
 #: vanilla_control_center/driver.py:86
 msgid "Selected driver: {}"
-msgstr ""
+msgstr "Ausgewählter Treiber: {}"
 
 #: vanilla_control_center/driver.py:92
-#, fuzzy
 msgid "Installation needed"
-msgstr "Installation"
+msgstr "Installation erforderlich"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr ""
+msgstr "Code von"
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr ""
+msgstr "Dokumentation von"
 
 #: vanilla_control_center/main.py:118
-#, fuzzy
 msgid "Contributors"
-msgstr "Keine containerisierten Apps"
+msgstr "Mitwirkende"
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
 msgstr "Übersetzer"
 
 #: vanilla_control_center/window.py:119
-#, fuzzy
 msgid "Installation requested: {}"
-msgstr "Installation fehlgeschlagen."
+msgstr "Installation angefordert: {]"
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -391,9 +373,8 @@ msgid "New Drivers Installed."
 msgstr "Neue Treiber installiert."
 
 #: vanilla_control_center/window.py:132
-#, fuzzy
 msgid "Installation finished."
-msgstr "Installation fehlgeschlagen."
+msgstr "Installation beendet."
 
 #: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
 msgid "Another transaction is running or the system needs to be restarted."
@@ -406,22 +387,20 @@ msgid "Installing new Drivers…"
 msgstr "Neue Treiber werden installiert…"
 
 #: vanilla_control_center/window.py:177
-#, fuzzy
 msgid "Smart Update Changed."
-msgstr "Smart-Update wurde geändert."
+msgstr "Smart-Update geändert."
 
 #: vanilla_control_center/window.py:179
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "Fehler beim Ändern der intelligenten Update-Einstellung."
 
 #: vanilla_control_center/window.py:184
-#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr "Smart-Update wurde geändert."
+msgstr "Einstellung für automatische Updates geändert."
 
 #: vanilla_control_center/window.py:186
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "Fehler beim Ändern der automatischen Update-Einstellung"
 
 #: vanilla_control_center/window.py:193
 msgid "Update Schedule Changed."
@@ -448,9 +427,8 @@ msgid "Prime Profile Change Failed."
 msgstr "Ändern des Prime Profils fehlgeschlagen."
 
 #: vanilla_control_center/window.py:282
-#, fuzzy
 msgid "Switching PRIME Profile…"
-msgstr "Wechsele auf PRIME Profil"
+msgstr "Wechselt PRIME-Profil…"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr ""
