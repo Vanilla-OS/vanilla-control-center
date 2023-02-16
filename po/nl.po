@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-12 12:03+0000\n"
+"PO-Revision-Date: 2023-02-16 17:29+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/nl/>\n"
@@ -26,7 +26,7 @@ msgstr "Controlecentrum van Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr "Geen beschrijving"
+msgstr "Geen omschrijving"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
@@ -53,7 +53,7 @@ msgstr "Sneltoetsen tonen"
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Afsluiten"
+msgstr "Sluiten"
 
 #: vanilla_control_center/gtk/window.ui:28
 msgid "Apply Changes"
@@ -69,7 +69,7 @@ msgstr "Stuurprogramma's laden…"
 
 #: vanilla_control_center/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
-msgstr "Wacht terwijl de beschikbare stuurprogramma's worden geladen."
+msgstr "De beschikbare stuurprogramma's worden geladen."
 
 #: vanilla_control_center/gtk/window.ui:64
 msgid "No Drivers Available"

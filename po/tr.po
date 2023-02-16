@@ -1,15 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Veysel Erden <veyselerden@outlook.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-11 11:35+0000\n"
-"Last-Translator: Alisalih Üçgül <alisalihucgul@gmail.com>\n"
+"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"Last-Translator: Veysel Erden <veyselerden@outlook.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/tr/>\n"
 "Language: tr\n"
@@ -31,7 +30,7 @@ msgstr "Açıklama yok"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Kabuk çalıştır"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"

@@ -1,15 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Thual LABART--BARNAGAUD <tlabartbarnagaud@protonmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-07 10:36+0000\n"
-"Last-Translator: czenon1 <christopher02zenon@gmail.com>\n"
+"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"Last-Translator: Thual LABART--BARNAGAUD <tlabartbarnagaud@protonmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/fr/>\n"
 "Language: fr\n"
@@ -27,15 +26,15 @@ msgstr "Centre de contrôle de Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr "Aucune description"
+msgstr "Pas de description"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Ouvrir le terminal"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Créer un sous-système"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -49,7 +48,7 @@ msgstr "Général"
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Afficher les raccourcis"
+msgstr "Montrer les raccourcis"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -70,7 +69,7 @@ msgstr "Chargement des pilotes…"
 
 #: vanilla_control_center/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
-msgstr "Veuillez patienter pendant le chargement des pilotes disponibles."
+msgstr "Veuillez patienter pendant que les pilotes disponibles sont chargés."
 
 #: vanilla_control_center/gtk/window.ui:64
 msgid "No Drivers Available"
@@ -81,39 +80,38 @@ msgid "There are no extra drivers available for your system."
 msgstr "Aucun pilote supplémentaire n'est disponible pour votre système."
 
 #: vanilla_control_center/gtk/window.ui:80
-#, fuzzy
 msgid "PRIME Profiles"
-msgstr "Modification du profil principal…"
+msgstr "Profils GPU"
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Active Profile"
-msgstr ""
+msgstr "Profil actif"
 
 #: vanilla_control_center/gtk/window.ui:94
 msgid "Integrated GPU"
-msgstr ""
+msgstr "GPU intégré"
 
 #: vanilla_control_center/gtk/window.ui:95
 #: vanilla_control_center/gtk/window.ui:110
 msgid "Not detected"
-msgstr ""
+msgstr "Non détecté"
 
 #: vanilla_control_center/gtk/window.ui:109
 msgid "Discrete GPU"
-msgstr ""
+msgstr "GPU discret"
 
 #: vanilla_control_center/gtk/window.ui:124
 msgid "Hybrid"
-msgstr ""
+msgstr "Hybride"
 
 #: vanilla_control_center/gtk/window.ui:125
 msgid "Use the integrated GPU for everything and the discrete GPU on demand"
 msgstr ""
+"Utiliser le GPU intégré pour tous les processus et le GPU discret sur demande"
 
 #: vanilla_control_center/gtk/window.ui:148
-#, fuzzy
 msgid "Updates"
-msgstr "Appliquer les mises à jour"
+msgstr "Mises à jour"
 
 #: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
@@ -145,25 +143,22 @@ msgid "Monthly"
 msgstr "Mensuel"
 
 #: vanilla_control_center/gtk/window.ui:177
-#, fuzzy
 msgid "Smart Updates"
-msgstr "Mise à jour intelligente"
+msgstr "Mises à jour intelligentes"
 
 #: vanilla_control_center/gtk/window.ui:178
-#, fuzzy
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
-"Si activé, les mises à jour seront désactivées lors d'une sollicitation "
-"élevée du système ou de batterie faible."
+"Le système ne se mettra pas à jour si le niveau de batterie est faible ou si "
+"le système est en utilisation intensive."
 
 #: vanilla_control_center/gtk/window.ui:189
-#, fuzzy
 msgid "Automatic Updates"
-msgstr "Les paramètres de la mise à jour automatique ont été modifiés."
+msgstr "Mises à jour automatiques"
 
 #: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "Le système se mettra automatiquement à jour en arrière-plan."
 
 #: vanilla_control_center/gtk/window.ui:208
 #: vanilla_control_center/backends/apx.py:37
@@ -171,9 +166,8 @@ msgid "Sub System"
 msgstr "Sous-système"
 
 #: vanilla_control_center/gtk/window.ui:218
-#, fuzzy
 msgid "Containers"
-msgstr "Contributeurs"
+msgstr "Conteneurs"
 
 #: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
@@ -194,8 +188,9 @@ msgstr "_À propos du centre de contrôle"
 #: vanilla_control_center/backends/apx.py:48
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
+#, fuzzy
 msgid "Flag"
-msgstr ""
+msgstr "Drapeau"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -204,131 +199,132 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "Sous-système"
+msgstr "Sous-système Arch Linux"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "Sous-système"
+msgstr "Sous-système Fedora"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "Sous-système"
+msgstr "Sous-système Alpine"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "Sous-système"
+msgstr "Sous-système openSUSE"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "Sous-système"
+msgstr "Sous-système Void Linux"
 
 #: vanilla_control_center/backends/apx.py:69
+#, fuzzy
 msgid "DISABLED_MODULES"
-msgstr ""
+msgstr "MODULES_DÉSACTIVÉS"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Module apx désactivé"
 
 #: vanilla_control_center/backends/apx.py:74
+#, fuzzy
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Apx binaire non trouvé"
 
 #: vanilla_control_center/backends/apx.py:78
+#, fuzzy
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Binaire Distrobox non trouvé"
 
 #: vanilla_control_center/backends/apx.py:143
+#, fuzzy
 msgid "Unable to get containers"
-msgstr ""
+msgstr "Impossible d'obtenir les conteneurs"
 
 #: vanilla_control_center/backends/apx.py:161
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "Conteneur '{}' initialisé"
+msgstr "Conteneur '{0}' non trouvé"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Application en cours d'exécution : '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Impossible de démarrer les applications conteneurisées : '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Paramètres non pris en charge"
 
 #: vanilla_control_center/backends/prime_profiles.py:41
 msgid "PRIME module disabled"
-msgstr ""
+msgstr "Module PRIME désactivé"
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
-msgstr ""
+msgstr "choix principal non trouvé"
 
 #: vanilla_control_center/backends/prime_profiles.py:49
 msgid "prime-select not supported for this device"
-msgstr ""
+msgstr "Le choix principal n'est pas supporté pour cet appareil"
 
 #: vanilla_control_center/backends/prime_profiles.py:55
 msgid "prime-select is not supported for this setup"
-msgstr ""
+msgstr "Le choix principal n'est pas supporté pour cette configuration"
 
 #: vanilla_control_center/backends/prime_profiles.py:91
 msgid "Invalid profile name"
-msgstr ""
+msgstr "Nom de profil invalide"
 
 #: vanilla_control_center/backends/prime_profiles.py:114
 #: vanilla_control_center/backends/prime_profiles.py:117
 #: vanilla_control_center/backends/prime_profiles.py:120
 msgid "integrated"
-msgstr ""
+msgstr "Intégré"
 
 #: vanilla_control_center/backends/prime_profiles.py:115
 #: vanilla_control_center/backends/prime_profiles.py:118
 #: vanilla_control_center/backends/prime_profiles.py:121
 msgid "discrete"
-msgstr ""
+msgstr "discret"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:44
+#, fuzzy
 msgid "Getting devices list"
-msgstr ""
+msgstr "Obtention de la liste des appareils"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:77
-#, python-format
+#, fuzzy, python-format
 msgid "Devices list: %s"
-msgstr ""
+msgstr "Liste des appareils : %s"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:84
-#, fuzzy, python-format
+#, python-format
 msgid "Driver %s installed: %s"
-msgstr "Nouveaux pilotes installés."
+msgstr "Pilotes %s installés : %s"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:99
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "Commande d'installation : %s"
 
 #: vanilla_control_center/backends/vso.py:61
+#, fuzzy
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "Fichier de configuration VSO non trouvé dans le répertoire {}"
 
 #: vanilla_control_center/container.py:47
 #: vanilla_control_center/container.py:48
 msgid "Clicked"
-msgstr ""
+msgstr "Cliqué"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -340,26 +336,23 @@ msgstr "Conteneur '{}' initialisé"
 
 #: vanilla_control_center/driver.py:49
 msgid "Activated"
-msgstr ""
+msgstr "Activé"
 
 #: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
-#, fuzzy
 msgid "Driver selected"
-msgstr "Pilotes"
+msgstr "Pilote sélectionné"
 
 #: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
-#, fuzzy
 msgid "Installed"
-msgstr "Installation"
+msgstr "Installé"
 
 #: vanilla_control_center/driver.py:86
 msgid "Selected driver: {}"
-msgstr ""
+msgstr "Pilote sélectionné : {}"
 
 #: vanilla_control_center/driver.py:92
-#, fuzzy
 msgid "Installation needed"
-msgstr "Installation"
+msgstr "Installation nécessaire"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
@@ -378,9 +371,8 @@ msgid "Translators"
 msgstr "Traducteurs"
 
 #: vanilla_control_center/window.py:119
-#, fuzzy
 msgid "Installation requested: {}"
-msgstr "L'installation a échoué."
+msgstr "Installation demandée : {}"
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -391,14 +383,13 @@ msgid "New Drivers Installed."
 msgstr "Nouveaux pilotes installés."
 
 #: vanilla_control_center/window.py:132
-#, fuzzy
 msgid "Installation finished."
-msgstr "L'installation a échoué."
+msgstr "Installation terminée."
 
 #: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
 msgid "Another transaction is running or the system needs to be restarted."
 msgstr ""
-"Une autre transaction est en cours d’exécution ou le système doit être "
+"Une autre transaction est en cours d’exécution, ou bien le système doit être "
 "redémarré."
 
 #: vanilla_control_center/window.py:148

@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Tamás Ecsedi <ecseditamas22@gmail.com>, 2023.
+# Benjamin Kőhidi <benstone326@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-07 10:36+0000\n"
-"Last-Translator: Tamás Ecsedi <ecseditamas22@gmail.com>\n"
+"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"Last-Translator: Benjamin Kőhidi <benstone326@gmail.com>\n"
 "Language-Team: Hungarian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/hu/>\n"
 "Language: hu\n"
@@ -31,11 +31,11 @@ msgstr "Nincs leírás"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Shell megnyitása"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Alrendszer létrehozása"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -70,50 +70,50 @@ msgstr "Illesztőprogramok betöltése…"
 
 #: vanilla_control_center/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
-msgstr "Kérem, várjon, amíg az elérhető illesztőprogramok betöltődnek."
+msgstr ""
+"Kérjük, várjon, amíg a rendelkezésre álló illesztőprogramok betöltődnek."
 
 #: vanilla_control_center/gtk/window.ui:64
 msgid "No Drivers Available"
-msgstr "Nincs elérhető illesztőprogram"
+msgstr "Nincsenek elérhető illesztőprogramok"
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr "Nincs több elérhető illesztőprogram a rendszeréhez"
+msgstr "Nincs további elérhető illesztőprogram a rendszeréhez."
 
 #: vanilla_control_center/gtk/window.ui:80
-#, fuzzy
 msgid "PRIME Profiles"
-msgstr "PRIME profil módosítása…"
+msgstr "PRIME profilok"
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Active Profile"
-msgstr ""
+msgstr "Aktív profil"
 
 #: vanilla_control_center/gtk/window.ui:94
 msgid "Integrated GPU"
-msgstr ""
+msgstr "Integrált GPU"
 
 #: vanilla_control_center/gtk/window.ui:95
 #: vanilla_control_center/gtk/window.ui:110
 msgid "Not detected"
-msgstr ""
+msgstr "Nem észlelt"
 
 #: vanilla_control_center/gtk/window.ui:109
 msgid "Discrete GPU"
-msgstr ""
+msgstr "Diszkrét GPU"
 
 #: vanilla_control_center/gtk/window.ui:124
 msgid "Hybrid"
-msgstr ""
+msgstr "Hibrid"
 
 #: vanilla_control_center/gtk/window.ui:125
 msgid "Use the integrated GPU for everything and the discrete GPU on demand"
 msgstr ""
+"Használja az integrált GPU-t mindenhez, a diszkrét GPU-t pedig igény szerint"
 
 #: vanilla_control_center/gtk/window.ui:148
-#, fuzzy
 msgid "Updates"
-msgstr "Frissítések alkalmazása"
+msgstr "Frissítések"
 
 #: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
@@ -128,9 +128,8 @@ msgid "Never"
 msgstr "Soha"
 
 #: vanilla_control_center/gtk/window.ui:163
-#, fuzzy
 msgid "Updates Scheduling"
-msgstr "A frissítések ütemeződnek"
+msgstr "Frissítések ütemezése"
 
 #: vanilla_control_center/gtk/window.ui:164
 msgid "Choose how often the system should check for updates."
@@ -145,22 +144,22 @@ msgid "Monthly"
 msgstr "Havonta"
 
 #: vanilla_control_center/gtk/window.ui:177
-#, fuzzy
 msgid "Smart Updates"
-msgstr "Az Intelligens frissítés módosult."
+msgstr "Intelligens frissítések"
 
 #: vanilla_control_center/gtk/window.ui:178
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
+"A rendszer nem frissít, ha a készülék intenzív használatban van, vagy "
+"alacsony az akkumulátor töltöttsége."
 
 #: vanilla_control_center/gtk/window.ui:189
-#, fuzzy
 msgid "Automatic Updates"
-msgstr "Az Automatikus frissítés beállítása módosult."
+msgstr "Automatikus frissítések"
 
 #: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "A rendszer automatikusan frissít a háttérben."
 
 #: vanilla_control_center/gtk/window.ui:208
 #: vanilla_control_center/backends/apx.py:37
@@ -168,9 +167,8 @@ msgid "Sub System"
 msgstr "Alrendszer"
 
 #: vanilla_control_center/gtk/window.ui:218
-#, fuzzy
 msgid "Containers"
-msgstr "Közreműködők"
+msgstr "Konténerek"
 
 #: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
@@ -181,7 +179,6 @@ msgid "_Help"
 msgstr "_Segítség"
 
 #: vanilla_control_center/gtk/window.ui:246
-#, fuzzy
 msgid "_About Control Center"
 msgstr "_A Vezérlőpultról"
 
@@ -192,7 +189,7 @@ msgstr "_A Vezérlőpultról"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "Zászló"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -201,131 +198,126 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Név"
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "Alrendszer"
+msgstr "Arch Linux alrendszer"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "Alrendszer"
+msgstr "Fedora alrendszer"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "Alrendszer"
+msgstr "Alpine alrendszer"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "Alrendszer"
+msgstr "openSUSE alrendszer"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "Alrendszer"
+msgstr "Void Linux alrendszer"
 
 #: vanilla_control_center/backends/apx.py:69
 msgid "DISABLED_MODULES"
-msgstr ""
+msgstr "LETILTOTT_MODULOK"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Apx modul letiltva"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Apx bináris nem található"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Distrobox bináris nem található"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "A konténerek nem érhetők el"
 
 #: vanilla_control_center/backends/apx.py:161
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "'{}' konténer elindítva"
+msgstr "'{0}' konténer nem található"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Futó alkalmazás: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Nem sikerült elindítani a kezelt alkalmazást: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Nem támogatott konfiguráció"
 
 #: vanilla_control_center/backends/prime_profiles.py:41
 msgid "PRIME module disabled"
-msgstr ""
+msgstr "PRIME modul letiltva"
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
-msgstr ""
+msgstr "prime-select nem található"
 
 #: vanilla_control_center/backends/prime_profiles.py:49
 msgid "prime-select not supported for this device"
-msgstr ""
+msgstr "prime-select nem támogatott ezen az eszközön"
 
 #: vanilla_control_center/backends/prime_profiles.py:55
 msgid "prime-select is not supported for this setup"
-msgstr ""
+msgstr "prime-select nem támogatott ebben a konfigurációban"
 
 #: vanilla_control_center/backends/prime_profiles.py:91
 msgid "Invalid profile name"
-msgstr ""
+msgstr "Érvénytelen profilnév"
 
 #: vanilla_control_center/backends/prime_profiles.py:114
 #: vanilla_control_center/backends/prime_profiles.py:117
 #: vanilla_control_center/backends/prime_profiles.py:120
 msgid "integrated"
-msgstr ""
+msgstr "integrált"
 
 #: vanilla_control_center/backends/prime_profiles.py:115
 #: vanilla_control_center/backends/prime_profiles.py:118
 #: vanilla_control_center/backends/prime_profiles.py:121
 msgid "discrete"
-msgstr ""
+msgstr "diszkrét"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:44
 msgid "Getting devices list"
-msgstr ""
+msgstr "Eszközök listájának lekérdezése"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:77
 #, python-format
 msgid "Devices list: %s"
-msgstr ""
+msgstr "Eszközök listája: %s"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:84
-#, fuzzy, python-format
+#, python-format
 msgid "Driver %s installed: %s"
-msgstr "Új illesztőprogramok telepítve."
+msgstr "%s illesztőprogram telepítve: %s"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:99
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "Telepítési parancs: %s"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "VSO Config fájl nem található itt {}"
 
 #: vanilla_control_center/container.py:47
 #: vanilla_control_center/container.py:48
 msgid "Clicked"
-msgstr ""
+msgstr "Összekapcsolva"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -337,26 +329,23 @@ msgstr "'{}' konténer elindítva"
 
 #: vanilla_control_center/driver.py:49
 msgid "Activated"
-msgstr ""
+msgstr "Aktiválva"
 
 #: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
-#, fuzzy
 msgid "Driver selected"
-msgstr "Illesztőprogramok"
+msgstr "Kiválasztott illesztőprogram"
 
 #: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
-#, fuzzy
 msgid "Installed"
-msgstr "Telepítés"
+msgstr "Telepítve"
 
 #: vanilla_control_center/driver.py:86
 msgid "Selected driver: {}"
-msgstr ""
+msgstr "Kiválasztott illesztőprogram: {}"
 
 #: vanilla_control_center/driver.py:92
-#, fuzzy
 msgid "Installation needed"
-msgstr "Telepítés"
+msgstr "Telepítés szükséges"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
@@ -375,9 +364,8 @@ msgid "Translators"
 msgstr "Fordítók"
 
 #: vanilla_control_center/window.py:119
-#, fuzzy
 msgid "Installation requested: {}"
-msgstr "Sikertelen telepítés."
+msgstr "Telepítési kérelmek: {}"
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -388,9 +376,8 @@ msgid "New Drivers Installed."
 msgstr "Új illesztőprogramok telepítve."
 
 #: vanilla_control_center/window.py:132
-#, fuzzy
 msgid "Installation finished."
-msgstr "Sikertelen telepítés."
+msgstr "A telepítés befejeződött."
 
 #: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
 msgid "Another transaction is running or the system needs to be restarted."

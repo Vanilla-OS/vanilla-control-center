@@ -1,15 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Gonzalo Lorenzo <gonzalolorenzo88@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-03 14:34+0000\n"
-"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
+"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"Last-Translator: Gonzalo Lorenzo <gonzalolorenzo88@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/es/>\n"
 "Language: es\n"
@@ -35,7 +34,7 @@ msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Crear subsistema"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -78,42 +77,40 @@ msgstr "No hay controladores disponibles"
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr "No hay controladores extra disponibles para su dispositivo."
+msgstr "No hay controladores adicionales disponibles para su dispositivo."
 
 #: vanilla_control_center/gtk/window.ui:80
-#, fuzzy
 msgid "PRIME Profiles"
-msgstr "Cambiar el perfil PRIME…"
+msgstr "Perfiles PRIME"
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Active Profile"
-msgstr ""
+msgstr "Perfil activo"
 
 #: vanilla_control_center/gtk/window.ui:94
 msgid "Integrated GPU"
-msgstr ""
+msgstr "Tarjeta gráfica integrada"
 
 #: vanilla_control_center/gtk/window.ui:95
 #: vanilla_control_center/gtk/window.ui:110
 msgid "Not detected"
-msgstr ""
+msgstr "No se ha detectado"
 
 #: vanilla_control_center/gtk/window.ui:109
 msgid "Discrete GPU"
-msgstr ""
+msgstr "Tarjeta gráfica dedicada"
 
 #: vanilla_control_center/gtk/window.ui:124
 msgid "Hybrid"
-msgstr ""
+msgstr "Híbrido"
 
 #: vanilla_control_center/gtk/window.ui:125
 msgid "Use the integrated GPU for everything and the discrete GPU on demand"
-msgstr ""
+msgstr "Usar la gráfica integrada para todo y la gráfica dedicada bajo demanda"
 
 #: vanilla_control_center/gtk/window.ui:148
-#, fuzzy
 msgid "Updates"
-msgstr "Aplicar las actualizaciones"
+msgstr "Actualizaciones"
 
 #: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
@@ -162,7 +159,7 @@ msgstr "Se ha modificado la configuración de la actualización automática."
 
 #: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "El sistema se actualizará automáticamente en segundo plano."
 
 #: vanilla_control_center/gtk/window.ui:208
 #: vanilla_control_center/backends/apx.py:37

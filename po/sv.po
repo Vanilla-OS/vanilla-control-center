@@ -1,14 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Luna Jernberg <droidbittin@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-11 11:35+0000\n"
+"PO-Revision-Date: 2023-02-16 17:29+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/sv/>\n"
@@ -31,11 +30,11 @@ msgstr "Ingen beskrivning"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Gå in i skal"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Skapa delsystem"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -81,39 +80,39 @@ msgid "There are no extra drivers available for your system."
 msgstr "Det finns inga extra drivrutiner tillgängliga för ditt system."
 
 #: vanilla_control_center/gtk/window.ui:80
-#, fuzzy
 msgid "PRIME Profiles"
-msgstr "Byter PRIME profil…"
+msgstr "PRIME profiler"
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Active Profile"
-msgstr ""
+msgstr "Aktiv profil"
 
 #: vanilla_control_center/gtk/window.ui:94
 msgid "Integrated GPU"
-msgstr ""
+msgstr "Integrerad GPU"
 
 #: vanilla_control_center/gtk/window.ui:95
 #: vanilla_control_center/gtk/window.ui:110
 msgid "Not detected"
-msgstr ""
+msgstr "Inte upptäckt"
 
 #: vanilla_control_center/gtk/window.ui:109
 msgid "Discrete GPU"
-msgstr ""
+msgstr "Diskret GPU"
 
 #: vanilla_control_center/gtk/window.ui:124
 msgid "Hybrid"
-msgstr ""
+msgstr "Hybrid"
 
 #: vanilla_control_center/gtk/window.ui:125
 msgid "Use the integrated GPU for everything and the discrete GPU on demand"
 msgstr ""
+"Använd den integrerade grafikprocessorn till allt och den diskreta "
+"grafikprocessorn på begäran"
 
 #: vanilla_control_center/gtk/window.ui:148
-#, fuzzy
 msgid "Updates"
-msgstr "Tillämpa uppdateringar"
+msgstr "Uppdateringar"
 
 #: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
@@ -144,25 +143,22 @@ msgid "Monthly"
 msgstr "Månadsvis"
 
 #: vanilla_control_center/gtk/window.ui:177
-#, fuzzy
 msgid "Smart Updates"
-msgstr "SmartUpdate"
+msgstr "Smarta uppdateringar"
 
 #: vanilla_control_center/gtk/window.ui:178
-#, fuzzy
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
-"Om aktiverat så kommer systemet inte att uppdateras om systemet har hög "
-"belastning eller om batteriet är lågt."
+"Systemet kommer inte att uppdateras om det används hårt eller om batteriet "
+"är lågt."
 
 #: vanilla_control_center/gtk/window.ui:189
-#, fuzzy
 msgid "Automatic Updates"
-msgstr "Inställningen för automatisk uppdatering har ändrats."
+msgstr "Automatiska uppdateringar"
 
 #: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "Systemet kommer att uppdatera sig automatiskt i bakgrunden."
 
 #: vanilla_control_center/gtk/window.ui:208
 #: vanilla_control_center/backends/apx.py:37
@@ -170,9 +166,8 @@ msgid "Sub System"
 msgstr "Undersystem"
 
 #: vanilla_control_center/gtk/window.ui:218
-#, fuzzy
 msgid "Containers"
-msgstr "Bidragsgivare"
+msgstr "Behållare"
 
 #: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
@@ -183,9 +178,8 @@ msgid "_Help"
 msgstr "_Hjälp"
 
 #: vanilla_control_center/gtk/window.ui:246
-#, fuzzy
 msgid "_About Control Center"
-msgstr "_Om Kontroll-center"
+msgstr "_Om Kontrollcenter"
 
 #: vanilla_control_center/backends/apx.py:36
 #: vanilla_control_center/backends/apx.py:40
@@ -203,67 +197,62 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Namn"
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "Undersystem"
+msgstr "Arch Linux delsystem"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "Undersystem"
+msgstr "Fedora delsystem"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "Undersystem"
+msgstr "Alpine delsystem"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "Undersystem"
+msgstr "openSUSE delsystem"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "Undersystem"
+msgstr "Void Linux delsystem"
 
 #: vanilla_control_center/backends/apx.py:69
 msgid "DISABLED_MODULES"
-msgstr ""
+msgstr "DISABLED_MODULES"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Apx-modul inaktiverad"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Apx binär hittades inte"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Distrobox binär hittades inte"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:161
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "Behållare '{}' initierad"
+msgstr "Behållare '{0}' hittades inte"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Kör program: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Kunde inte att starta hanterat program: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
@@ -271,15 +260,15 @@ msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:41
 msgid "PRIME module disabled"
-msgstr ""
+msgstr "PRIME-modul inaktiverad"
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
-msgstr ""
+msgstr "prime-select hittades inte"
 
 #: vanilla_control_center/backends/prime_profiles.py:49
 msgid "prime-select not supported for this device"
-msgstr ""
+msgstr "prime-select stöds inte för den här enheten"
 
 #: vanilla_control_center/backends/prime_profiles.py:55
 msgid "prime-select is not supported for this setup"
@@ -287,47 +276,47 @@ msgstr ""
 
 #: vanilla_control_center/backends/prime_profiles.py:91
 msgid "Invalid profile name"
-msgstr ""
+msgstr "Ogiltigt profilnamn"
 
 #: vanilla_control_center/backends/prime_profiles.py:114
 #: vanilla_control_center/backends/prime_profiles.py:117
 #: vanilla_control_center/backends/prime_profiles.py:120
 msgid "integrated"
-msgstr ""
+msgstr "integrerad"
 
 #: vanilla_control_center/backends/prime_profiles.py:115
 #: vanilla_control_center/backends/prime_profiles.py:118
 #: vanilla_control_center/backends/prime_profiles.py:121
 msgid "discrete"
-msgstr ""
+msgstr "diskret"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:44
 msgid "Getting devices list"
-msgstr ""
+msgstr "Hämtar enhetslista"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:77
 #, python-format
 msgid "Devices list: %s"
-msgstr ""
+msgstr "Enhetslista: %s"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:84
-#, fuzzy, python-format
+#, python-format
 msgid "Driver %s installed: %s"
-msgstr "Nya drivrutiner installerades."
+msgstr "Drivrutin %s installerad: %s"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:99
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "Installationskommando: %s"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "VSO-konfigurationsfil hittades inte på {}"
 
 #: vanilla_control_center/container.py:47
 #: vanilla_control_center/container.py:48
 msgid "Clicked"
-msgstr ""
+msgstr "Klickad"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -339,26 +328,23 @@ msgstr "Behållare '{}' initierad"
 
 #: vanilla_control_center/driver.py:49
 msgid "Activated"
-msgstr ""
+msgstr "Aktiverad"
 
 #: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
-#, fuzzy
 msgid "Driver selected"
-msgstr "Drivrutiner"
+msgstr "Drivrutin vald"
 
 #: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
-#, fuzzy
 msgid "Installed"
-msgstr "Installation"
+msgstr "Installerad"
 
 #: vanilla_control_center/driver.py:86
 msgid "Selected driver: {}"
-msgstr ""
+msgstr "Vald drivrutin: {}"
 
 #: vanilla_control_center/driver.py:92
-#, fuzzy
 msgid "Installation needed"
-msgstr "Installation"
+msgstr "Installation krävs"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
@@ -377,9 +363,8 @@ msgid "Translators"
 msgstr "Översättare"
 
 #: vanilla_control_center/window.py:119
-#, fuzzy
 msgid "Installation requested: {}"
-msgstr "Installationen misslyckades."
+msgstr "Installation begärd: {}"
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -390,9 +375,8 @@ msgid "New Drivers Installed."
 msgstr "Nya drivrutiner installerades."
 
 #: vanilla_control_center/window.py:132
-#, fuzzy
 msgid "Installation finished."
-msgstr "Installationen misslyckades."
+msgstr "Installation slutförd."
 
 #: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
 msgid "Another transaction is running or the system needs to be restarted."
