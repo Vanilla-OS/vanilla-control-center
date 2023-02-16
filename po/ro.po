@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the vanilla-control-center package.
 # Automatically generated, 2022.
 #
+# Matt C <matei.gurzu@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-07 10:36+0000\n"
-"Last-Translator: finnmonstar <finnmonstar@pm.me>\n"
+"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"Last-Translator: Matt C <matei.gurzu@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ro/>\n"
 "Language: ro\n"
@@ -28,15 +29,15 @@ msgstr "Panoul de control Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr "Fără descriere"
+msgstr "Nicio descripție"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Intrați în shell"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Creați subsistem"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -50,7 +51,7 @@ msgstr "General"
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Arată scurtăturile"
+msgstr "Arată shortcuturi"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -71,50 +72,48 @@ msgstr "Se încarcă driverele…"
 
 #: vanilla_control_center/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
-msgstr "Driverele disponibilie se încarcă, te rog așteaptă."
+msgstr "Vă rugăm să așteptați cât timp driverele valabile se încarcă."
 
 #: vanilla_control_center/gtk/window.ui:64
 msgid "No Drivers Available"
-msgstr "Niciun driver disponibil"
+msgstr "Nu sunt drivere valabile"
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
 msgstr "Nu mai sunt drivere disponibile pentru sistemul tău."
 
 #: vanilla_control_center/gtk/window.ui:80
-#, fuzzy
 msgid "PRIME Profiles"
-msgstr "Se schimbă profilul PRIME…"
+msgstr "Profiluri PRIME"
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Active Profile"
-msgstr ""
+msgstr "Profilul activ"
 
 #: vanilla_control_center/gtk/window.ui:94
 msgid "Integrated GPU"
-msgstr ""
+msgstr "GPU integrat"
 
 #: vanilla_control_center/gtk/window.ui:95
 #: vanilla_control_center/gtk/window.ui:110
 msgid "Not detected"
-msgstr ""
+msgstr "Nu a fost detectat"
 
 #: vanilla_control_center/gtk/window.ui:109
 msgid "Discrete GPU"
-msgstr ""
+msgstr "GPU discret"
 
 #: vanilla_control_center/gtk/window.ui:124
 msgid "Hybrid"
-msgstr ""
+msgstr "Hibrid"
 
 #: vanilla_control_center/gtk/window.ui:125
 msgid "Use the integrated GPU for everything and the discrete GPU on demand"
-msgstr ""
+msgstr "Folosește GPU-ul integrat pentru orice si GPU-ul discret la cerere"
 
 #: vanilla_control_center/gtk/window.ui:148
-#, fuzzy
 msgid "Updates"
-msgstr "Aplică actualizările"
+msgstr "Actualizări"
 
 #: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
@@ -130,7 +129,7 @@ msgstr "Niciodată"
 
 #: vanilla_control_center/gtk/window.ui:163
 msgid "Updates Scheduling"
-msgstr "Actualizările se programează"
+msgstr "Programarea acualizărilor"
 
 #: vanilla_control_center/gtk/window.ui:164
 msgid "Choose how often the system should check for updates."
@@ -145,25 +144,22 @@ msgid "Monthly"
 msgstr "Lunar"
 
 #: vanilla_control_center/gtk/window.ui:177
-#, fuzzy
 msgid "Smart Updates"
-msgstr "Actualizare inteligentă"
+msgstr "Actualizări inteligente"
 
 #: vanilla_control_center/gtk/window.ui:178
-#, fuzzy
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
 "Dacă această opțiune este activată, sistemul nu se va actualiza atunci când "
 "este solicitat sau bateria este la un nivel scăzut."
 
 #: vanilla_control_center/gtk/window.ui:189
-#, fuzzy
 msgid "Automatic Updates"
-msgstr "Setarea actualizării automate schimbată."
+msgstr "Automatizări automate"
 
 #: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "Sistemul se va actualiza automat în fundal."
 
 #: vanilla_control_center/gtk/window.ui:208
 #: vanilla_control_center/backends/apx.py:37
@@ -171,9 +167,8 @@ msgid "Sub System"
 msgstr "Subsistem"
 
 #: vanilla_control_center/gtk/window.ui:218
-#, fuzzy
 msgid "Containers"
-msgstr "Contribuitori"
+msgstr "Containere"
 
 #: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
@@ -184,9 +179,8 @@ msgid "_Help"
 msgstr "_Ajutor"
 
 #: vanilla_control_center/gtk/window.ui:246
-#, fuzzy
 msgid "_About Control Center"
-msgstr "Despre panoul de control"
+msgstr "_Despre panoul de control"
 
 #: vanilla_control_center/backends/apx.py:36
 #: vanilla_control_center/backends/apx.py:40
@@ -194,8 +188,9 @@ msgstr "Despre panoul de control"
 #: vanilla_control_center/backends/apx.py:48
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
+#, fuzzy
 msgid "Flag"
-msgstr ""
+msgstr "Steag"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -204,131 +199,126 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Nume"
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "Subsistem"
+msgstr "Subsistem Arch Linux"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "Subsistem"
+msgstr "Subsistem Fedora"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "Subsistem"
+msgstr "Subsistem Alpine"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "Subsistem"
+msgstr "Subsistem openSUSE"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "Subsistem"
+msgstr "Subsistem Void Linux"
 
 #: vanilla_control_center/backends/apx.py:69
 msgid "DISABLED_MODULES"
-msgstr ""
+msgstr "MODULE_DEZACTIVATE"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Modul apx dezactivat"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Executabilul apx nu a fost găsit"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Executabilul Distrobox nu a fost găsit"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "Nu au putut fi încărcate containerele"
 
 #: vanilla_control_center/backends/apx.py:161
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "Container-ul '{}' inițializat"
+msgstr "Containerul '{0}' nu a fost găsit"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Aplicația pornită: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Nu a putut fi pornită aplicația gestionată: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Organizare neacceptată"
 
 #: vanilla_control_center/backends/prime_profiles.py:41
 msgid "PRIME module disabled"
-msgstr ""
+msgstr "Modul PRIME dezactivat"
 
 #: vanilla_control_center/backends/prime_profiles.py:45
 msgid "prime-select not found"
-msgstr ""
+msgstr "prime-select nu a fost găsit"
 
 #: vanilla_control_center/backends/prime_profiles.py:49
 msgid "prime-select not supported for this device"
-msgstr ""
+msgstr "prime-select nu este acceptat pentru acest dispozitiv"
 
 #: vanilla_control_center/backends/prime_profiles.py:55
 msgid "prime-select is not supported for this setup"
-msgstr ""
+msgstr "prime-select nu este acceptat pentru acest setup"
 
 #: vanilla_control_center/backends/prime_profiles.py:91
 msgid "Invalid profile name"
-msgstr ""
+msgstr "Nume profil invalid"
 
 #: vanilla_control_center/backends/prime_profiles.py:114
 #: vanilla_control_center/backends/prime_profiles.py:117
 #: vanilla_control_center/backends/prime_profiles.py:120
 msgid "integrated"
-msgstr ""
+msgstr "integrat"
 
 #: vanilla_control_center/backends/prime_profiles.py:115
 #: vanilla_control_center/backends/prime_profiles.py:118
 #: vanilla_control_center/backends/prime_profiles.py:121
 msgid "discrete"
-msgstr ""
+msgstr "discret"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:44
 msgid "Getting devices list"
-msgstr ""
+msgstr "Se incarcă lista de dispozitive"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:77
 #, python-format
 msgid "Devices list: %s"
-msgstr ""
+msgstr "Listă dispozitive: %s"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:84
-#, fuzzy, python-format
+#, python-format
 msgid "Driver %s installed: %s"
-msgstr "Drivere noi instalate."
+msgstr "Driverul %s instalat: %s"
 
 #: vanilla_control_center/backends/ubuntu_drivers.py:99
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "Comandă instalare: %s"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "Fișierul configurației VSO nu a fost găsit la ()"
 
 #: vanilla_control_center/container.py:47
 #: vanilla_control_center/container.py:48
 msgid "Clicked"
-msgstr ""
+msgstr "Apăsat"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -340,26 +330,23 @@ msgstr "Container-ul '{}' inițializat"
 
 #: vanilla_control_center/driver.py:49
 msgid "Activated"
-msgstr ""
+msgstr "Activat"
 
 #: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
-#, fuzzy
 msgid "Driver selected"
-msgstr "Drivere"
+msgstr "Driver selectat"
 
 #: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
-#, fuzzy
 msgid "Installed"
-msgstr "Instalare"
+msgstr "Instalat"
 
 #: vanilla_control_center/driver.py:86
 msgid "Selected driver: {}"
-msgstr ""
+msgstr "Driverul selectat: {}"
 
 #: vanilla_control_center/driver.py:92
-#, fuzzy
 msgid "Installation needed"
-msgstr "Instalare"
+msgstr "Instalare necesară"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
