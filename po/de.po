@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
 # M00nD3v <matteo.duchs@outlook.com>, 2023.
+# baer <mail@lovisrentsch.de>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
 "PO-Revision-Date: 2023-02-16 17:29+0000\n"
-"Last-Translator: M00nD3v <matteo.duchs@outlook.com>\n"
+"Last-Translator: baer <mail@lovisrentsch.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/de/>\n"
 "Language: de\n"
@@ -173,7 +174,7 @@ msgstr "Installierte Programme"
 
 #: vanilla_control_center/gtk/window.ui:242
 msgid "_Help"
-msgstr ""
+msgstr "_Hilfe"
 
 #: vanilla_control_center/gtk/window.ui:246
 msgid "_About Control Center"
