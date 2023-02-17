@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the vanilla-control-center package.
 # Automatically generated, 2022.
 #
+# azuki <ipadgoogcloud@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-07 10:36+0000\n"
+"PO-Revision-Date: 2023-02-17 22:27+0000\n"
 "Last-Translator: azuki <ipadgoogcloud@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ja/>\n"
@@ -66,22 +67,20 @@ msgid "Drivers"
 msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:55
-#, fuzzy
 msgid "Loading drivers…"
-msgstr "新しいドライバーをインストールしています…"
+msgstr "新しいドライバーを読み込んでいます…"
 
 #: vanilla_control_center/gtk/window.ui:56
 msgid "Please wait while the available drivers are being loaded."
-msgstr ""
+msgstr "使用可能なドライバーが読み込まれるまでお待ちください。"
 
 #: vanilla_control_center/gtk/window.ui:64
-#, fuzzy
 msgid "No Drivers Available"
-msgstr "新しいドライバーがインストールされました。"
+msgstr "ドライバーがありません"
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr ""
+msgstr "お使いのシステムで使用可能な他のドライバーはありません。"
 
 #: vanilla_control_center/gtk/window.ui:80
 #, fuzzy
