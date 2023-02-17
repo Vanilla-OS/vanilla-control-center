@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"PO-Revision-Date: 2023-02-17 22:27+0000\n"
 "Last-Translator: inal <inaltarba89@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ru/>\n"
@@ -31,7 +31,7 @@ msgstr "Нет описания"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Войдите в оболочку"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
@@ -107,16 +107,14 @@ msgid "Hybrid"
 msgstr "Гибридный"
 
 #: vanilla_control_center/gtk/window.ui:125
-#, fuzzy
 msgid "Use the integrated GPU for everything and the discrete GPU on demand"
 msgstr ""
 "Используйте встроенный графический процессор по умолчанию и дискретный "
 "графический процессор по запросу"
 
 #: vanilla_control_center/gtk/window.ui:148
-#, fuzzy
 msgid "Updates"
-msgstr "Применить обновления"
+msgstr "Обновления"
 
 #: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
@@ -147,7 +145,6 @@ msgid "Monthly"
 msgstr "Ежемесячно"
 
 #: vanilla_control_center/gtk/window.ui:177
-#, fuzzy
 msgid "Smart Updates"
 msgstr "Умные обновления"
 
