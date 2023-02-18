@@ -15,8 +15,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
@@ -27,7 +27,7 @@ msgstr "Центр керування Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr "Немає опису"
+msgstr "Без опису"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
@@ -69,80 +69,83 @@ msgstr "Вийти"
 msgid "Apply Changes"
 msgstr "Застосувати зміни"
 
-#: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
+#: vanilla_control_center/gtk/window.ui:148
 msgid "Updates"
 msgstr "Оновлення"
 
 #: vanilla_control_center/gtk/window.ui:51
+#: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
 msgstr "Налаштування"
 
 #: vanilla_control_center/gtk/window.ui:54
+#: vanilla_control_center/gtk/window.ui:157
 msgid "Latest Update Check"
 msgstr "Перевірка останнього оновлення"
 
 #: vanilla_control_center/gtk/window.ui:55
+#: vanilla_control_center/gtk/window.ui:158
 msgid "Never"
 msgstr "Ніколи"
 
 #: vanilla_control_center/gtk/window.ui:60
+#: vanilla_control_center/gtk/window.ui:163
 msgid "Updates Scheduling"
 msgstr "Розклад оновлень"
 
 #: vanilla_control_center/gtk/window.ui:61
+#: vanilla_control_center/gtk/window.ui:164
 msgid "Choose how often the system should check for updates."
 msgstr "Виберіть, як часто система має перевіряти наявність оновлень."
 
 #: vanilla_control_center/gtk/window.ui:65
+#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr "Щотижня"
 
 #: vanilla_control_center/gtk/window.ui:66
+#: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
 msgstr "Щомісяця"
 
-#: vanilla_control_center/gtk/window.ui:74
-#, fuzzy
+#: vanilla_control_center/gtk/window.ui:177
 msgid "Smart Updates"
 msgstr "Інтелектуальні оновлення"
 
-#: vanilla_control_center/gtk/window.ui:75
-#, fuzzy
+#: vanilla_control_center/gtk/window.ui:178
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
-"Якщо ввімкнено, система не оновлюватиметься, якщо система навантажена або "
-"заряд батареї низький."
+"Система не буде оновлюватися, якщо вона активно використовується або має "
+"низький заряд акумулятора."
 
-#: vanilla_control_center/gtk/window.ui:86
-#, fuzzy
+#: vanilla_control_center/gtk/window.ui:189
 msgid "Automatic Updates"
-msgstr "Інтелектуальні оновлення змінено."
+msgstr "Автоматичні оновлення"
 
-#: vanilla_control_center/gtk/window.ui:87
+#: vanilla_control_center/gtk/window.ui:190
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "Система буде автоматично оновлюватися у фоновому режимі."
 
 #: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
+#: vanilla_control_center/gtk/window.ui:208
 msgid "Sub System"
 msgstr "Підсистема"
 
-#: vanilla_control_center/gtk/window.ui:115
-#, fuzzy
+#: vanilla_control_center/gtk/window.ui:218
 msgid "Containers"
 msgstr "Контейнери"
 
 #: vanilla_control_center/gtk/window.ui:120
+#: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
-msgstr "Встановлені застосунки"
+msgstr "Встановлені програми"
 
-#: vanilla_control_center/gtk/window.ui:139
+#: vanilla_control_center/gtk/window.ui:242
 msgid "_Help"
-msgstr ""
+msgstr "_Потрібна допомога?"
 
-#: vanilla_control_center/gtk/window.ui:143
-#, fuzzy
+#: vanilla_control_center/gtk/window.ui:246
 msgid "_About Control Center"
 msgstr "_Про центр керування"
 
@@ -153,7 +156,7 @@ msgstr "_Про центр керування"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "Прапорець"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -162,196 +165,289 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Ім'я"
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "Підсистема"
+msgstr "Підсистема Arch Linux"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "Підсистема"
+msgstr "Підсистема Fedora"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "Підсистема"
+msgstr "Підсистема Alpine"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "Підсистема"
+msgstr "Підсистема openSUSE"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "Підсистема"
+msgstr "Підсистема Void Linux"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Модуль Apx вимкнено"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Двійковий файл Apx не знайдено"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Двійковий файл Distrobox не знайдено"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "Не вдалося отримати контейнери"
 
 #: vanilla_control_center/backends/apx.py:161
 #, python-brace-format
 msgid "Container '{0}' not found"
-msgstr ""
+msgstr "Контейнер '{0}' не знайдено"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Запущена програма: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Не вдалося запустити керовану програму: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Непідтримуване налаштування"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "Файл конфігурації VSO не знайдено за адресою {}"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "Відкрита оболонка для контейнеру '{}'"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "Контейнер '{}' успішно ініціалізовано"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr ""
+msgstr "Програмний код"
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr ""
+msgstr "Документація"
 
 #: vanilla_control_center/main.py:118
-#, fuzzy
 msgid "Contributors"
-msgstr "Контейнери"
+msgstr "При сприянні"
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
 msgstr "Перекладачі"
 
-#: vanilla_control_center/window.py:96
-#, fuzzy
+#: vanilla_control_center/window.py:177
 msgid "Smart Update Changed."
-msgstr "Інтелектуальні оновлення змінено."
+msgstr "Був змінений параметр інтелектуального оновлення."
 
-#: vanilla_control_center/window.py:98
+#: vanilla_control_center/window.py:179
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "Не вдалося змінити параметр інтелектуального оновлення."
 
-#: vanilla_control_center/window.py:103
-#, fuzzy
+#: vanilla_control_center/window.py:184
 msgid "Automatic Update setting changed."
-msgstr "Інтелектуальні оновлення змінено."
+msgstr "Був змінений параметр автоматичного оновлення."
 
-#: vanilla_control_center/window.py:105
+#: vanilla_control_center/window.py:186
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "Не вдалося змінити параметр автоматичного оновлення."
 
-#: vanilla_control_center/window.py:112
+#: vanilla_control_center/window.py:112 vanilla_control_center/window.py:193
 msgid "Update Schedule Changed."
-msgstr "Розклад оновлення змінено."
+msgstr "Розклад оновлень змінено."
 
-#: vanilla_control_center/window.py:140
+#: vanilla_control_center/window.py:140 vanilla_control_center/window.py:221
 msgid "{} Exited With Error."
 msgstr "{} завершено з помилкою."
 
-#: vanilla_control_center/window.py:143
+#: vanilla_control_center/window.py:143 vanilla_control_center/window.py:224
 msgid "{} Exited."
 msgstr "{} завершено."
 
-#: vanilla_control_center/window.py:146
+#: vanilla_control_center/window.py:146 vanilla_control_center/window.py:227
 msgid "{} Launched."
 msgstr "{} запущено."
 
-#~ msgid "Drivers"
-#~ msgstr "Драйвери"
+#: vanilla_control_center/gtk/window.ui:45
+msgid "Drivers"
+msgstr "Драйвери"
 
-#~ msgid "Loading drivers…"
-#~ msgstr "Завантаження драйверів…"
+#: vanilla_control_center/gtk/window.ui:55
+msgid "Loading drivers…"
+msgstr "Завантаження драйверів…"
 
-#~ msgid "Please wait while the available drivers are being loaded."
-#~ msgstr "Зачекайте, будь ласка, поки завантажуються доступні драйвери."
+#: vanilla_control_center/gtk/window.ui:56
+msgid "Please wait while the available drivers are being loaded."
+msgstr "Зачекайте, будь ласка, поки завантажуються доступні драйвери."
 
-#~ msgid "No Drivers Available"
-#~ msgstr "Немає доступних драйверів"
+#: vanilla_control_center/gtk/window.ui:64
+msgid "No Drivers Available"
+msgstr "Драйвери відсутні"
 
-#~ msgid "There are no extra drivers available for your system."
-#~ msgstr "Немає додаткових драйверів, доступних для вашої системи."
+#: vanilla_control_center/gtk/window.ui:65
+msgid "There are no extra drivers available for your system."
+msgstr "Немає додаткових драйверів, доступних для вашої системи."
 
-#~ msgid "PRIME Profiles"
-#~ msgstr "PRIME профілі"
+#: vanilla_control_center/gtk/window.ui:80
+msgid "PRIME Profiles"
+msgstr "PRIME профілі"
 
-#~ msgid "Active Profile"
-#~ msgstr "Активний профіль"
+#: vanilla_control_center/gtk/window.ui:86
+msgid "Active Profile"
+msgstr "Активний профіль"
 
-#~ msgid "Integrated GPU"
-#~ msgstr "Вбудований графічний процесор"
+#: vanilla_control_center/gtk/window.ui:94
+msgid "Integrated GPU"
+msgstr "Вбудований графічний процесор"
 
-#~ msgid "Not detected"
-#~ msgstr "Не виявлено"
+#: vanilla_control_center/gtk/window.ui:95
+#: vanilla_control_center/gtk/window.ui:110
+msgid "Not detected"
+msgstr "Не виявлено"
 
-#~ msgid "Discrete GPU"
-#~ msgstr "Дискретний графічний процесор"
+#: vanilla_control_center/gtk/window.ui:109
+msgid "Discrete GPU"
+msgstr "Дискретний графічний процесор"
 
-#~ msgid "Hybrid"
-#~ msgstr "Гібрид"
+#: vanilla_control_center/gtk/window.ui:124
+msgid "Hybrid"
+msgstr "Гібрид"
 
-#, fuzzy, python-format
-#~ msgid "Driver %s installed: %s"
-#~ msgstr "Встановлені нові драйвери."
+#: vanilla_control_center/backends/ubuntu_drivers.py:84
+#, python-format
+msgid "Driver %s installed: %s"
+msgstr "Драйвер %s встановлено: %s"
 
-#, fuzzy
-#~ msgid "Driver selected"
-#~ msgstr "Драйвери"
+#: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
+msgid "Driver selected"
+msgstr "Вибрано драйвер"
 
-#, fuzzy
-#~ msgid "Installed"
-#~ msgstr "Встановлення"
+#: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
+msgid "Installed"
+msgstr "Встановлено"
 
-#, fuzzy
-#~ msgid "Installation needed"
-#~ msgstr "Встановлення"
+#: vanilla_control_center/driver.py:92
+msgid "Installation needed"
+msgstr "Необхідне встановлення"
 
-#, fuzzy
-#~ msgid "Installation requested: {}"
-#~ msgstr "Встановлення зазнало невдачі."
+#: vanilla_control_center/window.py:119
+msgid "Installation requested: {}"
+msgstr "Запит на встановлення: {}"
 
-#~ msgid "Installation Failed."
-#~ msgstr "Встановлення зазнало невдачі."
+#: vanilla_control_center/window.py:128
+msgid "Installation Failed."
+msgstr "Встановлення зазнало невдачі."
 
-#~ msgid "New Drivers Installed."
-#~ msgstr "Встановлені нові драйвери."
+#: vanilla_control_center/window.py:131
+msgid "New Drivers Installed."
+msgstr "Встановлені нові драйвери."
 
-#, fuzzy
-#~ msgid "Installation finished."
-#~ msgstr "Встановлення зазнало невдачі."
+#: vanilla_control_center/window.py:132
+msgid "Installation finished."
+msgstr "Встановлення завершено."
 
-#~ msgid "Another transaction is running or the system needs to be restarted."
-#~ msgstr "Виконується інша транзакція або систему потрібно перезапустити."
+#: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
+msgid "Another transaction is running or the system needs to be restarted."
+msgstr "Виконується інша транзакція або систему потрібно перезапустити."
+
+#: vanilla_control_center/gtk/window.ui:125
+msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+msgstr ""
+"Використовуйте вбудований графічний процесор для всього і дискретний "
+"графічний процесор на вимогу"
+
+#: vanilla_control_center/backends/apx.py:69
+msgid "DISABLED_MODULES"
+msgstr "ВИМКНЕНІ_МОДУЛІ"
+
+#: vanilla_control_center/backends/prime_profiles.py:41
+msgid "PRIME module disabled"
+msgstr "Модуль PRIME вимкнено"
+
+#: vanilla_control_center/backends/prime_profiles.py:45
+msgid "prime-select not found"
+msgstr "prime-select не знайдено"
+
+#: vanilla_control_center/backends/prime_profiles.py:49
+msgid "prime-select not supported for this device"
+msgstr "prime-select не підтримується для цього пристрою"
+
+#: vanilla_control_center/backends/prime_profiles.py:55
+msgid "prime-select is not supported for this setup"
+msgstr "prime-select не підтримується для цього налаштування"
+
+#: vanilla_control_center/backends/prime_profiles.py:91
+msgid "Invalid profile name"
+msgstr "Некоректна назва профілю"
+
+#: vanilla_control_center/backends/prime_profiles.py:114
+#: vanilla_control_center/backends/prime_profiles.py:117
+#: vanilla_control_center/backends/prime_profiles.py:120
+msgid "integrated"
+msgstr "вбудована"
+
+#: vanilla_control_center/backends/prime_profiles.py:115
+#: vanilla_control_center/backends/prime_profiles.py:118
+#: vanilla_control_center/backends/prime_profiles.py:121
+msgid "discrete"
+msgstr "дискретна"
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:44
+msgid "Getting devices list"
+msgstr "Отримання списку пристроїв"
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:77
+#, python-format
+msgid "Devices list: %s"
+msgstr "Список пристроїв: %s"
+
+#: vanilla_control_center/backends/ubuntu_drivers.py:99
+#, python-format
+msgid "Install command: %s"
+msgstr "Команда встановлення: %s"
+
+#: vanilla_control_center/container.py:47
+#: vanilla_control_center/container.py:48
+msgid "Clicked"
+msgstr "Натиснув"
+
+#: vanilla_control_center/driver.py:49
+msgid "Activated"
+msgstr "Активовано"
+
+#: vanilla_control_center/driver.py:86
+msgid "Selected driver: {}"
+msgstr "Вибраний драйвер: {}"
+
+#: vanilla_control_center/window.py:148
+msgid "Installing new Drivers…"
+msgstr "Виконується встановлення нових драйверів…"
+
+#: vanilla_control_center/window.py:272
+msgid "Prime Profile Changed."
+msgstr "Профіль Prime змінено."
+
+#: vanilla_control_center/window.py:279 vanilla_control_center/window.py:284
+msgid "Prime Profile Change Failed."
+msgstr "Зміна профілю Prime не вдалась."
+
+#: vanilla_control_center/window.py:282
+msgid "Switching PRIME Profile…"
+msgstr "Зміна профілю PRIME…"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr ""
