@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-17 22:27+0000\n"
+"PO-Revision-Date: 2023-02-18 09:58+0000\n"
 "Last-Translator: azuki <ipadgoogcloud@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ja/>\n"
@@ -80,7 +80,7 @@ msgstr "ドライバーがありません"
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr "お使いのシステムで使用可能な他のドライバーはありません。"
+msgstr "お使いのシステムで使用可能な追加のドライバーはありません。"
 
 #: vanilla_control_center/gtk/window.ui:80
 #, fuzzy
@@ -315,7 +315,7 @@ msgstr "新しいドライバーがインストールされました。"
 #: vanilla_control_center/backends/ubuntu_drivers.py:99
 #, python-format
 msgid "Install command: %s"
-msgstr ""
+msgstr "インストールコマンド: %s"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
