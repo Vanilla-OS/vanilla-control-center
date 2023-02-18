@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-12 14:30+0530\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"PO-Revision-Date: 2023-02-17 22:27+0000\n"
 "Last-Translator: Matt C <matei.gurzu@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ro/>\n"
@@ -80,7 +80,7 @@ msgstr "Nu sunt drivere valabile"
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "There are no extra drivers available for your system."
-msgstr "Nu mai sunt drivere disponibile pentru sistemul tău."
+msgstr "Nu sunt disponibile drivere suplimentare pentru sistemul dvs."
 
 #: vanilla_control_center/gtk/window.ui:80
 msgid "PRIME Profiles"
@@ -188,7 +188,6 @@ msgstr "_Despre panoul de control"
 #: vanilla_control_center/backends/apx.py:48
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
-#, fuzzy
 msgid "Flag"
 msgstr "Steag"
 
@@ -365,9 +364,8 @@ msgid "Translators"
 msgstr "Traducători"
 
 #: vanilla_control_center/window.py:119
-#, fuzzy
 msgid "Installation requested: {}"
-msgstr "Instalarea a eșuat."
+msgstr "Instalare cerută: {}"
 
 #: vanilla_control_center/window.py:128
 msgid "Installation Failed."
@@ -378,14 +376,12 @@ msgid "New Drivers Installed."
 msgstr "Drivere noi instalate."
 
 #: vanilla_control_center/window.py:132
-#, fuzzy
 msgid "Installation finished."
-msgstr "Instalarea a eșuat."
+msgstr "Instalarea s-a terminat."
 
 #: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
 msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
-"Altă tranzacție se rulează în acest moment sau sistemul trebuie repornit."
+msgstr "Altă tranzacție rulează în acest moment sau sistemul trebuie repornit."
 
 #: vanilla_control_center/window.py:148
 msgid "Installing new Drivers…"
@@ -393,11 +389,11 @@ msgstr "Se instalează drivere noi…"
 
 #: vanilla_control_center/window.py:177
 msgid "Smart Update Changed."
-msgstr "Actualizare inteligentă schimbată."
+msgstr "Actualizarea inteligentă a fost modificată."
 
 #: vanilla_control_center/window.py:179
 msgid "Failed to change the Smart Update setting."
-msgstr "Nu s-a putut seta setarea actualizării inteligente."
+msgstr "Nu s-a putut modifica setarea actualizării inteligente."
 
 #: vanilla_control_center/window.py:184
 msgid "Automatic Update setting changed."
