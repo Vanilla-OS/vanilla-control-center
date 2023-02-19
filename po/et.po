@@ -25,7 +25,7 @@ msgstr ""
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Kirjeldus puudub"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
@@ -37,7 +37,7 @@ msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "Paigaldus"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:21
 msgid "Installation in Progress…"
@@ -50,7 +50,7 @@ msgstr ""
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Üldine"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
@@ -60,7 +60,7 @@ msgstr ""
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Välju"
 
 #: vanilla_control_center/gtk/window.ui:28
 msgid "Apply Changes"
@@ -267,3 +267,28 @@ msgstr ""
 #: vanilla_control_center/window.py:146
 msgid "{} Launched."
 msgstr ""
+
+#~ msgid "Drivers"
+#~ msgstr "Draiverid"
+
+#~ msgid "Loading drivers…"
+#~ msgstr "Laen draiverid…"
+
+#, fuzzy
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Palun oota kuni saadavalolevad draiverid on laetud."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Draiverid pole saadaval"
+
+#~ msgid "PRIME Profiles"
+#~ msgstr "PRIME profiilid"
+
+#~ msgid "Active Profile"
+#~ msgstr "Hetkene Profiil"
+
+#~ msgid "Integrated GPU"
+#~ msgstr "Integreeritud GPU"
+
+#~ msgid "Not detected"
+#~ msgstr "Ei tuvastatud"

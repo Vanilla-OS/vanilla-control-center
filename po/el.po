@@ -315,9 +315,9 @@ msgstr "{} εκτελέστηκε."
 #~ msgid "DISABLED_MODULES"
 #~ msgstr "ΑΠΕΝΕΡΓΟΠΟΙΗΜΕΝΑ_ΔΟΜΟΣΤΟΙΧΕΙΑ"
 
-#, fuzzy, python-format
+#, python-format
 #~ msgid "Driver %s installed: %s"
-#~ msgstr "Εγκαταστάθηκαν νέα προγράμματα οδήγησης."
+#~ msgstr "Το πρόγραμμα οδήγησης %s εγκαταστάθηκε: %s"
 
 #, python-format
 #~ msgid "Install command: %s"
@@ -348,6 +348,10 @@ msgstr "{} εκτελέστηκε."
 #, fuzzy
 #~ msgid "Installation finished."
 #~ msgstr "Η εγκατάσταση απέτυχε."
+
+#, fuzzy
+#~ msgid "Installing new Drivers…"
+#~ msgstr "Εγκατάσταση σε εξέλιξη…"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr ""

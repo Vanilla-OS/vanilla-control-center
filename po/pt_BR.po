@@ -31,11 +31,11 @@ msgstr "Sem descrição"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Entrar no shell"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Criar sub-sistema"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -70,9 +70,8 @@ msgid "Apply Changes"
 msgstr "Aplicar Alterações"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Updates"
-msgstr "Aplicar Atualizações"
+msgstr "Atualizações"
 
 #: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
@@ -104,9 +103,8 @@ msgid "Monthly"
 msgstr "Mensalmente"
 
 #: vanilla_control_center/gtk/window.ui:74
-#, fuzzy
 msgid "Smart Updates"
-msgstr "SmartUpdate"
+msgstr "Atualizações Inteligentes"
 
 #: vanilla_control_center/gtk/window.ui:75
 #, fuzzy
@@ -127,12 +125,11 @@ msgstr ""
 #: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
 msgid "Sub System"
-msgstr "Subsistema"
+msgstr "Sub-sistema"
 
 #: vanilla_control_center/gtk/window.ui:115
-#, fuzzy
 msgid "Containers"
-msgstr "Colaboradores"
+msgstr "Contêineres"
 
 #: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
@@ -154,7 +151,7 @@ msgstr "_Sobre o Painel de Controle"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "Bandeira"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -163,32 +160,27 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "Subsistema"
+msgstr "Sub-sistema Arch Linux"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "Subsistema"
+msgstr "Sub-sistema Fedora"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "Subsistema"
+msgstr "Subsistema Alpine"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "Subsistema"
+msgstr "Sub-sistema openSUSE"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "Subsistema"
+msgstr "Sub-sistema Void Linux"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
@@ -196,38 +188,38 @@ msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Binário do Apx não encontrado"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Binário do Distrobox não encontrado"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "Não foi possível obter os contêineres"
 
 #: vanilla_control_center/backends/apx.py:161
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "Contêiner '{}' inicializado"
+msgstr "Contêiner '{0}' não encontrado"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Rodando aplicação: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Não foi possível iniciar a aplicação gerenciada: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Configuração não suportada"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "Arquivo de configuração VSO não encontrado em {}"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -259,7 +251,7 @@ msgstr "Atualização Inteligente Alterada."
 
 #: vanilla_control_center/window.py:98
 msgid "Failed to change the Smart Update setting."
-msgstr "Falha ao alterar as configurações da Atualização Inteligente."
+msgstr "Falha ao alterar as configurações das Atualizações Inteligentes."
 
 #: vanilla_control_center/window.py:103
 msgid "Automatic Update setting changed."
@@ -300,33 +292,28 @@ msgstr "{} Iniciado."
 #~ msgid "There are no extra drivers available for your system."
 #~ msgstr "Não há drivers extras disponíveis para o seu sistema."
 
-#, fuzzy
 #~ msgid "PRIME Profiles"
-#~ msgstr "Alterando Perfil PRIME…"
+#~ msgstr "Alterando Perfis PRIME"
 
-#, fuzzy, python-format
+#, python-format
 #~ msgid "Driver %s installed: %s"
-#~ msgstr "Novos Drivers Instalados."
+#~ msgstr "Driver %s instalado: %s"
 
 #, python-format
 #~ msgid "Install command: %s"
 #~ msgstr "Comando de instalação:%s"
 
-#, fuzzy
 #~ msgid "Driver selected"
-#~ msgstr "Drivers"
+#~ msgstr "Driver selecionado"
 
-#, fuzzy
 #~ msgid "Installed"
-#~ msgstr "Instalação"
+#~ msgstr "Instalado"
 
-#, fuzzy
 #~ msgid "Installation needed"
-#~ msgstr "Instalação"
+#~ msgstr "Instalação necessária"
 
-#, fuzzy
 #~ msgid "Installation requested: {}"
-#~ msgstr "Falha na instalação."
+#~ msgstr "Instalação requisitada: {}"
 
 #~ msgid "Installation Failed."
 #~ msgstr "Falha na instalação."
@@ -334,22 +321,79 @@ msgstr "{} Iniciado."
 #~ msgid "New Drivers Installed."
 #~ msgstr "Novos Drivers Instalados."
 
-#, fuzzy
 #~ msgid "Installation finished."
-#~ msgstr "Falha na instalação."
+#~ msgstr "Instalação finalizada."
 
 #~ msgid "Another transaction is running or the system needs to be restarted."
 #~ msgstr ""
 #~ "Outra transação está em execução ou o sistema necessita ser reiniciado."
 
 #~ msgid "Prime Profile Changed."
-#~ msgstr "Perfil Principal Alterado."
+#~ msgstr "Perfil Prime Alterado."
 
 #~ msgid "Prime Profile Change Failed."
-#~ msgstr "Falha na Alteração do Perfil Principal."
+#~ msgstr "Falha na Alteração do Perfil Prime."
 
 #~ msgid "Switching PRIME Profile…"
 #~ msgstr "Alterando Perfil PRIME…"
+
+#~ msgid "Active Profile"
+#~ msgstr "Perfil Ativo"
+
+#~ msgid "Integrated GPU"
+#~ msgstr "GPU Integrada"
+
+#~ msgid "Not detected"
+#~ msgstr "Não detectado"
+
+#~ msgid "Discrete GPU"
+#~ msgstr "GPU Discreta"
+
+#~ msgid "Hybrid"
+#~ msgstr "Híbrido"
+
+#~ msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+#~ msgstr "Usar a GPU integrada para tudo e a GPU discreta sob demanda"
+
+#~ msgid "PRIME module disabled"
+#~ msgstr "Módulo PRIME desativado"
+
+#~ msgid "prime-select not found"
+#~ msgstr "prime-select não encontrado"
+
+#~ msgid "prime-select not supported for this device"
+#~ msgstr "prime-select não suportado para este dispositivo"
+
+#~ msgid "prime-select is not supported for this setup"
+#~ msgstr "prime-select não é suportado para esta configuração"
+
+#~ msgid "Invalid profile name"
+#~ msgstr "Nome de perfil inválido"
+
+#~ msgid "integrated"
+#~ msgstr "integrado"
+
+#~ msgid "discrete"
+#~ msgstr "discreta"
+
+#~ msgid "Getting devices list"
+#~ msgstr "Obtendo lista de dispositivos"
+
+#, python-format
+#~ msgid "Devices list: %s"
+#~ msgstr "Lista de dispositivos: %s"
+
+#~ msgid "Clicked"
+#~ msgstr "Clickado"
+
+#~ msgid "Activated"
+#~ msgstr "Ativado"
+
+#~ msgid "Selected driver: {}"
+#~ msgstr "Driver selecionado: {}"
+
+#~ msgid "Installing new Drivers…"
+#~ msgstr "Instalando novos Drivers…"
 
 #~ msgid "Close"
 #~ msgstr "Fechar"
