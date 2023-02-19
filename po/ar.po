@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the vanilla-control-center package.
 # Automatically generated, 2022.
 #
+# Abu Huraira <abuhuraira@tutamail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:55+0100\n"
-"PO-Revision-Date: 2023-02-11 11:35+0000\n"
-"Last-Translator: عثمان محامدي <othmahammedi@proton.me>\n"
+"PO-Revision-Date: 2023-02-20 18:21+0000\n"
+"Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ar/>\n"
 "Language: ar\n"
@@ -36,16 +37,15 @@ msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "إنشاء نظام فرعي"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "التثبيت"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:21
-#, fuzzy
 msgid "Installation in Progress…"
-msgstr "يُثبَّت تعريفات جديدة…"
+msgstr "جاري التثبيت…"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:22
 msgid "This may take a while."
@@ -71,9 +71,8 @@ msgid "Apply Changes"
 msgstr "طبَّقِ التعديلات"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Updates"
-msgstr "طبق التحديثات"
+msgstr "التحديثات"
 
 #: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
@@ -117,11 +116,12 @@ msgstr ""
 #: vanilla_control_center/gtk/window.ui:86
 #, fuzzy
 msgid "Automatic Updates"
-msgstr "تم تغيير إعدادات التحديثات التلقائية."
+msgstr "التحديثات التلقائية"
 
 #: vanilla_control_center/gtk/window.ui:87
+#, fuzzy
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "سيقوم النظام بتحديث نفسه تلقائيًا في الخلفية."
 
 #: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
@@ -144,7 +144,7 @@ msgstr "_المساعدة"
 #: vanilla_control_center/gtk/window.ui:143
 #, fuzzy
 msgid "_About Control Center"
-msgstr "_حول لوحة التحكم"
+msgstr "_حول مركز التحكم"
 
 #: vanilla_control_center/backends/apx.py:36
 #: vanilla_control_center/backends/apx.py:40
@@ -162,44 +162,47 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "الاسم"
 
 #: vanilla_control_center/backends/apx.py:41
 #, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "النظام الفرعي"
+msgstr "نظام Arch Linux الفرعي"
 
 #: vanilla_control_center/backends/apx.py:45
 #, fuzzy
 msgid "Fedora Sub System"
-msgstr "النظام الفرعي"
+msgstr "نظام فيدورا الفرعي"
 
 #: vanilla_control_center/backends/apx.py:49
 #, fuzzy
 msgid "Alpine Sub System"
-msgstr "النظام الفرعي"
+msgstr "نظام Alpine الفرعي"
 
 #: vanilla_control_center/backends/apx.py:53
 #, fuzzy
 msgid "openSUSE Sub System"
-msgstr "النظام الفرعي"
+msgstr "نظام openSUSE الفرعي"
 
 #: vanilla_control_center/backends/apx.py:57
 #, fuzzy
 msgid "Void Linux Sub System"
-msgstr "النظام الفرعي"
+msgstr "نظام Void Linux الفرعي"
 
 #: vanilla_control_center/backends/apx.py:70
+#, fuzzy
 msgid "Apx module disabled"
-msgstr ""
+msgstr "وحدة Apx معطلة"
 
 #: vanilla_control_center/backends/apx.py:74
+#, fuzzy
 msgid "Apx binary not found"
-msgstr ""
+msgstr "ملف Apx الثنائي غير موجود"
 
 #: vanilla_control_center/backends/apx.py:78
+#, fuzzy
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "ملف Distrobox الثنائي غير موجود"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
@@ -211,18 +214,19 @@ msgid "Container '{0}' not found"
 msgstr "يهيأ '{}' الكونتينر"
 
 #: vanilla_control_center/backends/apx.py:168
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "تشغيل التطبيق: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
-#, python-brace-format
+#, fuzzy, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "تعذر بدء تشغيل التطبيق المدار: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
+#, fuzzy
 msgid "Unsupported setup"
-msgstr ""
+msgstr "إعداد غير مدعوم"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
