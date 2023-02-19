@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:55+0100\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"PO-Revision-Date: 2023-02-20 18:21+0000\n"
 "Last-Translator: EncryptedEasty <c.zullo08@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/it/>\n"
@@ -41,13 +41,12 @@ msgid "Installation"
 msgstr "Installazione"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:21
-#, fuzzy
 msgid "Installation in Progress…"
-msgstr "Installando nuovi Driver…"
+msgstr "Installazione in Corso…"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:22
 msgid "This may take a while."
-msgstr ""
+msgstr "Potrebbe volerci un po'."
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
