@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-12 14:30+0530\n"
+"POT-Creation-Date: 2023-02-19 10:55+0100\n"
 "PO-Revision-Date: 2023-02-16 17:29+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/vanilla-os/"
-"control-center/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/vanilla-os/control-"
+"center/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,6 +40,15 @@ msgstr "Subsysteem aanmaken"
 msgid "Installation"
 msgstr "Installatie"
 
+#: vanilla_control_center/gtk/dialog-installation.ui:21
+#, fuzzy
+msgid "Installation in Progress…"
+msgstr "Nieuwe stuurprogramma's installeren…"
+
+#: vanilla_control_center/gtk/dialog-installation.ui:22
+msgid "This may take a while."
+msgstr ""
+
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
@@ -60,123 +69,73 @@ msgid "Apply Changes"
 msgstr "Wijzigingen toepassen"
 
 #: vanilla_control_center/gtk/window.ui:45
-msgid "Drivers"
-msgstr "Stuurprogramma's"
-
-#: vanilla_control_center/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "Stuurprogramma's laden…"
-
-#: vanilla_control_center/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr "De beschikbare stuurprogramma's worden geladen."
-
-#: vanilla_control_center/gtk/window.ui:64
-msgid "No Drivers Available"
-msgstr "Geen stuurprogramma's beschikbaar"
-
-#: vanilla_control_center/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr "Er zijn geen extra stuurprogramma's beschikbaar voor uw systeem."
-
-#: vanilla_control_center/gtk/window.ui:80
-msgid "PRIME Profiles"
-msgstr "PRIME-profielen"
-
-#: vanilla_control_center/gtk/window.ui:86
-msgid "Active Profile"
-msgstr "Actief profiel"
-
-#: vanilla_control_center/gtk/window.ui:94
-msgid "Integrated GPU"
-msgstr "Geïntegreerde GPU"
-
-#: vanilla_control_center/gtk/window.ui:95
-#: vanilla_control_center/gtk/window.ui:110
-msgid "Not detected"
-msgstr "Niet gedetecteerd"
-
-#: vanilla_control_center/gtk/window.ui:109
-msgid "Discrete GPU"
-msgstr "Discrete GPU"
-
-#: vanilla_control_center/gtk/window.ui:124
-msgid "Hybrid"
-msgstr "Hybride"
-
-#: vanilla_control_center/gtk/window.ui:125
-msgid "Use the integrated GPU for everything and the discrete GPU on demand"
-msgstr ""
-"Gebruik standaard de geïntegreerde GPU, gebruik de discrete GPU op aanvraag"
-
-#: vanilla_control_center/gtk/window.ui:148
 msgid "Updates"
 msgstr "Updates"
 
-#: vanilla_control_center/gtk/window.ui:154
+#: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
 msgstr "Voorkeuren"
 
-#: vanilla_control_center/gtk/window.ui:157
+#: vanilla_control_center/gtk/window.ui:54
 msgid "Latest Update Check"
 msgstr "Meest recente update-controle"
 
-#: vanilla_control_center/gtk/window.ui:158
+#: vanilla_control_center/gtk/window.ui:55
 msgid "Never"
 msgstr "Nooit"
 
-#: vanilla_control_center/gtk/window.ui:163
+#: vanilla_control_center/gtk/window.ui:60
 msgid "Updates Scheduling"
 msgstr "Update-rooster"
 
-#: vanilla_control_center/gtk/window.ui:164
+#: vanilla_control_center/gtk/window.ui:61
 msgid "Choose how often the system should check for updates."
 msgstr "Kies hoe vaak het systeem zal controleren op updates."
 
-#: vanilla_control_center/gtk/window.ui:168
+#: vanilla_control_center/gtk/window.ui:65
 msgid "Weekly"
 msgstr "Wekelijks"
 
-#: vanilla_control_center/gtk/window.ui:169
+#: vanilla_control_center/gtk/window.ui:66
 msgid "Monthly"
 msgstr "Maandelijks"
 
-#: vanilla_control_center/gtk/window.ui:177
+#: vanilla_control_center/gtk/window.ui:74
 msgid "Smart Updates"
 msgstr "Slimme updates"
 
-#: vanilla_control_center/gtk/window.ui:178
+#: vanilla_control_center/gtk/window.ui:75
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
 "Het systeem zal niet bijwerken wanneer intensieve taken worden uitgevoerd of "
 "de accu bijna leeg is."
 
-#: vanilla_control_center/gtk/window.ui:189
+#: vanilla_control_center/gtk/window.ui:86
 msgid "Automatic Updates"
 msgstr "Automatische updates"
 
-#: vanilla_control_center/gtk/window.ui:190
+#: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
 msgstr "Het systeem zal zichzelf op de achtergrond automatisch bijwerken."
 
-#: vanilla_control_center/gtk/window.ui:208
+#: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
 msgid "Sub System"
 msgstr "Subsysteem"
 
-#: vanilla_control_center/gtk/window.ui:218
+#: vanilla_control_center/gtk/window.ui:115
 msgid "Containers"
 msgstr "Containers"
 
-#: vanilla_control_center/gtk/window.ui:223
+#: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
 msgstr "Geïnstalleerde apps"
 
-#: vanilla_control_center/gtk/window.ui:242
+#: vanilla_control_center/gtk/window.ui:139
 msgid "_Help"
 msgstr "_Hulp"
 
-#: vanilla_control_center/gtk/window.ui:246
+#: vanilla_control_center/gtk/window.ui:143
 msgid "_About Control Center"
 msgstr "_Over Controlecentrum"
 
@@ -218,10 +177,6 @@ msgstr "openSUSE-subsysteem"
 msgid "Void Linux Sub System"
 msgstr "Void Linux-subsysteem"
 
-#: vanilla_control_center/backends/apx.py:69
-msgid "DISABLED_MODULES"
-msgstr "UITGESCHAKELDE_MODULES"
-
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
 msgstr "Apx-module uitgeschakeld"
@@ -257,65 +212,9 @@ msgstr "Kon beheerde app niet starten: ‘{0}’"
 msgid "Unsupported setup"
 msgstr "Niet-ondersteunde omgeving"
 
-#: vanilla_control_center/backends/prime_profiles.py:41
-msgid "PRIME module disabled"
-msgstr "PRIME-module uitgeschakeld"
-
-#: vanilla_control_center/backends/prime_profiles.py:45
-msgid "prime-select not found"
-msgstr "prime-select niet gevonden"
-
-#: vanilla_control_center/backends/prime_profiles.py:49
-msgid "prime-select not supported for this device"
-msgstr "prime-select niet ondersteund voor dit apparaat"
-
-#: vanilla_control_center/backends/prime_profiles.py:55
-msgid "prime-select is not supported for this setup"
-msgstr "prime-select wordt niet ondersteund in deze omgeving"
-
-#: vanilla_control_center/backends/prime_profiles.py:91
-msgid "Invalid profile name"
-msgstr "Ongeldige profielnaam"
-
-#: vanilla_control_center/backends/prime_profiles.py:114
-#: vanilla_control_center/backends/prime_profiles.py:117
-#: vanilla_control_center/backends/prime_profiles.py:120
-msgid "integrated"
-msgstr "geïntegreerd"
-
-#: vanilla_control_center/backends/prime_profiles.py:115
-#: vanilla_control_center/backends/prime_profiles.py:118
-#: vanilla_control_center/backends/prime_profiles.py:121
-msgid "discrete"
-msgstr "discreet"
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:44
-msgid "Getting devices list"
-msgstr "Apparaatlijst opbouwen"
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:77
-#, python-format
-msgid "Devices list: %s"
-msgstr "Apparaatlijst: %s"
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:84
-#, python-format
-msgid "Driver %s installed: %s"
-msgstr "Stuurprogramma %s geïnstalleerd: %s"
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:99
-#, python-format
-msgid "Install command: %s"
-msgstr "Installatieopdracht: %s"
-
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
 msgstr "VSO-configuratiebestand niet gevonden op {}"
-
-#: vanilla_control_center/container.py:47
-#: vanilla_control_center/container.py:48
-msgid "Clicked"
-msgstr "Gedrukt"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -324,26 +223,6 @@ msgstr "Opdrachtregel geopend voor container ‘{}’"
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
 msgstr "Container ‘{}’ geïnitialiseerd"
-
-#: vanilla_control_center/driver.py:49
-msgid "Activated"
-msgstr "Geactiveerd"
-
-#: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
-msgid "Driver selected"
-msgstr "Stuurprogramma geselecteerd"
-
-#: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
-msgid "Installed"
-msgstr "Geïnstalleerd"
-
-#: vanilla_control_center/driver.py:86
-msgid "Selected driver: {}"
-msgstr "Geselecteerd stuurprogramma: {}"
-
-#: vanilla_control_center/driver.py:92
-msgid "Installation needed"
-msgstr "Installatie vereist"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
@@ -361,75 +240,158 @@ msgstr "Met bijdrage van"
 msgid "Translators"
 msgstr "Vertaling door"
 
-#: vanilla_control_center/window.py:119
-msgid "Installation requested: {}"
-msgstr "Installatie verzocht: {}"
-
-#: vanilla_control_center/window.py:128
-msgid "Installation Failed."
-msgstr "Installatie mislukt."
-
-#: vanilla_control_center/window.py:131
-msgid "New Drivers Installed."
-msgstr "Nieuwe stuurprogramma's geïnstalleerd."
-
-#: vanilla_control_center/window.py:132
-msgid "Installation finished."
-msgstr "Installatie voltooid."
-
-#: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
-msgid "Another transaction is running or the system needs to be restarted."
-msgstr ""
-"Er wordt al een andere handeling uitgevoerd, of het systeem moet opnieuw "
-"worden opgestart."
-
-#: vanilla_control_center/window.py:148
-msgid "Installing new Drivers…"
-msgstr "Nieuwe stuurprogramma's installeren…"
-
-#: vanilla_control_center/window.py:177
+#: vanilla_control_center/window.py:96
 msgid "Smart Update Changed."
 msgstr "Slimme updates aangepast."
 
-#: vanilla_control_center/window.py:179
+#: vanilla_control_center/window.py:98
 msgid "Failed to change the Smart Update setting."
 msgstr "Instelling voor slimme updates aanpassen mislukt."
 
-#: vanilla_control_center/window.py:184
+#: vanilla_control_center/window.py:103
 msgid "Automatic Update setting changed."
 msgstr "Automatische updates aangepast."
 
-#: vanilla_control_center/window.py:186
+#: vanilla_control_center/window.py:105
 msgid "Failed to change Automatic Update setting"
 msgstr "Instelling voor automatische updates aanpassen mislukt"
 
-#: vanilla_control_center/window.py:193
+#: vanilla_control_center/window.py:112
 msgid "Update Schedule Changed."
 msgstr "Update-rooster aangepast."
 
-#: vanilla_control_center/window.py:221
+#: vanilla_control_center/window.py:140
 msgid "{} Exited With Error."
 msgstr "{} is gesloten met fouten."
 
-#: vanilla_control_center/window.py:224
+#: vanilla_control_center/window.py:143
 msgid "{} Exited."
 msgstr "{} is gesloten."
 
-#: vanilla_control_center/window.py:227
+#: vanilla_control_center/window.py:146
 msgid "{} Launched."
 msgstr "{} is gestart."
 
-#: vanilla_control_center/window.py:272
-msgid "Prime Profile Changed."
-msgstr "PRIME-profiel aangepast."
+#~ msgid "Drivers"
+#~ msgstr "Stuurprogramma's"
 
-#: vanilla_control_center/window.py:279 vanilla_control_center/window.py:284
-msgid "Prime Profile Change Failed."
-msgstr "PRIME-profiel aanpassen mislukt."
+#~ msgid "Loading drivers…"
+#~ msgstr "Stuurprogramma's laden…"
 
-#: vanilla_control_center/window.py:282
-msgid "Switching PRIME Profile…"
-msgstr "PRIME-profiel aanpassen…"
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "De beschikbare stuurprogramma's worden geladen."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Geen stuurprogramma's beschikbaar"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Er zijn geen extra stuurprogramma's beschikbaar voor uw systeem."
+
+#~ msgid "PRIME Profiles"
+#~ msgstr "PRIME-profielen"
+
+#~ msgid "Active Profile"
+#~ msgstr "Actief profiel"
+
+#~ msgid "Integrated GPU"
+#~ msgstr "Geïntegreerde GPU"
+
+#~ msgid "Not detected"
+#~ msgstr "Niet gedetecteerd"
+
+#~ msgid "Discrete GPU"
+#~ msgstr "Discrete GPU"
+
+#~ msgid "Hybrid"
+#~ msgstr "Hybride"
+
+#~ msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+#~ msgstr ""
+#~ "Gebruik standaard de geïntegreerde GPU, gebruik de discrete GPU op "
+#~ "aanvraag"
+
+#~ msgid "DISABLED_MODULES"
+#~ msgstr "UITGESCHAKELDE_MODULES"
+
+#~ msgid "PRIME module disabled"
+#~ msgstr "PRIME-module uitgeschakeld"
+
+#~ msgid "prime-select not found"
+#~ msgstr "prime-select niet gevonden"
+
+#~ msgid "prime-select not supported for this device"
+#~ msgstr "prime-select niet ondersteund voor dit apparaat"
+
+#~ msgid "prime-select is not supported for this setup"
+#~ msgstr "prime-select wordt niet ondersteund in deze omgeving"
+
+#~ msgid "Invalid profile name"
+#~ msgstr "Ongeldige profielnaam"
+
+#~ msgid "integrated"
+#~ msgstr "geïntegreerd"
+
+#~ msgid "discrete"
+#~ msgstr "discreet"
+
+#~ msgid "Getting devices list"
+#~ msgstr "Apparaatlijst opbouwen"
+
+#, python-format
+#~ msgid "Devices list: %s"
+#~ msgstr "Apparaatlijst: %s"
+
+#, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "Stuurprogramma %s geïnstalleerd: %s"
+
+#, python-format
+#~ msgid "Install command: %s"
+#~ msgstr "Installatieopdracht: %s"
+
+#~ msgid "Clicked"
+#~ msgstr "Gedrukt"
+
+#~ msgid "Activated"
+#~ msgstr "Geactiveerd"
+
+#~ msgid "Driver selected"
+#~ msgstr "Stuurprogramma geselecteerd"
+
+#~ msgid "Installed"
+#~ msgstr "Geïnstalleerd"
+
+#~ msgid "Selected driver: {}"
+#~ msgstr "Geselecteerd stuurprogramma: {}"
+
+#~ msgid "Installation needed"
+#~ msgstr "Installatie vereist"
+
+#~ msgid "Installation requested: {}"
+#~ msgstr "Installatie verzocht: {}"
+
+#~ msgid "Installation Failed."
+#~ msgstr "Installatie mislukt."
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "Nieuwe stuurprogramma's geïnstalleerd."
+
+#~ msgid "Installation finished."
+#~ msgstr "Installatie voltooid."
+
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr ""
+#~ "Er wordt al een andere handeling uitgevoerd, of het systeem moet opnieuw "
+#~ "worden opgestart."
+
+#~ msgid "Prime Profile Changed."
+#~ msgstr "PRIME-profiel aangepast."
+
+#~ msgid "Prime Profile Change Failed."
+#~ msgstr "PRIME-profiel aanpassen mislukt."
+
+#~ msgid "Switching PRIME Profile…"
+#~ msgstr "PRIME-profiel aanpassen…"
 
 #~ msgid "Close"
 #~ msgstr "Sluiten"

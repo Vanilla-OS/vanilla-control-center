@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-12 14:30+0530\n"
+"POT-Creation-Date: 2023-02-19 10:55+0100\n"
 "PO-Revision-Date: 2023-02-17 22:27+0000\n"
 "Last-Translator: Matt C <matei.gurzu@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -43,6 +43,15 @@ msgstr "Creați subsistem"
 msgid "Installation"
 msgstr "Instalare"
 
+#: vanilla_control_center/gtk/dialog-installation.ui:21
+#, fuzzy
+msgid "Installation in Progress…"
+msgstr "Se instalează drivere noi…"
+
+#: vanilla_control_center/gtk/dialog-installation.ui:22
+msgid "This may take a while."
+msgstr ""
+
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
@@ -63,122 +72,73 @@ msgid "Apply Changes"
 msgstr "Aplică schimbările"
 
 #: vanilla_control_center/gtk/window.ui:45
-msgid "Drivers"
-msgstr "Drivere"
-
-#: vanilla_control_center/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "Se încarcă driverele…"
-
-#: vanilla_control_center/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr "Vă rugăm să așteptați cât timp driverele valabile se încarcă."
-
-#: vanilla_control_center/gtk/window.ui:64
-msgid "No Drivers Available"
-msgstr "Nu sunt drivere valabile"
-
-#: vanilla_control_center/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr "Nu sunt disponibile drivere suplimentare pentru sistemul dvs."
-
-#: vanilla_control_center/gtk/window.ui:80
-msgid "PRIME Profiles"
-msgstr "Profiluri PRIME"
-
-#: vanilla_control_center/gtk/window.ui:86
-msgid "Active Profile"
-msgstr "Profilul activ"
-
-#: vanilla_control_center/gtk/window.ui:94
-msgid "Integrated GPU"
-msgstr "GPU integrat"
-
-#: vanilla_control_center/gtk/window.ui:95
-#: vanilla_control_center/gtk/window.ui:110
-msgid "Not detected"
-msgstr "Nu a fost detectat"
-
-#: vanilla_control_center/gtk/window.ui:109
-msgid "Discrete GPU"
-msgstr "GPU discret"
-
-#: vanilla_control_center/gtk/window.ui:124
-msgid "Hybrid"
-msgstr "Hibrid"
-
-#: vanilla_control_center/gtk/window.ui:125
-msgid "Use the integrated GPU for everything and the discrete GPU on demand"
-msgstr "Folosește GPU-ul integrat pentru orice si GPU-ul discret la cerere"
-
-#: vanilla_control_center/gtk/window.ui:148
 msgid "Updates"
 msgstr "Actualizări"
 
-#: vanilla_control_center/gtk/window.ui:154
+#: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
 msgstr "Preferințe"
 
-#: vanilla_control_center/gtk/window.ui:157
+#: vanilla_control_center/gtk/window.ui:54
 msgid "Latest Update Check"
 msgstr "Ultima verificare de actualizări"
 
-#: vanilla_control_center/gtk/window.ui:158
+#: vanilla_control_center/gtk/window.ui:55
 msgid "Never"
 msgstr "Niciodată"
 
-#: vanilla_control_center/gtk/window.ui:163
+#: vanilla_control_center/gtk/window.ui:60
 msgid "Updates Scheduling"
 msgstr "Programarea acualizărilor"
 
-#: vanilla_control_center/gtk/window.ui:164
+#: vanilla_control_center/gtk/window.ui:61
 msgid "Choose how often the system should check for updates."
 msgstr "Alege cât de des sistemul ar trebui să caute actualizări."
 
-#: vanilla_control_center/gtk/window.ui:168
+#: vanilla_control_center/gtk/window.ui:65
 msgid "Weekly"
 msgstr "Săptămânal"
 
-#: vanilla_control_center/gtk/window.ui:169
+#: vanilla_control_center/gtk/window.ui:66
 msgid "Monthly"
 msgstr "Lunar"
 
-#: vanilla_control_center/gtk/window.ui:177
+#: vanilla_control_center/gtk/window.ui:74
 msgid "Smart Updates"
 msgstr "Actualizări inteligente"
 
-#: vanilla_control_center/gtk/window.ui:178
+#: vanilla_control_center/gtk/window.ui:75
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
 "Dacă această opțiune este activată, sistemul nu se va actualiza atunci când "
 "este solicitat sau bateria este la un nivel scăzut."
 
-#: vanilla_control_center/gtk/window.ui:189
+#: vanilla_control_center/gtk/window.ui:86
 msgid "Automatic Updates"
 msgstr "Automatizări automate"
 
-#: vanilla_control_center/gtk/window.ui:190
+#: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
 msgstr "Sistemul se va actualiza automat în fundal."
 
-#: vanilla_control_center/gtk/window.ui:208
+#: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
 msgid "Sub System"
 msgstr "Subsistem"
 
-#: vanilla_control_center/gtk/window.ui:218
+#: vanilla_control_center/gtk/window.ui:115
 msgid "Containers"
 msgstr "Containere"
 
-#: vanilla_control_center/gtk/window.ui:223
+#: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
 msgstr "Aplicații instalate"
 
-#: vanilla_control_center/gtk/window.ui:242
+#: vanilla_control_center/gtk/window.ui:139
 msgid "_Help"
 msgstr "_Ajutor"
 
-#: vanilla_control_center/gtk/window.ui:246
+#: vanilla_control_center/gtk/window.ui:143
 msgid "_About Control Center"
 msgstr "_Despre panoul de control"
 
@@ -220,10 +180,6 @@ msgstr "Subsistem openSUSE"
 msgid "Void Linux Sub System"
 msgstr "Subsistem Void Linux"
 
-#: vanilla_control_center/backends/apx.py:69
-msgid "DISABLED_MODULES"
-msgstr "MODULE_DEZACTIVATE"
-
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
 msgstr "Modul apx dezactivat"
@@ -259,65 +215,9 @@ msgstr "Nu a putut fi pornită aplicația gestionată: '{0}'"
 msgid "Unsupported setup"
 msgstr "Organizare neacceptată"
 
-#: vanilla_control_center/backends/prime_profiles.py:41
-msgid "PRIME module disabled"
-msgstr "Modul PRIME dezactivat"
-
-#: vanilla_control_center/backends/prime_profiles.py:45
-msgid "prime-select not found"
-msgstr "prime-select nu a fost găsit"
-
-#: vanilla_control_center/backends/prime_profiles.py:49
-msgid "prime-select not supported for this device"
-msgstr "prime-select nu este acceptat pentru acest dispozitiv"
-
-#: vanilla_control_center/backends/prime_profiles.py:55
-msgid "prime-select is not supported for this setup"
-msgstr "prime-select nu este acceptat pentru acest setup"
-
-#: vanilla_control_center/backends/prime_profiles.py:91
-msgid "Invalid profile name"
-msgstr "Nume profil invalid"
-
-#: vanilla_control_center/backends/prime_profiles.py:114
-#: vanilla_control_center/backends/prime_profiles.py:117
-#: vanilla_control_center/backends/prime_profiles.py:120
-msgid "integrated"
-msgstr "integrat"
-
-#: vanilla_control_center/backends/prime_profiles.py:115
-#: vanilla_control_center/backends/prime_profiles.py:118
-#: vanilla_control_center/backends/prime_profiles.py:121
-msgid "discrete"
-msgstr "discret"
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:44
-msgid "Getting devices list"
-msgstr "Se incarcă lista de dispozitive"
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:77
-#, python-format
-msgid "Devices list: %s"
-msgstr "Listă dispozitive: %s"
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:84
-#, python-format
-msgid "Driver %s installed: %s"
-msgstr "Driverul %s instalat: %s"
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:99
-#, python-format
-msgid "Install command: %s"
-msgstr "Comandă instalare: %s"
-
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
 msgstr "Fișierul configurației VSO nu a fost găsit la ()"
-
-#: vanilla_control_center/container.py:47
-#: vanilla_control_center/container.py:48
-msgid "Clicked"
-msgstr "Apăsat"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -326,26 +226,6 @@ msgstr "Shell deschis pentru container-ul '{}'"
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
 msgstr "Container-ul '{}' inițializat"
-
-#: vanilla_control_center/driver.py:49
-msgid "Activated"
-msgstr "Activat"
-
-#: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
-msgid "Driver selected"
-msgstr "Driver selectat"
-
-#: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
-msgid "Installed"
-msgstr "Instalat"
-
-#: vanilla_control_center/driver.py:86
-msgid "Selected driver: {}"
-msgstr "Driverul selectat: {}"
-
-#: vanilla_control_center/driver.py:92
-msgid "Installation needed"
-msgstr "Instalare necesară"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
@@ -363,73 +243,155 @@ msgstr "Contribuitori"
 msgid "Translators"
 msgstr "Traducători"
 
-#: vanilla_control_center/window.py:119
-msgid "Installation requested: {}"
-msgstr "Instalare cerută: {}"
-
-#: vanilla_control_center/window.py:128
-msgid "Installation Failed."
-msgstr "Instalarea a eșuat."
-
-#: vanilla_control_center/window.py:131
-msgid "New Drivers Installed."
-msgstr "Drivere noi instalate."
-
-#: vanilla_control_center/window.py:132
-msgid "Installation finished."
-msgstr "Instalarea s-a terminat."
-
-#: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
-msgid "Another transaction is running or the system needs to be restarted."
-msgstr "Altă tranzacție rulează în acest moment sau sistemul trebuie repornit."
-
-#: vanilla_control_center/window.py:148
-msgid "Installing new Drivers…"
-msgstr "Se instalează drivere noi…"
-
-#: vanilla_control_center/window.py:177
+#: vanilla_control_center/window.py:96
 msgid "Smart Update Changed."
 msgstr "Actualizarea inteligentă a fost modificată."
 
-#: vanilla_control_center/window.py:179
+#: vanilla_control_center/window.py:98
 msgid "Failed to change the Smart Update setting."
 msgstr "Nu s-a putut modifica setarea actualizării inteligente."
 
-#: vanilla_control_center/window.py:184
+#: vanilla_control_center/window.py:103
 msgid "Automatic Update setting changed."
 msgstr "Setarea actualizării automate schimbată."
 
-#: vanilla_control_center/window.py:186
+#: vanilla_control_center/window.py:105
 msgid "Failed to change Automatic Update setting"
 msgstr "Nu s-a putut schimba setarea de actualizare automată"
 
-#: vanilla_control_center/window.py:193
+#: vanilla_control_center/window.py:112
 msgid "Update Schedule Changed."
 msgstr "Programul de actualizare schimbat."
 
-#: vanilla_control_center/window.py:221
+#: vanilla_control_center/window.py:140
 msgid "{} Exited With Error."
 msgstr "{} a ieșit cu o eroare."
 
-#: vanilla_control_center/window.py:224
+#: vanilla_control_center/window.py:143
 msgid "{} Exited."
 msgstr "{} a ieșit."
 
-#: vanilla_control_center/window.py:227
+#: vanilla_control_center/window.py:146
 msgid "{} Launched."
 msgstr "{} s-a lansat."
 
-#: vanilla_control_center/window.py:272
-msgid "Prime Profile Changed."
-msgstr "Profilul Prime schimbat."
+#~ msgid "Drivers"
+#~ msgstr "Drivere"
 
-#: vanilla_control_center/window.py:279 vanilla_control_center/window.py:284
-msgid "Prime Profile Change Failed."
-msgstr "Nu s-a putut schimba profilul Prime."
+#~ msgid "Loading drivers…"
+#~ msgstr "Se încarcă driverele…"
 
-#: vanilla_control_center/window.py:282
-msgid "Switching PRIME Profile…"
-msgstr "Se schimbă profilul PRIME…"
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Vă rugăm să așteptați cât timp driverele valabile se încarcă."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Nu sunt drivere valabile"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Nu sunt disponibile drivere suplimentare pentru sistemul dvs."
+
+#~ msgid "PRIME Profiles"
+#~ msgstr "Profiluri PRIME"
+
+#~ msgid "Active Profile"
+#~ msgstr "Profilul activ"
+
+#~ msgid "Integrated GPU"
+#~ msgstr "GPU integrat"
+
+#~ msgid "Not detected"
+#~ msgstr "Nu a fost detectat"
+
+#~ msgid "Discrete GPU"
+#~ msgstr "GPU discret"
+
+#~ msgid "Hybrid"
+#~ msgstr "Hibrid"
+
+#~ msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+#~ msgstr "Folosește GPU-ul integrat pentru orice si GPU-ul discret la cerere"
+
+#~ msgid "DISABLED_MODULES"
+#~ msgstr "MODULE_DEZACTIVATE"
+
+#~ msgid "PRIME module disabled"
+#~ msgstr "Modul PRIME dezactivat"
+
+#~ msgid "prime-select not found"
+#~ msgstr "prime-select nu a fost găsit"
+
+#~ msgid "prime-select not supported for this device"
+#~ msgstr "prime-select nu este acceptat pentru acest dispozitiv"
+
+#~ msgid "prime-select is not supported for this setup"
+#~ msgstr "prime-select nu este acceptat pentru acest setup"
+
+#~ msgid "Invalid profile name"
+#~ msgstr "Nume profil invalid"
+
+#~ msgid "integrated"
+#~ msgstr "integrat"
+
+#~ msgid "discrete"
+#~ msgstr "discret"
+
+#~ msgid "Getting devices list"
+#~ msgstr "Se incarcă lista de dispozitive"
+
+#, python-format
+#~ msgid "Devices list: %s"
+#~ msgstr "Listă dispozitive: %s"
+
+#, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "Driverul %s instalat: %s"
+
+#, python-format
+#~ msgid "Install command: %s"
+#~ msgstr "Comandă instalare: %s"
+
+#~ msgid "Clicked"
+#~ msgstr "Apăsat"
+
+#~ msgid "Activated"
+#~ msgstr "Activat"
+
+#~ msgid "Driver selected"
+#~ msgstr "Driver selectat"
+
+#~ msgid "Installed"
+#~ msgstr "Instalat"
+
+#~ msgid "Selected driver: {}"
+#~ msgstr "Driverul selectat: {}"
+
+#~ msgid "Installation needed"
+#~ msgstr "Instalare necesară"
+
+#~ msgid "Installation requested: {}"
+#~ msgstr "Instalare cerută: {}"
+
+#~ msgid "Installation Failed."
+#~ msgstr "Instalarea a eșuat."
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "Drivere noi instalate."
+
+#~ msgid "Installation finished."
+#~ msgstr "Instalarea s-a terminat."
+
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr ""
+#~ "Altă tranzacție rulează în acest moment sau sistemul trebuie repornit."
+
+#~ msgid "Prime Profile Changed."
+#~ msgstr "Profilul Prime schimbat."
+
+#~ msgid "Prime Profile Change Failed."
+#~ msgstr "Nu s-a putut schimba profilul Prime."
+
+#~ msgid "Switching PRIME Profile…"
+#~ msgstr "Se schimbă profilul PRIME…"
 
 #~ msgid "Close"
 #~ msgstr "Închide"

@@ -4,9 +4,7 @@ backendsdir = join_paths(pkgdatadir, 'vanilla_control_center/backends')
 sources = [
   '__init__.py',
   'apx.py',
-  'ubuntu_drivers.py',
   'vso.py',
-  'prime_profiles.py',
   'exceptions.py',
 ]
 

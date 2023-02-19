@@ -66,7 +66,7 @@ class Apx:
     
     @property
     def supported(self) -> bool:
-        if "apx" in os.environ.get(_("DISABLED_MODULES", [])):
+        if "apx" in os.environ.get("DISABLED_MODULES", []):
             logger.info(_("Apx module disabled"))
             return False
 

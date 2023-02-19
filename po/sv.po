@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-12 14:30+0530\n"
+"POT-Creation-Date: 2023-02-19 10:55+0100\n"
 "PO-Revision-Date: 2023-02-16 17:29+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/vanilla-os/"
@@ -40,6 +40,14 @@ msgstr "Skapa delsystem"
 msgid "Installation"
 msgstr "Installation"
 
+#: vanilla_control_center/gtk/dialog-installation.ui:21
+msgid "Installation in Progress…"
+msgstr "Installation pågår…"
+
+#: vanilla_control_center/gtk/dialog-installation.ui:22
+msgid "This may take a while."
+msgstr ""
+
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
@@ -60,124 +68,73 @@ msgid "Apply Changes"
 msgstr "Tillämpa förändringar"
 
 #: vanilla_control_center/gtk/window.ui:45
-msgid "Drivers"
-msgstr "Drivrutiner"
-
-#: vanilla_control_center/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "Laddar drivrutiner…"
-
-#: vanilla_control_center/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr "Vänta medan de tillgängliga drivrutinerna laddas."
-
-#: vanilla_control_center/gtk/window.ui:64
-msgid "No Drivers Available"
-msgstr "Inga drivrutiner tillgängliga"
-
-#: vanilla_control_center/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr "Det finns inga extra drivrutiner tillgängliga för ditt system."
-
-#: vanilla_control_center/gtk/window.ui:80
-msgid "PRIME Profiles"
-msgstr "PRIME profiler"
-
-#: vanilla_control_center/gtk/window.ui:86
-msgid "Active Profile"
-msgstr "Aktiv profil"
-
-#: vanilla_control_center/gtk/window.ui:94
-msgid "Integrated GPU"
-msgstr "Integrerad GPU"
-
-#: vanilla_control_center/gtk/window.ui:95
-#: vanilla_control_center/gtk/window.ui:110
-msgid "Not detected"
-msgstr "Inte upptäckt"
-
-#: vanilla_control_center/gtk/window.ui:109
-msgid "Discrete GPU"
-msgstr "Diskret GPU"
-
-#: vanilla_control_center/gtk/window.ui:124
-msgid "Hybrid"
-msgstr "Hybrid"
-
-#: vanilla_control_center/gtk/window.ui:125
-msgid "Use the integrated GPU for everything and the discrete GPU on demand"
-msgstr ""
-"Använd den integrerade grafikprocessorn till allt och den diskreta "
-"grafikprocessorn på begäran"
-
-#: vanilla_control_center/gtk/window.ui:148
 msgid "Updates"
 msgstr "Uppdateringar"
 
-#: vanilla_control_center/gtk/window.ui:154
+#: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
 msgstr "Inställningar"
 
-#: vanilla_control_center/gtk/window.ui:157
+#: vanilla_control_center/gtk/window.ui:54
 msgid "Latest Update Check"
 msgstr "Senaste uppdateringskontrollen"
 
-#: vanilla_control_center/gtk/window.ui:158
+#: vanilla_control_center/gtk/window.ui:55
 msgid "Never"
 msgstr "Aldrig"
 
-#: vanilla_control_center/gtk/window.ui:163
+#: vanilla_control_center/gtk/window.ui:60
 msgid "Updates Scheduling"
 msgstr "Uppdateringar schemaläggning"
 
-#: vanilla_control_center/gtk/window.ui:164
+#: vanilla_control_center/gtk/window.ui:61
 msgid "Choose how often the system should check for updates."
 msgstr "Välj hur ofta systemet ska söka efter uppdateringar."
 
-#: vanilla_control_center/gtk/window.ui:168
+#: vanilla_control_center/gtk/window.ui:65
 msgid "Weekly"
 msgstr "Veckovis"
 
-#: vanilla_control_center/gtk/window.ui:169
+#: vanilla_control_center/gtk/window.ui:66
 msgid "Monthly"
 msgstr "Månadsvis"
 
-#: vanilla_control_center/gtk/window.ui:177
+#: vanilla_control_center/gtk/window.ui:74
 msgid "Smart Updates"
 msgstr "Smarta uppdateringar"
 
-#: vanilla_control_center/gtk/window.ui:178
+#: vanilla_control_center/gtk/window.ui:75
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
 "Systemet kommer inte att uppdateras om det används hårt eller om batteriet "
 "är lågt."
 
-#: vanilla_control_center/gtk/window.ui:189
+#: vanilla_control_center/gtk/window.ui:86
 msgid "Automatic Updates"
 msgstr "Automatiska uppdateringar"
 
-#: vanilla_control_center/gtk/window.ui:190
+#: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
 msgstr "Systemet kommer att uppdatera sig automatiskt i bakgrunden."
 
-#: vanilla_control_center/gtk/window.ui:208
+#: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
 msgid "Sub System"
 msgstr "Undersystem"
 
-#: vanilla_control_center/gtk/window.ui:218
+#: vanilla_control_center/gtk/window.ui:115
 msgid "Containers"
 msgstr "Behållare"
 
-#: vanilla_control_center/gtk/window.ui:223
+#: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
 msgstr "Installerade program"
 
-#: vanilla_control_center/gtk/window.ui:242
+#: vanilla_control_center/gtk/window.ui:139
 msgid "_Help"
 msgstr "_Hjälp"
 
-#: vanilla_control_center/gtk/window.ui:246
+#: vanilla_control_center/gtk/window.ui:143
 msgid "_About Control Center"
 msgstr "_Om Kontrollcenter"
 
@@ -219,10 +176,6 @@ msgstr "openSUSE delsystem"
 msgid "Void Linux Sub System"
 msgstr "Void Linux delsystem"
 
-#: vanilla_control_center/backends/apx.py:69
-msgid "DISABLED_MODULES"
-msgstr "DISABLED_MODULES"
-
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
 msgstr "Apx-modul inaktiverad"
@@ -258,65 +211,9 @@ msgstr "Kunde inte att starta hanterat program: '{0}'"
 msgid "Unsupported setup"
 msgstr ""
 
-#: vanilla_control_center/backends/prime_profiles.py:41
-msgid "PRIME module disabled"
-msgstr "PRIME-modul inaktiverad"
-
-#: vanilla_control_center/backends/prime_profiles.py:45
-msgid "prime-select not found"
-msgstr "prime-select hittades inte"
-
-#: vanilla_control_center/backends/prime_profiles.py:49
-msgid "prime-select not supported for this device"
-msgstr "prime-select stöds inte för den här enheten"
-
-#: vanilla_control_center/backends/prime_profiles.py:55
-msgid "prime-select is not supported for this setup"
-msgstr ""
-
-#: vanilla_control_center/backends/prime_profiles.py:91
-msgid "Invalid profile name"
-msgstr "Ogiltigt profilnamn"
-
-#: vanilla_control_center/backends/prime_profiles.py:114
-#: vanilla_control_center/backends/prime_profiles.py:117
-#: vanilla_control_center/backends/prime_profiles.py:120
-msgid "integrated"
-msgstr "integrerad"
-
-#: vanilla_control_center/backends/prime_profiles.py:115
-#: vanilla_control_center/backends/prime_profiles.py:118
-#: vanilla_control_center/backends/prime_profiles.py:121
-msgid "discrete"
-msgstr "diskret"
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:44
-msgid "Getting devices list"
-msgstr "Hämtar enhetslista"
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:77
-#, python-format
-msgid "Devices list: %s"
-msgstr "Enhetslista: %s"
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:84
-#, python-format
-msgid "Driver %s installed: %s"
-msgstr "Drivrutin %s installerad: %s"
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:99
-#, python-format
-msgid "Install command: %s"
-msgstr "Installationskommando: %s"
-
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
 msgstr "VSO-konfigurationsfil hittades inte på {}"
-
-#: vanilla_control_center/container.py:47
-#: vanilla_control_center/container.py:48
-msgid "Clicked"
-msgstr "Klickad"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -325,26 +222,6 @@ msgstr "Skalet öppnat för behållare '{}'"
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
 msgstr "Behållare '{}' initierad"
-
-#: vanilla_control_center/driver.py:49
-msgid "Activated"
-msgstr "Aktiverad"
-
-#: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
-msgid "Driver selected"
-msgstr "Drivrutin vald"
-
-#: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
-msgid "Installed"
-msgstr "Installerad"
-
-#: vanilla_control_center/driver.py:86
-msgid "Selected driver: {}"
-msgstr "Vald drivrutin: {}"
-
-#: vanilla_control_center/driver.py:92
-msgid "Installation needed"
-msgstr "Installation krävs"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
@@ -362,73 +239,156 @@ msgstr "Bidragsgivare"
 msgid "Translators"
 msgstr "Översättare"
 
-#: vanilla_control_center/window.py:119
-msgid "Installation requested: {}"
-msgstr "Installation begärd: {}"
-
-#: vanilla_control_center/window.py:128
-msgid "Installation Failed."
-msgstr "Installationen misslyckades."
-
-#: vanilla_control_center/window.py:131
-msgid "New Drivers Installed."
-msgstr "Nya drivrutiner installerades."
-
-#: vanilla_control_center/window.py:132
-msgid "Installation finished."
-msgstr "Installation slutförd."
-
-#: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
-msgid "Another transaction is running or the system needs to be restarted."
-msgstr "En annan transaktion körs eller så måste systemet startas om."
-
-#: vanilla_control_center/window.py:148
-msgid "Installing new Drivers…"
-msgstr "Installerar nya drivrutiner…"
-
-#: vanilla_control_center/window.py:177
+#: vanilla_control_center/window.py:96
 msgid "Smart Update Changed."
 msgstr "Smart Update har ändrats."
 
-#: vanilla_control_center/window.py:179
+#: vanilla_control_center/window.py:98
 msgid "Failed to change the Smart Update setting."
 msgstr "Misslyckades att ändra inställningarna för Smart uppdatering."
 
-#: vanilla_control_center/window.py:184
+#: vanilla_control_center/window.py:103
 msgid "Automatic Update setting changed."
 msgstr "Inställningen för automatisk uppdatering har ändrats."
 
-#: vanilla_control_center/window.py:186
+#: vanilla_control_center/window.py:105
 msgid "Failed to change Automatic Update setting"
 msgstr "Misslyckades att ändra inställningarna för automatiska uppdateringar"
 
-#: vanilla_control_center/window.py:193
+#: vanilla_control_center/window.py:112
 msgid "Update Schedule Changed."
 msgstr "Uppdateringsschema har ändrats."
 
-#: vanilla_control_center/window.py:221
+#: vanilla_control_center/window.py:140
 msgid "{} Exited With Error."
 msgstr "{} Avslutade med fel."
 
-#: vanilla_control_center/window.py:224
+#: vanilla_control_center/window.py:143
 msgid "{} Exited."
 msgstr "{} Avslutade."
 
-#: vanilla_control_center/window.py:227
+#: vanilla_control_center/window.py:146
 msgid "{} Launched."
 msgstr "{} Startat."
 
-#: vanilla_control_center/window.py:272
-msgid "Prime Profile Changed."
-msgstr "Prime-profil har ändrats."
+#~ msgid "Drivers"
+#~ msgstr "Drivrutiner"
 
-#: vanilla_control_center/window.py:279 vanilla_control_center/window.py:284
-msgid "Prime Profile Change Failed."
-msgstr "Prime profil ändring misslyckades."
+#~ msgid "Loading drivers…"
+#~ msgstr "Laddar drivrutiner…"
 
-#: vanilla_control_center/window.py:282
-msgid "Switching PRIME Profile…"
-msgstr "Byter PRIME profil…"
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Vänta medan de tillgängliga drivrutinerna laddas."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Inga drivrutiner tillgängliga"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Det finns inga extra drivrutiner tillgängliga för ditt system."
+
+#~ msgid "PRIME Profiles"
+#~ msgstr "PRIME profiler"
+
+#~ msgid "Active Profile"
+#~ msgstr "Aktiv profil"
+
+#~ msgid "Integrated GPU"
+#~ msgstr "Integrerad GPU"
+
+#~ msgid "Not detected"
+#~ msgstr "Inte upptäckt"
+
+#~ msgid "Discrete GPU"
+#~ msgstr "Diskret GPU"
+
+#~ msgid "Hybrid"
+#~ msgstr "Hybrid"
+
+#~ msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+#~ msgstr ""
+#~ "Använd den integrerade grafikprocessorn till allt och den diskreta "
+#~ "grafikprocessorn på begäran"
+
+#~ msgid "DISABLED_MODULES"
+#~ msgstr "DISABLED_MODULES"
+
+#~ msgid "PRIME module disabled"
+#~ msgstr "PRIME-modul inaktiverad"
+
+#~ msgid "prime-select not found"
+#~ msgstr "prime-select hittades inte"
+
+#~ msgid "prime-select not supported for this device"
+#~ msgstr "prime-select stöds inte för den här enheten"
+
+#~ msgid "Invalid profile name"
+#~ msgstr "Ogiltigt profilnamn"
+
+#~ msgid "integrated"
+#~ msgstr "integrerad"
+
+#~ msgid "discrete"
+#~ msgstr "diskret"
+
+#~ msgid "Getting devices list"
+#~ msgstr "Hämtar enhetslista"
+
+#, python-format
+#~ msgid "Devices list: %s"
+#~ msgstr "Enhetslista: %s"
+
+#, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "Drivrutin %s installerad: %s"
+
+#, python-format
+#~ msgid "Install command: %s"
+#~ msgstr "Installationskommando: %s"
+
+#~ msgid "Clicked"
+#~ msgstr "Klickad"
+
+#~ msgid "Activated"
+#~ msgstr "Aktiverad"
+
+#~ msgid "Driver selected"
+#~ msgstr "Drivrutin vald"
+
+#~ msgid "Installed"
+#~ msgstr "Installerad"
+
+#~ msgid "Selected driver: {}"
+#~ msgstr "Vald drivrutin: {}"
+
+#~ msgid "Installation needed"
+#~ msgstr "Installation krävs"
+
+#~ msgid "Installation requested: {}"
+#~ msgstr "Installation begärd: {}"
+
+#~ msgid "Installation Failed."
+#~ msgstr "Installationen misslyckades."
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "Nya drivrutiner installerades."
+
+#~ msgid "Installation finished."
+#~ msgstr "Installation slutförd."
+
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr "En annan transaktion körs eller så måste systemet startas om."
+
+#~ msgid "Installing new Drivers…"
+#~ msgstr "Installerar nya drivrutiner…"
+
+#~ msgid "Prime Profile Changed."
+#~ msgstr "Prime-profil har ändrats."
+
+#~ msgid "Prime Profile Change Failed."
+#~ msgstr "Prime profil ändring misslyckades."
+
+#~ msgid "Switching PRIME Profile…"
+#~ msgstr "Byter PRIME profil…"
 
 #~ msgid "Close"
 #~ msgstr "Stäng"
@@ -441,9 +401,6 @@ msgstr "Byter PRIME profil…"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr "Detta kan ta ett tag, baserat på din internetanslutningshastighet."
-
-#~ msgid "Installation in Progress…"
-#~ msgstr "Installation pågår…"
 
 #~ msgid "Immutability"
 #~ msgstr "Oföränderlighet"

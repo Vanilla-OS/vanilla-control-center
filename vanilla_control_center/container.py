@@ -44,8 +44,8 @@ class VanillaApxContainer(Adw.ActionRow):
         self.btn_init.set_visible(not self.__container["Status"] == 0)
         self.btn_shell.set_visible(self.__container["Status"] == 0)
         
-        self.btn_shell.connect(_("Clicked"), self.__on_btn_shell_clicked)
-        self.btn_init.connect(_("Clicked"), self.__on_btn_init_clicked)
+        self.btn_shell.connect("clicked", self.__on_btn_shell_clicked)
+        self.btn_init.connect("clicked", self.__on_btn_init_clicked)
         
     def __on_btn_shell_clicked(self, widget):
         GLib.spawn_command_line_async(self.__container["ShellCmd"])

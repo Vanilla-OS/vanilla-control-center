@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-12 14:30+0530\n"
+"POT-Creation-Date: 2023-02-19 10:55+0100\n"
 "PO-Revision-Date: 2023-02-16 17:29+0000\n"
 "Last-Translator: gnu-ewm <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/vanilla-os/"
@@ -41,6 +41,15 @@ msgstr ""
 msgid "Installation"
 msgstr "Instalacja"
 
+#: vanilla_control_center/gtk/dialog-installation.ui:21
+#, fuzzy
+msgid "Installation in Progress…"
+msgstr "Instalowanie nowych sterowników…"
+
+#: vanilla_control_center/gtk/dialog-installation.ui:22
+msgid "This may take a while."
+msgstr ""
+
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
@@ -61,128 +70,78 @@ msgid "Apply Changes"
 msgstr "Zatwierdź zmiany"
 
 #: vanilla_control_center/gtk/window.ui:45
-msgid "Drivers"
-msgstr "Sterowniki"
-
-#: vanilla_control_center/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "Wczytuję sterowniki…"
-
-#: vanilla_control_center/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr "Proszę czekać na załadowanie dostępnych sterowników."
-
-#: vanilla_control_center/gtk/window.ui:64
-msgid "No Drivers Available"
-msgstr "Brak nowych sterowników"
-
-#: vanilla_control_center/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr "Nie ma dostępnych dodatkowych sterowników dla twojego systemu."
-
-#: vanilla_control_center/gtk/window.ui:80
-#, fuzzy
-msgid "PRIME Profiles"
-msgstr "Zmienianie Profilu Podstawowego…"
-
-#: vanilla_control_center/gtk/window.ui:86
-msgid "Active Profile"
-msgstr ""
-
-#: vanilla_control_center/gtk/window.ui:94
-msgid "Integrated GPU"
-msgstr ""
-
-#: vanilla_control_center/gtk/window.ui:95
-#: vanilla_control_center/gtk/window.ui:110
-msgid "Not detected"
-msgstr ""
-
-#: vanilla_control_center/gtk/window.ui:109
-msgid "Discrete GPU"
-msgstr ""
-
-#: vanilla_control_center/gtk/window.ui:124
-msgid "Hybrid"
-msgstr ""
-
-#: vanilla_control_center/gtk/window.ui:125
-msgid "Use the integrated GPU for everything and the discrete GPU on demand"
-msgstr ""
-
-#: vanilla_control_center/gtk/window.ui:148
 #, fuzzy
 msgid "Updates"
 msgstr "Aktualizacje"
 
-#: vanilla_control_center/gtk/window.ui:154
+#: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
 msgstr "Preferencje"
 
-#: vanilla_control_center/gtk/window.ui:157
+#: vanilla_control_center/gtk/window.ui:54
 msgid "Latest Update Check"
 msgstr "Ostatnie sprawdzenie dostępnych aktualizacji"
 
-#: vanilla_control_center/gtk/window.ui:158
+#: vanilla_control_center/gtk/window.ui:55
 msgid "Never"
 msgstr "Nigdy"
 
-#: vanilla_control_center/gtk/window.ui:163
+#: vanilla_control_center/gtk/window.ui:60
 msgid "Updates Scheduling"
 msgstr "Planowanie aktualizacji"
 
-#: vanilla_control_center/gtk/window.ui:164
+#: vanilla_control_center/gtk/window.ui:61
 msgid "Choose how often the system should check for updates."
 msgstr "Wybierz, jak często system ma sprawdzać dostępność aktualizacji."
 
-#: vanilla_control_center/gtk/window.ui:168
+#: vanilla_control_center/gtk/window.ui:65
 msgid "Weekly"
 msgstr "Tygodniowo"
 
-#: vanilla_control_center/gtk/window.ui:169
+#: vanilla_control_center/gtk/window.ui:66
 msgid "Monthly"
 msgstr "Miesięcznie"
 
-#: vanilla_control_center/gtk/window.ui:177
+#: vanilla_control_center/gtk/window.ui:74
 #, fuzzy
 msgid "Smart Updates"
 msgstr "Inteligentne aktualizacje"
 
-#: vanilla_control_center/gtk/window.ui:178
+#: vanilla_control_center/gtk/window.ui:75
 #, fuzzy
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
 "Jeśli ta opcja jest włączona, system nie będzie aktualizował się, jeśli "
 "system jest bardzo obciążony lub poziom naładowania baterii jest niski."
 
-#: vanilla_control_center/gtk/window.ui:189
+#: vanilla_control_center/gtk/window.ui:86
 #, fuzzy
 msgid "Automatic Updates"
 msgstr "Nastąpiły zmiany w Smart Update."
 
-#: vanilla_control_center/gtk/window.ui:190
+#: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
 msgstr ""
 
-#: vanilla_control_center/gtk/window.ui:208
+#: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
 msgid "Sub System"
 msgstr "Podsystem"
 
-#: vanilla_control_center/gtk/window.ui:218
+#: vanilla_control_center/gtk/window.ui:115
 #, fuzzy
 msgid "Containers"
 msgstr "Kontenery"
 
-#: vanilla_control_center/gtk/window.ui:223
+#: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
 msgstr "Zainstalowane aplikacje"
 
-#: vanilla_control_center/gtk/window.ui:242
+#: vanilla_control_center/gtk/window.ui:139
 msgid "_Help"
 msgstr "_Pomoc"
 
-#: vanilla_control_center/gtk/window.ui:246
+#: vanilla_control_center/gtk/window.ui:143
 #, fuzzy
 msgid "_About Control Center"
 msgstr "_O panelu sterowania"
@@ -230,10 +189,6 @@ msgstr "Podsystem"
 msgid "Void Linux Sub System"
 msgstr "Podsystem"
 
-#: vanilla_control_center/backends/apx.py:69
-msgid "DISABLED_MODULES"
-msgstr ""
-
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
 msgstr ""
@@ -269,64 +224,8 @@ msgstr ""
 msgid "Unsupported setup"
 msgstr ""
 
-#: vanilla_control_center/backends/prime_profiles.py:41
-msgid "PRIME module disabled"
-msgstr ""
-
-#: vanilla_control_center/backends/prime_profiles.py:45
-msgid "prime-select not found"
-msgstr ""
-
-#: vanilla_control_center/backends/prime_profiles.py:49
-msgid "prime-select not supported for this device"
-msgstr ""
-
-#: vanilla_control_center/backends/prime_profiles.py:55
-msgid "prime-select is not supported for this setup"
-msgstr ""
-
-#: vanilla_control_center/backends/prime_profiles.py:91
-msgid "Invalid profile name"
-msgstr ""
-
-#: vanilla_control_center/backends/prime_profiles.py:114
-#: vanilla_control_center/backends/prime_profiles.py:117
-#: vanilla_control_center/backends/prime_profiles.py:120
-msgid "integrated"
-msgstr ""
-
-#: vanilla_control_center/backends/prime_profiles.py:115
-#: vanilla_control_center/backends/prime_profiles.py:118
-#: vanilla_control_center/backends/prime_profiles.py:121
-msgid "discrete"
-msgstr ""
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:44
-msgid "Getting devices list"
-msgstr ""
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:77
-#, python-format
-msgid "Devices list: %s"
-msgstr ""
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:84
-#, fuzzy, python-format
-msgid "Driver %s installed: %s"
-msgstr "Nowe sterowniki zainstalowane."
-
-#: vanilla_control_center/backends/ubuntu_drivers.py:99
-#, python-format
-msgid "Install command: %s"
-msgstr "Komenda instalacji: %s"
-
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
-
-#: vanilla_control_center/container.py:47
-#: vanilla_control_center/container.py:48
-msgid "Clicked"
 msgstr ""
 
 #: vanilla_control_center/container.py:52
@@ -336,29 +235,6 @@ msgstr "Konsola Shell otwarta w kontenerze '{}'"
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
 msgstr "Inicjalizacja Kontenera '{}'"
-
-#: vanilla_control_center/driver.py:49
-msgid "Activated"
-msgstr ""
-
-#: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
-#, fuzzy
-msgid "Driver selected"
-msgstr "Sterowniki"
-
-#: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
-#, fuzzy
-msgid "Installed"
-msgstr "Instalacja"
-
-#: vanilla_control_center/driver.py:86
-msgid "Selected driver: {}"
-msgstr ""
-
-#: vanilla_control_center/driver.py:92
-#, fuzzy
-msgid "Installation needed"
-msgstr "Instalacja"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
@@ -377,77 +253,104 @@ msgstr "Kontenery"
 msgid "Translators"
 msgstr "Tłumacze"
 
-#: vanilla_control_center/window.py:119
-#, fuzzy
-msgid "Installation requested: {}"
-msgstr "Instalacja zakończona niepowodzeniem."
-
-#: vanilla_control_center/window.py:128
-msgid "Installation Failed."
-msgstr "Instalacja zakończona niepowodzeniem."
-
-#: vanilla_control_center/window.py:131
-msgid "New Drivers Installed."
-msgstr "Nowe sterowniki zainstalowane."
-
-#: vanilla_control_center/window.py:132
-#, fuzzy
-msgid "Installation finished."
-msgstr "Instalacja zakończona niepowodzeniem."
-
-#: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
-msgid "Another transaction is running or the system needs to be restarted."
-msgstr "Trwa inna transakcja lub system wymaga ponownego uruchomienia."
-
-#: vanilla_control_center/window.py:148
-msgid "Installing new Drivers…"
-msgstr "Instalowanie nowych sterowników…"
-
-#: vanilla_control_center/window.py:177
+#: vanilla_control_center/window.py:96
 #, fuzzy
 msgid "Smart Update Changed."
 msgstr "Nastąpiły zmiany w Smart Update."
 
-#: vanilla_control_center/window.py:179
+#: vanilla_control_center/window.py:98
 msgid "Failed to change the Smart Update setting."
 msgstr ""
 
-#: vanilla_control_center/window.py:184
+#: vanilla_control_center/window.py:103
 #, fuzzy
 msgid "Automatic Update setting changed."
 msgstr "Nastąpiły zmiany w Smart Update."
 
-#: vanilla_control_center/window.py:186
+#: vanilla_control_center/window.py:105
 msgid "Failed to change Automatic Update setting"
 msgstr ""
 
-#: vanilla_control_center/window.py:193
+#: vanilla_control_center/window.py:112
 msgid "Update Schedule Changed."
 msgstr "Zmieniono harmonogram aktualizacji."
 
-#: vanilla_control_center/window.py:221
+#: vanilla_control_center/window.py:140
 msgid "{} Exited With Error."
 msgstr "{} zakończone z błędem."
 
-#: vanilla_control_center/window.py:224
+#: vanilla_control_center/window.py:143
 msgid "{} Exited."
 msgstr "{} zakończone."
 
-#: vanilla_control_center/window.py:227
+#: vanilla_control_center/window.py:146
 msgid "{} Launched."
 msgstr "{} uruchomione."
 
-#: vanilla_control_center/window.py:272
-msgid "Prime Profile Changed."
-msgstr "Profil Podstawowy został zmieniony."
+#~ msgid "Drivers"
+#~ msgstr "Sterowniki"
 
-#: vanilla_control_center/window.py:279 vanilla_control_center/window.py:284
-msgid "Prime Profile Change Failed."
-msgstr "Zmiana Profilu Podstawowego Nieudana."
+#~ msgid "Loading drivers…"
+#~ msgstr "Wczytuję sterowniki…"
 
-#: vanilla_control_center/window.py:282
-msgid "Switching PRIME Profile…"
-msgstr "Zmienianie Profilu Podstawowego…"
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Proszę czekać na załadowanie dostępnych sterowników."
+
+#~ msgid "No Drivers Available"
+#~ msgstr "Brak nowych sterowników"
+
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Nie ma dostępnych dodatkowych sterowników dla twojego systemu."
+
+#, fuzzy
+#~ msgid "PRIME Profiles"
+#~ msgstr "Zmienianie Profilu Podstawowego…"
+
+#, fuzzy, python-format
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "Nowe sterowniki zainstalowane."
+
+#, python-format
+#~ msgid "Install command: %s"
+#~ msgstr "Komenda instalacji: %s"
+
+#, fuzzy
+#~ msgid "Driver selected"
+#~ msgstr "Sterowniki"
+
+#, fuzzy
+#~ msgid "Installed"
+#~ msgstr "Instalacja"
+
+#, fuzzy
+#~ msgid "Installation needed"
+#~ msgstr "Instalacja"
+
+#, fuzzy
+#~ msgid "Installation requested: {}"
+#~ msgstr "Instalacja zakończona niepowodzeniem."
+
+#~ msgid "Installation Failed."
+#~ msgstr "Instalacja zakończona niepowodzeniem."
+
+#~ msgid "New Drivers Installed."
+#~ msgstr "Nowe sterowniki zainstalowane."
+
+#, fuzzy
+#~ msgid "Installation finished."
+#~ msgstr "Instalacja zakończona niepowodzeniem."
+
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr "Trwa inna transakcja lub system wymaga ponownego uruchomienia."
+
+#~ msgid "Prime Profile Changed."
+#~ msgstr "Profil Podstawowy został zmieniony."
+
+#~ msgid "Prime Profile Change Failed."
+#~ msgstr "Zmiana Profilu Podstawowego Nieudana."
+
+#~ msgid "Switching PRIME Profile…"
+#~ msgstr "Zmienianie Profilu Podstawowego…"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr ""
