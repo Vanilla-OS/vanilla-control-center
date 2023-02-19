@@ -1,3 +1,10 @@
+vanilla-control-center (1.8.0) kinetic; urgency=critical
+
+  * Removed PRIME and Drivers sections (now part of the GNOME Settings app)
+  * Updated translations
+
+ -- Mirko Brombin <send@mirko.pm>  Sun, 19 Feb 2023 10:56:00 +0000
+
 vanilla-control-center (1.7.2) kinetic; urgency=critical
 
   * Prevent the user from upgrade if another is waiting for reboot
