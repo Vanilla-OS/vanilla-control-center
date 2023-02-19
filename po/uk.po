@@ -69,83 +69,74 @@ msgstr "Вийти"
 msgid "Apply Changes"
 msgstr "Застосувати зміни"
 
-#: vanilla_control_center/gtk/window.ui:148
+#: vanilla_control_center/gtk/window.ui:45
 msgid "Updates"
 msgstr "Оновлення"
 
 #: vanilla_control_center/gtk/window.ui:51
-#: vanilla_control_center/gtk/window.ui:154
 msgid "Preferences"
 msgstr "Налаштування"
 
 #: vanilla_control_center/gtk/window.ui:54
-#: vanilla_control_center/gtk/window.ui:157
 msgid "Latest Update Check"
 msgstr "Перевірка останнього оновлення"
 
 #: vanilla_control_center/gtk/window.ui:55
-#: vanilla_control_center/gtk/window.ui:158
 msgid "Never"
 msgstr "Ніколи"
 
 #: vanilla_control_center/gtk/window.ui:60
-#: vanilla_control_center/gtk/window.ui:163
 msgid "Updates Scheduling"
 msgstr "Розклад оновлень"
 
 #: vanilla_control_center/gtk/window.ui:61
-#: vanilla_control_center/gtk/window.ui:164
 msgid "Choose how often the system should check for updates."
 msgstr "Виберіть, як часто система має перевіряти наявність оновлень."
 
 #: vanilla_control_center/gtk/window.ui:65
-#: vanilla_control_center/gtk/window.ui:168
 msgid "Weekly"
 msgstr "Щотижня"
 
 #: vanilla_control_center/gtk/window.ui:66
-#: vanilla_control_center/gtk/window.ui:169
 msgid "Monthly"
 msgstr "Щомісяця"
 
-#: vanilla_control_center/gtk/window.ui:177
+#: vanilla_control_center/gtk/window.ui:74
 msgid "Smart Updates"
 msgstr "Інтелектуальні оновлення"
 
-#: vanilla_control_center/gtk/window.ui:178
+#: vanilla_control_center/gtk/window.ui:75
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
 "Система не буде оновлюватися, якщо вона активно використовується або має "
 "низький заряд акумулятора."
 
-#: vanilla_control_center/gtk/window.ui:189
+#: vanilla_control_center/gtk/window.ui:86
 msgid "Automatic Updates"
 msgstr "Автоматичні оновлення"
 
-#: vanilla_control_center/gtk/window.ui:190
+#: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
 msgstr "Система буде автоматично оновлюватися у фоновому режимі."
 
 #: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
-#: vanilla_control_center/gtk/window.ui:208
 msgid "Sub System"
 msgstr "Підсистема"
 
-#: vanilla_control_center/gtk/window.ui:218
+#: vanilla_control_center/gtk/window.ui:115
 msgid "Containers"
 msgstr "Контейнери"
 
 #: vanilla_control_center/gtk/window.ui:120
-#: vanilla_control_center/gtk/window.ui:223
 msgid "Installed Applications"
 msgstr "Встановлені програми"
 
-#: vanilla_control_center/gtk/window.ui:242
+#: vanilla_control_center/gtk/window.ui:139
 msgid "_Help"
 msgstr "_Потрібна допомога?"
 
-#: vanilla_control_center/gtk/window.ui:246
+#: vanilla_control_center/gtk/window.ui:143
 msgid "_About Control Center"
 msgstr "_Про центр керування"
 
@@ -250,204 +241,159 @@ msgstr "При сприянні"
 msgid "Translators"
 msgstr "Перекладачі"
 
-#: vanilla_control_center/window.py:177
+#: vanilla_control_center/window.py:96
 msgid "Smart Update Changed."
 msgstr "Був змінений параметр інтелектуального оновлення."
 
-#: vanilla_control_center/window.py:179
+#: vanilla_control_center/window.py:98
 msgid "Failed to change the Smart Update setting."
 msgstr "Не вдалося змінити параметр інтелектуального оновлення."
 
-#: vanilla_control_center/window.py:184
+#: vanilla_control_center/window.py:103
 msgid "Automatic Update setting changed."
 msgstr "Був змінений параметр автоматичного оновлення."
 
-#: vanilla_control_center/window.py:186
+#: vanilla_control_center/window.py:105
 msgid "Failed to change Automatic Update setting"
 msgstr "Не вдалося змінити параметр автоматичного оновлення."
 
-#: vanilla_control_center/window.py:112 vanilla_control_center/window.py:193
+#: vanilla_control_center/window.py:112
 msgid "Update Schedule Changed."
 msgstr "Розклад оновлень змінено."
 
-#: vanilla_control_center/window.py:140 vanilla_control_center/window.py:221
+#: vanilla_control_center/window.py:140
 msgid "{} Exited With Error."
 msgstr "{} завершено з помилкою."
 
-#: vanilla_control_center/window.py:143 vanilla_control_center/window.py:224
+#: vanilla_control_center/window.py:143
 msgid "{} Exited."
 msgstr "{} завершено."
 
-#: vanilla_control_center/window.py:146 vanilla_control_center/window.py:227
+#: vanilla_control_center/window.py:146
 msgid "{} Launched."
 msgstr "{} запущено."
 
-#: vanilla_control_center/gtk/window.ui:45
-msgid "Drivers"
-msgstr "Драйвери"
+#~ msgid "Drivers"
+#~ msgstr "Драйвери"
 
-#: vanilla_control_center/gtk/window.ui:55
-msgid "Loading drivers…"
-msgstr "Завантаження драйверів…"
+#~ msgid "Loading drivers…"
+#~ msgstr "Завантаження драйверів…"
 
-#: vanilla_control_center/gtk/window.ui:56
-msgid "Please wait while the available drivers are being loaded."
-msgstr "Зачекайте, будь ласка, поки завантажуються доступні драйвери."
+#~ msgid "Please wait while the available drivers are being loaded."
+#~ msgstr "Зачекайте, будь ласка, поки завантажуються доступні драйвери."
 
-#: vanilla_control_center/gtk/window.ui:64
-msgid "No Drivers Available"
-msgstr "Драйвери відсутні"
+#~ msgid "No Drivers Available"
+#~ msgstr "Драйвери відсутні"
 
-#: vanilla_control_center/gtk/window.ui:65
-msgid "There are no extra drivers available for your system."
-msgstr "Немає додаткових драйверів, доступних для вашої системи."
+#~ msgid "There are no extra drivers available for your system."
+#~ msgstr "Немає додаткових драйверів, доступних для вашої системи."
 
-#: vanilla_control_center/gtk/window.ui:80
-msgid "PRIME Profiles"
-msgstr "PRIME профілі"
+#~ msgid "PRIME Profiles"
+#~ msgstr "PRIME профілі"
 
-#: vanilla_control_center/gtk/window.ui:86
-msgid "Active Profile"
-msgstr "Активний профіль"
+#~ msgid "Active Profile"
+#~ msgstr "Активний профіль"
 
-#: vanilla_control_center/gtk/window.ui:94
-msgid "Integrated GPU"
-msgstr "Вбудований графічний процесор"
+#~ msgid "Integrated GPU"
+#~ msgstr "Вбудований графічний процесор"
 
-#: vanilla_control_center/gtk/window.ui:95
-#: vanilla_control_center/gtk/window.ui:110
-msgid "Not detected"
-msgstr "Не виявлено"
+#~ msgid "Not detected"
+#~ msgstr "Не виявлено"
 
-#: vanilla_control_center/gtk/window.ui:109
-msgid "Discrete GPU"
-msgstr "Дискретний графічний процесор"
+#~ msgid "Discrete GPU"
+#~ msgstr "Дискретний графічний процесор"
 
-#: vanilla_control_center/gtk/window.ui:124
-msgid "Hybrid"
-msgstr "Гібрид"
+#~ msgid "Hybrid"
+#~ msgstr "Гібрид"
 
-#: vanilla_control_center/backends/ubuntu_drivers.py:84
 #, python-format
-msgid "Driver %s installed: %s"
-msgstr "Драйвер %s встановлено: %s"
+#~ msgid "Driver %s installed: %s"
+#~ msgstr "Драйвер %s встановлено: %s"
 
-#: vanilla_control_center/driver.py:52 vanilla_control_center/driver.py:83
-msgid "Driver selected"
-msgstr "Вибрано драйвер"
+#~ msgid "Driver selected"
+#~ msgstr "Вибрано драйвер"
 
-#: vanilla_control_center/driver.py:55 vanilla_control_center/driver.py:58
-msgid "Installed"
-msgstr "Встановлено"
+#~ msgid "Installed"
+#~ msgstr "Встановлено"
 
-#: vanilla_control_center/driver.py:92
-msgid "Installation needed"
-msgstr "Необхідне встановлення"
+#~ msgid "Installation needed"
+#~ msgstr "Необхідне встановлення"
 
-#: vanilla_control_center/window.py:119
-msgid "Installation requested: {}"
-msgstr "Запит на встановлення: {}"
+#~ msgid "Installation requested: {}"
+#~ msgstr "Запит на встановлення: {}"
 
-#: vanilla_control_center/window.py:128
-msgid "Installation Failed."
-msgstr "Встановлення зазнало невдачі."
+#~ msgid "Installation Failed."
+#~ msgstr "Встановлення зазнало невдачі."
 
-#: vanilla_control_center/window.py:131
-msgid "New Drivers Installed."
-msgstr "Встановлені нові драйвери."
+#~ msgid "New Drivers Installed."
+#~ msgstr "Встановлені нові драйвери."
 
-#: vanilla_control_center/window.py:132
-msgid "Installation finished."
-msgstr "Встановлення завершено."
+#~ msgid "Installation finished."
+#~ msgstr "Встановлення завершено."
 
-#: vanilla_control_center/window.py:138 vanilla_control_center/window.py:256
-msgid "Another transaction is running or the system needs to be restarted."
-msgstr "Виконується інша транзакція або систему потрібно перезапустити."
+#~ msgid "Another transaction is running or the system needs to be restarted."
+#~ msgstr "Виконується інша транзакція або систему потрібно перезапустити."
 
-#: vanilla_control_center/gtk/window.ui:125
-msgid "Use the integrated GPU for everything and the discrete GPU on demand"
-msgstr ""
-"Використовуйте вбудований графічний процесор для всього і дискретний "
-"графічний процесор на вимогу"
+#~ msgid "Use the integrated GPU for everything and the discrete GPU on demand"
+#~ msgstr ""
+#~ "Використовуйте вбудований графічний процесор для всього і дискретний "
+#~ "графічний процесор на вимогу"
 
-#: vanilla_control_center/backends/apx.py:69
-msgid "DISABLED_MODULES"
-msgstr "ВИМКНЕНІ_МОДУЛІ"
+#~ msgid "DISABLED_MODULES"
+#~ msgstr "ВИМКНЕНІ_МОДУЛІ"
 
-#: vanilla_control_center/backends/prime_profiles.py:41
-msgid "PRIME module disabled"
-msgstr "Модуль PRIME вимкнено"
+#~ msgid "PRIME module disabled"
+#~ msgstr "Модуль PRIME вимкнено"
 
-#: vanilla_control_center/backends/prime_profiles.py:45
-msgid "prime-select not found"
-msgstr "prime-select не знайдено"
+#~ msgid "prime-select not found"
+#~ msgstr "prime-select не знайдено"
 
-#: vanilla_control_center/backends/prime_profiles.py:49
-msgid "prime-select not supported for this device"
-msgstr "prime-select не підтримується для цього пристрою"
+#~ msgid "prime-select not supported for this device"
+#~ msgstr "prime-select не підтримується для цього пристрою"
 
-#: vanilla_control_center/backends/prime_profiles.py:55
-msgid "prime-select is not supported for this setup"
-msgstr "prime-select не підтримується для цього налаштування"
+#~ msgid "prime-select is not supported for this setup"
+#~ msgstr "prime-select не підтримується для цього налаштування"
 
-#: vanilla_control_center/backends/prime_profiles.py:91
-msgid "Invalid profile name"
-msgstr "Некоректна назва профілю"
+#~ msgid "Invalid profile name"
+#~ msgstr "Некоректна назва профілю"
 
-#: vanilla_control_center/backends/prime_profiles.py:114
-#: vanilla_control_center/backends/prime_profiles.py:117
-#: vanilla_control_center/backends/prime_profiles.py:120
-msgid "integrated"
-msgstr "вбудована"
+#~ msgid "integrated"
+#~ msgstr "вбудована"
 
-#: vanilla_control_center/backends/prime_profiles.py:115
-#: vanilla_control_center/backends/prime_profiles.py:118
-#: vanilla_control_center/backends/prime_profiles.py:121
-msgid "discrete"
-msgstr "дискретна"
+#~ msgid "discrete"
+#~ msgstr "дискретна"
 
-#: vanilla_control_center/backends/ubuntu_drivers.py:44
-msgid "Getting devices list"
-msgstr "Отримання списку пристроїв"
+#~ msgid "Getting devices list"
+#~ msgstr "Отримання списку пристроїв"
 
-#: vanilla_control_center/backends/ubuntu_drivers.py:77
 #, python-format
-msgid "Devices list: %s"
-msgstr "Список пристроїв: %s"
+#~ msgid "Devices list: %s"
+#~ msgstr "Список пристроїв: %s"
 
-#: vanilla_control_center/backends/ubuntu_drivers.py:99
 #, python-format
-msgid "Install command: %s"
-msgstr "Команда встановлення: %s"
+#~ msgid "Install command: %s"
+#~ msgstr "Команда встановлення: %s"
 
-#: vanilla_control_center/container.py:47
-#: vanilla_control_center/container.py:48
-msgid "Clicked"
-msgstr "Натиснув"
+#~ msgid "Clicked"
+#~ msgstr "Натиснув"
 
-#: vanilla_control_center/driver.py:49
-msgid "Activated"
-msgstr "Активовано"
+#~ msgid "Activated"
+#~ msgstr "Активовано"
 
-#: vanilla_control_center/driver.py:86
-msgid "Selected driver: {}"
-msgstr "Вибраний драйвер: {}"
+#~ msgid "Selected driver: {}"
+#~ msgstr "Вибраний драйвер: {}"
 
-#: vanilla_control_center/window.py:148
-msgid "Installing new Drivers…"
-msgstr "Виконується встановлення нових драйверів…"
+#~ msgid "Installing new Drivers…"
+#~ msgstr "Виконується встановлення нових драйверів…"
 
-#: vanilla_control_center/window.py:272
-msgid "Prime Profile Changed."
-msgstr "Профіль Prime змінено."
+#~ msgid "Prime Profile Changed."
+#~ msgstr "Профіль Prime змінено."
 
-#: vanilla_control_center/window.py:279 vanilla_control_center/window.py:284
-msgid "Prime Profile Change Failed."
-msgstr "Зміна профілю Prime не вдалась."
+#~ msgid "Prime Profile Change Failed."
+#~ msgstr "Зміна профілю Prime не вдалась."
 
-#: vanilla_control_center/window.py:282
-msgid "Switching PRIME Profile…"
-msgstr "Зміна профілю PRIME…"
+#~ msgid "Switching PRIME Profile…"
+#~ msgstr "Зміна профілю PRIME…"
 
 #~ msgid "This may take a while, based on your internet connection speed."
 #~ msgstr ""
