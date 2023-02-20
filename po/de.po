@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the vanilla-control-center package.
 # M00nD3v <matteo.duchs@outlook.com>, 2023.
 # baer <mail@lovisrentsch.de>, 2023.
+# Shirosaka <teht0x1c@outlook.de>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:55+0100\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
-"Last-Translator: baer <mail@lovisrentsch.de>\n"
+"PO-Revision-Date: 2023-02-21 05:05+0000\n"
+"Last-Translator: Shirosaka <teht0x1c@outlook.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/de/>\n"
 "Language: de\n"
@@ -48,7 +49,7 @@ msgstr "Neue Treiber werden installiert…"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:22
 msgid "This may take a while."
-msgstr ""
+msgstr "Das kann eine Weile dauern."
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
