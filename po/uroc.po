@@ -1,143 +1,138 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# Quentin PAGÈS <quentinantonin@free.fr>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:55+0100\n"
-"PO-Revision-Date: 2023-02-20 18:21+0000\n"
-"Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
-"Language-Team: Occitan <https://hosted.weblate.org/projects/vanilla-os/"
-"control-center/oc/>\n"
-"Language: oc\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: uroc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
 #: vanilla_control_center/gtk/window.ui:17 vanilla_control_center/main.py:96
 msgid "Vanilla OS Control Center"
-msgstr "Centre de contraròtle de Vanilla OS"
+msgstr ""
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr "Cap de descripcion"
+msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr "Dobrir lo terminal"
+msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr "Crear un sos-sistèma"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr "Installacion"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:21
-#, fuzzy
-#| msgid "Installing new Drivers…"
 msgid "Installation in Progress…"
-msgstr "Installacion dels pilòts novèls…"
+msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:22
 msgid "This may take a while."
-msgstr "Aquò pòt trigar."
+msgstr ""
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "General"
+msgstr ""
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Afichar los archis"
+msgstr ""
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Quitar"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:28
 msgid "Apply Changes"
-msgstr "Aplicar las modificacions"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:45
 msgid "Updates"
-msgstr "Mesas a jorn"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
-msgstr "Preferéncias"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:54
 msgid "Latest Update Check"
-msgstr "Darrièra verificacion de mesas a jorn"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:55
 msgid "Never"
-msgstr "Pas jamai"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:60
 msgid "Updates Scheduling"
-msgstr "Planificacion de las mesas a jorn"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:61
 msgid "Choose how often the system should check for updates."
-msgstr "Causissètz la frequéncia de recèrca de mesas a jorn pel sistèma."
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "Weekly"
-msgstr "Setmanièr"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:66
 msgid "Monthly"
-msgstr "Mesadièr"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:74
 msgid "Smart Updates"
-msgstr "Mesas a jorn intelligentas"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:75
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
-"Lo sistèma metrà pas a jorn s'es fòrça utilizat o se la batariá es febla."
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Automatic Updates"
-msgstr "Mesas a jorn automaticas"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
-msgstr "Lo sistèma metrà a jorn automaticament en rèireplan."
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
 msgid "Sub System"
-msgstr "Sos-sistèma"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:115
 msgid "Containers"
-msgstr "Contenedor"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
-msgstr "Aplicacions installadas"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:139
 msgid "_Help"
-msgstr "_Ajuda"
+msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:143
 msgid "_About Control Center"
-msgstr "_A prepaus del Centre de contraròtle"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:36
 #: vanilla_control_center/backends/apx.py:40
@@ -146,7 +141,7 @@ msgstr "_A prepaus del Centre de contraròtle"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr "Drapèu"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -155,53 +150,53 @@ msgstr "Drapèu"
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr "Nom"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:41
 msgid "Arch Linux Sub System"
-msgstr "Sos-sistèma Arch Linux"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:45
 msgid "Fedora Sub System"
-msgstr "Sos-sistèma Fedora"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:49
 msgid "Alpine Sub System"
-msgstr "Sos-sistèma Alpine"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:53
 msgid "openSUSE Sub System"
-msgstr "Sos-sistèma openSUSE"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:57
 msgid "Void Linux Sub System"
-msgstr "Sos-sistèma Void Linux"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr "Modul apx desactivat"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr "Binari Apx pas trobat"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr "Binari Distrobox pas trobat"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr "Recuperacion impossibla dels contenedors"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:161
 #, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "Contenedor « {0} » pas trobat"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr "Aplicacion en execucion : « {0} »"
+msgstr ""
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
@@ -210,7 +205,7 @@ msgstr ""
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr "Paramètres pas pres en carga"
+msgstr ""
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
@@ -222,158 +217,52 @@ msgstr ""
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr "Contenedor « {} » inicializat"
+msgstr ""
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr "Còdi de"
+msgstr ""
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr "Documentacion de"
+msgstr ""
 
 #: vanilla_control_center/main.py:118
 msgid "Contributors"
-msgstr "Contributors"
+msgstr ""
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
-msgstr "Traductors"
+msgstr ""
 
 #: vanilla_control_center/window.py:96
 msgid "Smart Update Changed."
-msgstr "Mesa a jorn intelligenta modificada."
+msgstr ""
 
 #: vanilla_control_center/window.py:98
 msgid "Failed to change the Smart Update setting."
 msgstr ""
-"Modificacion impossibla dels paramètres de las mesa a jorn intelligenta."
 
 #: vanilla_control_center/window.py:103
 msgid "Automatic Update setting changed."
-msgstr "Los paramètres de las mesas a jorn automaticas son estats modificats."
+msgstr ""
 
 #: vanilla_control_center/window.py:105
 msgid "Failed to change Automatic Update setting"
-msgstr "Modificacion impossibla dels paramètres de la mesa a jorn automatic"
+msgstr ""
 
 #: vanilla_control_center/window.py:112
 msgid "Update Schedule Changed."
-msgstr "La programacion de las mesas a jorn es estada modificada."
+msgstr ""
 
 #: vanilla_control_center/window.py:140
 msgid "{} Exited With Error."
-msgstr "{} a quitat amb d’error."
+msgstr ""
 
 #: vanilla_control_center/window.py:143
 msgid "{} Exited."
-msgstr "{} a quitat."
+msgstr ""
 
 #: vanilla_control_center/window.py:146
 msgid "{} Launched."
-msgstr "{} lançat."
-
-#~ msgid "Drivers"
-#~ msgstr "Pilòts"
-
-#~ msgid "Loading drivers…"
-#~ msgstr "Cargament dels pilòts…"
-
-#~ msgid "Please wait while the available drivers are being loaded."
-#~ msgstr "Mercés d’esperar mentre que los pilòts disponibles son cargats."
-
-#~ msgid "No Drivers Available"
-#~ msgstr "Cap de pilòt pas disponible"
-
-#~ msgid "There are no extra drivers available for your system."
-#~ msgstr "Cap de pilòt suplementari pas disponible per vòstre sistèma."
-
-#~ msgid "PRIME Profiles"
-#~ msgstr "Perfils PRIME"
-
-#~ msgid "Active Profile"
-#~ msgstr "Perfil actiu"
-
-#~ msgid "Integrated GPU"
-#~ msgstr "Carta grafica integrada"
-
-#~ msgid "Not detected"
-#~ msgstr "Non detectat"
-
-#~ msgid "Discrete GPU"
-#~ msgstr "Processor grafic"
-
-#~ msgid "Hybrid"
-#~ msgstr "Ibrid"
-
-#~ msgid "PRIME module disabled"
-#~ msgstr "Modul PRIME desactivat"
-
-#~ msgid "prime-select not found"
-#~ msgstr "causida primària pas trobat"
-
-#~ msgid "prime-select not supported for this device"
-#~ msgstr "La causida primària es pas presa en cargar per aqueste aparelh"
-
-#~ msgid "Invalid profile name"
-#~ msgstr "Nom de perfil invalid"
-
-#~ msgid "integrated"
-#~ msgstr "integrat"
-
-#~ msgid "discrete"
-#~ msgstr "discret"
-
-#~ msgid "Getting devices list"
-#~ msgstr "Obtencion de la lista dels periferics"
-
-#, python-format
-#~ msgid "Devices list: %s"
-#~ msgstr "Lista de periferics : %s"
-
-#, python-format
-#~ msgid "Driver %s installed: %s"
-#~ msgstr "Pilòts %s installats : %s"
-
-#, python-format
-#~ msgid "Install command: %s"
-#~ msgstr "Comanda d’installacion : %s"
-
-#~ msgid "Clicked"
-#~ msgstr "Clicat"
-
-#~ msgid "Activated"
-#~ msgstr "Activat"
-
-#~ msgid "Driver selected"
-#~ msgstr "Pilòt seleccionat"
-
-#~ msgid "Installed"
-#~ msgstr "Installat"
-
-#~ msgid "Selected driver: {}"
-#~ msgstr "Pilòt seleccionat : {}"
-
-#~ msgid "Installation needed"
-#~ msgstr "Installacion necessària"
-
-#~ msgid "Installation requested: {}"
-#~ msgstr "Installacion demandada : {}"
-
-#~ msgid "Installation Failed."
-#~ msgstr "L’installacion a fracassat."
-
-#~ msgid "New Drivers Installed."
-#~ msgstr "Pilòts novèls installats."
-
-#~ msgid "Installation finished."
-#~ msgstr "Installacion acabada."
-
-#~ msgid "Prime Profile Changed."
-#~ msgstr "Perfil principal modificat."
-
-#~ msgid "Prime Profile Change Failed."
-#~ msgstr "Modificacion impossibla del perfil principal."
-
-#~ msgid "Switching PRIME Profile…"
-#~ msgstr "Modificacion del perfil PRIME…"
+msgstr ""

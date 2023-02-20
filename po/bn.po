@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:55+0100\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"PO-Revision-Date: 2023-02-20 18:21+0000\n"
 "Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
 "Language-Team: Bengali <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/bn/>\n"
@@ -28,7 +28,7 @@ msgstr "ভেনিলা ওএস নিয়ন্ত্রণ কেন্দ
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr "কোন বর্ণনা নেই"
+msgstr "কোন বর্ণনা পাওয়া যায়নি"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
@@ -44,11 +44,11 @@ msgstr "স্থাপন"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:21
 msgid "Installation in Progress…"
-msgstr "ইন্সটলেশন চলছে"
+msgstr "ইন্সটলেশন চলছে…"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:22
 msgid "This may take a while."
-msgstr ""
+msgstr "এটা হতে কিছুটা সময় লাগতে পারে।"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
