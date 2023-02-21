@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
 # Gonzalo Lorenzo <gonzalolorenzo88@gmail.com>, 2023.
+# Juan <benitesjn@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:55+0100\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
-"Last-Translator: Gonzalo Lorenzo <gonzalolorenzo88@gmail.com>\n"
+"PO-Revision-Date: 2023-02-23 00:29+0000\n"
+"Last-Translator: Juan <benitesjn@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/es/>\n"
 "Language: es\n"
@@ -26,11 +27,11 @@ msgstr "Panel de control de Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr "Sin descripción"
+msgstr "No description"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Entrar a la shell"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
@@ -41,13 +42,12 @@ msgid "Installation"
 msgstr "Instalación"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:21
-#, fuzzy
 msgid "Installation in Progress…"
-msgstr "Instalando nuevos controladores …"
+msgstr "Instalación en curso…"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:22
 msgid "This may take a while."
-msgstr ""
+msgstr "Esto puede tardar un rato."
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -57,7 +57,7 @@ msgstr "General"
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Mostrar atajos"
+msgstr "Mostrar accesos directos"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -101,21 +101,18 @@ msgid "Monthly"
 msgstr "Mensual"
 
 #: vanilla_control_center/gtk/window.ui:74
-#, fuzzy
 msgid "Smart Updates"
 msgstr "Actualización Inteligente"
 
 #: vanilla_control_center/gtk/window.ui:75
-#, fuzzy
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
 "Si está activado, el sistema no se actualizará si está bajo mucha carga de "
 "trabajo o la batería es baja."
 
 #: vanilla_control_center/gtk/window.ui:86
-#, fuzzy
 msgid "Automatic Updates"
-msgstr "Se ha modificado la configuración de la actualización automática."
+msgstr "Actualizaciones automáticas"
 
 #: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
@@ -127,9 +124,8 @@ msgid "Sub System"
 msgstr "Subsistema"
 
 #: vanilla_control_center/gtk/window.ui:115
-#, fuzzy
 msgid "Containers"
-msgstr "Colaboradores"
+msgstr "Contenedores"
 
 #: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
@@ -140,7 +136,6 @@ msgid "_Help"
 msgstr "_Ayuda"
 
 #: vanilla_control_center/gtk/window.ui:143
-#, fuzzy
 msgid "_About Control Center"
 msgstr "_Acerca del Panel de Control"
 
@@ -151,7 +146,7 @@ msgstr "_Acerca del Panel de Control"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "Bandera"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -160,71 +155,66 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "Subsistema"
+msgstr "Subsistema Arch Linux"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "Subsistema"
+msgstr "Subsistema Fedora"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "Subsistema"
+msgstr "Subsistema Alpine"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "Subsistema"
+msgstr "Subsistema openSUSE"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "Subsistema"
+msgstr "Subsistema Void Linux"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Módulo Apx deshabilitado"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Apx binario no encontrado"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Distrobox binario no encontrado"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "No se pueden obtener contenedores"
 
 #: vanilla_control_center/backends/apx.py:161
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "Contenedor '{}' inicializado"
+msgstr "Contenedor '{0}' no encontrado"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Aplicación en ejecución: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "No se puede iniciar la aplicación administrada: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Configuración no admitida"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "Configuración de VSO no encontrada en {}"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
