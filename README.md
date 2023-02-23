@@ -8,7 +8,7 @@
 <img src="https://hosted.weblate.org/widgets/vanilla-os/-/installer/svg-badge.svg" alt="Stato traduzione" />
 </a>
     <br />
-    <img src="data/screenshot.webp">
+    <img src="data/screenshot.png">
 </div>
 
 
