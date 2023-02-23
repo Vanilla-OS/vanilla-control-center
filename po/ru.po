@@ -2,21 +2,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
 # inal <inaltarba89@gmail.com>, 2023.
+# Sergey Ivanov <ivanov.sergey.ekb@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:55+0100\n"
-"PO-Revision-Date: 2023-02-17 22:27+0000\n"
-"Last-Translator: inal <inaltarba89@gmail.com>\n"
+"PO-Revision-Date: 2023-02-23 00:29+0000\n"
+"Last-Translator: Sergey Ivanov <ivanov.sergey.ekb@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
@@ -47,7 +48,7 @@ msgstr "Выполняется установка…"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:22
 msgid "This may take a while."
-msgstr ""
+msgstr "Это может занять некоторое время."
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -105,7 +106,6 @@ msgid "Smart Updates"
 msgstr "Умные обновления"
 
 #: vanilla_control_center/gtk/window.ui:75
-#, fuzzy
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
 "Если этот параметр включен, система не будет обновляться при высокой "
@@ -146,7 +146,6 @@ msgstr "_О центре управления"
 #: vanilla_control_center/backends/apx.py:48
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
-#, fuzzy
 msgid "Flag"
 msgstr "Флаг"
 
@@ -184,12 +183,10 @@ msgid "Apx module disabled"
 msgstr "Модуль Apx отключен"
 
 #: vanilla_control_center/backends/apx.py:74
-#, fuzzy
 msgid "Apx binary not found"
 msgstr "Двоичный файл Apx не найден"
 
 #: vanilla_control_center/backends/apx.py:78
-#, fuzzy
 msgid "Distrobox binary not found"
 msgstr "Двоичный файл дистрибутива не найден"
 
@@ -198,27 +195,27 @@ msgid "Unable to get containers"
 msgstr "Не удается получить контейнеры"
 
 #: vanilla_control_center/backends/apx.py:161
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "Контейнер '{}' инициализирован"
+msgstr "Контейнер '{0}' инициализирован"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Запуск приложения: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Не удается запустить приложение: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Неподдерживаемая установка"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "Файл конфигурации VSO не найден в {}"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
