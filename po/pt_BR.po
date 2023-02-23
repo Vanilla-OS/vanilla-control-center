@@ -2,14 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
 # Gabriel de Jesus Nogueira Carvalho <bakalhausalgado@proton.me>, 2023.
+# Adtora Slonic <adtoraslonic@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:55+0100\n"
-"PO-Revision-Date: 2023-02-17 22:27+0000\n"
-"Last-Translator: Gabriel de Jesus Nogueira Carvalho <bakalhausalgado@proton."
-"me>\n"
+"PO-Revision-Date: 2023-02-24 17:16+0000\n"
+"Last-Translator: Adtora Slonic <adtoraslonic@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "vanilla-os/control-center/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -48,7 +48,7 @@ msgstr "Instalando novos Drivers…"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:22
 msgid "This may take a while."
-msgstr ""
+msgstr "Isso pode demorar um pouco."
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -114,13 +114,12 @@ msgstr ""
 "sobrecarregado ou se a bateria estiver baixa."
 
 #: vanilla_control_center/gtk/window.ui:86
-#, fuzzy
 msgid "Automatic Updates"
-msgstr "Configuração da Atualização Inteligente modificada."
+msgstr "Atualizações Automáticas"
 
 #: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "O sistema se atualizará automaticamente em segundo plano."
 
 #: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
@@ -184,7 +183,7 @@ msgstr "Sub-sistema Void Linux"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Módulo Apx desabilitado"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
