@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 10:55+0100\n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
 "PO-Revision-Date: 2023-02-20 18:21+0000\n"
 "Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
 "Language-Team: Bengali <https://hosted.weblate.org/projects/vanilla-os/"
@@ -41,14 +41,6 @@ msgstr "সাবসিস্টেম তৈরি করুন"
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "স্থাপন"
-
-#: vanilla_control_center/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr "ইন্সটলেশন চলছে…"
-
-#: vanilla_control_center/gtk/dialog-installation.ui:22
-msgid "This may take a while."
-msgstr "এটা হতে কিছুটা সময় লাগতে পারে।"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -270,6 +262,12 @@ msgstr "{} বের হয়ে গেছে।"
 #: vanilla_control_center/window.py:146
 msgid "{} Launched."
 msgstr "{} চালু হয়েছে৷"
+
+#~ msgid "Installation in Progress…"
+#~ msgstr "ইন্সটলেশন চলছে…"
+
+#~ msgid "This may take a while."
+#~ msgstr "এটা হতে কিছুটা সময় লাগতে পারে।"
 
 #~ msgid "Drivers"
 #~ msgstr "ড্রাইভার"

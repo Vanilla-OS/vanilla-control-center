@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 10:55+0100\n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
 "PO-Revision-Date: 2023-02-20 18:21+0000\n"
 "Last-Translator: EncryptedEasty <c.zullo08@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -39,14 +39,6 @@ msgstr "Crea il sottosistema"
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "Installazione"
-
-#: vanilla_control_center/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr "Installazione in Corso…"
-
-#: vanilla_control_center/gtk/dialog-installation.ui:22
-msgid "This may take a while."
-msgstr "Potrebbe volerci un po'."
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -272,6 +264,12 @@ msgstr "{} Terminato."
 #: vanilla_control_center/window.py:146
 msgid "{} Launched."
 msgstr "{} Lanciato."
+
+#~ msgid "Installation in Progress…"
+#~ msgstr "Installazione in Corso…"
+
+#~ msgid "This may take a while."
+#~ msgstr "Potrebbe volerci un po'."
 
 #~ msgid "Drivers"
 #~ msgstr "Driver"

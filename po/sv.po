@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 10:55+0100\n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
 "PO-Revision-Date: 2023-02-20 18:21+0000\n"
 "Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/vanilla-os/"
@@ -39,14 +39,6 @@ msgstr "Skapa delsystem"
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "Installation"
-
-#: vanilla_control_center/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr "Installation pågår…"
-
-#: vanilla_control_center/gtk/dialog-installation.ui:22
-msgid "This may take a while."
-msgstr "Det här kan ta ett tag."
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -270,6 +262,12 @@ msgstr "{} Avslutade."
 #: vanilla_control_center/window.py:146
 msgid "{} Launched."
 msgstr "{} Startat."
+
+#~ msgid "Installation in Progress…"
+#~ msgstr "Installation pågår…"
+
+#~ msgid "This may take a while."
+#~ msgstr "Det här kan ta ett tag."
 
 #~ msgid "Drivers"
 #~ msgstr "Drivrutiner"

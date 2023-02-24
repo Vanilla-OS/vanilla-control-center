@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 10:55+0100\n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
 "PO-Revision-Date: 2023-02-20 18:21+0000\n"
 "Last-Translator: Dan <denqwerta@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -41,14 +41,6 @@ msgstr "Створити підсистему"
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "Встановлення"
-
-#: vanilla_control_center/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr "Виконується встановлення…"
-
-#: vanilla_control_center/gtk/dialog-installation.ui:22
-msgid "This may take a while."
-msgstr "Це може зайняти деякий час."
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -272,6 +264,12 @@ msgstr "{} завершено."
 #: vanilla_control_center/window.py:146
 msgid "{} Launched."
 msgstr "{} запущено."
+
+#~ msgid "Installation in Progress…"
+#~ msgstr "Виконується встановлення…"
+
+#~ msgid "This may take a while."
+#~ msgstr "Це може зайняти деякий час."
 
 #~ msgid "Drivers"
 #~ msgstr "Драйвери"
