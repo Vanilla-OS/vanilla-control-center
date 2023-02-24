@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 10:55+0100\n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
 "PO-Revision-Date: 2022-10-22 21:54+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -36,14 +36,6 @@ msgstr ""
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
-
-#: vanilla_control_center/gtk/dialog-installation.ui:21
-msgid "Installation in Progress…"
-msgstr ""
-
-#: vanilla_control_center/gtk/dialog-installation.ui:22
-msgid "This may take a while."
 msgstr ""
 
 #: vanilla_control_center/gtk/help-overlay.ui:11

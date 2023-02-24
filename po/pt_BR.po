@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 10:55+0100\n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
 "PO-Revision-Date: 2023-02-24 17:16+0000\n"
 "Last-Translator: Adtora Slonic <adtoraslonic@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -40,15 +40,6 @@ msgstr "Criar sub-sistema"
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "Instalação"
-
-#: vanilla_control_center/gtk/dialog-installation.ui:21
-#, fuzzy
-msgid "Installation in Progress…"
-msgstr "Instalando novos Drivers…"
-
-#: vanilla_control_center/gtk/dialog-installation.ui:22
-msgid "This may take a while."
-msgstr "Isso pode demorar um pouco."
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -275,6 +266,13 @@ msgstr "{} Foi Encerrado."
 #: vanilla_control_center/window.py:146
 msgid "{} Launched."
 msgstr "{} Iniciado."
+
+#, fuzzy
+#~ msgid "Installation in Progress…"
+#~ msgstr "Instalando novos Drivers…"
+
+#~ msgid "This may take a while."
+#~ msgstr "Isso pode demorar um pouco."
 
 #~ msgid "Drivers"
 #~ msgstr "Drivers"

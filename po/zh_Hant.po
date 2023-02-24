@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 10:55+0100\n"
+"POT-Creation-Date: 2023-02-24 22:51+0530\n"
 "PO-Revision-Date: 2023-02-21 05:05+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
@@ -41,15 +41,6 @@ msgstr "建立子系統"
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
 msgstr "安裝"
-
-#: vanilla_control_center/gtk/dialog-installation.ui:21
-#, fuzzy
-msgid "Installation in Progress…"
-msgstr "正在安裝新的驅動程式…"
-
-#: vanilla_control_center/gtk/dialog-installation.ui:22
-msgid "This may take a while."
-msgstr ""
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
@@ -271,6 +262,10 @@ msgstr "{} 已離開。"
 #: vanilla_control_center/window.py:146
 msgid "{} Launched."
 msgstr "{} 已啟動。"
+
+#, fuzzy
+#~ msgid "Installation in Progress…"
+#~ msgstr "正在安裝新的驅動程式…"
 
 #~ msgid "Drivers"
 #~ msgstr "驅動程式"
