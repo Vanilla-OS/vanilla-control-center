@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
 # Thual LABART--BARNAGAUD <tlabartbarnagaud@protonmail.com>, 2023.
+# Cequal <adityaojha@outlook.in>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:55+0100\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
-"Last-Translator: Thual LABART--BARNAGAUD <tlabartbarnagaud@protonmail.com>\n"
+"PO-Revision-Date: 2023-02-24 17:16+0000\n"
+"Last-Translator: Cequal <adityaojha@outlook.in>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/fr/>\n"
 "Language: fr\n"
@@ -62,7 +63,7 @@ msgstr "Montrer les raccourcis"
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Quitter"
+msgstr "Partir"
 
 #: vanilla_control_center/gtk/window.ui:28
 msgid "Apply Changes"
