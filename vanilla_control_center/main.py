@@ -111,7 +111,7 @@ class VanillaControlCenterApplication(Adw.Application):
             _("Documentation by"),
             [
                 "K.B.Dharun Krishna <kbdharunkrishna@gmail.com>",
-                "Bart Gravendeel <monstertux@proton.me>",
+                "Bart Gravendeel (Monster) https://monster.codeberg.page",
             ]
         )
         about.add_credit_section(
