@@ -1,3 +1,9 @@
+vanilla-control-center (1.8.1) kinetic; urgency=critical
+
+  * Updated credits
+
+ -- Mirko Brombin <send@mirko.pm>  Sat, 25 Feb 2023 23:01:00 +0000
+
 vanilla-control-center (1.8.0) kinetic; urgency=critical
 
   * Removed PRIME and Drivers sections (now part of the GNOME Settings app)
