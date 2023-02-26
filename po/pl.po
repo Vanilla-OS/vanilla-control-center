@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
 # gnu-ewm <gnu.ewm@protonmail.com>, 2023.
+# Kuba Bazan <kubabazan27@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
-"Last-Translator: gnu-ewm <gnu.ewm@protonmail.com>\n"
+"PO-Revision-Date: 2023-02-27 18:36+0000\n"
+"Last-Translator: Kuba Bazan <kubabazan27@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/pl/>\n"
 "Language: pl\n"
@@ -22,6 +23,7 @@ msgstr ""
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
 #: vanilla_control_center/gtk/window.ui:17 vanilla_control_center/main.py:96
+#, fuzzy
 msgid "Vanilla OS Control Center"
 msgstr "Panel sterowania Vanilla OS"
 
@@ -61,7 +63,6 @@ msgid "Apply Changes"
 msgstr "Zatwierdź zmiany"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Updates"
 msgstr "Aktualizacje"
 
@@ -94,21 +95,18 @@ msgid "Monthly"
 msgstr "Miesięcznie"
 
 #: vanilla_control_center/gtk/window.ui:74
-#, fuzzy
 msgid "Smart Updates"
 msgstr "Inteligentne aktualizacje"
 
 #: vanilla_control_center/gtk/window.ui:75
-#, fuzzy
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
-"Jeśli ta opcja jest włączona, system nie będzie aktualizował się, jeśli "
-"system jest bardzo obciążony lub poziom naładowania baterii jest niski."
+"System nie zaktualizuje się, jeśli jest intensywnie używany lub ma niski "
+"poziom naładowania baterii."
 
 #: vanilla_control_center/gtk/window.ui:86
-#, fuzzy
 msgid "Automatic Updates"
-msgstr "Nastąpiły zmiany w Smart Update."
+msgstr "Automatyczne aktualizacje"
 
 #: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
@@ -120,7 +118,6 @@ msgid "Sub System"
 msgstr "Podsystem"
 
 #: vanilla_control_center/gtk/window.ui:115
-#, fuzzy
 msgid "Containers"
 msgstr "Kontenery"
 
@@ -156,29 +153,24 @@ msgid "Name"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "Podsystem"
+msgstr "Podsystem Arch Linux"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "Podsystem"
+msgstr "Podsystem-Fedora"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "Podsystem"
+msgstr "Podsystem-Alpine"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "Podsystem"
+msgstr "Podsystem-openSUSE"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "Podsystem"
+msgstr "Podsystem-Void Linux"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
@@ -197,9 +189,9 @@ msgid "Unable to get containers"
 msgstr ""
 
 #: vanilla_control_center/backends/apx.py:161
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "Inicjalizacja Kontenera '{}'"
+msgstr "Nie znaleziono kontenera '{0}'"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
@@ -236,7 +228,6 @@ msgid "Documentation by"
 msgstr ""
 
 #: vanilla_control_center/main.py:118
-#, fuzzy
 msgid "Contributors"
 msgstr "Kontenery"
 
