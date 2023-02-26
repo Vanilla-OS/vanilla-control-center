@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the vanilla-control-center package.
 # Gabriel de Jesus Nogueira Carvalho <bakalhausalgado@proton.me>, 2023.
 # Adtora Slonic <adtoraslonic@gmail.com>, 2023.
+# Felipe Nogueira <contato.fnog@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-02-24 17:16+0000\n"
-"Last-Translator: Adtora Slonic <adtoraslonic@gmail.com>\n"
+"PO-Revision-Date: 2023-02-26 01:05+0000\n"
+"Last-Translator: Felipe Nogueira <contato.fnog@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "vanilla-os/control-center/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -49,7 +50,7 @@ msgstr "Geral"
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Mostrar Atalhos"
+msgstr "Exibir Atalhos"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -98,11 +99,10 @@ msgid "Smart Updates"
 msgstr "Atualizações Inteligentes"
 
 #: vanilla_control_center/gtk/window.ui:75
-#, fuzzy
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
-"Se habilitado, o sistema não irá receber atualizações se estiver "
-"sobrecarregado ou se a bateria estiver baixa."
+"O sistema não irá receber atualizações se estiver sobrecarregado ou se a "
+"bateria estiver baixa."
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Automatic Updates"
@@ -130,9 +130,8 @@ msgid "_Help"
 msgstr "_Ajuda"
 
 #: vanilla_control_center/gtk/window.ui:143
-#, fuzzy
 msgid "_About Control Center"
-msgstr "_Sobre o Painel de Controle"
+msgstr "_Sobre o Centro de Controle"
 
 #: vanilla_control_center/backends/apx.py:36
 #: vanilla_control_center/backends/apx.py:40
