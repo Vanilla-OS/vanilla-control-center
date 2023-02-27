@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-02-20 18:21+0000\n"
+"PO-Revision-Date: 2023-02-27 18:36+0000\n"
 "Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
 "Language-Team: Occitan <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/oc/>\n"
@@ -196,7 +196,7 @@ msgstr "Aplicacion en execucion : « {0} »"
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Aviada impossibla de l’aplicacion administrada : « {0} »"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
@@ -204,11 +204,11 @@ msgstr "Paramètres pas pres en carga"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "La configuracion VSO es pas trobada dins {}"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "Terminal dobèrt pel contenedor « {} »"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"

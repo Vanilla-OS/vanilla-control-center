@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
 # Adtora Slonic <adtoraslonic@gmail.com>, 2023.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-02-26 01:05+0000\n"
-"Last-Translator: Adtora Slonic <adtoraslonic@gmail.com>\n"
+"PO-Revision-Date: 2023-02-27 18:36+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/pt/>\n"
 "Language: pt\n"
@@ -34,7 +35,7 @@ msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Criar subsistema"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -60,9 +61,8 @@ msgid "Apply Changes"
 msgstr "Aplicar Alterações"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Updates"
-msgstr "Aplicar atualizações"
+msgstr "Atualizações"
 
 #: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
@@ -94,16 +94,14 @@ msgid "Monthly"
 msgstr "Mensal"
 
 #: vanilla_control_center/gtk/window.ui:74
-#, fuzzy
 msgid "Smart Updates"
 msgstr "Atualizações inteligentes"
 
 #: vanilla_control_center/gtk/window.ui:75
-#, fuzzy
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
-"Se ativado, o sistema não será atualizado caso o sistema estiver em alta "
-"carga ou a bateria estiver fraca."
+"O sistema não será atualizado caso esteja com alta utilização ou bateria "
+"fraca."
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Automatic Updates"
