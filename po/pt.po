@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-02-27 18:36+0000\n"
+"PO-Revision-Date: 2023-02-28 11:04+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/pt/>\n"
@@ -31,7 +31,7 @@ msgstr "Sem descrição"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Introduzir Shell"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
@@ -109,7 +109,7 @@ msgstr "Atualizações Automáticas"
 
 #: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "O sistema irá atualizar-se automaticamente em segundo plano."
 
 #: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
@@ -117,9 +117,8 @@ msgid "Sub System"
 msgstr "Sub Sistema"
 
 #: vanilla_control_center/gtk/window.ui:115
-#, fuzzy
 msgid "Containers"
-msgstr "Contribuidores"
+msgstr "Containers"
 
 #: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
@@ -130,9 +129,8 @@ msgid "_Help"
 msgstr "_Ajuda"
 
 #: vanilla_control_center/gtk/window.ui:143
-#, fuzzy
 msgid "_About Control Center"
-msgstr "_Sobre o Centro de controlo"
+msgstr "_Acerca do Centro de controlo"
 
 #: vanilla_control_center/backends/apx.py:36
 #: vanilla_control_center/backends/apx.py:40
@@ -141,7 +139,7 @@ msgstr "_Sobre o Centro de controlo"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "Sinalizador"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -150,48 +148,43 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "Sub Sistema"
+msgstr "Sub Sistema Arch Linux"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "Sub Sistema"
+msgstr "Sub Sistema Fedora"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "Sub Sistema"
+msgstr "Sub Sistema Alpine"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "Sub Sistema"
+msgstr "Sub Sistema OpenSUSE"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "Sub Sistema"
+msgstr "Sub Sistema Void Linux"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Módulo Apx desativado"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Binário Apx não encontrado"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Binário Distrobox não encontrado"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "Não foi possível obter containers"
 
 #: vanilla_control_center/backends/apx.py:161
 #, python-brace-format
@@ -201,28 +194,28 @@ msgstr "Container '{0}' não encontrado"
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "A executar aplicação: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Não foi possível iniciar a aplicação gerida: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Configuração não suportada"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "Ficheiro de configuração VSO não encontrado em {}"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr "Shell aberto para contentor '{}'"
+msgstr "Shell aberto para container '{}'"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr "Contentor '{}' inicializado"
+msgstr "Container '{}' inicializado"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
