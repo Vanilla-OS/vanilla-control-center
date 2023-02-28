@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-02-28 11:04+0000\n"
+"PO-Revision-Date: 2023-02-28 19:27+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/pt/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.16-rc\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
@@ -49,7 +49,7 @@ msgstr "Geral"
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Mostrar Atalhos"
+msgstr "Mostrar atalhos"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -58,7 +58,7 @@ msgstr "Sair"
 
 #: vanilla_control_center/gtk/window.ui:28
 msgid "Apply Changes"
-msgstr "Aplicar Alterações"
+msgstr "Aplicar alterações"
 
 #: vanilla_control_center/gtk/window.ui:45
 msgid "Updates"
@@ -105,7 +105,7 @@ msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Automatic Updates"
-msgstr "Atualizações Automáticas"
+msgstr "Atualizações automáticas"
 
 #: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
@@ -164,7 +164,7 @@ msgstr "Sub Sistema Alpine"
 
 #: vanilla_control_center/backends/apx.py:53
 msgid "openSUSE Sub System"
-msgstr "Sub Sistema OpenSUSE"
+msgstr "Sub Sistema openSUSE"
 
 #: vanilla_control_center/backends/apx.py:57
 msgid "Void Linux Sub System"
