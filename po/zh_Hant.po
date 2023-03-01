@@ -4,13 +4,14 @@
 # Automatically generated, 2022.
 #
 # lakejason0 <sunliyuan200402@outlook.com>, 2023.
+# Jen Kung-chih <Kaitul@outlook.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-02-21 05:05+0000\n"
-"Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
+"PO-Revision-Date: 2023-02-28 19:27+0000\n"
+"Last-Translator: Jen Kung-chih <Kaitul@outlook.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "vanilla-os/control-center/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.16-rc\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
@@ -28,7 +29,7 @@ msgstr "Vanilla OS 控制中心"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr "無描述"
+msgstr "沒有描述"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
@@ -50,12 +51,12 @@ msgstr "一般"
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "顯示快捷鍵"
+msgstr "顯示快速鍵"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "退出"
+msgstr "離開"
 
 #: vanilla_control_center/gtk/window.ui:28
 msgid "Apply Changes"
