@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-03-03 18:37+0000\n"
+"PO-Revision-Date: 2023-03-04 18:39+0000\n"
 "Last-Translator: Manjur Muammar Rashidi <mhasanmuammar2@gmail.com>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ur/>\n"
@@ -51,9 +51,10 @@ msgid "General"
 msgstr "عمومی"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
+#, fuzzy
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "شارٹ کٹ دکھائیں۔"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
