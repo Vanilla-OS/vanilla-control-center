@@ -11,7 +11,8 @@ Build-Depends:
             libadwaita-1-dev,
             gettext,
             make,
-            desktop-file-utils
+            desktop-file-utils,
+            libjpeg-dev
 Homepage: https://github.com/mirkobrombin/vanilla-control-center/
 Vcs-Browser: hhttps://github.com/mirkobrombin/vanilla-control-center
 Vcs-Git: https://github.com/mirkobrombin/vanilla-control-center.git
