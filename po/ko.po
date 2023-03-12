@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the vanilla-control-center package.
 # Automatically generated, 2022.
 #
+# Namhoon Kim <namhoon80.kim@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-01-12 18:47+0000\n"
-"Last-Translator: Park Seonu <cotwo0139@gmail.com>\n"
+"PO-Revision-Date: 2023-03-12 16:04+0000\n"
+"Last-Translator: Namhoon Kim <namhoon80.kim@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ko/>\n"
 "Language: ko\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
@@ -35,7 +36,7 @@ msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "하위시스템 생성"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -76,11 +77,11 @@ msgstr "마지막 업데이트 확인"
 
 #: vanilla_control_center/gtk/window.ui:55
 msgid "Never"
-msgstr ""
+msgstr "하지 않음"
 
 #: vanilla_control_center/gtk/window.ui:60
 msgid "Updates Scheduling"
-msgstr "압데이트 스케줄링"
+msgstr "업데이트 스케줄링"
 
 #: vanilla_control_center/gtk/window.ui:61
 msgid "Choose how often the system should check for updates."
@@ -101,7 +102,7 @@ msgstr "스마트 업데이트"
 
 #: vanilla_control_center/gtk/window.ui:75
 msgid "The system will not update if it is in heavy use or low battery."
-msgstr ""
+msgstr "배터리 사용량이 많거나 충전량이 낮을 경우 시스템은 업데이트 하지 않습니다."
 
 #: vanilla_control_center/gtk/window.ui:86
 #, fuzzy
@@ -110,7 +111,7 @@ msgstr "마지막 업데이트 확인"
 
 #: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "시스템은 백그라운드에서 자동으로 업데이트 합니다."
 
 #: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
@@ -150,7 +151,7 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "이름"
 
 #: vanilla_control_center/backends/apx.py:41
 #, fuzzy
@@ -201,7 +202,7 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "실행중인 어플리케이션: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
@@ -234,7 +235,7 @@ msgstr ""
 
 #: vanilla_control_center/main.py:118
 msgid "Contributors"
-msgstr ""
+msgstr "기여자"
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
@@ -247,7 +248,7 @@ msgstr "마지막 업데이트 확인"
 
 #: vanilla_control_center/window.py:98
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "스마트 업데이트 설정 변경이 실패하였습니다."
 
 #: vanilla_control_center/window.py:103
 #, fuzzy
@@ -256,11 +257,11 @@ msgstr "마지막 업데이트 확인"
 
 #: vanilla_control_center/window.py:105
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "자동 업데이트 설정 변경이 실패하였습니다"
 
 #: vanilla_control_center/window.py:112
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "업데이트 스케쥴이 변경되었습니다."
 
 #: vanilla_control_center/window.py:140
 msgid "{} Exited With Error."
