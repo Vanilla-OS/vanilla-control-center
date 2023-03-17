@@ -4,13 +4,14 @@
 # M00nD3v <matteo.duchs@outlook.com>, 2023.
 # baer <mail@lovisrentsch.de>, 2023.
 # Shirosaka <teht0x1c@outlook.de>, 2023.
+# Matt C <matei.gurzu@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-02-21 05:05+0000\n"
-"Last-Translator: Shirosaka <teht0x1c@outlook.de>\n"
+"PO-Revision-Date: 2023-03-15 17:38+0000\n"
+"Last-Translator: Matt C <matei.gurzu@gmail.com>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/de/>\n"
 "Language: de\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
@@ -63,7 +64,7 @@ msgstr "Änderungen übernehmen"
 
 #: vanilla_control_center/gtk/window.ui:45
 msgid "Updates"
-msgstr "Updates"
+msgstr "Aktualisierungen"
 
 #: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
@@ -139,7 +140,7 @@ msgstr "_Über das Kontrollzentrum"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr "Flag"
+msgstr "Flagge"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
