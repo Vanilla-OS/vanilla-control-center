@@ -1,130 +1,134 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Frederik Pjetri <rikpjetri@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-03-19 07:42+0000\n"
+"Last-Translator: Frederik Pjetri <rikpjetri@gmail.com>\n"
+"Language-Team: Albanian <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/sq/>\n"
 "Language: sq\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
 #: vanilla_control_center/gtk/window.ui:17 vanilla_control_center/main.py:96
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "Qendra e Kontrollit të Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "pa pershkrim"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Shkruaj guaskën"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Krijo nënsistem"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "Instalimi"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Gjeneral"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Shfaq shkurtesa"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Hiq dorë"
 
 #: vanilla_control_center/gtk/window.ui:28
 msgid "Apply Changes"
-msgstr ""
+msgstr "Zbato ndryshimet"
 
 #: vanilla_control_center/gtk/window.ui:45
 msgid "Updates"
-msgstr ""
+msgstr "Përditësime"
 
 #: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
-msgstr ""
+msgstr "Preferencat"
 
 #: vanilla_control_center/gtk/window.ui:54
 msgid "Latest Update Check"
-msgstr ""
+msgstr "Kontrolli i Fundit i Rifreskimit"
 
 #: vanilla_control_center/gtk/window.ui:55
 msgid "Never"
-msgstr ""
+msgstr "Kurrë."
 
 #: vanilla_control_center/gtk/window.ui:60
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "Planifikimi i përditësimeve"
 
 #: vanilla_control_center/gtk/window.ui:61
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "Zgjidh se sa shpesh sistemi duhet të kontrollojë për përditësimet."
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "Weekly"
-msgstr ""
+msgstr "Javore"
 
 #: vanilla_control_center/gtk/window.ui:66
 msgid "Monthly"
-msgstr ""
+msgstr "Çdo muaj"
 
 #: vanilla_control_center/gtk/window.ui:74
 msgid "Smart Updates"
-msgstr ""
+msgstr "Përditësime të zgjuara"
 
 #: vanilla_control_center/gtk/window.ui:75
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
+"Sistemi nuk do të përditësohet nëse është në përdorim të rëndë ose bateri të "
+"ulët."
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Automatic Updates"
-msgstr ""
+msgstr "Përditësime automatike"
 
 #: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "Sistemi do të përditësohet automatikisht në sfond."
 
 #: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
 msgid "Sub System"
-msgstr ""
+msgstr "Nën Sistemi"
 
 #: vanilla_control_center/gtk/window.ui:115
 msgid "Containers"
-msgstr ""
+msgstr "Kontejnerë"
 
 #: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
-msgstr ""
+msgstr "Programe të instaluara"
 
 #: vanilla_control_center/gtk/window.ui:139
 msgid "_Help"
-msgstr ""
+msgstr "_Ndihmë"
 
 #: vanilla_control_center/gtk/window.ui:143
 msgid "_About Control Center"
-msgstr ""
+msgstr "Qendra _About Kontrollit"
 
 #: vanilla_control_center/backends/apx.py:36
 #: vanilla_control_center/backends/apx.py:40
@@ -133,7 +137,7 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "Flamur"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -142,119 +146,119 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Emri"
 
 #: vanilla_control_center/backends/apx.py:41
 msgid "Arch Linux Sub System"
-msgstr ""
+msgstr "Sistemi Nën Linux Arch"
 
 #: vanilla_control_center/backends/apx.py:45
 msgid "Fedora Sub System"
-msgstr ""
+msgstr "Sistemi Nën Fedora"
 
 #: vanilla_control_center/backends/apx.py:49
 msgid "Alpine Sub System"
-msgstr ""
+msgstr "Sistemi i nën-sistemit alpin"
 
 #: vanilla_control_center/backends/apx.py:53
 msgid "openSUSE Sub System"
-msgstr ""
+msgstr "OpenSUSE Nën Sistem"
 
 #: vanilla_control_center/backends/apx.py:57
 msgid "Void Linux Sub System"
-msgstr ""
+msgstr "Sistemi i pavlefshëm Linux"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Moduli Apx i çaktivizuar"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Apx binar nuk u gjet"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Nuk u gjet binari Distrobox"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "E pamundur për të marrë kontejnerë"
 
 #: vanilla_control_center/backends/apx.py:161
 #, python-brace-format
 msgid "Container '{0}' not found"
-msgstr ""
+msgstr "Kontejnerë '{0}' nuk u gjet"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Programi në ekzekutim: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "I pamundur fillimi i aplikimit të menaxhuar: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Organizimi i pasuportuar"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "File VSO Konfigurimi nuk u gjet tek {}"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "Shell u hap për kontejnerin '{}'"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "Kontejnerin '{}' të intensifikuar"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr ""
+msgstr "Kodi sipas"
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr ""
+msgstr "Dokumentimi nga"
 
 #: vanilla_control_center/main.py:118
 msgid "Contributors"
-msgstr ""
+msgstr "Kontribues"
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
-msgstr ""
+msgstr "Përkthyes"
 
 #: vanilla_control_center/window.py:96
 msgid "Smart Update Changed."
-msgstr ""
+msgstr "Smart Update ndryshoi."
 
 #: vanilla_control_center/window.py:98
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "Dështoi ndryshimi i rregullimit të Smart Update."
 
 #: vanilla_control_center/window.py:103
 msgid "Automatic Update setting changed."
-msgstr ""
+msgstr "Ndryshimi automatik i rifreskimit."
 
 #: vanilla_control_center/window.py:105
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "Gabim gjatë ndryshimit të rregullimit automatik të rifreskimit"
 
 #: vanilla_control_center/window.py:112
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "Rifresko orarin e ndryshuar."
 
 #: vanilla_control_center/window.py:140
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} Doli me gabim."
 
 #: vanilla_control_center/window.py:143
 msgid "{} Exited."
-msgstr ""
+msgstr "{} Doli."
 
 #: vanilla_control_center/window.py:146
 msgid "{} Launched."
-msgstr ""
+msgstr "U lëshua."
