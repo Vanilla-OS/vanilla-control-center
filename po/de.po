@@ -5,13 +5,14 @@
 # baer <mail@lovisrentsch.de>, 2023.
 # Shirosaka <teht0x1c@outlook.de>, 2023.
 # Matt C <matei.gurzu@gmail.com>, 2023.
+# nautilusx <translate@disroot.org>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-03-15 17:38+0000\n"
-"Last-Translator: Matt C <matei.gurzu@gmail.com>\n"
+"PO-Revision-Date: 2023-03-20 15:01+0000\n"
+"Last-Translator: nautilusx <translate@disroot.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/de/>\n"
 "Language: de\n"
@@ -51,7 +52,7 @@ msgstr "Allgemein"
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Shortcuts anzeigen"
+msgstr "Tastenkombinationen anzeigen"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
