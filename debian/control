@@ -13,9 +13,9 @@ Build-Depends:
             make,
             desktop-file-utils,
             libjpeg-dev
-Homepage: https://github.com/mirkobrombin/vanilla-control-center/
-Vcs-Browser: https://github.com/mirkobrombin/vanilla-control-center
-Vcs-Git: https://github.com/mirkobrombin/vanilla-control-center.git
+Homepage: https://github.com/Vanilla-OS/vanilla-control-center/
+Vcs-Browser: https://github.com/Vanilla-OS/vanilla-control-center
+Vcs-Git: https://github.com/Vanilla-OS/vanilla-control-center.git
 Rules-Requires-Root: no
 
 Package: vanilla-control-center
