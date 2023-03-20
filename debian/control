@@ -2,7 +2,7 @@ Source: vanilla-control-center
 Section: utils
 Priority: optional
 Maintainer: Mirko Brombin <send@mirko.pm>
-Build-Depends: 
+Build-Depends:
             itstool,
             build-essential,
             debhelper,
@@ -14,7 +14,7 @@ Build-Depends:
             desktop-file-utils,
             libjpeg-dev
 Homepage: https://github.com/mirkobrombin/vanilla-control-center/
-Vcs-Browser: hhttps://github.com/mirkobrombin/vanilla-control-center
+Vcs-Browser: https://github.com/mirkobrombin/vanilla-control-center
 Vcs-Git: https://github.com/mirkobrombin/vanilla-control-center.git
 Rules-Requires-Root: no
 
@@ -25,7 +25,6 @@ Depends: python3,
          libadwaita-1-0,
          gir1.2-gtk-4.0,
          gir1.2-adw-1,
-         ubuntu-drivers-common,
          apx,
          vanilla-system-operator
 Description: This utility allows you to manage Vanilla OS components.
