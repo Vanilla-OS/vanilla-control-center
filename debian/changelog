@@ -1,3 +1,10 @@
+vanilla-control-center (1.8.3) unstable; urgency=critical
+
+  * Remove ubuntu-drivers-common dependency
+  * Updated translations
+
+ -- Mateus Melchiades <matbme@duck.com>  Mon, 20 Mar 2023 19:39:00 -0300
+
 vanilla-control-center (1.8.2) unstable; urgency=critical
 
   * Updated credits
