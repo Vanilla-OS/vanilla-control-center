@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-02-27 18:36+0000\n"
-"Last-Translator: Kuba Bazan <kubabazan27@gmail.com>\n"
+"PO-Revision-Date: 2023-03-23 01:36+0000\n"
+"Last-Translator: gnu-ewm <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/pl/>\n"
 "Language: pl\n"
@@ -18,12 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
 #: vanilla_control_center/gtk/window.ui:17 vanilla_control_center/main.py:96
-#, fuzzy
 msgid "Vanilla OS Control Center"
 msgstr "Panel sterowania Vanilla OS"
 
@@ -33,11 +32,11 @@ msgstr "Brak opisu"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Wejdź do powłoki"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Stwórz podsystem"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -110,7 +109,7 @@ msgstr "Automatyczne aktualizacje"
 
 #: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "System będzie aktualizował się automatycznie w tle."
 
 #: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
@@ -130,7 +129,6 @@ msgid "_Help"
 msgstr "_Pomoc"
 
 #: vanilla_control_center/gtk/window.ui:143
-#, fuzzy
 msgid "_About Control Center"
 msgstr "_O panelu sterowania"
 
@@ -141,7 +139,7 @@ msgstr "_O panelu sterowania"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "Flaga"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -150,7 +148,7 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Nazwa"
 
 #: vanilla_control_center/backends/apx.py:41
 msgid "Arch Linux Sub System"
@@ -174,19 +172,19 @@ msgstr "Podsystem-Void Linux"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Moduł Apx wyłączony"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Nie odnaleziono binarnego Apx"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Nie znaleziono binariów Distroboxa"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "Nie można uzyskać kontenerów"
 
 #: vanilla_control_center/backends/apx.py:161
 #, python-brace-format
@@ -196,20 +194,20 @@ msgstr "Nie znaleziono kontenera '{0}'"
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Uruchomiona aplikacja: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Nie można uruchomić zarządzanej aplikacji: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Nieobsługiwana konfiguracja"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "Nie znaleziono pliku konfiguracyjnego VSO w {}"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -221,11 +219,11 @@ msgstr "Inicjalizacja Kontenera '{}'"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr ""
+msgstr "Kod napisany przez"
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr ""
+msgstr "Dokumentacja napisana przez"
 
 #: vanilla_control_center/main.py:118
 msgid "Contributors"
@@ -236,22 +234,20 @@ msgid "Translators"
 msgstr "Tłumacze"
 
 #: vanilla_control_center/window.py:96
-#, fuzzy
 msgid "Smart Update Changed."
 msgstr "Nastąpiły zmiany w Smart Update."
 
 #: vanilla_control_center/window.py:98
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "Nie udało się zmienić ustawienia funkcji Smart Update."
 
 #: vanilla_control_center/window.py:103
-#, fuzzy
 msgid "Automatic Update setting changed."
-msgstr "Nastąpiły zmiany w Smart Update."
+msgstr "Zmieniono ustawienie automatycznej aktualizacji."
 
 #: vanilla_control_center/window.py:105
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "Nie udało się zmienić ustawienia automatycznej aktualizacji"
 
 #: vanilla_control_center/window.py:112
 msgid "Update Schedule Changed."
