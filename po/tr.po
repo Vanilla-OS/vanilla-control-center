@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
 # Veysel Erden <veyselerden@outlook.com>, 2023.
+# Murattut <tutmurattut@outlook.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
-"Last-Translator: Veysel Erden <veyselerden@outlook.com>\n"
+"PO-Revision-Date: 2023-03-26 04:29+0000\n"
+"Last-Translator: Murattut <tutmurattut@outlook.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/tr/>\n"
 "Language: tr\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
@@ -34,7 +35,7 @@ msgstr "Kabuk çalıştır"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Alt sistem oluştur"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -60,9 +61,8 @@ msgid "Apply Changes"
 msgstr "Değişiklikleri uygula"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Updates"
-msgstr "Güncellemeleri Uygula"
+msgstr "Güncellemeler"
 
 #: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
@@ -93,25 +93,20 @@ msgid "Monthly"
 msgstr "Aylık"
 
 #: vanilla_control_center/gtk/window.ui:74
-#, fuzzy
 msgid "Smart Updates"
-msgstr "Akıllı Güncelleme"
+msgstr "Akıllı Güncellemeler"
 
 #: vanilla_control_center/gtk/window.ui:75
-#, fuzzy
 msgid "The system will not update if it is in heavy use or low battery."
-msgstr ""
-"Etkinleştirilirse, sistem yüksek yükteyse veya pil zayıfsa sistem "
-"güncellenmeyecektir."
+msgstr "Sistem yoğun kullanımdaysa veya pili zayıfsa güncelleme yapmayacaktır."
 
 #: vanilla_control_center/gtk/window.ui:86
-#, fuzzy
 msgid "Automatic Updates"
-msgstr "Otomatik güncelleme ayarı değiştirildi."
+msgstr "Otomatik güncellemeler"
 
 #: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "Sistem arka planda otomatik olarak kendini güncelleyecektir."
 
 #: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
@@ -119,9 +114,8 @@ msgid "Sub System"
 msgstr "Alt Sistem"
 
 #: vanilla_control_center/gtk/window.ui:115
-#, fuzzy
 msgid "Containers"
-msgstr "Yardım edenler"
+msgstr "Konteynerler"
 
 #: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
@@ -132,7 +126,6 @@ msgid "_Help"
 msgstr "_Yardım"
 
 #: vanilla_control_center/gtk/window.ui:143
-#, fuzzy
 msgid "_About Control Center"
 msgstr "_Kontrol Paneli Hakkında"
 
@@ -143,7 +136,7 @@ msgstr "_Kontrol Paneli Hakkında"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "Bayrak"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -152,71 +145,66 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Ad"
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "Alt Sistem"
+msgstr "Arch Linux Alt Sistemi"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "Alt Sistem"
+msgstr "Fedora Alt Sistemi"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "Alt Sistem"
+msgstr "Alpine Alt Sistemi"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "Alt Sistem"
+msgstr "openSUSE Alt Sistemi"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "Alt Sistem"
+msgstr "Void Linux Alt Sistemi"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Apx modülü devre dışı"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Apx ikili dosyası bulunamadı"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Distrobox ikili dosyası bulunamadı"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "Konteynerler alınamıyor"
 
 #: vanilla_control_center/backends/apx.py:161
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "'{}' kapsayıcısı başlatıldı"
+msgstr "Konteyner '{0}' bulunamadı"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Çalışan uygulama: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Yönetilen uygulama başlatılamıyor: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Desteklenmeyen kurulum"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "VSO Config dosyası {} adresinde bulunamadı"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -243,7 +231,6 @@ msgid "Translators"
 msgstr "Çevirmenler"
 
 #: vanilla_control_center/window.py:96
-#, fuzzy
 msgid "Smart Update Changed."
 msgstr "Akıllı güncelleme değiştirildi."
 
