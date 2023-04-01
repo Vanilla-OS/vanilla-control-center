@@ -4,13 +4,14 @@
 # Automatically generated, 2022.
 #
 # Abu Huraira <abuhuraira@tutamail.com>, 2023.
+# Ibrahim Kaikaa <ibrahimkaikaa@protonmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-02-20 18:21+0000\n"
-"Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
+"PO-Revision-Date: 2023-03-29 22:56+0000\n"
+"Last-Translator: Ibrahim Kaikaa <ibrahimkaikaa@protonmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ar/>\n"
 "Language: ar\n"
@@ -19,7 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
@@ -33,7 +34,7 @@ msgstr "دون وصف"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "الدخول إلى الصدفة"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
@@ -51,12 +52,12 @@ msgstr "عام"
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "اعرضِ الاختصارات"
+msgstr "اعرِض الاختصارات"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "إلغاء"
+msgstr "خروج"
 
 #: vanilla_control_center/gtk/window.ui:28
 msgid "Apply Changes"
@@ -95,18 +96,14 @@ msgid "Monthly"
 msgstr "شهريًّا"
 
 #: vanilla_control_center/gtk/window.ui:74
-#, fuzzy
 msgid "Smart Updates"
-msgstr "تحديث ذكي"
+msgstr "تحديثات ذكية"
 
 #: vanilla_control_center/gtk/window.ui:75
-#, fuzzy
 msgid "The system will not update if it is in heavy use or low battery."
-msgstr ""
-"إذ فعلته فلن يُحدَّثَ النظام إذا كان عليه حِمل زائد أو كانت البطارية منخفضة."
+msgstr "لن يتم تحديث النظام أثناء الاستخدام الثقيل أو البطارية المنخفضة."
 
 #: vanilla_control_center/gtk/window.ui:86
-#, fuzzy
 msgid "Automatic Updates"
 msgstr "التحديثات التلقائية"
 
@@ -121,9 +118,8 @@ msgid "Sub System"
 msgstr "النظام الفرعي"
 
 #: vanilla_control_center/gtk/window.ui:115
-#, fuzzy
 msgid "Containers"
-msgstr "المساهمون"
+msgstr "الحاويات"
 
 #: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
@@ -145,7 +141,7 @@ msgstr "_حول مركز التحكم"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "علَم"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -187,23 +183,21 @@ msgid "Apx module disabled"
 msgstr "وحدة Apx معطلة"
 
 #: vanilla_control_center/backends/apx.py:74
-#, fuzzy
 msgid "Apx binary not found"
-msgstr "ملف Apx الثنائي غير موجود"
+msgstr "ملف Apx التنفيذي غير موجود"
 
 #: vanilla_control_center/backends/apx.py:78
-#, fuzzy
 msgid "Distrobox binary not found"
-msgstr "ملف Distrobox الثنائي غير موجود"
+msgstr "ملف Distrobox التنفيذي غير موجود"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "تعذر العثور على الحاويات"
 
 #: vanilla_control_center/backends/apx.py:161
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "يهيأ '{}' الكونتينر"
+msgstr "تعذر العثور على الحاوية '{0}'"
 
 #: vanilla_control_center/backends/apx.py:168
 #, fuzzy, python-brace-format
@@ -211,18 +205,17 @@ msgid "Running application: '{0}'"
 msgstr "تشغيل التطبيق: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr "تعذر بدء تشغيل التطبيق المدار: '{0}'"
+msgstr "تعذر بدء تشغيل التطبيق المُدَار: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
-#, fuzzy
 msgid "Unsupported setup"
-msgstr "إعداد غير مدعوم"
+msgstr "إعدادات غير مدعومة"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "تعذر العثور على ملف إعدادات VSO في {}"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
