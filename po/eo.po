@@ -3,12 +3,13 @@
 # This file is distributed under the same license as the vanilla-control-center package.
 # Automatically generated, 2022.
 #
+# phlostically <phlostically@mailinator.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2022-11-30 03:48+0000\n"
+"PO-Revision-Date: 2023-04-05 22:49+0000\n"
 "Last-Translator: phlostically <phlostically@mailinator.com>\n"
 "Language-Team: Esperanto <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/eo/>\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
@@ -35,7 +36,7 @@ msgstr ""
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Krei subsistemon"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -57,14 +58,12 @@ msgid "Quit"
 msgstr "Forlasi"
 
 #: vanilla_control_center/gtk/window.ui:28
-#, fuzzy
 msgid "Apply Changes"
 msgstr "Efektivigi ŝanĝojn"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Updates"
-msgstr "Efektivigi ŝanĝojn"
+msgstr "Ĝisdatigoj"
 
 #: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
@@ -76,7 +75,7 @@ msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:55
 msgid "Never"
-msgstr ""
+msgstr "Neniam"
 
 #: vanilla_control_center/gtk/window.ui:60
 msgid "Updates Scheduling"
@@ -88,11 +87,11 @@ msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "Weekly"
-msgstr ""
+msgstr "Ĉiusemajne"
 
 #: vanilla_control_center/gtk/window.ui:66
 msgid "Monthly"
-msgstr ""
+msgstr "Ĉiumonate"
 
 #: vanilla_control_center/gtk/window.ui:74
 #, fuzzy
@@ -119,7 +118,7 @@ msgstr "Subsistemo"
 
 #: vanilla_control_center/gtk/window.ui:115
 msgid "Containers"
-msgstr ""
+msgstr "Enteniloj"
 
 #: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
@@ -127,7 +126,7 @@ msgstr "Instalitaj programoj"
 
 #: vanilla_control_center/gtk/window.ui:139
 msgid "_Help"
-msgstr ""
+msgstr "_Helpo"
 
 #: vanilla_control_center/gtk/window.ui:143
 #, fuzzy
@@ -141,7 +140,7 @@ msgstr "_Pri Stirpanelo"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "Flago"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -150,32 +149,27 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Nomo"
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "Subsistemo"
+msgstr "Subsistemo Arch Linux"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "Subsistemo"
+msgstr "Subsistemo Fedora"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "Subsistemo"
+msgstr "Subsistemo Alpine"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "Subsistemo"
+msgstr "Subsistemo openSUSE"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "Subsistemo"
+msgstr "Subsistemo Void Linux"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
@@ -196,12 +190,12 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:161
 #, python-brace-format
 msgid "Container '{0}' not found"
-msgstr ""
+msgstr "Entenilo «{0}» ne troviĝis"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Rulante programon: «{0}»"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
@@ -226,15 +220,15 @@ msgstr ""
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr ""
+msgstr "Kodo far"
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr ""
+msgstr "Dokumentaro far"
 
 #: vanilla_control_center/main.py:118
 msgid "Contributors"
-msgstr ""
+msgstr "Kontribuintoj"
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
