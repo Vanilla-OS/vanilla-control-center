@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
+"PO-Revision-Date: 2023-04-14 06:57+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/ka/>\n"
@@ -16,13 +16,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
 #: vanilla_control_center/gtk/window.ui:17 vanilla_control_center/main.py:96
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "Vanilla OS კონტროლის ცენტრი"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
@@ -30,70 +30,70 @@ msgstr "აღწერის გარეშე"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "გარსზე გადასვლა"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "ქვესისტემის შექმნა"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "დაყენება"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "ზოგადი"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "მალსახმობების ჩვენება"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "გასვლა"
 
 #: vanilla_control_center/gtk/window.ui:28
 msgid "Apply Changes"
-msgstr ""
+msgstr "ცვლილებების გადატარება"
 
 #: vanilla_control_center/gtk/window.ui:45
 msgid "Updates"
-msgstr ""
+msgstr "განახლებები"
 
 #: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
-msgstr ""
+msgstr "მორგება"
 
 #: vanilla_control_center/gtk/window.ui:54
 msgid "Latest Update Check"
-msgstr ""
+msgstr "ბოლო განახლებების შემოწმება"
 
 #: vanilla_control_center/gtk/window.ui:55
 msgid "Never"
-msgstr ""
+msgstr "არასდროს"
 
 #: vanilla_control_center/gtk/window.ui:60
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "განახლებების განრიგი"
 
 #: vanilla_control_center/gtk/window.ui:61
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "აირჩიეთ, რამდენად ხშირად უნდა შეამოწმოს სისტემამ განახლებები."
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "Weekly"
-msgstr ""
+msgstr "კვირაში ერთხელ"
 
 #: vanilla_control_center/gtk/window.ui:66
 msgid "Monthly"
-msgstr ""
+msgstr "თვეში ერთხელ"
 
 #: vanilla_control_center/gtk/window.ui:74
 msgid "Smart Updates"
-msgstr ""
+msgstr "ჭკვიანი განახლებები"
 
 #: vanilla_control_center/gtk/window.ui:75
 msgid "The system will not update if it is in heavy use or low battery."
@@ -101,7 +101,7 @@ msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Automatic Updates"
-msgstr ""
+msgstr "ავტომატური განახლებები"
 
 #: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
@@ -110,23 +110,23 @@ msgstr ""
 #: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
 msgid "Sub System"
-msgstr ""
+msgstr "ქვესისტემა"
 
 #: vanilla_control_center/gtk/window.ui:115
 msgid "Containers"
-msgstr ""
+msgstr "კონტეინერები"
 
 #: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
-msgstr ""
+msgstr "დაყენებული აპლიკაციები"
 
 #: vanilla_control_center/gtk/window.ui:139
 msgid "_Help"
-msgstr ""
+msgstr "_დახმარება"
 
 #: vanilla_control_center/gtk/window.ui:143
 msgid "_About Control Center"
-msgstr ""
+msgstr "_კონტროლის ცენტრის შესახებ"
 
 #: vanilla_control_center/backends/apx.py:36
 #: vanilla_control_center/backends/apx.py:40
@@ -135,7 +135,7 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "ალამი"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -148,62 +148,62 @@ msgstr "სახელი"
 
 #: vanilla_control_center/backends/apx.py:41
 msgid "Arch Linux Sub System"
-msgstr ""
+msgstr "Arch Linux-ის ქვესისტემა"
 
 #: vanilla_control_center/backends/apx.py:45
 msgid "Fedora Sub System"
-msgstr ""
+msgstr "Fedora -ის ქვესისტემა"
 
 #: vanilla_control_center/backends/apx.py:49
 msgid "Alpine Sub System"
-msgstr ""
+msgstr "Alpine -ის ქვესისტემა"
 
 #: vanilla_control_center/backends/apx.py:53
 msgid "openSUSE Sub System"
-msgstr ""
+msgstr "openSUSE -ის ქვესისტემა"
 
 #: vanilla_control_center/backends/apx.py:57
 msgid "Void Linux Sub System"
-msgstr ""
+msgstr "Void Linux -ის ქვესისტემა"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Apx მოდული გამორთულია"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Apx გამშვები ფაილი ვერ ვიპოვე"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Distrobox -ის გამშვები ფაილი ვერ ვიპოვე"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "კონტეინერების მიღების შეცდომა"
 
 #: vanilla_control_center/backends/apx.py:161
 #, python-brace-format
 msgid "Container '{0}' not found"
-msgstr ""
+msgstr "კონტეინერი '{0}' ვერ მოიძებნა"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "ვუშვებ აპლიკაციას: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "მართული აპლიკაციის დაწყება შეუძლებელია: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "მხარდაუჭერელი პარამეტრები"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "VSO Config ფაილი ვერ მოიძებნა მისამართზე {}"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -211,27 +211,27 @@ msgstr ""
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "კონტეინერი '{}' ინიციალიზებულია"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr ""
+msgstr "კოდის ავტორი"
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr ""
+msgstr "დოკუმენტაციის ავტორი"
 
 #: vanilla_control_center/main.py:118
 msgid "Contributors"
-msgstr ""
+msgstr "შემომწირავები"
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
-msgstr ""
+msgstr "მთარგმნელები"
 
 #: vanilla_control_center/window.py:96
 msgid "Smart Update Changed."
-msgstr ""
+msgstr "ჭკვიანი განახლება შეიცვალა."
 
 #: vanilla_control_center/window.py:98
 msgid "Failed to change the Smart Update setting."
@@ -239,24 +239,24 @@ msgstr ""
 
 #: vanilla_control_center/window.py:103
 msgid "Automatic Update setting changed."
-msgstr ""
+msgstr "ავტომატური განახლების პარამეტრი შეიცვალა."
 
 #: vanilla_control_center/window.py:105
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "ავტომატური განახლების პარამეტრის შეცვლა ვერ მოხერხდა"
 
 #: vanilla_control_center/window.py:112
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "განახლების განრიგი შეიცვალა."
 
 #: vanilla_control_center/window.py:140
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} შეცდომით დასრულდა."
 
 #: vanilla_control_center/window.py:143
 msgid "{} Exited."
-msgstr ""
+msgstr "{} დასრულდა."
 
 #: vanilla_control_center/window.py:146
 msgid "{} Launched."
-msgstr ""
+msgstr "{} გაეშვა."
