@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the vanilla-control-center package.
 # Gonzalo Lorenzo <gonzalolorenzo88@gmail.com>, 2023.
 # Juan <benitesjn@gmail.com>, 2023.
+# Juan Benites <benitesjn@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-02-23 00:29+0000\n"
-"Last-Translator: Juan <benitesjn@gmail.com>\n"
+"PO-Revision-Date: 2023-05-23 01:48+0000\n"
+"Last-Translator: Juan Benites <benitesjn@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/vanilla-os/"
 "control-center/es/>\n"
 "Language: es\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
@@ -27,7 +28,7 @@ msgstr "Panel de control de Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr "No description"
+msgstr "Sin descripción"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
