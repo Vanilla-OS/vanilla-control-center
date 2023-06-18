@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
 # Gabriel Girouard <ggirouard@bungeetaco.com>, 2023.
+# Jumpy Game <jumpy634@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-06-01 10:50+0000\n"
-"Last-Translator: Gabriel Girouard <ggirouard@bungeetaco.com>\n"
+"PO-Revision-Date: 2023-06-10 19:50+0000\n"
+"Last-Translator: Jumpy Game <jumpy634@gmail.com>\n"
 "Language-Team: French (Canada) <https://hosted.weblate.org/projects/"
 "vanilla-os/control-center/fr_CA/>\n"
 "Language: fr_CA\n"
@@ -22,7 +23,7 @@ msgstr ""
 #: vanilla_control_center/gtk/window.ui:8
 #: vanilla_control_center/gtk/window.ui:17 vanilla_control_center/main.py:96
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "Centre de contrôle de Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
@@ -30,103 +31,106 @@ msgstr "Aucune description"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Entrer dans le shell"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Créer un sous-système"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "Installation"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Général"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Afficher les raccourcis"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Quitter"
 
 #: vanilla_control_center/gtk/window.ui:28
 msgid "Apply Changes"
-msgstr ""
+msgstr "Appliquer les modifications"
 
 #: vanilla_control_center/gtk/window.ui:45
 msgid "Updates"
-msgstr ""
+msgstr "Mises à jour"
 
 #: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
-msgstr ""
+msgstr "Préférences"
 
 #: vanilla_control_center/gtk/window.ui:54
 msgid "Latest Update Check"
-msgstr ""
+msgstr "Vérification de la dernière mise à jour"
 
 #: vanilla_control_center/gtk/window.ui:55
 msgid "Never"
-msgstr ""
+msgstr "Jamais"
 
 #: vanilla_control_center/gtk/window.ui:60
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "Programmation des mises à jour"
 
 #: vanilla_control_center/gtk/window.ui:61
 msgid "Choose how often the system should check for updates."
 msgstr ""
+"Choisissez la fréquence à laquelle le système doit vérifier les mises à jour."
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "Weekly"
-msgstr ""
+msgstr "Hebdomadaire"
 
 #: vanilla_control_center/gtk/window.ui:66
 msgid "Monthly"
-msgstr ""
+msgstr "Mensuel"
 
 #: vanilla_control_center/gtk/window.ui:74
 msgid "Smart Updates"
-msgstr ""
+msgstr "Mises à jour intelligentes"
 
 #: vanilla_control_center/gtk/window.ui:75
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
+"Le système ne sera pas mis à jour en cas d'utilisation intensive ou de "
+"batterie faible."
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Automatic Updates"
-msgstr ""
+msgstr "Mises à jour automatiques"
 
 #: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "Le système se met automatiquement à jour en arrière-plan."
 
 #: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
 msgid "Sub System"
-msgstr ""
+msgstr "Sous-système"
 
 #: vanilla_control_center/gtk/window.ui:115
 msgid "Containers"
-msgstr ""
+msgstr "Conteneurs"
 
 #: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
-msgstr ""
+msgstr "Applications installées"
 
 #: vanilla_control_center/gtk/window.ui:139
 msgid "_Help"
-msgstr ""
+msgstr "Aide"
 
 #: vanilla_control_center/gtk/window.ui:143
 msgid "_About Control Center"
-msgstr ""
+msgstr "A propos du centre de contrôle"
 
 #: vanilla_control_center/backends/apx.py:36
 #: vanilla_control_center/backends/apx.py:40
@@ -135,7 +139,7 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "Signaler"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -144,119 +148,119 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: vanilla_control_center/backends/apx.py:41
 msgid "Arch Linux Sub System"
-msgstr ""
+msgstr "Sous-système Arch LInux"
 
 #: vanilla_control_center/backends/apx.py:45
 msgid "Fedora Sub System"
-msgstr ""
+msgstr "Sous-système Fedora"
 
 #: vanilla_control_center/backends/apx.py:49
 msgid "Alpine Sub System"
-msgstr ""
+msgstr "Sous-systéme Alpine"
 
 #: vanilla_control_center/backends/apx.py:53
 msgid "openSUSE Sub System"
-msgstr ""
+msgstr "Sous-système openSUSE"
 
 #: vanilla_control_center/backends/apx.py:57
 msgid "Void Linux Sub System"
-msgstr ""
+msgstr "Sous-système Void Linux"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Module Apx désactivé"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Binaire pour Apx introuvable"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Le binaire Distrobox n'a pas été trouvé"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "Impossible d'obtenir des conteneurs"
 
 #: vanilla_control_center/backends/apx.py:161
 #, python-brace-format
 msgid "Container '{0}' not found"
-msgstr ""
+msgstr "Conteneur '{0}' introuvable"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Application en cours d'exécution : '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Impossible de démarrer l'application gérée : '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Configuration non prise en charge"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "Fichier de configuration VSO introuvable à {}"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "Shell ouvert pour le conteneur '{}'"
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "Conteneur '{}' initialisé"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr ""
+msgstr "Code par"
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr ""
+msgstr "Documentation par"
 
 #: vanilla_control_center/main.py:118
 msgid "Contributors"
-msgstr ""
+msgstr "Contributeurs"
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
-msgstr ""
+msgstr "Traducteurs"
 
 #: vanilla_control_center/window.py:96
 msgid "Smart Update Changed."
-msgstr ""
+msgstr "La mise à jour intelligente a été modifiée."
 
 #: vanilla_control_center/window.py:98
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "Échec de la modification du paramètre de la mise à jour intelligente."
 
 #: vanilla_control_center/window.py:103
 msgid "Automatic Update setting changed."
-msgstr ""
+msgstr "Le paramètre de mise à jour automatique a été modifié."
 
 #: vanilla_control_center/window.py:105
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "Échec de la modification du paramètre de mise à jour automatique."
 
 #: vanilla_control_center/window.py:112
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "Schédule de la mise à jour modifié."
 
 #: vanilla_control_center/window.py:140
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} Quitté avec erreur."
 
 #: vanilla_control_center/window.py:143
 msgid "{} Exited."
-msgstr ""
+msgstr "{} Quitté."
 
 #: vanilla_control_center/window.py:146
 msgid "{} Launched."
-msgstr ""
+msgstr "{} Lancé."

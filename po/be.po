@@ -1,130 +1,135 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the vanilla-control-center package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Maksim <maxklezovich@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-06-10 19:50+0000\n"
+"Last-Translator: Maksim <maxklezovich@gmail.com>\n"
+"Language-Team: Belarusian <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/be/>\n"
 "Language: be\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
 #: vanilla_control_center/gtk/window.ui:17 vanilla_control_center/main.py:96
 msgid "Vanilla OS Control Center"
-msgstr ""
+msgstr "Цэнтр кіравання АС Vanilla"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Без апісання"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Увядзіце абалонку"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Стварыць падсістэму"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
-msgstr ""
+msgstr "Устаноўка"
 
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Галоўная"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Паказаць ярлыкі"
 
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Выйсці"
 
 #: vanilla_control_center/gtk/window.ui:28
 msgid "Apply Changes"
-msgstr ""
+msgstr "Прымяніць змены"
 
 #: vanilla_control_center/gtk/window.ui:45
 msgid "Updates"
-msgstr ""
+msgstr "Абнаўленні"
 
 #: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
-msgstr ""
+msgstr "Прэферэнцыі"
 
 #: vanilla_control_center/gtk/window.ui:54
 msgid "Latest Update Check"
-msgstr ""
+msgstr "Праверка апошніх абнаўленняў"
 
 #: vanilla_control_center/gtk/window.ui:55
 msgid "Never"
-msgstr ""
+msgstr "Ніколі"
 
 #: vanilla_control_center/gtk/window.ui:60
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "Планаванне абнаўленняў"
 
 #: vanilla_control_center/gtk/window.ui:61
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "Выберыце, як часта сістэма павінна правяраць наяўнасць абнаўленняў."
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "Weekly"
-msgstr ""
+msgstr "Штотыдзень"
 
 #: vanilla_control_center/gtk/window.ui:66
 msgid "Monthly"
-msgstr ""
+msgstr "Штомесяц"
 
 #: vanilla_control_center/gtk/window.ui:74
 msgid "Smart Updates"
-msgstr ""
+msgstr "Разумныя абнаўленні"
 
 #: vanilla_control_center/gtk/window.ui:75
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
+"Сістэма не будзе абнаўляцца, калі яна інтэнсіўна выкарыстоўваецца або "
+"разраджаны акумулятар."
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Automatic Updates"
-msgstr ""
+msgstr "Аўтаматычнае абнаўленне"
 
 #: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "Сістэма будзе аўтаматычна абнаўляцца ў фонавым рэжыме."
 
 #: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
 msgid "Sub System"
-msgstr ""
+msgstr "Падсістэма"
 
 #: vanilla_control_center/gtk/window.ui:115
 msgid "Containers"
-msgstr ""
+msgstr "Кантэйнеры"
 
 #: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
-msgstr ""
+msgstr "Усталяваныя прыкладанні"
 
 #: vanilla_control_center/gtk/window.ui:139
 msgid "_Help"
-msgstr ""
+msgstr "_Даведка"
 
 #: vanilla_control_center/gtk/window.ui:143
 msgid "_About Control Center"
-msgstr ""
+msgstr "_Пра цэнтр кіравання"
 
 #: vanilla_control_center/backends/apx.py:36
 #: vanilla_control_center/backends/apx.py:40
@@ -133,7 +138,7 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "Сцяг"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -142,119 +147,119 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Імя"
 
 #: vanilla_control_center/backends/apx.py:41
 msgid "Arch Linux Sub System"
-msgstr ""
+msgstr "Падсістэма Arch Linux"
 
 #: vanilla_control_center/backends/apx.py:45
 msgid "Fedora Sub System"
-msgstr ""
+msgstr "Падсістэма Fedora"
 
 #: vanilla_control_center/backends/apx.py:49
 msgid "Alpine Sub System"
-msgstr ""
+msgstr "Падсістэма Alpine"
 
 #: vanilla_control_center/backends/apx.py:53
 msgid "openSUSE Sub System"
-msgstr ""
+msgstr "Падсістэма openSUSE"
 
 #: vanilla_control_center/backends/apx.py:57
 msgid "Void Linux Sub System"
-msgstr ""
+msgstr "Падсістэма Void Linux"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Модуль Apx адключаны"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Двайковы файл Apx не знойдзены"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Двайковы файл Distrobox не знойдзены"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "Немагчыма атрымаць кантэйнеры"
 
 #: vanilla_control_center/backends/apx.py:161
 #, python-brace-format
 msgid "Container '{0}' not found"
-msgstr ""
+msgstr "Кантэйнер \"{0}\" не знойдзены"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Запушчанае прыкладанне: '{0}'"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Немагчыма запусціць кіраваную праграму: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Налада не падтрымліваецца"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "Файл канфігурацыі VSO не знойдзены ў {}"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
-msgstr ""
+msgstr "Абалонка адкрыта для кантэйнера \"{}\""
 
 #: vanilla_control_center/container.py:59
 msgid "Container '{}' initialized"
-msgstr ""
+msgstr "Кантэйнер \"{}\" ініцыялізаваны"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr ""
+msgstr "Код па"
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr ""
+msgstr "Дакументацыя па"
 
 #: vanilla_control_center/main.py:118
 msgid "Contributors"
-msgstr ""
+msgstr "Укладальнікі"
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
-msgstr ""
+msgstr "Перакладчыкі"
 
 #: vanilla_control_center/window.py:96
 msgid "Smart Update Changed."
-msgstr ""
+msgstr "Разумнае абнаўленне зменена."
 
 #: vanilla_control_center/window.py:98
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "Не ўдалося змяніць наладу Smart Update."
 
 #: vanilla_control_center/window.py:103
 msgid "Automatic Update setting changed."
-msgstr ""
+msgstr "Налада аўтаматычнага абнаўлення зменена."
 
 #: vanilla_control_center/window.py:105
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "Не ўдалося змяніць наладу аўтаматычнага абнаўлення"
 
 #: vanilla_control_center/window.py:112
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "Расклад абнаўленняў зменены."
 
 #: vanilla_control_center/window.py:140
 msgid "{} Exited With Error."
-msgstr ""
+msgstr "{} Выхад з памылкай."
 
 #: vanilla_control_center/window.py:143
 msgid "{} Exited."
-msgstr ""
+msgstr "{} Выйшлі."
 
 #: vanilla_control_center/window.py:146
 msgid "{} Launched."
-msgstr ""
+msgstr "{} Запушчана."
