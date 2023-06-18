@@ -19,7 +19,6 @@
 
 import sys
 import logging
-import subprocess
 import gi
 import gettext
 from os import path
@@ -216,9 +215,6 @@ class VanillaControlCenterApplication(Adw.Application):
             ]
         )
         about.present()
-    
-    def help(self, widget, callback=None):
-        subprocess.Popen(["yelp", "help:vanilla-control-center"], start_new_session=True)
 
     def create_action(self, name, callback, shortcuts=None):
         """Add an application action.

@@ -11,7 +11,6 @@ localedir = get_option('localedir')
 subdir('po')
 subdir('vanilla_control_center')
 subdir('data')
-subdir('help')
 
 gnome.post_install(
      glib_compile_schemas: true,
