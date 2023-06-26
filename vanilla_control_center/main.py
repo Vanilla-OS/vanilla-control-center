@@ -77,7 +77,6 @@ class VanillaControlCenterApplication(Adw.Application):
                          flags=Gio.ApplicationFlags.FLAGS_NONE)
         self.create_action('quit', self.quit, ['<primary>q'])
         self.create_action('about', self.on_about_action)
-        self.create_action('help', self.help, ['F1'])
 
     def do_activate(self):
         """Called when the application is activated.
