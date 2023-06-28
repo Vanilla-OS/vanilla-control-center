@@ -71,12 +71,12 @@ class Apx:
             return False
 
         if self.__binary is None:
-            print(self.__dbox_binary)
             logger.info(_("Apx binary not found!!!!!"))
             return False
 
         if not os.path.exists(self.__dbox_binary):
-            logger.info(_("Distrobox binary not found"))
+            print(self.__dbox_binary)
+            logger.info(_("Distrobox binary not found!!!!!"))
             return False
 
         return True
