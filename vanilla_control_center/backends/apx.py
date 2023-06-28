@@ -60,7 +60,7 @@ class Apx:
 
     def __init__(self):
         self.__binary = shutil.which("apx")
-        self.__dbox_binary = "/usr/share/apx/bin/distrobox"
+        self.__dbox_binary = "/usr/share/apx/distrobox"
         self.__desktop = os.path.join(Path.home(), ".local", "share", "applications")
         self.__apps = self.__get_apps()
     
