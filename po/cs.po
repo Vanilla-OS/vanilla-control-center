@@ -4,27 +4,28 @@
 # Automatically generated, 2022.
 #
 # Vojtěch Perník <translations@pervoj.cz>, 2023.
+# Fjuro <ifjuro@proton.me>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2023-02-16 17:29+0000\n"
-"Last-Translator: Vojtěch Perník <translations@pervoj.cz>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/vanilla-os/control-"
-"center/cs/>\n"
+"PO-Revision-Date: 2023-07-01 11:50+0000\n"
+"Last-Translator: Fjuro <ifjuro@proton.me>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
 #: vanilla_control_center/gtk/window.ui:17 vanilla_control_center/main.py:96
 msgid "Vanilla OS Control Center"
-msgstr "Ovládací Centrum Vanilla OS"
+msgstr "Ovládací centrum Vanilla OS"
 
 #: data/org.vanillaos.ControlCenter.appdata.xml.in:7
 msgid "No description"
@@ -32,11 +33,11 @@ msgstr "Žádný popis"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr ""
+msgstr "Vstoupit do shellu"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr ""
+msgstr "Vytvořit subsystém"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -58,35 +59,32 @@ msgid "Quit"
 msgstr "Ukončit"
 
 #: vanilla_control_center/gtk/window.ui:28
-#, fuzzy
 msgid "Apply Changes"
 msgstr "Použít změny"
 
 #: vanilla_control_center/gtk/window.ui:45
-#, fuzzy
 msgid "Updates"
-msgstr "Použít změny"
+msgstr "Aktualizace"
 
 #: vanilla_control_center/gtk/window.ui:51
 msgid "Preferences"
 msgstr "Předvolby"
 
 #: vanilla_control_center/gtk/window.ui:54
-#, fuzzy
 msgid "Latest Update Check"
-msgstr "Chytré Aktualizace změněny."
+msgstr "Poslední kontrola aktualizací"
 
 #: vanilla_control_center/gtk/window.ui:55
 msgid "Never"
-msgstr ""
+msgstr "Nikdy"
 
 #: vanilla_control_center/gtk/window.ui:60
 msgid "Updates Scheduling"
-msgstr ""
+msgstr "Plánování aktualizací"
 
 #: vanilla_control_center/gtk/window.ui:61
 msgid "Choose how often the system should check for updates."
-msgstr ""
+msgstr "Zvolte, jak často má systém kontrolovat aktualizace."
 
 #: vanilla_control_center/gtk/window.ui:65
 msgid "Weekly"
@@ -97,22 +95,22 @@ msgid "Monthly"
 msgstr "Měsíčně"
 
 #: vanilla_control_center/gtk/window.ui:74
-#, fuzzy
 msgid "Smart Updates"
-msgstr "Chytré Aktualizace změněny."
+msgstr "Chytré aktualizace"
 
 #: vanilla_control_center/gtk/window.ui:75
 msgid "The system will not update if it is in heavy use or low battery."
 msgstr ""
+"Systém se neaktualizuje, pokud je intenzivně používán nebo má vybitou "
+"baterii."
 
 #: vanilla_control_center/gtk/window.ui:86
-#, fuzzy
 msgid "Automatic Updates"
-msgstr "Použít změny"
+msgstr "Automatické aktualizace"
 
 #: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
-msgstr ""
+msgstr "Systém se automaticky aktualizuje na pozadí."
 
 #: vanilla_control_center/gtk/window.ui:105
 #: vanilla_control_center/backends/apx.py:37
@@ -121,7 +119,7 @@ msgstr "Subsystém"
 
 #: vanilla_control_center/gtk/window.ui:115
 msgid "Containers"
-msgstr ""
+msgstr "Kontejnery"
 
 #: vanilla_control_center/gtk/window.ui:120
 msgid "Installed Applications"
@@ -132,9 +130,8 @@ msgid "_Help"
 msgstr "_Pomoc"
 
 #: vanilla_control_center/gtk/window.ui:143
-#, fuzzy
 msgid "_About Control Center"
-msgstr "_O ovládacím panelu"
+msgstr "_O Ovládacím centru"
 
 #: vanilla_control_center/backends/apx.py:36
 #: vanilla_control_center/backends/apx.py:40
@@ -143,7 +140,7 @@ msgstr "_O ovládacím panelu"
 #: vanilla_control_center/backends/apx.py:52
 #: vanilla_control_center/backends/apx.py:56
 msgid "Flag"
-msgstr ""
+msgstr "Vlajka"
 
 #: vanilla_control_center/backends/apx.py:37
 #: vanilla_control_center/backends/apx.py:41
@@ -152,92 +149,86 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "Název"
 
 #: vanilla_control_center/backends/apx.py:41
-#, fuzzy
 msgid "Arch Linux Sub System"
-msgstr "Subsystém"
+msgstr "Subsystém Arch Linux"
 
 #: vanilla_control_center/backends/apx.py:45
-#, fuzzy
 msgid "Fedora Sub System"
-msgstr "Subsystém"
+msgstr "Subsystém Fedora"
 
 #: vanilla_control_center/backends/apx.py:49
-#, fuzzy
 msgid "Alpine Sub System"
-msgstr "Subsystém"
+msgstr "Subsystém Alpine"
 
 #: vanilla_control_center/backends/apx.py:53
-#, fuzzy
 msgid "openSUSE Sub System"
-msgstr "Subsystém"
+msgstr "Subsystém openSUSE"
 
 #: vanilla_control_center/backends/apx.py:57
-#, fuzzy
 msgid "Void Linux Sub System"
-msgstr "Subsystém"
+msgstr "Subsystém Void Linux"
 
 #: vanilla_control_center/backends/apx.py:70
 msgid "Apx module disabled"
-msgstr ""
+msgstr "Modul Apx zakázán"
 
 #: vanilla_control_center/backends/apx.py:74
 msgid "Apx binary not found"
-msgstr ""
+msgstr "Binární soubor Apx nebyl nalezen"
 
 #: vanilla_control_center/backends/apx.py:78
 msgid "Distrobox binary not found"
-msgstr ""
+msgstr "Binární soubor Distrobox nebyl nalezen"
 
 #: vanilla_control_center/backends/apx.py:143
 msgid "Unable to get containers"
-msgstr ""
+msgstr "Nepodařilo se načíst kontejnery"
 
 #: vanilla_control_center/backends/apx.py:161
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "Container '{0}' not found"
-msgstr "Kontejner '{}' inicializován"
+msgstr "Kontejner „{0}“ nenalezen"
 
 #: vanilla_control_center/backends/apx.py:168
 #, python-brace-format
 msgid "Running application: '{0}'"
-msgstr ""
+msgstr "Spuštěná aplikace: „{0}“"
 
 #: vanilla_control_center/backends/apx.py:181
 #, python-brace-format
 msgid "Unable to start managed application: '{0}'"
-msgstr ""
+msgstr "Nelze spustit spravovanou aplikaci: „{0}“"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr ""
+msgstr "Nepodporovaný systém"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr ""
+msgstr "Konfigurační soubor VSO nebyl nalezen na adrese {}"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
 msgstr "Shell otevřen pro kontejner '{}'"
 
 #: vanilla_control_center/container.py:59
-#, fuzzy
 msgid "Container '{}' initialized"
-msgstr "Kontejner '{}' inicializován"
+msgstr "Kontejner „{}“ inicializován"
 
 #: vanilla_control_center/main.py:105
 msgid "Code by"
-msgstr ""
+msgstr "Kód"
 
 #: vanilla_control_center/main.py:111
 msgid "Documentation by"
-msgstr "Dokumentace od"
+msgstr "Dokumentace"
 
 #: vanilla_control_center/main.py:118
 msgid "Contributors"
-msgstr ""
+msgstr "Přispěvatelé"
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
@@ -245,35 +236,35 @@ msgstr "Překladatelé"
 
 #: vanilla_control_center/window.py:96
 msgid "Smart Update Changed."
-msgstr "Chytré Aktualizace změněny."
+msgstr "Chytré aktualizace změněny."
 
 #: vanilla_control_center/window.py:98
 msgid "Failed to change the Smart Update setting."
-msgstr ""
+msgstr "Nepodařilo se změnit nastavení chytrých aktualizací."
 
 #: vanilla_control_center/window.py:103
 msgid "Automatic Update setting changed."
-msgstr ""
+msgstr "Nastavení automatických aktualizací změněna."
 
 #: vanilla_control_center/window.py:105
 msgid "Failed to change Automatic Update setting"
-msgstr ""
+msgstr "Nepodařilo se změnit nastavení automatických aktualizací"
 
 #: vanilla_control_center/window.py:112
 msgid "Update Schedule Changed."
-msgstr ""
+msgstr "Plán aktualizací změněn."
 
 #: vanilla_control_center/window.py:140
 msgid "{} Exited With Error."
-msgstr "{} Ukončeno s chybou."
+msgstr "Aplikace {} ukončena s chybou."
 
 #: vanilla_control_center/window.py:143
 msgid "{} Exited."
-msgstr "{} Ukončeno."
+msgstr "Aplikace {} ukončena."
 
 #: vanilla_control_center/window.py:146
 msgid "{} Launched."
-msgstr "{} Spuštěno."
+msgstr "Aplikace {} spuštěna."
 
 #, fuzzy
 #~ msgid "Installation in Progress…"
