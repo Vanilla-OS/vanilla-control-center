@@ -3,21 +3,22 @@
 # This file is distributed under the same license as the vanilla-control-center package.
 # Automatically generated, 2022.
 #
+# Pulkit Krishna <contact@virtualhub.eu.org>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: vanilla-control-center\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-24 22:51+0530\n"
-"PO-Revision-Date: 2022-12-13 10:48+0000\n"
-"Last-Translator: Neeraj55#5 <thakurfazer55@gmail.com>\n"
-"Language-Team: Hindi <https://hosted.weblate.org/projects/vanilla-os/control-"
-"center/hi/>\n"
+"PO-Revision-Date: 2023-07-05 13:43+0000\n"
+"Last-Translator: Pulkit Krishna <contact@virtualhub.eu.org>\n"
+"Language-Team: Hindi <https://hosted.weblate.org/projects/vanilla-os/"
+"control-center/hi/>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.ControlCenter.desktop.in:3
 #: vanilla_control_center/gtk/window.ui:8
@@ -44,7 +45,7 @@ msgstr "इंस्टालेशन"
 #: vanilla_control_center/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "जनरल"
+msgstr "सामान्य"
 
 #: vanilla_control_center/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
@@ -54,7 +55,7 @@ msgstr "शॉर्टकट दिखाएं"
 #: vanilla_control_center/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "बंद करें"
+msgstr "छोड़ दें"
 
 #: vanilla_control_center/gtk/window.ui:28
 #, fuzzy
@@ -151,7 +152,7 @@ msgstr ""
 #: vanilla_control_center/backends/apx.py:53
 #: vanilla_control_center/backends/apx.py:57
 msgid "Name"
-msgstr ""
+msgstr "नाम"
 
 #: vanilla_control_center/backends/apx.py:41
 msgid "Arch Linux Sub System"
@@ -230,7 +231,7 @@ msgstr ""
 
 #: vanilla_control_center/main.py:118
 msgid "Contributors"
-msgstr ""
+msgstr "योगदानकर्ताओं"
 
 #: vanilla_control_center/main.py:126
 msgid "Translators"
