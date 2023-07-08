@@ -34,11 +34,11 @@ msgstr "Fără descriere"
 
 #: vanilla_control_center/gtk/container.ui:8
 msgid "Enter shell"
-msgstr "Intrați în shell"
+msgstr "Intră în shell"
 
 #: vanilla_control_center/gtk/container.ui:15
 msgid "Create subsystem"
-msgstr "Creați subsistem"
+msgstr "Crează subsistem"
 
 #: vanilla_control_center/gtk/dialog-installation.ui:6
 msgid "Installation"
@@ -107,7 +107,7 @@ msgstr ""
 
 #: vanilla_control_center/gtk/window.ui:86
 msgid "Automatic Updates"
-msgstr "Automatizări automate"
+msgstr "Actualizări automate"
 
 #: vanilla_control_center/gtk/window.ui:87
 msgid "The system will automatically update itself in the background."
@@ -205,11 +205,11 @@ msgstr "Nu a putut fi pornită aplicația gestionată: '{0}'"
 
 #: vanilla_control_center/backends/exceptions.py:24
 msgid "Unsupported setup"
-msgstr "Organizare neacceptată"
+msgstr "Configurare nesuportată"
 
 #: vanilla_control_center/backends/vso.py:61
 msgid "VSO Config file not found at {}"
-msgstr "Fișierul configurației VSO nu a fost găsit la ()"
+msgstr "Fișierul configurației VSO nu a fost găsit la {}"
 
 #: vanilla_control_center/container.py:52
 msgid "Shell opened for container '{}'"
@@ -280,10 +280,10 @@ msgstr "{} s-a lansat."
 #~ msgstr "Se încarcă driverele…"
 
 #~ msgid "Please wait while the available drivers are being loaded."
-#~ msgstr "Vă rugăm să așteptați cât timp driverele valabile se încarcă."
+#~ msgstr "Vă rugăm să așteptați să se încarce driverele disponibile."
 
 #~ msgid "No Drivers Available"
-#~ msgstr "Nu sunt drivere valabile"
+#~ msgstr "Nu sunt drivere disponibile"
 
 #~ msgid "There are no extra drivers available for your system."
 #~ msgstr "Nu sunt disponibile drivere suplimentare pentru sistemul dvs."
@@ -307,7 +307,7 @@ msgstr "{} s-a lansat."
 #~ msgstr "Hibrid"
 
 #~ msgid "Use the integrated GPU for everything and the discrete GPU on demand"
-#~ msgstr "Folosește GPU-ul integrat pentru orice si GPU-ul discret la cerere"
+#~ msgstr "Folosește GPU-ul integrat pentru orice și GPU-ul discret la cerere"
 
 #~ msgid "DISABLED_MODULES"
 #~ msgstr "MODULE_DEZACTIVATE"
@@ -322,7 +322,7 @@ msgstr "{} s-a lansat."
 #~ msgstr "prime-select nu este acceptat pentru acest dispozitiv"
 
 #~ msgid "prime-select is not supported for this setup"
-#~ msgstr "prime-select nu este acceptat pentru acest setup"
+#~ msgstr "prime-select nu este acceptat pentru această configurație"
 
 #~ msgid "Invalid profile name"
 #~ msgstr "Nume profil invalid"
@@ -334,7 +334,7 @@ msgstr "{} s-a lansat."
 #~ msgstr "discret"
 
 #~ msgid "Getting devices list"
-#~ msgstr "Se incarcă lista de dispozitive"
+#~ msgstr "Se încarcă lista de dispozitive"
 
 #, python-format
 #~ msgid "Devices list: %s"
