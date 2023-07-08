@@ -17,6 +17,7 @@
 - libadwaita-1-dev
 - gettext
 - desktop-file-utils
+- vte4
 
 ### Build
 ```bash
